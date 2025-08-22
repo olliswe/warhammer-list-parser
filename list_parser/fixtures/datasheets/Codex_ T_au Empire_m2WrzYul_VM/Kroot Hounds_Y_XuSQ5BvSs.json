@@ -1,0 +1,72 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "Y_XuSQ5BvSs",
+  "datasheet_name": "Kroot Hounds",
+  "characteristics": {
+    "M": "12\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "1",
+    "LD": "8+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Ripping fangs",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Loping Pounce",
+      "rule": "At the start of your Command phase, if this unit is within 6\" of one or more friendly **KROOT INFANTRY** units, then until the end of the turn, this unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Scouts 7\"",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Hunting Hounds",
+      "rule": "While this unit is within 12\" of one or more friendly **KROOT CHARACTER** models, the Objective Control characteristic of models in this unit is 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **5-10 Kroot Hounds**\n\n**Every model is equipped with:** ripping fangs.\nModel Name Count Points\nKroot Hound\n5\n40\nKroot Hound\n6-10\n80",
+  "unit_composition_table": [
+    {
+      "model": "Kroot Hound",
+      "count": "5",
+      "points": "40"
+    },
+    {
+      "model": "Kroot Hound",
+      "count": "6-10",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Beasts, Kroot, Hounds"
+  },
+  "url": "https://39k.pro/datasheet/Y_XuSQ5BvSs"
+}

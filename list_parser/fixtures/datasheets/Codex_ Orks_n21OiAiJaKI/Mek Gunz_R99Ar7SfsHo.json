@@ -1,0 +1,144 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "R99Ar7SfsHo",
+  "datasheet_name": "Mek Gunz",
+  "characteristics": {
+    "M": "3\"",
+    "T": "5",
+    "SV": "5+",
+    "W": "6",
+    "LD": "8+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Bubblechukka — dense bubble (5-6)",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2D6",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Bubblechukka",
+          "Blast",
+          "Bubblechukka",
+          "Blast",
+          "Bubblechukka"
+        ]
+      },
+      {
+        "name": "Traktor kannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Anti-fly 2+"
+        ]
+      },
+      {
+        "name": "Kustom mega-kannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-1",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      {
+        "name": "Smasha gun",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D3+1",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Grot crew",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "5+",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Splat!",
+      "rule": "Each time a model in this unit makes a ranged attack that targets a unit that is at its Starting Strength (excluding **MONSTERS** and **VEHICLES**), re‑roll a Hit roll of 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Each model’s smasha gun can be replaced with one of the following: \n◦ 1 bubblechukka\n◦ 1 kustom mega-kannon\n◦ 1 traktor kannon"
+  ],
+  "unit_composition": "■ **1‑3 Mek Gunz**\n\n**Every model is equipped with:** smasha gun; grot crew.\n\n***Designer’s Note**: Place five Grot Crew tokens next to each Mek Gun model when this unit is first set up, removing one each time its Mek Gun model loses a wound (a Mek Gun model itself is considered to represent its final wound).*\nModel Name Count Points\nMek Gun\n2\n100\nMek Gun\n3\n150\nMek Gun\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Mek Gun",
+      "count": "2",
+      "points": "100"
+    },
+    {
+      "model": "Mek Gun",
+      "count": "3",
+      "points": "150"
+    },
+    {
+      "model": "Mek Gun",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Big Mek with Shokk Attack Gun",
+      "id": "2g2QwK3ONm4"
+    },
+    {
+      "name": "Mek",
+      "id": "oDMQV5BezGw"
+    },
+    {
+      "name": "Big Mek",
+      "id": "LhXzYL5Hrbg"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Vehicle, Grots, Mek Gunz"
+  },
+  "url": "https://39k.pro/datasheet/R99Ar7SfsHo"
+}

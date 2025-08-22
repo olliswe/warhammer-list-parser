@@ -1,0 +1,138 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "4Y48HiHLjMY",
+  "datasheet_id": "J0IQNDzXDDo",
+  "datasheet_name": "Plagueburst Crawler",
+  "characteristics": {
+    "M": "10\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "12",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Plaguespitter",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 2+",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Entropy cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Plagueburst mortar",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Indirect Fire",
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Rothail volley gun",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits",
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Heavy slugger",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Spore-laced Shock Waves",
+      "rule": "In your Shooting phase, each time you select a target for this model’s Plagueburst mortar, roll one D6 for the target unit and every other enemy unit within 3\" of the target unit, adding 1 to that roll if the unit being rolled for is Afflicted. On a 6+, the unit being rolled for is struck by spores; after resolving all of this model’s attacks against the target unit, each unit struck by spores suffers D3 mortal wounds."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s heavy slugger can be replaced with 1 rothail volley gun.",
+    "■ This model’s 2 entropy cannons can be replaced with 2 plaguespitters."
+  ],
+  "unit_composition": "■ **1 Plagueburst Crawler**\n\n**This model is equipped with:** 2 entropy cannons; heavy slugger; Plagueburst mortar; armoured tracks.\nModel Name Count Points\nPlagueburst Crawler\n1\n195",
+  "unit_composition_table": [
+    {
+      "model": "Plagueburst Crawler",
+      "count": "1",
+      "points": "195"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Death Guard",
+    "keywords": "Vehicle, Chaos, Nurgle, Daemon, Plagueburst Crawler"
+  },
+  "url": "https://39k.pro/datasheet/J0IQNDzXDDo"
+}

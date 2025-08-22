@@ -1,0 +1,167 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "2V7Ywsj3HHc",
+  "datasheet_id": "yyXrsZ1LfTU",
+  "datasheet_name": "Onager Dunecrawler",
+  "characteristics": {
+    "M": "8\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "11",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Neutron laser",
+        "stats": {
+          "range": "48\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "16",
+          "armour_penetration": "-4",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Cognis heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Twin Onager heavy phosphor blaster",
+        "stats": {
+          "range": "36\"",
+          "attacks": "12",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "🠶 Eradication beamer — dissipated",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2D3",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast",
+          "Sustained Hits D3",
+          "Sustained Hits D3",
+          "Blast"
+        ]
+      },
+      {
+        "name": "Icarus array",
+        "stats": {
+          "range": "48\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-fly 4+",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Daedalus missile launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Anti-fly 2+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Dunecrawler legs",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Scuttling Walker",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly **MONSTER** and **VEHICLE** models and sections of terrain features that are 4\" or less in height."
+    },
+    {
+      "name": "Emanatus Force Field",
+      "rule": "While a friendly **ADEPTUS MECHANICUS BATTLELINE** model is wholly within 6\" of this model, that **BATTLELINE** model has a 4+ invulnerable save against ranged attacks."
+    },
+    {
+      "name": "Broad spectrum data-tether",
+      "rule": "The bearer loses the **SMOKE** keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Broad spectrum data-tether",
+      "rule": "The bearer loses the **SMOKE** keyword, but each time you target the bearer with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 additional cognis heavy stubber.",
+    "■ This model’s eradication beamer can be replaced with one of the following: \n◦ 1 daedalus missile launcher and 1 Icarus array\n◦ 1 neutron laser and 1 cognis heavy stubber\n◦ 1 twin Onager heavy phosphor blaster",
+    "■ This model can be equipped with 1 broad spectrum data-tether."
+  ],
+  "unit_composition": "■ **1 Onager Dunecrawler**\n\n**This model is equipped with:** eradication beamer; Dunecrawler legs.\nModel Name Count Points\nOnager Dunecrawler\n1\n155",
+  "unit_composition_table": [
+    {
+      "model": "Onager Dunecrawler",
+      "count": "1",
+      "points": "155"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Mechanicus",
+    "keywords": "Vehicle, Walker, Imperium, Skitarii, Smoke, Onager Dunecrawler"
+  },
+  "url": "https://39k.pro/datasheet/yyXrsZ1LfTU"
+}

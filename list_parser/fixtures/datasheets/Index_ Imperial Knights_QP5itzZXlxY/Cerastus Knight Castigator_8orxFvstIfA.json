@@ -1,0 +1,78 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "QP5itzZXlxY",
+  "datasheet_id": "8orxFvstIfA",
+  "datasheet_name": "Cerastus Knight Castigator",
+  "characteristics": {
+    "M": "12\"",
+    "T": "11",
+    "SV": "3+",
+    "W": "28",
+    "LD": "6+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Castigator bolt cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "18",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Tempest warblade — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "12",
+          "weapon_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Castigator’s Duty",
+      "rule": "While a model is affected by this ability, its ranged weapons have the **[SUSTAINED HITS 1]** ability and the Armour Penetration characteristic of its ranged weapons is improved by 1."
+    },
+    {
+      "name": "Storm of Bolts",
+      "rule": "In your Shooting phase, after this model has shot, select one unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Cerastus Knight Castigator**\n\n**This model is equipped with:** Castigator bolt cannon; tempest warblade.\nModel Name Count Points\nCerastus Knight Castigator\n1\n365",
+  "unit_composition_table": [
+    {
+      "model": "Cerastus Knight Castigator",
+      "count": "1",
+      "points": "365"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Imperial Knights",
+    "keywords": "Vehicle, Walker, Character, Titanic, Towering, Imperium, Cerastus, Knight Castigator"
+  },
+  "url": "https://39k.pro/datasheet/8orxFvstIfA"
+}

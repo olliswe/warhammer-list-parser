@@ -1,0 +1,153 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "erOwr6zuG0Q",
+  "datasheet_name": "Achilles Ridgerunners",
+  "characteristics": {
+    "M": "12\"",
+    "T": "7",
+    "SV": "3+",
+    "W": "8",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Achilles missile launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Heavy mortar",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      {
+        "name": "Heavy mining laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Twin heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Crossfire",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **GENESTEALER CULTS** unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Spotter",
+      "rule": "The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+."
+    },
+    {
+      "name": "Survey Augur",
+      "rule": "Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly **GENESTEALER CULTS** model makes an attack against that unit, that attack has the **[IGNORES COVER]** ability."
+    },
+    {
+      "name": "Flare launcher",
+      "rule": "The bearer’s unit has the **SMOKE** keyword and you can target it with the Smokescreen Stratagem for 0CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Spotter",
+      "rule": "The bearer’s ranged weapons have a Ballistic Skill characteristic of 3+."
+    },
+    {
+      "name": "Survey Augur",
+      "rule": "Each time the bearer’s unit has shot, select one enemy unit that was hit by one or more attacks made by the bearer this phase. Until the end of the phase, each time a friendly **GENESTEALER CULTS** model makes an attack against that unit, that attack has the **[IGNORES COVER]** ability."
+    },
+    {
+      "name": "Flare launcher",
+      "rule": "The bearer’s unit has the **SMOKE** keyword and you can target it with the Smokescreen Stratagem for 0CP."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their heavy mining laser replaced with one of the following: \n◦ 1 Achilles missile launcher\n◦ 1 heavy mortar",
+    "■ Any number of models can each have their flare launcher replaced with one of the following:\n◦ 1 spotter\n◦ 1 survey augur"
+  ],
+  "unit_composition": "■ **1-2 Achilles Ridgerunners**\n\n**Every model is equipped with:** heavy mining laser; twin heavy stubbers; armoured hull; flare launcher.\nModel Name Count Points\nAchilles Ridgerunner\n2\n170\nAchilles Ridgerunner\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Achilles Ridgerunner",
+      "count": "2",
+      "points": "170"
+    },
+    {
+      "model": "Achilles Ridgerunner",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Vehicle, Great Devourer, Achilles Ridgerunners"
+  },
+  "url": "https://39k.pro/datasheet/erOwr6zuG0Q"
+}

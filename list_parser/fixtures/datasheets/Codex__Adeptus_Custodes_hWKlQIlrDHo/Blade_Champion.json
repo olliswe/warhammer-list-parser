@@ -1,0 +1,70 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "hWKlQIlrDHo",
+  "datasheet_name": "Blade Champion",
+  "characteristics": {
+    "M": "6\"",
+    "T": "6",
+    "SV": "2+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "🠶 Vaultswords — Victus",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Sustained Hits 1",
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Martial Inspiration",
+      "rule": "Once per battle, in your Charge phase, this model’s unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Swift Onslaught",
+      "rule": "While this model is leading a unit, you can re‑roll Charge rolls made for that unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Blade Champion**\n\n**This model is equipped with**: vaultswords.\nModel Name Count Points\nBlade Champion\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Blade Champion",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Custodes",
+    "keywords": "Infantry, Character, Imperium, Blade Champion"
+  },
+  "url": "https://39k.pro/datasheet/61YmIorz6TA"
+}

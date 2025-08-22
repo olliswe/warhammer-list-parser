@@ -1,0 +1,141 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "GT_HP_TCArM",
+  "datasheet_id": "aqZ6qMggbkI",
+  "datasheet_name": "Khorne Lord of Skulls",
+  "characteristics": {
+    "M": "12\"",
+    "T": "13",
+    "SV": "3+",
+    "W": "24",
+    "LD": "6+",
+    "OC": "8"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Daemongore cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-4",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Blast",
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Gorestorm cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast",
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Ichor cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2D6",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Rapid Fire 4"
+        ]
+      },
+      {
+        "name": "Hades gatling cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "12",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Rapid Fire 6",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Skullhurler",
+        "stats": {
+          "range": "60\"",
+          "attacks": "2D6",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Great cleaver of Khorne — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "18",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Idol of Blessed Blood",
+      "rule": "At the start of the battle round, if this model is on the battlefield, when you make a Blessings of Khorne roll, roll one additional D6."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Super-heavy War Engine",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move through models (excluding **TITANIC** models) and sections of terrain features that are 4\" or less in height. When doing so it can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them. It can also move through sections of terrain features that are more than 4\" in height, but if it does, after it has moved, roll one D6: on a roll of 1, this model is Battle-shocked."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s gorestorm cannon can be replaced with one of the following:\n◦ 1 daemongore cannon\n◦ 1 ichor cannon",
+    "■ This model’s Hades gatling cannon can be replaced with 1 skullhurler."
+  ],
+  "unit_composition": "■ **1 Khorne Lord of Skulls**\n\n**This model is equipped with:** gorestorm cannon; Hades gatling cannon; great cleaver of Khorne.\nModel Name Count Points\nKhorne Lord of Skulls\n1\n505",
+  "unit_composition_table": [
+    {
+      "model": "Khorne Lord of Skulls",
+      "count": "1",
+      "points": "505"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: World Eaters",
+    "keywords": "Vehicle, Titanic, Towering, Chaos, Khorne, Daemon, Lord of Skulls"
+  },
+  "url": "https://39k.pro/datasheet/aqZ6qMggbkI"
+}

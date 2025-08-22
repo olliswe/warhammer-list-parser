@@ -1,0 +1,143 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "jURrH__v_f4",
+  "datasheet_name": "Dark Reapers",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "1",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Reaper launcher — starshot",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "🠶 Missile launcher — starshot",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Blast",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Tempest launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2D6",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Inescapable Accuracy",
+      "rule": "Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to that attack’s Ballistic Skill characteristic and to the Hit roll."
+    },
+    {
+      "name": "Aspect Shrine Token",
+      "rule": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.\n\n**Designer’s Note:** *Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Aspect Shrine Token",
+      "rule": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.\n\n**Designer’s Note:** *Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used.*"
+    }
+  ],
+  "wargear_options": [
+    "■ The Dark Reaper Exarch’s Reaper launcher can be replaced with 1 of the following:\n◦ 1 missile launcher\n◦ 1 shuriken cannon\n◦ 1 tempest launcher",
+    "■ For every 5 models in this unit, it can have 1 Aspect Shrine token."
+  ],
+  "unit_composition": "■ **1 Dark Reaper Exarch**\n■ **4-9 Dark Reapers**\n\n**Every model is equipped with:** Reaper launcher; close combat weapon.\nModel Name Count Points\nDark Reaper Exarch\nDark Reaper\n1\n5-9\n195\nDark Reaper\nDark Reaper Exarch\n4\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "Dark Reaper Exarch\nDark Reaper",
+      "count": "1\n5-9",
+      "points": "195"
+    },
+    {
+      "model": "Dark Reaper\nDark Reaper Exarch",
+      "count": "4\n1",
+      "points": "90"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Autarch",
+      "id": "gxx1E60VCsY"
+    },
+    {
+      "name": "Maugan Ra",
+      "id": "ZSMLKPenHOQ"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Aeldari, Aspect Warriors, Dark Reapers"
+  },
+  "url": "https://39k.pro/datasheet/jURrH__v_f4"
+}

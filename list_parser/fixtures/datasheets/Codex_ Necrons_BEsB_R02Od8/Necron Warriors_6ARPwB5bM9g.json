@@ -1,0 +1,137 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "6ARPwB5bM9g",
+  "datasheet_name": "Necron Warriors",
+  "characteristics": {
+    "M": "5\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Gauss reaper",
+        "stats": {
+          "range": "12\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Gauss flayer",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1",
+          "Lethal Hits"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Their Number is Legion",
+      "rule": "Each time this unit’s Reanimation Protocols activate, you can re-roll the dice to see how many wounds are reanimated."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their gauss flayer replaced with 1 gauss reaper."
+  ],
+  "unit_composition": "■ **10-20 Necron Warriors**\n\n**Every model is equipped with:** gauss flayer; close combat weapon.\nModel Name Count Points\nNecron Warrior\n10\n90\nNecron Warrior\n11-20\n200",
+  "unit_composition_table": [
+    {
+      "model": "Necron Warrior",
+      "count": "10",
+      "points": "90"
+    },
+    {
+      "model": "Necron Warrior",
+      "count": "11-20",
+      "points": "200"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Plasmancer",
+      "id": "fd4sFPlOaDE"
+    },
+    {
+      "name": "Chronomancer",
+      "id": "XXhM9vsqnLo"
+    },
+    {
+      "name": "Overlord Amonhotekh",
+      "id": "msM-_gKKoTI"
+    },
+    {
+      "name": "Orikan the Diviner",
+      "id": "W2TJfyCLFHs"
+    },
+    {
+      "name": "Overlord with Translocation Shroud",
+      "id": "nkslpip0o6o"
+    },
+    {
+      "name": "Imotekh the Stormlord",
+      "id": "NpHccqHWvCU"
+    },
+    {
+      "name": "Overlord",
+      "id": "nQJi94_CjAk"
+    },
+    {
+      "name": "Technomancer",
+      "id": "BrqB0KUMYnE"
+    },
+    {
+      "name": "Trazyn the Infinite",
+      "id": "IJFS2nvLTss"
+    },
+    {
+      "name": "Royal Warden",
+      "id": "R1mEtGSvCfE"
+    },
+    {
+      "name": "Psychomancer",
+      "id": "5Wunan9MdfE"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Battleline, Necron Warriors"
+  },
+  "url": "https://39k.pro/datasheet/6ARPwB5bM9g"
+}

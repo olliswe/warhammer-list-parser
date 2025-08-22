@@ -1,0 +1,130 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "1nRB91SVTzo",
+  "datasheet_name": "Crisis Fireknife Battlesuits",
+  "characteristics": {
+    "M": "10\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "4",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Missile pod",
+        "stats": {
+          "range": "30\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Plasma rifle",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Battlesuit fists",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fireknife",
+      "rule": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is at its Starting Strength, you can re-roll the Hit roll instead."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Weapon Support Systems",
+      "rule": "Each time a model in this unit makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+    },
+    {
+      "name": "Shield Drone",
+      "rule": "Add 1 to the bearer’s Wounds characteristic."
+    },
+    {
+      "name": "Gun Drone",
+      "rule": "The bearer is equipped with the following ranged weapon:"
+    },
+    {
+      "name": "Marker Drone",
+      "rule": "The bearer’s unit has the **MARKERLIGHT** keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Shield Drone",
+      "rule": "Add 1 to the bearer’s Wounds characteristic."
+    },
+    {
+      "name": "Gun Drone",
+      "rule": "The bearer is equipped with the following ranged weapon:"
+    },
+    {
+      "name": "Marker Drone",
+      "rule": "The bearer’s unit has the **MARKERLIGHT** keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their plasma rifle replaced with 1 missile pod.",
+    "■ Any number of models can each have their missile pod replaced with 1 plasma rifle.",
+    "■ Any number of models can be equipped with up to two of the following, but cannot take duplicates:\n◦ 1 gun drone\n◦ 1 marker drone\n◦ 1 shield drone"
+  ],
+  "unit_composition": "■ **1 Crisis Fireknife Shas’vre**\n■ **2 Crisis Fireknife Shas’ui**\n\n**Every model is equipped with:** plasma rifle; missile pod; battlesuit fists.\nModel Name Count Points\nCrisis Fireknife Shas’vre\nCrisis Fireknife Shas’ui\n1\n2\n130",
+  "unit_composition_table": [
+    {
+      "model": "Crisis Fireknife Shas’vre\nCrisis Fireknife Shas’ui",
+      "count": "1\n2",
+      "points": "130"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Commander Farsight",
+      "id": "9bmeHpDw08I"
+    },
+    {
+      "name": "Commander in Coldstar Battlesuit",
+      "id": "Q8pYDHp-M8c"
+    },
+    {
+      "name": "Commander in Enforcer Battlesuit",
+      "id": "t9WnCoWbYIg"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Vehicle, Walker, Fly, Battlesuit, Crisis, Fireknife"
+  },
+  "url": "https://39k.pro/datasheet/1nRB91SVTzo"
+}

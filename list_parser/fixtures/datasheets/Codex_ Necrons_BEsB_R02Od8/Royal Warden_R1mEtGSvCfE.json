@@ -1,0 +1,79 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "R1mEtGSvCfE",
+  "datasheet_name": "Royal Warden",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Relic gauss blaster",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Rapid Fire 2",
+          "Lethal Hits"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Engrammatic Logic",
+      "rule": "Once per battle, at the start of any phase, you can select one friendly **NECRONS** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+    },
+    {
+      "name": "Adaptive Strategy",
+      "rule": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Royal Warden**\n\n**This model is equipped with:** relic gauss blaster; close combat weapon.\nModel Name Count Points\nRoyal Warden\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Royal Warden",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Character, Royal Warden"
+  },
+  "url": "https://39k.pro/datasheet/R1mEtGSvCfE"
+}

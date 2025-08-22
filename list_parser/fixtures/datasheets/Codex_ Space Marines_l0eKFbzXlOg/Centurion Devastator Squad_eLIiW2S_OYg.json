@@ -1,0 +1,136 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "eLIiW2S_OYg",
+  "datasheet_name": "Centurion Devastator Squad",
+  "characteristics": {
+    "M": "4\"",
+    "T": "7",
+    "SV": "2+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Twin lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Grav-cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Centurion missile launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Centurion bolters",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Centurion fists",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Decimator Protocols",
+      "rule": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their grav-cannon replaced with one of the following:\n◦ 1 twin heavy bolter\n◦ 1 twin lascannon",
+    "■ Any number of models can each have their Centurion bolters replaced with 1 Centurion missile launcher."
+  ],
+  "unit_composition": "■ **1 Devastator Centurion Sergeant**\n■ **2-5 Devastator Centurions**\n\n**Every model is equipped with:** grav-cannon; Centurion bolters; Centurion fists.\nModel Name Count Points\nDevastator Centurion Sergeant\nDevastator Centurion\n1\n2\n165\nDevastator Centurion\nDevastator Centurion Sergeant\n3-5\n1\n330",
+  "unit_composition_table": [
+    {
+      "model": "Devastator Centurion Sergeant\nDevastator Centurion",
+      "count": "1\n2",
+      "points": "165"
+    },
+    {
+      "model": "Devastator Centurion\nDevastator Centurion Sergeant",
+      "count": "3-5\n1",
+      "points": "330"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Imperium, Centurion, Centurion Devastator Squad"
+  },
+  "url": "https://39k.pro/datasheet/eLIiW2S_OYg"
+}

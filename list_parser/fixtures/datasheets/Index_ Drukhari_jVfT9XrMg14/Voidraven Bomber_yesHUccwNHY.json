@@ -1,0 +1,106 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "jVfT9XrMg14",
+  "datasheet_id": "yesHUccwNHY",
+  "datasheet_name": "Voidraven Bomber",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "9",
+    "SV": "4+",
+    "W": "12",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Void lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "14",
+          "armour_penetration": "-4",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Dark scythe",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Voidraven missiles — shatterfield missiles",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Bladed wings",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Void Mine",
+      "rule": "Once per battle, after this unit ends a Normal move, you can select one enemy model it moved over during that move and roll one D6 for each enemy unit within D6\" of that enemy model: on a 4+, that enemy unit suffers D6 mortal wounds."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 Voidraven missiles.",
+    "■ The model’s 2 void lances can be replaced with 2 dark scythes."
+  ],
+  "unit_composition": "■ **1 Voidraven Bomber**\n\n**This model is equipped with:** 2 void lances; bladed wings.\nModel Name Count Points\nVoidraven Bomber\n1\n235",
+  "unit_composition_table": [
+    {
+      "model": "Voidraven Bomber",
+      "count": "1",
+      "points": "235"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Drukhari",
+    "keywords": "Vehicle, Aircraft, Fly, Aeldari, Voidraven Bomber"
+  },
+  "url": "https://39k.pro/datasheet/yesHUccwNHY"
+}

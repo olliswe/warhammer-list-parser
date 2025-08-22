@@ -1,0 +1,452 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "zVfvFhP2JJA",
+  "datasheet_name": "Tactical Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma gun — supercharge",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Hazardous",
+          "Rapid Fire 1",
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Grav-gun",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Meltagun",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Grav-cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Heavy",
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "🠶 Plasma cannon — supercharge",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Hazardous",
+          "Blast",
+          "Heavy",
+          "Blast",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "🠶 Missile launcher — frag",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Heavy",
+          "Blast",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Heavy",
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Grav-pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Thunder hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Twin lightning claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Combat Squads",
+      "rule": "At the start of the Declare Battle Formations step, before any units have been set up, this unit can be split into two units, each containing five models."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ 1 Tactical Marine’s boltgun can be replaced with one of the following:\n◦ 1 flamer\n◦ 1 grav-gun\n◦ 1 meltagun\n◦ 1 plasma gun",
+    "■ 1 Tactical Marine’s boltgun can be replaced with one of the following:\n◦ 1 flamer\n◦ 1 heavy bolter\n◦ 1 grav-cannon\n◦ 1 grav-gun\n◦ 1 lascannon\n◦ 1 meltagun\n◦ 1 missile launcher\n◦ 1 multi-melta\n◦ 1 plasma cannon\n◦ 1 plasma gun",
+    "■ The Tactical Sergeant’s bolt pistol and boltgun can be replaced with 1 twin lightning claws, or two different weapons from the following list:*\n◦ 1 Astartes chainsword\n◦ 1 bolt pistol\n◦ 1 boltgun\n◦ 1 combi-weapon\n◦ 1 grav-pistol\n◦ 1 plasma pistol\n◦ 1 storm bolter\n◦ 1 power fist\n◦ 1 power weapon\n◦ 1 thunder hammer\n\n* This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)."
+  ],
+  "unit_composition": "■ **1 Tactical Sergeant**\n■ **9 Tactical Marines**\n\n**Every model is equipped with:** bolt pistol; boltgun; close combat weapon.\nModel Name Count Points\nTactical Marine\nTactical Marine\nTactical Sergeant\n8\n1\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Tactical Marine\nTactical Marine\nTactical Sergeant",
+      "count": "8\n1\n1",
+      "points": "140"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Pedro Kantor",
+      "id": "mXa1jEBfL8k"
+    },
+    {
+      "name": "Marneus Calgar",
+      "id": "Tscg7W0VM9g"
+    },
+    {
+      "name": "Uriel Ventris",
+      "id": "dpKxRfe-j84"
+    },
+    {
+      "name": "Ezekiel",
+      "id": "Cr4Lpe2rVxo"
+    },
+    {
+      "name": "Lazarus",
+      "id": "2kQUbqqdQs4"
+    },
+    {
+      "name": "Librarian",
+      "id": "QgfnIzdE-Jo"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "ClE3lxdANO0"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "HyvmXZX-4EI"
+    },
+    {
+      "name": "Judiciar",
+      "id": "XDBOrh2am-s"
+    },
+    {
+      "name": "Asmodai",
+      "id": "_P5wyspLqmo"
+    },
+    {
+      "name": "Techmarine",
+      "id": "_g9TCesE8iQ"
+    },
+    {
+      "name": "Vulkan He’stan",
+      "id": "u4Cf0QEH2lc"
+    },
+    {
+      "name": "Chaplain",
+      "id": "4vVcIqGR25M"
+    },
+    {
+      "name": "Kor’sarro Khan",
+      "id": "gpEboCoviQE"
+    },
+    {
+      "name": "Azrael",
+      "id": "nF7OXYAfMjE"
+    },
+    {
+      "name": "Adrax Agatone",
+      "id": "mee7mVs1uVw"
+    },
+    {
+      "name": "Captain Sicarius",
+      "id": "h5vU4jCOA7Q"
+    },
+    {
+      "name": "Lieutenant",
+      "id": "S2p5qPqLIYo"
+    },
+    {
+      "name": "Blood Angels Captain",
+      "id": "96itFZnvc_U"
+    },
+    {
+      "name": "Ancient",
+      "id": "s-FFFLPVHrk"
+    },
+    {
+      "name": "Apothecary",
+      "id": "3ypaLU-lTJ0"
+    },
+    {
+      "name": "Captain",
+      "id": "WKgiF01kCXU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Battleline, Grenades, Imperium, Tactical Squad"
+  },
+  "url": "https://39k.pro/datasheet/zVfvFhP2JJA"
+}

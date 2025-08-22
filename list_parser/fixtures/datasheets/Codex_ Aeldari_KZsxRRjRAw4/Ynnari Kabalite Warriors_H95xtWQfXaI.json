@@ -1,0 +1,204 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "H95xtWQfXaI",
+  "datasheet_name": "Ynnari Kabalite Warriors",
+  "characteristics": {
+    "M": "8\"",
+    "T": "3",
+    "SV": "4+",
+    "W": "1",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Splinter rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 3+",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Shredder",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Splinter cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 3+",
+          "Sustained Hits 1",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Dark lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Blaster",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Blast pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Splinter pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 3+",
+          "Assault",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Sybarite weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 3+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Sadistic Raiders",
+      "rule": "At the end of your Command phase, if you control an objective marker that this unit (or a **TRANSPORT** it is embarked within) is within range of, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    },
+    {
+      "name": "Phantasm grenade launcher",
+      "rule": "The bearer’s unit has the **GRENADES** keyword."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Phantasm grenade launcher",
+      "rule": "The bearer’s unit has the **GRENADES** keyword."
+    }
+  ],
+  "wargear_options": [
+    "■ The Sybarite’s close combat weapon can be replaced with 1 Sybarite weapon.",
+    "■ 1 Kabalite Warrior’s splinter rifle can be replaced with 1 dark lance.",
+    "■ The Sybarite’s splinter rifle can be replaced with one of the following:\n◦ 1 blast pistol\n◦ 1 splinter pistol",
+    "■ 1 Kabalite Warrior’s splinter rifle can be replaced with 1 blaster.",
+    "■ 1 Kabalite Warrior’s splinter rifle can be replaced with 1 shredder.",
+    "■ The Sybarite can be equipped with 1 phantasm grenade launcher.",
+    "■ 1 Kabalite Warrior’s splinter rifle can be replaced with 1 splinter cannon."
+  ],
+  "unit_composition": "■ **1 Sybarite**\n■ **9 Kabalite Warriors**\n\n**Every model is equipped with:** splinter rifle; close combat weapon.\nModel Name Count Points\nSybarite\nKabalite Warrior\n1\n9\n110",
+  "unit_composition_table": [
+    {
+      "model": "Sybarite\nKabalite Warrior",
+      "count": "1\n9",
+      "points": "110"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Yvraine",
+      "id": "1aINKHBD9sY"
+    },
+    {
+      "name": "The Visarch",
+      "id": "UQHUTHoBhp4"
+    },
+    {
+      "name": "Ynnari Archon",
+      "id": "TKyDuPRuC6I"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Ynnari",
+    "keywords": "Infantry, Battleline, Aeldari, Kabalite Warriors"
+  },
+  "url": "https://39k.pro/datasheet/H95xtWQfXaI"
+}

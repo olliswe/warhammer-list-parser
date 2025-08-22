@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "2VAQpyHt_og",
+  "datasheet_name": "Acolyte Hybrids with Hand Flamers",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "5+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Demolition charges",
+        "stats": {
+          "range": "8\"",
+          "attacks": "D6",
+          "ballistic_skill": "5+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Assault",
+          "Blast",
+          "Hazardous",
+          "One Shot"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Cult claws and knife",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Leader’s bio-weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Industrialised Destruction",
+      "rule": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Cult Icon",
+      "rule": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed **CHARACTER** models in Attached units and any **[ONE SHOT]** weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Cult Icon",
+      "rule": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed **CHARACTER** models in Attached units and any **[ONE SHOT]** weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    }
+  ],
+  "wargear_options": [
+    "■ One Acolyte Hybrid’s hand flamer can be replaced with 1 cult icon.",
+    "■ For every 5 models in this unit, up to 2 Acolyte Hybrids can each have their hand flamer replaced with 1 demolition charges.",
+    "■ The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader’s bio-weapons."
+  ],
+  "unit_composition": "■ **1 Acolyte Leader**\n■ **4‐9 Acolyte Hybrids**\n\n**Every model is equipped with:** hand flamer; cult claws and knife.\nModel Name Count Points\nAcolyte Leader\nAcolyte Hybrid\n1\n5-9\n140\nAcolyte Leader\nAcolyte Hybrid\n1\n4\n70",
+  "unit_composition_table": [
+    {
+      "model": "Acolyte Leader\nAcolyte Hybrid",
+      "count": "1\n5-9",
+      "points": "140"
+    },
+    {
+      "model": "Acolyte Leader\nAcolyte Hybrid",
+      "count": "1\n4",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Battleline, Grenades, Great Devourer, Acolyte Hybrids, Acolyte Hybrids with Hand Flamers"
+  },
+  "url": "https://39k.pro/datasheet/2VAQpyHt_og"
+}

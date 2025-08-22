@@ -1,0 +1,110 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "m_MOqMfiWKo",
+  "datasheet_name": "Lokhust Lord",
+  "characteristics": {
+    "M": "8\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Staff of light",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Staff of light",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Lord’s blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Destroyer Cult",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
+    },
+    {
+      "name": "Driven by Hatred",
+      "rule": "Each time this model makes an attack that targets an enemy unit that is Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    },
+    {
+      "name": "Nanoscarab Amulet",
+      "rule": "The bearer has the Feel No Pain 5+ ability."
+    },
+    {
+      "name": "Resurrection Orb",
+      "rule": "Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit’s Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resurrect more than one unit per turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Nanoscarab Amulet",
+      "rule": "The bearer has the Feel No Pain 5+ ability."
+    },
+    {
+      "name": "Resurrection Orb",
+      "rule": "Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit’s Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resurrect more than one unit per turn."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following: \n◦ 1 nanoscarab amulet\n◦ 1 resurrection orb",
+    "■ This model’s staff of light can be replaced with 1 Lord’s blade."
+  ],
+  "unit_composition": "■ **1 Lokhust Lord**\n\n**This model is equipped with:** staff of light.\nModel Name Count Points\nLokhust Lord\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Lokhust Lord",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Mounted, Character, Fly, Destroyer Cult, Lokhust Lord"
+  },
+  "url": "https://39k.pro/datasheet/m_MOqMfiWKo"
+}

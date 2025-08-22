@@ -1,0 +1,92 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "t7yDXx_lPY8",
+  "datasheet_name": "Ghazghkull Thraka",
+  "characteristics": {
+    "M": "5\"",
+    "T": "6",
+    "SV": "7+",
+    "W": "1",
+    "LD": "8+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Mork’s Roar",
+        "stats": {
+          "range": "36\"",
+          "attacks": "12",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 4"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Gork’s Klaw — sweep",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "4"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Makari’s stabba",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Ghazghkull’s Waaagh! Banner",
+      "rule": "While a friendly **ORKS** unit is within 12\" of Makari, if the Waaagh! is active for your army, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Prophet of Da Great Waaagh!",
+      "rule": "While this unit is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll and add 1 to the Wound roll and if the Waaagh! is active for your army, a Critical Hit is scored on a successful unmodified Hit roll of 5+."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ghazghkull Thraka – EPIC HERO**\n■ **1 Makari**\n\n**Ghazghkull Thraka is equipped with:** Mork’s Roar; Gork’s Klaw.\n**Makari is equipped with:** Makari’s stabba.\nModel Name Count Points\nGhazghkull Thraka\nMakari\n1\n1\n235",
+  "unit_composition_table": [
+    {
+      "model": "Ghazghkull Thraka\nMakari",
+      "count": "1\n1",
+      "points": "235"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Infantry, Character, Epic Hero, Warboss, Ghazgkull Thraka"
+  },
+  "url": "https://39k.pro/datasheet/t7yDXx_lPY8"
+}

@@ -1,0 +1,90 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "mpHRUygTStI",
+  "datasheet_name": "Doomsday Ark",
+  "characteristics": {
+    "M": "10\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "14",
+    "LD": "7+",
+    "OC": "5"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Gauss flayer array",
+        "stats": {
+          "range": "24\"",
+          "attacks": "5",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits",
+          "Rapid Fire 5"
+        ]
+      },
+      {
+        "name": "Doomsday cannon",
+        "stats": {
+          "range": "72\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "3+",
+          "strength": "18",
+          "armour_penetration": "-4",
+          "damage": "4"
+        },
+        "abilities": [
+          "Heavy",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured bulk",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Overwhelming Obliteration",
+      "rule": "In your Movement phase, if this model Remains Stationary, until the end of the turn, its doomsday cannon has the **[DEVASTATING WOUNDS]** ability."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Doomsday Ark**\n\n**This model is equipped with:** doomsday cannon; 2 gauss flayer arrays; armoured bulk.\nModel Name Count Points\nDoomsday Ark\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Doomsday Ark",
+      "count": "1",
+      "points": "200"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Vehicle, Fly, Doomsday Ark"
+  },
+  "url": "https://39k.pro/datasheet/mpHRUygTStI"
+}

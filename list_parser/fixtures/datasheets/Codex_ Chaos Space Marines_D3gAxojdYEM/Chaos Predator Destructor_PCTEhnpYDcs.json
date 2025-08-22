@@ -1,0 +1,148 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "D3gAxojdYEM",
+  "datasheet_id": "PCTEhnpYDcs",
+  "datasheet_name": "Chaos Predator Destructor",
+  "characteristics": {
+    "M": "10\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "11",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Havoc launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Combi-bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Predator autocannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Destructor",
+      "rule": "Each time a ranged attack made by this model targets an enemy **INFANTRY** unit, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following:\n◦ 2 heavy bolters\n◦ 2 lascannons",
+    "■ This model can be equipped with one of the following:\n◦ 1 combi-bolter\n◦ 1 combi-weapon",
+    "■ This model can be equipped with 1 Havoc launcher."
+  ],
+  "unit_composition": "■ **1 Chaos Predator Destructor**\n\n**This model is equipped with:** Predator autocannon; armoured tracks.\nModel Name Count Points\nChaos Predator Destructor\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Predator Destructor",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Heretic Astartes",
+    "keywords": "Vehicle, Smoke, Chaos, Predator Destructor"
+  },
+  "url": "https://39k.pro/datasheet/PCTEhnpYDcs"
+}

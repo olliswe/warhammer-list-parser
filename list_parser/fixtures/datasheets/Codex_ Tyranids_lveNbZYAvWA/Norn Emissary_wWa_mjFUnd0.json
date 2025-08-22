@@ -1,0 +1,97 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "wWa_mjFUnd0",
+  "datasheet_name": "Norn Emissary",
+  "characteristics": {
+    "M": "10\"",
+    "T": "11",
+    "SV": "2+",
+    "W": "16",
+    "LD": "7+",
+    "OC": "5"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Psychic Tendril — neuroparasite",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2D6",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Psychic",
+          "Precision",
+          "Melta 2",
+          "Psychic",
+          "Psychic",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Monstrous rending claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Monstrous scything talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Unnatural Resilience",
+      "rule": "This model has the Feel No Pain 4+ ability against mortal wounds."
+    },
+    {
+      "name": "Singular Purpose",
+      "rule": "At the start of the first battle round, select one of the following:\n\n■ Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.\n■ Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Norn Emissary**\n\n**This model is equipped with:** Psychic Tendril; monstrous scything talons; monstrous rending claws.\nModel Name Count Points\nNorn Emissary\n1\n260",
+  "unit_composition_table": [
+    {
+      "model": "Norn Emissary",
+      "count": "1",
+      "points": "260"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Psyker, Great Devourer, Synapse, Norn Emissary"
+  },
+  "url": "https://39k.pro/datasheet/wWa_mjFUnd0"
+}

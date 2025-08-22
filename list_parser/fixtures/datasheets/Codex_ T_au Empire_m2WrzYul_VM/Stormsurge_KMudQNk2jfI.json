@@ -1,0 +1,194 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "KMudQNk2jfI",
+  "datasheet_name": "Stormsurge",
+  "characteristics": {
+    "M": "8\"",
+    "T": "11",
+    "SV": "2+",
+    "W": "20",
+    "LD": "7+",
+    "OC": "6"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Twin burst cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "4",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Twin airbursting fragmentation projector",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Blast",
+          "Heavy",
+          "Indirect Fire"
+        ]
+      },
+      {
+        "name": "Twin T’au flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Cluster rocket system",
+        "stats": {
+          "range": "48\"",
+          "attacks": "4D6",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy",
+          "Blast"
+        ]
+      },
+      {
+        "name": "Destroyer missiles",
+        "stats": {
+          "range": "72\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "16",
+          "armour_penetration": "-4",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Twin smart missile system",
+        "stats": {
+          "range": "30\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy",
+          "Twin-linked",
+          "Indirect Fire"
+        ]
+      },
+      {
+        "name": "🠶 Pulse blast cannon — dispersed",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "24",
+          "armour_penetration": "-6",
+          "damage": "12"
+        },
+        "abilities": [
+          "Heavy",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Pulse driver cannon",
+        "stats": {
+          "range": "72\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast",
+          "Heavy"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Thunderous footfalls",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "5+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Titan-killer",
+      "rule": "Each time this model makes a ranged attack that targets a **TITANIC** or **TOWERING** unit, you can re-roll the Hit roll."
+    },
+    {
+      "name": "Support System",
+      "rule": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+    },
+    {
+      "name": "Heavy Walker",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **TITANIC** models) and terrain features that are 4\" or less in height as if they were not there."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s pulse driver cannon can be replaced with 1 pulse blast cannon.",
+    "■ This model’s twin T’au flamer can be replaced with one of the following:\n◦ 1 twin airbursting fragmentation projector\n◦ 1 twin burst cannon"
+  ],
+  "unit_composition": "■ **1 Stormsurge**\n\n**This model is equipped with:** cluster rocket system; destroyer missiles; pulse driver cannon; 2 twin smart missile system; twin T’au flamer; thunderous footfalls.\nModel Name Count Points\nStormsurge\n1\n400",
+  "unit_composition_table": [
+    {
+      "model": "Stormsurge",
+      "count": "1",
+      "points": "400"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Stormsurge"
+  },
+  "url": "https://39k.pro/datasheet/KMudQNk2jfI"
+}

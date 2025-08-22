@@ -1,0 +1,198 @@
+{
+  "faction": "Codex: Grey Knights",
+  "faction_id": "tK1LWUpSzF4",
+  "datasheet_id": "CHd5zidA3sg",
+  "datasheet_name": "Brotherhood Terminator Squad",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Psycannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Incinerator",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Psilencer",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Precision",
+          "Psychic",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Nemesis force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Force Edge",
+      "rule": "Each time a model in this unit makes a melee attack that targets a unit (excluding **MONSTERS** and **VEHICLES**), improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Ancient’s Banner",
+      "rule": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    },
+    {
+      "name": "Apothecary’s Narthecium",
+      "rule": "In your Command phase, if the bearer is not destroyed, you can return 1 destroyed model (excluding **CHARACTERS**) to the bearer’s unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Ancient’s Banner",
+      "rule": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    },
+    {
+      "name": "Apothecary’s Narthecium",
+      "rule": "In your Command phase, if the bearer is not destroyed, you can return 1 destroyed model (excluding **CHARACTERS**) to the bearer’s unit."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 Terminator’s storm bolter can be replaced with one of the following:\n◦ 1 incinerator\n◦ 1 psilencer\n◦ 1 psycannon",
+    "■ 1 Terminator can have its storm bolter replaced with 1 Apothecary’s narthecium.",
+    "■ 1 Terminator’s storm bolter can be replaced with one of the following:\n◦ 1 incinerator and 1 Ancient’s banner\n◦ 1 psilencer and 1 Ancient’s banner\n◦ 1 psycannon and 1 Ancient’s banner\n◦ 1 storm bolter and 1 Ancient’s banner*\n* *That model’s storm bolter cannot be replaced.*"
+  ],
+  "unit_composition": "■ **1 Justicar**\n■ **3-9 Terminators**\n\n**Every model is equipped with:** storm bolter; Nemesis force weapon.\nModel Name Count Points\nAncient\nJusticar\nTerminator\n1\n1\n2\n160\nAncient\nJusticar\nTerminator\n0\n1\n5-7\n320\nAncient\nJusticar\nTerminator\n1\n1\n4-6\n320\nAncient\nJusticar\nTerminator\n0\n1\n8-9\n400\nAncient\nJusticar\nTerminator\n1\n1\n7-8\n400\nAncient\nJusticar\nTerminator\n0\n1\n3\n160\nAncient\nJusticar\nTerminator\n0\n1\n4\n200\nAncient\nJusticar\nTerminator\n1\n1\n3\n200",
+  "unit_composition_table": [
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "1\n1\n2",
+      "points": "160"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "0\n1\n5-7",
+      "points": "320"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "1\n1\n4-6",
+      "points": "320"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "0\n1\n8-9",
+      "points": "400"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "1\n1\n7-8",
+      "points": "400"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "0\n1\n3",
+      "points": "160"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "0\n1\n4",
+      "points": "200"
+    },
+    {
+      "model": "Ancient\nJusticar\nTerminator",
+      "count": "1\n1\n3",
+      "points": "200"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Grand Master",
+      "id": "VEHzz3tUSmY"
+    },
+    {
+      "name": "Brother-Captain",
+      "id": "5_cw7RPwBhs"
+    },
+    {
+      "name": "Brotherhood Librarian",
+      "id": "dmdwrU2B9-Y"
+    },
+    {
+      "name": "Brotherhood Chaplain",
+      "id": "0_8x9era934"
+    },
+    {
+      "name": "Grand Master Voldus",
+      "id": "7lnQPHQU1no"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Grey Knights",
+    "keywords": "Infantry, Battleline, Psyker, Terminator, Grenades, Imperium, Brotherhood Terminator Squad"
+  },
+  "url": "https://39k.pro/datasheet/CHd5zidA3sg"
+}

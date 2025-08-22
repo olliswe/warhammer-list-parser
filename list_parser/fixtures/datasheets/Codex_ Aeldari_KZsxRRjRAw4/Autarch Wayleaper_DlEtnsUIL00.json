@@ -1,0 +1,177 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "DlEtnsUIL00",
+  "datasheet_name": "Autarch Wayleaper",
+  "characteristics": {
+    "M": "14\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Death spinner",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Dragon fusion gun",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Assault",
+          "Melta 3"
+        ]
+      },
+      {
+        "name": "Dragon fusion pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Assault",
+          "Melta 3",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Reaper launcher — starshot",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy",
+          "Ignores Cover",
+          "Heavy",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Scorpion chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "7",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Banshee blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 3+"
+        ]
+      },
+      {
+        "name": "Star glaive",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Indomitable Strength of Will",
+      "rule": "While this model is leading a unit, each time you spend a Battle Focus token to enable that unit to perform an Agile Manoeuvre, roll one D6: on a 3+, you gain 1 Battle Focus token."
+    },
+    {
+      "name": "Path of Command",
+      "rule": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s star glaive can be replaced with one of the following:\n◦ 1 Banshee blade\n◦ 1 Scorpion chainsword",
+    "■ This model’s shuriken pistol can be replaced with one of the following:\n◦ 1 death spinner\n◦ 1 Dragon fusion gun\n◦ 1 Dragon fusion pistol\n◦ 1 Reaper launcher"
+  ],
+  "unit_composition": "■ **1 Autarch Wayleaper**\n\n**This model is equipped with:** shuriken pistol; star glaive.\nModel Name Count Points\nAutarch Wayleaper\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Autarch Wayleaper",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Character, Aeldari, Jump Pack, Fly, Grenades, Autarch Wayleaper"
+  },
+  "url": "https://39k.pro/datasheet/DlEtnsUIL00"
+}

@@ -1,0 +1,82 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "cYhW1mQC914",
+  "datasheet_name": "Clamavus",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "5+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Autopistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Voice of New Truths",
+      "rule": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+    },
+    {
+      "name": "Scrambler Array",
+      "rule": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Clamavus**\n\n**This model is equipped with:** autopistol; close combat weapon.\nModel Name Count Points\nClamavus\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Clamavus",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Character, Great Devourer, Clamavus"
+  },
+  "url": "https://39k.pro/datasheet/cYhW1mQC914"
+}

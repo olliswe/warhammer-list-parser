@@ -1,0 +1,145 @@
+{
+  "faction": "Codex: Grey Knights",
+  "faction_id": "tK1LWUpSzF4",
+  "datasheet_id": "Gz-QGXXiPQE",
+  "datasheet_name": "Grey Knights Thunderhawk Gunship",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "12",
+    "SV": "2+",
+    "W": "30",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Turbo-laser destructor",
+        "stats": {
+          "range": "96\"",
+          "attacks": "D3+1",
+          "ballistic_skill": "3+",
+          "strength": "20",
+          "armour_penetration": "-4",
+          "damage": "D6+6"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Thunderhawk heavy cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+6",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Hellstrike missile battery",
+        "stats": {
+          "range": "72\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Anti-fly 4+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Aerial Assault",
+      "rule": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Thunderhawk Cluster Bombs",
+      "rule": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Thunderhawk Cluster Bombs",
+      "rule": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Thunderhawk heavy cannon can be replaced with 1 turbo-laser destructor.",
+    "■ This model’s Thunderhawk cluster bombs can be replaced with 1 hellstrike missile battery."
+  ],
+  "unit_composition": "■ **1 Grey Knights Thunderhawk Gunship**\n\n**This model is equipped with:** 2 lascannons; Thunderhawk heavy cannon; 4 twin heavy bolters; armoured hull; Thunderhawk cluster bombs.\nModel Name Count Points\nGrey Knights Thunderhawk Gunship\n1\n805",
+  "unit_composition_table": [
+    {
+      "model": "Grey Knights Thunderhawk Gunship",
+      "count": "1",
+      "points": "805"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Grey Knights",
+    "keywords": "Vehicle, Titanic, Fly, Aircraft, Transport, Imperium, Thunderhawk Gunship"
+  },
+  "url": "https://39k.pro/datasheet/Gz-QGXXiPQE"
+}

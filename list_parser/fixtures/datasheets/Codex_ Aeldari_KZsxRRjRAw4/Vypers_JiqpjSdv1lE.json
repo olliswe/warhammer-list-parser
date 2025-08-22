@@ -1,0 +1,148 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "JiqpjSdv1lE",
+  "datasheet_name": "Vypers",
+  "characteristics": {
+    "M": "14\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "6",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Missile launcher — sunburst",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Bright lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Scatter laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Starcannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Twin shuriken catapult",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Wraithbone hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Harassment Fire",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their shuriken cannon replaced with one of the following:\n◦ 1 missile launcher\n◦ 1 bright lance\n◦ 1 scatter laser\n◦ 1 starcannon"
+  ],
+  "unit_composition": "■ **1-2 Vypers**\n\n**Every model is equipped with:** shuriken cannon; twin shuriken catapult; wraithbone hull.\nModel Name Count Points\nVyper\n1\n65\nVyper\n2\n130",
+  "unit_composition_table": [
+    {
+      "model": "Vyper",
+      "count": "1",
+      "points": "65"
+    },
+    {
+      "model": "Vyper",
+      "count": "2",
+      "points": "130"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Vehicle, Aeldari, Fly, Vypers"
+  },
+  "url": "https://39k.pro/datasheet/JiqpjSdv1lE"
+}

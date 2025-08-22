@@ -1,0 +1,171 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "vMlYo2ERkVw",
+  "datasheet_id": "I3YwFU5rBTQ",
+  "datasheet_name": "Inquisitorial Chimera",
+  "characteristics": {
+    "M": "10\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "11",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Multi-laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Lasgun array",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 6"
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Firing Deck 2",
+      "rule": ""
+    },
+    {
+      "name": "Rapid Deployment",
+      "rule": "Units can disembark from this **TRANSPORT** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s heavy bolter can be replaced with 1 heavy flamer.",
+    "■ This model’s multi‐laser can be replaced with one of the following:\n◦ 1 heavy bolter*\n◦ 1 heavy flamer*\n\n*This weapon cannot be replaced.",
+    "■ This model can be equipped with one of the following:\n◦ 1 heavy stubber\n◦ 1 storm bolter",
+    "■ This model can be equipped with 1 hunter‐killer missile."
+  ],
+  "unit_composition": "■ **1 Inquisitorial Chimera**\n\n**This model is equipped with:** multi‐laser; heavy bolter; lasgun array; armoured tracks.\nModel Name Count Points\nInquisitorial Chimera\n1\n70\nInquisitorial Chimera\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Inquisitorial Chimera",
+      "count": "1",
+      "points": "70"
+    },
+    {
+      "model": "Inquisitorial Chimera",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Agents of the Imperium",
+    "keywords": "Vehicle, Smoke, Transport, Dedicated Transport, Imperium, Inquisitorial Chimera"
+  },
+  "url": "https://39k.pro/datasheet/I3YwFU5rBTQ"
+}

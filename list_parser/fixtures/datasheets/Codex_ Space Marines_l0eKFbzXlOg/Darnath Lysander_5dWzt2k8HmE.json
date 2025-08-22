@@ -1,0 +1,73 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "5dWzt2k8HmE",
+  "datasheet_name": "Darnath Lysander",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Fist of Dorn",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Rampart",
+      "rule": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Icon of Obstinacy",
+      "rule": "While this model is leading a unit, each time an attack targets that unit, if the Strength characteristic of that attack is greater than or equal to the Toughness characteristic of that unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Inspiring Commander",
+      "rule": "If you include this model in your army, until the end of the battle, non-**CHARACTER** models in **TERMINATOR ASSAULT SQUAD** and **TERMINATOR SQUAD** units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Darnath Lysander – EPIC HERO**\n\n**This model is equipped with:** Fist of Dorn.\nModel Name Count Points\nDarnath Lysander\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Darnath Lysander",
+      "count": "1",
+      "points": "100"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Imperial Fists",
+    "keywords": "Infantry, Character, Epic Hero, Imperium, Terminator, Captain, Darnath Lysander"
+  },
+  "url": "https://39k.pro/datasheet/5dWzt2k8HmE"
+}

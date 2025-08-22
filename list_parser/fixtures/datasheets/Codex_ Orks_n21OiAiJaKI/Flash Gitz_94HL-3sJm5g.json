@@ -1,0 +1,87 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "94HL-3sJm5g",
+  "datasheet_name": "Flash Gitz",
+  "characteristics": {
+    "M": "6\"",
+    "T": "5",
+    "SV": "4+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Snazzgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "5+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Heavy"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Choppa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Gun-crazy Show-offs",
+      "rule": "Each time a model in this unit targets the closest eligible target with its snazzgun, until the end of the phase, that weapon has an Attacks characteristic of 4."
+    },
+    {
+      "name": "Ammo Runt",
+      "rule": "Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability.\n\n***Designer’s Note**: Place an Ammo Runt token next to the unit, removing it after this ability has been used.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Ammo Runt",
+      "rule": "Once per battle, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** ability.\n\n***Designer’s Note**: Place an Ammo Runt token next to the unit, removing it after this ability has been used.*"
+    }
+  ],
+  "wargear_options": [
+    "■ This unit can be equipped with 1 ammo runt."
+  ],
+  "unit_composition": "■ **1 Kaptin**\n■ **4-9 Flash Gitz**\n\n**Every model is equipped with:** snazzgun; choppa.\nModel Name Count Points\nFlash Git\nKaptin\n4\n1\n80\nFlash Git\nKaptin\n4-9\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Flash Git\nKaptin",
+      "count": "4\n1",
+      "points": "80"
+    },
+    {
+      "model": "Flash Git\nKaptin",
+      "count": "4-9\n1",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Infantry, Grenades, Flash Gitz"
+  },
+  "url": "https://39k.pro/datasheet/94HL-3sJm5g"
+}

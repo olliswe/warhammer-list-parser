@@ -1,0 +1,98 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "hWKlQIlrDHo",
+  "datasheet_id": "U9EStsnFe6g",
+  "datasheet_name": "Prosecutors",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "1",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Purity of Execution",
+      "rule": "Each time a model in this unit makes a ranged attack that targets a **PSYKER** unit, that attack has the **[PRECISION]** and **[DEVASTATING WOUNDS]** abilities."
+    },
+    {
+      "name": "Daughters of the Abyss",
+      "rule": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Prosecutor Sister Superior**\n■ **3-9 Prosecutors**\n\n**Every model is equipped with**: boltgun; close combat weapon.\nModel Name Count Points\nProsecutor\nProsecutor Sister Superior\n9\n1\n100\nProsecutor\nProsecutor Sister Superior\n5-8\n1\n90\nProsecutor\nProsecutor Sister Superior\n3\n1\n40\nProsecutor\nProsecutor Sister Superior\n4\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Prosecutor\nProsecutor Sister Superior",
+      "count": "9\n1",
+      "points": "100"
+    },
+    {
+      "model": "Prosecutor\nProsecutor Sister Superior",
+      "count": "5-8\n1",
+      "points": "90"
+    },
+    {
+      "model": "Prosecutor\nProsecutor Sister Superior",
+      "count": "3\n1",
+      "points": "40"
+    },
+    {
+      "model": "Prosecutor\nProsecutor Sister Superior",
+      "count": "4\n1",
+      "points": "50"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Knight-Centura",
+      "id": "-aODvXcpA_Q"
+    },
+    {
+      "name": "Aleya",
+      "id": "k0LgwOagcj4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Custodes",
+    "keywords": "Infantry, Imperium, Anathema Psykana, Prosecutors"
+  },
+  "url": "https://39k.pro/datasheet/U9EStsnFe6g"
+}

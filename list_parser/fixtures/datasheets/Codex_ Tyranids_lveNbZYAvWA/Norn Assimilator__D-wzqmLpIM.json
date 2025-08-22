@@ -1,0 +1,92 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "_D-wzqmLpIM",
+  "datasheet_name": "Norn Assimilator",
+  "characteristics": {
+    "M": "10\"",
+    "T": "11",
+    "SV": "2+",
+    "W": "16",
+    "LD": "7+",
+    "OC": "5"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Toxinjector Harpoon",
+        "stats": {
+          "range": "12\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Harpooned"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Monstrous scything talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Toxinjector Harpoon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Harpoon Barbs",
+      "rule": "Once per turn, when an enemy unit within Engagement Range of this model is selected to Fall Back, roll one D6: on a 2+, that unit suffers D6 mortal wounds."
+    },
+    {
+      "name": "Singular Purpose",
+      "rule": "At the start of the first battle round, select one of the following:\n\n■ Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.\n■ Select one objective marker. Until the end of the battle, while this model is within range of that objective marker, it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Norn Assimilator**\n\n**This model is equipped with:** toxinjector harpoon; monstrous scything talons.\nModel Name Count Points\nNorn Assimilator\n1\n275",
+  "unit_composition_table": [
+    {
+      "model": "Norn Assimilator",
+      "count": "1",
+      "points": "275"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Great Devourer, Harvester, Synapse, Norn Assimilator"
+  },
+  "url": "https://39k.pro/datasheet/_D-wzqmLpIM"
+}

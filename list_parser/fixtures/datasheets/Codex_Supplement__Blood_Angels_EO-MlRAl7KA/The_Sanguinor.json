@@ -1,0 +1,72 @@
+{
+  "faction": "Codex Supplement: Blood Angels",
+  "faction_id": "EO-MlRAl7KA",
+  "datasheet_name": "The Sanguinor",
+  "characteristics": {
+    "M": "12\"",
+    "T": "4",
+    "SV": "2+",
+    "W": "7",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Encarmine broadsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Miraculous Saviour",
+      "rule": "Once per battle, at the end of your opponent’s Charge phase, if this model is still in Reserves, you can select one enemy unit that made a Charge move this phase. Set this model up on the battlefield within Engagement Range of that enemy unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Aura of Fervour",
+      "rule": "While a friendly **ADEPTUS ASTARTES** unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 The Sanguinor – EPIC HERO**\n\n**This model is equipped with:** encarmine broadsword.\nModel Name Count Points\nThe Sanguinor\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "The Sanguinor",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Blood Angels",
+    "keywords": "Infantry, Character, Epic Hero, Fly, Jump Pack, Imperium, Tacticus, The Sanguinor"
+  },
+  "url": "https://39k.pro/datasheet/kdGrInyeqNc"
+}

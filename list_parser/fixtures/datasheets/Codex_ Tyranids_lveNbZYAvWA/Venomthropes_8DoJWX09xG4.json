@@ -1,0 +1,66 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "8DoJWX09xG4",
+  "datasheet_name": "Venomthropes",
+  "characteristics": {
+    "M": "6\"",
+    "T": "5",
+    "SV": "4+",
+    "W": "3",
+    "LD": "8+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Toxic lashes",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 2+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Foul Spores",
+      "rule": "While a friendly **TYRANIDS** unit is within 6\" of this unit, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack. In addition, while a friendly **TYRANIDS** unit (excluding **MONSTERS**) is within 6\" of this unit, models in that unit have the Stealth ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Venomthropes**\n\n**Every model is equipped with:** toxic lashes.\nModel Name Count Points\nVenomthrope\n4-6\n140\nVenomthrope\n3\n70",
+  "unit_composition_table": [
+    {
+      "model": "Venomthrope",
+      "count": "4-6",
+      "points": "140"
+    },
+    {
+      "model": "Venomthrope",
+      "count": "3",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Fly, Great Devourer, Venomthropes"
+  },
+  "url": "https://39k.pro/datasheet/8DoJWX09xG4"
+}

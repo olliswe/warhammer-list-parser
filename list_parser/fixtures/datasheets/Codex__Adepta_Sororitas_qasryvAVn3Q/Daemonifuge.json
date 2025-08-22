@@ -1,0 +1,102 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_name": "Daemonifuge",
+  "characteristics": {
+    "M": "8\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "The Outcast’s Weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Precision"
+        ]
+      },
+      {
+        "name": "Sanctity",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-chaos 2+",
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Mysterious Saviours",
+      "rule": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "name": "Holy Judgement",
+      "rule": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to this unit’s Ephrael Stern model. That unit must take a Battle-shock test, subtracting 2 from the result if it is a **CHAOS** unit. If the test is failed, that enemy unit suffers 3 mortal wounds."
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ephrael Stern – EPIC HERO**\n■ **1 Kyganil of the Bloody Tears – EPIC HERO**\n\n**Ephrael Stern is equipped with:** bolt pistol; Sanctity.\n**Kyganil of the Bloody Tears is equipped with:** the Outcast’s Weapons.\nModel Name Count Points\nKyganil of the Bloody Tears\nEphrael Stern\n1\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Kyganil of the Bloody Tears\nEphrael Stern",
+      "count": "1\n1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Infantry, Grenades, Character, Epic Hero, Imperium, Daemonifuge"
+  },
+  "url": "https://39k.pro/datasheet/DuE5ywnWHXE"
+}

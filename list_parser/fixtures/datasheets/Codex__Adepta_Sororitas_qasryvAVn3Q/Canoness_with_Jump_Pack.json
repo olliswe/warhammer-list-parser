@@ -1,0 +1,111 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_name": "Canoness with Jump Pack",
+  "characteristics": {
+    "M": "12\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Ministorum hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Blessed halberd",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Holy eviscerator",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Sacred Command",
+      "rule": "Once per battle round, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Divine Deliverance",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the **[DEVASTATING WOUNDS]** ability."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s blessed halberd can be replaced with one of the following: \n◦ 1 holy eviscerator\n◦ 1 Ministorum hand flamer and 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Canoness with Jump Pack**\n\n**This model is equipped with:** blessed halberd.\nModel Name Count Points\nCanoness with Jump Pack\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Canoness with Jump Pack",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Infantry, Character, Jump Pack, Fly, Grenades, Imperium, Canoness"
+  },
+  "url": "https://39k.pro/datasheet/VTdabxX1388"
+}

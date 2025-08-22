@@ -1,0 +1,111 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "Avjg21VrELY",
+  "datasheet_name": "Execrator",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "5+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Absolvor bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Pyre pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Crozius arcanum",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "master-crafted power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Remorseless Persecution",
+      "rule": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Condemnatory Annihilation",
+      "rule": "Each time this model’s unit has fought, if one or more enemy units were destroyed as a result of those attacks, each enemy unit within 6\" of this model must take a Battle-shock test."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s absolver bolt pistol can be replaced with 1 pyre pistol.",
+    "■ lf this model is equipped with an absolver bolt pistol, it can be equipped with 1 master-crafted power weapon (this model’s absolver bolt pistol cannot be replaced)."
+  ],
+  "unit_composition": "■ **1 Execrator**\n\n**This model is equipped with:** absolver bolt pistol; crozius arcanum.\nModel Name Count Points\nExecrator\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Execrator",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Black Templars",
+    "keywords": "Infantry, Character, Grenades, Imperium, Tacticus, Chaplain, Execrator"
+  },
+  "url": "https://39k.pro/datasheet/ip3ESVO4EG4"
+}

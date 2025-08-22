@@ -1,0 +1,116 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "It-KcYoeuVE",
+  "datasheet_name": "Beastboss on Squigosaur",
+  "characteristics": {
+    "M": "10\"",
+    "T": "8",
+    "SV": "3+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Thump gun",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D3",
+          "ballistic_skill": "5+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Slugga",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "5+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Beastchoppa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-vehicle 4+",
+          "Anti-monster 4+"
+        ]
+      },
+      {
+        "name": "Squigosaur’s jaws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Extra Attacks",
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Single-minded Predator",
+      "rule": "You can target this model’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Thundering Stampede",
+      "rule": "While this model is leading a unit, add 1 to Charge rolls made for that unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 thump gun."
+  ],
+  "unit_composition": "■ **1 Beastboss on Squigosaur**\n\n**This model is equipped with:** slugga; beastchoppa; squigosaur’s jaws.\nModel Name Count Points\nBeastboss on Squigosaur\n1\n130",
+  "unit_composition_table": [
+    {
+      "model": "Beastboss on Squigosaur",
+      "count": "1",
+      "points": "130"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Mounted, Character, Beast Snagga, Warboss, Beastboss on Squigosaur"
+  },
+  "url": "https://39k.pro/datasheet/It-KcYoeuVE"
+}

@@ -1,0 +1,165 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Wave Serpent",
+  "characteristics": {
+    "M": "14\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "13",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Twin shuriken catapult",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Twin bright lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "🠶 Twin missile launcher — sunburst",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast",
+          "Twin-linked",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin scatter laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Twin shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin starcannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Wraithbone hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Wave Serpent Shield",
+      "rule": "Each time a ranged attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s twin shuriken cannon can be replaced with one of the following:\n◦ 1 twin missile launcher\n◦ 1 twin bright lance\n◦ 1 twin scatter laser\n◦ 1 twin starcannon",
+    "■ This model’s twin shuriken catapult can be replaced with 1 shuriken cannon."
+  ],
+  "unit_composition": "■ **1 Wave Serpent**\n\n**This model is equipped with:** twin shuriken cannon; twin shuriken catapult; wraithbone hull.\nModel Name Count Points\nWave Serpent\n1\n125",
+  "unit_composition_table": [
+    {
+      "model": "Wave Serpent",
+      "count": "1",
+      "points": "125"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Vehicle, Aeldari, Transport, Dedicated Transport, Fly, Wave Serpent"
+  },
+  "url": "https://39k.pro/datasheet/W-crWghVvGA"
+}

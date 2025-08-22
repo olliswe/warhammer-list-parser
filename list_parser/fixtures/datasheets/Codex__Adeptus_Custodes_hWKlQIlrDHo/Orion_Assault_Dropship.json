@@ -1,0 +1,103 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "hWKlQIlrDHo",
+  "datasheet_name": "Orion Assault Dropship",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "12",
+    "SV": "2+",
+    "W": "22",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Twin lastrum bolt cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Spiculus heavy bolt launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6+6",
+          "ballistic_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Arachnus heavy blaze cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "2+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "9",
+          "weapon_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Assault Dropship",
+      "rule": "If a unit disembarks from this **TRANSPORT** before it moves, until the end of the turn, that unit is eligible to charge in a turn in which it Advanced."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Orion Assault Dropship**\n\n**This model is equipped with:** 2 arachnus heavy blaze cannons; 2 twin lastrum bolt cannons; 2 spiculus heavy bolt launchers; armoured hull.\nModel Name Count Points\nOrion Assault Dropship\n1\n690",
+  "unit_composition_table": [
+    {
+      "model": "Orion Assault Dropship",
+      "count": "1",
+      "points": "690"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Custodes",
+    "keywords": "Vehicle, Transport, Aircraft, Fly, Imperium, Orion Assault Dropship"
+  },
+  "url": "https://39k.pro/datasheet/jvWwWG_vzB4"
+}

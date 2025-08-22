@@ -1,0 +1,79 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "nZqCq9SVBco",
+  "datasheet_name": "Ogryn Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "6",
+    "SV": "5+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Ripper gun",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Ripper gun",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Point-blank Barrage",
+      "rule": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ogryn Bone ‘ead**\n■ **2-5 Ogryns**\n\n**Every model is equipped with:** ripper gun.\nModel Name Count Points\nOgryn Bone ’ead\nOgryn\n1\n3-5\n130\nOgryn\nOgryn Bone ’ead\n2\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Ogryn Bone ’ead\nOgryn",
+      "count": "1\n3-5",
+      "points": "130"
+    },
+    {
+      "model": "Ogryn\nOgryn Bone ’ead",
+      "count": "2\n1",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Infantry, Grenades, Imperium, Ogryn, Ogryn Squad"
+  },
+  "url": "https://39k.pro/datasheet/nZqCq9SVBco"
+}

@@ -1,0 +1,222 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "Avjg21VrELY",
+  "datasheet_name": "Crusader Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Neophyte firearm",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Pyreblaster",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Pyre pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Master-crafted power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Righteous Zeal",
+      "rule": "In your opponent’s Shooting phase, each time an enemy unit has shot, if any models in this unit were destroyed as a result of those attacks, this unit can make a Righteous Zeal move. To do so, roll one D6 and add 2 to the result: models in this unit move a number of inches up to this result, but this unit must end that move as close as possible to the closest enemy unit (excluding **AIRCRAFT**). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Righteous Zeal move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Righteous Zeal move per phase."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ For every 10 models in this unit, up to 2 Initiates can each have their bolt rifle replaced with one of the following:\n◦ 1 heavy bolt pistol and 1 power fist\n◦ 1 pyreblaster",
+    "■ Any number of Neophytes can each have their bolt pistol and Astartes chainsword replaced with 1 Neophyte firearm and 1 close combat weapon.",
+    "■ Any number of Initiates can each have their bolt rifle replaced with 1 heavy bolt pistol and 1 Astartes chainsword.",
+    "■ The Sword Brother’s heavy bolt pistol can be replaced with 1 pyre pistol."
+  ],
+  "unit_composition": "■ **1 Primaris Sword Brother**\n■ **5-11 Primaris Initiates**\n■ **4-8 Primaris Neophytes**\n\n**The Primaris Sword Brother is equipped with:** heavy bolt pistol; master-crafted power weapon.\n**Every Primaris Initiate is equipped with:** bolt pistol; bolt rifle; close combat weapon.\n**Every Primaris Neophyte is equipped with:** bolt pistol; Astartes chainsword.\nModel Name Count Points\nSword Brother\nNeophyte\nInitiate\n1\n4\n5\n150\nNeophyte\nSword Brother\nInitiate\n8\n1\n11\n310",
+  "unit_composition_table": [
+    {
+      "model": "Sword Brother\nNeophyte\nInitiate",
+      "count": "1\n4\n5",
+      "points": "150"
+    },
+    {
+      "model": "Neophyte\nSword Brother\nInitiate",
+      "count": "8\n1\n11",
+      "points": "310"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "High Marshal Helbrecht",
+      "id": "ODnGW9WnQZw"
+    },
+    {
+      "name": "Castellan",
+      "id": "Ac0tSpUH_ZI"
+    },
+    {
+      "name": "Emperor’s Champion",
+      "id": "67DGvqyUom0"
+    },
+    {
+      "name": "Execrator",
+      "id": "ip3ESVO4EG4"
+    },
+    {
+      "name": "Marshal",
+      "id": "4V1ClUV33Us"
+    },
+    {
+      "name": "Chaplain Grimaldus",
+      "id": "CaZ2QLCULGw"
+    },
+    {
+      "name": "Crusade Ancient",
+      "id": "d6v2FKC0iCE"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Black Templars",
+    "keywords": "Infantry, Battleline, Grenades, Imperium, Tacticus, Crusader Squad"
+  },
+  "url": "https://39k.pro/datasheet/NyA7PVAwrwI"
+}

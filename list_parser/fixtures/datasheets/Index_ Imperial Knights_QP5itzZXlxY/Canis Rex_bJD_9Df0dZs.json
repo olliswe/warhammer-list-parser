@@ -1,0 +1,98 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "QP5itzZXlxY",
+  "datasheet_id": "bJD_9Df0dZs",
+  "datasheet_name": "Canis Rex",
+  "characteristics": {
+    "M": "10\"",
+    "T": "11",
+    "SV": "3+",
+    "W": "26",
+    "LD": "5+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Chainbreaker multi-laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "🠶 Chainbreaker las-impulsor — high intensity",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2D6",
+          "ballistic_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Blast",
+          "Blast",
+          "Sustained Hits 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Freedom’s Hand — sweep",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "20",
+          "armour_penetration": "-3",
+          "damage": "9"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Legendary Freeblade",
+      "rule": "Once per turn, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Chainbreaker",
+      "rule": "Each time this model makes an attack, an unmodifed successful Hit roll of 5+ scores a Critical Hit."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Canis Rex – EPIC HERO**\n\n**Canis Rex is equipped with:** Chainbreaker las-impulsor; Chainbreaker multi-laser; Freedom’s Hand.\nModel Name Count Points\nCanis Rex\n1\n380",
+  "unit_composition_table": [
+    {
+      "model": "Canis Rex",
+      "count": "1",
+      "points": "380"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Imperial Knights",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Questoris, Character, Epic Hero, Imperium, Canis Rex"
+  },
+  "url": "https://39k.pro/datasheet/bJD_9Df0dZs"
+}

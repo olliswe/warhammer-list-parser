@@ -1,0 +1,135 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "o9E_Nl6OM8c",
+  "datasheet_name": "Infiltrator Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Marksman bolt carbine",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Omni-scramblers",
+      "rule": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this unit."
+    },
+    {
+      "name": "Helix Gauntlet",
+      "rule": "Models in the bearer’s unit have the Feel No Pain 6+ ability."
+    },
+    {
+      "name": "Infiltrator Comms Array",
+      "rule": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Helix Gauntlet",
+      "rule": "Models in the bearer’s unit have the Feel No Pain 6+ ability."
+    },
+    {
+      "name": "Infiltrator Comms Array",
+      "rule": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "wargear_options": [
+    "* These options cannot be taken on the same model.",
+    "■ 1 Infiltrator can be equipped with 1 helix gauntlet.*",
+    "■ 1 Infiltrator can be equipped with 1 Infiltrator comms array.*"
+  ],
+  "unit_composition": "■ **1 Infiltrator Sergeant**\n■ **4-9 Infiltrators**\n\n**Every model is equipped with:** bolt pistol; marksman bolt carbine; close combat weapon.\nModel Name Count Points\nInfiltrator\nInfiltrator Sergeant\n5-9\n1\n200\nInfiltrator\nInfiltrator Sergeant\n4\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Infiltrator\nInfiltrator Sergeant",
+      "count": "5-9\n1",
+      "points": "200"
+    },
+    {
+      "model": "Infiltrator\nInfiltrator Sergeant",
+      "count": "4\n1",
+      "points": "100"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Captain in Phobos Armour",
+      "id": "vqflKSdgTGc"
+    },
+    {
+      "name": "Librarian Xarius",
+      "id": "ekdf4zgE3ro"
+    },
+    {
+      "name": "Lieutenant Solarien",
+      "id": "4_wESD7oJxQ"
+    },
+    {
+      "name": "Librarian in Phobos Armour",
+      "id": "rYFXLH7immA"
+    },
+    {
+      "name": "Lieutenant in Phobos Armour",
+      "id": "6CVVBHU17A4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Grenades, Smoke, Imperium, Phobos, Infiltrator Squad"
+  },
+  "url": "https://39k.pro/datasheet/o9E_Nl6OM8c"
+}

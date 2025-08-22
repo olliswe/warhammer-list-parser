@@ -1,0 +1,187 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "qNxRvemGUIs",
+  "datasheet_name": "Kroot Farstalkers",
+  "characteristics": {
+    "M": "12\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Kroot pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Farstalker firearm",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Dvorgite skinner",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Londaxi tribalest",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "5+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy",
+          "Devastating Wounds",
+          "Anti-vehicle 4+"
+        ]
+      },
+      {
+        "name": "T’au-tech rifle",
+        "stats": {
+          "range": "30\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Ripping fangs",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Ritual blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Bounty Hunters",
+      "rule": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the **[LETHAL HITS]** and **[PRECISION]** abilities."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Pech’ra",
+      "rule": "Ranged weapons equipped by the bearer’s unit have the **[IGNORES COVER]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Pech’ra",
+      "rule": "Ranged weapons equipped by the bearer’s unit have the **[IGNORES COVER]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ The Kroot Kill-broker’s Farstalker firearm can be replaced with 1 T’au-tech rifle.",
+    "■ 1 Kroot Farstalker’s Farstalker firearm can be replaced with one of the following:\n◦ 1 Dvorgite skinner\n◦ 1 Londaxi tribalest",
+    "■ 1 Kroot Farstalker equipped with a Farstalker firearm can be equipped with 1 Pech’ra."
+  ],
+  "unit_composition": "■ **1 Kroot Kill-broker**\n■ **9 Kroot Farstalkers**\n■ **2 Kroot Hounds**\n\n**The Kroot Kill-broker is equipped with:** Farstalker firearm; Kroot pistol; ritual blade.\n**Every Kroot Farstalker is equipped with:** Farstalker firearm; Kroot pistol; close combat weapon.\n**Every Kroot Hound is equipped with:** ripping fangs.\nModel Name Count Points\nKroot Hound\nKroot Farstalker\nKroot Kill-broker\n2\n9\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Kroot Hound\nKroot Farstalker\nKroot Kill-broker",
+      "count": "2\n9\n1",
+      "points": "85"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Kroot Trail Shaper",
+      "id": "Yo41UdZiUdA"
+    },
+    {
+      "name": "Kroot War Shaper",
+      "id": "9OxbFVfnSVM"
+    },
+    {
+      "name": "Kroot Flesh Shaper",
+      "id": "4c_Ovj0LMv0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Infantry, Grenades, Kroot, Farstalkers"
+  },
+  "url": "https://39k.pro/datasheet/qNxRvemGUIs"
+}

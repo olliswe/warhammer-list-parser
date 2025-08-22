@@ -1,0 +1,175 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Wraithlord",
+  "characteristics": {
+    "M": "8\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "10",
+    "LD": "8+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Shuriken catapult",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "🠶 Missile launcher — starshot",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Bright lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Scatter laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Starcannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Ghostglaive — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Wraithbone fists",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fated Hero",
+      "rule": "At the start of the battle, select one of the following keywords: **INFANTRY; MONSTER; MOUNTED; VEHICLE**. Each time this model makes an attack that targets a unit with the selected keyword, re‐roll a Hit roll of 1 and re‐roll a Wound roll of 1."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Psychic Guidance",
+      "rule": "While this model is within 12\"of one or more friendly **AELDARI PSYKER** models, improve the Ballistic Skill and Weapon Skill characteristics of weapons equipped by this model by 1 and it has a Leadership characteristic of 6+."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with up to two of the following:\n◦ 1 missile launcher\n◦ 1 bright lance\n◦ 1 scatter laser\n◦ 1 shuriken cannon\n◦ 1 starcannon",
+    "■ Each of this model’s shuriken catapults can be replaced with 1 flamer.",
+    "■ This model can be equipped with 1 ghostglaive."
+  ],
+  "unit_composition": "■ **1 Wraithlord**\n\n**This model is equipped with:** 2 shuriken catapults; wraithbone fists.\nModel Name Count Points\nWraithlord\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Wraithlord",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Monster, Aeldari, Walker, Wraith Construct, Wraithlord"
+  },
+  "url": "https://39k.pro/datasheet/4ycIfUO-GLI"
+}

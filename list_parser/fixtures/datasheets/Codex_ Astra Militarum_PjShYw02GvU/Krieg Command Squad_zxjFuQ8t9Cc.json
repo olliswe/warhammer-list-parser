@@ -1,0 +1,278 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "zxjFuQ8t9Cc",
+  "datasheet_name": "Krieg Command Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "5+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Plasma pistol — supercharge",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Hazardous",
+          "Pistol",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Laspistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "🠶 Grenade launcher — krak",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Meltagun",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "🠶 Plasma gun — supercharge",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1",
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Lasgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Trench club",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Grim Determination",
+      "rule": "While this unit contains an **OFFICER**, you can target this unit with Stratagems even while it is Battle-shocked and Orders issued to this unit do not cease to affect this unit if it becomes Battle-shocked."
+    },
+    {
+      "name": "Servo-scribes",
+      "rule": "Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order.\n\n**Designer’s Note:** *Place a Servo‐scribes token next to the unit, removing it when this ability has been used.*"
+    },
+    {
+      "name": "Alchemyk Counteragents",
+      "rule": "The bearer’s unit has the Feel No Pain 6+ ability against mortal wounds."
+    },
+    {
+      "name": "Master Vox",
+      "rule": "Each time the **OFFICER** in the bearer’s unit issues an Order, it can issue it to an eligible unit up to 24\" away."
+    },
+    {
+      "name": "Regimental Standard",
+      "rule": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Servo-scribes",
+      "rule": "Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order.\n\n**Designer’s Note:** *Place a Servo‐scribes token next to the unit, removing it when this ability has been used.*"
+    },
+    {
+      "name": "Alchemyk Counteragents",
+      "rule": "The bearer’s unit has the Feel No Pain 6+ ability against mortal wounds."
+    },
+    {
+      "name": "Master Vox",
+      "rule": "Each time the **OFFICER** in the bearer’s unit issues an Order, it can issue it to an eligible unit up to 24\" away."
+    },
+    {
+      "name": "Regimental Standard",
+      "rule": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Veteran Guardsman’s boltgun can be replaced with one of the following:\n◦ 1 flamer\n◦ 1 grenade launcher\n◦ 1 meltagun\n◦ 1 plasma gun",
+    "■ The Lord Commissar’s power weapon can be replaced with 1 power fist.",
+    "■ The Lord Commissar can be equipped with 1 plasma pistol.",
+    "■ 1 Veteran Guardsman not equipped with alchemyk counteragents can replace its laspistol with one of the following:\n◦ 1 bolt pistol\n◦ 1 plasma pistol",
+    "■ 1 Veteran Guardsman’s chainsword can be replaced with one of the following:\n◦ 1 trench club\n◦ 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Lord Commissar**\n■ **5 Veteran Guardsmen**\n\n**The Lord Commissar is equipped with:** laspistol; power weapon.\n**One Veteran Guardsman is equipped with:** laspistol; chainsword.\n**One Veteran Guardsman is equipped with:** laspistol; close combat weapon; alchemyk counteragents; servo‐scribes.\n**One Veteran Guardsman is equipped with:** lasgun; close combat weapon; master vox.\n**One Veteran Guardsman is equipped with:** lasgun; close combat weapon; regimental standard.\n**One Veteran Guardsman is equipped with:** boltgun; close combat weapon.\nModel Name Count Points\nLord Commissar\nVeteran Guardsman\nVeteran Guardsman\nVeteran Guardsman\nVeteran Guardsman\nVeteran Guardsman\n1\n1\n1\n1\n1\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Lord Commissar\nVeteran Guardsman\nVeteran Guardsman\nVeteran Guardsman\nVeteran Guardsman\nVeteran Guardsman",
+      "count": "1\n1\n1\n1\n1\n1",
+      "points": "65"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Infantry, Grenades, Imperium, Platoon, Krieg, Command Squad, Character, Officer"
+  },
+  "url": "https://39k.pro/datasheet/zxjFuQ8t9Cc"
+}

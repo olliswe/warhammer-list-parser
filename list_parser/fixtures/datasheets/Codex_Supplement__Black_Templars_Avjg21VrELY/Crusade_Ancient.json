@@ -1,0 +1,79 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "Avjg21VrELY",
+  "datasheet_name": "Crusade Ancient",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Master-crafted power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Vengeful Exhortation",
+      "rule": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "name": "Martial Honour",
+      "rule": "The first time a model in this model’s unit makes a melee attack that destroys one or more enemy units, until the end of the battle, while this model’s unit is not Battle-shocked, add 5 to this model’s Objective Control characteristic."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Crusade Ancient**\n**This model is equipped with:** bolt pistol; master-crafted power weapon.\nModel Name Count Points\nCrusade Ancient\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Crusade Ancient",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Black Templars",
+    "keywords": "Infantry, Character, Grenades, Imperium, Tacticus, Ancient, Crusade Ancient"
+  },
+  "url": "https://39k.pro/datasheet/d6v2FKC0iCE"
+}

@@ -1,0 +1,129 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "ELDsCKkJGQU",
+  "datasheet_id": "Wsw2GFzMNZM",
+  "datasheet_name": "Thunderwolf Cavalry",
+  "characteristics": {
+    "M": "12\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Wolf Guard weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Teeth and Claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Thunderous Charge",
+      "rule": "Each time a model in this unit makes a melee attack with its Wolf Guard weapon, if it made a Charge move this turn, add 1 to the Damage characteristic of that attack."
+    },
+    {
+      "name": "Storm Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Storm Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 3 models in this unit, one model’s bolt pistol can be replaced with 1 plasma pistol.",
+    "■ Any number of models can each have their bolt pistol replaced with one of the following:\n◦ 1 boltgun\n◦ 1 storm shield"
+  ],
+  "unit_composition": "■ **1 Thunderwolf Cavalry Pack Leader**\n■ **2-5 Thunderwolf Cavalry**\n\n**Every model is equipped with:** bolt pistol; teeth and claws; Wolf Guard weapon.\nModel Name Count Points\nThunderwolf Cavalry Pack Leader\nThunderwolf Cavalry\n1\n2\n100\nThunderwolf Cavalry\nThunderwolf Cavalry Pack Leader\n3-5\n1\n220",
+  "unit_composition_table": [
+    {
+      "model": "Thunderwolf Cavalry Pack Leader\nThunderwolf Cavalry",
+      "count": "1\n2",
+      "points": "100"
+    },
+    {
+      "model": "Thunderwolf Cavalry\nThunderwolf Cavalry Pack Leader",
+      "count": "3-5\n1",
+      "points": "220"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Space Wolves",
+    "keywords": "Mounted, Grenades, Imperium, Thunderwolf Cavalry"
+  },
+  "url": "https://39k.pro/datasheet/Wsw2GFzMNZM"
+}

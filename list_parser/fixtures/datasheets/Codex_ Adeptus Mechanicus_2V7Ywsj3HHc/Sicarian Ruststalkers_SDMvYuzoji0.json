@@ -1,0 +1,101 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "2V7Ywsj3HHc",
+  "datasheet_id": "SDMvYuzoji0",
+  "datasheet_name": "Sicarian Ruststalkers",
+  "characteristics": {
+    "M": "8\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Transonic razor and chordclaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Precision",
+          "Anti-infantry 3+"
+        ]
+      },
+      {
+        "name": "Transonic blades",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      },
+      {
+        "name": "Transonic blades and chordclaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 3+",
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Optimised Gait",
+      "rule": "Add 1 to Advance and Charge rolls made for this unit. While this unit is within 6\" of one or more friendly **ADEPTUS MECHANICUS BATTLELINE** units, add 2 to Advance and Charge rolls made for this unit instead."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of Sicarian Ruststalkers can each have their transonic razor and chordclaw replaced with 1 transonic blades.",
+    "■ The Sicarian Ruststalker Princeps’ transonic razor and chordclaw can be replaced with 1 transonic blades and chordclaw."
+  ],
+  "unit_composition": "■ **1 Sicarian Ruststalker Princeps**\n■ **4-9 Sicarian Ruststalkers**\n\n**Every model is equipped with:** transonic razor and chordclaw.\nModel Name Count Points\nSicarian Ruststalker Princeps\nSicarian Ruststalker\n1\n5-9\n150\nSicarian Ruststalker\nSicarian Ruststalker Princeps\n4\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Sicarian Ruststalker Princeps\nSicarian Ruststalker",
+      "count": "1\n5-9",
+      "points": "150"
+    },
+    {
+      "model": "Sicarian Ruststalker\nSicarian Ruststalker Princeps",
+      "count": "4\n1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Mechanicus",
+    "keywords": "Infantry, Imperium, Skitarii, Sicarian, Ruststalkers"
+  },
+  "url": "https://39k.pro/datasheet/SDMvYuzoji0"
+}

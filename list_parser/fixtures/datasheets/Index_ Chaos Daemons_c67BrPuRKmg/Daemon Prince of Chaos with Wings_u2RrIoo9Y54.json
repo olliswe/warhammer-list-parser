@@ -1,0 +1,80 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "u2RrIoo9Y54",
+  "datasheet_name": "Daemon Prince of Chaos with Wings",
+  "characteristics": {
+    "M": "12\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "10",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Infernal cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Hellforged weapons — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "14",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Malefic Destruction",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model’s hellforged weapons."
+    },
+    {
+      "name": "Harbinger of Death",
+      "rule": "Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model’s hellforged weapons have that ability:\n■ **[LETHAL HITS]**\n■ **[PRECISION]**\n■ **[SUSTAINED HITS 1]**"
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Daemon Prince of Chaos with Wings**\n\n**This model is equipped with:** infernal cannon; hellforged weapons.\nModel Name Count Points\nDaemon Prince of Chaos with Wings\n1\n180",
+  "unit_composition_table": [
+    {
+      "model": "Daemon Prince of Chaos with Wings",
+      "count": "1",
+      "points": "180"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Monster, Character, Fly, Chaos, Daemon Prince of Chaos with Wings, Daemon"
+  },
+  "url": "https://39k.pro/datasheet/u2RrIoo9Y54"
+}

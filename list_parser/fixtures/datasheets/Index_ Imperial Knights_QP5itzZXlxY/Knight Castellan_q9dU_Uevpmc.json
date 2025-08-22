@@ -1,0 +1,141 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "QP5itzZXlxY",
+  "datasheet_id": "q9dU_Uevpmc",
+  "datasheet_name": "Knight Castellan",
+  "characteristics": {
+    "M": "8\"",
+    "T": "12",
+    "SV": "3+",
+    "W": "28",
+    "LD": "6+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Volcano lance",
+        "stats": {
+          "range": "72\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "18",
+          "armour_penetration": "-5",
+          "damage": "D6+8"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Twin meltagun",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Twin siegebreaker cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Blast"
+        ]
+      },
+      {
+        "name": "🠶 Plasma decimator — supercharge",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Hazardous",
+          "Blast",
+          "Blast"
+        ]
+      },
+      {
+        "name": "Shieldbreaker missile launcher",
+        "stats": {
+          "range": "72\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-6",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Anti-titanic 4+",
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Titanic feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Titan Hunter",
+      "rule": "Each time a ranged attack made by this model is allocated to a **MONSTER** or **VEHICLE** model, re-roll a Damage roll of 1."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Ion Aegis",
+      "rule": "While a friendly **ARMIGER** model is within 6\" of this model, that **ARMIGER** model has the Benefit of Cover."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s 2 shieldbreaker missile launchers and twin siegebreaker cannon can be replaced with:\n◦ 1 shieldbreaker missile launcher and 2 twin siegebreaker cannons"
+  ],
+  "unit_composition": "■ **1 Knight Castellan**\n\n**This model is equipped with:** plasma decimator; 2 shieldbreaker missile launchers; 2 twin meltaguns; twin siegebreaker cannon, volcano lance; titanic feet.\nModel Name Count Points\nKnight Castellan\n1\n395",
+  "unit_composition_table": [
+    {
+      "model": "Knight Castellan",
+      "count": "1",
+      "points": "395"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Imperial Knights",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Dominus, Character, Imperium, Knight Castellan"
+  },
+  "url": "https://39k.pro/datasheet/q9dU_Uevpmc"
+}

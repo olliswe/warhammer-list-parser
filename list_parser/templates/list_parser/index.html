@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer Army List Parser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            resize: vertical;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .results {
+            margin-top: 30px;
+            display: none;
+        }
+        .results-layout {
+            display: grid;
+            grid-template-columns: 1fr 500px;
+            gap: 30px;
+            min-height: 400px;
+        }
+        .army-list-view {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .details-panel {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 20px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .details-panel h3 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .details-empty {
+            color: #666;
+            font-style: italic;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section:not(:last-child) {
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 20px;
+        }
+        .section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        .entry-item {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 8px 0;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 14px;
+            line-height: 1.4;
+            white-space: pre-line;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border-left: 4px solid transparent;
+        }
+        .entry-item:hover {
+            background: #e9ecef;
+            border-left-color: #007bff;
+        }
+        .entry-item.selected {
+            background: #e3f2fd;
+            border-left-color: #007bff;
+            box-shadow: 0 2px 8px rgba(0,123,255,0.2);
+        }
+        .entity {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border-left: 4px solid #007bff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .entity a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .entity a:hover {
+            text-decoration: underline;
+        }
+        .entity-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .entity-text {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 13px;
+            line-height: 1.4;
+            margin: 8px 0;
+            white-space: pre-line;
+        }
+        .detail-section {
+            margin-bottom: 20px;
+        }
+        .detail-section h4 {
+            color: #555;
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+        .detail-text {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 13px;
+            line-height: 1.4;
+            margin-bottom: 10px;
+        }
+        .detail-link {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .detail-link:hover {
+            background: #0056b3;
+            color: white;
+            text-decoration: none;
+        }
+        .detail-iframe {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        .iframe-container {
+            position: relative;
+        }
+        .iframe-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-style: italic;
+            color: #666;
+        }
+        .points {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .supplement-badge {
+            background: #ffc107;
+            color: #212529;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+        .warlord-badge {
+            background: #dc3545;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+        .count-badge {
+            background: #6c757d;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+        .error {
+            color: #dc3545;
+            background-color: #f8d7da;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        .loading {
+            text-align: center;
+            color: #666;
+            margin-top: 20px;
+        }
+        .characteristics-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        .characteristics-table th,
+        .characteristics-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .characteristics-table th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #555;
+        }
+        .weapons-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            font-size: 12px;
+        }
+        .weapons-table th,
+        .weapons-table td {
+            border: 1px solid #ddd;
+            padding: 6px 4px;
+            text-align: center;
+        }
+        .weapons-table th {
+            background-color: #f8f9fa;
+            font-weight: bold;
+            color: #555;
+        }
+        .weapons-table td:first-child {
+            text-align: left;
+            font-weight: 500;
+        }
+        .cta-top {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Warhammer Army List Parser</h1>
+        
+        <form id="armyListForm">
+            <div class="form-group">
+                <label for="armyList">Army List Text:</label>
+                <textarea id="armyList" name="army_list" placeholder="Paste your army list here..." required></textarea>
+            </div>
+            <button type="submit" id="submitBtn">Parse Army List</button>
+        </form>
+
+        <div id="loading" class="loading" style="display: none;">
+            Parsing army list...
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="results" class="results">
+            <div class="results-layout">
+                <div class="army-list-view">
+                    <h2>Army List</h2>
+                    
+                    <div class="section">
+                        <h3>Factions</h3>
+                        <div id="factions"></div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3>Detachment</h3>
+                        <div id="detachment"></div>
+                    </div>
+                    
+                    <div class="section">
+                        <h3>Units</h3>
+                        <div id="datasheets"></div>
+                    </div>
+                </div>
+                
+                <div class="details-panel">
+                    <h3>Details</h3>
+                    <div id="details-content">
+                        <div class="details-empty">
+                            Click on an item to view details
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('armyListForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const armyList = document.getElementById('armyList').value;
+            const submitBtn = document.getElementById('submitBtn');
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const results = document.getElementById('results');
+            
+            // Reset UI
+            error.style.display = 'none';
+            results.style.display = 'none';
+            loading.style.display = 'block';
+            submitBtn.disabled = true;
+            
+            try {
+                const response = await fetch('/api/detect-entities/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ army_list: armyList })
+                });
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'An error occurred');
+                }
+                
+                // Display results
+                displayFactions(data.factions);
+                displayDetachment(data.detachment);
+                displayDatasheets(data.datasheets);
+                
+                results.style.display = 'block';
+                
+            } catch (err) {
+                error.textContent = err.message;
+                error.style.display = 'block';
+            } finally {
+                loading.style.display = 'none';
+                submitBtn.disabled = false;
+            }
+        });
+        
+        async function showDetails(entity) {
+            const detailsContent = document.getElementById('details-content');
+            
+            // Clear previous selection
+            document.querySelectorAll('.entry-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+            
+            if (entity.type === 'datasheet' && entity.datasheet_id) {
+                // Fetch datasheet details from our API
+                detailsContent.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading datasheet details...</div>';
+                
+                try {
+                    const response = await fetch(`/api/datasheet/${entity.datasheet_id}/`);
+                    const datasheetData = await response.json();
+                    
+                    if (response.ok) {
+                        displayDatasheetDetails(datasheetData);
+                    } else {
+                        detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet: ${datasheetData.error}</div>`;
+                    }
+                } catch (error) {
+                    detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet details</div>`;
+                }
+            } else if (entity.type === 'faction' && entity.faction_id) {
+                // Fetch faction details from our API
+                detailsContent.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading faction details...</div>';
+                
+                try {
+                    const response = await fetch(`/api/faction/${entity.faction_id}/`);
+                    const factionData = await response.json();
+                    
+                    if (response.ok) {
+                        displayFactionDetails(factionData, entity.url);
+                    } else {
+                        detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading faction: ${factionData.error}</div>`;
+                    }
+                } catch (error) {
+                    detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading faction details</div>`;
+                }
+            } else if (entity.type === 'detachment' && entity.detachment_id) {
+                // Fetch detachment details from our API
+                detailsContent.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading detachment details...</div>';
+                
+                try {
+                    const response = await fetch(`/api/detachment/${entity.detachment_id}/`);
+                    const detachmentData = await response.json();
+                    
+                    if (response.ok) {
+                        displayDetachmentDetails(detachmentData, entity.url);
+                    } else {
+                        detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading detachment: ${detachmentData.error}</div>`;
+                    }
+                } catch (error) {
+                    detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading detachment details</div>`;
+                }
+            } else {
+                // Fallback for items without detailed data
+                let html = `
+                    <div class="detail-section">
+                        <h4>${entity.name}</h4>
+                        ${entity.badges ? `<div style="margin-bottom: 10px;">${entity.badges}</div>` : ''}
+                    </div>
+                `;
+                
+                if (entity.url) {
+                    html += `
+                        <div class="detail-section">
+                            <a href="${entity.url}" target="_blank" class="detail-link">
+                                View Full Details →
+                            </a>
+                        </div>
+                    `;
+                }
+                
+                detailsContent.innerHTML = html;
+            }
+        }
+        
+        function displayDatasheetDetails(datasheet) {
+            const detailsContent = document.getElementById('details-content');
+            
+            let html = '';
+            
+            // CTA Link at the top
+            if (datasheet.url) {
+                html += `
+                    <div class="cta-top">
+                        <a href="${datasheet.url}" target="_blank" class="detail-link">
+                            View on 39K Pro →
+                        </a>
+                    </div>
+                `;
+            }
+            
+            html += `
+                <div class="detail-section">
+                    <h4>${datasheet.datasheet_name}</h4>
+                    <p><strong>Faction:</strong> ${datasheet.faction}</p>
+                </div>
+            `;
+            
+            // Characteristics Table
+            if (datasheet.characteristics) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Characteristics</h4>
+                        <table class="characteristics-table">
+                            <thead>
+                                <tr>
+                                    <th>M</th>
+                                    <th>T</th>
+                                    <th>SV</th>
+                                    <th>W</th>
+                                    <th>LD</th>
+                                    <th>OC</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>${datasheet.characteristics.M}</td>
+                                    <td>${datasheet.characteristics.T}</td>
+                                    <td>${datasheet.characteristics.SV}</td>
+                                    <td>${datasheet.characteristics.W}</td>
+                                    <td>${datasheet.characteristics.LD}</td>
+                                    <td>${datasheet.characteristics.OC}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            }
+            
+            // Weapons Tables
+            if (datasheet.weapons && (datasheet.weapons.ranged?.length > 0 || datasheet.weapons.melee?.length > 0)) {
+                html += `<div class="detail-section"><h4>Weapons</h4>`;
+                
+                if (datasheet.weapons.ranged?.length > 0) {
+                    html += `
+                        <h5 style="margin-bottom: 8px; color: #666;">Ranged Weapons</h5>
+                        <table class="weapons-table">
+                            <thead>
+                                <tr>
+                                    <th>Weapon</th>
+                                    <th>Range</th>
+                                    <th>A</th>
+                                    <th>BS</th>
+                                    <th>S</th>
+                                    <th>AP</th>
+                                    <th>D</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    `;
+                    datasheet.weapons.ranged.forEach(weapon => {
+                        html += `
+                            <tr>
+                                <td>${weapon.name}</td>
+                                <td>${weapon.stats.range}</td>
+                                <td>${weapon.stats.attacks}</td>
+                                <td>${weapon.stats.ballistic_skill}</td>
+                                <td>${weapon.stats.strength}</td>
+                                <td>${weapon.stats.armour_penetration}</td>
+                                <td>${weapon.stats.damage}</td>
+                            </tr>
+                        `;
+                    });
+                    html += `
+                            </tbody>
+                        </table>
+                    `;
+                }
+                
+                if (datasheet.weapons.melee?.length > 0) {
+                    html += `
+                        <h5 style="margin-bottom: 8px; color: #666; margin-top: 15px;">Melee Weapons</h5>
+                        <table class="weapons-table">
+                            <thead>
+                                <tr>
+                                    <th>Weapon</th>
+                                    <th>Range</th>
+                                    <th>A</th>
+                                    <th>WS</th>
+                                    <th>S</th>
+                                    <th>AP</th>
+                                    <th>D</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    `;
+                    datasheet.weapons.melee.forEach(weapon => {
+                        html += `
+                            <tr>
+                                <td>${weapon.name}</td>
+                                <td>${weapon.stats.range}</td>
+                                <td>${weapon.stats.attacks}</td>
+                                <td>${weapon.stats.weapon_skill}</td>
+                                <td>${weapon.stats.strength}</td>
+                                <td>${weapon.stats.armour_penetration}</td>
+                                <td>${weapon.stats.damage}</td>
+                            </tr>
+                        `;
+                    });
+                    html += `
+                            </tbody>
+                        </table>
+                    `;
+                }
+                
+                html += `</div>`;
+            }
+            
+            // Abilities
+            if (datasheet.abilities?.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Abilities</h4>
+                `;
+                datasheet.abilities.forEach(ability => {
+                    if (ability.name && ability.rule) {
+                        html += `<div class="detail-text"><strong>${ability.name}:</strong> ${ability.rule}</div>`;
+                    }
+                });
+                html += `</div>`;
+            }
+            
+            // Unit Composition
+            if (datasheet.unit_composition_table?.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Unit Composition & Points</h4>
+                `;
+                datasheet.unit_composition_table.forEach(unit => {
+                    html += `<div class="detail-text">${unit.model}: ${unit.count} model(s) - <span class="points">${unit.points} points</span></div>`;
+                });
+                html += `</div>`;
+            }
+            
+            detailsContent.innerHTML = html;
+        }
+        
+        function displayFactionDetails(faction, url) {
+            const detailsContent = document.getElementById('details-content');
+            
+            let html = '';
+            
+            // CTA Link at the top
+            if (url) {
+                html += `
+                    <div class="cta-top">
+                        <a href="${url}" target="_blank" class="detail-link">
+                            View on 39K Pro →
+                        </a>
+                    </div>
+                `;
+            }
+            
+            html += `
+                <div class="detail-section">
+                    <h4>${faction.faction}</h4>
+                </div>
+            `;
+            
+            // Faction Rules
+            if (faction.rules && faction.rules.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Faction Rules</h4>
+                `;
+                faction.rules.forEach(rule => {
+                    html += `
+                        <div style="margin-bottom: 15px;">
+                            <h5 style="color: #555; margin-bottom: 8px;">${rule.rules_name}</h5>
+                            <div class="detail-text">${rule.rules_content.replace(/\n/g, '<br>')}</div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+            
+            detailsContent.innerHTML = html;
+        }
+        
+        function displayDetachmentDetails(detachment, url) {
+            const detailsContent = document.getElementById('details-content');
+            
+            let html = '';
+            
+            // CTA Link at the top
+            if (url) {
+                html += `
+                    <div class="cta-top">
+                        <a href="${url}" target="_blank" class="detail-link">
+                            View on 39K Pro →
+                        </a>
+                    </div>
+                `;
+            }
+            
+            html += `
+                <div class="detail-section">
+                    <h4>${detachment.detachment_name}</h4>
+                    <p><strong>Faction:</strong> ${detachment.faction_name}</p>
+                </div>
+            `;
+            
+            // Detachment Rules
+            if (detachment.rules && detachment.rules.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Detachment Rules</h4>
+                `;
+                detachment.rules.forEach(rule => {
+                    html += `<div class="detail-text">${rule.text}</div>`;
+                });
+                html += `</div>`;
+            }
+            
+            // Enhancements
+            if (detachment.enhancements && detachment.enhancements.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Enhancements</h4>
+                `;
+                detachment.enhancements.forEach(enhancement => {
+                    html += `
+                        <div style="margin-bottom: 12px;">
+                            <h5 style="color: #555; margin-bottom: 4px;">${enhancement.name}</h5>
+                            <div class="detail-text">${enhancement.text.replace(/\n/g, '<br>')}</div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+            
+            // Stratagems
+            if (detachment.stratagems && detachment.stratagems.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Stratagems</h4>
+                `;
+                detachment.stratagems.forEach(stratagem => {
+                    html += `
+                        <div style="margin-bottom: 12px;">
+                            <h5 style="color: #555; margin-bottom: 4px;">${stratagem.name}</h5>
+                            <div class="detail-text">${stratagem.text.replace(/\n/g, '<br>')}</div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+            
+            detailsContent.innerHTML = html;
+        }
+        
+        function createEntryItem(entity) {
+            const div = document.createElement('div');
+            div.className = 'entry-item';
+            
+            // Add tooltip for datasheets showing the parsed name
+            if (entity.type === 'datasheet' && entity.name) {
+                div.title = `Datasheet: ${entity.name}`;
+            }
+            
+            // Make clickable to show details
+            div.onclick = () => {
+                div.classList.add('selected');
+                showDetails(entity);
+            };
+            
+            // Format the entry text to highlight points
+            let displayText = entity.entry_text || entity.name;
+            if (entity.entry_text) {
+                displayText = entity.entry_text.replace(/\((\d+)\s*Points?\)/g, (match, points) => {
+                    return `<span class="points">(${points} Points)</span>`;
+                });
+            }
+            
+            div.innerHTML = displayText;
+            return div;
+        }
+        
+        function displayFactions(factions) {
+            const container = document.getElementById('factions');
+            container.innerHTML = '';
+            
+            factions.forEach(faction => {
+                const entity = {
+                    name: faction.faction_name,
+                    entry_text: faction.faction_name,
+                    url: faction.url,
+                    faction_id: faction.faction_id,
+                    badges: faction.is_supplement ? '<span class="supplement-badge">Supplement</span>' : '',
+                    type: 'faction'
+                };
+                
+                container.appendChild(createEntryItem(entity));
+            });
+        }
+        
+        function displayDetachment(detachment) {
+            const container = document.getElementById('detachment');
+            container.innerHTML = '';
+            
+            detachment.forEach(det => {
+                const entity = {
+                    name: det.detachment_name,
+                    entry_text: det.detachment_name,
+                    url: det.url,
+                    detachment_id: det.detachment_id,
+                    type: 'detachment'
+                };
+                
+                container.appendChild(createEntryItem(entity));
+            });
+        }
+        
+        function displayDatasheets(datasheets) {
+            const container = document.getElementById('datasheets');
+            container.innerHTML = '';
+            
+            datasheets.forEach(datasheet => {
+                const isWarlord = datasheet.entry_text && datasheet.entry_text.includes('Warlord');
+                
+                const entity = {
+                    name: datasheet.datasheet_name,
+                    entry_text: datasheet.entry_text,
+                    url: datasheet.url,
+                    datasheet_id: datasheet.datasheet_id,
+                    badges: isWarlord ? '<span class="warlord-badge">Warlord</span>' : '',
+                    type: 'datasheet'
+                };
+                
+                container.appendChild(createEntryItem(entity));
+            });
+        }
+    </script>
+</body>
+</html>

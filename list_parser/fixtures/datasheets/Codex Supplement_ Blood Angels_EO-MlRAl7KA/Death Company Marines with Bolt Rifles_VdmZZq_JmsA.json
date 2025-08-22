@@ -1,0 +1,233 @@
+{
+  "faction": "Codex Supplement: Blood Angels",
+  "faction_id": "EO-MlRAl7KA",
+  "datasheet_id": "VdmZZq_JmsA",
+  "datasheet_name": "Death Company Marines with Bolt Rifles",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Inferno pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Melta 2",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Astartes grenade launcher — krak",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Eviscerator",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Thunder hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Visions of Heresy",
+      "rule": "Once per turn, you can target this unit with the Fire Overwatch or the Heroic Intervention Stratagem for 0CP. While resolving that Stratagem, each time a model in this unit makes a ranged attack you can re‐roll the Hit roll, or you can re‐roll the Charge roll made for this unit (whichever applies)."
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Black Rage",
+      "rule": "Each time this model makes a melee attack, you can re‐roll the Hit roll. While this model’s unit is not within 6\" of one or more friendly **BLOOD ANGELS CHARACTER** models, or 12\" of one or more friendly **CHAPLAIN** models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ 1 model’s bolt rifle can be replaced with one of the following:\n◦ 1 Astartes chainsword\n◦ 1 hand flamer\n◦ 1 inferno pistol\n◦ 1 plasma pistol",
+    "■ For every 5 models in this unit, 1 model’s bolt rifle and close combat weapon can be replaced with 1 eviscerator.",
+    "■ For every 5 models in this unit, 1 model equipped with a bolt rifle can be equipped with 1 Astartes grenade launcher.",
+    "■ 1 model’s close combat weapon can be replaced with one of the following:\n◦ 1 Astartes chainsword\n◦ 1 power fist\n◦ 1 power weapon\n◦ 1 thunder hammer"
+  ],
+  "unit_composition": "■ **5-10 Death Company Intercessors with Bolt Rifles**\n\n**Every model is equipped with:** bolt pistol; bolt rifle; close combat weapon.\nModel Name Count Points\nDeath Company Marine with Bolt Rifle\n5\n85\nDeath Company Marine with Bolt Rifle\n6-10\n160",
+  "unit_composition_table": [
+    {
+      "model": "Death Company Marine with Bolt Rifle",
+      "count": "5",
+      "points": "85"
+    },
+    {
+      "model": "Death Company Marine with Bolt Rifle",
+      "count": "6-10",
+      "points": "160"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Death Company Captain",
+      "id": "DJsTeSE4Vn8"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Blood Angels",
+    "keywords": "Infantry, Grenades, Imperium, Tacticus, Death Company, Death Company Marines with Bolt Rifles"
+  },
+  "url": "https://39k.pro/datasheet/VdmZZq_JmsA"
+}

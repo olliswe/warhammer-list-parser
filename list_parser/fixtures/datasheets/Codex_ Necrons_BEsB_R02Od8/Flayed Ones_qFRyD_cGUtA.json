@@ -1,0 +1,71 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "qFRyD_cGUtA",
+  "datasheet_name": "Flayed Ones",
+  "characteristics": {
+    "M": "5\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Flayer claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Flesh Hunger",
+      "rule": "Each time a model in this unit makes a melee attack, if the target of that attack is Below Half-strength, a successful Hit roll scores a Critical Hit."
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **5-10 Flayed Ones**\n\n**Every model is equipped with:** flayer claws.\nModel Name Count Points\nFlayed One\n6-10\n120\nFlayed One\n5\n60",
+  "unit_composition_table": [
+    {
+      "model": "Flayed One",
+      "count": "6-10",
+      "points": "120"
+    },
+    {
+      "model": "Flayed One",
+      "count": "5",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Flayed Ones"
+  },
+  "url": "https://39k.pro/datasheet/qFRyD_cGUtA"
+}

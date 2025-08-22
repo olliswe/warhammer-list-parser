@@ -1,0 +1,109 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "v5oDCUihhL4",
+  "datasheet_id": "ZgeIw6OTqc0",
+  "datasheet_name": "Sorcerer",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Pandaemonic Delusion",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Psychic",
+          "Sustained Hits 3"
+        ]
+      },
+      {
+        "name": "Inferno bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Prosperine khopesh",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Twisted Sorceries",
+      "rule": "Once per battle, in your Shooting phase or the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength and Attacks characteristics of Psychic weapons equipped by this model by 3."
+    },
+    {
+      "name": "Empyric Guidance",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 Prosperine khopesh."
+  ],
+  "unit_composition": "■ **1 Sorcerer**\n\n**This model is equipped with:** inferno bolt pistol; Pandaemonic Delusion; force weapon.\nModel Name Count Points\nThousand Sons Sorcerer\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Thousand Sons Sorcerer",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Thousand Sons",
+    "keywords": "Infantry, Character, Psyker, Grenades, Chaos, Tzeentch, Sorcerer"
+  },
+  "url": "https://39k.pro/datasheet/ZgeIw6OTqc0"
+}

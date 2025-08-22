@@ -1,0 +1,97 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "QgfnIzdE-Jo",
+  "datasheet_name": "Librarian",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Smite — focused witchfire",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Psychic",
+          "Hazardous",
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Mental Fortress",
+      "rule": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Psychic Hood",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Librarian**\n\n**This model is equipped with:** bolt pistol; Smite; force weapon.\nModel Name Count Points\nLibrarian\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Librarian",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Character, Grenades, Psyker, Imperium, Tacticus, Librarian"
+  },
+  "url": "https://39k.pro/datasheet/QgfnIzdE-Jo"
+}

@@ -1,0 +1,104 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "q3j285s-LjY",
+  "datasheet_name": "Boomdakka Snazzwagon",
+  "characteristics": {
+    "M": "12\"",
+    "T": "7",
+    "SV": "4+",
+    "W": "9",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Big shoota",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Grot blasta",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Mek speshul",
+        "stats": {
+          "range": "24\"",
+          "attacks": "12",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Assault",
+          "Rapid Fire 4"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Spiked wheels",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Billowing Fumes",
+      "rule": "While an enemy unit (excluding **MONSTERS** and **VEHICLES**) is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Boomdakka Snazzwagon**\n\n**This model is equipped with:** big shoota; grot blasta; Mek speshul; spiked wheels.\nModel Name Count Points\nBoomdakka Snazzwagon\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Boomdakka Snazzwagon",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Vehicle, Grenades, Speed Freeks, Boomdakka Snazzwagon"
+  },
+  "url": "https://39k.pro/datasheet/q3j285s-LjY"
+}

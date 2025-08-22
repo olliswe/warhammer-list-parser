@@ -1,0 +1,99 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "ELDsCKkJGQU",
+  "datasheet_name": "Murderfang",
+  "characteristics": {
+    "M": "9\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Murderclaws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "3+",
+          "strength": "14",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Murder-maker",
+      "rule": "In the Fight phase, each time an attack targets a friendly **WULFEN** unit within 6\" of this model, if a model in that unit is destroyed as a result of that attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Bestial Fury",
+      "rule": "You can re‑roll Advance and Charge rolls made for this model."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **Murderfang – EPIC HERO**\n\n**This model is equipped with:** heavy flamer; storm bolter; Murderclaws.\nModel Name Count Points\nMurderfang\n1\n160",
+  "unit_composition_table": [
+    {
+      "model": "Murderfang",
+      "count": "1",
+      "points": "160"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Space Wolves",
+    "keywords": "Vehicle, Walker, Character, Epic Hero, Imperium, Dreadnought, Wulfen, Murderfang"
+  },
+  "url": "https://39k.pro/datasheet/2I8QhNslfwM"
+}

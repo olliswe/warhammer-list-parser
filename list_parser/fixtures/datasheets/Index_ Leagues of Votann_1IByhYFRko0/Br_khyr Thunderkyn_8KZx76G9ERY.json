@@ -1,0 +1,113 @@
+{
+  "faction": "Index: Leagues of Votann",
+  "faction_id": "1IByhYFRko0",
+  "datasheet_id": "8KZx76G9ERY",
+  "datasheet_name": "Brôkhyr Thunderkyn",
+  "characteristics": {
+    "M": "5\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "SP conversion beamer",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Sustained Hits D3",
+          "Conversion"
+        ]
+      },
+      {
+        "name": "Graviton blast cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Bolt cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Oathband Covering Fire",
+      "rule": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ All models in this unit can each have their bolt cannon replaced with 1 SP conversion beamer.",
+    "■ All models in this unit can each have their bolt cannon replaced with 1 graviton blast cannon."
+  ],
+  "unit_composition": "■ **3-6 Brôkhyr Thunderkyn**\n\n**Every model is equipped with:** bolt cannon; close combat weapon.\nModel Name Count Points\nBrôkhyr Thunderkyn\n4-6\n160\nBrôkhyr Thunderkyn\n3\n80",
+  "unit_composition_table": [
+    {
+      "model": "Brôkhyr Thunderkyn",
+      "count": "4-6",
+      "points": "160"
+    },
+    {
+      "model": "Brôkhyr Thunderkyn",
+      "count": "3",
+      "points": "80"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Brôkhyr Iron-master",
+      "id": "kv7NHxeI7OE"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Leagues of Votann",
+    "keywords": "Infantry, Exo-Frame, Brôkhyr Thunderkyn"
+  },
+  "url": "https://39k.pro/datasheet/8KZx76G9ERY"
+}

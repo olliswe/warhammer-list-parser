@@ -1,0 +1,74 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "nkslpip0o6o",
+  "datasheet_name": "Overlord with Translocation Shroud",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Overlord’s blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "My Will Be Done",
+      "rule": "Once per battle round, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Translocation Shroud",
+      "rule": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit. In addition, each time a model in that unit makes a Normal, Advance or Fall Back move, until that move is finished, it can move horizontally through models and terrain features (it cannot finish a move on top of another model or its base)."
+    },
+    {
+      "name": "Resurrection Orb",
+      "rule": "Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit’s Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resurrect more than one unit per turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Resurrection Orb",
+      "rule": "Once per battle, while the bearer is leading a unit, at the end of any phase, it can resurrect that unit if it is on the battlefield. When you do, that unit’s Reanimation Protocols are activated, reanimating D6 wounds rather than D3 when doing so. You cannot resurrect more than one unit per turn."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Overlord with Translocation Shroud**\n\n**This model is equipped with:** Overlord’s blade; resurrection orb.\nModel Name Count Points\nOverlord with Translocation Shroud\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Overlord with Translocation Shroud",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Character, Noble, Overlord, Overlord with Translocation Shroud"
+  },
+  "url": "https://39k.pro/datasheet/nkslpip0o6o"
+}

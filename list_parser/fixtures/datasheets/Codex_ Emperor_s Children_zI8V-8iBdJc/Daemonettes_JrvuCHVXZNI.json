@@ -1,0 +1,102 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "zI8V-8iBdJc",
+  "datasheet_id": "JrvuCHVXZNI",
+  "datasheet_name": "Daemonettes",
+  "characteristics": {
+    "M": "9\"",
+    "T": "3",
+    "SV": "7+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Slashing claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Horrifying Beauty",
+      "rule": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units from your army with this ability must take a Battle‑shock test, subtracting 1 from the result if that enemy unit is Below Half‑strength."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Daemonic Icon",
+      "rule": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+    },
+    {
+      "name": "Instrument of Chaos",
+      "rule": "Add 1 to Charge rolls made for the bearer’s unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Daemonic Icon",
+      "rule": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+    },
+    {
+      "name": "Instrument of Chaos",
+      "rule": "Add 1 to Charge rolls made for the bearer’s unit."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Daemonette that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos.",
+    "■ 1 Daemonette that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon."
+  ],
+  "unit_composition": "■ **1 Alluress**\n■ **9 Daemonettes**\n\n**Every model is equipped with:** slashing claws.\nModel Name Count Points\nDaemonette\nAlluress\n9\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "Daemonette\nAlluress",
+      "count": "9\n1",
+      "points": "90"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Contorted Epitome",
+      "id": "6qN8ODIDOFY"
+    },
+    {
+      "name": "Infernal Enrapturess",
+      "id": "MIAEfTLR6uM"
+    },
+    {
+      "name": "Tranceweaver",
+      "id": "00QPSXWdbjE"
+    },
+    {
+      "name": "Syll’Esske",
+      "id": "yMnxGuV6cFU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Legions of Excess",
+    "keywords": "Infantry, Battleline, Chaos, Daemon, Summoned, Slaanesh, Daemonettes"
+  },
+  "url": "https://39k.pro/datasheet/JrvuCHVXZNI"
+}

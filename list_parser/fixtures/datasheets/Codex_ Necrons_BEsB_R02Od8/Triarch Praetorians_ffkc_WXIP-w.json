@@ -1,0 +1,106 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "ffkc_WXIP-w",
+  "datasheet_name": "Triarch Praetorians",
+  "characteristics": {
+    "M": "10\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Rod of covenant",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Particle caster",
+        "stats": {
+          "range": "12\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol",
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Rod of covenant",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Voidblade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Relentless Combatants",
+      "rule": "You can re-roll Charge rolls made for this unit, and this unit is eligible to declare a charge in a turn in which it Fell Back."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ All models in this unit can each have their rod of covenant replaced with 1 particle caster and 1 voidblade."
+  ],
+  "unit_composition": "■ **5-10 Triarch Praetorians**\n\n**Every model is equipped with:** rod of covenant.\nModel Name Count Points\nTriarch Praetorian\n6-10\n200\nTriarch Praetorian\n5\n100",
+  "unit_composition_table": [
+    {
+      "model": "Triarch Praetorian",
+      "count": "6-10",
+      "points": "200"
+    },
+    {
+      "model": "Triarch Praetorian",
+      "count": "5",
+      "points": "100"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Fly, Triarch, Praetorians"
+  },
+  "url": "https://39k.pro/datasheet/ffkc_WXIP-w"
+}

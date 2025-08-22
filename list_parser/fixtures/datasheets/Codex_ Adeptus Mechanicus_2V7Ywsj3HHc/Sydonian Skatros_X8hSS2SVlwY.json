@@ -1,0 +1,118 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "2V7Ywsj3HHc",
+  "datasheet_id": "X8hSS2SVlwY",
+  "datasheet_name": "Sydonian Skatros",
+  "characteristics": {
+    "M": "8\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "4",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Mechanicus pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Radium jezzail",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Precision",
+          "Heavy",
+          "Anti-infantry 3+"
+        ]
+      },
+      {
+        "name": "Skatros transuranic arquebus",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Precision",
+          "Anti-vehicle 4+",
+          "Heavy",
+          "Anti-monster 4+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Sydonian feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Dread Snipers",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+    },
+    {
+      "name": "Achillan Eye",
+      "rule": "Each time this model makes an attack with a radium jezzail that targets an **INFANTRY** unit, you can re-roll the Wound roll. Each time this model makes an attack with a Skatros transuranic arquebus that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s radium jezzail can be replaced with 1 Skatros transuranic arquebus."
+  ],
+  "unit_composition": "■ **1 Sydonian Skatros**\n\n**This model is equipped with:** Mechanicus pistol; radium jezzail; Sydonian feet.\nModel Name Count Points\nSydonian Skatros\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Sydonian Skatros",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Mechanicus",
+    "keywords": "Infantry, Character, Imperium, Skitarii, Sydonian, Skatros"
+  },
+  "url": "https://39k.pro/datasheet/X8hSS2SVlwY"
+}

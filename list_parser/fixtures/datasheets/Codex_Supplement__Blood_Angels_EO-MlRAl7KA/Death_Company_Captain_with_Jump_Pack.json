@@ -1,0 +1,148 @@
+{
+  "faction": "Codex Supplement: Blood Angels",
+  "faction_id": "EO-MlRAl7KA",
+  "datasheet_name": "Death Company Captain with Jump Pack",
+  "characteristics": {
+    "M": "12\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "7",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Relic weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Lost to Fury",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Death Vision of Sanguinius",
+      "rule": "If this model is destroyed by a melee attack, after the attacking unit has finished making its attacks, you can roll one D6, adding 2 to the result if the attacking unit contains the enemy **WARLORD**: on a 2‐3, that enemy unit suffers D3 mortal wounds; on a 4 5, that enemy unit suffers 3 mortal wounds; on a 6+, that enemy unit suffers D3+3 mortal wounds."
+    },
+    {
+      "name": "Black Rage",
+      "rule": "Each time this model makes a melee attack, you can re‐roll the Hit roll. While this model’s unit is not within 6\" of one or more friendly **BLOOD ANGELS CHARACTER** models, or 12\" of one or more friendly **CHAPLAIN** models, it cannot be selected to Fall Back and its Objective Control characteristic is 0."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s master‐crafted chainsword can be replaced with one of the following:\n◦ 1 power fist\n◦ 1 relic weapon",
+    "■ This model’s heavy bolt pistol can be replaced with one of the following:\n◦ 1 plasma pistol\n◦ 1 hand flamer"
+  ],
+  "unit_composition": "■ **1 Death Company Captain with Jump Pack**\n\n**This model is equipped with:** heavy bolt pistol; Astartes chainsword.\nModel Name Count Points\nDeath Company Captain with Jump Pack\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Death Company Captain with Jump Pack",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Blood Angels",
+    "keywords": "Infantry, Character, Jump Pack, Fly, Grenades, Imperium, Tacticus, Death Company, Captain"
+  },
+  "url": "https://39k.pro/datasheet/q739j-R5ZYg"
+}

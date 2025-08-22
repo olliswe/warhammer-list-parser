@@ -1,0 +1,98 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "GT_HP_TCArM",
+  "datasheet_id": "II0C6_d5Q9A",
+  "datasheet_name": "Heldrake",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "12",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Baleflamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Hades autocannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Rapid Fire 4"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Heldrake claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-fly 2+",
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Airborne Predator",
+      "rule": "Each time this model makes an attack that targets a unit that can **FLY**, add 1 to the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s Hades autocannon can be replaced with 1 baleflamer."
+  ],
+  "unit_composition": "■ **1 Chaos Heldrake**\n\n**This model is equipped with:** Hades autocannon; Heldrake claws.\nModel Name Count Points\nChaos Heldrake\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Heldrake",
+      "count": "1",
+      "points": "200"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: World Eaters",
+    "keywords": "Vehicle, Fly, Aircraft, Chaos, Khorne, Daemon, Heldrake"
+  },
+  "url": "https://39k.pro/datasheet/II0C6_d5Q9A"
+}

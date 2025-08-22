@@ -1,0 +1,140 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "jVfT9XrMg14",
+  "datasheet_id": "DNtoIWhl-6Q",
+  "datasheet_name": "Razorwing Jetfighter",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "8",
+    "SV": "4+",
+    "W": "10",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Splinter cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Anti-infantry 3+"
+        ]
+      },
+      {
+        "name": "Twin splinter rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Anti-infantry 3+",
+          "Rapid Fire 1",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Dark lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Disintegrator cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Razorwing missiles — monoscythe missiles",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Anti-infantry 2+",
+          "Blast",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Bladed wings",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Ground Attack Craft",
+      "rule": "Each time this model makes a ranged attack that targets an enemy unit (excluding units that can **FLY**), add 1 to the Hit roll."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s twin splinter rifle can be replaced with 1 splinter cannon.",
+    "■ This model’s 2 dark lances can be replaced with 2 disintegrator cannons."
+  ],
+  "unit_composition": "■ **1 Razorwing Jetfighter**\n\n**This model is equipped with:** 2 dark lances; Razorwing missiles; twin splinter rifle; bladed wings.\nModel Name Count Points\nRazorwing Jetfighter\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Razorwing Jetfighter",
+      "count": "1",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Drukhari",
+    "keywords": "Vehicle, Fly, Aircraft, Aeldari, Razorwing Jetfighter"
+  },
+  "url": "https://39k.pro/datasheet/DNtoIWhl-6Q"
+}

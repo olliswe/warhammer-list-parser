@@ -1,0 +1,121 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "JXROaSBjTBQ",
+  "datasheet_name": "Basilisk",
+  "characteristics": {
+    "M": "10\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "11",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      },
+      {
+        "name": "Earthshaker cannon",
+        "stats": {
+          "range": "240\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Earthshaker Rounds",
+      "rule": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy Infantry unit, until the start of your next Shooting phase, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model’s heavy bolter can be replaced with 1 heavy flamer."
+  ],
+  "unit_composition": "■ **1 Basilisk**\n\n**This model is equipped with:** earthshaker cannon; heavy bolter; armoured tracks.\nModel Name Count Points\nBasilisk\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Basilisk",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Vehicle, Artillery, Smoke, Imperium, Squadron, Basilisk"
+  },
+  "url": "https://39k.pro/datasheet/JXROaSBjTBQ"
+}

@@ -1,0 +1,88 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "8VPcpVQ6rPQ",
+  "datasheet_name": "Magus",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "5+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Autopistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Force stave",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Mind Control",
+      "rule": "At the start of your opponent’s Shooting phase, one **PSYKER** model from your army with this ability can use it. If used, select one enemy unit within 18\" of that **PSYKER** model and roll one D6: on a 1, that **PSYKER** model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll and subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Spiritual Leader",
+      "rule": "Once per battle, at the start of any phase, you can select one friendly **GENESTEALER CULTS** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle shocked."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Psychic Familiar",
+      "rule": "Once per battle, at the start of your opponent’s Shooting phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability.\n\n**Designer’s Note:** *Place a Psychic Familiar token next to the model, removing it once this ability has been used.*"
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Magus**\n\n**This model is equipped with:** autopistol; force stave.\nModel Name Count Points\nMagus\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Magus",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Character, Psyker, Great Devourer, Magus"
+  },
+  "url": "https://39k.pro/datasheet/8VPcpVQ6rPQ"
+}

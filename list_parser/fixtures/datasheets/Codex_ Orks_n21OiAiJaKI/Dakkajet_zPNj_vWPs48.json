@@ -1,0 +1,78 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "zPNj_vWPs48",
+  "datasheet_name": "Dakkajet",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "12",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Twin supa-shoota",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "5+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Rapid Fire 2",
+          "Sustained Hits 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Dakkastorm",
+      "rule": "Each time this model makes a ranged attack, every successful Hit roll scores a Critical Hit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 additional twin supa-shoota."
+  ],
+  "unit_composition": "■ **1 Dakkajet**\n\n**This model is equipped with:** 2 twin supa-shootas; armoured hull.\nModel Name Count Points\nDakkajet\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Dakkajet",
+      "count": "1",
+      "points": "135"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Vehicle, Fly, Aircraft, Speed Freeks, Dakkajet"
+  },
+  "url": "https://39k.pro/datasheet/zPNj_vWPs48"
+}

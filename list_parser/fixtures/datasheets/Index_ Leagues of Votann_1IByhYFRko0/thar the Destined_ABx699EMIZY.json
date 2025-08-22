@@ -1,0 +1,93 @@
+{
+  "faction": "Index: Leagues of Votann",
+  "faction_id": "1IByhYFRko0",
+  "datasheet_id": "ABx699EMIZY",
+  "datasheet_name": "Ûthar the Destined",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "5",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Volkanite disintegrator",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Blade of the Ancestors",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Ancestral Fortune",
+      "rule": "Once per turn, you can change one Hit roll, or one Wound roll made for this model to an unmodified 6."
+    },
+    {
+      "name": "Grim Efficiency",
+      "rule": "Once per battle round, in your Command phase, you can select one model from your army with this ability, then select one enemy unit that is visible to that model. That enemy unit gains 1 Judgement token."
+    },
+    {
+      "name": "The Destined",
+      "rule": "Each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Rampart Crest",
+      "rule": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Rampart Crest",
+      "rule": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ûthar the Destined – EPIC HERO**\n\n**This model is equipped with:** volkanite disintegrator; Blade of the Ancestors; rampart crest.\nModel Name Count Points\nÛthar the Destined\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Ûthar the Destined",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Leagues of Votann",
+    "keywords": "Infantry, Character, Epic Hero, Ûthar the Destined"
+  },
+  "url": "https://39k.pro/datasheet/ABx699EMIZY"
+}

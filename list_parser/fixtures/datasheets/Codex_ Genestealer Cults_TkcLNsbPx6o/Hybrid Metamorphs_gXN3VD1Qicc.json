@@ -1,0 +1,160 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "gXN3VD1Qicc",
+  "datasheet_name": "Hybrid Metamorphs",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "5+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Autopistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol",
+          "Ignores Cover"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Metamorph mutations — sweep",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Leader’s cult weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Brood Surge",
+      "rule": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Brood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding **AIRCRAFT**). When doing so, those models can be moved within Engagement Range of that enemy unit.\n\nIf, at the start of the battle, no model in this unit is equipped with a hand flamer, each time this unit makes a Brood Surge move, it can be moved up to 6\" instead of up to D6\". A unit cannot make a Brood Surge move while it is Battle-shocked."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Cult Icon",
+      "rule": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed **CHARACTER** models in Attached units and any **[ONE SHOT]** weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Cult Icon",
+      "rule": "In your Command phase, you can return up to D3 destroyed models to the bearer’s unit. If the bearer’s unit is within range of an objective marker you control, you can return up to 3 destroyed models to that unit instead. This ability cannot be used to return destroyed **CHARACTER** models in Attached units and any **[ONE SHOT]** weapons equipped by returned models that were shot before they were destroyed are still considered to have been shot."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their autopistol replaced with 1 hand flamer.",
+    "■ One Hybrid Metamorph’s autopistol can be replaced with 1 cult icon."
+  ],
+  "unit_composition": "■ **1 Metamorph Leader**\n■ **4-9 Hybrid Metamorphs**\n\n**The Metamorph Leader is equipped with**: autopistol; Leader’s cult weapons.\n**Every Hybrid Metamorph is equipped with**: autopistol; Metamorph mutations.\nModel Name Count Points\nHybrid Metamorph\nMetamorph Leader\n4\n1\n80\nMetamorph Leader\nHybrid Metamorph\n1\n5-9\n160",
+  "unit_composition_table": [
+    {
+      "model": "Hybrid Metamorph\nMetamorph Leader",
+      "count": "4\n1",
+      "points": "80"
+    },
+    {
+      "model": "Metamorph Leader\nHybrid Metamorph",
+      "count": "1\n5-9",
+      "points": "160"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Magus",
+      "id": "8VPcpVQ6rPQ"
+    },
+    {
+      "name": "Benefictus",
+      "id": "LanHA8KH_60"
+    },
+    {
+      "name": "Acolyte Iconward",
+      "id": "LrLlMYJj9ug"
+    },
+    {
+      "name": "Locus",
+      "id": "K9rFNHqU6t4"
+    },
+    {
+      "name": "Biophagus",
+      "id": "c4VfJjNCElA"
+    },
+    {
+      "name": "Primus",
+      "id": "HxrW0sWErUA"
+    },
+    {
+      "name": "Nexos",
+      "id": "XZAxi4f_nlo"
+    },
+    {
+      "name": "Clamavus",
+      "id": "cYhW1mQC914"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Grenades, Great Devourer, Hybrid Metamorphs"
+  },
+  "url": "https://39k.pro/datasheet/gXN3VD1Qicc"
+}

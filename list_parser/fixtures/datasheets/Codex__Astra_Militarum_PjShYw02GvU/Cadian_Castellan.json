@@ -1,0 +1,160 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_name": "Cadian Castellan",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "5+",
+    "W": "4",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Laspistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Get Back in the Fight",
+      "rule": "While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+      "name": "Senior Officer",
+      "rule": "While this model is leading a unit, ranged weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s laspistol can be replaced with one of the following: \n◦ 1 bolt pistol\n◦ 1 plasma pistol",
+    "■ This model’s chainsword can be replaced with one of the following:\n◦ 1 boltgun and 1 close combat weapon\n◦ 1 power fist\n◦ 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Cadian Castellan**\n\n**This model is equipped with:** laspistol; chainsword.\nModel Name Count Points\nCadian Castellan\n1\n55",
+  "unit_composition_table": [
+    {
+      "model": "Cadian Castellan",
+      "count": "1",
+      "points": "55"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Infantry, Character, Grenades, Imperium, Officer, Cadian Castellan"
+  },
+  "url": "https://39k.pro/datasheet/2je1RhPhe0Q"
+}

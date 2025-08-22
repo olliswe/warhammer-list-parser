@@ -1,0 +1,109 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "si8L3usCZss",
+  "datasheet_name": "Voidweaver",
+  "characteristics": {
+    "M": "14\"",
+    "T": "6",
+    "SV": "4+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Voidweaver haywire cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Anti-vehicle 4+",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "🠶 Prismatic cannon — dispersed pulse",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "4"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Polychromatic Camouflage",
+      "rule": "This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s Voidweaver haywire cannon can be replaced with 1 prismatic cannon."
+  ],
+  "unit_composition": "■ **1 Voidweaver**\n\n**This model is equipped with:** 2 shuriken cannons; Voidweaver haywire cannon; close combat weapon.\nModel Name Count Points\nVoidweaver\n1\n125",
+  "unit_composition_table": [
+    {
+      "model": "Voidweaver",
+      "count": "1",
+      "points": "125"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Harlequins",
+    "keywords": "Vehicle, Aeldari, Fly, Voidweaver"
+  },
+  "url": "https://39k.pro/datasheet/si8L3usCZss"
+}

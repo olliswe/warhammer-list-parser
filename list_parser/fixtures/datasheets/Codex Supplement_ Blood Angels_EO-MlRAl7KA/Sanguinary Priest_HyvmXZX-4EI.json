@@ -1,0 +1,78 @@
+{
+  "faction": "Codex Supplement: Blood Angels",
+  "faction_id": "EO-MlRAl7KA",
+  "datasheet_id": "HyvmXZX-4EI",
+  "datasheet_name": "Sanguinary Priest",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Absolvor bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Blood Chalice",
+      "rule": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Sanguinary Priest",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Sanguinary Priest**\n\n**This model is equipped with:** absolver bolt pistol; Astartes chainsword.\nModel Name Count Points\nSanguinary Priest\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Sanguinary Priest",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Blood Angels",
+    "keywords": "Infantry, Character, Grenades, Imperium, Tacticus, Sanguinary Priest"
+  },
+  "url": "https://39k.pro/datasheet/HyvmXZX-4EI"
+}

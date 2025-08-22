@@ -1,0 +1,130 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "y_dosOCUHn0",
+  "datasheet_name": "Hunta Rig",
+  "characteristics": {
+    "M": "10\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "16",
+    "LD": "7+",
+    "OC": "5"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Stikka kannon",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "5+",
+          "strength": "12",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Anti-vehicle 2+",
+          "Snagged",
+          "Anti-monster 2+"
+        ]
+      },
+      {
+        "name": "’Eavy lobba",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "5+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Savage horns and hooves",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Extra Attacks",
+          "Lance"
+        ]
+      },
+      {
+        "name": "Saw blades",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Butcha boyz",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-vehicle 4+",
+          "Anti-monster 4+",
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Firing Deck 11",
+      "rule": ""
+    },
+    {
+      "name": "On Da Hunt",
+      "rule": "For each model embarked within this **TRANSPORT**, add 1 to the Attacks characteristic of this model’s butcha boyz weapon (to a maximum of +6)."
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Hunta Rig**\n\n**This model is equipped with:** ’eavy lobba; stikka kannon; butcha boyz; savage horns and hooves; saw blades.\nModel Name Count Points\nHunta Rig\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Hunta Rig",
+      "count": "1",
+      "points": "135"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Vehicle, Transport, Beast Snagga, Hunta Rig"
+  },
+  "url": "https://39k.pro/datasheet/y_dosOCUHn0"
+}

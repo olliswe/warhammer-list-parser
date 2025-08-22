@@ -1,0 +1,99 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "HxrW0sWErUA",
+  "datasheet_name": "Primus",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "5+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Scoped needle pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "1",
+          "armour_penetration": "0",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Anti-infantry 2+",
+          "Ignores Cover",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Toxin injector claw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Anti-infantry 2+",
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Cult bonesword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Decoys and Misdirection",
+      "rule": "If your army includes one or more models with this ability, after both players have deployed their armies, select up to three **GENESTEALER CULTS** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Cult Demagogue",
+      "rule": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Primus**\n\n**This model is equipped with:** scoped needle pistol; cult bonesword; toxin injector claw.\nModel Name Count Points\nPrimus\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Primus",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Character, Great Devourer, Primus"
+  },
+  "url": "https://39k.pro/datasheet/HxrW0sWErUA"
+}

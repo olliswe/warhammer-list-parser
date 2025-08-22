@@ -1,0 +1,86 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "LrLlMYJj9ug",
+  "datasheet_name": "Acolyte Iconward",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "5+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Autopistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Cult claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Nexus of Devotion",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability. If that unit has the **HYBRID METAMORPHS** keyword, models in that unit have the Feel No Pain 4+ ability instead."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Summon the Cult",
+      "rule": "Once per battle, when you have to remove a Cult Ambush marker because your opponent has moved too close to it, if one or more models from your army with this ability are on the battlefield, you can use this ability. If you do, instead of removing that marker, you can place it anywhere on the battlefield that is within 12\" of a model from your army with this ability and more than 9\" horizontally away from all enemy units (if this is not possible, this ability is not considered to have been used and that marker is removed as normal)."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Acolyte Iconward**\n\n**This model is equipped with:** autopistol; cult claws.\nModel Name Count Points\nAcolyte Iconward\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Acolyte Iconward",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Character, Grenades, Great Devourer, Acolyte Iconward"
+  },
+  "url": "https://39k.pro/datasheet/LrLlMYJj9ug"
+}

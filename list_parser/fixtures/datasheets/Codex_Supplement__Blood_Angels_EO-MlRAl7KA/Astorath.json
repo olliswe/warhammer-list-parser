@@ -1,0 +1,69 @@
+{
+  "faction": "Codex Supplement: Blood Angels",
+  "faction_id": "EO-MlRAl7KA",
+  "datasheet_name": "Astorath",
+  "characteristics": {
+    "M": "12\"",
+    "T": "4",
+    "SV": "2+",
+    "W": "5",
+    "LD": "5+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "The Executioner’s Axe",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Redeemer of the Lost",
+      "rule": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "name": "Mass of Doom",
+      "rule": "Each time this model’s unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Astorath – EPIC HERO**\n\n**This model is equipped with:** the Executioner’s Axe.\nModel Name Count Points\nAstorath\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Astorath",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Blood Angels",
+    "keywords": "Infantry, Character, Epic Hero, Fly, Jump Pack, Imperium, Tacticus, Chaplain, Astorath"
+  },
+  "url": "https://39k.pro/datasheet/HWkfO7CKZSI"
+}

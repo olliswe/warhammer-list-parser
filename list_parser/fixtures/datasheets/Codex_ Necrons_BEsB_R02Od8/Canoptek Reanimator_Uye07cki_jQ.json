@@ -1,0 +1,72 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "Uye07cki_jQ",
+  "datasheet_name": "Canoptek Reanimator",
+  "characteristics": {
+    "M": "8\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "6",
+    "LD": "8+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Atomiser beam",
+        "stats": {
+          "range": "12\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Reanimator’s claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Nanoscarab Reanimation Beam",
+      "rule": "While a friendly **NECRONS** unit is within 3\" of this model, each time that unit’s Reanimation Protocols activate, that unit reanimates an additional D3 wounds."
+    },
+    {
+      "name": "Feel No Pain 4+",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Canoptek Reanimator**\n\n**This model is equipped with:** 2 atomiser beams; Reanimator’s claws.\nModel Name Count Points\nCanoptek Reanimator\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Canoptek Reanimator",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Vehicle, Walker, Canoptek, Reanimator"
+  },
+  "url": "https://39k.pro/datasheet/Uye07cki_jQ"
+}

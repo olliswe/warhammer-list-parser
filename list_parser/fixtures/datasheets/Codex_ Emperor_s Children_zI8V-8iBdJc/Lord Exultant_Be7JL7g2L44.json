@@ -1,0 +1,166 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "zI8V-8iBdJc",
+  "datasheet_id": "Be7JL7g2L44",
+  "datasheet_name": "Lord Exultant",
+  "characteristics": {
+    "M": "7\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt Pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Screamer pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Rapture lash",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Phoenix power spear",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lance"
+        ]
+      },
+      {
+        "name": "Master-crafted power sword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Perfectionists",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Euphoric Strikes",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and improve the Armour Penetration characteristic of those weapons by 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s plasma pistol can be replaced with one of the following:\n◦ 1 power fist\n◦ 1 rapture lash",
+    "■ This model’s Phoenix power spear can be replaced with one of the following:\n◦ 1 master‑crafted power sword \n◦ 1 screamer pistol"
+  ],
+  "unit_composition": "■ **1 Lord Exultant**\n\n**This model is equipped with:** bolt pistol; plasma pistol; Phoenix power spear; close combat weapon.\nModel Name Count Points\nLord Exultant\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Lord Exultant",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Emperor’s Children",
+    "keywords": "Infantry, Character, Grenades, Chaos, Slaanesh, Lord Exultant"
+  },
+  "url": "https://39k.pro/datasheet/Be7JL7g2L44"
+}

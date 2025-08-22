@@ -1,0 +1,72 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "ENq788dQFng",
+  "datasheet_name": "Von Ryan’s Leapers",
+  "characteristics": {
+    "M": "10\"",
+    "T": "5",
+    "SV": "4+",
+    "W": "3",
+    "LD": "8+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Leaper’s talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Pouncing Leap",
+      "rule": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Von Ryan’s Leapers**\n\n**Every model is equipped with:** Leaper’s talons.\nModel Name Count Points\nVon Ryan’s Leaper\n4-6\n140\nVon Ryan’s Leaper\n3\n70",
+  "unit_composition_table": [
+    {
+      "model": "Von Ryan’s Leaper",
+      "count": "4-6",
+      "points": "140"
+    },
+    {
+      "model": "Von Ryan’s Leaper",
+      "count": "3",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Great Devourer, Vanguard Invader, Von Ryan’s Leapers"
+  },
+  "url": "https://39k.pro/datasheet/ENq788dQFng"
+}

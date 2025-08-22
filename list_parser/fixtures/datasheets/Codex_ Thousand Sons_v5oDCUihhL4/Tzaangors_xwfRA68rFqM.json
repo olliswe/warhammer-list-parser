@@ -1,0 +1,117 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "v5oDCUihhL4",
+  "datasheet_id": "xwfRA68rFqM",
+  "datasheet_name": "Tzaangors",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "6+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Autopistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Tzaangor blades",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Ambushing Hunters",
+      "rule": "At the end of your opponent’s turn, if this unit is more than 6\" horizontally away from all enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
+    },
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Herd banner",
+      "rule": "While the bearer’s unit is within range of one or more objective markers you control, improve the Leadership characteristic of models in the bearer’s unit by 1."
+    },
+    {
+      "name": "Brayhorn",
+      "rule": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Herd banner",
+      "rule": "While the bearer’s unit is within range of one or more objective markers you control, improve the Leadership characteristic of models in the bearer’s unit by 1."
+    },
+    {
+      "name": "Brayhorn",
+      "rule": "You can re-roll Advance and Charge rolls made for the bearer’s unit."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Tzaangor not equipped with a herd banner can be equipped with 1 brayhorn.",
+    "■ 1 Tzaangor not equipped with a brayhorn can be equipped with 1 herd banner.",
+    "■ Any number of models can each have their Tzaangor blades replaced with 1 autopistol and 1 chainsword."
+  ],
+  "unit_composition": "■ **1 Twistbray**\n■ **9-19 Tzaangors**\n\n**Every model is equipped with:** Tzaangor blades.\nModel Name Count Points\nTzaangor\nTwistbray\n9\n1\n70\nTwistbray\nTzaangor\n1\n10-19\n160",
+  "unit_composition_table": [
+    {
+      "model": "Tzaangor\nTwistbray",
+      "count": "9\n1",
+      "points": "70"
+    },
+    {
+      "model": "Twistbray\nTzaangor",
+      "count": "1\n10-19",
+      "points": "160"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Tzaangor Shaman",
+      "id": "3PrscQ2X7tc"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Thousand Sons",
+    "keywords": "Infantry, Chaos, Tzeentch, Mutant, Tzaangors"
+  },
+  "url": "https://39k.pro/datasheet/xwfRA68rFqM"
+}

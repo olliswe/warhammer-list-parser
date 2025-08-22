@@ -1,0 +1,78 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_id": "e2DMgV7-iiI",
+  "datasheet_name": "Dogmata",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Mace of the righteous",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Executioner of Heretics",
+      "rule": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1."
+    },
+    {
+      "name": "Unflinching Determination",
+      "rule": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Dogmata**\n\n**This model is equipped with:** bolt pistol; mace of the righteous.\nModel Name Count Points\nDogmata\n1\n45",
+  "unit_composition_table": [
+    {
+      "model": "Dogmata",
+      "count": "1",
+      "points": "45"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Infantry, Grenades, Character, Imperium, Dogmata"
+  },
+  "url": "https://39k.pro/datasheet/e2DMgV7-iiI"
+}

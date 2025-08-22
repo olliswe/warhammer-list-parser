@@ -1,0 +1,136 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "_IAgqEK4eJ0",
+  "datasheet_name": "Beast Snagga Boyz",
+  "characteristics": {
+    "M": "6\"",
+    "T": "5",
+    "SV": "5+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Slugga",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "5+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Thump gun",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D3",
+          "ballistic_skill": "5+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Choppa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power snappa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Monster Hunters",
+      "rule": "Each time a model in this unit makes an attack that targets a **MONSTER** or **VEHICLE** unit, you can re-roll the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ For every 10 models in this unit, 1 Beast Snagga Boy’s slugga and choppa can be replaced with 1 thump gun and 1 close combat weapon."
+  ],
+  "unit_composition": "■ **1 Beast Snagga Nob**\n■ **9-19 Beast Snagga Boyz**\n\n**The Beast Snagga Nob is equipped with:** slugga; power snappa.\n**Every Beast Snagga Boy is equipped with:** slugga; choppa.\nModel Name Count Points\nBeast Snagga Nob\nBeast Snagga Boy\n1\n9\n95\nBeast Snagga Nob\nBeast Snagga Boy\n1\n10-19\n190",
+  "unit_composition_table": [
+    {
+      "model": "Beast Snagga Nob\nBeast Snagga Boy",
+      "count": "1\n9",
+      "points": "95"
+    },
+    {
+      "model": "Beast Snagga Nob\nBeast Snagga Boy",
+      "count": "1\n10-19",
+      "points": "190"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Beastboss Morgrim",
+      "id": "VXiNbHY4Taw"
+    },
+    {
+      "name": "Painboss",
+      "id": "DiZnd3C-NEc"
+    },
+    {
+      "name": "Beastboss",
+      "id": "UeMlKIz4xc8"
+    },
+    {
+      "name": "Wurrboy",
+      "id": "5EivTWdBF5E"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Infantry, Mob, Battleline, Beast Snagga, Beast Snagga Boyz"
+  },
+  "url": "https://39k.pro/datasheet/_IAgqEK4eJ0"
+}

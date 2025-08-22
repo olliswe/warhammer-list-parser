@@ -1,0 +1,127 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "dbTuQ02OctI",
+  "datasheet_name": "Ravenwing Command Squad",
+  "characteristics": {
+    "M": "12\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Plasma talon — standard",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Rapid Fire 1",
+          "Hazardous",
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Astartes grenade launcher — krak",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Black Knight combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Master-crafted power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Astartes Banner",
+      "rule": "While this unit contains a Ravenwing Ancient, add 1 to the Objective Control characteristic of models in this unit."
+    },
+    {
+      "name": "Honour or Death",
+      "rule": "While this unit contains a Ravenwing Champion, add 1 to Advance and Charge rolls made for this unit and you can target this unit with the Heroic Intervention Stratagem for 0CP."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Narthecium",
+      "rule": "While this unit contains a Ravenwing Apothecary, in your Command phase, you can return 1 destroyed model (excluding **CHARACTER** and **INVADER ATV** models) to this unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ For every 3 models in this unit, 1 model’s plasma talon can be replaced with 1 Astartes grenade launcher."
+  ],
+  "unit_composition": "■ **1 Ravenwing Champion**\n■ **1 Ravenwing Apothecary**\n■ **1 Ravenwing Ancient**\n\n**The Ravenwing Champion is equipped with:** bolt pistol; plasma talon; master-crafted power weapon.\n**Every other model is equipped with:** bolt pistol; plasma talon; Black Knight combat weapon.\nModel Name Count Points\nRavenwing Apothecary\nRavenwing Champion\nRavenwing Ancient\n1\n1\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Ravenwing Apothecary\nRavenwing Champion\nRavenwing Ancient",
+      "count": "1\n1\n1",
+      "points": "120"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Dark Angels",
+    "keywords": "Mounted, Grenades, Imperium, Ravenwing, Ravenwing Command Squad, Character"
+  },
+  "url": "https://39k.pro/datasheet/lC52j9c6nA0"
+}

@@ -1,0 +1,77 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "N9HynQlEB3I",
+  "datasheet_name": "Aberrants",
+  "characteristics": {
+    "M": "6\"",
+    "T": "6",
+    "SV": "5+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Aberrant weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Hulking Bodyguards",
+      "rule": "While a **CHARACTER** is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Aberrant Hypermorph**\n■ **4-9 Aberrants**\n\n**Every model is equipped with**: Aberrant weapons.\nModel Name Count Points\nAberrant\nAberrant Hypermorph\n5-9\n1\n300\nAberrant\nAberrant Hypermorph\n4\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Aberrant\nAberrant Hypermorph",
+      "count": "5-9\n1",
+      "points": "300"
+    },
+    {
+      "model": "Aberrant\nAberrant Hypermorph",
+      "count": "4\n1",
+      "points": "135"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Biophagus",
+      "id": "c4VfJjNCElA"
+    },
+    {
+      "name": "Abominant",
+      "id": "zrmmxoqiKMI"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Great Devourer, Aberrants"
+  },
+  "url": "https://39k.pro/datasheet/N9HynQlEB3I"
+}

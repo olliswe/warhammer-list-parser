@@ -1,0 +1,84 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_id": "leM6eUHe7yw",
+  "datasheet_name": "Junith Eruita",
+  "characteristics": {
+    "M": "8\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Twin Ministorum heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Twin-linked",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Mace of Castigation",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Fiery Conviction",
+      "rule": "If this model is on the battlefield at the start of your Command phase, you can choose one of the following:\n\n• Discard 1 Miracle dice and gain 1CP.\n• Take a Leadership test for this model; if that test is passed, gain 1CP."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "The Pulpit of Saint Holline’s Basilica",
+      "rule": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Junith Eruita – EPIC HERO**\n\n**This model is equipped with:** twin Ministorum heavy flamer; Mace of Castigation.\nModel Name Count Points\nJunith Eruita\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Junith Eruita",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Mounted, Character, Fly, Epic Hero, Imperium, Junith Eruita"
+  },
+  "url": "https://39k.pro/datasheet/leM6eUHe7yw"
+}

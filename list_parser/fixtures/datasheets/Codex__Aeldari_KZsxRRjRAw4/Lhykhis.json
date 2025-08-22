@@ -1,0 +1,100 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Lhykhis",
+  "characteristics": {
+    "M": "12\"",
+    "T": "3",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Brood Twain",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Spider’s Fangs",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Extra Attacks",
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Weaverender",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Empyric Ambush",
+      "rule": "While this model is leading a unit, that unit is eligible to declare a charge in a turn in which it used its Flickerjump ability."
+    },
+    {
+      "name": "Whispering Web",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **AELDARI** model makes an attack that targets that unit, an unmodified Hit roll of 5+ scores a Critical Hit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lhykhis – EPIC HERO**\n\n**This model is equipped with:** Brood Twain; Spider’sFangs; Weaverender.\nModel Name Count Points\nLhykhis\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Lhykhis",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Character, Epic Hero, Aeldari, Jump Pack, Fly, Aspect Warrior, Phoenix Lord, Lhykhis"
+  },
+  "url": "https://39k.pro/datasheet/6JPhdE8qvi0"
+}

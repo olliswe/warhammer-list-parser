@@ -1,0 +1,93 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "4Y48HiHLjMY",
+  "datasheet_id": "VMPZWN7tvIk",
+  "datasheet_name": "Rotigus",
+  "characteristics": {
+    "M": "7\"",
+    "T": "12",
+    "SV": "5+",
+    "W": "22",
+    "LD": "6+",
+    "OC": "5"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Streams of brackish filth",
+        "stats": {
+          "range": "12\"",
+          "attacks": "2D6",
+          "ballistic_skill": "N/A",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Gnarlrod — sweep",
+        "stats": {
+          "range": "Melee",
+          "attacks": "7",
+          "weapon_skill": "2+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Lethal Hits",
+          "Psychic",
+          "Lethal Hits",
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Deluge of Nurgle",
+      "rule": "While an enemy unit is within 6\" of this model, subtract 2 from the Move characteristic and subtract 1 from the Objective Control characteristic of models in that unit."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Virulent Blessing",
+      "rule": "At the start of the Fight phase, you can select one enemy unit within 24\" and visible to this model. Until the end of the phase, each time an attack made by a **PLAGUE LEGIONS** model is allocated to a model in that unit, add 1 to the Damage characteristic of that attack."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Rotigus – EPIC HERO**\n\n**This model is equipped with:** streams of brackish filth; gnarlrod.\nModel Name Count Points\nRotigus\n1\n250",
+  "unit_composition_table": [
+    {
+      "model": "Rotigus",
+      "count": "1",
+      "points": "250"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Plague Legions",
+    "keywords": "Monster, Character, Epic Hero, Psyker, Chaos, Nurgle, Daemon, Summoned, Rotigus"
+  },
+  "url": "https://39k.pro/datasheet/VMPZWN7tvIk"
+}

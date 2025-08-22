@@ -1,0 +1,95 @@
+{
+  "faction": "Codex: Grey Knights",
+  "faction_id": "tK1LWUpSzF4",
+  "datasheet_id": "GL27tu1hcsw",
+  "datasheet_name": "Rhino",
+  "characteristics": {
+    "M": "12\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "10",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Truesilver Aegis",
+      "rule": "While a friendly **GREY KNIGHTS** unit is wholly within 6\" of this unit, models in that unit have the Feel No Pain 6+ ability against mortal wounds."
+    },
+    {
+      "name": "Firing Deck 2",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model can be equipped with 1 additional storm bolter."
+  ],
+  "unit_composition": "■ **1 Rhino**\n\n**This model is equipped with:** storm bolter; armoured tracks.\nModel Name Count Points\nRhino\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Rhino",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Grey Knights",
+    "keywords": "Vehicle, Transport, Dedicated Transport, Smoke, Imperium, Rhino"
+  },
+  "url": "https://39k.pro/datasheet/GL27tu1hcsw"
+}

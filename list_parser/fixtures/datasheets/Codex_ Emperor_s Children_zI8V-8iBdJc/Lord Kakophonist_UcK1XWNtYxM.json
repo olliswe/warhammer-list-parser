@@ -1,0 +1,93 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "zI8V-8iBdJc",
+  "datasheet_id": "UcK1XWNtYxM",
+  "datasheet_name": "Lord Kakophonist",
+  "characteristics": {
+    "M": "6\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Screamer pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Power sword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Obsessive Annunciation",
+      "rule": "While this model is leading a unit, ranged weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Doom Siren",
+      "rule": "In your Shooting phase, after this model’s unit has shot, select one enemy **INFANTRY** unit hit by one or more of those attacks and roll three D6: for each 4+, that enemy unit suffers 1 mortal wound. If an enemy unit suffers one or more mortal wounds as a result of this ability, it must take a Battle-shock test."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s power sword can be replaced with 1 screamer pistol and 1 close combat weapon."
+  ],
+  "unit_composition": "■ **1 Lord Kakophonist**\n\n**This model is equipped with:** screamer pistol; power sword.\nModel Name Count Points\nLord Kakophonist\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Lord Kakophonist",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Emperor’s Children",
+    "keywords": "Infantry, Character, Grenades, Chaos, Slaanesh, Lord Kakophonist"
+  },
+  "url": "https://39k.pro/datasheet/UcK1XWNtYxM"
+}

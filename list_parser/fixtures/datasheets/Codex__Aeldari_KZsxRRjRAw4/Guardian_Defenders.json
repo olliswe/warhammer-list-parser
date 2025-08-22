@@ -1,0 +1,170 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Guardian Defenders",
+  "characteristics": {
+    "M": "7\"",
+    "T": "3",
+    "SV": "4+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Shuriken catapult",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "🠶 Missile launcher — sunburst",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Bright lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Scatter laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Starcannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fleet of Foot",
+      "rule": "This unit can perform the Fade Back Agile Manoeuvre without spending a Battle Focus token to do so. It can do so even if other units have done so in the same phase, and doing so does not prevent other units from performing the same Agile Manoeuvre in the same phase."
+    },
+    {
+      "name": "Crewed Platform",
+      "rule": "When the last Guardian Defender model in this unit is destroyed, any remaining Heavy Weapon Platform models in this unit are also destroyed."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Heavy Weapon Platform can replace its shuriken cannon with one of the following:\n◦ 1 missile launcher\n◦ 1 bright lance\n◦ 1 scatter laser\n◦ 1 starcannon"
+  ],
+  "unit_composition": "■ **10 Guardian Defenders**\n■ **1 Heavy Weapon Platform**\n\n**Every Guardian Defender is equipped with:** shuriken catapult; close combat weapon.\n\n**The Heavy Weapon Platform is equipped with:** shuriken cannon; close combat weapon.\nModel Name Count Points\nHeavy Weapon Platform\nGuardian Defender\n1\n10\n100",
+  "unit_composition_table": [
+    {
+      "model": "Heavy Weapon Platform\nGuardian Defender",
+      "count": "1\n10",
+      "points": "100"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Farseer Iraneth",
+      "id": "Xy2rCT3Quo8"
+    },
+    {
+      "name": "Autarch",
+      "id": "gxx1E60VCsY"
+    },
+    {
+      "name": "Yvraine",
+      "id": "1aINKHBD9sY"
+    },
+    {
+      "name": "Warlock",
+      "id": "bGrm4YFjPkU"
+    },
+    {
+      "name": "Farseer",
+      "id": "LUlDnzDQlmw"
+    },
+    {
+      "name": "The Visarch",
+      "id": "UQHUTHoBhp4"
+    },
+    {
+      "name": "Eldrad Ulthran",
+      "id": "-yLwsuVhGOU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Battleline, Aeldari, Grenades, Guardians, Guardian Defenders"
+  },
+  "url": "https://39k.pro/datasheet/XhT62fbLIQY"
+}

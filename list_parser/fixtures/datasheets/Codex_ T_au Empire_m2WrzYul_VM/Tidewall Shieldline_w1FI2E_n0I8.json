@@ -1,0 +1,65 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "w1FI2E_n0I8",
+  "datasheet_name": "Tidewall Shieldline",
+  "characteristics": {
+    "M": "4\"",
+    "T": "8",
+    "SV": "3+",
+    "W": "10",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": []
+  },
+  "abilities": [
+    {
+      "name": "Tidewall Cover",
+      "rule": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **FORTIFICATION**, that model has the Benefit of Cover against that attack."
+    },
+    {
+      "name": "Tidewall Defence Platform",
+      "rule": "If equipped with a Tidewall defence platform, this **FORTIFICATION** has a Wounds characteristic of 15."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Firing Deck 20",
+      "rule": ""
+    },
+    {
+      "name": "Fortification",
+      "rule": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 Tidewall defence platform."
+  ],
+  "unit_composition": "■ **1 Tidewall Shieldline**\nModel Name Count Points\nTidewall Shieldline\nTidewall Defence Platform\n1\n1\n105\nTidewall Shieldline\nTidewall Defence Platform\n1\n0\n85",
+  "unit_composition_table": [
+    {
+      "model": "Tidewall Shieldline\nTidewall Defence Platform",
+      "count": "1\n1",
+      "points": "105"
+    },
+    {
+      "model": "Tidewall Shieldline\nTidewall Defence Platform",
+      "count": "1\n0",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Fortification, Vehicle, Transport, Fly, Tidewall Shieldline"
+  },
+  "url": "https://39k.pro/datasheet/w1FI2E_n0I8"
+}

@@ -1,0 +1,179 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "YHnc-oFlDgk",
+  "datasheet_name": "Ta’unar Supremacy Armour",
+  "characteristics": {
+    "M": "8\"",
+    "T": "13",
+    "SV": "2+",
+    "W": "30",
+    "LD": "7+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Pulse ordnance driver",
+        "stats": {
+          "range": "60\"",
+          "attacks": "8",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Anti-infantry 2+"
+        ]
+      },
+      {
+        "name": "Fragmentation cluster shell launcher",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2D6+6",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Heavy rail cannon array",
+        "stats": {
+          "range": "120\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "26",
+          "armour_penetration": "-5",
+          "damage": "16"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Nexus missile launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "8",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Tri-axis ion cannon — standard",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast",
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      {
+        "name": "Fusion eradicator",
+        "stats": {
+          "range": "24\"",
+          "attacks": "5",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 3"
+        ]
+      },
+      {
+        "name": "Smart missile system",
+        "stats": {
+          "range": "30\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire"
+        ]
+      },
+      {
+        "name": "Burst cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "4",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Crushing feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "5+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Coordinated Strike",
+      "rule": "While this model is a Guided unit, each time it makes an attack that targets its Spotted unit, re-roll a Hit roll of 1."
+    },
+    {
+      "name": "Deadly Demise D6+3",
+      "rule": ""
+    },
+    {
+      "name": "Super-heavy Walker",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **TITANIC** models) and terrain features that are 4\" or less in height as if they were not there."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s fusion eradicator can be replaced with 1 tri-axis ion cannon.",
+    "■ This model’s tri-axis ion cannon can be replaced with 1 fusion eradicator.",
+    "■ This model’s 3 pulse ordnance drivers can be replaced with one of the following:\n◦ 2 nexus missile launchers\n◦ 1 heavy rail cannon array and 1 fragmentation cluster shell launcher"
+  ],
+  "unit_composition": "■ **1 Ta’unar Supremacy Armour**\n\n**This model is equipped with:** 4 burst cannons; fusion eradicator; 3 pulse ordnance drivers; 4 smart missile systems; tri-axis ion cannon; crushing feet.\nModel Name Count Points\nTa’unar Supremacy Armour\n1\n790",
+  "unit_composition_table": [
+    {
+      "model": "Ta’unar Supremacy Armour",
+      "count": "1",
+      "points": "790"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Ta’unar Supremacy Armour"
+  },
+  "url": "https://39k.pro/datasheet/YHnc-oFlDgk"
+}

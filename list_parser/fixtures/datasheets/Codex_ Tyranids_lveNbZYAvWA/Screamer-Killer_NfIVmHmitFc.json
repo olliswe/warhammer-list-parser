@@ -1,0 +1,75 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "NfIVmHmitFc",
+  "datasheet_name": "Screamer-Killer",
+  "characteristics": {
+    "M": "8\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "10",
+    "LD": "8+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bio-plasmic scream",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Screamer-Killer talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "10",
+          "weapon_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Death Scream",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Screamer-Killer**\n\n**This model is equipped with:** bio-plasmic scream; Screamer-Killer talons.\nModel Name Count Points\nScreamer-Killer\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Screamer-Killer",
+      "count": "1",
+      "points": "135"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Great Devourer, Screamer-Killer"
+  },
+  "url": "https://39k.pro/datasheet/NfIVmHmitFc"
+}

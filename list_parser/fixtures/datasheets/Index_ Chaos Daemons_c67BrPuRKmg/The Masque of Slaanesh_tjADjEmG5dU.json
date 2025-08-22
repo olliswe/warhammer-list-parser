@@ -1,0 +1,73 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "tjADjEmG5dU",
+  "datasheet_name": "The Masque of Slaanesh",
+  "characteristics": {
+    "M": "9\"",
+    "T": "3",
+    "SV": "7+",
+    "W": "4",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Serrated claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Dazzling Acrobatics",
+      "rule": "This model is eligible to declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "The Eternal Dance",
+      "rule": "At the start of the Fight phase, select one enemy unit within 6\" of this model. Until the end of the phase:\n■ Each time a friendly **SLAANESH LEGIONES DAEMONICA** model makes a melee attack that targets that enemy unit, add 1 to the Wound roll.\n■ Each time a model in that enemy unit makes a melee attack, subtract 1 from the Wound roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 The Masque of Slaanesh – EPIC HERO**\n\n**This model is equipped with:** serrated claws.\nModel Name Count Points\nThe Masque of Slaanesh\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "The Masque of Slaanesh",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Infantry, Character, Epic Hero, Fly, Chaos, Daemon, Slaanesh, The Masque of Slaanesh"
+  },
+  "url": "https://39k.pro/datasheet/tjADjEmG5dU"
+}

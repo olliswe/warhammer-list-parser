@@ -1,0 +1,145 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "ycQfURh7tKs",
+  "datasheet_name": "Dire Avengers",
+  "characteristics": {
+    "M": "7\"",
+    "T": "3",
+    "SV": "4+",
+    "W": "1",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Avenger shuriken catapult",
+        "stats": {
+          "range": "18\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Diresword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power glaive",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-3",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Bladestorm",
+      "rule": "Ranged weapons equipped by models in this unit have the **[SUSTAINED HITS 1]** ability while targeting an enemy unit within half range."
+    },
+    {
+      "name": "Shimmershield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    },
+    {
+      "name": "Aspect Shrine Token",
+      "rule": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.\n\n**Designer’s Note:** *Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Shimmershield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    },
+    {
+      "name": "Aspect Shrine Token",
+      "rule": "Once per battle for each Aspect Shrine token this unit has, you can change the result of one Hit roll or one Wound roll made for a model in this unit to an unmodified 6.\n\n**Designer’s Note:** *Place an Aspect Shrine token next to the unit for each Aspect Shrine token it has, removing one each time this ability is used.*"
+    }
+  ],
+  "wargear_options": [
+    "■ The Dire Avenger Exarch’s shuriken pistol can be replaced with:\n◦ 1 shimmershield",
+    "■ If this unit’s Dire Avenger Exarch is equipped with 1 Avenger shuriken catapult, it can be equipped with 1 additional Avenger shuriken catapult.",
+    "■ The Dire Avenger Exarch’s Avenger shuriken catapult can be replaced with 1 shuriken pistol and one of the following:\n◦ 1 diresword\n◦ 1 power glaive",
+    "■ For every 5 models in this unit, it can have 1 Aspect Shrine token."
+  ],
+  "unit_composition": "■ **1 Dire Avenger Exarch**\n■ **4-9 Dire Avengers**\n\n**Every model is equipped with:** Avenger shuriken catapult, close combat weapon.\nModel Name Count Points\nDire Avenger\nDire Avenger Exarch\n4\n1\n80\nDire Avenger\nDire Avenger Exarch\n5-9\n1\n160",
+  "unit_composition_table": [
+    {
+      "model": "Dire Avenger\nDire Avenger Exarch",
+      "count": "4\n1",
+      "points": "80"
+    },
+    {
+      "model": "Dire Avenger\nDire Avenger Exarch",
+      "count": "5-9\n1",
+      "points": "160"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Asurmen",
+      "id": "7FojA4AKIfo"
+    },
+    {
+      "name": "Autarch",
+      "id": "gxx1E60VCsY"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Aeldari, Grenades, Aspect Warriors, Dire Avengers"
+  },
+  "url": "https://39k.pro/datasheet/ycQfURh7tKs"
+}

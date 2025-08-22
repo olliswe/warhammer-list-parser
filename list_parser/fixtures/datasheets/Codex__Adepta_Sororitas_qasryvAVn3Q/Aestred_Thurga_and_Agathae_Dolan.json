@@ -1,0 +1,89 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_name": "Aestred Thurga and Agathae Dolan",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Scribe’s staff",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Blade of Vigil",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Recount the Deeds of the Saints",
+      "rule": "While this unit is leading a unit and contains an Agathe Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Miracle dice."
+    },
+    {
+      "name": "Auto-Tapestry of the Emperor’s Judgement",
+      "rule": "While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Aestred Thurga – EPIC HERO**\n■ **1 Agathae Dolan – EPIC HERO**\n\n**Aestred Thurga is equipped with:** bolt pistol; Blade of Vigil.\n**Agathae Dolan is equipped with:** bolt pistol; scribe’s staff.\nModel Name Count Points\nAgathae Dolan\nAestred Thurga\n1\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Agathae Dolan\nAestred Thurga",
+      "count": "1\n1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Infantry, Grenades, Character, Epic Hero, Imperium, Aestred Thurga, Agathae Dolan"
+  },
+  "url": "https://39k.pro/datasheet/1QMvQdMVwpQ"
+}

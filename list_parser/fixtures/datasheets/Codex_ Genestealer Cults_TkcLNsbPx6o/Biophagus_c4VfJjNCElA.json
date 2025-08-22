@@ -1,0 +1,107 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "c4VfJjNCElA",
+  "datasheet_name": "Biophagus",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "5+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Autopistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Chemical vials",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "1",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 2+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Injector goad",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "3+",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Anti-infantry 2+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Biological Warfare",
+      "rule": "Once per battle, when this model’s unit is selected to fight, this model can use this ability. If it does, until the end of the phase, improve the Attacks and Damage characteristics of its injector goad by 3."
+    },
+    {
+      "name": "Twisted Science",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Alchemicus Familiar",
+      "rule": "Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, each time a model in the bearer’s unit makes an attack that targets an **INFANTRY** unit, add 1 to the Wound roll.\n\n**Designer’s Note:** *Place an Alchemicus Familiar token next to the bearer, removing it once this ability has been used.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Alchemicus Familiar",
+      "rule": "Once per battle, when the bearer’s unit is selected to fight, the bearer can use its alchemicus familiar. If it does, until the end of the phase, each time a model in the bearer’s unit makes an attack that targets an **INFANTRY** unit, add 1 to the Wound roll.\n\n**Designer’s Note:** *Place an Alchemicus Familiar token next to the bearer, removing it once this ability has been used.*"
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Biophagus**\n\n**This model is equipped with:** autopistol; chemical vials; injector goad; alchemicus familiar.\nModel Name Count Points\nBiophagus\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Biophagus",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Infantry, Character, Great Devourer, Biophagus"
+  },
+  "url": "https://39k.pro/datasheet/c4VfJjNCElA"
+}

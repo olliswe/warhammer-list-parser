@@ -1,0 +1,90 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "Yo41UdZiUdA",
+  "datasheet_name": "Kroot Trail Shaper",
+  "characteristics": {
+    "M": "7\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Kroot rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Shaper’s blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Kroot Ambush",
+      "rule": "After both players have deployed their armies, you can redeploy this model’s unit and one other friendly **KROOT** unit. When doing so, any of those units can be placed into Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "name": "Trail Finding",
+      "rule": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model’s unit, if this model’s unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\"."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 7\"",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Kroot Trail Shaper**\n\n**This model is equipped with:** Kroot rifle; Shaper’s blade.\nModel Name Count Points\nKroot Trail Shaper\n1\n55",
+  "unit_composition_table": [
+    {
+      "model": "Kroot Trail Shaper",
+      "count": "1",
+      "points": "55"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Infantry, Character, Kroot, Shaper, Trail Shaper"
+  },
+  "url": "https://39k.pro/datasheet/Yo41UdZiUdA"
+}

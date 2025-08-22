@@ -1,0 +1,108 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "TkcLNsbPx6o",
+  "datasheet_id": "BHHXFfJrmDU",
+  "datasheet_name": "Goliath Truck",
+  "characteristics": {
+    "M": "12\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "10",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Demolition charge cache",
+        "stats": {
+          "range": "8\"",
+          "attacks": "D6",
+          "ballistic_skill": "5+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Assault",
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      {
+        "name": "Twin autocannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fire Support",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this **TRANSPORT** this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Firing Deck 6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Goliath Truck**\n\n**This model is equipped with**: heavy stubber; twin autocannon; demolition charge cache; armoured hull.\nModel Name Count Points\nGoliath Truck\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Goliath Truck",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Genestealer Cults",
+    "keywords": "Vehicle, Transport, Dedicated Transport, Great Devourer, Goliath Truck"
+  },
+  "url": "https://39k.pro/datasheet/BHHXFfJrmDU"
+}

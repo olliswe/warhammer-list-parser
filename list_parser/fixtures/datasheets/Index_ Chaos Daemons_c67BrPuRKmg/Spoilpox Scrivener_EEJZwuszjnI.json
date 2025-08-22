@@ -1,0 +1,85 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "EEJZwuszjnI",
+  "datasheet_name": "Spoilpox Scrivener",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "7+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Disgusting sneezes",
+        "stats": {
+          "range": "6\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Plaguesword and distended maw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Keep Counting!",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Meet Your Quota!",
+      "rule": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Spoilpox Scrivener**\n\n**This model is equipped with:** disgusting sneezes; plaguesword and distended maw.\nModel Name Count Points\nSpoilpox Scrivener\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Spoilpox Scrivener",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Infantry, Character, Chaos, Daemon, Nurgle, Spoilpox Scrivener"
+  },
+  "url": "https://39k.pro/datasheet/EEJZwuszjnI"
+}

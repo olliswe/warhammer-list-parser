@@ -1,0 +1,98 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "-yLwsuVhGOU",
+  "datasheet_name": "Eldrad Ulthran",
+  "characteristics": {
+    "M": "7\"",
+    "T": "4",
+    "SV": "6+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Mind War",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Anti-character 4+",
+          "Precision",
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "The Staff of Ulthamar and witchblade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 2+",
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Doom",
+      "rule": "At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly **AELDARI** model makes an attack that targets that enemy unit, add 1 to the Wound roll."
+    },
+    {
+      "name": "Diviner of Futures",
+      "rule": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Eldrad Ulthran – EPIC HERO**\n\n**This model is equipped with:** Mind War; shuriken pistol; Staff of Ulthamar and witchblade.\nModel Name Count Points\nEldrad Ulthran\n1\n110",
+  "unit_composition_table": [
+    {
+      "model": "Eldrad Ulthran",
+      "count": "1",
+      "points": "110"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Character, Epic Hero, Aeldari, Psyker, Farseer, Eldrad Ulthran"
+  },
+  "url": "https://39k.pro/datasheet/-yLwsuVhGOU"
+}

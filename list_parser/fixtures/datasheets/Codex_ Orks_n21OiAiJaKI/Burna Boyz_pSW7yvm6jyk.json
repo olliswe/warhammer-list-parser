@@ -1,0 +1,137 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "pSW7yvm6jyk",
+  "datasheet_name": "Burna Boyz",
+  "characteristics": {
+    "M": "6\"",
+    "T": "5",
+    "SV": "5+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Rokkit launcha",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D3",
+          "ballistic_skill": "5+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Big shoota",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Kustom mega-blasta",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "5+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Hazardous"
+        ]
+      },
+      {
+        "name": "Burna",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Cuttin’ flames",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Pyromaniaks",
+      "rule": "Each time a model in this unit makes a ranged attack with a burna that targets an enemy unit within 6\", re‑roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re‑roll the Wound roll instead."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of Spanners can each have their big shoota replaced with one of the following:\n◦ 1 kustom mega-blasta\n◦ 1 rokkit launcha"
+  ],
+  "unit_composition": "■ **1 Spanner and 4 Burna Boyz**\nOR\n■ **2 Spanners and 8 Burna Boyz**\n\n**Every Spanner is equipped with:** close combat weapon; big shoota.\n**Every Burna Boy is equipped with:** burna; cuttin’ flames.\nModel Name Count Points\nBurna Boy\nSpanner\n4\n1\n60\nBurna Boy\nSpanner\n8\n2\n120",
+  "unit_composition_table": [
+    {
+      "model": "Burna Boy\nSpanner",
+      "count": "4\n1",
+      "points": "60"
+    },
+    {
+      "model": "Burna Boy\nSpanner",
+      "count": "8\n2",
+      "points": "120"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Painboy",
+      "id": "VBQAmp9Itls"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Infantry, Burna Boyz"
+  },
+  "url": "https://39k.pro/datasheet/pSW7yvm6jyk"
+}

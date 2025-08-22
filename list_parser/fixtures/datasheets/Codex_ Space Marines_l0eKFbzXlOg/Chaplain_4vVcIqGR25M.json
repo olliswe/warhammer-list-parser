@@ -1,0 +1,78 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "4vVcIqGR25M",
+  "datasheet_name": "Chaplain",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "5+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Absolvor bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Crozius arcanum",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Spiritual Leader",
+      "rule": "Once per battle, at the start of any phase, you can select one friendly **ADEPTUS ASTARTES** unit that is Battle-shocked and within 12\" of this model. That unit is no longer Battle-shocked."
+    },
+    {
+      "name": "Litany of Hate",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Chaplain**\n\n**This model is equipped with:** absolvor bolt pistol; crozius arcanum.\nModel Name Count Points\nChaplain\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Chaplain",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Character, Grenades, Imperium, Tacticus, Chaplain"
+  },
+  "url": "https://39k.pro/datasheet/4vVcIqGR25M"
+}

@@ -1,0 +1,309 @@
+{
+  "faction": "Index: Deathwatch",
+  "faction_id": "H826usxivyk",
+  "datasheet_id": "0eA5LCqKjjI",
+  "datasheet_name": "Fortis Kill Team",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Deathwatch bolt rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Heavy",
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Astartes grenade launcher — krak",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "🠶 Plasma incinerator — supercharge",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Hazardous",
+          "Assault",
+          "Heavy",
+          "Heavy",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Heavy bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Pyreblaster",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Castellan launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      {
+        "name": "Superfrag rocket launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Superkrak rocket launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Vengor launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Indirect Fire",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Thunder hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fortis Doctrines",
+      "rule": "Each time a model in this unit makes an attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that attack targets a unit that is Below Half-strength, add 1 to the Hit roll and add 1 to the Wound roll instead."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 model equipped with a Deathwatch bolt rifle can be equipped with 1 Astartes grenade launcher.",
+    "■ One model equipped with a plasma incinerator can replace its bolt pistol with 1 plasma pistol.",
+    "■ 1 model can replace its superfrag rocket launcher with 1 vengor launcher.",
+    "■ Any number of models can each replace their superfrag rocket launcher with 1 superkrak rocket launcher.",
+    "■ The Kill Team Sergeant can replace its Deathwatch bolt rifle with one of the following:\n◦ 1 Astartes chainsword\n◦ 1 hand flamer\n◦ 1 plasma pistol\n◦ 1 power weapon",
+    "■ The Kill Team Sergeant can replace its close combat weapon with one of the following:\n◦ 1 Astartes chainsword\n◦ 1 power fist\n◦ 1 power weapon\n◦ 1 thunder hammer"
+  ],
+  "unit_composition": "**■ 1 Kill Team Sergeant**&#x20;\n**■ 2‑9 Kill Team Intercessors**&#x20;\n**■ 0‑4 Kill Team Intercessors with plasma incinerators**&#x20;\n**■ 0‑4 Kill Team Intercessors with heavy bolt pistols**&#x20;\n**■ 0‑4 Kill Team Intercessors with pyreblasters**&#x20;\n**■ 0‑2 Kill Team Intercessors with superfrag rocket launchers**&#x20;\n\n**The Kill Team Sergeant and every Kill Team Intercessor is equipped with:** bolt pistol; Deathwatch bolt rifle; close combat weapon.&#x20;\n\n**Every Kill Team Intercessor with plasma incinerator is equipped with:** bolt pistol; plasma incinerator; close combat weapon.&#x20;\n\n**Every Kill Team Intercessor with heavy bolt pistol is equipped with:** heavy bolt pistol; Astartes chainsword.&#x20;\n\n**Every Kill Team Intercessor with pyreblaster is equipped with:** bolt pistol; pyreblaster; close combat weapon.&#x20;\n\n**Every Kill Team Intercessor with superfrag rocket launcher is equipped with:** bolt pistol; castellan launcher; superfrag rocket launcher; close combat weapon.\nModel Name Count Points\nKill Team Sergeant\nKill Team Intercessor\nKill Team Intercessor with heavy bolt pistol\nKill Team Intercessor with plasma incinerator\nKill Team Intercessor with pyreblaster\nKill Team Intercessor with superfrag rocket launcher\n1\n9\n0\n0\n0\n0\n200\nKill Team Sergeant\nKill Team Intercessor\nKill Team Intercessor with heavy bolt pistol\nKill Team Intercessor with plasma incinerator\nKill Team Intercessor with pyreblaster\nKill Team Intercessor with superfrag rocket launcher\n1\n2-9\n0-4\n0-4\n0-4\n0-2\n200",
+  "unit_composition_table": [
+    {
+      "model": "Kill Team Sergeant\nKill Team Intercessor\nKill Team Intercessor with heavy bolt pistol\nKill Team Intercessor with plasma incinerator\nKill Team Intercessor with pyreblaster\nKill Team Intercessor with superfrag rocket launcher",
+      "count": "1\n9\n0\n0\n0\n0",
+      "points": "200"
+    },
+    {
+      "model": "Kill Team Sergeant\nKill Team Intercessor\nKill Team Intercessor with heavy bolt pistol\nKill Team Intercessor with plasma incinerator\nKill Team Intercessor with pyreblaster\nKill Team Intercessor with superfrag rocket launcher",
+      "count": "1\n2-9\n0-4\n0-4\n0-4\n0-2",
+      "points": "200"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Watch Captain Artemis",
+      "id": "Rpp6aMhzYJI"
+    },
+    {
+      "name": "Watch Master",
+      "id": "k7Z73jbOSTw"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Deathwatch",
+    "keywords": "Infantry, Grenades, Imperium, Tacticus, Kill Team, Fortis Kill Team"
+  },
+  "url": "https://39k.pro/datasheet/0eA5LCqKjjI"
+}

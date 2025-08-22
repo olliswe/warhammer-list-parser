@@ -1,0 +1,136 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_id": "dMOgXJcVjYk",
+  "datasheet_name": "Immolator",
+  "characteristics": {
+    "M": "12\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "11",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      },
+      {
+        "name": "Twin multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 2",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Immolation flamers",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Purge and Cleanse",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model’s immolation flamers can be replaced with one of the following: \n◦ 1 twin heavy bolter\n◦ 1 twin multi-melta"
+  ],
+  "unit_composition": "■ **1 Immolator**\n\n**This model is equipped with:** heavy bolter; immolation flamers; armoured tracks.\nModel Name Count Points\nImmolator\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Immolator",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Vehicle, Smoke, Transport, Dedicated Transport, Imperium, Immolator"
+  },
+  "url": "https://39k.pro/datasheet/dMOgXJcVjYk"
+}

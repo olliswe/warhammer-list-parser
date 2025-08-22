@@ -1,0 +1,55 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "NKvMMZI0FEQ",
+  "datasheet_name": "Spore Mines",
+  "characteristics": {
+    "M": "4\"",
+    "T": "1",
+    "SV": "7+",
+    "W": "1",
+    "LD": "8+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": []
+  },
+  "abilities": [
+    {
+      "name": "Floating Death",
+      "rule": "Each time this unit or an enemy unit ends a move, for each model in this unit that is within 3\" of one or more enemy units, select one of those enemy units. That model in this unit is destroyed, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds."
+    },
+    {
+      "name": "Bio-minefield",
+      "rule": "Enemy units cannot start or end an Advance move within 6\" of this unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Spore Mines**\n\n**Every model is equipped with:** nothing.\nModel Name Count Points\nSpore Mine\n4-6\n110\nSpore Mine\n3\n55",
+  "unit_composition_table": [
+    {
+      "model": "Spore Mine",
+      "count": "4-6",
+      "points": "110"
+    },
+    {
+      "model": "Spore Mine",
+      "count": "3",
+      "points": "55"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Beast, Fly, Great Devourer, Spore Mines"
+  },
+  "url": "https://39k.pro/datasheet/NKvMMZI0FEQ"
+}

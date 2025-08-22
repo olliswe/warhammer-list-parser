@@ -1,0 +1,107 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "WDCrS3V-oPc",
+  "datasheet_id": "m6ZA1hw1DYM",
+  "datasheet_name": "Chaos Acastus Knight Asterius",
+  "characteristics": {
+    "M": "8\"",
+    "T": "13",
+    "SV": "2+",
+    "W": "30",
+    "LD": "6+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Asterius volkite culverin",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Twin conversion beam cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "16",
+          "armour_penetration": "-2",
+          "damage": "6"
+        },
+        "abilities": [
+          "Sustained Hits D3",
+          "Conversion",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Karacnos mortar battery",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire",
+          "Ignores Cover",
+          "Blast",
+          "Anti-infantry 2+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Titanic feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Sunderer of Fortresses",
+      "rule": "Each time this model makes an attack that targets a **VEHICLE**, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a **FORTIFICATION**, improve the Strength and Damage characteristics of that attack by 2 instead)."
+    },
+    {
+      "name": "Deadly Demise 2D6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Chaos Acastus Knight Asterius**\n\n**This model is equipped with:** 2 Asterius volkite culverins; karacnos mortar battery; 2 twin conversion beam cannons; titanic feet.\nModel Name Count Points\nChaos Acastus Knight Asterius\n1\n765",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Acastus Knight Asterius",
+      "count": "1",
+      "points": "765"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Chaos Knights",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Chaos, Acastus, Knight Asterius"
+  },
+  "url": "https://39k.pro/datasheet/m6ZA1hw1DYM"
+}

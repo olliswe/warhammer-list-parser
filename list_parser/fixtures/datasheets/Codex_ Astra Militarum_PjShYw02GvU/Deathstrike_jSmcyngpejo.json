@@ -1,0 +1,122 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "jSmcyngpejo",
+  "datasheet_name": "Deathstrike",
+  "characteristics": {
+    "M": "10\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "11",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Deathstrike missile",
+        "stats": {
+          "range": "N/A",
+          "attacks": "2D6",
+          "ballistic_skill": "2+",
+          "strength": "16",
+          "armour_penetration": "-4",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "One Shot",
+          "Plasma Warhead"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Deathstrike Missile",
+      "rule": "In your Shooting phase, each time this model is selected to shoot, if it has not shot with its Deathstrike missile this battle, you can do one of the following in addition to resolving this model’s ranged attacks:\n\n■ **Designate Target:** If this model does not have a Deathstrike Target marker on the battlefield, place a unique Deathstrike Target marker for this model anywhere on the battlefield.\n\n■ **Adjust Target:** If this model has a Deathstrike Target marker on the battlefield, move that marker to anywhere else on the battlefield."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model’s heavy bolter can be replaced with 1 heavy flamer."
+  ],
+  "unit_composition": "■ **1 Deathstrike**\n\n**This model is equipped with:** Deathstrike missile; heavy bolter; armoured tracks.\nModel Name Count Points\nDeathstrike\n1\n145",
+  "unit_composition_table": [
+    {
+      "model": "Deathstrike",
+      "count": "1",
+      "points": "145"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Vehicle, Artillery, Smoke, Imperium, Squadron, Deathstrike"
+  },
+  "url": "https://39k.pro/datasheet/jSmcyngpejo"
+}

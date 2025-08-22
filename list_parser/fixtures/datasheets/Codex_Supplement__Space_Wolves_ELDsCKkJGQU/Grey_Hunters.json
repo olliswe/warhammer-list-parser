@@ -1,0 +1,139 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "ELDsCKkJGQU",
+  "datasheet_name": "Grey Hunters",
+  "characteristics": {
+    "M": "7\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt carbine",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Cunning Hunters",
+      "rule": "Each time a model in this unit makes an attack, re‑roll a Wound roll of 1. If the target is within range of an objective marker, you can re‑roll the Wound roll instead."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Grey Hunter Pack Leader’s bolt carbine can be replaced with 1 plasma pistol.",
+    "■ The Grey Hunter Pack Leader’s Astartes Chainsword can be replaced with one of the following:\n◦ 1 power fist\n◦ 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Grey Hunter Pack Leader**\n■ **9 Grey Hunters**\n\n**Every model is equipped with:** bolt carbine; bolt pistol; Astartes chainsword.\nModel Name Count Points\nGrey Hunter\nGrey Hunter Pack Leader\n9\n1\n180",
+  "unit_composition_table": [
+    {
+      "model": "Grey Hunter\nGrey Hunter Pack Leader",
+      "count": "9\n1",
+      "points": "180"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Iron Priest",
+      "id": "iRwTDtje0P0"
+    },
+    {
+      "name": "Ulrik the Slayer",
+      "id": "o36IYrGjIMY"
+    },
+    {
+      "name": "Njal Stormcaller",
+      "id": "_JFb2HA9ZCc"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Space Wolves",
+    "keywords": "Infantry, Battleline, Grenades, Imperium, Tacticus, Grey Hunters"
+  },
+  "url": "https://39k.pro/datasheet/SK03On05clA"
+}

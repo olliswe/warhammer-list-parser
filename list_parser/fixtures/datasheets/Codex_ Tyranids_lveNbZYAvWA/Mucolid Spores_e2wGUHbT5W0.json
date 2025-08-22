@@ -1,0 +1,55 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "e2wGUHbT5W0",
+  "datasheet_name": "Mucolid Spores",
+  "characteristics": {
+    "M": "4\"",
+    "T": "4",
+    "SV": "7+",
+    "W": "3",
+    "LD": "8+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": []
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Floating Death",
+      "rule": "Each time this unit or an enemy unit ends a move, for each model in this unit that is within 3” of one or more enemy units, select one of those enemy units. That model in this unit is destroyed, then roll one D6: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D6 mortal wounds."
+    },
+    {
+      "name": "Bio-minefield",
+      "rule": "Enemy units cannot start or end an Advance move within 6\" of this unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1-2 Mucolid Spores**\n\n**Every model is equipped with:** nothing.\nModel Name Count Points\nMucolid Spore\n1\n30\nMucolid Spore\n2\n60",
+  "unit_composition_table": [
+    {
+      "model": "Mucolid Spore",
+      "count": "1",
+      "points": "30"
+    },
+    {
+      "model": "Mucolid Spore",
+      "count": "2",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Beast, Fly, Great Devourer, Mucolid Spores"
+  },
+  "url": "https://39k.pro/datasheet/e2wGUHbT5W0"
+}

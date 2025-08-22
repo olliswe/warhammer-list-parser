@@ -1,0 +1,121 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "FjkcvRhS8C8",
+  "datasheet_name": "Stormsword",
+  "characteristics": {
+    "M": "12\"",
+    "T": "13",
+    "SV": "2+",
+    "W": "24",
+    "LD": "7+",
+    "OC": "8"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Stormsword siege cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+6",
+          "ballistic_skill": "4+",
+          "strength": "16",
+          "armour_penetration": "-4",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Blast",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Concussive Wave",
+      "rule": "In your Shooting phase, just after selecting a target for this model’s Stormsword siege cannon, roll one D6 for the target unit and every other unit within 3\" of that unit: on a 5+, the unit being rolled for is struck by a concussive wave. After this model has finished making its attacks against that target unit this phase, each unit struck by a concussive wave suffers D3 mortal wounds."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s 2 twin heavy flamers can be replaced with 2 twin heavy bolters.",
+    "■ This model can be equipped with one of the following: \n◦ 2 lascannons and 2 twin heavy bolters\n◦ 2 lascannons and 2 twin heavy flamers"
+  ],
+  "unit_composition": "■ **1 Stormsword**\n\n**This model is equipped with:** 2 lascannons; Stormsword siege cannon; twin heavy bolter; 2 twin heavy flamers; armoured tracks.\nModel Name Count Points\nStormsword\n1\n495",
+  "unit_composition_table": [
+    {
+      "model": "Stormsword",
+      "count": "1",
+      "points": "495"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Vehicle, Smoke, Titanic, Imperium, Stormsword"
+  },
+  "url": "https://39k.pro/datasheet/FjkcvRhS8C8"
+}

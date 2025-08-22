@@ -1,0 +1,172 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "WDCrS3V-oPc",
+  "datasheet_id": "isKC0UQK_2Q",
+  "datasheet_name": "Knight Tyrant",
+  "characteristics": {
+    "M": "8\"",
+    "T": "12",
+    "SV": "3+",
+    "W": "28",
+    "LD": "6+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Twin daemonbreath meltagun",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Gheiststrike missile launcher",
+        "stats": {
+          "range": "72\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-6",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Anti-titanic 4+",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Twin Desecrator cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Brimstone volcano lance",
+        "stats": {
+          "range": "60\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "20",
+          "armour_penetration": "-5",
+          "damage": "D6+8"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "🠶 Ectoplasma decimator — supercharge",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Hazardous",
+          "Blast"
+        ]
+      },
+      {
+        "name": "Warpshock harpoon",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "24",
+          "armour_penetration": "-6",
+          "damage": "12"
+        },
+        "abilities": [
+          "Blast",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Darkflame cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3D6",
+          "ballistic_skill": "N/A",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Titanic feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Bastion of Corruption",
+      "rule": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+    },
+    {
+      "name": "Infernal Aegis",
+      "rule": "While a friendly **WAR DOG** unit is within 6\" of this model, each time an attack targets that **WAR DOG** unit, models in it have the Benefit of Cover against that attack."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s 2 gheiststrike missile launchers and twin Desecrator cannon can be replaced with 1 gheiststrike missile launcher and 2 twin desecrator cannons.",
+    "■ This model’s brimstone volcano lance and ectoplasma decimator can be replaced with 1 darkflame cannon and 1 warpshock harpoon."
+  ],
+  "unit_composition": "■ **1 Knight Tyrant**\n\n**This model is equipped with:** brimstone volcano lance; ectoplasma decimator; 2 gheiststrike missile launchers; 2 twin daemonbreath meltaguns; twin Desecrator cannon; titanic feet.\nModel Name Count Points\nKnight Tyrant\n1\n395",
+  "unit_composition_table": [
+    {
+      "model": "Knight Tyrant",
+      "count": "1",
+      "points": "395"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Chaos Knights",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Character, Chaos, Knight Tyrant"
+  },
+  "url": "https://39k.pro/datasheet/isKC0UQK_2Q"
+}

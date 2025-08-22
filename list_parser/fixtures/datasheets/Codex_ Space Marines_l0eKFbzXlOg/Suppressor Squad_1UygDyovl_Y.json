@@ -1,0 +1,88 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "1UygDyovl_Y",
+  "datasheet_name": "Suppressor Squad",
+  "characteristics": {
+    "M": "12\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Accelerator autocannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Suppression Fire",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with an accelerator autocannon. Until the start of your next turn, while this unit is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Suppressor Sergeant**\n■ **2 Suppressors**\n\n**Every model is equipped with:** accelerator autocannon; bolt pistol; close combat weapon.\nModel Name Count Points\nSuppressor Sergeant\nSuppressor\n1\n2\n75",
+  "unit_composition_table": [
+    {
+      "model": "Suppressor Sergeant\nSuppressor",
+      "count": "1\n2",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Grenades, Smoke, Jump Pack, Fly, Imperium, Suppressor Squad"
+  },
+  "url": "https://39k.pro/datasheet/1UygDyovl_Y"
+}

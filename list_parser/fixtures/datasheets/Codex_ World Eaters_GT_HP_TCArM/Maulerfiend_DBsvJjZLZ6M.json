@@ -1,0 +1,95 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "GT_HP_TCArM",
+  "datasheet_id": "DBsvJjZLZ6M",
+  "datasheet_name": "Maulerfiend",
+  "characteristics": {
+    "M": "12\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "12",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Magma cutter",
+        "stats": {
+          "range": "6\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2",
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Lasher tendrils",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Maulerfiend fists",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "3+",
+          "strength": "14",
+          "armour_penetration": "-2",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "The Scent of Blood",
+      "rule": "Each time this model declares a charge that targets one or more units below Starting Strength, add 1 to the Charge roll. If one or more of the targets of that charge are Below Half-strength, add 2 to the Charge roll instead."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Savage Exaltation",
+      "rule": "Each time this model makes a melee attack that targets an enemy unit that is below its Starting Strength, add 1 to the Hit roll and, if that attack targets an enemy unit that is Below Half-strength, add 1 to the Wound roll as well."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s lasher tendrils can be replaced with 2 magma cutters."
+  ],
+  "unit_composition": "■ **1 Maulerfiend**\n\n**This model is equipped with:** lasher tendrils; Maulerfiend fists.\nModel Name Count Points\nMaulerfiend\n1\n150",
+  "unit_composition_table": [
+    {
+      "model": "Maulerfiend",
+      "count": "1",
+      "points": "150"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: World Eaters",
+    "keywords": "Vehicle, Walker, Chaos, Khorne, Daemon, Maulerfiend"
+  },
+  "url": "https://39k.pro/datasheet/DBsvJjZLZ6M"
+}

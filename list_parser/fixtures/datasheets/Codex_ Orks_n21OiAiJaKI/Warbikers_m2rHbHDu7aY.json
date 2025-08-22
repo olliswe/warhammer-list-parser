@@ -1,0 +1,135 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "m2rHbHDu7aY",
+  "datasheet_name": "Warbikers",
+  "characteristics": {
+    "M": "12\"",
+    "T": "6",
+    "SV": "4+",
+    "W": "4",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Slugga",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "5+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Twin dakkagun",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2",
+          "Twin-linked",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Power klaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Big choppa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Choppa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Drive-by Dakka",
+      "rule": "Each time a model in this unit makes a ranged attack that targets a unit within 9\", improve the Armour Penetration characteristic of that attack by 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Boss Nob on Warbike can be equipped with one of the following: \n◦ 1 slugga\n◦ 1 big choppa\n◦ 1 power klaw",
+    "■ Each Warbiker can be equipped with one of the following: \n◦ 1 slugga\n◦ 1 choppa"
+  ],
+  "unit_composition": "■ **1 Boss Nob on Warbike**\n■ **2-5 Warbikers**\n\n**Every model is equipped with:** twin dakkagun; close combat weapon.\nModel Name Count Points\nBoss Nob on Warbike\nWarbiker\n1\n2\n70\nBoss Nob on Warbike\nWarbiker\n1\n3-5\n140",
+  "unit_composition_table": [
+    {
+      "model": "Boss Nob on Warbike\nWarbiker",
+      "count": "1\n2",
+      "points": "70"
+    },
+    {
+      "model": "Boss Nob on Warbike\nWarbiker",
+      "count": "1\n3-5",
+      "points": "140"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Deffkilla Wartrike",
+      "id": "-BHWl_gPE0E"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Mounted, Grenades, Speed Freeks, Warbikers"
+  },
+  "url": "https://39k.pro/datasheet/m2rHbHDu7aY"
+}

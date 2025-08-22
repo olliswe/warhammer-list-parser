@@ -1,0 +1,103 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "hWKlQIlrDHo",
+  "datasheet_name": "Custodian Guard with Adrasite and Pyrithite Spears",
+  "characteristics": {
+    "M": "6\"",
+    "T": "6",
+    "SV": "2+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Adrasite spear",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Pyrithite spear",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Adrasite spear",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Pyrithite spear",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Stand Vigil",
+      "rule": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. While this unit is within range of an objective marker you control, you can re-roll the Wound roll instead."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "No Foe Shall Stand",
+      "rule": "Once per battle, at the start of your Shooting phase, this unit can use this ability. If it does, until the end of the phase, ranged weapons equipped by models in this unit have the **[LETHAL HITS]** and **[IGNORES COVER]** abilities."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their adrasite spear replaced with 1 pyrithite spear."
+  ],
+  "unit_composition": "■ **5 Custodian Guard with Adrasite and Pyrithite Spears**\n\n**Every model is equipped with:** adrasite spear.\nModel Name Count Points\nCustodian Guard with Adrasite and Pyrithite Spears\n5\n250",
+  "unit_composition_table": [
+    {
+      "model": "Custodian Guard with Adrasite and Pyrithite Spears",
+      "count": "5",
+      "points": "250"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Custodes",
+    "keywords": "Infantry, Imperium, Custodian Guard with Adrasite and Pyrithite Spears"
+  },
+  "url": "https://39k.pro/datasheet/88u2BqrKYZ8"
+}

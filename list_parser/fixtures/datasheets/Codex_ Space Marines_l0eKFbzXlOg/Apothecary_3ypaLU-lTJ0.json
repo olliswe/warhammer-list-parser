@@ -1,0 +1,92 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "3ypaLU-lTJ0",
+  "datasheet_name": "Apothecary",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Absolvor bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Reductor pistol",
+        "stats": {
+          "range": "3\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-4",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Narthecium",
+      "rule": "While this model is leading a unit, in your Command phase, you can return 1 destroyed model (excluding **CHARACTER** models) to that unit."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Gene-seed Recovery",
+      "rule": "When this model’s Bodyguard unit is destroyed, roll one D6: on a 2+, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Apothecary**\n\n**This model is equipped with:** absolvor bolt pistol; reductor pistol; close combat weapon.\nModel Name Count Points\nApothecary\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Apothecary",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Character, Grenades, Imperium, Tacticus, Apothecary"
+  },
+  "url": "https://39k.pro/datasheet/3ypaLU-lTJ0"
+}

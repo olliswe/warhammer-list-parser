@@ -1,0 +1,117 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "R_G7vwXD-Ns",
+  "datasheet_name": "Skyweavers",
+  "characteristics": {
+    "M": "14\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Star bolas",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Skyweaver haywire cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Anti-vehicle 4+",
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Zephyrglaive",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Acrobatic Grace",
+      "rule": "Each time an attack targets this unit, subtract 1 from the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their star bolas replaced with 1 zephyrglaive.",
+    "■ Any number of models can each have their shuriken cannon replaced with 1 Skyweaver haywire cannon."
+  ],
+  "unit_composition": "■ **2-4 Skyweavers**\n\n**Every model is equipped with:** shuriken cannon; star bolas; close combat weapon.\nModel Name Count Points\nSkyweaver\n3-4\n190\nSkyweaver\n2\n95",
+  "unit_composition_table": [
+    {
+      "model": "Skyweaver",
+      "count": "3-4",
+      "points": "190"
+    },
+    {
+      "model": "Skyweaver",
+      "count": "2",
+      "points": "95"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Harlequins",
+    "keywords": "Mounted, Aeldari, Fly, Smoke, Skyweavers"
+  },
+  "url": "https://39k.pro/datasheet/R_G7vwXD-Ns"
+}

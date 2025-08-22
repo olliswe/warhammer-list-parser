@@ -1,0 +1,65 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "W2TJfyCLFHs",
+  "datasheet_name": "Orikan the Diviner",
+  "characteristics": {
+    "M": "5\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Staff of Tomorrow",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-3",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "The Stars Are Right",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, triple the Attacks and Strength characteristics of this model’s Staff of Tomorrow and every successful Wound roll made for this model’s attacks scores a Critical Wound."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Master Chronomancer",
+      "rule": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Orikan the Diviner – EPIC HERO**\n\n**This model is equipped with:** Staff of Tomorrow.\nModel Name Count Points\nOrikan the Diviner\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Orikan the Diviner",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Character, Epic Hero, Cryptek, Chronomancer, Orikan the Diviner"
+  },
+  "url": "https://39k.pro/datasheet/W2TJfyCLFHs"
+}

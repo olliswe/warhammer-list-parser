@@ -1,0 +1,160 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "LnpiF6kUHWI",
+  "datasheet_name": "Ancient in Terminator Armour",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Twin lightning claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Thunder hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Chainfist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-vehicle 3+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Astartes Banner",
+      "rule": "While this model is leading a unit, add 1 to the Objective Control characteristic of models in that unit."
+    },
+    {
+      "name": "Keep the Banner High",
+      "rule": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Terminator Storm Shield",
+      "rule": "The bearer has a Wounds characteristic of 6."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Terminator Storm Shield",
+      "rule": "The bearer has a Wounds characteristic of 6."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s power fist can be replaced with one of the following:\n◦ 1 chainfist\n◦ 1 close combat weapon\n◦ 1 power weapon\n◦ 1 thunder hammer",
+    "■ This model’s storm bolter and power fist can be replaced with one of the following:\n◦ 1 twin lightning claws\n◦ 1 thunder hammer and 1 Terminator storm shield"
+  ],
+  "unit_composition": "■ **1 Ancient in Terminator Armour**\n\n**This model is equipped with:** storm bolter; power fist.\nModel Name Count Points\nAncient in Terminator Armour\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Ancient in Terminator Armour",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Character, Imperium, Terminator, Ancient"
+  },
+  "url": "https://39k.pro/datasheet/LnpiF6kUHWI"
+}

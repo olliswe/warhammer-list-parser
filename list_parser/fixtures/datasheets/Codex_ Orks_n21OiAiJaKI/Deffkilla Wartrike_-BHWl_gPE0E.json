@@ -1,0 +1,98 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "-BHWl_gPE0E",
+  "datasheet_name": "Deffkilla Wartrike",
+  "characteristics": {
+    "M": "12\"",
+    "T": "6",
+    "SV": "4+",
+    "W": "9",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Killa jet — cutta",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Melta 2",
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Boomstikks",
+        "stats": {
+          "range": "12\"",
+          "attacks": "6",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Snagga klaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Fuel-mixa Grot",
+      "rule": "Each time this model’s unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Speedboss",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Defkilla Wartrike**\n\n**This model is equipped with:** boomstikks; killa jet; snagga klaw.\nModel Name Count Points\nDeffkilla Wartrike\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Deffkilla Wartrike",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Mounted, Character, Warboss, Speed Freeks, Deffkilla Wartrike"
+  },
+  "url": "https://39k.pro/datasheet/-BHWl_gPE0E"
+}

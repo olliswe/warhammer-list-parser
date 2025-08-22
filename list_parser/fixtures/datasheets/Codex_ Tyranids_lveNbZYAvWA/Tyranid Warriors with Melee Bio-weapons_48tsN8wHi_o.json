@@ -1,0 +1,67 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "48tsN8wHi_o",
+  "datasheet_name": "Tyranid Warriors with Melee Bio-weapons",
+  "characteristics": {
+    "M": "6\"",
+    "T": "5",
+    "SV": "4+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Tyranid Warrior claws and talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Adaptive Instincts",
+      "rule": "At the start of the Fight phase, select one of the following:\n■ **Aggression Imperative**: Until the end of the phase, each time a model in this unit makes an attack, re-roll a Hit roll of 1.\n■ **Bioregeneration**: Until the end of the phase, each time a saving throw is made for a model in this unit, re-roll a saving throw of 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Tyranid Prime**\n■ **2-5 Tyranid Warriors**\n\n**Every model is equipped with:** Tyranid Warrior claws and talons.\nModel Name Count Points\nTyranid Prime\nTyranid Warrior\n1\n3-5\n150\nTyranid Prime\nTyranid Warrior\n1\n2\n75",
+  "unit_composition_table": [
+    {
+      "model": "Tyranid Prime\nTyranid Warrior",
+      "count": "1\n3-5",
+      "points": "150"
+    },
+    {
+      "model": "Tyranid Prime\nTyranid Warrior",
+      "count": "1\n2",
+      "points": "75"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Winged Tyranid Prime",
+      "id": "U54j5hIs8c0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Great Devourer, Synapse, Tyranid Warriors with Melee Bio-Weapons"
+  },
+  "url": "https://39k.pro/datasheet/48tsN8wHi_o"
+}

@@ -1,0 +1,170 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "Avjg21VrELY",
+  "datasheet_name": "Impulsor",
+  "characteristics": {
+    "M": "12\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "11",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Ironhail heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Fragstorm grenade launcher",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Ironhail skytalon array",
+        "stats": {
+          "range": "36\"",
+          "attacks": "8",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Anti-fly 4+"
+        ]
+      },
+      {
+        "name": "🠶 Bellicatus missile array — Icarus",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Anti-fly 2+",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Firing Deck 6",
+      "rule": ""
+    },
+    {
+      "name": "Assault Vehicle",
+      "rule": "Units can disembark from this **TRANSPORT** after it has Advanced. Units that do so count as having made a Normal move, and cannot declare a charge that turn."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Shield Dome",
+      "rule": "The bearer has a 5+ invulnerable save."
+    },
+    {
+      "name": "Orbital Comms Array (Aura)",
+      "rule": "While a friendly **ADEPTUS ASTARTES** unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Shield Dome",
+      "rule": "The bearer has a 5+ invulnerable save."
+    },
+    {
+      "name": "Orbital Comms Array (Aura)",
+      "rule": "While a friendly **ADEPTUS ASTARTES** unit is within 6\" of the bearer, each time you target that unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following:\n◦ 1 bellicatus missile array\n◦ 1 ironhail skytalon array\n◦ 1 orbital comms array\n◦ 1 shield dome",
+    "■ This model can be equipped with one of the following:\n◦ 1 ironhail heavy stubber\n◦ 1 multi-melta",
+    "■ This model’s 2 storm bolters can be replaced with 2 fragstorm grenade launchers."
+  ],
+  "unit_composition": "■ **1 Impulsor**\n\n**This model is equipped with:** 2 storm bolters; armoured hull.\nModel Name Count Points\nImpulsor\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Impulsor",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Black Templars",
+    "keywords": "Vehicle, Transport, Dedicated Transport, Imperium, Impulsor"
+  },
+  "url": "https://39k.pro/datasheet/y5ubXyhTkMI"
+}

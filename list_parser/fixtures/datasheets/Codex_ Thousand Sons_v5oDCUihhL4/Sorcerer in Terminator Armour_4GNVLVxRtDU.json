@@ -1,0 +1,119 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "v5oDCUihhL4",
+  "datasheet_id": "4GNVLVxRtDU",
+  "datasheet_name": "Sorcerer in Terminator Armour",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Gaze of Hate",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-monster 4+",
+          "Anti-vehicle 4+",
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Inferno combi-bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Inferno combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Empyric Guidance",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Marked by Fate",
+      "rule": "In your Shooting phase, after this model’s unit has shot, select one enemy unit hit by one or more of those attacks made with a Psychic weapon. Until the end of the phase, each time a friendly **THOUSAND SONS** unit makes an attack that targets that enemy unit, add 1 to the Hit roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s inferno combi-bolter can be replaced with 1 inferno combi-weapon."
+  ],
+  "unit_composition": "■ **1 Sorcerer in Terminator Armour**\n\n**This model is equipped with:** Gaze of Hate; inferno combi-bolter; force weapon.\nModel Name Count Points\nSorcerer in Terminator Armour\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Sorcerer in Terminator Armour",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Thousand Sons",
+    "keywords": "Infantry, Character, Psyker, Terminator, Chaos, Tzeentch, Sorcerer"
+  },
+  "url": "https://39k.pro/datasheet/4GNVLVxRtDU"
+}

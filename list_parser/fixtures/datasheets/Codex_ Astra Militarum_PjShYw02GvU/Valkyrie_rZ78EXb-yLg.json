@@ -1,0 +1,134 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "rZ78EXb-yLg",
+  "datasheet_name": "Valkyrie",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "14",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Multi-laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Hellstrike missiles",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Anti-fly 2+"
+        ]
+      },
+      {
+        "name": "Multiple rocket pod",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured hull",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Airborne Insertion",
+      "rule": "At the end of your opponent’s Movement phase, one or more units embarked within this **TRANSPORT** can disembark from it."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s multi-laser can be replaced with 1 lascannon.",
+    "■ This model can be equipped with 2 heavy bolters.",
+    "■ This model’s hellstrike missiles can be replaced with 2 multiple rocket pods."
+  ],
+  "unit_composition": "■ **1 Valkyrie**\n\n**This model is equipped with:** hellstrike missiles; Militarum multi-laser; armoured hull.\nModel Name Count Points\nValkyrie\n1\n190",
+  "unit_composition_table": [
+    {
+      "model": "Valkyrie",
+      "count": "1",
+      "points": "190"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Vehicle, Fly, Aircraft, Imperium, Transport, Valkyrie"
+  },
+  "url": "https://39k.pro/datasheet/rZ78EXb-yLg"
+}

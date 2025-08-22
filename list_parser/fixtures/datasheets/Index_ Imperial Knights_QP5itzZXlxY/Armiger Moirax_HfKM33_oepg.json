@@ -1,0 +1,149 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "QP5itzZXlxY",
+  "datasheet_id": "HfKM33_oepg",
+  "datasheet_name": "Armiger Moirax",
+  "characteristics": {
+    "M": "12\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "14",
+    "LD": "7+",
+    "OC": "6"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Graviton pulsar",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-vehicle 2+",
+          "Blast"
+        ]
+      },
+      {
+        "name": "Rad cleanser",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "2",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Anti-infantry 2+",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Lightning lock",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 2"
+        ]
+      },
+      {
+        "name": "Conversion beam cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Sustained Hits D3",
+          "Conversion"
+        ]
+      },
+      {
+        "name": "Volkite veuglaire",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Siege claw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Armoured feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Protection Protocols",
+      "rule": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s graviton pulsar can be replaced with one of the following;\n◦ 1 siege claw and 1 rad cleanser\n◦ 1 lightning lock\n◦ 1 conversion beam cannon\n◦ 1 volkite veuglaire",
+    "■ This model’s volkite veuglaire can be replaced with one of the following:\n◦ 1 siege claw and 1 rad cleanser\n◦ 1 graviton pulsar\n◦ 1 lightning lock\n◦ 1 conversion beam cannon"
+  ],
+  "unit_composition": "■ **1 Armiger Moirax**\n\n**This model is equipped with:** graviton pulsar; volkite veuglaire; armoured feet.\nModel Name Count Points\nArmiger Moirax\n1\n150",
+  "unit_composition_table": [
+    {
+      "model": "Armiger Moirax",
+      "count": "1",
+      "points": "150"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Imperial Knights",
+    "keywords": "Vehicle, Walker, Battleline, Imperium, Armiger, Moirax"
+  },
+  "url": "https://39k.pro/datasheet/HfKM33_oepg"
+}

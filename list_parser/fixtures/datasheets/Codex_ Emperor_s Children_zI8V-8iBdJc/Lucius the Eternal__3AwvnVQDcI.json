@@ -1,0 +1,87 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "zI8V-8iBdJc",
+  "datasheet_id": "_3AwvnVQDcI",
+  "datasheet_name": "Lucius the Eternal",
+  "characteristics": {
+    "M": "8\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "6",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Lash of Torment",
+        "stats": {
+          "range": "Melee",
+          "attacks": "10",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Blade of the Laer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "A Challenge Worthy of Skill",
+      "rule": "Each time this model makes an attack that targets a **CHARACTER, MONSTER** or **WALKER** unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    },
+    {
+      "name": "Duellist’s Hubris",
+      "rule": "At the start of the Fight phase, if this model is not leading a unit, until the end of the phase, it has the Fights First ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lucius the Eternal – EPIC HERO**\n\n**This model is equipped with:** Blade of the Laer; Lash of Torment.\nModel Name Count Points\nLucius the Eternal\n1\n150",
+  "unit_composition_table": [
+    {
+      "model": "Lucius the Eternal",
+      "count": "1",
+      "points": "150"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Emperor’s Children",
+    "keywords": "Infantry, Character, Epic Hero, Chaos, Slaanesh, Lucius the Eternal"
+  },
+  "url": "https://39k.pro/datasheet/_3AwvnVQDcI"
+}

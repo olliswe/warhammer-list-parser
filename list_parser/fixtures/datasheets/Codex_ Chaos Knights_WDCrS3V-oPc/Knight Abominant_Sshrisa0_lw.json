@@ -1,0 +1,108 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "WDCrS3V-oPc",
+  "datasheet_id": "Sshrisa0_lw",
+  "datasheet_name": "Knight Abominant",
+  "characteristics": {
+    "M": "10\"",
+    "T": "11",
+    "SV": "3+",
+    "W": "26",
+    "LD": "6+",
+    "OC": "10"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Diabolus heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Volkite combustor",
+        "stats": {
+          "range": "30\"",
+          "attacks": "12",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "0",
+          "damage": "3"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Electroscourge",
+        "stats": {
+          "range": "Melee",
+          "attacks": "9",
+          "weapon_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Balemace",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Warp Storms",
+      "rule": "At the end of your Movement phase, roll one D6 for each enemy unit within 9\" of this model: on a 3+, that enemy unit suffers D3 mortal wounds."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Vortex Terrors",
+      "rule": "At the start of your Shooting phase, select one enemy unit within 24\" of and visible to this model. That enemy unit must take a Battle‑shock test."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Knight Abominant**\n\n**This model is equipped with:** diabolus heavy stubber; volkite combustor; balemace; electroscourge.\nModel Name Count Points\nKnight Abominant\n1\n325",
+  "unit_composition_table": [
+    {
+      "model": "Knight Abominant",
+      "count": "1",
+      "points": "325"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Chaos Knights",
+    "keywords": "Vehicle, Walker, Titanic, Towering, Abhorrent, Psyker, Character, Chaos, Knight Abominant"
+  },
+  "url": "https://39k.pro/datasheet/Sshrisa0_lw"
+}

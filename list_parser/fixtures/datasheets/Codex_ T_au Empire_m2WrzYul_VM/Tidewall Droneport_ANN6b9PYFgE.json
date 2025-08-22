@@ -1,0 +1,74 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "ANN6b9PYFgE",
+  "datasheet_name": "Tidewall Droneport",
+  "characteristics": {
+    "M": "4\"",
+    "T": "8",
+    "SV": "3+",
+    "W": "10",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Drone defenders",
+        "stats": {
+          "range": "20\"",
+          "attacks": "8",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": []
+  },
+  "abilities": [
+    {
+      "name": "Firing Deck 11",
+      "rule": ""
+    },
+    {
+      "name": "Fortification",
+      "rule": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+    },
+    {
+      "name": "Tidewall Cover",
+      "rule": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **FORTIFICATION**, that model has the Benefit of Cover against that attack."
+    },
+    {
+      "name": "Droneport",
+      "rule": "Each time this **FORTIFICATION** is selected to shoot, its drone defenders weapon will target and resolve attacks against every enemy unit that is an eligible target to this **FORTIFICATION**."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Tidewall Droneport**\n\n**This model is equipped with:** drone defenders.\nModel Name Count Points\nTidewall Droneport\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Tidewall Droneport",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Fortification, Vehicle, Transport, Fly, Tidewall Droneport"
+  },
+  "url": "https://39k.pro/datasheet/ANN6b9PYFgE"
+}

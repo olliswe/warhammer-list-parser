@@ -1,0 +1,112 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "JG8ZvXt9r3s",
+  "datasheet_name": "Shroud Runners",
+  "characteristics": {
+    "M": "14\"",
+    "T": "4",
+    "SV": "5+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Scatter laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Long rifle",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Precision"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Target Acquisition",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks made with a long rifle. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Shroud Runners**\n\n**Every model is equipped with:** long rifle; scatter laser; shuriken pistol; close combat weapon.\nModel Name Count Points\nShroud Runner\n3\n80\nShroud Runner\n4-6\n160",
+  "unit_composition_table": [
+    {
+      "model": "Shroud Runner",
+      "count": "3",
+      "points": "80"
+    },
+    {
+      "model": "Shroud Runner",
+      "count": "4-6",
+      "points": "160"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Mounted, Aeldari, Fly, Shroud Runners"
+  },
+  "url": "https://39k.pro/datasheet/JG8ZvXt9r3s"
+}

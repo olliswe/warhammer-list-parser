@@ -1,0 +1,73 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "GT_HP_TCArM",
+  "datasheet_id": "QZWQf2UcW-Y",
+  "datasheet_name": "Eightbound",
+  "characteristics": {
+    "M": "10\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Chainblades",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Beacons of Rage",
+      "rule": "While a friendly **WORLD EATERS** unit is within 6\" of this unit, each time a model in that unit makes a melee attack that targets a unit (excluding **MONSTERS** and **VEHICLES**), add 1 to the Hit roll. If that attack targets a unit (excluding **MONSTERS** and **VEHICLES**) that is Below Half-strength, add 1 to the Wound roll as well."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Eightbound Champion**\n■ **2-5 Eightbound**\n\n**Every model is equipped with:** chainblades.\nModel Name Count Points\nEightbound\nEightbound Champion\n2\n1\n150\nEightbound\nEightbound Champion\n3-5\n1\n300",
+  "unit_composition_table": [
+    {
+      "model": "Eightbound\nEightbound Champion",
+      "count": "2\n1",
+      "points": "150"
+    },
+    {
+      "model": "Eightbound\nEightbound Champion",
+      "count": "3-5\n1",
+      "points": "300"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Lord on Juggernaut",
+      "id": "rkPC3vmkZWw"
+    },
+    {
+      "name": "Lord Invocatus",
+      "id": "DUoEJRBhgLg"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: World Eaters",
+    "keywords": "Infantry, Chaos, Khorne, Daemon, Possessed, Eightbound"
+  },
+  "url": "https://39k.pro/datasheet/QZWQf2UcW-Y"
+}

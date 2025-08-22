@@ -1,0 +1,323 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "cDJ08jKljvk",
+  "datasheet_name": "Devastator Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Heavy",
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "🠶 Plasma cannon — supercharge",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Hazardous",
+          "Blast",
+          "Heavy",
+          "Blast",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Missile launcher — frag",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Heavy",
+          "Blast",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Grav-cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Heavy",
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Grav-pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Anti-vehicle 2+"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Thunder hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Armorium Cherub",
+      "rule": "Once per battle, after making a Hit roll for a model in this unit, you can change that roll to an unmodified 6.\n\n***Designer’s Note:** Place an Armorium Cherub token next to the unit, removing it once this ability has been used.*"
+    },
+    {
+      "name": "Signum",
+      "rule": "Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the **[IGNORES COVER]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Devastator Sergeant’s bolt pistol and boltgun can be replaced with two different weapons from the following list:*\n◦ 1 Astartes chainsword\n◦ 1 bolt pistol\n◦ 1 boltgun\n◦ 1 combi-weapon\n◦ 1 grav-pistol\n◦ 1 plasma pistol\n◦ 1 storm bolter\n◦ 1 power fist\n◦ 1 power weapon\n◦ 1 thunder hammer\n\n* This model can only be equipped with two ranged weapons if one of them is a Pistol (and it can only have one Pistol)",
+    "■ Up to 4 Devastator Marines can each have their boltgun replaced with one of the following:\n◦ 1 grav-cannon\n◦ 1 heavy bolter\n◦ 1 lascannon\n◦ 1 missile launcher\n◦ 1 multi-melta\n◦ 1 plasma cannon"
+  ],
+  "unit_composition": "■ **1 Devastator Sergeant**\n■ **4-9 Devastator Marines**\n\n**Every model is equipped with:** bolt pistol; boltgun; close combat weapon.\nModel Name Count Points\nDevastator\nDevastator Sergeant\n4\n1\n120\nDevastator\nDevastator Sergeant\n5-9\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Devastator\nDevastator Sergeant",
+      "count": "4\n1",
+      "points": "120"
+    },
+    {
+      "model": "Devastator\nDevastator Sergeant",
+      "count": "5-9\n1",
+      "points": "200"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Librarian",
+      "id": "QgfnIzdE-Jo"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "ClE3lxdANO0"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "HyvmXZX-4EI"
+    },
+    {
+      "name": "Techmarine",
+      "id": "_g9TCesE8iQ"
+    },
+    {
+      "name": "Ancient",
+      "id": "s-FFFLPVHrk"
+    },
+    {
+      "name": "Apothecary",
+      "id": "3ypaLU-lTJ0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Grenades, Imperium, Devastator Squad"
+  },
+  "url": "https://39k.pro/datasheet/cDJ08jKljvk"
+}

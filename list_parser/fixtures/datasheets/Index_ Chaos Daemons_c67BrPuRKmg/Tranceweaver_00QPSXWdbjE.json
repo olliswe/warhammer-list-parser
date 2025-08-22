@@ -1,0 +1,73 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "00QPSXWdbjE",
+  "datasheet_name": "Tranceweaver",
+  "characteristics": {
+    "M": "9\"",
+    "T": "3",
+    "SV": "7+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Ravaging claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Symphony of Pain",
+      "rule": "At the end of your Movement phase, you can select one enemy unit that is Battle-shocked and within 12\" of this model. Until the end of the turn, each time a **SLAANESH LEGIONES DAEMONICA** model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Tranceweaver",
+      "rule": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead."
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Tranceweaver**\n\n**This model is equipped with:** ravaging claws.\nModel Name Count Points\nTranceweaver\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Tranceweaver",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Infantry, Character, Psyker, Chaos, Daemon, Slaanesh, Tranceweaver"
+  },
+  "url": "https://39k.pro/datasheet/00QPSXWdbjE"
+}

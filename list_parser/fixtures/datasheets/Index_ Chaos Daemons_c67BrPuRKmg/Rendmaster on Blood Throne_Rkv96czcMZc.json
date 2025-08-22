@@ -1,0 +1,77 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "Rkv96czcMZc",
+  "datasheet_name": "Rendmaster on Blood Throne",
+  "characteristics": {
+    "M": "8\"",
+    "T": "9",
+    "SV": "4+",
+    "W": "9",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Blade of blood",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Attendants’ hellblades",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Blood Throne",
+      "rule": "At the start of the Fight phase, select one enemy unit within 18\" of and visible to this model. Until the end of the phase, each time a friendly **KHORNE LEGIONES DAEMONICA** unit makes an attack that targets that unit, improve the Strength, Armour Penetration and Damage characteristics of that attack by 1."
+    },
+    {
+      "name": "Champion Slayer",
+      "rule": "Each time this model makes a melee attack that targets a **CHARACTER** or **MONSTER** unit, you can re-roll the Wound roll. Each time this model destroys an enemy **CHARACTER** or **MONSTER** unit, this model regains up to D6 lost wounds."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Rendmaster on Blood Throne**\n\n**This model is equipped with:** attendants’ hellblades; blade of blood.\nModel Name Count Points\nRendmaster on Blood Throne\n1\n165",
+  "unit_composition_table": [
+    {
+      "model": "Rendmaster on Blood Throne",
+      "count": "1",
+      "points": "165"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Mounted, Character, Chaos, Daemon, Khorne, Rendmaster on Blood Throne"
+  },
+  "url": "https://39k.pro/datasheet/Rkv96czcMZc"
+}

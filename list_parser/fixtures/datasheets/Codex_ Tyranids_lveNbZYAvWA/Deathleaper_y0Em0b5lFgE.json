@@ -1,0 +1,77 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "y0Em0b5lFgE",
+  "datasheet_name": "Deathleaper",
+  "characteristics": {
+    "M": "8\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "7",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Lictor claws and talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Fear of the Unseen",
+      "rule": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+    },
+    {
+      "name": "Feeder Tendrils",
+      "rule": "Each time this model destroys an enemy **CHARACTER** model, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Deathleaper – Epic Hero**\n\n**This model is equipped with:** Lictor claws and talons.\nModel Name Count Points\nDeathleaper\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Deathleaper",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Character, Epic Hero, Great Devourer, Vanguard Invader, Deathleaper"
+  },
+  "url": "https://39k.pro/datasheet/y0Em0b5lFgE"
+}

@@ -1,0 +1,176 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "Y6VdsVEc9AY",
+  "datasheet_name": "Dreadnought",
+  "characteristics": {
+    "M": "6\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Missile launcher — krak",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Assault cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "🠶 Heavy plasma cannon — standard",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast",
+          "Blast",
+          "Hazardous"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Dreadnought combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Wisdom of the Ancients",
+      "rule": "While a friendly **ADEPTUS ASTARTES INFANTRY** unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s assault cannon can be replaced with one of the following:\n◦ 1 heavy plasma cannon\n◦ 1 multi-melta\n◦ 1 twin lascannon",
+    "■ This model’s Dreadnought combat weapon and storm bolter can be replaced with one of the following:\n◦ 1 missile launcher and 1 close combat weapon\n◦ 1 heavy flamer and 1 Dreadnought combat weapon"
+  ],
+  "unit_composition": "■ **1 Dreadnought**\n\n**This model is equipped with:** assault cannon; storm bolter; Dreadnought combat weapon.\nModel Name Count Points\nDreadnought\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Dreadnought",
+      "count": "1",
+      "points": "135"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Vehicle, Walker, Smoke, Imperium, Dreadnought"
+  },
+  "url": "https://39k.pro/datasheet/Y6VdsVEc9AY"
+}

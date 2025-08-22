@@ -1,0 +1,124 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "hWKlQIlrDHo",
+  "datasheet_id": "KOAGpsCCQkA",
+  "datasheet_name": "Shield-Captain in Allarus Terminator Armour",
+  "characteristics": {
+    "M": "5\"",
+    "T": "7",
+    "SV": "2+",
+    "W": "7",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Castellan axe",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Guardian spear",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Balistus grenade launcher",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Castellan axe",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Guardian spear",
+        "stats": {
+          "range": "Melee",
+          "attacks": "7",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Strategic Mastery",
+      "rule": "Once per battle round, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Auramite and Adamantine",
+      "rule": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, each time an attack is allocated to this model, change the Damage characteristic of that attack to 1."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s guardian spear can be replaced with 1 castellan axe."
+  ],
+  "unit_composition": "■ **1 Shield-Captain in Allarus Terminator Armour**\n\n**This model is equipped with**: balistus grenade launcher; guardian spear.\nModel Name Count Points\nShield-Captain in Allarus Terminator Armour\n1\n130",
+  "unit_composition_table": [
+    {
+      "model": "Shield-Captain in Allarus Terminator Armour",
+      "count": "1",
+      "points": "130"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Custodes",
+    "keywords": "Infantry, Character, Terminator, Imperium, Shield-Captain"
+  },
+  "url": "https://39k.pro/datasheet/KOAGpsCCQkA"
+}

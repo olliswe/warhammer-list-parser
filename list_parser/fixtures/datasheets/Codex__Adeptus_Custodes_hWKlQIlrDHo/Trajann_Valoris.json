@@ -1,0 +1,85 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "hWKlQIlrDHo",
+  "datasheet_name": "Trajann Valoris",
+  "characteristics": {
+    "M": "6\"",
+    "T": "6",
+    "SV": "2+",
+    "W": "7",
+    "LD": "5+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Eagle’s Scream",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Watcher’s Axe",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Captain-General",
+      "rule": "While this model is leading a unit, each time a model in this unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic skill or Weapon skill characteristics and/or all modifiers to the Hit roll."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Moment Shackle",
+      "rule": "Once per battle, at the start of the Fight phase, you can select one of the following to take effect until the end of the phase:\n\n■ This model’s Watcher’s Axe melee weapon has an Attacks characteristic of 12.\n■ This model has a 2+ invulnerable save."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Trajann Valoris – EPIC HERO**\n\n**This model is equipped with**: Eagle’s Scream; Watcher’s Axe.\nModel Name Count Points\nTrajann Valoris\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Trajann Valoris",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Custodes",
+    "keywords": "Infantry, Character, Epic Hero, Imperium, Trajann Valoris"
+  },
+  "url": "https://39k.pro/datasheet/SxNj3hu1grs"
+}

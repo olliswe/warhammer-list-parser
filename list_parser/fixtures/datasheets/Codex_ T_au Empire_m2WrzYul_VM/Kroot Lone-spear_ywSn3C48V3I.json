@@ -1,0 +1,132 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "ywSn3C48V3I",
+  "datasheet_name": "Kroot Lone-spear",
+  "characteristics": {
+    "M": "12\"",
+    "T": "5",
+    "SV": "5+",
+    "W": "6",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Kroot long gun",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Heavy",
+          "Precision"
+        ]
+      },
+      {
+        "name": "Blast javelin",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Kalamandra’s bite",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Hunting javelin",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lance"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Advanced Scouting",
+      "rule": "Each time this model makes a ranged attack that hits an enemy unit, until the end of the turn, each time another **KROOT** model from your army makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Fire and Fade",
+      "rule": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". If it does, until the end of the turn, this model is not eligible to declare a charge."
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 7\"",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s Kroot long gun can be replaced with 1 blast javelin and 1 hunting javelin."
+  ],
+  "unit_composition": "■ **1 Kroot Lone-spear**\n\n**This model is equipped with:** Kroot long gun; close combat weapon; Kalamandra’s bite.\nModel Name Count Points\nKroot Lone-spear\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Kroot Lone-spear",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Mounted, Character, Kroot, Lone-spear"
+  },
+  "url": "https://39k.pro/datasheet/ywSn3C48V3I"
+}

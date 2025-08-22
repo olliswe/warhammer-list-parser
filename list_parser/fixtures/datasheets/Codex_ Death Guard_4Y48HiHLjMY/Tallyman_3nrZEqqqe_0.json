@@ -1,0 +1,80 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "4Y48HiHLjMY",
+  "datasheet_id": "3nrZEqqqe_0",
+  "datasheet_name": "Tallyman",
+  "characteristics": {
+    "M": "5\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Malicious Calculations",
+      "rule": "While this model is leading a unit, each time a model in that unit makes an attack, you can ignore any or all modifiers to that attack’s Ballistic Skill or Weapon Skill characteristics and/or any or all modifiers to the Hit roll."
+    },
+    {
+      "name": "Sevenfold Chant",
+      "rule": "In your Command phase, if this model is on the battlefield, roll 2D6: on a 7+, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Tallyman**\n\n**This model is equipped with:** plasma pistol; close combat weapon.\nModel Name Count Points\nTallyman\n1\n40",
+  "unit_composition_table": [
+    {
+      "model": "Tallyman",
+      "count": "1",
+      "points": "40"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Death Guard",
+    "keywords": "Infantry, Character, Chaos, Nurgle, Tallyman"
+  },
+  "url": "https://39k.pro/datasheet/3nrZEqqqe_0"
+}

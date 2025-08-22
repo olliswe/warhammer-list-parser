@@ -1,0 +1,139 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "Of26U2pARSY",
+  "datasheet_name": "Troupe Master",
+  "characteristics": {
+    "M": "8\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Neuro disruptor",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 2+",
+          "Assault",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Fusion pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Assault",
+          "Melta 2",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Harlequin’s special weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Troupe Master’s blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Choreographer of War",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a Pile‐in or Consolidation move, it can move up to 6\" instead of up to 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends it as close as possible to the closest enemy unit."
+    },
+    {
+      "name": "Cegorach’s Favour",
+      "rule": "Each time this model makes a melee attack, you can re‐roll a Hit roll of 1 and add 1 to the Wound roll."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Flip Belt",
+      "rule": "Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Flip Belt",
+      "rule": "Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Troupe Master’s blade can be replaced with 1 Harlequin’s special weapon.",
+    "■ This model’s shuriken pistol can be replaced with one of the following:\n◦ 1 fusion pistol\n◦ 1 neuro disruptor"
+  ],
+  "unit_composition": "■ **1 Troupe Master**\n\n**This model is equipped with:** shuriken pistol; Troupe Master’s blade; flip belt.\nModel Name Count Points\nTroupe Master\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Troupe Master",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Harlequins",
+    "keywords": "Infantry, Character, Aeldari, Grenades, Troupe Master"
+  },
+  "url": "https://39k.pro/datasheet/Of26U2pARSY"
+}

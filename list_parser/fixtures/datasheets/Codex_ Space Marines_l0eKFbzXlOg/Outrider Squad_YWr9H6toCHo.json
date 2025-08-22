@@ -1,0 +1,168 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "YWr9H6toCHo",
+  "datasheet_name": "Outrider Squad",
+  "characteristics": {
+    "M": "12\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Twin bolt rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Onslaught gatling cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "8",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Heavy bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Thunderous Impact",
+      "rule": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength and Damage characteristics of that attack by 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ An Invader ATV’s onslaught gatling cannon can be replaced with 1 multi-melta."
+  ],
+  "unit_composition": "■ **1 Outrider Sergeant**\n■ **2-5 Outriders**\n■ **0-1 Invader ATV**\n\n**The Outrider Sergeant and every Outrider is equipped with:** heavy bolt pistol; twin bolt rifle; Astartes chainsword.\n\n**An Invader ATV is equipped with:** bolt pistol; twin bolt rifle; onslaught gatling cannon; close combat weapon.\nModel Name Count Points\nOutrider\nInvader ATV\nOutrider Sergeant\n2\n0\n1\n80\nOutrider Sergeant\nOutrider\nInvader ATV\n1\n2\n1\n140\nInvader ATV\nOutrider Sergeant\nOutrider\n1\n1\n3-5\n220\nInvader ATV\nOutrider Sergeant\nOutrider\n0\n1\n3-5\n160",
+  "unit_composition_table": [
+    {
+      "model": "Outrider\nInvader ATV\nOutrider Sergeant",
+      "count": "2\n0\n1",
+      "points": "80"
+    },
+    {
+      "model": "Outrider Sergeant\nOutrider\nInvader ATV",
+      "count": "1\n2\n1",
+      "points": "140"
+    },
+    {
+      "model": "Invader ATV\nOutrider Sergeant\nOutrider",
+      "count": "1\n1\n3-5",
+      "points": "220"
+    },
+    {
+      "model": "Invader ATV\nOutrider Sergeant\nOutrider",
+      "count": "0\n1\n3-5",
+      "points": "160"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Chaplain on Bike",
+      "id": "QMfWSZUtVuo"
+    },
+    {
+      "name": "Sammael",
+      "id": "iPxrUJTfJdM"
+    },
+    {
+      "name": "Ravenwing Command Squad",
+      "id": "lC52j9c6nA0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Mounted, Grenades, Imperium, Outrider Squad"
+  },
+  "url": "https://39k.pro/datasheet/YWr9H6toCHo"
+}

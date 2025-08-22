@@ -1,0 +1,131 @@
+{
+  "faction": "Codex: Grey Knights",
+  "faction_id": "tK1LWUpSzF4",
+  "datasheet_id": "VEHzz3tUSmY",
+  "datasheet_name": "Grand Master",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "7",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Incinerator",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Psilencer",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Precision",
+          "Psychic",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Psycannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Nemesis force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Warrior Strategist",
+      "rule": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+    },
+    {
+      "name": "Might of Titan",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks and Strength characteristics of melee weapons equipped by this model"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s storm bolter can be replaced with one of the following:\n◦ 1 incinerator\n◦ 1 psilencer\n◦ 1 psycannon"
+  ],
+  "unit_composition": "■ **1 Grand Master**\n\n**This model is equipped with:** storm bolter; Nemesis force weapon.\nModel Name Count Points\nGrand Master\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Grand Master",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Grey Knights",
+    "keywords": "Infantry, Character, Psyker, Grenades, Terminator, Imperium, Grand Master"
+  },
+  "url": "https://39k.pro/datasheet/VEHzz3tUSmY"
+}

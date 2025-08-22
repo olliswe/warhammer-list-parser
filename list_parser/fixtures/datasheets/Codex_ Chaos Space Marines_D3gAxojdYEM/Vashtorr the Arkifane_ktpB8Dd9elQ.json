@@ -1,0 +1,92 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "D3gAxojdYEM",
+  "datasheet_id": "ktpB8Dd9elQ",
+  "datasheet_name": "Vashtorr the Arkifane",
+  "characteristics": {
+    "M": "12\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "14",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Vashtorr’s claw",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Anti-vehicle 4+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Vashtorr’s hammer — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "12",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-vehicle 4+",
+          "Devastating Wounds",
+          "Anti-vehicle 4+",
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Unholy Mechanisms",
+      "rule": "While a friendly **DAEMON VEHICLE** unit is within 6\" of this model, add 2 to the Strength characteristic of weapons equipped by models in that unit."
+    },
+    {
+      "name": "Reorder Reality",
+      "rule": "Each time an enemy unit within 18\" of this model targets this model, subtract 1 from the Hit roll and, until the end of the phase, that enemy unit’s ranged weapons have the **[HAZARDOUS]** ability."
+    },
+    {
+      "name": "Indentured Daemon Engines",
+      "rule": "While this model is within 3\" of one or more friendly **DAEMON VEHICLE** units, this model has the Lone Operative ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Vashtorr the Arkifane – EPIC HERO**\n\n**This model is equipped with:** Vashtorr’s claw; Vashtorr’s hammer.\nModel Name Count Points\nVashtorr the Arkifane\n1\n175",
+  "unit_composition_table": [
+    {
+      "model": "Vashtorr the Arkifane",
+      "count": "1",
+      "points": "175"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Heretic Astartes",
+    "keywords": "Monster, Character, Epic Hero, Fly, Chaos, Daemon, Vashtorr the Arkifane"
+  },
+  "url": "https://39k.pro/datasheet/ktpB8Dd9elQ"
+}

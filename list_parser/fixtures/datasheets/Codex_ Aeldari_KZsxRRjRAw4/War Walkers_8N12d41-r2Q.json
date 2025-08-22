@@ -1,0 +1,133 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "8N12d41-r2Q",
+  "datasheet_name": "War Walkers",
+  "characteristics": {
+    "M": "10\"",
+    "T": "7",
+    "SV": "3+",
+    "W": "6",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Missile launcher — sunburst",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Bright lance",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Scatter laser",
+        "stats": {
+          "range": "36\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Shuriken cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Starcannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "War Walker feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Crystalline Targeting",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly **AELDARI** unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. Each unit can only be selected for this ability once per turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Each model can have each shuriken cannon it is equipped with replaced with one of the following:\n◦ 1 missile launcher\n◦ 1 bright lance\n◦ 1 scatter laser\n◦ 1 starcannon"
+  ],
+  "unit_composition": "■ **1-2 War Walkers**\n\n**Every model is equipped with:** 2 shuriken cannons; War Walker feet.\nModel Name Count Points\nWar Walker\n1\n85\nWar Walker\n2\n170",
+  "unit_composition_table": [
+    {
+      "model": "War Walker",
+      "count": "1",
+      "points": "85"
+    },
+    {
+      "model": "War Walker",
+      "count": "2",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Vehicle, Aeldari, Walker, War Walkers"
+  },
+  "url": "https://39k.pro/datasheet/8N12d41-r2Q"
+}

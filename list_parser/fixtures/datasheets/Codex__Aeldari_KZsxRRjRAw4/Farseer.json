@@ -1,0 +1,127 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Farseer",
+  "characteristics": {
+    "M": "7\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Eldritch Storm",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Blast",
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Singing spear",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "0",
+          "damage": "3"
+        },
+        "abilities": [
+          "Assault",
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Singing spear",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Witchblade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "2+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic",
+          "Anti-infantry 2+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Guide",
+      "rule": "At the end of your Movement phase, select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly **AELDARI** model makes an attack that targets that enemy unit, add 1 to the Hit roll. Each unit can only be selected for this ability once per turn."
+    },
+    {
+      "name": "Branching Fates",
+      "rule": "While this model is leading a unit, once per phase, you can change the result of one Hit roll, one Wound roll or one Damage roll made for a model in that unit (excluding **SUPPORT WEAPON** models) to an unmodified 6."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s witchblade can be replaced with 1 singing spear."
+  ],
+  "unit_composition": "■ **1 Farseer**\n\n**This model is equipped with:** Eldritch Storm; shuriken pistol; witchblade.\nModel Name Count Points\nFarseer\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Farseer",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Character, Aeldari, Psyker, Farseer"
+  },
+  "url": "https://39k.pro/datasheet/LUlDnzDQlmw"
+}

@@ -1,0 +1,116 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "GRhKNFg0PT4",
+  "datasheet_name": "Revenant Titan",
+  "characteristics": {
+    "M": "16\"",
+    "T": "13",
+    "SV": "2+",
+    "W": "30",
+    "LD": "6+",
+    "OC": "16"
+  },
+  "invulnerable_save": "Invulnerable Save: 4+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Revenant pulsar",
+        "stats": {
+          "range": "60\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "4"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Sonic lance",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6+6",
+          "ballistic_skill": "N/A",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-monster 4+",
+          "Anti-vehicle 4+",
+          "Assault",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Cloudburst missile launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2D6",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Revenant feet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Towering Wraith Construct",
+      "rule": "Each time you target this model with a Stratagem, you must spend twice that Stratagem’s stated CP cost to do so."
+    },
+    {
+      "name": "Revenant Jet Pack",
+      "rule": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 8\" to the Move characteristic of this model."
+    },
+    {
+      "name": "Titanic Advance",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **TITANIC** models) and terrain features that are 4\" or less in height as if they were not there."
+    },
+    {
+      "name": "Deadly Demise 2D6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "This model’s Revenant pulsar can be replaced with 1 sonic lance.",
+    "This model’s sonic lance can be replaced with 1 Revenant pulsar"
+  ],
+  "unit_composition": "■ **1 Revenant Titan**\n\n**This model is equipped with:** cloudburst missile launcher; Revenant pulsar; sonic lance; Revenant feet.\nModel Name Count Points\nRevenant Titan\n1\n1100",
+  "unit_composition_table": [
+    {
+      "model": "Revenant Titan",
+      "count": "1",
+      "points": "1100"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Monster, Titanic, Towering, Walker, Fly, Wraith Construct, Aeldari, Revenant Titan"
+  },
+  "url": "https://39k.pro/datasheet/GRhKNFg0PT4"
+}

@@ -1,0 +1,192 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "RWIP9PLoPTs",
+  "datasheet_name": "Leman Russ Demolisher",
+  "characteristics": {
+    "M": "10\"",
+    "T": "11",
+    "SV": "2+",
+    "W": "13",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Demolisher battle cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Plasma cannon — supercharge",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Hazardous",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Line-breaker",
+      "rule": "When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following: \n◦ 1 heavy stubber\n◦ 1 storm bolter",
+    "■ This model can be equipped with one of the following: \n◦ 2 heavy bolters\n◦ 2 heavy flamers\n◦ 2 multi-meltas\n◦ 2 plasma cannons",
+    "■ This model’s lascannon can be replaced with one of the following: \n◦ 1 heavy bolter\n◦ 1 heavy flamer",
+    "■ This model can be equipped with 1 hunter-killer missile."
+  ],
+  "unit_composition": "■ **1 Leman Russ Demolisher**\n\n**This model is equipped with:** demolisher battle cannon; lascannon; armoured tracks.\nModel Name Count Points\nLeman Russ Demolisher\n1\n190",
+  "unit_composition_table": [
+    {
+      "model": "Leman Russ Demolisher",
+      "count": "1",
+      "points": "190"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Vehicle, Smoke, Imperium, Squadron, Leman Russ Demolisher"
+  },
+  "url": "https://39k.pro/datasheet/RWIP9PLoPTs"
+}

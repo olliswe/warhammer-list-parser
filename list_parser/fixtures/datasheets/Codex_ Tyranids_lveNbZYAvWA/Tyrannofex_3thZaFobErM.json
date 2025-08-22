@@ -1,0 +1,118 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "3thZaFobErM",
+  "datasheet_name": "Tyrannofex",
+  "characteristics": {
+    "M": "9\"",
+    "T": "12",
+    "SV": "2+",
+    "W": "16",
+    "LD": "8+",
+    "OC": "5"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Stinger salvoes",
+        "stats": {
+          "range": "24\"",
+          "attacks": "8",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Rupture cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "18",
+          "armour_penetration": "-4",
+          "damage": "D6+6"
+        },
+        "abilities": [
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Fleshborer hive",
+        "stats": {
+          "range": "24\"",
+          "attacks": "20",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Heavy",
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Acid spray",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6+6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Powerful limbs",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Resilient Organism",
+      "rule": "Once per battle, when an attack is allocated to this model, you can change the Damage characteristic of that attack to 0."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s fleshborer hive can be replaced with one of the following:\n◦ 1 acid spray\n◦ 1 rupture cannon"
+  ],
+  "unit_composition": "■ **1 Tyrannofex**\n\n**This model is equipped with:** fleshborer hive; stinger salvoes; powerful limbs.\nModel Name Count Points\nTyrannofex\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Tyrannofex",
+      "count": "1",
+      "points": "200"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Great Devourer, Tyrannofex"
+  },
+  "url": "https://39k.pro/datasheet/3thZaFobErM"
+}

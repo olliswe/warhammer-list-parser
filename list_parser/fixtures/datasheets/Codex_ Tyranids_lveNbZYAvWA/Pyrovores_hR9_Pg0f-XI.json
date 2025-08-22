@@ -1,0 +1,86 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "hR9_Pg0f-XI",
+  "datasheet_name": "Pyrovores",
+  "characteristics": {
+    "M": "5\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "5",
+    "LD": "8+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Flamespurt",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Torrent",
+          "Ignores Cover"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Chitin-barbed limbs",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Burning Spray",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1-3 Pyrovores**\n\n**Every model is equipped with:** flamespurt; chitin-barbed limbs.\nModel Name Count Points\nPyrovore\n1\n40\nPyrovore\n2\n70\nPyrovore\n3\n105",
+  "unit_composition_table": [
+    {
+      "model": "Pyrovore",
+      "count": "1",
+      "points": "40"
+    },
+    {
+      "model": "Pyrovore",
+      "count": "2",
+      "points": "70"
+    },
+    {
+      "model": "Pyrovore",
+      "count": "3",
+      "points": "105"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Great Devourer, Harvester, Pyrovores"
+  },
+  "url": "https://39k.pro/datasheet/hR9_Pg0f-XI"
+}

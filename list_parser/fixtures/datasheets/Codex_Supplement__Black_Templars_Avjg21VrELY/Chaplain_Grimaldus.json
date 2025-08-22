@@ -1,0 +1,95 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "Avjg21VrELY",
+  "datasheet_name": "Chaplain Grimaldus",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "1",
+    "LD": "8+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Artificer crozius",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Litanies of the Devout",
+      "rule": "While this unit is leading a unit and contains a Chaplain Grimaldus model, each time a model in that unit makes a melee attack, you can re-roll the Hit roll."
+    },
+    {
+      "name": "Temple Relics",
+      "rule": "In your Command phase, if this unit contains one or more Cenobyte Servitor models, select one Temple Relics ability (see Temple Relics section). Until the start of your next Command phase, this unit’s Chaplain Grimaldus model has that ability."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Chaplain Grimaldus – EPIC HERO**\n■ **3 Cenobyte Servitors***\n\n\n* *If this unit’s Chaplain GrimaIdus model is ever destroyed, all af this unit’s remaining Cenabyte Servitor models are also destroyed. While embarking within a* **TRANSPORT** *and while embarked within a* **TRANSPORT,** *each Cenobyte Servitor model in this unit takes up the space of 0 models.*\n\n**Chaplain Grimaldus is equipped with:** plasma pistol; artificer crozius.\n**Every Cenobyte Servitor is equipped with:** close combat weapon.\nModel Name Count Points\nCenobyte Servitor\nChaplain Grimaldus\n3\n1\n110",
+  "unit_composition_table": [
+    {
+      "model": "Cenobyte Servitor\nChaplain Grimaldus",
+      "count": "3\n1",
+      "points": "110"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Black Templars",
+    "keywords": "Infantry, Imperium, Tacticus, Character, Epic Hero, Grenades, Chaplain Grimaldus"
+  },
+  "url": "https://39k.pro/datasheet/CaZ2QLCULGw"
+}

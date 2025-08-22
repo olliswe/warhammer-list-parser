@@ -1,0 +1,69 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "j7VgnBvqH9E",
+  "datasheet_name": "Sloppity Bilepiper",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "7+",
+    "W": "5",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Marotter",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Disease of Mirth",
+      "rule": "At the start of the Fight phase, every enemy unit (excluding **MONSTERS** and **VEHICLES**) within 6\" of this model must take a Battle-shock test."
+    },
+    {
+      "name": "Jolly Gutpipes",
+      "rule": "While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for that unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Sloppity Bilepiper**\n\n**This model is equipped with:** marotter.\nModel Name Count Points\nSloppity Bilepiper\n1\n55",
+  "unit_composition_table": [
+    {
+      "model": "Sloppity Bilepiper",
+      "count": "1",
+      "points": "55"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Infantry, Character, Chaos, Daemon, Nurgle, Sloppity Bilepiper"
+  },
+  "url": "https://39k.pro/datasheet/j7VgnBvqH9E"
+}

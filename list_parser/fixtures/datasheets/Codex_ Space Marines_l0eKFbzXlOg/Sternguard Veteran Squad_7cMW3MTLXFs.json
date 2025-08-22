@@ -1,0 +1,273 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "7cMW3MTLXFs",
+  "datasheet_name": "Sternguard Veteran Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Sternguard bolt rifle",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Rapid Fire 1",
+          "Devastating Wounds",
+          "Heavy"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Pyrecannon",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Sternguard heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Heavy",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Sternguard bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Sternguard Focus",
+      "rule": "Each time a model in this unit makes an attack that targets your Oath of Moment target, you can re-roll the Wound roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their Sternguard bolt rifle replaced with 1 combi-weapon.",
+    "■ The Sternguard Veteran Sergeant’s Sternguard bolt rifle can be replaced with one of the following:\n\n◦ 1 Astartes chainsword \n◦ 1 combi-weapon\n◦ 1 power weapon\n◦ 1 power fist\n◦ 1 Astartes chainsword and 1 Sternguard bolt rifle*\n◦ 1 power weapon and 1 Sternguard bolt rifle*\n◦ 1 power fist and 1 Sternguard bolt rifle*\n\n* This model’s Sternguard bolt rifle cannot be replaced.",
+    "■ For every 5 models in this unit, 1 Sternguard Veteran’s Sternguard bolt rifle can be replaced with one of the following:\n◦ 1 pyrecannon\n◦ 1 Sternguard heavy bolter"
+  ],
+  "unit_composition": "■ **1 Sternguard Veteran Sergeant**\n■ **4-9 Sternguard Veterans**\n\n**Every model is equipped with:** Sternguard bolt pistol; Sternguard bolt rifle; close combat weapon.\nModel Name Count Points\nSternguard Veteran\nSternguard Veteran Sergeant\n4\n1\n100\nSternguard Veteran Sergeant\nSternguard Veteran\n1\n5-9\n200",
+  "unit_composition_table": [
+    {
+      "model": "Sternguard Veteran\nSternguard Veteran Sergeant",
+      "count": "4\n1",
+      "points": "100"
+    },
+    {
+      "model": "Sternguard Veteran Sergeant\nSternguard Veteran",
+      "count": "1\n5-9",
+      "points": "200"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Pedro Kantor",
+      "id": "mXa1jEBfL8k"
+    },
+    {
+      "name": "Marneus Calgar",
+      "id": "Tscg7W0VM9g"
+    },
+    {
+      "name": "Uriel Ventris",
+      "id": "dpKxRfe-j84"
+    },
+    {
+      "name": "Ezekiel",
+      "id": "Cr4Lpe2rVxo"
+    },
+    {
+      "name": "Lazarus",
+      "id": "2kQUbqqdQs4"
+    },
+    {
+      "name": "Librarian",
+      "id": "QgfnIzdE-Jo"
+    },
+    {
+      "name": "Castellan",
+      "id": "Ac0tSpUH_ZI"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "ClE3lxdANO0"
+    },
+    {
+      "name": "Emperor’s Champion",
+      "id": "67DGvqyUom0"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "HyvmXZX-4EI"
+    },
+    {
+      "name": "Marshal",
+      "id": "4V1ClUV33Us"
+    },
+    {
+      "name": "Judiciar",
+      "id": "XDBOrh2am-s"
+    },
+    {
+      "name": "Asmodai",
+      "id": "_P5wyspLqmo"
+    },
+    {
+      "name": "Chaplain",
+      "id": "4vVcIqGR25M"
+    },
+    {
+      "name": "Kor’sarro Khan",
+      "id": "gpEboCoviQE"
+    },
+    {
+      "name": "Azrael",
+      "id": "nF7OXYAfMjE"
+    },
+    {
+      "name": "Adrax Agatone",
+      "id": "mee7mVs1uVw"
+    },
+    {
+      "name": "Captain Sicarius",
+      "id": "h5vU4jCOA7Q"
+    },
+    {
+      "name": "Lieutenant",
+      "id": "S2p5qPqLIYo"
+    },
+    {
+      "name": "Blood Angels Captain",
+      "id": "96itFZnvc_U"
+    },
+    {
+      "name": "Ancient",
+      "id": "s-FFFLPVHrk"
+    },
+    {
+      "name": "Apothecary",
+      "id": "3ypaLU-lTJ0"
+    },
+    {
+      "name": "Captain",
+      "id": "WKgiF01kCXU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Grenades, Imperium, Tacticus, Sternguard Veteran Squad"
+  },
+  "url": "https://39k.pro/datasheet/7cMW3MTLXFs"
+}

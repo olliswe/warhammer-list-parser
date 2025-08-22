@@ -1,0 +1,161 @@
+{
+  "faction": "Index: Leagues of Votann",
+  "faction_id": "1IByhYFRko0",
+  "datasheet_id": "b65q4ebNpe0",
+  "datasheet_name": "Hernkyn Pioneers",
+  "characteristics": {
+    "M": "12\"",
+    "T": "6",
+    "SV": "4+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Magna-coil autocannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Bolt shotgun",
+        "stats": {
+          "range": "12\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Bolt revolver",
+        "stats": {
+          "range": "9\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "HYLas rotary cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Ion beamer",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits D3"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Plasma knife",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Outflanking Mag-Riders",
+      "rule": "At the end of your opponent’s turn, if this unit is within 6\" of any battlefield edge and is not within Engagement Range of any enemy units, you can remove this unit from the battlefield and place it into Strategic Reserves."
+    },
+    {
+      "name": "Rollbar Searchlight",
+      "rule": "Each time a model in the bearer’s unit makes an attack that targets a unit that contains one or more models with the Stealth ability, add 1 to the Hit roll."
+    },
+    {
+      "name": "Pan Spectral Scanner",
+      "rule": "Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability."
+    },
+    {
+      "name": "Comms Array",
+      "rule": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Rollbar Searchlight",
+      "rule": "Each time a model in the bearer’s unit makes an attack that targets a unit that contains one or more models with the Stealth ability, add 1 to the Hit roll."
+    },
+    {
+      "name": "Pan Spectral Scanner",
+      "rule": "Ranged weapons equipped by models in the bearer’s unit have the **[IGNORES COVER]** ability."
+    },
+    {
+      "name": "Comms Array",
+      "rule": "Each time you target the bearer’s unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "wargear_options": [
+    "■ Up to 3 different models that are not equipped with either a HYLas rotary cannon or an ion beamer can each be equipped with 1 of the following (to a maximum of 1 of each per unit):\n◦ 1 comms array*\n◦ 1 pan spectral scanner*\n◦ 1 rollbar searchlight*\n\n* This model cannot be equipped with a HYLas rotary cannon or an ion beamer.",
+    "■ For every 3 models in this unit, 1 model can be equipped with one of the following (if a model is equipped with any of these weapons, add 1 to its Wounds characteristic):\n◦ 1 HYLas rotary cannon\n◦ 1 ion beamer"
+  ],
+  "unit_composition": "■ **3-6 Hernkyn Pioneers**\n\n**Every model is equipped with:** bolt revolver; bolt shotgun; magna-coil autocannon; plasma knife.\nModel Name Count Points\nHernkyn Pioneer\n4-6\n180\nHernkyn Pioneer\n3\n90",
+  "unit_composition_table": [
+    {
+      "model": "Hernkyn Pioneer",
+      "count": "4-6",
+      "points": "180"
+    },
+    {
+      "model": "Hernkyn Pioneer",
+      "count": "3",
+      "points": "90"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Leagues of Votann",
+    "keywords": "Mounted, Grenades, Fly, Hernkyn Pioneers"
+  },
+  "url": "https://39k.pro/datasheet/b65q4ebNpe0"
+}

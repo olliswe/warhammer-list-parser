@@ -1,0 +1,169 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "sfvJJYBUCEU",
+  "datasheet_name": "Vanguard Veteran Squad with Jump Packs",
+  "characteristics": {
+    "M": "12\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Pistol",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Inferno pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Melta 2",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Grav-pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Anti-vehicle 2+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Vanguard Veteran weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Vanguard Assault",
+      "rule": "Each time this unit ends a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Storm Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Storm Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their bolt pistol replaced one of the following:\n◦ 1 storm shield\n◦ 1 grav-pistol\n◦ 1 hand flamer\n◦ 1 inferno pistol\n◦ 1 plasma pistol"
+  ],
+  "unit_composition": "■ **1 Vanguard Veteran Sergeant with Jump Pack**\n■ **4-9 Vanguard Veterans with Jump Packs**\n\n**Every model is equipped with:** bolt pistol; Vanguard Veteran weapon.\nModel Name Count Points\nVanguard Veteran Sergeant with Jump Pack\nVanguard Veteran with Jump Pack\n1\n5-9\n190\nVanguard Veteran Sergeant with Jump Pack\nVanguard Veteran with Jump Pack\n1\n4\n95",
+  "unit_composition_table": [
+    {
+      "model": "Vanguard Veteran Sergeant with Jump Pack\nVanguard Veteran with Jump Pack",
+      "count": "1\n5-9",
+      "points": "190"
+    },
+    {
+      "model": "Vanguard Veteran Sergeant with Jump Pack\nVanguard Veteran with Jump Pack",
+      "count": "1\n4",
+      "points": "95"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Captain with Jump Pack",
+      "id": "6AhDrcvYe9Y"
+    },
+    {
+      "name": "Kayvaan Shrike",
+      "id": "y5Eu1BsVpC4"
+    },
+    {
+      "name": "Chaplain with Jump Pack",
+      "id": "xCkOd2vX3Hk"
+    },
+    {
+      "name": "Commander Dante",
+      "id": "YSzN60HucCg"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Grenades, Jump Pack, Fly, Imperium, Vanguard Veteran Squad, Vanguard Veteran Squad with Jump Packs"
+  },
+  "url": "https://39k.pro/datasheet/sfvJJYBUCEU"
+}

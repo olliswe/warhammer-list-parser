@@ -1,0 +1,190 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "dbTuQ02OctI",
+  "datasheet_name": "Inner Circle Companions",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Calibanite greatsword — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits",
+          "Sustained Hits 2"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Braziers of Judgement",
+      "rule": "While a **CHARACTER** model is leading this unit, each time an attack targets this unit, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Enmity for the Unworthy",
+      "rule": "Each time a model in this unit makes an attack that targets a **CHARACTER** unit, add 1 to the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Inner Circle Companions**\n\n**Every Inner Circle Companion is equipped with:** heavy bolt pistol; Calibanite greatsword.\nModel Name Count Points\nInner Circle Companion\n4-6\n180\nInner Circle Companion\n3\n90",
+  "unit_composition_table": [
+    {
+      "model": "Inner Circle Companion",
+      "count": "4-6",
+      "points": "180"
+    },
+    {
+      "model": "Inner Circle Companion",
+      "count": "3",
+      "points": "90"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Ezekiel",
+      "id": "Cr4Lpe2rVxo"
+    },
+    {
+      "name": "Lazarus",
+      "id": "2kQUbqqdQs4"
+    },
+    {
+      "name": "Asmodai",
+      "id": "_P5wyspLqmo"
+    },
+    {
+      "name": "Azrael",
+      "id": "nF7OXYAfMjE"
+    },
+    {
+      "name": "Pedro Kantor",
+      "id": "mXa1jEBfL8k"
+    },
+    {
+      "name": "Marneus Calgar",
+      "id": "Tscg7W0VM9g"
+    },
+    {
+      "name": "Uriel Ventris",
+      "id": "dpKxRfe-j84"
+    },
+    {
+      "name": "Ezekiel",
+      "id": "Cr4Lpe2rVxo"
+    },
+    {
+      "name": "Lazarus",
+      "id": "2kQUbqqdQs4"
+    },
+    {
+      "name": "Librarian",
+      "id": "QgfnIzdE-Jo"
+    },
+    {
+      "name": "Castellan",
+      "id": "Ac0tSpUH_ZI"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "ClE3lxdANO0"
+    },
+    {
+      "name": "Emperor’s Champion",
+      "id": "67DGvqyUom0"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "HyvmXZX-4EI"
+    },
+    {
+      "name": "Marshal",
+      "id": "4V1ClUV33Us"
+    },
+    {
+      "name": "Judiciar",
+      "id": "XDBOrh2am-s"
+    },
+    {
+      "name": "Asmodai",
+      "id": "_P5wyspLqmo"
+    },
+    {
+      "name": "Chaplain",
+      "id": "4vVcIqGR25M"
+    },
+    {
+      "name": "Kor’sarro Khan",
+      "id": "gpEboCoviQE"
+    },
+    {
+      "name": "Azrael",
+      "id": "nF7OXYAfMjE"
+    },
+    {
+      "name": "Adrax Agatone",
+      "id": "mee7mVs1uVw"
+    },
+    {
+      "name": "Captain Sicarius",
+      "id": "h5vU4jCOA7Q"
+    },
+    {
+      "name": "Lieutenant",
+      "id": "S2p5qPqLIYo"
+    },
+    {
+      "name": "Blood Angels Captain",
+      "id": "96itFZnvc_U"
+    },
+    {
+      "name": "Ancient",
+      "id": "s-FFFLPVHrk"
+    },
+    {
+      "name": "Apothecary",
+      "id": "3ypaLU-lTJ0"
+    },
+    {
+      "name": "Captain",
+      "id": "WKgiF01kCXU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Dark Angels",
+    "keywords": "Infantry, Imperium, Deathwing, Tacticus, Inner Circle Companions"
+  },
+  "url": "https://39k.pro/datasheet/fUr2djaAgPw"
+}

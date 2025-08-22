@@ -1,0 +1,151 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "BDwsm9Y2_4U",
+  "datasheet_name": "Riptide Battlesuit",
+  "characteristics": {
+    "M": "10\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "14",
+    "LD": "7+",
+    "OC": "4"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy burst cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "12",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "🠶 Ion accelerator — standard",
+        "stats": {
+          "range": "72\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "4"
+        },
+        "abilities": [
+          "Hazardous"
+        ]
+      },
+      {
+        "name": "Twin plasma rifle",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin smart missile system",
+        "stats": {
+          "range": "30\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin fusion blaster",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Riptide fists",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "5+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Battlesuit Support System",
+      "rule": "This model is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+      "name": "Nova Charge",
+      "rule": "Once per battle, when this unit is selected to shoot in your Shooting phase, select one ranged weapon equipped by this model. Until the end of the phase, that weapon has the **[DEVASTATING WOUNDS]** ability."
+    },
+    {
+      "name": "Weapon Support System",
+      "rule": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Missile Drone",
+      "rule": "The bearer is equipped with the following ranged weapon:"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Missile Drone",
+      "rule": "The bearer is equipped with the following ranged weapon:"
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s heavy burst cannon can be replaced with 1 ion accelerator.",
+    "■ This model can be equipped with up to 2 missile drones.",
+    "■ This model’s twin plasma rifles can be replaced with one of the following:\n◦ 1 twin fusion blaster\n◦ 1 twin smart missile system"
+  ],
+  "unit_composition": "■ **1 Riptide Battlesuit**\n\n**This model is equipped with:** heavy burst cannon; twin plasma rifle; Riptide fists.\nModel Name Count Points\nRiptide Battlesuit\n1\n190",
+  "unit_composition_table": [
+    {
+      "model": "Riptide Battlesuit",
+      "count": "1",
+      "points": "190"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Vehicle, Walker, Fly, Battlesuit, Riptide"
+  },
+  "url": "https://39k.pro/datasheet/BDwsm9Y2_4U"
+}

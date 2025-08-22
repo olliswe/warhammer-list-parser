@@ -1,0 +1,118 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "cC7gqKo9Gqk",
+  "datasheet_name": "The Silent King",
+  "characteristics": {
+    "M": "8\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Annihilator beam",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "14",
+          "armour_penetration": "-4",
+          "damage": "6"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Sceptre of Eternal Glory",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Staff of Stars",
+        "stats": {
+          "range": "24\"",
+          "attacks": "12",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured bulk",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Weapons of the Final Triarch",
+        "stats": {
+          "range": "Melee",
+          "attacks": "12",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Triarch Abilities",
+      "rule": "At the start of the battle round, select one Triarch ability. Until the start of the next battle round, this unit has that ability."
+    },
+    {
+      "name": "The Silent King",
+      "rule": "While a friendly **NECRONS** unit is within 6\" of this unit’s Szarekh model, improve that unit’s Leadership characteristic by 1."
+    },
+    {
+      "name": "Deadly Demise D6+3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Szarekh – EPIC HERO**\n■ **2 Triarchal Menhirs**\n\n**Szarekh is equipped with:** Sceptre of Eternal Glory; Staff of Stars; Weapons of the Final Triarch.\n\n**Every Triarchal Menhir is equipped with:** annihilator beam; armoured bulk.\nModel Name Count Points\nSzarekh\nTriarchal Menhir\n1\n2\n420",
+  "unit_composition_table": [
+    {
+      "model": "Szarekh\nTriarchal Menhir",
+      "count": "1\n2",
+      "points": "420"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Vehicle, Epic Hero, Triarch, Character, The Silent King"
+  },
+  "url": "https://39k.pro/datasheet/cC7gqKo9Gqk"
+}

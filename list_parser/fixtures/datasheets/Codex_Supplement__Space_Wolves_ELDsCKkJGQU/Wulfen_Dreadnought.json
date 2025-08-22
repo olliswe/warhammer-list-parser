@@ -1,0 +1,120 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "ELDsCKkJGQU",
+  "datasheet_name": "Wulfen Dreadnought",
+  "characteristics": {
+    "M": "9\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Fenrisian great axe — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "12",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Great wolf claw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Bestial Rage",
+      "rule": "Each time an enemy unit is selected to shoot, after that unit has shot, if this model lost one or more wounds as a result of those attacks, this model can make a Bestial Rage move. To do so, roll one D6, adding 2 to the result: this model can be moved a number of inches up to the result, but must finish that move as close as possible to the closest enemy unit (excluding **AIRCRAFT**). When doing so, this model can be moved within Engagement Range of that enemy unit. Each model can only make one Bestial Rage move per phase."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Violent Fury",
+      "rule": "If this model is equipped with two melee weapons, those weapon profiles have the **[TWIN-LINKED]** ability."
+    },
+    {
+      "name": "Blizzard Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Blizzard Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "wargear_options": [
+    "■ If this model is not equipped with a storm bolter, its heavy flamer can be replaced with 1 storm bolter.",
+    "■ This model’s Fenrisian great axe or great wolf claw and storm bolter can be replaced with 1 blizzard shield and 1 heavy flamer."
+  ],
+  "unit_composition": "■ **1 Wulfen Dreadnought**\n\n**This model is equipped with:** storm bolter; Fenrisian greataxe; great wolf claw.\nModel Name Count Points\nWulfen Dreadnought\n1\n145",
+  "unit_composition_table": [
+    {
+      "model": "Wulfen Dreadnought",
+      "count": "1",
+      "points": "145"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Space Wolves",
+    "keywords": "Vehicle, Walker, Imperium, Wulfen, Dreadnought"
+  },
+  "url": "https://39k.pro/datasheet/Ab6zaZx3U88"
+}

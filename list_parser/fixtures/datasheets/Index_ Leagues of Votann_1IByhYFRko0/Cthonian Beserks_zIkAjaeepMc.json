@@ -1,0 +1,114 @@
+{
+  "faction": "Index: Leagues of Votann",
+  "faction_id": "1IByhYFRko0",
+  "datasheet_id": "zIkAjaeepMc",
+  "datasheet_name": "Cthonian Beserks",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "6+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Mole grenade launcher",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D6",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Heavy plasma axe — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Concussion maul",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Twin concussion gauntlet",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Subterranean Explosives",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding **MONSTERS** and **VEHICLES**) that was hit by one or more of this unit’s mole grenade launchers this phase and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.\n\n***Designer’s Note**: While a unit is shaken, place a Mole Grenade token next to that unit as a reminder.*"
+    },
+    {
+      "name": "Cyberstimms",
+      "rule": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 model that is not equipped with a twin concussion gauntlet can be equipped with 1 mole grenade launcher. If a model is equipped with a mole grenade launcher, add 1 to its Wounds and Attacks characteristics.*\n\n* Designer’s Note: If a Cthonian Beserk is equipped with a mole grenade launcher, it will be accompanied by an L-COG unit: both models should be placed on the same base and together they act as a single model for all rules purposes (albeit one with improved characteristics).",
+    "■ All models in this unit can each have their heavy plasma axe replaced with 1 concussion maul.",
+    "■ For every 5 models in this unit, 1 model that is not equipped with a mole grenade launcher can have its heavy plasma axe or concussion maul replaced with 1 twin concussion gauntlet."
+  ],
+  "unit_composition": "■ **5-10 Cthonian Beserks**\n\n**Every model is equipped with:** heavy plasma axe.\nModel Name Count Points\nCthonian Beserk\n6-10\n200\nCthonian Beserk\n5\n100",
+  "unit_composition_table": [
+    {
+      "model": "Cthonian Beserk",
+      "count": "6-10",
+      "points": "200"
+    },
+    {
+      "model": "Cthonian Beserk",
+      "count": "5",
+      "points": "100"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Leagues of Votann",
+    "keywords": "Infantry, Cthonian Beserks"
+  },
+  "url": "https://39k.pro/datasheet/zIkAjaeepMc"
+}

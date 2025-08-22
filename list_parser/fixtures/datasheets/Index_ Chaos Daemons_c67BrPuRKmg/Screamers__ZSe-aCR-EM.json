@@ -1,0 +1,72 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "_ZSe-aCR-EM",
+  "datasheet_name": "Screamers",
+  "characteristics": {
+    "M": "14\"",
+    "T": "4",
+    "SV": "6+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Lamprey bite",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-monster 4+",
+          "Anti-vehicle 4+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Slashing Dive",
+      "rule": "In your Movement phase, after this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Screamers**\n\n**Every model is equipped with:** lamprey bite.\nModel Name Count Points\nScreamer\n4-6\n160\nScreamer\n3\n80",
+  "unit_composition_table": [
+    {
+      "model": "Screamer",
+      "count": "4-6",
+      "points": "160"
+    },
+    {
+      "model": "Screamer",
+      "count": "3",
+      "points": "80"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Fateskimmer",
+      "id": "f09IK8AKu48"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Beast, Fly, Chaos, Daemon, Tzeentch, Screamers"
+  },
+  "url": "https://39k.pro/datasheet/_ZSe-aCR-EM"
+}

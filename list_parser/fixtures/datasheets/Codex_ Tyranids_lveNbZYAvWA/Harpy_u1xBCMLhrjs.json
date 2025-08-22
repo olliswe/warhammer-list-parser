@@ -1,0 +1,108 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "u1xBCMLhrjs",
+  "datasheet_name": "Harpy",
+  "characteristics": {
+    "M": "20+\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "12",
+    "LD": "8+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Stinger salvoes",
+        "stats": {
+          "range": "24\"",
+          "attacks": "8",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Twin stranglethorn cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin heavy venom cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Scything wings",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Spore Mine Cysts",
+      "rule": "Each time this model ends a Normal move, you can do one of the following:\n\n■ Select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound.\n■ Add a new **SPORE MINES** unit containing D3 models to your army and set it up anywhere on the battlefield that is within 6\" of this model and more than 9\" horizontally away from all enemy units. You cannot select this option for more than one model per turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s twin stranglethorn cannon can be replaced with 1 twin heavy venom cannon."
+  ],
+  "unit_composition": "■ **1 Harpy**\n\n**This model is equipped with:** stinger salvoes; twin stranglethorn cannon; scything wings.\nModel Name Count Points\nHarpy\n1\n215",
+  "unit_composition_table": [
+    {
+      "model": "Harpy",
+      "count": "1",
+      "points": "215"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Fly, Aircraft, Great Devourer, Vanguard Invader, Harpy"
+  },
+  "url": "https://39k.pro/datasheet/u1xBCMLhrjs"
+}

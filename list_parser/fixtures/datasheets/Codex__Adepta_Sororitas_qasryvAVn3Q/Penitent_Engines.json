@@ -1,0 +1,133 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_name": "Penitent Engines",
+  "characteristics": {
+    "M": "8\"",
+    "T": "6",
+    "SV": "4+",
+    "W": "5",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Penitent flamers",
+        "stats": {
+          "range": "12\"",
+          "attacks": "2D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Twin-linked",
+          "Torrent",
+          "Ignores Cover"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Twin penitent flails",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Twin penitent buzz-blades",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Penitent Flail",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Penitent buzz-blade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "4+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Endless Suffering",
+      "rule": "This unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their twin penitent buzz-blades replaced with one of the following:\n◦ 1 penitent buzz-blade and 1 penitent flail\n◦ 1 twin penitent flails"
+  ],
+  "unit_composition": "■ **1-2 Penitent Engines**\n\n**Every model is equipped with:** penitent flamers; twin penitent buzz-blades.\nModel Name Count Points\nPenitent Engine\n2\n150\nPenitent Engine\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Penitent Engine",
+      "count": "2",
+      "points": "150"
+    },
+    {
+      "model": "Penitent Engine",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Vehicle, Walker, Imperium, Penitent, Penitent Engines"
+  },
+  "url": "https://39k.pro/datasheet/GiRrgovL8bk"
+}

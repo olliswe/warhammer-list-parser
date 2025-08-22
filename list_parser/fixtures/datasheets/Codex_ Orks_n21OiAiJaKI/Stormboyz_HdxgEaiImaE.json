@@ -1,0 +1,93 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "HdxgEaiImaE",
+  "datasheet_name": "Stormboyz",
+  "characteristics": {
+    "M": "12\"",
+    "T": "5",
+    "SV": "5+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Slugga",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "5+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Choppa",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power klaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Full Throttle",
+      "rule": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Boss Nob’s choppa can be replaced with 1 power klaw."
+  ],
+  "unit_composition": "■ **1 Boss Nob**\n■ **4-9 Stormboyz**\n\n**Every model is equipped with:** slugga; choppa.\nModel Name Count Points\nBoss Nob\nStormboy\n1\n4\n65\nBoss Nob\nStormboy\n1\n5-9\n130",
+  "unit_composition_table": [
+    {
+      "model": "Boss Nob\nStormboy",
+      "count": "1\n4",
+      "points": "65"
+    },
+    {
+      "model": "Boss Nob\nStormboy",
+      "count": "1\n5-9",
+      "points": "130"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Infantry, Jump Pack, Fly, Grenades, Stormboyz"
+  },
+  "url": "https://39k.pro/datasheet/HdxgEaiImaE"
+}

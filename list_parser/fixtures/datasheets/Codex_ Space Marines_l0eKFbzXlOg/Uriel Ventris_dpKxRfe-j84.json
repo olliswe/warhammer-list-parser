@@ -1,0 +1,92 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "dpKxRfe-j84",
+  "datasheet_name": "Uriel Ventris",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt Pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Invictus",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Sword of Idaeus",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Unorthodox Strategist",
+      "rule": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP (this is not cumulative with any other rules that would increase the CP cost of that Stratagem)."
+    },
+    {
+      "name": "Master of the Fleet",
+      "rule": "During the Declare Battle Formations step, if your army includes this model, select one **PHOBOS**, **GRAVIS** or **TACTICUS ADEPTUS ASTARTES INFANTRY** unit from your army. That unit gains the Deep Strike ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Uriel Ventris – EPIC HERO**\n**This model is equipped with:** bolt pistol; Invictus; Sword of Idaeus.\nModel Name Count Points\nUriel Ventris\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Uriel Ventris",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Ultramarines",
+    "keywords": "Infantry, Character, Epic Hero, Imperium, Tacticus, Captain, Uriel Ventris"
+  },
+  "url": "https://39k.pro/datasheet/dpKxRfe-j84"
+}

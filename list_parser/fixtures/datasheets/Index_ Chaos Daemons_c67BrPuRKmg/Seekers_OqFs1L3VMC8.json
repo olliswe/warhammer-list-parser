@@ -1,0 +1,105 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "OqFs1L3VMC8",
+  "datasheet_name": "Seekers",
+  "characteristics": {
+    "M": "14\"",
+    "T": "4",
+    "SV": "7+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Slashing claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Lashing tongue",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Lethal Hits",
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Unholy Speed",
+      "rule": "You can re-roll Advance and Charge rolls made for this unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Daemonic Icon",
+      "rule": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+    },
+    {
+      "name": "Instrument of Chaos",
+      "rule": "Add 1 to Charge rolls made for the bearer’s unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Daemonic Icon",
+      "rule": "Models in the bearer’s unit have a Leadership characteristic of 6+."
+    },
+    {
+      "name": "Instrument of Chaos",
+      "rule": "Add 1 to Charge rolls made for the bearer’s unit."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Seeker that is not equipped with an instrument of Chaos can be equipped with 1 daemonic icon.",
+    "■ 1 Seeker that is not equipped with a daemonic icon can be equipped with 1 instrument of Chaos."
+  ],
+  "unit_composition": "■ **1 Heartseeker**\n■ **4-9 Seekers**\n\n**Every model is equipped with:** lashing tongue; slashing claws.\nModel Name Count Points\nSeeker\nHeartseeker\n5-9\n1\n160\nSeeker\nHeartseeker\n4\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Seeker\nHeartseeker",
+      "count": "5-9\n1",
+      "points": "160"
+    },
+    {
+      "model": "Seeker\nHeartseeker",
+      "count": "4\n1",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Mounted, Chaos, Daemon, Slaanesh, Seekers"
+  },
+  "url": "https://39k.pro/datasheet/OqFs1L3VMC8"
+}

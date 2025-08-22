@@ -1,0 +1,102 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "3o2x2ZWFzYY",
+  "datasheet_name": "Lychguard",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Warscythe",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Hyperphase sword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Guardian Protocols",
+      "rule": "While a **NOBLE** model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Dispersion Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Dispersion Shield",
+      "rule": "The bearer has a 4+ invulnerable save."
+    }
+  ],
+  "wargear_options": [
+    "■ All models in this unit can each have their warscythe replaced with 1 hyperphase sword and 1 dispersion shield."
+  ],
+  "unit_composition": "■ **5-10 Lychguard**\n\n**Every model is equipped with:** warscythe.\nModel Name Count Points\nLychguard\n6-10\n170\nLychguard\n5\n85",
+  "unit_composition_table": [
+    {
+      "model": "Lychguard",
+      "count": "6-10",
+      "points": "170"
+    },
+    {
+      "model": "Lychguard",
+      "count": "5",
+      "points": "85"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Overlord with Translocation Shroud",
+      "id": "nkslpip0o6o"
+    },
+    {
+      "name": "Imotekh the Stormlord",
+      "id": "NpHccqHWvCU"
+    },
+    {
+      "name": "Overlord",
+      "id": "nQJi94_CjAk"
+    },
+    {
+      "name": "Trazyn the Infinite",
+      "id": "IJFS2nvLTss"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Lychguard"
+  },
+  "url": "https://39k.pro/datasheet/3o2x2ZWFzYY"
+}

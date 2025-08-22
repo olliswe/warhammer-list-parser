@@ -1,0 +1,80 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "98gpjb5BBIo",
+  "datasheet_name": "Toxicrene",
+  "characteristics": {
+    "M": "8\"",
+    "T": "11",
+    "SV": "3+",
+    "W": "14",
+    "LD": "8+",
+    "OC": "4"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Massive toxic lashes",
+        "stats": {
+          "range": "9\"",
+          "attacks": "2D6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 2+"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Massive toxic lashes",
+        "stats": {
+          "range": "Melee",
+          "attacks": "12",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 2+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Grasping Tendrils",
+      "rule": "Each time an enemy unit (excluding **TITANIC** units) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, you can roll one D6: on a 3+, that enemy unit must Remain Stationary instead."
+    },
+    {
+      "name": "Hypertoxic Miasma",
+      "rule": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Toxicrene**\n\n**This model is equipped with:** massive toxic lashes.\nModel Name Count Points\nToxicrene\n1\n150",
+  "unit_composition_table": [
+    {
+      "model": "Toxicrene",
+      "count": "1",
+      "points": "150"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Great Devourer, Toxicrene"
+  },
+  "url": "https://39k.pro/datasheet/98gpjb5BBIo"
+}

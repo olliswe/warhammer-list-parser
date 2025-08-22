@@ -1,0 +1,89 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "ELDsCKkJGQU",
+  "datasheet_id": "nuIBvZlS1Tc",
+  "datasheet_name": "Wulfen",
+  "characteristics": {
+    "M": "9\"",
+    "T": "6",
+    "SV": "4+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "0"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Stormfrag auto-launcher",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Wulfen weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Savage Frenzy",
+      "rule": "Each time an enemy unit (excluding **MONSTERS** and **VEHICLES**) within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests."
+    },
+    {
+      "name": "Death Totem",
+      "rule": "Each time the bearer makes a melee attack, re‑roll a Hit roll of 1."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Death Totem",
+      "rule": "Each time the bearer makes a melee attack, re‑roll a Hit roll of 1."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their death totem replaced with 1 stormfrag auto‑launcher."
+  ],
+  "unit_composition": "■ **5-10 Wulfen**\n\n**Every model is equipped with:** Wulfen weapons; death totem.\nModel Name Count Points\nWulfen\n5\n85\nWulfen\n6-10\n170",
+  "unit_composition_table": [
+    {
+      "model": "Wulfen",
+      "count": "5",
+      "points": "85"
+    },
+    {
+      "model": "Wulfen",
+      "count": "6-10",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Space Wolves",
+    "keywords": "Infantry, Imperium, Wulfen"
+  },
+  "url": "https://39k.pro/datasheet/nuIBvZlS1Tc"
+}

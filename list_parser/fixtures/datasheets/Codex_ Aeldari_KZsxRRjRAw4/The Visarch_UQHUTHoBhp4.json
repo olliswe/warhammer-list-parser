@@ -1,0 +1,69 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "UQHUTHoBhp4",
+  "datasheet_name": "The Visarch",
+  "characteristics": {
+    "M": "8\"",
+    "T": "3",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "🠶 Asu-var — quicksilver stance",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "3",
+          "armour_penetration": "-4",
+          "damage": "3"
+        },
+        "abilities": [
+          "Sustained Hits 2",
+          "Devastating Wounds",
+          "Precision",
+          "Anti-Epic Hero 2+",
+          "Precision"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Yvraine’s Champion",
+      "rule": "While this model is leading a unit, other **CHARACTER** models attached to that unit have the Feel No Pain 4+ ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Way of the Blade",
+      "rule": "While this model is leading a unit, models in that unit have the Fights First ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Visarch – EPIC HERO**\n\n**This model is equipped with:** Asu-var.\nModel Name Count Points\nVisarch\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "Visarch",
+      "count": "1",
+      "points": "90"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Ynnari",
+    "keywords": "Infantry, Character, Epic Hero, Aeldari, The Visarch"
+  },
+  "url": "https://39k.pro/datasheet/UQHUTHoBhp4"
+}

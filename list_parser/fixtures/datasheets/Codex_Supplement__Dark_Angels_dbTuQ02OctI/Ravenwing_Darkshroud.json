@@ -1,0 +1,89 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "dbTuQ02OctI",
+  "datasheet_name": "Ravenwing Darkshroud",
+  "characteristics": {
+    "M": "14\"",
+    "T": "8",
+    "SV": "3+",
+    "W": "10",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Assault cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Icon of Old Caliban",
+      "rule": "While a friendly **ADEPTUS ASTARTES** unit is within 6\" of this model, models in that unit have the Stealth ability and each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s heavy bolter can be replaced with 1 assault cannon."
+  ],
+  "unit_composition": "■ **1 Ravenwing Darkshroud**\n\n**This model is equipped with:** heavy bolter; close combat weapon.\nModel Name Count Points\nRavenwing Darkshroud\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Ravenwing Darkshroud",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Dark Angels",
+    "keywords": "Vehicle, Fly, Imperium, Ravenwing, Darkshroud"
+  },
+  "url": "https://39k.pro/datasheet/ktbEwBXmOVE"
+}

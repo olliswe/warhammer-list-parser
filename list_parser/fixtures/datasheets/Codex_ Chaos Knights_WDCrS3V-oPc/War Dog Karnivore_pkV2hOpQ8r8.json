@@ -1,0 +1,107 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "WDCrS3V-oPc",
+  "datasheet_id": "pkV2hOpQ8r8",
+  "datasheet_name": "War Dog Karnivore",
+  "characteristics": {
+    "M": "14\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "14",
+    "LD": "7+",
+    "OC": "6"
+  },
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Havoc multi-launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast",
+          "Indirect Fire"
+        ]
+      },
+      {
+        "name": "Diabolus heavy stubber",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 3"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Reaper chaintalon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "12",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Slaughterclaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Karnivore",
+      "rule": "You can re‑roll Advance and Charge rolls made for this unit."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+  ],
+  "unit_composition": "■ **1 War Dog Karnivore**\n\n**This model is equipped with:** diabolus heavy stubber; reaper chaintalon; slaughterclaw.\nModel Name Count Points\nWar Dog Karnivore\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "War Dog Karnivore",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Chaos Knights",
+    "keywords": "Vehicle, Walker, Chaos, War Dog, Karnivore"
+  },
+  "url": "https://39k.pro/datasheet/pkV2hOpQ8r8"
+}

@@ -1,0 +1,104 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "aNzKnK15ZEE",
+  "datasheet_name": "Inceptor Squad",
+  "characteristics": {
+    "M": "10\"",
+    "T": "6",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Assault bolters",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Assault",
+          "Pistol",
+          "Sustained Hits 2"
+        ]
+      },
+      {
+        "name": "🠶 Plasma exterminators — supercharge",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Hazardous",
+          "Assault",
+          "Twin-linked",
+          "Pistol",
+          "Twin-linked",
+          "Pistol",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Meteoric Descent",
+      "rule": "In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can perform a meteoric descent. If it does, this unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ All models in this unit can each have their assault bolters replaced with 1 plasma exterminators."
+  ],
+  "unit_composition": "■ **1 Inceptor Sergeant**\n■ **2-5 Inceptors**\n\n**Every model is equipped with:** assault bolters; close combat weapon.\nModel Name Count Points\nInceptor Sergeant\nInceptor\n1\n2\n120\nInceptor\nInceptor Sergeant\n3-5\n1\n240",
+  "unit_composition_table": [
+    {
+      "model": "Inceptor Sergeant\nInceptor",
+      "count": "1\n2",
+      "points": "120"
+    },
+    {
+      "model": "Inceptor\nInceptor Sergeant",
+      "count": "3-5\n1",
+      "points": "240"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes",
+    "keywords": "Infantry, Jump Pack, Fly, Imperium, Gravis, Inceptor Squad"
+  },
+  "url": "https://39k.pro/datasheet/aNzKnK15ZEE"
+}

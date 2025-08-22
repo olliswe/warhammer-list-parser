@@ -1,0 +1,197 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "D3gAxojdYEM",
+  "datasheet_id": "W5kTY6dz9ZI",
+  "datasheet_name": "Chosen",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Accursed weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Paired accursed weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Power fist",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Chosen Marauders",
+      "rule": "This unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "name": "Chaos Icon",
+      "rule": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Chaos Icon",
+      "rule": "Each time the bearer’s unit takes a Leadership test for the Dark Pacts ability, you can re-roll that test."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 model equipped with a boltgun can have its accursed weapon replaced with 1 power fist. That model’s boltgun cannot be replaced.",
+    "■ For every 5 models in this unit, 1 model’s boltgun and accursed weapon can be replaced with 1 paired accursed weapons.",
+    "■ For every 5 models in this unit, up to 2 models can each have their bolt pistol replaced with 1 plasma pistol.",
+    "■ 1 model can be equipped with 1 Chaos icon.",
+    "■ For every 5 models in this unit, up to 2 models can each have their boltgun replaced with 1 combi-weapon."
+  ],
+  "unit_composition": "■ **1 Chosen Champion**\n■ **4-9 Chosen**\n\n**Every model is equipped with:** boltgun; bolt pistol; accursed weapon.\nModel Name Count Points\nChosen Champion\nChosen\n1\n4\n125\nChosen\nChosen Champion\n5-9\n1\n250",
+  "unit_composition_table": [
+    {
+      "model": "Chosen Champion\nChosen",
+      "count": "1\n4",
+      "points": "125"
+    },
+    {
+      "model": "Chosen\nChosen Champion",
+      "count": "5-9\n1",
+      "points": "250"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Huron Blackheart",
+      "id": "vN24dA2Zh0M"
+    },
+    {
+      "name": "Sorcerer",
+      "id": "JjfRM7kgn_w"
+    },
+    {
+      "name": "Fabius Bile",
+      "id": "iqT6yzfKxN0"
+    },
+    {
+      "name": "Warpsmith",
+      "id": "kg-eqhd-LXk"
+    },
+    {
+      "name": "Chaos Lord",
+      "id": "_MfayYCzbWI"
+    },
+    {
+      "name": "Dark Apostle",
+      "id": "Qw2Qgd2qSvc"
+    },
+    {
+      "name": "Master of Possession",
+      "id": "4dA8J4gRq2c"
+    },
+    {
+      "name": "Abaddon the Despoiler",
+      "id": "U3Zc5JhLfrI"
+    },
+    {
+      "name": "Master of Executions",
+      "id": "WQfv3KbF8Wo"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Heretic Astartes",
+    "keywords": "Infantry, Grenades, Chaos, Chosen"
+  },
+  "url": "https://39k.pro/datasheet/W5kTY6dz9ZI"
+}

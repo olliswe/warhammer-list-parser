@@ -1,0 +1,115 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "vMlYo2ERkVw",
+  "datasheet_id": "_WtbrSDmb6Q",
+  "datasheet_name": "Inquisitor Coteaz",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "2+",
+    "W": "4",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Psychic Blast",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-daemon 4+",
+          "Anti-infantry 5+",
+          "Psychic",
+          "Devastating Wounds"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Nemesis daemon hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Spy Network",
+      "rule": "Each time your opponent gains a CP as the result of an ability, roll one D6: on a 2+, you also gain 1CP."
+    },
+    {
+      "name": "Malefic Wardings",
+      "rule": "While this model is leading a unit, models in that unit have a 6+ invulnerable save, and a 4+ invulnerable save against Psychic Attacks and attacks made by **DAEMON** models."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Authority of the Inquisition",
+      "rule": "While this model is leading a unit, it can embark within any **TRANSPORT** that its Bodyguard unit can embark within."
+    },
+    {
+      "name": "Glovodan Psyber‐eagle",
+      "rule": "In your Command phase, you can select one enemy unit within 18\" of the bearer. Until the start of your next Command phase, that unit cannot have the Benefit of Cover.\n\n***Designer’s Note**: Place a Glovodan Psyber‐eagle token next to the selected unit to remind you.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Glovodan Psyber‐eagle",
+      "rule": "In your Command phase, you can select one enemy unit within 18\" of the bearer. Until the start of your next Command phase, that unit cannot have the Benefit of Cover.\n\n***Designer’s Note**: Place a Glovodan Psyber‐eagle token next to the selected unit to remind you.*"
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Inquisitor Coteaz – EPIC HERO**\n\n**This model is equipped with:** bolt pistol; Psychic Blast; Nemesis daemon hammer; Glovodan psyber‐eagle.\nModel Name Count Points\nInquisitor Coteaz\n1\n95\nInquisitor Coteaz\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Inquisitor Coteaz",
+      "count": "1",
+      "points": "95"
+    },
+    {
+      "model": "Inquisitor Coteaz",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Agents of the Imperium",
+    "keywords": "Infantry, Character, Epic Hero, Psyker, Imperium, Ordo Malleus, Inquisitor, Coteaz"
+  },
+  "url": "https://39k.pro/datasheet/_WtbrSDmb6Q"
+}

@@ -1,0 +1,75 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "0GT33JKS0lM",
+  "datasheet_name": "Maleceptor",
+  "characteristics": {
+    "M": "8\"",
+    "T": "11",
+    "SV": "3+",
+    "W": "14",
+    "LD": "7+",
+    "OC": "4"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Psychic overload",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Psychic",
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Massive scything talons — strike",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Encephalic Diffusion",
+      "rule": "While an enemy unit is within 6\" of this model, each time a model in that unit makes an attack, subtract 1 from the Hit roll and, if that enemy unit is Below Half-strength, subtract 1 from the Wound roll as well."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Maleceptor**\n\n**This model is equipped with:** psychic overload; massive scything talons.\nModel Name Count Points\nMaleceptor\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Maleceptor",
+      "count": "1",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Psyker, Great Devourer, Synapse, Maleceptor"
+  },
+  "url": "https://39k.pro/datasheet/0GT33JKS0lM"
+}

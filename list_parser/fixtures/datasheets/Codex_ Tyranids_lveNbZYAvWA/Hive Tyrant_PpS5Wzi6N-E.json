@@ -1,0 +1,115 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "PpS5Wzi6N-E",
+  "datasheet_name": "Hive Tyrant",
+  "characteristics": {
+    "M": "8\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "10",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Heavy venom cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D3",
+          "ballistic_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Stranglethorn cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Monstrous scything talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Monstrous bonesword and lash whip",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Will of the Hive Mind",
+      "rule": "Once per battle round, one model from your army with this ability can use it when a friendly **TYRANIDS** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Onslaught",
+      "rule": "While a friendly **TYRANIDS** unit is within 6\" of this model, ranged weapons equipped by models in that unit have the **[ASSAULT]** and **[LETHAL HITS]** abilities."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s monstrous scything talons can be replaced with one of the following: \n◦ 1 heavy venom cannon*\n◦ 1 stranglethorn cannon*\n\n* This model cannot be equipped with both a stranglethorn cannon and a heavy venom cannon. This model cannot be equipped with more than 1 heavy venom cannon, and it cannot be equipped with more than 1 stranglethorn cannon.",
+    "■ This model’s monstrous bonesword and lash whip can be replaced with one of the following: \n◦ 1 heavy venom cannon\n◦ 1 stranglethorn cannon\n◦ 1 monstrous scything talons"
+  ],
+  "unit_composition": "■ **1 Hive Tyrant**\n\n**This model is equipped with:** monstrous bonesword and lash whip; monstrous scything talons.\nModel Name Count Points\nHive Tyrant\n1\n195",
+  "unit_composition_table": [
+    {
+      "model": "Hive Tyrant",
+      "count": "1",
+      "points": "195"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Character, Psyker, Great Devourer, Synapse, Hive Tyrant"
+  },
+  "url": "https://39k.pro/datasheet/PpS5Wzi6N-E"
+}

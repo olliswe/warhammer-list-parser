@@ -1,0 +1,191 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_id": "Oe2mP-CLdgA",
+  "datasheet_name": "Celestian Sacresants",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Ministorum hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Inferno pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Melta 2",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Spear of the faithful",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Hallowed mace",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Anointed halberd",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Sworn Protectors",
+      "rule": "While an **ADEPTA SORORITAS CHARACTER** is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Sacresant Superior’s hallowed mace can be replaced with 1 spear of the faithful.",
+    "■ The Sacresant Superior’s bolt pistol can be replaced with one of the following:\n◦ 1 inferno pistol\n◦ 1 Ministorum hand flamer\n◦ 1 plasma pistol",
+    "■ Any number of models can each have their hallowed mace replaced with 1 anointed halberd."
+  ],
+  "unit_composition": "■ **1 Sacresant Superior**\n■ **4-9 Celestian Sacresants**\n\n**Every model is equipped with:** bolt pistol; hallowed mace.\nModel Name Count Points\nSacresant Superior\nCelestian Sacresant\n1\n4\n70\nCelestian Sacresant\nSacresant Superior\n5-9\n1\n130",
+  "unit_composition_table": [
+    {
+      "model": "Sacresant Superior\nCelestian Sacresant",
+      "count": "1\n4",
+      "points": "70"
+    },
+    {
+      "model": "Celestian Sacresant\nSacresant Superior",
+      "count": "5-9\n1",
+      "points": "130"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Dialogus",
+      "id": "aNpIUhKhCh4"
+    },
+    {
+      "name": "Dogmata",
+      "id": "e2DMgV7-iiI"
+    },
+    {
+      "name": "Junith Eruita",
+      "id": "leM6eUHe7yw"
+    },
+    {
+      "name": "Imagifier",
+      "id": "cNifFaoepiE"
+    },
+    {
+      "name": "Aestred Thurga and Agathae Dolan",
+      "id": "1QMvQdMVwpQ"
+    },
+    {
+      "name": "Palatine",
+      "id": "o1Hls2-4H6Y"
+    },
+    {
+      "name": "Canoness Adalya",
+      "id": "vzSWPRiafik"
+    },
+    {
+      "name": "Canoness",
+      "id": "r1wR-BHRZbU"
+    },
+    {
+      "name": "Hospitaller",
+      "id": "P_bLFfLo-Ec"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Infantry, Grenades, Imperium, Celestian Sacresants"
+  },
+  "url": "https://39k.pro/datasheet/Oe2mP-CLdgA"
+}

@@ -1,0 +1,157 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "vMlYo2ERkVw",
+  "datasheet_id": "DqQ-xSHJXFs",
+  "datasheet_name": "Grey Knights Terminator Squad",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "2+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Storm bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Psilencer",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Precision",
+          "Psychic",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Incinerator",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Psycannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Nemesis force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Hammerhand",
+      "rule": "Each time a model in this unit makes a Charge move, until the end of the turn, melee weapons equipped by models in this unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Ancient’s Banner",
+      "rule": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    },
+    {
+      "name": "Narthecium",
+      "rule": "In your Command phase, you can return 1 destroyed model (excluding **CHARACTERS**) to the bearer’s unit."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Ancient’s Banner",
+      "rule": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    },
+    {
+      "name": "Narthecium",
+      "rule": "In your Command phase, you can return 1 destroyed model (excluding **CHARACTERS**) to the bearer’s unit."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Grey Knights Terminator’s storm bolter can be replaced with one of the following:\n◦ 1 incinerator\n◦ 1 psilencer\n◦ 1 psycannon",
+    "■ 1 Grey Knights Terminator equipped with a storm bolter can be equipped with 1 Ancient’s banner.*",
+    "■ 1 Grey Knights Terminator can have its storm bolter replaced with 1 narthecium.*",
+    "**You cannot select both of these options for the same model.*"
+  ],
+  "unit_composition": "■ **1 Terminator Justicar**\n■ **4 Grey Knight Terminators**\n\n**Every model is equipped with:** storm bolter; Nemesis force weapon.\nModel Name Count Points\nTerminator Justicar\nGrey Knights Terminators\n1\n4\n210\nTerminator Justicar\nGrey Knights Terminators\n1\n4\n190",
+  "unit_composition_table": [
+    {
+      "model": "Terminator Justicar\nGrey Knights Terminators",
+      "count": "1\n4",
+      "points": "210"
+    },
+    {
+      "model": "Terminator Justicar\nGrey Knights Terminators",
+      "count": "1\n4",
+      "points": "190"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Inquisitor Coteaz",
+      "id": "_WtbrSDmb6Q"
+    },
+    {
+      "name": "Inquisitor",
+      "id": "gE153W33Vy4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Agents of the Imperium",
+    "keywords": "Infantry, Psyker, Terminator, Grenades, Imperium, Ordo Malleus, Requisitioned, Grey Knights Terminator Squad"
+  },
+  "url": "https://39k.pro/datasheet/DqQ-xSHJXFs"
+}

@@ -1,0 +1,166 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "BEQhOqpik0o",
+  "datasheet_name": "Hellhound",
+  "characteristics": {
+    "M": "10\"",
+    "T": "10",
+    "SV": "2+",
+    "W": "11",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Inferno cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Melta cannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "D3",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast",
+          "Melta 4"
+        ]
+      },
+      {
+        "name": "Chem cannon",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6+1",
+          "ballistic_skill": "N/A",
+          "strength": "2",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 2+",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Hunter-killer missile",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "One Shot"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured tracks",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Flush Them Out",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is scattered. While a unit is scattered, it cannot have the Benefit of Cover."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s heavy flamer can be replaced with one of the following: \n◦ 1 heavy bolter\n◦ 1 multi-melta",
+    "■ This model’s inferno cannon can be replaced with one of the following: \n◦ 1 chem cannon\n◦ 1 melta cannon",
+    "■ This model can be equipped with 1 hunter-killer missile."
+  ],
+  "unit_composition": "■ **1 Hellhound**\n\n**This model is equipped with:** heavy flamer; inferno cannon; armoured tracks.\nModel Name Count Points\nHellhound\n1\n125",
+  "unit_composition_table": [
+    {
+      "model": "Hellhound",
+      "count": "1",
+      "points": "125"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Vehicle, Smoke, Imperium, Squadron, Hellhound"
+  },
+  "url": "https://39k.pro/datasheet/BEQhOqpik0o"
+}

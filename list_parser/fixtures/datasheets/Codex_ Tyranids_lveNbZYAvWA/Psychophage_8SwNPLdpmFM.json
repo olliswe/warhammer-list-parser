@@ -1,0 +1,86 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "8SwNPLdpmFM",
+  "datasheet_name": "Psychophage",
+  "characteristics": {
+    "M": "12\"",
+    "T": "9",
+    "SV": "3+",
+    "W": "10",
+    "LD": "8+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Psychoclastic torrent",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Talons and betentacled maw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-psyker 4+",
+          "Devastating Wounds"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Feeding Frenzy",
+      "rule": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-strength, add 1 to the Wound roll as well."
+    },
+    {
+      "name": "Bio-stimulus",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly **TYRANIDS** unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Psychophage**\n\n**This model is equipped with:** psychoclastic torrent; talons and betentacled maw.\nModel Name Count Points\nPsychophage\n1\n110",
+  "unit_composition_table": [
+    {
+      "model": "Psychophage",
+      "count": "1",
+      "points": "110"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Monster, Smoke, Great Devourer, Harvester, Psychophage"
+  },
+  "url": "https://39k.pro/datasheet/8SwNPLdpmFM"
+}

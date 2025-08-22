@@ -1,0 +1,133 @@
+{
+  "faction": "Index: Leagues of Votann",
+  "faction_id": "1IByhYFRko0",
+  "datasheet_id": "lB59WENKwtc",
+  "datasheet_name": "Sagitaur",
+  "characteristics": {
+    "M": "12\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "9",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 L7 missile launcher — blast",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-2",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Sagitaur missile launcher",
+        "stats": {
+          "range": "36\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "3"
+        },
+        "abilities": []
+      },
+      {
+        "name": "HYLas beam cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Sustained Hits D3"
+        ]
+      },
+      {
+        "name": "MATR autocannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "4+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Twin bolt cannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Armoured wheels",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Blistering Advance",
+      "rule": "Units can disembark from this **TRANSPORT** after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+    },
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s HYLas beam cannon can be replaced with one of the following:\n◦ 1 L7 missile launcher and 1 Sagitaur missile launcher\n◦ 1 MATR autocannon"
+  ],
+  "unit_composition": "■ **1 Sagitaur**\n\n**This model is equipped with:** HYLas beam cannon; twin bolt cannon; armoured wheels.\nModel Name Count Points\nSagitaur\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Sagitaur",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Leagues of Votann",
+    "keywords": "Vehicle, Transport, Dedicated Transport, Sagitaur"
+  },
+  "url": "https://39k.pro/datasheet/lB59WENKwtc"
+}

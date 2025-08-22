@@ -1,0 +1,94 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "D3gAxojdYEM",
+  "datasheet_id": "Qw2Qgd2qSvc",
+  "datasheet_name": "Dark Apostle",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "6+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Accursed crozius",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Demagogue",
+      "rule": "Once per battle, at the start of any phase, you can select one friendly **HERETIC ASTARTES** unit that is Battle-shocked and within 12\" of this unit’s **DARK APOSTLE** model. That unit is no longer Battle-shocked."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Dark Zealotry",
+      "rule": "While this unit is leading a unit and contains a **DARK APOSTLE** model, each time a model in that unit makes a melee attack, add 1 to the Wound roll."
+    },
+    {
+      "name": "Malign Sacrifice",
+      "rule": "At the start of the Fight phase, if this unit contains one or more Dark Disciple models, you can select one of those models and one enemy unit within Engagement Range of this unit, then roll one D6: on a 2-5, that enemy unit suffers 1 mortal wound; on a 6, that enemy unit suffers D3 mortal wounds. That Dark Disciple model is then destroyed."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Dark Apostle**\n■ **2 Dark Disciples**\n\n**The Dark Apostle is equipped with:** bolt pistol; accursed crozius.\n**Every Dark Disciple is equipped with:** close combat weapon.\nModel Name Count Points\nDark Disciple\nDark Apostle\n2\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Dark Disciple\nDark Apostle",
+      "count": "2\n1",
+      "points": "65"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Heretic Astartes",
+    "keywords": "Infantry, Grenades, Chaos, Character, Dark Apostle"
+  },
+  "url": "https://39k.pro/datasheet/Qw2Qgd2qSvc"
+}

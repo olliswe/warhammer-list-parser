@@ -1,0 +1,80 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "zI8V-8iBdJc",
+  "datasheet_id": "r3L_RXKjgh0",
+  "datasheet_name": "Flawless Blades",
+  "characteristics": {
+    "M": "8\"",
+    "T": "5",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Blissblade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Daemonic Patrons",
+      "rule": "Each time this unit is selected to fight, it can call upon daemonic patrons. If it does, until the end of the phase, each time a model in this unit makes an attack, an unmodified Wound roll of 3+ scores a Critical Wound. At the end of the Fight phase, if this unit called upon daemonic patrons this phase and no enemy models were destroyed by attacks made by models in this unit this phase, one model in this unit is destroyed."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **3‑6 Flawless Blades**\n\n**Every model is equipped with:** bolt pistol; blissblade.\nModel Name Count Points\nFlawless Blade\n3\n110\nFlawless Blade\n4-6\n220",
+  "unit_composition_table": [
+    {
+      "model": "Flawless Blade",
+      "count": "3",
+      "points": "110"
+    },
+    {
+      "model": "Flawless Blade",
+      "count": "4-6",
+      "points": "220"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Lucius the Eternal",
+      "id": "_3AwvnVQDcI"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Emperor’s Children",
+    "keywords": "Infantry, Grenades, Chaos, Slaanesh, Flawless Blades"
+  },
+  "url": "https://39k.pro/datasheet/r3L_RXKjgh0"
+}

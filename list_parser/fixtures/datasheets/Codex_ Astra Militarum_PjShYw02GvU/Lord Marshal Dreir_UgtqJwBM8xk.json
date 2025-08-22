@@ -1,0 +1,98 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "PjShYw02GvU",
+  "datasheet_id": "UgtqJwBM8xk",
+  "datasheet_name": "Lord Marshal Dreir",
+  "characteristics": {
+    "M": "10\"",
+    "T": "4",
+    "SV": "4+",
+    "W": "6",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Laspistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Sabre of Sacrifice",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+"
+        ]
+      },
+      {
+        "name": "Savage claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Tough To Kill",
+      "rule": "The first time this model is destroyed, roll one D6 at the end of the phase. On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D3 wounds remaining."
+    },
+    {
+      "name": "Leading The Charge",
+      "rule": "Each time this model’s unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lord Marshal Dreir – EPIC HERO**\n\n**This model is equipped with**: laspistol; Sabre of Sacrifice; savage claws.\nModel Name Count Points\nLord Marshal Dreir\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Lord Marshal Dreir",
+      "count": "1",
+      "points": "100"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Astra Militarum",
+    "keywords": "Mounted, Character, Epic Hero, Grenades, Imperium, Officer, Lord Marshal Dreir"
+  },
+  "url": "https://39k.pro/datasheet/UgtqJwBM8xk"
+}

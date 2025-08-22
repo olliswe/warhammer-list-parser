@@ -1,0 +1,79 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "2V7Ywsj3HHc",
+  "datasheet_id": "ZYttNIpVoUY",
+  "datasheet_name": "Skitarii Marshal",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "4+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Mechanicus pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Control stave",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Servo-skull Uplink",
+      "rule": "Once per battle, at the start of any phase, you can select one friendly **SKITARII** unit that is Battle-shocked and within 6\" of this model. That unit is no longer Battle-shocked."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Control Edict",
+      "rule": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Skitarii Marshal**\n\n**This model is equipped with:** Mechanicus pistol; control stave.\nModel Name Count Points\nSkitarii Marshal\n1\n35",
+  "unit_composition_table": [
+    {
+      "model": "Skitarii Marshal",
+      "count": "1",
+      "points": "35"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Mechanicus",
+    "keywords": "Infantry, Character, Imperium, Skitarii, Marshal"
+  },
+  "url": "https://39k.pro/datasheet/ZYttNIpVoUY"
+}

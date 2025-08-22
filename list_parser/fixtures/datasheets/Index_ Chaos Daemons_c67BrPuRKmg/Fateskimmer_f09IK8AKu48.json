@@ -1,0 +1,103 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "c67BrPuRKmg",
+  "datasheet_id": "f09IK8AKu48",
+  "datasheet_name": "Fateskimmer",
+  "characteristics": {
+    "M": "12\"",
+    "T": "7",
+    "SV": "6+",
+    "W": "9",
+    "LD": "7+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Arcane Fireball — focused witchfire",
+        "stats": {
+          "range": "18\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic",
+          "Hazardous",
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Screamer bites",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks",
+          "Anti-monster 4+",
+          "Anti-vehicle 4+"
+        ]
+      },
+      {
+        "name": "Herald combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Rider of the Immaterial Winds",
+      "rule": "Once per battle, at the end of your opponent’s turn, if this model’s unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+    },
+    {
+      "name": "Fateskimmer",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Fateskimmer**\n\n**This model is equipped with:** Arcane Fireball; Herald combat weapon; Screamer bites.\nModel Name Count Points\nFateskimmer\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Fateskimmer",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Legiones Daemonica",
+    "keywords": "Mounted, Character, Fly, Psyker, Chaos, Daemon, Tzeentch, Fateskimmer"
+  },
+  "url": "https://39k.pro/datasheet/f09IK8AKu48"
+}

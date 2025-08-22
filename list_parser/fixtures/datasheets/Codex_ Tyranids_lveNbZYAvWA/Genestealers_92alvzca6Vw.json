@@ -1,0 +1,69 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "92alvzca6Vw",
+  "datasheet_name": "Genestealers",
+  "characteristics": {
+    "M": "8\"",
+    "T": "4",
+    "SV": "5+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Genestealers claws and talons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "4",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scouts 8\"",
+      "rule": ""
+    },
+    {
+      "name": "Vanguard Predator",
+      "rule": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target is within range of one or more objective markers, re-roll a Wound roll of 1 as well."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **5-10 Genestealers**\n\n**Every model is equipped with:** Genestealer claws and talons.\nModel Name Count Points\nGenestealer\n6-10\n150\nGenestealer\n5\n75",
+  "unit_composition_table": [
+    {
+      "model": "Genestealer",
+      "count": "6-10",
+      "points": "150"
+    },
+    {
+      "model": "Genestealer",
+      "count": "5",
+      "points": "75"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Broodlord",
+      "id": "TvDWsBDC4iM"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Great Devourer, Vanguard Invader, Genestealers"
+  },
+  "url": "https://39k.pro/datasheet/92alvzca6Vw"
+}

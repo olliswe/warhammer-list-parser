@@ -1,0 +1,200 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "D3gAxojdYEM",
+  "datasheet_id": "pqKxMy0C12s",
+  "datasheet_name": "Defiler",
+  "characteristics": {
+    "M": "8\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "14",
+    "LD": "6+",
+    "OC": "5"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Defiler cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Combi-bolter",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Reaper autocannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Twin heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Sustained Hits 1"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Defiler claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "16",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Defiler scourge",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Scuttling Walker",
+      "rule": "Each time this model makes a Normal or Advance move, it can be moved over friendly **MONSTER** and **VEHICLE** models as if they were not there. This model can move over terrain features that are 4\" or less in height as if they were not there."
+    },
+    {
+      "name": "Daemonforge",
+      "rule": "Once per Fight phase, one unit from your army with this ability can be targeted with the Counter-offensive Stratagem for OCP, even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following: \n◦ 1 combi-bolter\n◦ 1 combi-weapon",
+    "■ This model’s reaper autocannon can be replaced with one of the following:\n◦ 1 twin heavy bolter\n◦ 1 twin lascannon",
+    "■ This model’s twin heavy flamer can be replaced with one of the following:\n◦ 1 Defiler scourge\n◦ 1 havoc launcher"
+  ],
+  "unit_composition": "■ **1 Defiler**\n\n**This model is equipped with:** Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws.\nModel Name Count Points\nDefiler\n1\n190",
+  "unit_composition_table": [
+    {
+      "model": "Defiler",
+      "count": "1",
+      "points": "190"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Heretic Astartes",
+    "keywords": "Vehicle, Walker, Smoke, Chaos, Daemon, Defiler"
+  },
+  "url": "https://39k.pro/datasheet/pqKxMy0C12s"
+}

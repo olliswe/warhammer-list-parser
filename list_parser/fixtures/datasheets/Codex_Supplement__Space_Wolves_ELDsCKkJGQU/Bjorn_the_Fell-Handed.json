@@ -1,0 +1,128 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "ELDsCKkJGQU",
+  "datasheet_name": "Bjorn the Fell-Handed",
+  "characteristics": {
+    "M": "9\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "8",
+    "LD": "6+",
+    "OC": "3"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Assault cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "🠶 Helfrost cannon — dispersed",
+        "stats": {
+          "range": "36\"",
+          "attacks": "1",
+          "ballistic_skill": "2+",
+          "strength": "10",
+          "armour_penetration": "-3",
+          "damage": "5"
+        },
+        "abilities": [
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Trueclaw",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "12",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Legendary Tenacity",
+      "rule": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Ancient Tactician",
+      "rule": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s assault cannon can be replaced with one of the following:\n◦ Helfrost cannon\n◦ Multi-melta"
+  ],
+  "unit_composition": "■ **1 Bjorn the Fell-Handed– EPIC HERO**\n\n**This model is equipped with:** assault cannon; heavy flamer; Trueclaw.\nModel Name Count Points\nBjorn the Fell-Handed\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Bjorn the Fell-Handed",
+      "count": "1",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Space Wolves",
+    "keywords": "Vehicle, Walker, Character, Epic Hero, Smoke, Imperium, Dreadnought, Bjorn the Fell-Handed"
+  },
+  "url": "https://39k.pro/datasheet/DGsuWf0wZu0"
+}

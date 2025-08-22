@@ -1,0 +1,89 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "dbTuQ02OctI",
+  "datasheet_name": "Lion El’Jonson",
+  "characteristics": {
+    "M": "8\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "10",
+    "LD": "5+",
+    "OC": "4"
+  },
+  "invulnerable_save": "Invulnerable save: 3+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Arma Luminis — bolt",
+        "stats": {
+          "range": "12\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Fealty — sweep",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "2+",
+          "strength": "12",
+          "armour_penetration": "-4",
+          "damage": "4"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Dark Angels Bodyguard",
+      "rule": "While this model is within 3\" of one or more friendly **ADEPTUS ASTARTES INFANTRY** units, this model has the Lone Operative ability."
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Primarch of the First Legion",
+      "rule": "In your Command phase, select one Primarch of the First Legion ability. Until the start of your next Command phase, this model has that ability."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "The Emperor’s Shield",
+      "rule": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than the Toughness characteristic of this model, subtract 1 from the Wound roll."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lion El’Jonson – EPIC HERO**\n\n**This model is equipped with:** Arma Luminis; Fealty.\nModel Name Count Points\nLion El’Jonson\n1\n315",
+  "unit_composition_table": [
+    {
+      "model": "Lion El’Jonson",
+      "count": "1",
+      "points": "315"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Dark Angels",
+    "keywords": "Monster, Character, Epic Hero, Imperium, Primarch, Lion El’Jonson"
+  },
+  "url": "https://39k.pro/datasheet/sS2kJfi5sGo"
+}

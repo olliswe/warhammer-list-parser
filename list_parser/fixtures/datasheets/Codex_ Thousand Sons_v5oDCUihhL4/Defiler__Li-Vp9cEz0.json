@@ -1,0 +1,190 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "v5oDCUihhL4",
+  "datasheet_id": "_Li-Vp9cEz0",
+  "datasheet_name": "Defiler",
+  "characteristics": {
+    "M": "8\"",
+    "T": "10",
+    "SV": "3+",
+    "W": "14",
+    "LD": "6+",
+    "OC": "5"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Inferno combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Reaper autocannon",
+        "stats": {
+          "range": "36\"",
+          "attacks": "4",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Twin inferno heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Twin-linked",
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Twin lascannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Havoc launcher",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6",
+          "ballistic_skill": "3+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "Twin heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Twin-linked"
+        ]
+      },
+      {
+        "name": "Defiler cannon",
+        "stats": {
+          "range": "48\"",
+          "attacks": "D6+3",
+          "ballistic_skill": "3+",
+          "strength": "10",
+          "armour_penetration": "-1",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Defiler scourge",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "12",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Extra Attacks"
+        ]
+      },
+      {
+        "name": "Defiler claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "16",
+          "armour_penetration": "-3",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Scuttling Walker",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move through friendly **MONSTER** and **VEHICLE** models and sections of terrain features that are 4\" or less in height."
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Destroyer of Futures",
+      "rule": "Each time you target this unit with the Fire Overwatch Stratagem, hits are scored on unmodified Hit rolls of 5+ when resolving that Stratagem. For each of those attacks that targets an enemy unit within 9\" of one or more **THOUSAND SONS PSYKER** units from your army, a hit is scored on an unmodified Hit roll of 4+ instead."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ This model’s reaper autocannon can be replaced with one of the following: \n◦ 1 twin lascannon\n◦ 1 twin inferno heavy bolter",
+    "■ This model’s twin heavy flamer can be replaced with one of the following: \n◦ 1 Defiler scourge\n◦ 1 havoc launcher",
+    "■ This model can be equipped with 1 inferno combi-weapon."
+  ],
+  "unit_composition": "■ **1 Defiler**\n\n**This model is equipped with:** Defiler cannon; reaper autocannon; twin heavy flamer; Defiler claws.\nModel Name Count Points\nDefiler\n1\n165",
+  "unit_composition_table": [
+    {
+      "model": "Defiler",
+      "count": "1",
+      "points": "165"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Thousand Sons",
+    "keywords": "Vehicle, Walker, Daemon, Smoke, Chaos, Tzeentch, Defiler"
+  },
+  "url": "https://39k.pro/datasheet/_Li-Vp9cEz0"
+}

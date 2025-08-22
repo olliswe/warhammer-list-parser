@@ -1,0 +1,147 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "m2WrzYul_VM",
+  "datasheet_id": "NTTLItmydoA",
+  "datasheet_name": "Breacher Team",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "4+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Pulse pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Pulse blaster",
+        "stats": {
+          "range": "10\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      },
+      {
+        "name": "Support turret",
+        "stats": {
+          "range": "30\"",
+          "attacks": "2",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Indirect Fire",
+          "Twin-linked"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "5+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "DS8 Support Turret",
+      "rule": "In your Movement phase, if this unit Remains Stationary, until the start of your next turn, its Shas’ui model is equipped with the support turret weapon.\n\n***Designer’s Note**: Place a Support Turret token next to this unit to remind you.*"
+    },
+    {
+      "name": "Breach and Clear",
+      "rule": "Each time a model in this unit makes a ranged attack that targets an enemy unit within range of an objective marker, you can re-roll the Wound roll."
+    },
+    {
+      "name": "Gun Drone",
+      "rule": "The bearer is equipped with the following ranged weapon:"
+    },
+    {
+      "name": "Shield Drone",
+      "rule": "Add 1 to the bearer’s Wounds characteristic."
+    },
+    {
+      "name": "Guardian Drone",
+      "rule": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Marker Drone",
+      "rule": "The bearer’s unit has the **MARKERLIGHT** keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Gun Drone",
+      "rule": "The bearer is equipped with the following ranged weapon:"
+    },
+    {
+      "name": "Shield Drone",
+      "rule": "Add 1 to the bearer’s Wounds characteristic."
+    },
+    {
+      "name": "Guardian Drone",
+      "rule": "Each time a model makes a ranged attack that targets the bearer’s unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Marker Drone",
+      "rule": "The bearer’s unit has the **MARKERLIGHT** keyword and can act as an Observer unit for another unit even if it Advanced this turn."
+    }
+  ],
+  "wargear_options": [
+    "■ The Breacher Fire Warrior Shas’ui can be equipped with up to two of the following, and can take duplicates:\n◦ 1 guardian drone (it cannot take duplicates of this piece of wargear)\n◦ 1 gun drone\n◦ 1 marker drone\n◦ 1 shield drone"
+  ],
+  "unit_composition": "■ **1 Breacher Fire Warrior Shas’ui**\n■ **9 Breacher Fire Warriors**\n\n**Every model is equipped with:** pulse blaster; pulse pistol; close combat weapon.\nModel Name Count Points\nBreacher Fire Warrior Shas’ui\nBreacher Fire Warrior\n1\n9\n100",
+  "unit_composition_table": [
+    {
+      "model": "Breacher Fire Warrior Shas’ui\nBreacher Fire Warrior",
+      "count": "1\n9",
+      "points": "100"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Cadre Fireblade",
+      "id": "j_XclhLQqnc"
+    },
+    {
+      "name": "Ethereal",
+      "id": "ld7Zu2YlLPo"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: T’au Empire",
+    "keywords": "Infantry, Battleline, Grenades, Markerlight, Fire Warrior, Breacher Team"
+  },
+  "url": "https://39k.pro/datasheet/NTTLItmydoA"
+}

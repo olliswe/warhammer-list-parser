@@ -1,0 +1,196 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "Avjg21VrELY",
+  "datasheet_id": "QmfCtKGv1y0",
+  "datasheet_name": "Sword Brethren Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "3",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Pyre pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Heavy bolt pistol",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Astartes chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Sustained Hits 1"
+        ]
+      },
+      {
+        "name": "Master-crafted power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      },
+      {
+        "name": "Thunder hammer",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Twin lightning claws",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Twin-linked"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Exploit Their Cowardice",
+      "rule": "Each time an enemy unit within Engagement Range of this unit is selected to Fall Back, after it ends that Fall Back move, if this unit is not within Engagement Range of one or more enemy units, this unit can make a Normal move."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 Sword Brother’s heavy bolt pistol can be replaced with 1 plasma pistol.",
+    "■ For every 5 models in this unit, up to 2 Sword Brothers can each have their heavy bolt pistol replaced with 1 pyre pistol.",
+    "■ Any number of Sword Brothers can each have their Astartes chainsword replaced with 1 master-crafted power weapon.",
+    "■ For every 5 models in this unit, 1 Sword Brother’s Astartes chainsword can be replaced with 1 thunder hammer.",
+    "■ For every 5 models in this unit, 1 Sword Brother’s heavy bolt pistol and Astartes chainsword can be replaced with 1 twin lightning claws."
+  ],
+  "unit_composition": "■ **4-10 Sword Brothers**\n\n**Every model is equipped with:** heavy bolt pistol; Astartes chainsword.\nModel Name Count Points\nSword Brother\n5\n130\nSword Brother\n6-9\n235\nSword Brother\n10\n260\nSword Brother\n4\n105",
+  "unit_composition_table": [
+    {
+      "model": "Sword Brother",
+      "count": "5",
+      "points": "130"
+    },
+    {
+      "model": "Sword Brother",
+      "count": "6-9",
+      "points": "235"
+    },
+    {
+      "model": "Sword Brother",
+      "count": "10",
+      "points": "260"
+    },
+    {
+      "model": "Sword Brother",
+      "count": "4",
+      "points": "105"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "High Marshal Helbrecht",
+      "id": "ODnGW9WnQZw"
+    },
+    {
+      "name": "Castellan",
+      "id": "Ac0tSpUH_ZI"
+    },
+    {
+      "name": "Emperor’s Champion",
+      "id": "67DGvqyUom0"
+    },
+    {
+      "name": "Execrator",
+      "id": "ip3ESVO4EG4"
+    },
+    {
+      "name": "Marshal",
+      "id": "4V1ClUV33Us"
+    },
+    {
+      "name": "Chaplain Grimaldus",
+      "id": "CaZ2QLCULGw"
+    },
+    {
+      "name": "Crusade Ancient",
+      "id": "d6v2FKC0iCE"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Black Templars",
+    "keywords": "Infantry, Grenades, Imperium, Tacticus, Sword Brethren Squad"
+  },
+  "url": "https://39k.pro/datasheet/QmfCtKGv1y0"
+}

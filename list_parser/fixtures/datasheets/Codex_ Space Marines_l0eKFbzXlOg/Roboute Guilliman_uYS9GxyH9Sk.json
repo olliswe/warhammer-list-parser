@@ -1,0 +1,94 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "l0eKFbzXlOg",
+  "datasheet_id": "uYS9GxyH9Sk",
+  "datasheet_name": "Roboute Guilliman",
+  "characteristics": {
+    "M": "8\"",
+    "T": "9",
+    "SV": "2+",
+    "W": "10",
+    "LD": "5+",
+    "OC": "4"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Hand of Dominion",
+        "stats": {
+          "range": "30\"",
+          "attacks": "2",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": [
+          "Rapid Fire 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Emperor’s Sword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "14",
+          "weapon_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Hand of Dominion",
+        "stats": {
+          "range": "Melee",
+          "attacks": "7",
+          "weapon_skill": "2+",
+          "strength": "14",
+          "armour_penetration": "-4",
+          "damage": "4"
+        },
+        "abilities": [
+          "Lethal Hits"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Author of the Codex",
+      "rule": "At the Start of your Command phase, select two Author of the Codex abilities. Until the start of your next Command phase, this model has those abilities."
+    },
+    {
+      "name": "Armour of Fate",
+      "rule": "The first time this model is destroyed, roll one D6 at the end of the phase: on a 3+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 6 wounds remaining."
+    },
+    {
+      "name": "Ultramarines Bodyguard",
+      "rule": "While this model is within 3\" of one or more friendly **ADEPTUS ASTARTES INFANTRY** units, this model has the Lone Operative ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Roboute Guilliman – EPIC HERO**\n\n**This model is equipped with:** Hand of Dominion; Emperor’s Sword.\nModel Name Count Points\nRoboute Guilliman\n1\n320",
+  "unit_composition_table": [
+    {
+      "model": "Roboute Guilliman",
+      "count": "1",
+      "points": "320"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Adeptus Astartes, Ultramarines",
+    "keywords": "Monster, Character, Epic Hero, Imperium, Primarch, Roboute Guilliman"
+  },
+  "url": "https://39k.pro/datasheet/uYS9GxyH9Sk"
+}

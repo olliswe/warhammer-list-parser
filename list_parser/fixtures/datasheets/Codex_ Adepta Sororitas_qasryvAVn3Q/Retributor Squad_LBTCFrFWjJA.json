@@ -1,0 +1,274 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "qasryvAVn3Q",
+  "datasheet_id": "LBTCFrFWjJA",
+  "datasheet_name": "Retributor Squad",
+  "characteristics": {
+    "M": "6\"",
+    "T": "3",
+    "SV": "3+",
+    "W": "1",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 6+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Condemnor boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-psyker 2+",
+          "Devastating Wounds",
+          "Rapid Fire 1",
+          "Precision"
+        ]
+      },
+      {
+        "name": "Combi-weapon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Rapid Fire 1",
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Ministorum hand flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Inferno pistol",
+        "stats": {
+          "range": "6\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-4",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Melta 2",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "🠶 Plasma pistol — standard",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Pistol",
+          "Hazardous",
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Rapid Fire 1"
+        ]
+      },
+      {
+        "name": "Ministorum heavy flamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent",
+          "Ignores Cover"
+        ]
+      },
+      {
+        "name": "Multi-melta",
+        "stats": {
+          "range": "18\"",
+          "attacks": "2",
+          "ballistic_skill": "4+",
+          "strength": "9",
+          "armour_penetration": "-4",
+          "damage": "D6"
+        },
+        "abilities": [
+          "Heavy",
+          "Melta 2"
+        ]
+      },
+      {
+        "name": "Heavy bolter",
+        "stats": {
+          "range": "36\"",
+          "attacks": "3",
+          "ballistic_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": [
+          "Sustained Hits 1",
+          "Heavy"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "1",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Power weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "4+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Chainsword",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Storm of Retribution",
+      "rule": "Each time a model in this unit makes a ranged attack, re‐roll a Hit roll of 1 and re‐roll a Wound roll of 1. If such an attack targets an enemy unit that has destroyed one or more **ADEPTA SORORITAS** units from your army during the battle, add 1 to the Hit roll and add 1 to the Wound roll instead."
+    },
+    {
+      "name": "Cherubs",
+      "rule": "Twice per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.\n\n***Designer’s Note:** Place two Cherub tokens next to the unit, removing one each time this ability has been used.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ The Retributor Superior’s boltgun can be replaced with one of the following:\n◦ 1 bolt pistol\n◦ 1 combi-weapon\n◦ 1 condemnor boltgun\n◦ 1 inferno pistol\n◦ 1 Ministorum hand flamer\n◦ 1 plasma pistol",
+    "■ Each Retributor’s heavy bolter can be replaced with one of the following:\n◦ 1 Ministorum heavy flamer\n◦ 1 multi-melta",
+    "■ The Retributor Superior can be equipped with one of the following:\n◦ 1 chainsword\n◦ 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Retributor Superior**\n■ **4 Retributors**\n\n**The Retributor Superior is equipped with:** bolt pistol; boltgun; close combat weapon.\n**Each Retributor is equipped with:** bolt pistol; heavy bolter; close combat weapon.\nModel Name Count Points\nRetributor Superior\nRetributor\n1\n4\n115",
+  "unit_composition_table": [
+    {
+      "model": "Retributor Superior\nRetributor",
+      "count": "1\n4",
+      "points": "115"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Dialogus",
+      "id": "aNpIUhKhCh4"
+    },
+    {
+      "name": "Dogmata",
+      "id": "e2DMgV7-iiI"
+    },
+    {
+      "name": "Junith Eruita",
+      "id": "leM6eUHe7yw"
+    },
+    {
+      "name": "Imagifier",
+      "id": "cNifFaoepiE"
+    },
+    {
+      "name": "Aestred Thurga and Agathae Dolan",
+      "id": "1QMvQdMVwpQ"
+    },
+    {
+      "name": "Palatine",
+      "id": "o1Hls2-4H6Y"
+    },
+    {
+      "name": "Canoness",
+      "id": "r1wR-BHRZbU"
+    },
+    {
+      "name": "Hospitaller",
+      "id": "P_bLFfLo-Ec"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Adepta Sororitas",
+    "keywords": "Infantry, Grenades, Imperium, Retributor Squad"
+  },
+  "url": "https://39k.pro/datasheet/LBTCFrFWjJA"
+}

@@ -1,0 +1,197 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "v5oDCUihhL4",
+  "datasheet_id": "_GNr55II2DQ",
+  "datasheet_name": "Rubric Marines",
+  "characteristics": {
+    "M": "6\"",
+    "T": "4",
+    "SV": "3+",
+    "W": "2",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Inferno bolt pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol"
+        ]
+      },
+      {
+        "name": "Warpflame pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "3",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Pistol",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Inferno boltgun",
+        "stats": {
+          "range": "24\"",
+          "attacks": "2",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": []
+      },
+      {
+        "name": "Soulreaper cannon",
+        "stats": {
+          "range": "24\"",
+          "attacks": "6",
+          "ballistic_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Devastating Wounds"
+        ]
+      },
+      {
+        "name": "Warpflamer",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Ignores Cover",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Malefic Curse",
+        "stats": {
+          "range": "24\"",
+          "attacks": "3",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-3",
+          "damage": "1"
+        },
+        "abilities": [
+          "Anti-infantry 4+",
+          "Devastating Wounds",
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Force weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "3+",
+          "strength": "6",
+          "armour_penetration": "-1",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Bringers of Change",
+      "rule": "Each time a model in this unit makes a ranged attack, re‑roll a Wound roll of 1. If that attack targets a unit within range of an objective marker you do not control, you can re‑roll the Wound roll instead."
+    },
+    {
+      "name": "Icon of Flame",
+      "rule": "Ranged weapons equipped by models in the bearer’s unit (excluding **CHARACTERS**) have the **[IGNORES COVER]** ability."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Icon of Flame",
+      "rule": "Ranged weapons equipped by models in the bearer’s unit (excluding **CHARACTERS**) have the **[IGNORES COVER]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Rubric Marine can be equipped with 1 icon of flame.",
+    "■ Any number of Rubric Marines can each have their inferno boltgun replaced with 1 warpflamer.",
+    "■ 1 Rubric Marine’s inferno boltgun can be replaced with 1 soulreaper cannon.",
+    "■ The Aspiring Sorcerer’s inferno bolt pistol can be replaced with 1 warpflame pistol."
+  ],
+  "unit_composition": "■ **1 Aspiring Sorcerer**\n■ **4-9 Rubric Marines**\n\n**The Aspiring Sorcerer is equipped with:** inferno bolt pistol; Malefic Curse; force weapon.\n**Every Rubric Marine is equipped with:** inferno boltgun; close combat weapon.\nModel Name Count Points\nAspiring Sorcerer\nRubric Marine\n1\n5-9\n190\nAspiring Sorcerer\nRubric Marine\n1\n4\n100",
+  "unit_composition_table": [
+    {
+      "model": "Aspiring Sorcerer\nRubric Marine",
+      "count": "1\n5-9",
+      "points": "190"
+    },
+    {
+      "model": "Aspiring Sorcerer\nRubric Marine",
+      "count": "1\n4",
+      "points": "100"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Exalted Sorcerer",
+      "id": "BoC5Z-eXHyo"
+    },
+    {
+      "name": "Infernal Master",
+      "id": "HUao4SSGSGU"
+    },
+    {
+      "name": "Sorcerer",
+      "id": "ZgeIw6OTqc0"
+    },
+    {
+      "name": "Exalted Sorcerer on Disc of Tzeentch",
+      "id": "1MJYXPq87xE"
+    },
+    {
+      "name": "Ahriman",
+      "id": "MZaNkTSoDik"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Thousand Sons",
+    "keywords": "Infantry, Battleline, Chaos, Tzeentch, Rubricae, Rubric Marines, Psyker"
+  },
+  "url": "https://39k.pro/datasheet/_GNr55II2DQ"
+}

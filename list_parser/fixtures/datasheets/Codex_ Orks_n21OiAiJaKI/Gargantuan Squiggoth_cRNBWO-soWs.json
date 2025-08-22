@@ -1,0 +1,100 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "n21OiAiJaKI",
+  "datasheet_id": "cRNBWO-soWs",
+  "datasheet_name": "Gargantuan Squiggoth",
+  "characteristics": {
+    "M": "10\"",
+    "T": "13",
+    "SV": "3+",
+    "W": "30",
+    "LD": "7+",
+    "OC": "12"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Supa-kannon",
+        "stats": {
+          "range": "60\"",
+          "attacks": "2D6",
+          "ballistic_skill": "5+",
+          "strength": "12",
+          "armour_penetration": "-2",
+          "damage": "3"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      },
+      {
+        "name": "🠶 Kannon — shell",
+        "stats": {
+          "range": "36\"",
+          "attacks": "D6",
+          "ballistic_skill": "5+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": [
+          "Blast"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "🠶 Huge tusks — sweep",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "3+",
+          "strength": "14",
+          "armour_penetration": "-3",
+          "damage": "12"
+        },
+        "abilities": [
+          "Lance"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Deadly Demise 2D6",
+      "rule": ""
+    },
+    {
+      "name": "Firing Deck 20",
+      "rule": ""
+    },
+    {
+      "name": "Walking Bastion",
+      "rule": "This model does not suffer the penalty to its Hit rolls for making ranged attacks while enemy units are within Engagement Range of it."
+    },
+    {
+      "name": "Gargantuan",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **TITANIC** models) and terrain features that are 4\" or less in height as if they were not there."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "This model can be equipped with one of the following:\n◦ 1 kannon\n◦ 1 supa-kannon"
+  ],
+  "unit_composition": "■ **1 Gargantuan Squiggoth**\n\n**This model is equipped with:** huge tusks.\nModel Name Count Points\nGargantuan Squiggoth\n1\n440",
+  "unit_composition_table": [
+    {
+      "model": "Gargantuan Squiggoth",
+      "count": "1",
+      "points": "440"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Orks",
+    "keywords": "Monster, Titanic, Towering, Transport, Gargantuan Squiggoth"
+  },
+  "url": "https://39k.pro/datasheet/cRNBWO-soWs"
+}

@@ -1,0 +1,75 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "BEsB_R02Od8",
+  "datasheet_id": "cqI_a1IgmzA",
+  "datasheet_name": "Ophydian Destroyers",
+  "characteristics": {
+    "M": "10\"",
+    "T": "5",
+    "SV": "4+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "2"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Ophydian hyperphase weapons",
+        "stats": {
+          "range": "Melee",
+          "attacks": "5",
+          "weapon_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-2",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Tunnelling Horrors",
+      "rule": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove this unit from the battlefield. In the Reinforcements step of your next Movement phase, set it up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Plasmacyte",
+      "rule": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the **[DEVASTATING WOUNDS]** ability.\n\n**Designer’s Note:** *Place the relevant number of Plasmacyte tokens next to the unit, removing one each time this unit uses this ability.*"
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [
+    {
+      "name": "Plasmacyte",
+      "rule": "Once per battle for each Plasmacyte this unit has, when this unit is selected to fight, you can use this ability. If you do, until the end of the phase, melee weapons equipped by models in this unit have the **[DEVASTATING WOUNDS]** ability.\n\n**Designer’s Note:** *Place the relevant number of Plasmacyte tokens next to the unit, removing one each time this unit uses this ability.*"
+    }
+  ],
+  "wargear_options": [
+    "■ For every 3 models in this unit, this unit can have 1 Plasmacyte."
+  ],
+  "unit_composition": "■ **3-6 Ophydian Destroyers**\n\n**Every model is equipped with:** Ophydian hyperphase weapons.\nModel Name Count Points\nOphydian Destroyer\n4-6\n160\nOphydian Destroyer\n3\n80",
+  "unit_composition_table": [
+    {
+      "model": "Ophydian Destroyer",
+      "count": "4-6",
+      "points": "160"
+    },
+    {
+      "model": "Ophydian Destroyer",
+      "count": "3",
+      "points": "80"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Necrons",
+    "keywords": "Infantry, Destroyer Cult, Ophydian Destroyers"
+  },
+  "url": "https://39k.pro/datasheet/cqI_a1IgmzA"
+}

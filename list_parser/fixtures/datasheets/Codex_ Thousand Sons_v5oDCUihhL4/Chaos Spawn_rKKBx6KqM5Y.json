@@ -1,0 +1,59 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "v5oDCUihhL4",
+  "datasheet_id": "rKKBx6KqM5Y",
+  "datasheet_name": "Chaos Spawn",
+  "characteristics": {
+    "M": "8\"",
+    "T": "5",
+    "SV": "4+",
+    "W": "4",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 5+",
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      {
+        "name": "Hideous mutations",
+        "stats": {
+          "range": "Melee",
+          "attacks": "D6+2",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "2"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Regenerating Monstrosities",
+      "rule": "At the start of each player’s Command phase, one model in this unit regains up to 3 lost wounds."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **2 Chaos Spawn**\n\n**Every model is equipped with:** hideous mutations.\nModel Name Count Points\nChaos Spawn\n2\n65",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Spawn",
+      "count": "2",
+      "points": "65"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Thousand Sons",
+    "keywords": "Beast, Chaos, Tzeentch, Mutant, Chaos Spawn"
+  },
+  "url": "https://39k.pro/datasheet/rKKBx6KqM5Y"
+}

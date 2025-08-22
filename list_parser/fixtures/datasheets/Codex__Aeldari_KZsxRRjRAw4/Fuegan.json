@@ -1,0 +1,81 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Fuegan",
+  "characteristics": {
+    "M": "7\"",
+    "T": "3",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Searsong — lance",
+        "stats": {
+          "range": "12\"",
+          "attacks": "3",
+          "ballistic_skill": "2+",
+          "strength": "8",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Assault",
+          "Melta 6",
+          "Assault",
+          "Melta 1",
+          "Sustained Hits 2"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Fire Axe",
+        "stats": {
+          "range": "Melee",
+          "attacks": "6",
+          "weapon_skill": "2+",
+          "strength": "5",
+          "armour_penetration": "-4",
+          "damage": "3"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Burning Lance",
+      "rule": "While this model is leading a unit, add 6\" to the Range characteristic of Melta weapons equipped by models in that unit."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Unquenchable Resolve",
+      "rule": "The first time this model is destroyed, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Fuegan – EPIC HERO**\n\n**This model is equipped with:** Searsong; Fire Axe.\nModel Name Count Points\nFuegan\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Fuegan",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Character, Epic Hero, Aeldari, Grenades, Aspect Warrior, Phoenix Lord, Fuegan"
+  },
+  "url": "https://39k.pro/datasheet/8vfYG5eM_d0"
+}

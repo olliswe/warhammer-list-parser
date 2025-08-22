@@ -1,0 +1,84 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "L7MXjK7y_Js",
+  "datasheet_name": "Jain Zar",
+  "characteristics": {
+    "M": "8\"",
+    "T": "3",
+    "SV": "2+",
+    "W": "5",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Silent Death",
+        "stats": {
+          "range": "12\"",
+          "attacks": "6",
+          "ballistic_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-2",
+          "damage": "1"
+        },
+        "abilities": [
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Blade of Destruction",
+        "stats": {
+          "range": "Melee",
+          "attacks": "8",
+          "weapon_skill": "2+",
+          "strength": "6",
+          "armour_penetration": "-3",
+          "damage": "2"
+        },
+        "abilities": [
+          "Anti-infantry 3+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Storm of Silence",
+      "rule": "Each time this model makes an attack that targets a **CHARACTER** unit, you can re‐roll the Wound roll."
+    },
+    {
+      "name": "Whirling Death",
+      "rule": "While this model is leading a unit, each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit and each time a model in that unit makes an Advance move, ignore any vertical distance when determining the total distance that model can be moved during that move."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Jain Zar – EPIC HERO**\n\n**This model is equipped with:** Silent Death; Blade of Destruction.\nModel Name Count Points\nJain Zar\n1\n105",
+  "unit_composition_table": [
+    {
+      "model": "Jain Zar",
+      "count": "1",
+      "points": "105"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Character, Epic Hero, Aeldari, Aspect Warrior, Phoenix Lord, Jain Zar"
+  },
+  "url": "https://39k.pro/datasheet/L7MXjK7y_Js"
+}

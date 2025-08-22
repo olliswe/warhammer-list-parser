@@ -1,0 +1,87 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_name": "Wraithguard",
+  "characteristics": {
+    "M": "6\"",
+    "T": "6",
+    "SV": "2+",
+    "W": "3",
+    "LD": "8+",
+    "OC": "1"
+  },
+  "invulnerable_save": null,
+  "weapons": {
+    "ranged": [
+      {
+        "name": "D-scythe",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "7",
+          "armour_penetration": "-3",
+          "damage": "1"
+        },
+        "abilities": [
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Wraithcannon",
+        "stats": {
+          "range": "18\"",
+          "attacks": "1",
+          "ballistic_skill": "4+",
+          "strength": "14",
+          "armour_penetration": "-4",
+          "damage": "D6+1"
+        },
+        "abilities": []
+      }
+    ],
+    "melee": [
+      {
+        "name": "Close combat weapon",
+        "stats": {
+          "range": "Melee",
+          "attacks": "3",
+          "weapon_skill": "4+",
+          "strength": "5",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Psychic Guidance",
+      "rule": "While this unit is within 12\" of one or more friendly **AELDARI PSYKER** models, models in this unit have a Leadership characteristic of 6+ and each time a model in this unit makes an attack, add 1 to the Hit roll."
+    },
+    {
+      "name": "War Construct",
+      "rule": "This unit is eligible to shoot in a turn in which it Fell Back."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ All of the models in this unit can each have their wraithcannon replaced with 1 D-scythe."
+  ],
+  "unit_composition": "■ **5 Wraithguard**\n\n**Every model is equipped with:** wraithcannon; close combat weapon.\nModel Name Count Points\nWraithguard\n5\n170",
+  "unit_composition_table": [
+    {
+      "model": "Wraithguard",
+      "count": "5",
+      "points": "170"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Aeldari, Wraith Construct, Wraithguard"
+  },
+  "url": "https://39k.pro/datasheet/dnNtuuXfFXs"
+}

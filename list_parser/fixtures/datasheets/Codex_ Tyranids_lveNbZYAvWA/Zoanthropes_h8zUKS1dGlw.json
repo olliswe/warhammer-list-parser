@@ -1,0 +1,87 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "lveNbZYAvWA",
+  "datasheet_id": "h8zUKS1dGlw",
+  "datasheet_name": "Zoanthropes",
+  "characteristics": {
+    "M": "5\"",
+    "T": "5",
+    "SV": "5+",
+    "W": "3",
+    "LD": "7+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "🠶 Warp Blast — focused witchfire",
+        "stats": {
+          "range": "24\"",
+          "attacks": "D3",
+          "ballistic_skill": "3+",
+          "strength": "7",
+          "armour_penetration": "-2",
+          "damage": "D3"
+        },
+        "abilities": [
+          "Psychic",
+          "Lethal Hits",
+          "Blast",
+          "Psychic"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Chitinous claws and teeth",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "5+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "1"
+        },
+        "abilities": []
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Warp Field",
+      "rule": "While a friendly **TYRANIDS** unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save."
+    },
+    {
+      "name": "Spirit Leech",
+      "rule": "While an enemy unit is within 6\" of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds."
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Neurothrope**\n■ **2-5 Zoanthropes**\n\n**Every model is equipped with:** Warp Blast; chitinous claws and teeth\nModel Name Count Points\nNeurothrope\nZoanthrope\n1\n2\n100\nZoanthrope\nNeurothrope\n3-5\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Neurothrope\nZoanthrope",
+      "count": "1\n2",
+      "points": "100"
+    },
+    {
+      "model": "Zoanthrope\nNeurothrope",
+      "count": "3-5\n1",
+      "points": "200"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Neurotyrant",
+      "id": "z93ACu2cqSo"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Tyranids",
+    "keywords": "Infantry, Psyker, Fly, Great Devourer, Synapse, Zoanthropes"
+  },
+  "url": "https://39k.pro/datasheet/h8zUKS1dGlw"
+}

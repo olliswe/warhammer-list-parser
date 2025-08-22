@@ -1,0 +1,142 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "KZsxRRjRAw4",
+  "datasheet_id": "98VyP0VMLJE",
+  "datasheet_name": "Warlock Conclave",
+  "characteristics": {
+    "M": "7\"",
+    "T": "3",
+    "SV": "6+",
+    "W": "2",
+    "LD": "6+",
+    "OC": "1"
+  },
+  "invulnerable_save": "Invulnerable save: 4+",
+  "weapons": {
+    "ranged": [
+      {
+        "name": "Singing Spear",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "9",
+          "armour_penetration": "0",
+          "damage": "3"
+        },
+        "abilities": [
+          "Psychic",
+          "Assault"
+        ]
+      },
+      {
+        "name": "Destructor",
+        "stats": {
+          "range": "12\"",
+          "attacks": "D6",
+          "ballistic_skill": "N/A",
+          "strength": "5",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Psychic",
+          "Torrent"
+        ]
+      },
+      {
+        "name": "Shuriken pistol",
+        "stats": {
+          "range": "12\"",
+          "attacks": "1",
+          "ballistic_skill": "3+",
+          "strength": "4",
+          "armour_penetration": "-1",
+          "damage": "1"
+        },
+        "abilities": [
+          "Pistol",
+          "Assault"
+        ]
+      }
+    ],
+    "melee": [
+      {
+        "name": "Singing Spear",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "3"
+        },
+        "abilities": [
+          "Psychic"
+        ]
+      },
+      {
+        "name": "Witchblade",
+        "stats": {
+          "range": "Melee",
+          "attacks": "2",
+          "weapon_skill": "3+",
+          "strength": "3",
+          "armour_penetration": "0",
+          "damage": "2"
+        },
+        "abilities": [
+          "Psychic",
+          "Anti-infantry 2+"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "name": "Protect",
+      "rule": "While a **FARSEER** model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Psychic Communion",
+      "rule": "Each time this unit is selected to shoot, for each **WARLOCK** model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model’s Destructor weapon for each other friendly **AELDARI PSYKER** model within 6\" of that model (to a maximum of +2)."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "leader_ability": null,
+  "wargear_abilities": [],
+  "wargear_options": [
+    "■ Any number of models can each have their witchblade replaced with 1 singing spear."
+  ],
+  "unit_composition": "■ **2-4 Warlocks**\n\n**Every model is equipped with:** Destructor; shuriken pistol; witchblade.\nModel Name Count Points\nWarlock\n2\n55\nWarlock\n3-4\n130",
+  "unit_composition_table": [
+    {
+      "model": "Warlock",
+      "count": "2",
+      "points": "55"
+    },
+    {
+      "model": "Warlock",
+      "count": "3-4",
+      "points": "130"
+    }
+  ],
+  "led_by": [
+    {
+      "name": "Farseer",
+      "id": "LUlDnzDQlmw"
+    },
+    {
+      "name": "Eldrad Ulthran",
+      "id": "-yLwsuVhGOU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": "Faction: Asuryani",
+    "keywords": "Infantry, Aeldari, Psyker, Warlocks, Warlock Conclave"
+  },
+  "url": "https://39k.pro/datasheet/98VyP0VMLJE"
+}
