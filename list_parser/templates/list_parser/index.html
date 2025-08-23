@@ -570,11 +570,15 @@
                                     <th>S</th>
                                     <th>AP</th>
                                     <th>D</th>
+                                    <th>Abilities</th>
                                 </tr>
                             </thead>
                             <tbody>
                     `;
                     datasheet.weapons.ranged.forEach(weapon => {
+                        const abilities = weapon.abilities && weapon.abilities.length > 0 
+                            ? weapon.abilities.join(', ') 
+                            : '—';
                         html += `
                             <tr>
                                 <td>${weapon.name}</td>
@@ -584,6 +588,7 @@
                                 <td>${weapon.stats.strength}</td>
                                 <td>${weapon.stats.armour_penetration}</td>
                                 <td>${weapon.stats.damage}</td>
+                                <td style="font-size: 10px;">${abilities}</td>
                             </tr>
                         `;
                     });
@@ -606,11 +611,15 @@
                                     <th>S</th>
                                     <th>AP</th>
                                     <th>D</th>
+                                    <th>Abilities</th>
                                 </tr>
                             </thead>
                             <tbody>
                     `;
                     datasheet.weapons.melee.forEach(weapon => {
+                        const abilities = weapon.abilities && weapon.abilities.length > 0 
+                            ? weapon.abilities.join(', ') 
+                            : '—';
                         html += `
                             <tr>
                                 <td>${weapon.name}</td>
@@ -620,6 +629,7 @@
                                 <td>${weapon.stats.strength}</td>
                                 <td>${weapon.stats.armour_penetration}</td>
                                 <td>${weapon.stats.damage}</td>
+                                <td style="font-size: 10px;">${abilities}</td>
                             </tr>
                         `;
                     });
