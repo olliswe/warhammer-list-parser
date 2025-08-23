@@ -1,0 +1,1 @@
+web: gunicorn warhammer_list_parser.wsgi --log-file -
