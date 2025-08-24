@@ -25,6 +25,7 @@
         }
         .form-group {
             margin-bottom: 20px;
+
         }
         label {
             display: block;
@@ -319,6 +320,133 @@
             padding-bottom: 15px;
             border-bottom: 1px solid #e9ecef;
         }
+
+        /* Mobile Modal Styles */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .modal-header h3 {
+            margin: 0;
+            color: #333;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: #666;
+            cursor: pointer;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            border-radius: 4px;
+        }
+
+        .modal-close:hover {
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .modal-close-icon {
+            font-size: 28px;
+        }
+
+        .modal-close-text {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            body {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            #armyListForm{
+                padding: 0 35px 0 15px;
+            }
+            
+            .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            
+            .results-layout {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .details-panel {
+                display: none;
+            }
+
+            .modal-content {
+                position: fixed;
+                top: 0;
+                left: 0;
+                transform: none;
+                width: 100%;
+                height: 100%;
+                max-width: none;
+                max-height: none;
+                border-radius: 0;
+            }
+
+            .modal-body {
+                height: calc(100vh - 80px);
+                overflow-y: auto;
+            }
+            
+            .modal-close {
+                padding: 12px 16px;
+            }
+            
+            .modal-close-icon {
+                font-size: 32px;
+            }
+            
+            .modal-close-text {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -372,7 +500,66 @@
         </div>
     </div>
 
+    <!-- Mobile Details Modal -->
+    <div id="mobileModal" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Details</h3>
+                <button class="modal-close" onclick="closeMobileModal()">
+                    <span class="modal-close-icon">&times;</span>
+                    <span class="modal-close-text">Close</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-details-content">
+                    <div class="details-empty">
+                        Loading details...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
+        // Mobile modal functions
+        function isMobile() {
+            return window.innerWidth <= 768;
+        }
+
+        function openMobileModal(entity) {
+            if (!isMobile()) return;
+            
+            const modal = document.getElementById('mobileModal');
+            const modalContent = document.getElementById('modal-details-content');
+            
+            // Show modal
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+            
+            // Copy content from desktop details panel or show entity details
+            showDetailsInContainer(entity, modalContent);
+        }
+
+        function closeMobileModal() {
+            const modal = document.getElementById('mobileModal');
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Restore scrolling
+        }
+
+        // Close modal when clicking outside of content
+        document.getElementById('mobileModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeMobileModal();
+            }
+        });
+
+        // Close modal on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeMobileModal();
+            }
+        });
+
         document.getElementById('armyListForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
@@ -419,61 +606,54 @@
             }
         });
         
-        async function showDetails(entity) {
-            const detailsContent = document.getElementById('details-content');
-            
-            // Clear previous selection
-            document.querySelectorAll('.entry-item').forEach(item => {
-                item.classList.remove('selected');
-            });
-            
+        async function showDetailsInContainer(entity, container) {
             if (entity.type === 'datasheet' && entity.datasheet_id) {
                 // Fetch datasheet details from our API
-                detailsContent.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading datasheet details...</div>';
+                container.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading datasheet details...</div>';
                 
                 try {
                     const response = await fetch(`/api/datasheet/${entity.datasheet_id}/`);
                     const datasheetData = await response.json();
                     
                     if (response.ok) {
-                        displayDatasheetDetails(datasheetData);
+                        displayDatasheetDetailsInContainer(datasheetData, container);
                     } else {
-                        detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet: ${datasheetData.error}</div>`;
+                        container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet: ${datasheetData.error}</div>`;
                     }
                 } catch (error) {
-                    detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet details</div>`;
+                    container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet details</div>`;
                 }
             } else if (entity.type === 'faction' && entity.faction_id) {
                 // Fetch faction details from our API
-                detailsContent.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading faction details...</div>';
+                container.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading faction details...</div>';
                 
                 try {
                     const response = await fetch(`/api/faction/${entity.faction_id}/`);
                     const factionData = await response.json();
                     
                     if (response.ok) {
-                        displayFactionDetails(factionData, entity.url);
+                        displayFactionDetailsInContainer(factionData, entity.url, container);
                     } else {
-                        detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading faction: ${factionData.error}</div>`;
+                        container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading faction: ${factionData.error}</div>`;
                     }
                 } catch (error) {
-                    detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading faction details</div>`;
+                    container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading faction details</div>`;
                 }
             } else if (entity.type === 'detachment' && entity.detachment_id) {
                 // Fetch detachment details from our API
-                detailsContent.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading detachment details...</div>';
+                container.innerHTML = '<div style="text-align: center; color: #666; margin-top: 50px;">Loading detachment details...</div>';
                 
                 try {
                     const response = await fetch(`/api/detachment/${entity.detachment_id}/`);
                     const detachmentData = await response.json();
                     
                     if (response.ok) {
-                        displayDetachmentDetails(detachmentData, entity.url);
+                        displayDetachmentDetailsInContainer(detachmentData, entity.url, container);
                     } else {
-                        detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading detachment: ${detachmentData.error}</div>`;
+                        container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading detachment: ${detachmentData.error}</div>`;
                     }
                 } catch (error) {
-                    detailsContent.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading detachment details</div>`;
+                    container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading detachment details</div>`;
                 }
             } else {
                 // Fallback for items without detailed data
@@ -494,12 +674,23 @@
                     `;
                 }
                 
-                detailsContent.innerHTML = html;
+                container.innerHTML = html;
             }
         }
-        
-        function displayDatasheetDetails(datasheet) {
+
+        async function showDetails(entity) {
             const detailsContent = document.getElementById('details-content');
+            
+            // Clear previous selection
+            document.querySelectorAll('.entry-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+
+            // Use the container version for desktop
+            await showDetailsInContainer(entity, detailsContent);
+        }
+        
+        function displayDatasheetDetailsInContainer(datasheet, container) {
             
             let html = '';
             
@@ -705,11 +896,14 @@
                 html += `</div>`;
             }
             
-            detailsContent.innerHTML = html;
+            container.innerHTML = html;
+        }
+
+        function displayDatasheetDetails(datasheet) {
+            displayDatasheetDetailsInContainer(datasheet, document.getElementById('details-content'));
         }
         
-        function displayFactionDetails(faction, url) {
-            const detailsContent = document.getElementById('details-content');
+        function displayFactionDetailsInContainer(faction, url, container) {
             
             let html = '';
             
@@ -747,11 +941,14 @@
                 html += `</div>`;
             }
             
-            detailsContent.innerHTML = html;
+            container.innerHTML = html;
+        }
+
+        function displayFactionDetails(faction, url) {
+            displayFactionDetailsInContainer(faction, url, document.getElementById('details-content'));
         }
         
-        function displayDetachmentDetails(detachment, url) {
-            const detailsContent = document.getElementById('details-content');
+        function displayDetachmentDetailsInContainer(detachment, url, container) {
             
             let html = '';
             
@@ -819,7 +1016,11 @@
                 html += `</div>`;
             }
             
-            detailsContent.innerHTML = html;
+            container.innerHTML = html;
+        }
+
+        function displayDetachmentDetails(detachment, url) {
+            displayDetachmentDetailsInContainer(detachment, url, document.getElementById('details-content'));
         }
         
         function createEntryItem(entity) {
@@ -833,8 +1034,14 @@
             
             // Make clickable to show details
             div.onclick = () => {
-                div.classList.add('selected');
-                showDetails(entity);
+                if (isMobile()) {
+                    // On mobile, open modal
+                    openMobileModal(entity);
+                } else {
+                    // On desktop, show in sidebar
+                    div.classList.add('selected');
+                    showDetails(entity);
+                }
             };
             
             // Format the entry text to highlight points
@@ -846,6 +1053,7 @@
             }
             
             div.innerHTML = displayText;
+            
             return div;
         }
         
