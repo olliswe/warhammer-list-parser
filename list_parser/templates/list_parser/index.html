@@ -894,6 +894,35 @@
                 html += `</div>`;
             }
             
+            // Leader relationships
+            if (datasheet.leader?.length > 0 || datasheet.led_by?.length > 0) {
+                html += `<div class="detail-section">`;
+                
+                if (datasheet.leader?.length > 0) {
+                    html += `
+                        <h4>This unit can lead</h4>
+                        <div class="keywords-list" style="margin-bottom: 15px;">
+                    `;
+                    datasheet.leader.forEach(unit => {
+                        html += `<span class="keyword-tag">${unit.name}</span>`;
+                    });
+                    html += `</div>`;
+                }
+                
+                if (datasheet.led_by?.length > 0) {
+                    html += `
+                        <h4>This unit can be led by</h4>
+                        <div class="keywords-list">
+                    `;
+                    datasheet.led_by.forEach(character => {
+                        html += `<span class="keyword-tag faction-keyword">${character.name}</span>`;
+                    });
+                    html += `</div>`;
+                }
+                
+                html += `</div>`;
+            }
+            
             // Unit Composition
             if (datasheet.unit_composition_table?.length > 0) {
                 html += `
