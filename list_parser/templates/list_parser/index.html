@@ -485,6 +485,7 @@
             </div>
             <div style="display: flex; gap: 10px; align-items: center;">
                 <button type="submit" id="submitBtn">Parse Army List</button>
+                <button type="button" id="shareBtn" onclick="shareCurrentList()" style="background-color: #28a745; display: none;">📤 Share List</button>
             </div>
         </form>
 
@@ -548,12 +549,15 @@
         const STORAGE_KEY = 'warhammer_saved_lists';
         let currentParsedData = null;
 
-        // Check if we have list ID from URL parameters
+        // Check if we have list ID or shared slug from URL parameters
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
             const listId = urlParams.get('listId');
+            const pathParts = window.location.pathname.split('/');
+            const isSharedView = pathParts[1] === 'shared' && pathParts[2];
             
             if (listId !== null) {
+                // Loading from localStorage using listId
                 const savedLists = getSavedLists();
                 const listIndex = parseInt(listId);
                 
@@ -565,8 +569,60 @@
                     // Automatically parse the list
                     document.getElementById('armyListForm').dispatchEvent(new Event('submit'));
                 }
+            } else if (isSharedView) {
+                // Loading shared list from database
+                const slug = pathParts[2];
+                loadSharedList(slug);
             }
         });
+        
+        async function loadSharedList(slug) {
+            try {
+                const response = await fetch(`/api/shared/${slug}/`);
+                const data = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('armyList').value = data.raw_text;
+                    document.getElementById('listName').value = data.name + ' (Shared)';
+                    
+                    // Update page title and add shared indicator
+                    document.title = `${data.name} - Shared Army List`;
+                    addSharedIndicator(data);
+                    
+                    // Automatically parse the list
+                    document.getElementById('armyListForm').dispatchEvent(new Event('submit'));
+                } else {
+                    showError(`Error loading shared list: ${data.error}`);
+                }
+            } catch (error) {
+                showError('Failed to load shared list');
+            }
+        }
+        
+        function addSharedIndicator(sharedData) {
+            const container = document.querySelector('.container');
+            const indicator = document.createElement('div');
+            indicator.style.cssText = `
+                background: #e3f2fd; 
+                border: 1px solid #2196f3; 
+                border-radius: 4px; 
+                padding: 12px; 
+                margin-bottom: 20px; 
+                text-align: center;
+                color: #1976d2;
+            `;
+            indicator.innerHTML = `
+                📤 <strong>Shared Army List</strong> • ${sharedData.view_count} views • 
+                Created ${new Date(sharedData.created_at).toLocaleDateString()}
+            `;
+            container.insertBefore(indicator, container.children[1]);
+        }
+        
+        function showError(message) {
+            const error = document.getElementById('error');
+            error.textContent = message;
+            error.style.display = 'block';
+        }
 
         // Mobile modal functions
         function isMobile() {
@@ -652,6 +708,9 @@
                 
                 // Collapse the text area after parsing
                 collapseTextArea();
+                
+                // Show share button after successful parsing
+                document.getElementById('shareBtn').style.display = 'inline-block';
                 
             } catch (err) {
                 error.textContent = err.message;
@@ -1334,6 +1393,97 @@
                 
                 container.appendChild(createEntryItem(entity));
             });
+        }
+
+        async function shareCurrentList() {
+            if (!currentParsedData) {
+                showNotification('Please parse an army list first', 'error');
+                return;
+            }
+
+            const listName = document.getElementById('listName').value.trim();
+            const rawText = document.getElementById('armyList').value;
+
+            if (!listName || !rawText) {
+                showNotification('List name and text are required', 'error');
+                return;
+            }
+
+            // Show loading state
+            const shareBtn = document.getElementById('shareBtn');
+            const originalText = shareBtn.textContent;
+            shareBtn.textContent = 'Sharing...';
+            shareBtn.disabled = true;
+
+            try {
+                const response = await fetch('/api/share/', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        name: listName,
+                        raw_text: rawText,
+                        parsed_data: currentParsedData
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    // Copy share URL to clipboard
+                    try {
+                        await navigator.clipboard.writeText(data.share_url);
+                        shareBtn.textContent = '✓ Copied!';
+                        setTimeout(() => {
+                            shareBtn.textContent = originalText;
+                            shareBtn.disabled = false;
+                        }, 2000);
+                        
+                        // Show success message
+                        showNotification(`Share link copied to clipboard!`, 'success');
+                    } catch (clipboardError) {
+                        // Fallback for browsers that don't support clipboard API
+                        shareBtn.textContent = originalText;
+                        shareBtn.disabled = false;
+                        prompt('Copy this share link:', data.share_url);
+                    }
+                } else {
+                    throw new Error(data.error || 'Failed to create share link');
+                }
+            } catch (error) {
+                shareBtn.textContent = originalText;
+                shareBtn.disabled = false;
+                showNotification(`Error sharing list: ${error.message}`, 'error');
+            }
+        }
+
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 12px 24px;
+                border-radius: 4px;
+                color: white;
+                font-weight: 500;
+                z-index: 10000;
+                max-width: 400px;
+                word-wrap: break-word;
+                ${type === 'success' ? 'background: #28a745;' : ''}
+                ${type === 'error' ? 'background: #dc3545;' : ''}
+                ${type === 'info' ? 'background: #007bff;' : ''}
+            `;
+            notification.textContent = message;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.parentNode.removeChild(notification);
+                }
+            }, 5000);
         }
     </script>
 </body>
