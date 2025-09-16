@@ -1,0 +1,129 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "janKn66TLoo",
+  "datasheet_name": "Vindicare Assassin",
+  "url": "https://39k.pro/datasheet/janKn66TLoo",
+  "miniatures": [
+    {
+      "name": "Vindicare Assassin",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Exitus rifle",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "D3+3"
+      },
+      "abilities": [
+        "Precision",
+        "Devastating Wounds",
+        "Heavy",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Exitus pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Precision",
+        "Devastating Wounds",
+        "Ignores Cover",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Vindicare combat knife",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Dead‐shot",
+      "rule": "Each time this model makes a ranged attack, when selecting targets for that attack, you can ignore the Lone Operative ability."
+    },
+    {
+      "name": "Shieldbreaker",
+      "rule": "Once per battle, when selecting targets for this model’s exitus rifle, it can fire a shieldbreaker round. If it does, until the end of the phase, each time this model makes an attack with that weapon, add 1 to the Wound roll and any successful Wound roll scores a Critical Wound."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Vindicare Assassin – EPIC HERO**\n\n**This model is equipped with:** exitus pistol; exitus rifle; Vindicare combat knife.\nModel Name Count Points\nVindicare Assassin\n1\n110\nVindicare Assassin\n1\n125\nVindicare Assassin\n1\n155",
+  "unit_composition_table": [
+    {
+      "model": "Vindicare Assassin",
+      "count": "1",
+      "points": "110"
+    },
+    {
+      "model": "Vindicare Assassin",
+      "count": "1",
+      "points": "125"
+    },
+    {
+      "model": "Vindicare Assassin",
+      "count": "1",
+      "points": "155"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Smoke",
+      "Imperium",
+      "Officio Assassinorum",
+      "Vindicare Assassin"
+    ]
+  },
+  "custom_rules": []
+}

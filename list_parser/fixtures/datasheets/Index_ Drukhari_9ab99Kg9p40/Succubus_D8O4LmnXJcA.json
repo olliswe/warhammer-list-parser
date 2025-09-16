@@ -1,0 +1,114 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "D8O4LmnXJcA",
+  "datasheet_name": "Succubus",
+  "url": "https://39k.pro/datasheet/D8O4LmnXJcA",
+  "miniatures": [
+    {
+      "name": "Succubus",
+      "characteristics": {
+        "M": "8\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Splinter pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Assault",
+        "Anti-infantry 3+"
+      ]
+    },
+    {
+      "name": "Blast pistol",
+      "stats": {
+        "range": "6\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Succubus weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "3",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 3+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Storm of Blades",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Combat Drugs",
+      "rule": "If this model is Empowered in the Fight phase, then until the end of the phase, models in this model’s unit, have the Fights First ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following:\n◦ 1 blast pistol\n◦ 1 splinter pistol"
+  ],
+  "unit_composition": "■ **1 Succubus**\n\n**This model is equipped with:** Succubus weapons.\nModel Name Count Points\nSuccubus\n1\n45",
+  "unit_composition_table": [
+    {
+      "model": "Succubus",
+      "count": "1",
+      "points": "45"
+    }
+  ],
+  "leader": [
+    {
+      "name": "WYCHES",
+      "id": "WZLhCkQsNEs"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Wych Cult",
+      "Character",
+      "Aeldari",
+      "Succubus"
+    ]
+  },
+  "custom_rules": []
+}

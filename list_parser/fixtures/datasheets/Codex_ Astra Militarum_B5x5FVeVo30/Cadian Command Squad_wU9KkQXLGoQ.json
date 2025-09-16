@@ -1,0 +1,320 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "wU9KkQXLGoQ",
+  "datasheet_name": "Cadian Command Squad",
+  "url": "https://39k.pro/datasheet/wU9KkQXLGoQ",
+  "miniatures": [
+    {
+      "name": "Cadian Commander",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Cadian Veteran Guardsman",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Cadian Veteran Guardsman",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Cadian Veteran Guardsman",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Cadian Veteran Guardsman",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Laspistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Lasgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "Flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "🠶 Grenade launcher — krak",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Grenade launcher — frag",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "🠶 Plasma gun — supercharge",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 1",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "🠶 Plasma gun — standard",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Cadia Stands!",
+      "rule": "While this unit contains an **OFFICER**, each time a ranged attack targets this unit, if this unit is within range of an objective marker you control, models in this unit have the Benefit of Cover against that attack."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Cadian Veteran Guardsman’s lasgun and regimental standard can be replaced with one of the following: \n◦ 1 flamer\n◦ 1 grenade launcher\n◦ 1 meltagun\n◦ 1 plasma gun",
+    "■ The Cadian Commander’s laspistol can be replaced with one of the following:\n◦ 1 bolt pistol\n◦ 1 plasma pistol",
+    "■ The Cadian Commander’s chainsword can be replaced with one of the following: \n◦ 1 power fist\n◦ 1 power weapon",
+    "■ 1 Cadian Veteran Guardsman’s laspistol can be replaced with one of the following:\n◦ 1 bolt pistol\n◦ 1 plasma pistol",
+    "■ 1 Cadian Veteran Guardsman’s chainsword can be replaced with one of the following:\n◦ 1 flamer and 1 close combat weapon\n◦ 1 grenade launcher and 1 close combat weapon\n◦ 1 meltagun and 1 close combat weapon\n◦ 1 plasma gun and 1 close combat weapon\n◦ 1 power fist\n◦ 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Cadian Commander**\n■ **4 Cadian Veteran Guardsmen**\n\n**The Cadian Commander is equipped with:** laspistol; chainsword.\n**1 Cadian Veteran Guardsman is equipped with:** las pistol; chainsword.\n**1 other Cadian Veteran Guardsman is equipped with:** lasgun; master vox; close combat weapon.\n**1 other Cadian Veteran Guardsman is equipped with:** lasgun; medi-pack; close combat weapon.\n**1 other Cadian Veteran Guardsman is equipped with:** lasgun; regimental standard; close combat weapon.\nModel Name Count Points\nCadian Commander\nCadian Veteran Guardsman\nCadian Veteran Guardsman\nCadian Veteran Guardsman\nCadian Veteran Guardsman\n1\n1\n1\n1\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Cadian Commander\nCadian Veteran Guardsman\nCadian Veteran Guardsman\nCadian Veteran Guardsman\nCadian Veteran Guardsman",
+      "count": "1\n1\n1\n1\n1",
+      "points": "65"
+    }
+  ],
+  "leader": [
+    {
+      "name": "CADIAN SHOCK TROOPS",
+      "id": "rdVQilyAxcE"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Platoon",
+      "Cadian",
+      "Command Squad",
+      "Character",
+      "Officer"
+    ]
+  },
+  "custom_rules": []
+}

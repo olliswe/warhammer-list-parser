@@ -1,0 +1,117 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "uNdWa1PCzJI",
+  "datasheet_name": "Incubi",
+  "url": "https://39k.pro/datasheet/uNdWa1PCzJI",
+  "miniatures": [
+    {
+      "name": "Incubi",
+      "characteristics": {
+        "M": "7\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Klaivex",
+      "characteristics": {
+        "M": "7\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Klaive",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Demiklaives — dual blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "🠶 Demiklaives — single blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Tormentors",
+      "rule": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [
+    "■ The Klaivex’s klaive can be replaced with 1 demiklaives."
+  ],
+  "unit_composition": "■ **1 Klaivex**\n■ **4-9 Incubi**\n\n**Every model is equipped with:** klaive.\nModel Name Count Points\nKlaivex\nIncubi\n1\n4\n85\nIncubi\nKlaivex\n5-9\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Klaivex\nIncubi",
+      "count": "1\n4",
+      "points": "85"
+    },
+    {
+      "model": "Incubi\nKlaivex",
+      "count": "5-9\n1",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Drazhar",
+      "id": "p1R1qRLG0m8"
+    },
+    {
+      "name": "Archon",
+      "id": "PnKBi-XtPF4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Aeldari",
+      "Incubi"
+    ]
+  },
+  "custom_rules": []
+}

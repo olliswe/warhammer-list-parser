@@ -1,0 +1,124 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "bITDS4rXIQQ",
+  "datasheet_name": "Kor’sarro Khan",
+  "url": "https://39k.pro/datasheet/bITDS4rXIQQ",
+  "miniatures": [
+    {
+      "name": "Kor’sarro Khan",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Bolt Pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Moonfang",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "For the Khan!",
+      "rule": "While this model is leading a unit, ranged weapons equipped by models in that unit have the **[ASSAULT]** ability and melee weapons equipped by models in that unit have the **[LANCE]** ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Trophy Taker",
+      "rule": "Each time this model destroys an enemy **CHARACTER** model, you gain 1CP."
+    },
+    {
+      "name": "Inspiring Commander",
+      "rule": "If you include this model in your army, until the end of the battle, non-**CHARACTER** models in **OUTRIDER SQUAD** units from your army have an Objective Control characteristic of 3 while they are not Battle-shocked."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Kor’sarro Khan – EPIC HERO**\n\n**This model is equipped with:** bolt pistol; Moonfang.\nModel Name Count Points\nKor’sarro Khan\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Kor’sarro Khan",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "BLADEGUARD VETERAN SQUAD",
+      "id": "QzcaruUCgaI"
+    },
+    {
+      "name": "COMPANY HEROES",
+      "id": "XTVpNuL4gek"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "White Scars"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Tacticus",
+      "Captain",
+      "Kor’sarro Khan"
+    ]
+  },
+  "custom_rules": []
+}

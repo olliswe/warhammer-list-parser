@@ -1,0 +1,112 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "VnkiUzyWGAs",
+  "datasheet_name": "Skarbrand",
+  "url": "https://39k.pro/datasheet/VnkiUzyWGAs",
+  "miniatures": [
+    {
+      "name": "Skarbrand",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "20",
+        "LD": "6+",
+        "OC": "5"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Bellow of endless fury",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2D6",
+        "ballistic_skill": "N/A",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Slaughter and Carnage — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "2+",
+        "strength": "16",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Slaughter and Carnage — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "16",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Greater Daemon of Khorne",
+      "rule": "While a friendly **KHORNE LEGIONES DAEMONICA** unit is within 6\" of this model, that unit is within your army’s Shadow of Chaos."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Murderlust",
+      "rule": "This unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Rage Embodied",
+      "rule": "While a friendly **KHORNE LEGIONES DAEMONICA** unit is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Skarbrand – EPIC HERO**\n\n**This model is equipped with:** bellow of endless fury; Slaughter and Carnage.\nModel Name Count Points\nSkarbrand\n1\n305",
+  "unit_composition_table": [
+    {
+      "model": "Skarbrand",
+      "count": "1",
+      "points": "305"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skarbrand"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,129 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "yRHS6dk4JGk",
+  "datasheet_name": "Deathshroud Terminators",
+  "url": "https://39k.pro/datasheet/yRHS6dk4JGk",
+  "miniatures": [
+    {
+      "name": "Deathshroud Terminators",
+      "characteristics": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Plaguespurt gauntlet",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Torrent",
+        "Ignores Cover",
+        "Anti-infantry 4+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Manreaper — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "🠶 Manreaper — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Silent Bodyguard",
+      "rule": "While a **CHARACTER** model is leading this unit, that **CHARACTER** model has the Feel No Pain 4+ ability."
+    },
+    {
+      "name": "Death Approaches",
+      "rule": "In your Movement phase, when this unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all Afflicted enemy units, and more than 9\" horizontally away from all other enemy units."
+    }
+  ],
+  "wargear_options": [
+    "■ The Deathshroud Champion can be equipped with 1 additional plaguespurt gauntlet.",
+    "■ The Deathshroud Champion can be equipped with 1 icon of despair."
+  ],
+  "unit_composition": "■ **1 Deathshroud Champion**\n■ **2-5 Deathshroud Terminators**\n\n**Every model is equipped with:** plaguespurt gauntlet; manreaper.\nModel Name Count Points\nDeathshroud Terminator\nDeathshroud Champion\n2\n1\n160\nDeathshroud Champion\nDeathshroud Terminator\n1\n3-5\n320",
+  "unit_composition_table": [
+    {
+      "model": "Deathshroud Terminator\nDeathshroud Champion",
+      "count": "2\n1",
+      "points": "160"
+    },
+    {
+      "model": "Deathshroud Champion\nDeathshroud Terminator",
+      "count": "1\n3-5",
+      "points": "320"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Typhus",
+      "id": "v0WCQRy13lQ"
+    },
+    {
+      "name": "Lord of Virulence",
+      "id": "mt7vLXHz8zI"
+    },
+    {
+      "name": "Lord of Contagion",
+      "id": "YPJTSz5FPV4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Death Guard"
+    ],
+    "keywords": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Terminator",
+      "Deathshroud Terminators"
+    ]
+  },
+  "custom_rules": []
+}

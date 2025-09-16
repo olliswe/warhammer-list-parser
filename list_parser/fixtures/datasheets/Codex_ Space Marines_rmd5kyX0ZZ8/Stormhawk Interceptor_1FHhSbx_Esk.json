@@ -1,0 +1,171 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "1FHhSbx_Esk",
+  "datasheet_name": "Stormhawk Interceptor",
+  "url": "https://39k.pro/datasheet/1FHhSbx_Esk",
+  "miniatures": [
+    {
+      "name": "Stormhawk Interceptor",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Typhoon missile launcher — frag",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2D6",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Typhoon missile launcher — krak",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Skyhammer missile launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Twin assault cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Icarus stormcannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Las-talon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Interceptor",
+      "rule": "Each time this model makes a ranged attack that targets a unit that can **FLY**, add 1 to the Hit roll."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s skyhammer missile launcher can be replaced with one of the following:\n◦ 1 twin heavy bolter\n◦ 1 typhoon missile launcher",
+    "■ This model’s las-talon can be replaced with 1 Icarus stormcannon."
+  ],
+  "unit_composition": "■ **1 Stormhawk Interceptor**\n\n**This model is equipped with:** twin assault cannon; skyhammer missile launcher; las-talon; armoured hull.\nModel Name Count Points\nStormhawk Interceptor\n1\n155",
+  "unit_composition_table": [
+    {
+      "model": "Stormhawk Interceptor",
+      "count": "1",
+      "points": "155"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Imperium",
+      "Smoke",
+      "Stormhawk Interceptor"
+    ]
+  },
+  "custom_rules": []
+}

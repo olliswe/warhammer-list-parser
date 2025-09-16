@@ -1,0 +1,103 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "Hje_NM545sA",
+  "datasheet_name": "Haemonculus",
+  "url": "https://39k.pro/datasheet/Hje_NM545sA",
+  "miniatures": [
+    {
+      "name": "Haemonculus",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Stinger pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "2",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Pistol",
+        "Anti-infantry 2+",
+        "Precision"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Haemonculus tools and scissorhands",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "3",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Precision",
+        "Anti-infantry 2+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Master of Pain",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Fear Incarnate",
+      "rule": "While an enemy unit is within 6\" of this model, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Haemonculus**\n\n**This model is equipped with:** stinger pistol; Haemonculus tools and scissorhands.\nModel Name Count Points\nHaemonculus\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Haemonculus",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "leader": [
+    {
+      "name": "WRACKS",
+      "id": "O2FH5ezGSmE"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Haemonculus Covens",
+      "Character",
+      "Aeldari",
+      "Haemonculus"
+    ]
+  },
+  "custom_rules": []
+}

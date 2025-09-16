@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "RpmUgcHjgvc",
+  "datasheet_name": "Sanctus",
+  "url": "https://39k.pro/datasheet/RpmUgcHjgvc",
+  "miniatures": [
+    {
+      "name": "Sanctus",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Cult sniper rifle",
+      "stats": {
+        "range": "36\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Precision",
+        "Anti-psyker 2+",
+        "Heavy"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Sanctus bio-dagger",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "3",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Precision",
+        "Anti-infantry 3+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Cloaked Assassin",
+      "rule": "If this model is equipped with a Sanctus bio-dagger, enemy units cannot use the Fire Overwatch Stratagem to shoot at this model."
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Psychic Spoor",
+      "rule": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time this model makes an attack that targets its prey, you can re-roll the Hit roll and you can re-roll the Wound roll."
+    },
+    {
+      "name": "Creeping Shadow",
+      "rule": "If this model is equipped with a cult sniper rifle, once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this model, if this model is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\"."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Sanctus bio-dagger can be replaced with 1 cult sniper rifle and 1 close combat weapon."
+  ],
+  "unit_composition": "■ **1 Sanctus**\n\n**This model is equipped with:** Sanctus bio-dagger.\nModel Name Count Points\nSanctus\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Sanctus",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Great Devourer",
+      "Sanctus"
+    ]
+  },
+  "custom_rules": []
+}

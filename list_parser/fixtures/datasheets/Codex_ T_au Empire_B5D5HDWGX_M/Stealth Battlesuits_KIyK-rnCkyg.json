@@ -1,0 +1,109 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "KIyK-rnCkyg",
+  "datasheet_name": "Stealth Battlesuits",
+  "url": "https://39k.pro/datasheet/KIyK-rnCkyg",
+  "miniatures": [
+    {
+      "name": "Stealth Battlesuits",
+      "characteristics": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Fusion blaster",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Burst cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Battlesuit fists",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "5+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Forward Observers",
+      "rule": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+    }
+  ],
+  "wargear_options": [
+    "■ The Stealth Shas’vre can be equipped with up to two of the following, and can take duplicates:\n◦ 1 gun drone\n◦ 1 marker drone\n◦ 1 shield drone",
+    "■ For every 3 models in the unit, 1 model’s burst cannon can be replaced with 1 fusion blaster.",
+    "■ For every 3 models in the unit, 1 model can be equipped with 1 battlesuit support system."
+  ],
+  "unit_composition": "■ **1 Stealth Shas’vre**\n■ **2-5 Stealth Shas’ui**\n\n**The Stealth Shas’vre is equipped with:** burst cannon, battlesuit fists, homing beacon.\n**Every Stealth Shas’ui model is equipped with:** burst cannon; battlesuit fists.\nModel Name Count Points\nStealth Shas’ui\nStealth Shas’vre\n3-5\n1\n120\nStealth Shas’ui\nStealth Shas’vre\n2\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Stealth Shas’ui\nStealth Shas’vre",
+      "count": "3-5\n1",
+      "points": "120"
+    },
+    {
+      "model": "Stealth Shas’ui\nStealth Shas’vre",
+      "count": "2\n1",
+      "points": "80"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Battlesuit",
+      "Stealth"
+    ]
+  },
+  "custom_rules": []
+}

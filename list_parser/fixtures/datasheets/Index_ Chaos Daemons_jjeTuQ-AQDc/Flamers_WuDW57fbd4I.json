@@ -1,0 +1,98 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "WuDW57fbd4I",
+  "datasheet_name": "Flamers",
+  "url": "https://39k.pro/datasheet/WuDW57fbd4I",
+  "miniatures": [
+    {
+      "name": "Flamers",
+      "characteristics": {
+        "M": "9\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Flickering flames",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Psychic",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Flamer mouths",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Bounding Leaps",
+      "rule": "This unit is eligible to shoot in a turn in which it Fell Back."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Pyrocaster**\n■ **2-5 Flamers**\n\n**Every model is equipped with:** Flickering Flames; Flamer mouths.\nModel Name Count Points\nPyrocaster\nFlamer\n1\n3-5\n130\nFlamer\nPyrocaster\n2\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Pyrocaster\nFlamer",
+      "count": "1\n3-5",
+      "points": "130"
+    },
+    {
+      "model": "Flamer\nPyrocaster",
+      "count": "2\n1",
+      "points": "65"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Exalted Flamer",
+      "id": "0RDwmn-c0ns"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Flamers"
+    ]
+  },
+  "custom_rules": []
+}

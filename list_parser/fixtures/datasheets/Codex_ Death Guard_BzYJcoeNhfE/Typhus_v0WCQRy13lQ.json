@@ -1,0 +1,110 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "v0WCQRy13lQ",
+  "datasheet_name": "Typhus",
+  "url": "https://39k.pro/datasheet/v0WCQRy13lQ",
+  "miniatures": [
+    {
+      "name": "Typhus",
+      "characteristics": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "🠶 Lakrimae — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "🠶 Lakrimae — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Eater Plague",
+      "rule": "In your Shooting phase, you can select one enemy unit within 18\" of and visible to this **PSYKER** (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this **PSYKER**) and roll one D6: on a 1, this **PSYKER**’s unit suffers D3 mortal wounds; on a 2-5, that enemy unit suffers D6 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+    },
+    {
+      "name": "Destroyer Hive",
+      "rule": "While this model is leading a unit, each time a melee attack targets that unit, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Typhus – EPIC HERO**\n\n**This model is equipped with:** Lakrimae.\nModel Name Count Points\nTyphus\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Typhus",
+      "count": "1",
+      "points": "100"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BLIGHTLORD TERMINATORS",
+      "id": "onPm6yvGKlU"
+    },
+    {
+      "name": "DEATHSHROUD TERMINATORS",
+      "id": "yRHS6dk4JGk"
+    },
+    {
+      "name": "POXWALKERS",
+      "id": "5yMAyoTYqCY"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Death Guard"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Epic Hero",
+      "Chaos",
+      "Nurgle",
+      "Terminator",
+      "Typhus"
+    ]
+  },
+  "custom_rules": []
+}

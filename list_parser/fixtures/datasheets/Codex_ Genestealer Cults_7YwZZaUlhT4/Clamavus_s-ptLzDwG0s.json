@@ -1,0 +1,105 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "s-ptLzDwG0s",
+  "datasheet_name": "Clamavus",
+  "url": "https://39k.pro/datasheet/s-ptLzDwG0s",
+  "miniatures": [
+    {
+      "name": "Clamavus",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Autopistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Voice of New Truths",
+      "rule": "In your Command phase, one model from your army with this ability can use it. If it does, select one enemy unit within 18\" of it; that enemy unit must take a Battle-shock test."
+    },
+    {
+      "name": "Scrambler Array",
+      "rule": "Enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of this model."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Clamavus**\n\n**This model is equipped with:** autopistol; close combat weapon.\nModel Name Count Points\nClamavus\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Clamavus",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ACOLYTE HYBRIDS",
+      "id": "qd_-rrCUysQ"
+    },
+    {
+      "name": "HYBRID METAMORPHS",
+      "id": "6BXxUwhH0Ps"
+    },
+    {
+      "name": "NEOPHYTE HYBRIDS",
+      "id": "t_PQ79CRNR8"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Great Devourer",
+      "Clamavus"
+    ]
+  },
+  "custom_rules": []
+}

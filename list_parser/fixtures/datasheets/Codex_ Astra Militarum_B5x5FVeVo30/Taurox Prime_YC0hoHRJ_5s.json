@@ -1,0 +1,177 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "YC0hoHRJ_5s",
+  "datasheet_name": "Taurox Prime",
+  "url": "https://39k.pro/datasheet/YC0hoHRJ_5s",
+  "miniatures": [
+    {
+      "name": "Taurox Prime",
+      "characteristics": {
+        "M": "12\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Twin Taurox hot-shot volley gun",
+      "stats": {
+        "range": "30\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Twin autocannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Taurox battle cannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Taurox gatling cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "8",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "🠶 Taurox missile launcher — frag",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "🠶 Taurox missile launcher — krak",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Transport Support",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a model that disembarked from this **TRANSPORT** this turn makes an attack that targets that enemy unit, you can re‐roll the Hit roll."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s twin Taurox hot-shot volley gun can be replaced with 1 twin autocannon.",
+    "■ This model’s Taurox battle cannon can be replaced with one of the following:\n◦ 1 Taurox gatling cannon\n◦ 1 Taurox missile launcher",
+    "■ This model can be equipped with 1 storm bolter."
+  ],
+  "unit_composition": "■ **1 Taurox Prime**\n\n**This model is equipped with:** Taurox battle cannon; twin Taurox hot-shot volley gun; armoured tracks.\nModel Name Count Points\nTaurox Prime\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "Taurox Prime",
+      "count": "1",
+      "points": "90"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Imperium",
+      "Squadron",
+      "Transport",
+      "Dedicated Transport",
+      "Taurox Prime"
+    ]
+  },
+  "custom_rules": []
+}

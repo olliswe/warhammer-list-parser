@@ -1,0 +1,246 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "6ip3nqW39cI",
+  "datasheet_name": "Krieg Combat Engineers",
+  "url": "https://39k.pro/datasheet/6ip3nqW39cI",
+  "miniatures": [
+    {
+      "name": "Krieg Combat Engineers",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Autopistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Combat shotgun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Hand flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Pistol",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Trench club",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Grenadiers",
+      "rule": "Once per turn, you can target this unit with the Grenade Stratagem for 0CP."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Krieg Combat Engineer’s autopistol and trench club can be replaced with 1 flamer and 1 close combat weapon.",
+    "■ 1 Krieg Combat Engineer’s autopistol and trench club can be replaced with 1 autopistol, 1 remote mine and 1 close combat weapon.",
+    "■ Any number of models can each have their autopistol and trench club replaced with 1 combat shotgun and 1 close combat weapon.",
+    "■ The Krieg Engineer Watchmaster’s autopistol can be replaced with one of the following:\n◦ 1 bolt pistol\n◦ 1 hand flamer\n◦ 1 plasma pistol",
+    "■ The Krieg Engineer Watchmaster’s trench club can be replaced with one of the following:\n◦ 1 chainsword\n◦ 1 power weapon"
+  ],
+  "unit_composition": "■ **1 Krieg Engineer Watchmaster**\n■ **4-9 Krieg Combat Engineers**\n\n**Every model is equipped with:** autopistol; trench club.\nModel Name Count Points\nKrieg Engineer Watchmaster\nKrieg Combat Engineer\n1\n4\n70\nKrieg Engineer Watchmaster\nKrieg Combat Engineer\n1\n5-9\n95",
+  "unit_composition_table": [
+    {
+      "model": "Krieg Engineer Watchmaster\nKrieg Combat Engineer",
+      "count": "1\n4",
+      "points": "70"
+    },
+    {
+      "model": "Krieg Engineer Watchmaster\nKrieg Combat Engineer",
+      "count": "1\n5-9",
+      "points": "95"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Tech-Priest Enginseer",
+      "id": "XR_8119DPAs"
+    },
+    {
+      "name": "Primaris Psyker",
+      "id": "xA8x6gpM-RQ"
+    },
+    {
+      "name": "Commissar",
+      "id": "rhZidEMETto"
+    },
+    {
+      "name": "Ministorum Priest",
+      "id": "QwnbC9VpIVU"
+    },
+    {
+      "name": "Lord Solar Leontus",
+      "id": "PlZLzGjPZ0A"
+    },
+    {
+      "name": "Krieg Command Squad",
+      "id": "A2kLGOviBmc"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Infantry",
+      "Smoke",
+      "Grenades",
+      "Imperium",
+      "Regiment",
+      "Krieg Combat Engineers"
+    ]
+  },
+  "custom_rules": []
+}

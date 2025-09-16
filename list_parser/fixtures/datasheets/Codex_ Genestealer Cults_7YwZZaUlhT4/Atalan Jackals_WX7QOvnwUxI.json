@@ -1,0 +1,206 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "WX7QOvnwUxI",
+  "datasheet_name": "Atalan Jackals",
+  "url": "https://39k.pro/datasheet/WX7QOvnwUxI",
+  "miniatures": [
+    {
+      "name": "Atalan Jackal",
+      "characteristics": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Atalan Wolfquad",
+      "characteristics": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Grenade launcher — krak",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Grenade launcher — frag",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Atalan small arms",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Mining laser",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Atalan incinerator",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Atalan power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Demolition Run",
+      "rule": "Once per turn, in your Movement phase, when this unit ends a Normal, Advance or Fall Back move, you can select one enemy unit within 6\" of and visible to this unit and roll one D6 for each **ATALAN JACKALS** model in this unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds)."
+    },
+    {
+      "name": "Outrider Gangs",
+      "rule": "Each time you use the Cult Ambush ability to set this unit back up on the battlefield, in addition to the normal rules, all of its models must be set up wholly within 9\" of a battlefield edge and at least one of its models must be touching one of your Cult Ambush markers (that marker is then removed from the battlefield). If this cannot be done, this unit cannot be set back up."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of Atalan Wolfquads can each have their heavy stubber replaced with one of the following:\n◦ 1 Atalan incinerator\n◦ 1 mining laser",
+    "■ For every 4 Atalan Jackals in this unit, up to 2 Atalan Jackals’ close combat weapons can each be replaced with 1 Atalan power weapon.",
+    "■ For every 4 Atalan Jackals in this unit, 1 Atalan Jackal’s Atalan small arms can be replaced with 1 grenade launcher."
+  ],
+  "unit_composition": "■ **4-8 Atalan Jackals**\n■ **1-2 Atalan Wolfquads***\n**This unit can only contain 2 Atalan Wolfquads if it also contains 8 Atalan Jackals.*\n\n**Every Atalan Jackal is equipped with:** Atalan small arms; close combat weapon.\n**Every Atalan Wolfquad is equipped with:** Atalan small arms; heavy stubber; close combat weapon.\nModel Name Count Points\nAtalan Wolfquad\nAtalan Jackal\n1\n5-8\n150\nAtalan Wolfquad\nAtalan Jackal\n2\n8\n150\nAtalan Jackal\nAtalan Wolfquad\n4\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Atalan Wolfquad\nAtalan Jackal",
+      "count": "1\n5-8",
+      "points": "150"
+    },
+    {
+      "model": "Atalan Wolfquad\nAtalan Jackal",
+      "count": "2\n8",
+      "points": "150"
+    },
+    {
+      "model": "Atalan Jackal\nAtalan Wolfquad",
+      "count": "4\n1",
+      "points": "75"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Shanus Daskovian",
+      "id": "uAzGSQmAlJ0"
+    },
+    {
+      "name": "Jackal Alphus",
+      "id": "5Y7A0npSWr0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Mounted",
+      "Grenades",
+      "Great Devourer",
+      "Atalan Jackals"
+    ]
+  },
+  "custom_rules": []
+}

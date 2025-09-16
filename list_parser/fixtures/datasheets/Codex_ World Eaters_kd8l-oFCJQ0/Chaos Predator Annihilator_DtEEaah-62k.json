@@ -1,0 +1,161 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "kd8l-oFCJQ0",
+  "datasheet_id": "DtEEaah-62k",
+  "datasheet_name": "Chaos Predator Annihilator",
+  "url": "https://39k.pro/datasheet/DtEEaah-62k",
+  "miniatures": [
+    {
+      "name": "Chaos Predator Annihilator",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 2",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Havoc launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Predator twin lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Rapid Fire 2",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 4"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blood-hungry Annihilator",
+      "rule": "Each time this model makes a ranged attack that targets the closest eligible **MONSTER** or **VEHICLE** target within 18\", you can re-roll the Wound roll and you can re-roll the Damage roll."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 havoc launcher.",
+    "■ This model can be equipped with one of the following:\n◦ 2 heavy bolters\n◦ 2 lascannons",
+    "■ This model can be equipped with one of the following:\n◦ 1 combi-bolter\n◦ 1 combi-weapon"
+  ],
+  "unit_composition": "■ **1 Chaos Predator Annihilator**\n\n**This model is equipped with:** Predator twin lascannon; armoured tracks.\nModel Name Count Points\nChaos Predator Annihilator\n1\n145",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Predator Annihilator",
+      "count": "1",
+      "points": "145"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: World Eaters"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Chaos",
+      "Khorne",
+      "Predator Annihilator"
+    ]
+  },
+  "custom_rules": []
+}

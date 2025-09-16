@@ -1,0 +1,101 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "S31ex6OCY6o",
+  "datasheet_name": "Hive Guard",
+  "url": "https://39k.pro/datasheet/S31ex6OCY6o",
+  "miniatures": [
+    {
+      "name": "Hive Guard",
+      "characteristics": {
+        "M": "6\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "4",
+        "LD": "8+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Impaler cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Heavy",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Shockcannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": [
+        "Anti-vehicle 2+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Chitinous claws and teeth",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Defensive Stance",
+      "rule": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker that you control."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their shockcannon replaced with 1 impaler cannon."
+  ],
+  "unit_composition": "■ **3-6 Hive Guard**\n\n**Every model is equipped with:** shockcannon; chitinous claws and teeth.\nModel Name Count Points\nHive Guard\n4-6\n180\nHive Guard\n3\n90",
+  "unit_composition_table": [
+    {
+      "model": "Hive Guard",
+      "count": "4-6",
+      "points": "180"
+    },
+    {
+      "model": "Hive Guard",
+      "count": "3",
+      "points": "90"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Hive Guard"
+    ]
+  },
+  "custom_rules": []
+}

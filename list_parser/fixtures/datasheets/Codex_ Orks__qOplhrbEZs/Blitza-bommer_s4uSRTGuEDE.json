@@ -1,0 +1,101 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "s4uSRTGuEDE",
+  "datasheet_name": "Blitza-bommer",
+  "url": "https://39k.pro/datasheet/s4uSRTGuEDE",
+  "miniatures": [
+    {
+      "name": "Blitza-bommer",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Twin supa-shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Big shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Boom Bomb",
+      "rule": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6: on a 4+, that unit suffers D6 mortal wounds."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Blitza-bommer**\n\n**This model is equipped with:** big shoota; twin supa-shoota; armoured hull.\nModel Name Count Points\nBlitza-bommer\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Blitza-bommer",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Speed Freeks",
+      "Blitza-bommer"
+    ]
+  },
+  "custom_rules": []
+}

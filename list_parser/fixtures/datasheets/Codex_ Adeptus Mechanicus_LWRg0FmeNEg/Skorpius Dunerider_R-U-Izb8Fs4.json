@@ -1,0 +1,97 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "LWRg0FmeNEg",
+  "datasheet_id": "R-U-Izb8Fs4",
+  "datasheet_name": "Skorpius Dunerider",
+  "url": "https://39k.pro/datasheet/R-U-Izb8Fs4",
+  "miniatures": [
+    {
+      "name": "Skorpius Dunerider",
+      "characteristics": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "11",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Cognis heavy stubber array",
+      "stats": {
+        "range": "36\"",
+        "attacks": "9",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 9",
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fire Support",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this **TRANSPORT** this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+    },
+    {
+      "name": "Firing Deck 2",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Broad Spectrum Data-tether",
+      "rule": "Each time you select this model as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Skorpius Dunerider**\n\n**This model is equipped with:** cognis heavy stubber array; armoured hull.\nModel Name Count Points\nSkorpius Dunerider\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Skorpius Dunerider",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Mechanicus"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Skitarii",
+      "Smoke",
+      "Skorpius Dunerider"
+    ]
+  },
+  "custom_rules": []
+}

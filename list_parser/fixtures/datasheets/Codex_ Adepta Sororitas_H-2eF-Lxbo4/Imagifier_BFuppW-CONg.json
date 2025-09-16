@@ -1,0 +1,120 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "H-2eF-Lxbo4",
+  "datasheet_id": "BFuppW-CONg",
+  "datasheet_name": "Imagifier",
+  "url": "https://39k.pro/datasheet/BFuppW-CONg",
+  "miniatures": [
+    {
+      "name": "Imagifier",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Boltgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stanchion of Holy Martyrs",
+      "rule": "While this model is leading a unit, models in that unit have a Save characteristic of 2+ and a 4+ invulnerable save."
+    },
+    {
+      "name": "Litany of Deeds",
+      "rule": "Each time you gain a Miracle dice as the result of an **ADEPTA SORORITAS** unit or model from your army being destroyed, if that unit or model was destroyed within 12\" of this model, you can re-roll the result of that Miracle dice before adding it to your Miracle Dice pool."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Imagifier**\n\n**This model is equipped with:** bolt pistol; boltgun; close combat weapon.\nModel Name Count Points\nImagifier\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Imagifier",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BATTLE SISTERS SQUAD",
+      "id": "-o-RSy91drw"
+    },
+    {
+      "name": "CELESTIAN SACRESANTS",
+      "id": "UMGlcMTRlzc"
+    },
+    {
+      "name": "DOMINION SQUAD",
+      "id": "Sv-C_1ATsRQ"
+    },
+    {
+      "name": "RETRIBUTOR SQUAD",
+      "id": "s2fJnCg1zpU"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adepta Sororitas"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Character",
+      "Imperium",
+      "Imagifier"
+    ]
+  },
+  "custom_rules": []
+}

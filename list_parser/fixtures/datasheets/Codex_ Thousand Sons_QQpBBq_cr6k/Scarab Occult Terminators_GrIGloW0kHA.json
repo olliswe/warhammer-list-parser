@@ -1,0 +1,183 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "QQpBBq_cr6k",
+  "datasheet_id": "GrIGloW0kHA",
+  "datasheet_name": "Scarab Occult Terminators",
+  "url": "https://39k.pro/datasheet/GrIGloW0kHA",
+  "miniatures": [
+    {
+      "name": "Scarab Occult Sorcerer",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Scarab Occult Terminator",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Malefic Curse",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-3",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Devastating Wounds",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Hellfyre missile rack",
+      "stats": {
+        "range": "36\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Soulreaper cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Inferno combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Heavy warpflamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Force weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Prosperine khopesh",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rites of Coalescence",
+      "rule": "While this unit contains one or more **PSYKER** models, each time an attack targets this unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 Scarab Occult Terminator’s inferno combi-bolter can be replaced with one of the following:\n◦ 1 heavy warpflamer\n◦ 1 soulreaper cannon",
+    "■ The Scarab Occult Sorcerer’s inferno combi-bolter can be replaced with 1 Prosperine khopesh.",
+    "■ For every 5 models in this unit, 1 Scarab Occult Terminator can be equipped with 1 hellfyre missile rack."
+  ],
+  "unit_composition": "■ **1 Scarab Occult Sorcerer**\n■ **4-9 Scarab Occult Terminators**\n\n**The Scarab Occult Sorcerer is equipped with:** inferno combi-bolter; Malefic Curse; force weapon.\n**Every Scarab Occult Terminator is equipped with:** inferno combi-bolter; Prosperine khopesh.\nModel Name Count Points\nScarab Occult Terminator\nScarab Occult Sorcerer\n5-9\n1\n375\nScarab Occult Sorcerer\nScarab Occult Terminator\n1\n4\n180",
+  "unit_composition_table": [
+    {
+      "model": "Scarab Occult Terminator\nScarab Occult Sorcerer",
+      "count": "5-9\n1",
+      "points": "375"
+    },
+    {
+      "model": "Scarab Occult Sorcerer\nScarab Occult Terminator",
+      "count": "1\n4",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Sorcerer in Terminator Armour",
+      "id": "czAT7NIZ-wk"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Thousand Sons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Terminator",
+      "Chaos",
+      "Tzeentch",
+      "Rubricae",
+      "Scarab Occult",
+      "Psyker"
+    ]
+  },
+  "custom_rules": []
+}

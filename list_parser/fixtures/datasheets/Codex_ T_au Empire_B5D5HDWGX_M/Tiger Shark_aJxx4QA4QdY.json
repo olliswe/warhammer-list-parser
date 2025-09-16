@@ -1,0 +1,209 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "aJxx4QA4QdY",
+  "datasheet_name": "Tiger Shark",
+  "url": "https://39k.pro/datasheet/aJxx4QA4QdY",
+  "miniatures": [
+    {
+      "name": "Tiger Shark",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "18",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Missile pod",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Swiftstrike railgun",
+      "stats": {
+        "range": "72\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "20",
+        "armour_penetration": "-5",
+        "damage": "D6+6"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "🠶 Ion cannon — overcharge",
+      "stats": {
+        "range": "60\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Hazardous",
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Ion cannon — standard",
+      "stats": {
+        "range": "60\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Swiftstrike burst cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "16",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Seeker missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    },
+    {
+      "name": "🠶 Cyclic ion blaster — standard",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Cyclic ion blaster — overcharge",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "Burst cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Skyspear missile rack",
+      "stats": {
+        "range": "72\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Anti-fly 3+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    },
+    {
+      "name": "Strafing Run",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot **FLY**. That enemy unit must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [
+    "■This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters.",
+    "■ This model’s transport bay can be replaced with 2 skyspear missile racks.",
+    "■ This model’s 2 ion cannons can be replaced with one of the following:\n◦ 2 swiftstrike burst cannons\n◦ 2 swiftstrike railguns",
+    "■ This model can be equipped with up to 6 seeker missiles."
+  ],
+  "unit_composition": "■ **1 Tiger Shark**\n\n**This model is equipped with:** 2 burst cannons; 2 ion cannons; 2 missile pods; armoured hull; transport bay.\nModel Name Count Points\nTiger Shark\n1\n325",
+  "unit_composition_table": [
+    {
+      "model": "Tiger Shark",
+      "count": "1",
+      "points": "325"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Tiger Shark"
+    ]
+  },
+  "custom_rules": []
+}

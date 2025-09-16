@@ -1,0 +1,163 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "upLKcmtAtro",
+  "datasheet_name": "Marneus Calgar",
+  "url": "https://39k.pro/datasheet/upLKcmtAtro",
+  "miniatures": [
+    {
+      "name": "Marneus Calgar",
+      "characteristics": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Victrix Honour Guard",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Gauntlets of Ultramar",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Gauntlets of Ultramar",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Victrix power sword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Honour Guard of Macragge",
+      "rule": "While this unit contains one or more Victrix Honour Guard models, this unit’s **MARNEUS CALGAR** model has the Feel No Pain 4+ ability."
+    },
+    {
+      "name": "Inspiring Leader",
+      "rule": "While this unit is leading a unit and contains a **MARNEUS CALGAR** model, that unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Master Tactician",
+      "rule": "At the start of your Command phase, if this unit’s Marneus Calgar model is your **WARLORD** and is on the battlefield, you gain 1CP."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Marneus Calgar – EPIC HERO**\n■ **2 Victrix Honour Guard**\n\n**Marneus Calgar is equipped with:** Gauntlets of Ultramar.\n**Every Victrix Honour Guard is equipped with:** Victrix power sword.\nModel Name Count Points\nVictrix Honour Guard\nMarneus Calgar\n2\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Victrix Honour Guard\nMarneus Calgar",
+      "count": "2\n1",
+      "points": "200"
+    }
+  ],
+  "leader": [
+    {
+      "name": "AGGRESSOR SQUAD",
+      "id": "KIAXsX0R0xw"
+    },
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "BLADEGUARD VETERAN SQUAD",
+      "id": "QzcaruUCgaI"
+    },
+    {
+      "name": "COMPANY HEROES",
+      "id": "XTVpNuL4gek"
+    },
+    {
+      "name": "ERADICATOR SQUAD",
+      "id": "q-v67eLFgVA"
+    },
+    {
+      "name": "HEAVY INTERCESSOR SQUAD",
+      "id": "O1MbdeSN0i8"
+    },
+    {
+      "name": "INFERNUS SQUAD",
+      "id": "3uOpOXVLXI4"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Ultramarines"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Character",
+      "Epic Hero",
+      "Gravis",
+      "Chapter Master",
+      "Marneus Calgar"
+    ]
+  },
+  "custom_rules": []
+}

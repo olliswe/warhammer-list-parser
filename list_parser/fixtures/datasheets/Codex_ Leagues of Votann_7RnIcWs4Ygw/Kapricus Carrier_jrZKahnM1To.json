@@ -1,0 +1,109 @@
+{
+  "faction": "Codex: Leagues of Votann",
+  "faction_id": "7RnIcWs4Ygw",
+  "datasheet_id": "jrZKahnM1To",
+  "datasheet_name": "Kapricus Carrier",
+  "url": "https://39k.pro/datasheet/jrZKahnM1To",
+  "miniatures": [
+    {
+      "name": "Kapricus Carrier",
+      "characteristics": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "4+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Magna-coil autocannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin magna‑coil autocannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Firing Deck 5",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Scanner Uplinks",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 smoke launcher."
+  ],
+  "unit_composition": "■ **1 Kapricus Carrier**\n\n**This model is equipped with:** magna‑coil autocannon; twin magna‑coil autocannon; armoured hull.\nModel Name Count Points\nKapricus Carrier\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Kapricus Carrier",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Leagues of Votann"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Transport",
+      "Dedicated Transport",
+      "Hernkyn",
+      "Kapricus",
+      "Carrier"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "a6tOdusiMDA",
+  "datasheet_name": "Benefictus",
+  "url": "https://39k.pro/datasheet/a6tOdusiMDA",
+  "miniatures": [
+    {
+      "name": "Benefictus",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Psionic Cascade — witchfire",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Psychic",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "🠶 Psionic Cascade — focused witchfire",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Hazardous",
+        "Ignores Cover",
+        "Psychic"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Psionic Shield",
+      "rule": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 4+ invulnerable save."
+    },
+    {
+      "name": "Bio‐horror Disruption",
+      "rule": "While this model is leading a unit, ranged weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Benefictus**\n\n**This model is equipped with:** Psionic Cascade; close combat weapon.\nModel Name Count Points\nBenefictus\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Benefictus",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ACOLYTE HYBRIDS",
+      "id": "qd_-rrCUysQ"
+    },
+    {
+      "name": "HYBRID METAMORPHS",
+      "id": "6BXxUwhH0Ps"
+    },
+    {
+      "name": "NEOPHYTE HYBRIDS",
+      "id": "t_PQ79CRNR8"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Great Devourer",
+      "Benefictus"
+    ]
+  },
+  "custom_rules": []
+}

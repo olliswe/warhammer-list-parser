@@ -1,0 +1,119 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "RUQ1YhPXjq8",
+  "datasheet_name": "Armiger Helverin",
+  "url": "https://39k.pro/datasheet/RUQ1YhPXjq8",
+  "miniatures": [
+    {
+      "name": "Armiger Helverin",
+      "characteristics": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "6"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Armiger autocannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured feet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Skyfire Protocols",
+      "rule": "While this model is either wholly within your deployment zone or within range of an objective marker you control, its Armiger autocannons have the **[ANTI-FLY 2+]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+  ],
+  "unit_composition": "■ **1 Armiger Helverin**\n\n**This model is equipped with:** 2 Armiger autocannons; Questoris heavy stubber; armoured feet.\nModel Name Count Points\nArmiger Helverin\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Armiger Helverin",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Imperium",
+      "Armiger",
+      "Helverin"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

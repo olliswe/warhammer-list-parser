@@ -1,0 +1,224 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "T-q15Vy1QBA",
+  "datasheet_name": "Exaction Squad",
+  "url": "https://39k.pro/datasheet/T-q15Vy1QBA",
+  "miniatures": [
+    {
+      "name": "Exaction Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Arbites shotpistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Arbites combat shotgun",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "🠶 Arbites grenade launcher — frag",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Arbites grenade launcher — krak",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Executioner shotgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Webber",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Devastating Wounds",
+        "Assault"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Mechanical bite",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Excruciator maul",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Imperial Law",
+      "rule": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the **[LETHAL HITS]** and **[PRECISION]** abilities."
+    }
+  ],
+  "wargear_options": [
+    "■ The Proctor-Exactant can be equipped with 1 nuncio aquila.",
+    "* That model’s Arbites combat shotgun cannot be replaced.",
+    "■ 1 other Exaction Vigilant that is equipped with an Arbites combat shotgun can be equipped with 1 Arbites medi-kit.*",
+    "■ 1 other Exaction Vigilant that is equipped with an Arbites combat shotgun can be equipped with 1 soulguilt scanner.*",
+    "■ 1 Exaction Vigilant that is equipped with an Arbites combat shotgun can be equipped with 1 excruciator maul.*",
+    "■ Up to 2 Exaction Vigilants can each have their Arbites combat shotguns replaced with one of the following (duplicates are not allowed):\n◦ 1 executioner shotgun\n◦ 1 Arbites grenade launcher\n◦ 1 heavy stubber\n◦ 1 webber"
+  ],
+  "unit_composition": "■ **1 Proctor-Exactant**\n■ **9 Exaction Vigilants**\n■ **1 Cyber-mastiff**\n\n**Every Proctor-Exactant and Exaction Vigilant is equipped with:** Arbites combat shotgun; Arbites shotpistol; close combat weapon.\n\n**The Cyber-mastiff is equipped with:** mechanical bite.\nModel Name Count Points\nProctor-Exactant\nCyber-mastiff\nExaction Vigilant\n1\n1\n9\n90\nExaction Vigilant\nCyber-mastiff\nProctor-Exactant\n9\n1\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "Proctor-Exactant\nCyber-mastiff\nExaction Vigilant",
+      "count": "1\n1\n9",
+      "points": "90"
+    },
+    {
+      "model": "Exaction Vigilant\nCyber-mastiff\nProctor-Exactant",
+      "count": "9\n1\n1",
+      "points": "90"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Inquisitor Coteaz",
+      "id": "Zm-XpZ4gxuQ"
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "id": "KUyHn0yYa7U"
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "id": "MVTjOHpMqo8"
+    },
+    {
+      "name": "Inquisitor",
+      "id": "oaaSrafY7x8"
+    },
+    {
+      "name": "Ministorum Priest",
+      "id": "T-JD-8M4Z8w"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Retinue",
+      "Adeptus Arbites",
+      "Exaction Squad"
+    ]
+  },
+  "custom_rules": []
+}

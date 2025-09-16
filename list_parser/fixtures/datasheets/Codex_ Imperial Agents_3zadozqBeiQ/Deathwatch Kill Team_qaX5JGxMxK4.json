@@ -1,0 +1,269 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "qaX5JGxMxK4",
+  "datasheet_name": "Deathwatch Kill Team",
+  "url": "https://39k.pro/datasheet/qaX5JGxMxK4",
+  "miniatures": [
+    {
+      "name": "Deathwatch Kill Team",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Boltgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Stalker-pattern boltgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Heavy",
+        "Precision"
+      ]
+    },
+    {
+      "name": "Frag cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Heavy",
+        "Rapid Fire D3",
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Infernus heavy bolter — heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "🠶 Infernus heavy bolter — heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1",
+        "Heavy"
+      ]
+    },
+    {
+      "name": "Deathwatch shotgun",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Xenophase blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Black Shield blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Deathwatch thunder hammer",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Death to the Alien",
+      "rule": "Each time a model in this unit makes an attack, re‐roll a Hit roll of 1. If the target of that attack does not have the **IMPERIUM** or **CHAOS** keywords, you can re‐roll the Hit roll instead."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with one of the following:\n◦ 1 boltgun and 1 Astartes shield\n◦ 1 power weapon and 1 Astartes shield",
+    "■ For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch thunder hammer.",
+    "■ For every 5 models in this unit, 1 model can have their boltgun and power weapon replaced with 1 stalker‐pattern boltgun and 1 close combat weapon.",
+    "■ For every 5 models in this unit, up to 2 models can each have their boltgun and power weapon replaced with 1 Deathwatch shotgun and 1 close combat weapon.",
+    "■ For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 frag cannon and 1 close combat weapon.",
+    "■ For every 5 models in this unit, 1 model can have its boltgun and power weapon replaced with 1 infernus heavy bolter and 1 close combat weapon.",
+    "■ One model’s boltgun and power weapon can be replaced with 1 Black Shield blades.",
+    "■ The Watch Sergeant’s power weapon can be replaced with 1 xenophase blade.",
+    "■ The Watch Sergeant’s boltgun can be replaced with 1 combi‐weapon."
+  ],
+  "unit_composition": "■ **1 Watch Sergeant**\n■ **4‐9 Deathwatch Veterans**\n\n**Every model is equipped with:** boltgun; power weapon.\nModel Name Count Points\nWatch Sergeant\nDeathwatch Veterans\n1\n4\n100\nWatch Sergeant\nDeathwatch Veterans\n1\n4\n100\nWatch Sergeant\nDeathwatch Veterans\n1\n5-9\n200\nWatch Sergeant\nDeathwatch Veterans\n1\n5-9\n200",
+  "unit_composition_table": [
+    {
+      "model": "Watch Sergeant\nDeathwatch Veterans",
+      "count": "1\n4",
+      "points": "100"
+    },
+    {
+      "model": "Watch Sergeant\nDeathwatch Veterans",
+      "count": "1\n4",
+      "points": "100"
+    },
+    {
+      "model": "Watch Sergeant\nDeathwatch Veterans",
+      "count": "1\n5-9",
+      "points": "200"
+    },
+    {
+      "model": "Watch Sergeant\nDeathwatch Veterans",
+      "count": "1\n5-9",
+      "points": "200"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Watch Master",
+      "id": "Y6u4TRUZoyM"
+    },
+    {
+      "name": "Watch Captain Artemis",
+      "id": "SWMQdcsZoOA"
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "id": "KUyHn0yYa7U"
+    },
+    {
+      "name": "Inquisitor",
+      "id": "oaaSrafY7x8"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Ordo Xenos",
+      "Retinue",
+      "Deathwatch",
+      "Kill Team"
+    ]
+  },
+  "custom_rules": []
+}

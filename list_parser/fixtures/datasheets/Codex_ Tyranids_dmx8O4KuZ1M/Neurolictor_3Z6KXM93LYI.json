@@ -1,0 +1,88 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "3Z6KXM93LYI",
+  "datasheet_name": "Neurolictor",
+  "url": "https://39k.pro/datasheet/3Z6KXM93LYI",
+  "miniatures": [
+    {
+      "name": "Neurolictor",
+      "characteristics": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Piercing claws and talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Psychological Saboteur",
+      "rule": "While an enemy unit is within 12\" of this model, if that unit is Battle-shocked:\n■ Each time a model in that unit makes an attack, subtract 1 from the Hit roll.\n■ Each time a friendly **TYRANIDS** model makes an attack that targets that unit, add 1 to the Wound roll."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Feeder Tendrils",
+      "rule": "Each time this model destroys an enemy **CHARACTER** model, you gain 1CP."
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Neural Disruption",
+      "rule": "In your Command phase, select one enemy unit within 12\" of this model. That unit must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Neurolictor**\n\n**This model is equipped with:** piercing claws and talons.\nModel Name Count Points\nNeurolictor\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Neurolictor",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Vanguard Invader",
+      "Synapse",
+      "Neurolictor"
+    ]
+  },
+  "custom_rules": []
+}

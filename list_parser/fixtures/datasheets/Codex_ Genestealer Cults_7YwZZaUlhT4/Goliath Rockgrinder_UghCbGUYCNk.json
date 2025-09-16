@@ -1,0 +1,149 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "UghCbGUYCNk",
+  "datasheet_name": "Goliath Rockgrinder",
+  "url": "https://39k.pro/datasheet/UghCbGUYCNk",
+  "miniatures": [
+    {
+      "name": "Goliath Rockgrinder",
+      "characteristics": {
+        "M": "12\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Demolition charge cache",
+      "stats": {
+        "range": "8\"",
+        "attacks": "D6",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault",
+        "Blast",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "Heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Heavy seismic cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Clearance incinerator",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2D6",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Heavy mining laser",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Drilldozer blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Grinding Line-breaker",
+      "rule": "Each time an enemy unit (excluding **MONSTERS** and **VEHICLES**) that is within Engagement Range of this model Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests."
+    },
+    {
+      "name": "Firing Deck 6",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s heavy mining laser can be replaced with one of the following: \n◦ 1 clearance incinerator\n◦ 1 heavy seismic cannon"
+  ],
+  "unit_composition": "■ **1 Goliath Rockgrinder**\n\n**This model is equipped with:** heavy mining laser; heavy stubber; drilldozer blade; demolition charge cache.\nModel Name Count Points\nGoliath Rockgrinder\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Goliath Rockgrinder",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Great Devourer",
+      "Goliath Rockgrinder"
+    ]
+  },
+  "custom_rules": []
+}

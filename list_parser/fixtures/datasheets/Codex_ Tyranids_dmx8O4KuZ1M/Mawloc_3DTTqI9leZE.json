@@ -1,0 +1,85 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "3DTTqI9leZE",
+  "datasheet_name": "Mawloc",
+  "url": "https://39k.pro/datasheet/3DTTqI9leZE",
+  "miniatures": [
+    {
+      "name": "Mawloc",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "8+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Distensible jaw",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "3"
+      },
+      "abilities": [
+        "Extra Attacks",
+        "Devastating Wounds",
+        "Anti-infantry 4+"
+      ]
+    },
+    {
+      "name": "Mawloc scything talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "16",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Terror From The Deep",
+      "rule": "Each time this model is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Mawloc**\n\n**This model is equipped with:** distensible jaw; Mawloc scything talons.\nModel Name Count Points\nMawloc\n1\n145",
+  "unit_composition_table": [
+    {
+      "model": "Mawloc",
+      "count": "1",
+      "points": "145"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Vanguard Invader",
+      "Mawloc"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,115 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "0xhO9V39wVI",
+  "datasheet_name": "Kustom Boosta-blasta",
+  "url": "https://39k.pro/datasheet/0xhO9V39wVI",
+  "miniatures": [
+    {
+      "name": "Kustom Boosta-blasta",
+      "characteristics": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "4+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Rivet kannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "6",
+        "ballistic_skill": "5+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault",
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Burna exhausts",
+      "stats": {
+        "range": "6\"",
+        "attacks": "2D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Grot blasta",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Spiked ram",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rivetin’ Dakka",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with a rivet kannon. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes a ranged attack, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Kustom Boosta-blasta**\n\n**This model is equipped with:** burna exhausts; grot blasta; rivet kannon; spiked ram.\nModel Name Count Points\nKustom Boosta-blasta\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Kustom Boosta-blasta",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Grenades",
+      "Speed Freeks",
+      "Kustom Boost-blasta"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,120 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "tEyy9-PVe4I",
+  "datasheet_name": "Culexus Assassin",
+  "url": "https://39k.pro/datasheet/tEyy9-PVe4I",
+  "miniatures": [
+    {
+      "name": "Culexus Assassin",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Animus speculum",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Precision",
+        "Assault",
+        "Anti-psyker 2+",
+        "Psychic Assassin"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Life-draining touch",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-psyker 2+",
+        "Devastating Wounds",
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Etheric Emergence",
+      "rule": "In your Movement phase when this model is set up on the battlefield using the Deep Strike ability, it can perform an etheric emergence. If it does, this model can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge."
+    },
+    {
+      "name": "Abomination",
+      "rule": "This model has the Feel No Pain 2+ ability against Psychic Attacks."
+    },
+    {
+      "name": "Soulless Horror",
+      "rule": "Once per battle, at the start of any Command phase, this model can use this ability. If it does, each enemy unit within 9\" of this model must take a Battle‐shock test, subtracting 1 from that test (or subtracting 2 if that unit is a **PSYKER**)."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Culexus Assassin – EPIC HERO**\n\n**This model is equipped with:** animus speculum; life-draining touch.\nModel Name Count Points\nCulexus Assassin\n1\n85\nCulexus Assassin\n1\n85\nCulexus Assassin\n1\n125",
+  "unit_composition_table": [
+    {
+      "model": "Culexus Assassin",
+      "count": "1",
+      "points": "85"
+    },
+    {
+      "model": "Culexus Assassin",
+      "count": "1",
+      "points": "85"
+    },
+    {
+      "model": "Culexus Assassin",
+      "count": "1",
+      "points": "125"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Officio Assassinorum",
+      "Culexus Assassin"
+    ]
+  },
+  "custom_rules": []
+}

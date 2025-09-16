@@ -604,6 +604,7 @@
                         container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet: ${datasheetData.error}</div>`;
                     }
                 } catch (error) {
+                    console.log(error);
                     container.innerHTML = `<div style="color: #dc3545; text-align: center; margin-top: 50px;">Error loading datasheet details</div>`;
                 }
             } else if (entity.type === 'faction' && entity.faction_id) {
@@ -696,13 +697,14 @@
             `;
             
             // Characteristics Table
-            if (datasheet.characteristics) {
+            if (datasheet.miniatures && datasheet.miniatures.length > 0) {
                 html += `
                     <div class="detail-section">
                         <h4>Characteristics</h4>
                         <table class="characteristics-table">
                             <thead>
                                 <tr>
+                                    <th>Model</th>
                                     <th>M</th>
                                     <th>T</th>
                                     <th>SV</th>
@@ -712,14 +714,24 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td>${datasheet.characteristics.M}</td>
-                                    <td>${datasheet.characteristics.T}</td>
-                                    <td>${datasheet.characteristics.SV}</td>
-                                    <td>${datasheet.characteristics.W}</td>
-                                    <td>${datasheet.characteristics.LD}</td>
-                                    <td>${datasheet.characteristics.OC}</td>
-                                </tr>
+                `;
+                
+                datasheet.miniatures.forEach(miniature => {
+                    const chars = miniature.characteristics;
+                    html += `
+                        <tr>
+                            <td style="text-align: left; font-weight: 500;">${miniature.name}</td>
+                            <td>${chars.M}</td>
+                            <td>${chars.T}</td>
+                            <td>${chars.SV}</td>
+                            <td>${chars.W}</td>
+                            <td>${chars.LD}</td>
+                            <td>${chars.OC}</td>
+                        </tr>
+                    `;
+                });
+                
+                html += `
                             </tbody>
                         </table>
                         ${datasheet.invulnerable_save ? `<p style="margin-top: 8px; font-weight: 500;">${datasheet.invulnerable_save}</p>` : ''}
@@ -728,10 +740,10 @@
             }
             
             // Weapons Tables
-            if (datasheet.weapons && (datasheet.weapons.ranged?.length > 0 || datasheet.weapons.melee?.length > 0)) {
+            if ((datasheet.ranged_weapons && datasheet.ranged_weapons.length > 0) || (datasheet.melee_weapons && datasheet.melee_weapons.length > 0)) {
                 html += `<div class="detail-section"><h4>Weapons</h4>`;
                 
-                if (datasheet.weapons.ranged?.length > 0) {
+                if (datasheet.ranged_weapons && datasheet.ranged_weapons.length > 0) {
                     html += `
                         <h5 style="margin-bottom: 8px; color: #666;">Ranged Weapons</h5>
                         <table class="weapons-table">
@@ -749,7 +761,7 @@
                             </thead>
                             <tbody>
                     `;
-                    datasheet.weapons.ranged.forEach(weapon => {
+                    datasheet.ranged_weapons.forEach(weapon => {
                         const abilities = weapon.abilities && weapon.abilities.length > 0 
                             ? weapon.abilities.join(', ') 
                             : '—';
@@ -772,7 +784,7 @@
                     `;
                 }
                 
-                if (datasheet.weapons.melee?.length > 0) {
+                if (datasheet.melee_weapons && datasheet.melee_weapons.length > 0) {
                     html += `
                         <h5 style="margin-bottom: 8px; color: #666; margin-top: 15px;">Melee Weapons</h5>
                         <table class="weapons-table">
@@ -790,7 +802,7 @@
                             </thead>
                             <tbody>
                     `;
-                    datasheet.weapons.melee.forEach(weapon => {
+                    datasheet.melee_weapons.forEach(weapon => {
                         const abilities = weapon.abilities && weapon.abilities.length > 0 
                             ? weapon.abilities.join(', ') 
                             : '—';
@@ -830,18 +842,34 @@
                 html += `</div>`;
             }
             
+            // Custom Rules
+            if (datasheet.custom_rules?.length > 0) {
+                html += `
+                    <div class="detail-section">
+                        <h4>Custom Rules</h4>
+                `;
+                datasheet.custom_rules.forEach(rule => {
+                    html += `
+                        <div style="margin-bottom: 15px;">
+                            <h5 style="color: #555; margin-bottom: 8px;">${rule.title}</h5>
+                            <div class="detail-text">${rule.text.replace(/\n/g, '<br>')}</div>
+                        </div>
+                    `;
+                });
+                html += `</div>`;
+            }
+            
             // Keywords
             if (datasheet.keywords) {
                 html += `<div class="detail-section keywords-section"><h4>Keywords</h4>`;
                 
-                if (datasheet.keywords.faction_keywords) {
+                if (datasheet.keywords.faction_keywords && datasheet.keywords.faction_keywords.length > 0) {
                     html += `
                         <div style="margin-bottom: 12px;">
                             <h5 style="color: #555; margin-bottom: 4px; font-size: 14px;">Faction Keywords</h5>
                             <div class="keywords-list">
                     `;
-                    const factionKeywords = datasheet.keywords.faction_keywords.split(',').map(k => k.trim());
-                    factionKeywords.forEach(keyword => {
+                    datasheet.keywords.faction_keywords.forEach(keyword => {
                         if (keyword) {
                             html += `<span class="keyword-tag faction-keyword">${keyword}</span>`;
                         }
@@ -849,14 +877,13 @@
                     html += `</div></div>`;
                 }
                 
-                if (datasheet.keywords.keywords) {
+                if (datasheet.keywords.keywords && datasheet.keywords.keywords.length > 0) {
                     html += `
                         <div>
                             <h5 style="color: #555; margin-bottom: 4px; font-size: 14px;">Keywords</h5>
                             <div class="keywords-list">
                     `;
-                    const keywords = datasheet.keywords.keywords.split(',').map(k => k.trim());
-                    keywords.forEach(keyword => {
+                    datasheet.keywords.keywords.forEach(keyword => {
                         if (keyword) {
                             html += `<span class="keyword-tag">${keyword}</span>`;
                         }

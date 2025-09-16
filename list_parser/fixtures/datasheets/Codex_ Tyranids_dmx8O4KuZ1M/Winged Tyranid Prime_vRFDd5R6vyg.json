@@ -1,0 +1,93 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "vRFDd5R6vyg",
+  "datasheet_name": "Winged Tyranid Prime",
+  "url": "https://39k.pro/datasheet/vRFDd5R6vyg",
+  "miniatures": [
+    {
+      "name": "Winged Tyranid Prime",
+      "characteristics": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "6",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Prime talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Alpha Warrior",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Death Blow",
+      "rule": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Winged Tyranid Prime**\n\n**This model is equipped with:** Prime talons.\nModel Name Count Points\nWinged Tyranid Prime\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Winged Tyranid Prime",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "leader": [
+    {
+      "name": "GARGOYLES",
+      "id": "OHhWeSMPoyc"
+    },
+    {
+      "name": "TYRANID WARRIORS WITH MELEE BIO-WEAPONS",
+      "id": "qMhFbYAxtlI"
+    },
+    {
+      "name": "TYRANID WARRIORS WITH RANGED BIO-WEAPONS",
+      "id": "R2S7DsckROU"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Fly",
+      "Great Devourer",
+      "Synapse",
+      "Vanguard Invader",
+      "Winged Tyranid Prime"
+    ]
+  },
+  "custom_rules": []
+}

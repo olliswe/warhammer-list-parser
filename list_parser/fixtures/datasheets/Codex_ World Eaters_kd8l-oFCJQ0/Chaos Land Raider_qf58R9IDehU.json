@@ -1,0 +1,149 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "kd8l-oFCJQ0",
+  "datasheet_id": "qf58R9IDehU",
+  "datasheet_name": "Chaos Land Raider",
+  "url": "https://39k.pro/datasheet/qf58R9IDehU",
+  "miniatures": [
+    {
+      "name": "Chaos Land Raider",
+      "characteristics": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 4"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Twin heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 2",
+        "Sustained Hits 1",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Soulshatter lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Havoc launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "9",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Assault Ramp",
+      "rule": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 havoc launcher.",
+    "■ This model can be equipped with one of the following:\n◦ 1 combi-bolter\n◦ 1 combi-weapon"
+  ],
+  "unit_composition": "■ **1 Chaos Land Raider**\n\n**This model is equipped with:** 2 soulshatter lascannons; twin heavy bolter; armoured tracks.\nModel Name Count Points\nChaos Land Raider\n1\n240",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Land Raider",
+      "count": "1",
+      "points": "240"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: World Eaters"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Smoke",
+      "Chaos",
+      "Khorne",
+      "Land Raider"
+    ]
+  },
+  "custom_rules": []
+}

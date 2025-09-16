@@ -1,0 +1,106 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "Kaqw8u3NjVE",
+  "datasheet_id": "FXptx86UCLM",
+  "datasheet_name": "Baharroth",
+  "url": "https://39k.pro/datasheet/FXptx86UCLM",
+  "miniatures": [
+    {
+      "name": "Baharroth",
+      "characteristics": {
+        "M": "14\"",
+        "T": "3",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Fury of the Tempest",
+      "stats": {
+        "range": "24\"",
+        "attacks": "4",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault",
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Shining Blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Cry of the Wind",
+      "rule": "Each time this model is set up on the battlefield, until the end of the turn, each time this model makes a ranged attack, a successful unmodified Hit roll scores a Critical Hit."
+    },
+    {
+      "name": "Cloudstrider",
+      "rule": "While this model is leading a unit, at the end of your opponent’s turn, if that unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves. In addition, while this model is leading a unit, when that unit is set up on the battlefield using the Deep Strike ability, in your movement phase, it can use this ability. If it does, that unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models, but until the end of the turn, it is not eligible to declare a charge."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Baharroth – EPIC HERO**\n\n**This model is equipped with:** Fury of the Tempest; Shining Blade.\nModel Name Count Points\nBaharroth\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Baharroth",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "leader": [
+    {
+      "name": "SWOOPING HAWKS",
+      "id": "h7JPFGW2J8I"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Asuryani"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Aeldari",
+      "Jump Pack",
+      "Fly",
+      "Grenades",
+      "Aspect Warrior",
+      "Phoenix Lord",
+      "Baharroth"
+    ]
+  },
+  "custom_rules": []
+}

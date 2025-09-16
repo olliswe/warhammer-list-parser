@@ -1,0 +1,100 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "Kaqw8u3NjVE",
+  "datasheet_id": "8CzeJHjDmY8",
+  "datasheet_name": "D-cannon Platform",
+  "url": "https://39k.pro/datasheet/8CzeJHjDmY8",
+  "miniatures": [
+    {
+      "name": "D-cannon Platform",
+      "characteristics": {
+        "M": "7\"",
+        "T": "6",
+        "SV": "4+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "D-cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "16",
+        "armour_penetration": "-4",
+        "damage": "D6+2"
+      },
+      "abilities": [
+        "Blast",
+        "Devastating Wounds",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Shuriken catapult",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Support Weapon",
+      "rule": "Each time an attack targets this model’s unit, if that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
+    },
+    {
+      "name": "Structural Collapse",
+      "rule": "Each time this model makes an attack with its D‐cannon, re‐roll a Damage roll of 1. If that attack targets a **TITANIC** unit, you can re‐roll the Damage roll instead."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 D‐cannon Platform**\n\n**This model is equipped with:** D‐cannon; shuriken catapult; close combat weapon.\nModel Name Count Points\nD-cannon Platform\n1\n125",
+  "unit_composition_table": [
+    {
+      "model": "D-cannon Platform",
+      "count": "1",
+      "points": "125"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Asuryani"
+    ],
+    "keywords": [
+      "Infantry",
+      "Aeldari",
+      "Support Weapon",
+      "D-cannon Platform"
+    ]
+  },
+  "custom_rules": []
+}

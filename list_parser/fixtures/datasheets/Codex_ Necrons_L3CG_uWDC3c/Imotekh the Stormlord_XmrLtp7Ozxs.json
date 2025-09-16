@@ -1,0 +1,117 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "XmrLtp7Ozxs",
+  "datasheet_name": "Imotekh the Stormlord",
+  "url": "https://39k.pro/datasheet/XmrLtp7Ozxs",
+  "miniatures": [
+    {
+      "name": "Imotekh the Stormlord",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Staff of the Destroyer",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Gauntlet of Fire",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Staff of the Destroyer",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lord of the Storm",
+      "rule": "Once per battle, at the end of your Command phase, this model can use this ability. If it does, roll one D6 for each enemy unit within 12\" of this model: on a 2-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+    },
+    {
+      "name": "Grand Strategist",
+      "rule": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Imotekh the Stormlord – EPIC HERO**\n\n**This model is equipped with:** Gauntlet of Fire; Staff of the Destroyer.\nModel Name Count Points\nImotekh the Stormlord\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Imotekh the Stormlord",
+      "count": "1",
+      "points": "100"
+    }
+  ],
+  "leader": [
+    {
+      "name": "IMMORTALS",
+      "id": "Ufq4az5uMCc"
+    },
+    {
+      "name": "LYCHGUARD",
+      "id": "b3vcVKi49f8"
+    },
+    {
+      "name": "NECRON WARRIORS",
+      "id": "vaCmdROVB9g"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Noble",
+      "Imotekh the Stormlord"
+    ]
+  },
+  "custom_rules": []
+}

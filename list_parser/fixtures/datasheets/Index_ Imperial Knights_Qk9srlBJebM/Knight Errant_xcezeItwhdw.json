@@ -1,0 +1,208 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "xcezeItwhdw",
+  "datasheet_name": "Knight Errant",
+  "url": "https://39k.pro/datasheet/xcezeItwhdw",
+  "miniatures": [
+    {
+      "name": "Knight Errant",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "26",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Icarus autocannons",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Stormspear rocket pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Ironstorm missile pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Thermal cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2D3",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Blast",
+        "Melta 6"
+      ]
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Reaper chainsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "20",
+        "armour_penetration": "-3",
+        "damage": "8"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Errant’s Duty",
+      "rule": "While a model is affected by this ability, you can re-roll Advance rolls made for that model and its ranged weapons have the **[ASSAULT]** ability."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Aggressive Assault",
+      "rule": "Each time this model makes a ranged attack against the closest eligible target, add 1 to the Hit roll."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following: \n◦ 1 Icarus autocannons\n◦ 1 ironstorm missile pod\n◦ 1 stormspear rocket pod",
+    "■ This model’s meltagun can be replaced with 1 Questoris heavy stubber.",
+    "■ This model’s reaper chainsword can be replaced with 1 thunderstrike gauntlet."
+  ],
+  "unit_composition": "■ **1 Knight Errant**\n\n**This model is equipped with:** meltagun; thermal cannon; reaper chainsword.\nModel Name Count Points\nKnight Errant\n1\n375",
+  "unit_composition_table": [
+    {
+      "model": "Knight Errant",
+      "count": "1",
+      "points": "375"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Questoris",
+      "Character",
+      "Imperium",
+      "Knight Errant"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

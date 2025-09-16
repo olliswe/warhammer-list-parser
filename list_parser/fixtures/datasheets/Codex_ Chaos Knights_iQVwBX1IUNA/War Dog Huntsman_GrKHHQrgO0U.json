@@ -1,0 +1,132 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "iQVwBX1IUNA",
+  "datasheet_id": "GrKHHQrgO0U",
+  "datasheet_name": "War Dog Huntsman",
+  "url": "https://39k.pro/datasheet/GrKHHQrgO0U",
+  "miniatures": [
+    {
+      "name": "War Dog Huntsman",
+      "characteristics": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "6"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Daemonbreath meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Diabolus heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Daemonbreath spear",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 4"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Reaper chaintalon — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chaintalon — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Huntsman",
+      "rule": "Each time this model makes an attack that targets a **MONSTER** or **VEHICLE** unit, you can re‑roll the Wound roll."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s diabolus heavy stubber can be replaced with 1 daemonbreath meltagun."
+  ],
+  "unit_composition": "■ **1 War Dog Huntsman**\n\n**This model is equipped with:** daemonbreath spear; diabolus heavy stubber; reaper chaintalon.\nModel Name Count Points\nWar Dog Huntsman\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "War Dog Huntsman",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Chaos Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "War Dog",
+      "Huntsman"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*Against ranged attacks only.*"
+    }
+  ]
+}

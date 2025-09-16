@@ -1,0 +1,127 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "g_fIiQQpbUw",
+  "datasheet_name": "Subductor Squad",
+  "url": "https://39k.pro/datasheet/g_fIiQQpbUw",
+  "miniatures": [
+    {
+      "name": "Subductor Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 4+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Arbites shotpistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Shock maul",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Mechanical bite",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Dedication to Duty",
+      "rule": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+    }
+  ],
+  "wargear_options": [
+    "■ The Proctor-Subductor can be equipped with 1 nuncio aquila."
+  ],
+  "unit_composition": "■ **1 Proctor-Subductor**\n■ **9 Subductors**\n■ **1 Cyber-mastiff**\n\n**Every Proctor-Subductor and Subductor is equipped with:** Arbites shotpistol; shock maul.\n**The Cyber-mastiff is equipped with:** mechanical bite.\nModel Name Count Points\nSubductor\nCyber-mastiff\nProctor-Subductor\n9\n1\n1\n85\nProctor-Subductor\nCyber-mastiff\nSubductor\n1\n1\n9\n100",
+  "unit_composition_table": [
+    {
+      "model": "Subductor\nCyber-mastiff\nProctor-Subductor",
+      "count": "9\n1\n1",
+      "points": "85"
+    },
+    {
+      "model": "Proctor-Subductor\nCyber-mastiff\nSubductor",
+      "count": "1\n1\n9",
+      "points": "100"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Inquisitor Coteaz",
+      "id": "Zm-XpZ4gxuQ"
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "id": "KUyHn0yYa7U"
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "id": "MVTjOHpMqo8"
+    },
+    {
+      "name": "Inquisitor",
+      "id": "oaaSrafY7x8"
+    },
+    {
+      "name": "Ministorum Priest",
+      "id": "T-JD-8M4Z8w"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Retinue",
+      "Adeptus Arbites",
+      "Subductor Squad"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 4+ (click for extra rules)",
+      "text": "*Excluding the Cyber-mastiff.*"
+    }
+  ]
+}

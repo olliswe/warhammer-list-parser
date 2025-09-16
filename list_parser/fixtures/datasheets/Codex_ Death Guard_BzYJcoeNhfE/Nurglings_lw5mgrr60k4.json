@@ -1,0 +1,82 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "lw5mgrr60k4",
+  "datasheet_name": "Nurglings",
+  "url": "https://39k.pro/datasheet/lw5mgrr60k4",
+  "miniatures": [
+    {
+      "name": "Nurglings",
+      "characteristics": {
+        "M": "5\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "4",
+        "LD": "8+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Diseased claws and teeth",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "5+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Mischief Makers",
+      "rule": "Each time an enemy unit (excluding **TITANIC** units) within Engagement Range of one or more units with this ability is selected to fight, until the end of the phase, each time a model in that enemy unit makes a melee attack, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Nurgling Swarms**\n\n**Every model is equipped with:** diseased claws and teeth.\nModel Name Count Points\nNurgling Swarm\n3\n40\nNurgling Swarm\n4-6\n70",
+  "unit_composition_table": [
+    {
+      "model": "Nurgling Swarm",
+      "count": "3",
+      "points": "40"
+    },
+    {
+      "model": "Nurgling Swarm",
+      "count": "4-6",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Plague Legions"
+    ],
+    "keywords": [
+      "Swarm",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Summoned",
+      "Nurglings"
+    ]
+  },
+  "custom_rules": []
+}

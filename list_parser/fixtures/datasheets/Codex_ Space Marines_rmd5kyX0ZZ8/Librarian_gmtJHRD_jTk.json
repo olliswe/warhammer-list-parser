@@ -1,0 +1,156 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "gmtJHRD_jTk",
+  "datasheet_name": "Librarian",
+  "url": "https://39k.pro/datasheet/gmtJHRD_jTk",
+  "miniatures": [
+    {
+      "name": "Librarian",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Smite — focused witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Psychic",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "🠶 Smite — witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Force weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mental Fortress",
+      "rule": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Psychic Hood",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Librarian**\n\n**This model is equipped with:** bolt pistol; Smite; force weapon.\nModel Name Count Points\nLibrarian\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Librarian",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "DESOLATION SQUAD",
+      "id": "j5n674bpjiI"
+    },
+    {
+      "name": "DEVASTATOR SQUAD",
+      "id": "9XpBjM-Lc2o"
+    },
+    {
+      "name": "HELLBLASTER SQUAD",
+      "id": "k5kI-BiLztA"
+    },
+    {
+      "name": "INFERNUS SQUAD",
+      "id": "3uOpOXVLXI4"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Psyker",
+      "Imperium",
+      "Tacticus",
+      "Librarian"
+    ]
+  },
+  "custom_rules": []
+}

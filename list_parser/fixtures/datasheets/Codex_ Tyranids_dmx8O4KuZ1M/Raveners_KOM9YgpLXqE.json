@@ -1,0 +1,72 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "KOM9YgpLXqE",
+  "datasheet_name": "Raveners",
+  "url": "https://39k.pro/datasheet/KOM9YgpLXqE",
+  "miniatures": [
+    {
+      "name": "Raveners",
+      "characteristics": {
+        "M": "10\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "3",
+        "LD": "8+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Ravener claws and talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Death From Below",
+      "rule": "At the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **5 Raveners**\n\n**Every model is equipped with:** Ravener claws and talons.\nModel Name Count Points\nRavener\n5\n125",
+  "unit_composition_table": [
+    {
+      "model": "Ravener",
+      "count": "5",
+      "points": "125"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Vanguard Invader",
+      "Burrower",
+      "Raveners"
+    ]
+  },
+  "custom_rules": []
+}

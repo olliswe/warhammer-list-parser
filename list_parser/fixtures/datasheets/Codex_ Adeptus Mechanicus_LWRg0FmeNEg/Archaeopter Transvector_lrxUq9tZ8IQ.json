@@ -1,0 +1,99 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "LWRg0FmeNEg",
+  "datasheet_id": "lrxUq9tZ8IQ",
+  "datasheet_name": "Archaeopter Transvector",
+  "url": "https://39k.pro/datasheet/lrxUq9tZ8IQ",
+  "miniatures": [
+    {
+      "name": "Archaeopter Transvector",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Cognis heavy stubber array",
+      "stats": {
+        "range": "36\"",
+        "attacks": "9",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 9",
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Aerial Deployment",
+      "rule": "If this model starts the game in Hover mode and in Strategic Reserves, it can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s command uplink can be replaced with 1 chaff launcher."
+  ],
+  "unit_composition": "■ **1 Archaeopter Transvector**\n\n**This model is equipped with:** cognis heavy stubber array; armoured hull; command uplink.\nModel Name Count Points\nArchaeopter Transvector\n1\n150",
+  "unit_composition_table": [
+    {
+      "model": "Archaeopter Transvector",
+      "count": "1",
+      "points": "150"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Mechanicus"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Transport",
+      "Fly",
+      "Imperium",
+      "Skitarii",
+      "Archaeopter Transvector"
+    ]
+  },
+  "custom_rules": []
+}

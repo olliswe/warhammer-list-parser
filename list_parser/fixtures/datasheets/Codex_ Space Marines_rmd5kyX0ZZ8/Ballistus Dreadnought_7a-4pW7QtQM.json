@@ -1,0 +1,124 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "7a-4pW7QtQM",
+  "datasheet_name": "Ballistus Dreadnought",
+  "url": "https://39k.pro/datasheet/7a-4pW7QtQM",
+  "miniatures": [
+    {
+      "name": "Ballistus Dreadnought",
+      "characteristics": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Ballistus lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "🠶 Ballistus missile launcher — frag",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Ballistus missile launcher — krak",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured feet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Ballistus Strike",
+      "rule": "Each time this model makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ballistus Dreadnought**\n\n**This model is equipped with:** Ballistus missile launcher; Ballistus lascannon; twin storm bolter; armoured feet.\nModel Name Count Points\nBallistus Dreadnought\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Ballistus Dreadnought",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Ballistus Dreadnought"
+    ]
+  },
+  "custom_rules": []
+}

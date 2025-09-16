@@ -1,0 +1,155 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "cRLK-aDYBxk",
+  "datasheet_id": "M3suT_2JzyE",
+  "datasheet_name": "Ravenwing Black Knights",
+  "url": "https://39k.pro/datasheet/M3suT_2JzyE",
+  "miniatures": [
+    {
+      "name": "Ravenwing Black Knights",
+      "characteristics": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Astartes grenade launcher — krak",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Astartes grenade launcher — frag",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Plasma talon — standard",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "🠶 Plasma talon — supercharge",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Black Knight combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Knights of Caliban",
+      "rule": "Each time this unit is selected to fight, if it made a Charge move this turn, until the end of the phase, melee weapons equipped by models in this unit have the **[ANTI-MONSTER 4+]** and **[ANTI-VEHICLE 4+]** abilities."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 3 models in this unit, 1 model can replace its plasma talon with 1 Astartes grenade launcher."
+  ],
+  "unit_composition": "■ **1 Ravenwing Huntmaster**\n■ **2-5 Ravenwing Black Knights**\n\n**Every model is equipped with:** bolt pistol; plasma talon; Black Knight combat weapon.\nModel Name Count Points\nRavenwing Black Knight\nRavenwing Huntmaster\n2\n1\n90\nRavenwing Huntmaster\nRavenwing Black Knight\n1\n3-5\n180",
+  "unit_composition_table": [
+    {
+      "model": "Ravenwing Black Knight\nRavenwing Huntmaster",
+      "count": "2\n1",
+      "points": "90"
+    },
+    {
+      "model": "Ravenwing Huntmaster\nRavenwing Black Knight",
+      "count": "1\n3-5",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Sammael",
+      "id": "KP1AjAEKSuc"
+    },
+    {
+      "name": "Ravenwing Command Squad",
+      "id": "Xca4nqhn0FA"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Dark Angels"
+    ],
+    "keywords": [
+      "Mounted",
+      "Grenades",
+      "Imperium",
+      "Ravenwing",
+      "Ravenwing Black Knights"
+    ]
+  },
+  "custom_rules": []
+}

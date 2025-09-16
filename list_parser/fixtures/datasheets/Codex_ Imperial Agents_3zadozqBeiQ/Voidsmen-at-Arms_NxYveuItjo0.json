@@ -1,0 +1,151 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "NxYveuItjo0",
+  "datasheet_name": "Voidsmen-at-Arms",
+  "url": "https://39k.pro/datasheet/NxYveuItjo0",
+  "miniatures": [
+    {
+      "name": "Voidsmen-at-Arms",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Laspistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Lasgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "Voidsman rotor cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Heavy",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Artificer shotgun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Vicious bite",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Masters of Close Confines",
+      "rule": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the **[LETHAL HITS]** ability."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Voidmaster**\n■ **4 Voidsmen**\n■ **1 Canid**\n\n**The Voidmaster is equipped with:** artificer shotgun; laspistol; close combat weapon.\n**One Voidsman is equipped with:** laspistol; Voidsman rotor cannon; close combat weapon.\n**Every other Voidsman is equipped with:** lasgun; laspistol; close combat weapon.\n**The Canid is equipped with:** vicious bite.\nModel Name Count Points\nCanid\nVoidmaster\nVoidsman\n1\n1\n4\n50\nVoidmaster\nVoidsman\nCanid\n1\n4\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Canid\nVoidmaster\nVoidsman",
+      "count": "1\n1\n4",
+      "points": "50"
+    },
+    {
+      "model": "Voidmaster\nVoidsman\nCanid",
+      "count": "1\n4\n1",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Rogue Trader Entourage",
+      "id": "r8F9mG4tYiQ"
+    },
+    {
+      "name": "Eidelwynne VanTarrion",
+      "id": "nlQGFr4V8nE"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Voidfarers",
+      "Retinue",
+      "Voidsmen-At-Arms"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,114 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "AplSqvvy8HY",
+  "datasheet_name": "Annihilation Barge",
+  "url": "https://39k.pro/datasheet/AplSqvvy8HY",
+  "miniatures": [
+    {
+      "name": "Annihilation Barge",
+      "characteristics": {
+        "M": "10\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Twin tesla destructor",
+      "stats": {
+        "range": "36\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "Tesla cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "Gauss cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured bulk",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Malevolent Arcing",
+      "rule": "In your Shooting phase, each time you select a target for this model’s twin tesla destructor, roll one D6 for the target unit and one D6 for every other enemy unit within 3\" of the target unit. On a 5+, the unit being rolled for is struck by arcing energies; after resolving all of this model’s attacks against the target unit, each unit struck by arcing energies suffers D3 mortal wounds."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s gauss cannon can be replaced with 1 tesla cannon."
+  ],
+  "unit_composition": "■ **1 Annihilation Barge**\n\n**This model is equipped with:** gauss cannon; twin tesla destructor; armoured bulk.\nModel Name Count Points\nAnnihilation Barge\n1\n105",
+  "unit_composition_table": [
+    {
+      "model": "Annihilation Barge",
+      "count": "1",
+      "points": "105"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Annihilation Barge"
+    ]
+  },
+  "custom_rules": []
+}

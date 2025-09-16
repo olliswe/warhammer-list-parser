@@ -1,0 +1,156 @@
+{
+  "faction": "Index: Deathwatch",
+  "faction_id": "hw15VleUO6s",
+  "datasheet_id": "pepp-SlpLvE",
+  "datasheet_name": "Corvus Blackstar",
+  "url": "https://39k.pro/datasheet/pepp-SlpLvE",
+  "miniatures": [
+    {
+      "name": "Corvus Blackstar",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "6+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Blackstar rocket launcher",
+      "stats": {
+        "range": "30\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Stormstrike missile launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Twin assault cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Hurricane bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 6",
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Blackstar Cluster Launcher",
+      "rule": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 5+, that unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following:\n◦ 1 auspex array\n◦ 1 infernum halo-launcher",
+    "■ This model’s twin assault cannon can be replaced with 1 twin lascannon.",
+    "■ This model’s 2 Blackstar rocket launchers can be replaced with 2 stormstrike missile launchers.",
+    "■ This model can be equipped with 1 hurricane bolter."
+  ],
+  "unit_composition": "■ **1 Corvus Blackstar**\n\n**This model is equipped with:** 2 Blackstar rocket launchers; twin assault cannon; armoured hull.\nModel Name Count Points\nCorvus Blackstar\n1\n180",
+  "unit_composition_table": [
+    {
+      "model": "Corvus Blackstar",
+      "count": "1",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Deathwatch"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Imperium",
+      "Transport",
+      "Corvus Blackstar"
+    ]
+  },
+  "custom_rules": []
+}

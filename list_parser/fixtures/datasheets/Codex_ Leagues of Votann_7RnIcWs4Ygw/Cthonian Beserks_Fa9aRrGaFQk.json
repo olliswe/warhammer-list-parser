@@ -1,0 +1,126 @@
+{
+  "faction": "Codex: Leagues of Votann",
+  "faction_id": "7RnIcWs4Ygw",
+  "datasheet_id": "Fa9aRrGaFQk",
+  "datasheet_name": "Cthonian Beserks",
+  "url": "https://39k.pro/datasheet/Fa9aRrGaFQk",
+  "miniatures": [
+    {
+      "name": "Cthonian Beserks",
+      "characteristics": {
+        "M": "5\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Mole grenade launcher",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Concussion maul",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Anti-monster 3+",
+        "Anti-vehicle 3+"
+      ]
+    },
+    {
+      "name": "Heavy plasma axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin concussion gauntlet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain 4+",
+      "rule": ""
+    },
+    {
+      "name": "Subterranean Explosives",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks made with a mole grenade launcher. Until the start of your next Shooting phase, that enemy unit cannot be targeted with the Fire Overwatch Stratagem.\n\n**Designer’s Note:** *We recommend placing a Mole Grenade token next to that enemy unit as a reminder.*"
+    },
+    {
+      "name": "Cyberstimms",
+      "rule": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6, adding 1 to the result if units from your army have Fortify Takeover: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 model that is not equipped with a twin concussion gauntlet or a mole grenade launcher can be equipped with 1 mole grenade launcher. *\n\n* **Designer’s Note:** *If a Cthonian Beserk is equipped with a mole grenade launcher, it will be accompanied by an L‑COG unit: both models should be placed on the same base and together they act as a single model for all rules purposes.*",
+    "■ All models in this unit can each have their heavy plasma axe replaced with 1 concussion maul.",
+    "■ For every 5 models in this unit, 1 model that is not equipped with a mole grenade launcher can have its heavy plasma axe or concussion maul replaced with 1 twin concussion gauntlet."
+  ],
+  "unit_composition": "■ **5-10 Cthonian Beserks**\n\n**Every model is equipped with:** heavy plasma axe.\nModel Name Count Points\nCthonian Beserk\n6-10\n200\nCthonian Beserk\n5\n100",
+  "unit_composition_table": [
+    {
+      "model": "Cthonian Beserk",
+      "count": "6-10",
+      "points": "200"
+    },
+    {
+      "model": "Cthonian Beserk",
+      "count": "5",
+      "points": "100"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Leagues of Votann"
+    ],
+    "keywords": [
+      "Infantry",
+      "Cthonian",
+      "Beserks"
+    ]
+  },
+  "custom_rules": []
+}

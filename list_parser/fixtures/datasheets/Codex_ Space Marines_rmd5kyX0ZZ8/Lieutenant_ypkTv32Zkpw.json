@@ -1,0 +1,222 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "ypkTv32Zkpw",
+  "datasheet_name": "Lieutenant",
+  "url": "https://39k.pro/datasheet/ypkTv32Zkpw",
+  "miniatures": [
+    {
+      "name": "Lieutenant",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Heavy bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Bolt Pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Master-crafted bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Master-crafted power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Target Priority",
+      "rule": "This model’s unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+      "name": "Tactical Precision",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s bolt pistol can be replaced with 1 heavy bolt pistol.",
+    "■ This model’s bolt pistol, master-crafted bolt rifle and close combat weapon can be replaced with 1 neo-volkite pistol, 1 master-crafted power weapon and 1 storm shield.",
+    "■ This model’s master-crafted bolt rifle can be replaced with one of the following:\n◦ 1 plasma pistol\n◦ 1 master-crafted power weapon\n◦ 1 power fist",
+    "■ This model’s close combat weapon can be replaced with one of the following:\n◦ 1 master-crafted power weapon\n◦ 1 power fist"
+  ],
+  "unit_composition": "■ **1 Lieutenant**\n\n**This model is equipped with:** bolt pistol; master-crafted bolter; close combat weapon.\nModel Name Count Points\nLieutenant\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Lieutenant",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "BLADEGUARD VETERAN SQUAD",
+      "id": "QzcaruUCgaI"
+    },
+    {
+      "name": "COMPANY HEROES",
+      "id": "XTVpNuL4gek"
+    },
+    {
+      "name": "HELLBLASTER SQUAD",
+      "id": "k5kI-BiLztA"
+    },
+    {
+      "name": "INFERNUS SQUAD",
+      "id": "3uOpOXVLXI4"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Lieutenant"
+    ]
+  },
+  "custom_rules": []
+}

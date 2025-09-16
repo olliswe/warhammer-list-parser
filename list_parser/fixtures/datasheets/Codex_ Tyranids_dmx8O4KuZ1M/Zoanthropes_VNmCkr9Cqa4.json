@@ -1,0 +1,112 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "VNmCkr9Cqa4",
+  "datasheet_name": "Zoanthropes",
+  "url": "https://39k.pro/datasheet/VNmCkr9Cqa4",
+  "miniatures": [
+    {
+      "name": "Zoanthropes",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Warp Blast — focused witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Psychic",
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "🠶 Warp Blast — witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Blast",
+        "Psychic"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Chitinous claws and teeth",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "5+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Warp Field",
+      "rule": "While a friendly **TYRANIDS** unit is within 6\" of this unit, models in that unit have a 6+ invulnerable save."
+    },
+    {
+      "name": "Spirit Leech",
+      "rule": "While an enemy unit is within 6\" of this unit, if this unit contains a Neurothrope, each time that enemy unit fails a Battle-shock test, it suffers D3 mortal wounds and one model in this unit regains up to D3 lost wounds."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Neurothrope**\n■ **2-5 Zoanthropes**\n\n**Every model is equipped with:** Warp Blast; chitinous claws and teeth\nModel Name Count Points\nNeurothrope\nZoanthrope\n1\n2\n100\nZoanthrope\nNeurothrope\n3-5\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Neurothrope\nZoanthrope",
+      "count": "1\n2",
+      "points": "100"
+    },
+    {
+      "model": "Zoanthrope\nNeurothrope",
+      "count": "3-5\n1",
+      "points": "200"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Neurotyrant",
+      "id": "lqNcGtJmclo"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Psyker",
+      "Fly",
+      "Great Devourer",
+      "Synapse",
+      "Zoanthropes"
+    ]
+  },
+  "custom_rules": []
+}

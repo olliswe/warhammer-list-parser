@@ -1,0 +1,233 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "YME3uU9RMGA",
+  "datasheet_name": "Knight Preceptor",
+  "url": "https://39k.pro/datasheet/YME3uU9RMGA",
+  "miniatures": [
+    {
+      "name": "Knight Preceptor",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "26",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Ironstorm missile pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Stormspear rocket pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Icarus autocannons",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "🠶 Las-impulsor — low intensity",
+      "stats": {
+        "range": "36\"",
+        "attacks": "2D6",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Las-impulsor — high intensity",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "4"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Preceptor multi-laser",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Thunderstrike gauntlet — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "20",
+        "armour_penetration": "-3",
+        "damage": "8"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mentor",
+      "rule": "While a model is affected by this ability, improve that model’s Leadership characteristic by 1 and improve that model’s Objective Control characteristic by 2."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Exemplar of the Code",
+      "rule": "At the start of the battle, select one unit from your opponent’s army. Each time this model makes an attack that targets that unit, you can re-roll the Hit roll."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following: \n◦ 1 Icarus autocannons\n◦ 1 ironstorm missile pod\n◦ 1 stormspear rocket pod",
+    "■ This model’s Preceptor multi-laser can be replaced with one of the following:\n◦ 1 meltagun\n◦ 1 Questoris heavy stubber",
+    "■ This model’s reaper chainsword can be replaced with 1 thunderstrike gauntlet."
+  ],
+  "unit_composition": "■ **1 Knight Preceptor**\n\n**This model is equipped with:** las-impulsor; Preceptor multi-laser; reaper chainsword.\nModel Name Count Points\nKnight Preceptor\n1\n365",
+  "unit_composition_table": [
+    {
+      "model": "Knight Preceptor",
+      "count": "1",
+      "points": "365"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Questoris",
+      "Character",
+      "Imperium",
+      "Knight Preceptor"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

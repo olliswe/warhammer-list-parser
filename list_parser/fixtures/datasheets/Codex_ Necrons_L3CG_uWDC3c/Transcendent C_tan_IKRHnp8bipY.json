@@ -1,0 +1,99 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "IKRHnp8bipY",
+  "datasheet_name": "Transcendent C’tan",
+  "url": "https://39k.pro/datasheet/IKRHnp8bipY",
+  "miniatures": [
+    {
+      "name": "Transcendent C’tan",
+      "characteristics": {
+        "M": "6\"",
+        "T": "11",
+        "SV": "4+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Seismic assault",
+      "stats": {
+        "range": "12\"",
+        "attacks": "6",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Assault",
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Crackling tendrils",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Necrodermis",
+      "rule": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Transdimensional Displacement",
+      "rule": "Each time this model is selected to Advance, you can remove it from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Transcendent C’tan**\n\n**This model is equipped with:** seismic assault; crackling tendrils.\nModel Name Count Points\nTranscendent C’tan\n1\n295",
+  "unit_composition_table": [
+    {
+      "model": "Transcendent C’tan",
+      "count": "1",
+      "points": "295"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Fly",
+      "Transcendent C’tan"
+    ]
+  },
+  "custom_rules": []
+}

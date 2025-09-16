@@ -1,0 +1,133 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "cRLK-aDYBxk",
+  "datasheet_id": "XqhmfJJvr4s",
+  "datasheet_name": "Land Speeder Vengeance",
+  "url": "https://39k.pro/datasheet/XqhmfJJvr4s",
+  "miniatures": [
+    {
+      "name": "Land Speeder Vengeance",
+      "characteristics": {
+        "M": "14\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Assault cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "🠶 Plasma storm battery — supercharge",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Hazardous",
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Plasma storm battery — standard",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Storm of Vengeance",
+      "rule": "Once per turn, in your opponent’s Shooting phase, when another friendly **ADEPTUS ASTARTES** unit within 6\" of this model is destroyed, one model from your army with this ability can use it. If it does, after the attacking unit has finished making its attacks, that model can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target)."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s heavy bolter can be replaced with 1 assault cannon."
+  ],
+  "unit_composition": "■ **1 Ravenwing Land Speeder Vengeance**\n\n**This model is equipped with:** heavy bolter; plasma storm battery; close combat weapon.\nModel Name Count Points\nLand Speeder Vengeance\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Land Speeder Vengeance",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Dark Angels"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Imperium",
+      "Ravenwing",
+      "Land Speeder Vengeance"
+    ]
+  },
+  "custom_rules": []
+}

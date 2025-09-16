@@ -1,0 +1,127 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "hFK8CNsWTIU",
+  "datasheet_id": "Miykof7zsaQ",
+  "datasheet_name": "Ulrik the Slayer",
+  "url": "https://39k.pro/datasheet/Miykof7zsaQ",
+  "miniatures": [
+    {
+      "name": "Ulrik the Slayer",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "5+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Artificer crozius arcanum",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-monster 4+",
+        "Anti-vehicle 4+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    },
+    {
+      "name": "Slayer’s Oath",
+      "rule": "At the start of the battle, select one of the following keywords to be this model’s Slayer’s Oath: **CHARACTER**; **MONSTER**; **VEHICLE**. The first time this model’s unit destroys a unit with this model’s Slayer’s Oath keyword, if your Detachment rule has a Saga, until the end of the battle, this model’s unit receives the benefits of that Detachment rule as if that Saga had been completed."
+    },
+    {
+      "name": "Oathbound",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a melee attack, add 1 to the Hit roll. If that attack targets a unit that has this model’s Slayer’s Oath keyword (see Slayer’s Oath), add 1 to the Wound roll as well."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ulrik the Slayer – EPIC HERO**\n\n**This model is equipped with:** plasma pistol; artificer crozius arcanum.\nModel Name Count Points\nUlrik the Slayer\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Ulrik the Slayer",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BLOOD CLAWS",
+      "id": "bcQNXfrycso"
+    },
+    {
+      "name": "GREY HUNTERS",
+      "id": "w-9jhrG0R6Y"
+    },
+    {
+      "name": "WOLF GUARD HEADHUNTERS",
+      "id": "undefined"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Space Wolves"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Grenades",
+      "Imperium",
+      "Wolf Priest",
+      "Ulrik the Slayer"
+    ]
+  },
+  "custom_rules": []
+}

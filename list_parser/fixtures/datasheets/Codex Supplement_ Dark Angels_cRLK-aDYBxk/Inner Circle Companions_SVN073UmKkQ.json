@@ -1,0 +1,216 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "cRLK-aDYBxk",
+  "datasheet_id": "SVN073UmKkQ",
+  "datasheet_name": "Inner Circle Companions",
+  "url": "https://39k.pro/datasheet/SVN073UmKkQ",
+  "miniatures": [
+    {
+      "name": "Inner Circle Companions",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Heavy bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Calibanite greatsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "🠶 Calibanite greatsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 2"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Braziers of Judgement",
+      "rule": "While a **CHARACTER** model is leading this unit, each time an attack targets this unit, subtract 1 from the Hit roll."
+    },
+    {
+      "name": "Enmity for the Unworthy",
+      "rule": "Each time a model in this unit makes an attack that targets a **CHARACTER** unit, add 1 to the Hit roll."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **3-6 Inner Circle Companions**\n\n**Every Inner Circle Companion is equipped with:** heavy bolt pistol; Calibanite greatsword.\nModel Name Count Points\nInner Circle Companion\n4-6\n180\nInner Circle Companion\n3\n90",
+  "unit_composition_table": [
+    {
+      "model": "Inner Circle Companion",
+      "count": "4-6",
+      "points": "180"
+    },
+    {
+      "model": "Inner Circle Companion",
+      "count": "3",
+      "points": "90"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Ezekiel",
+      "id": "-uWaLavEruM"
+    },
+    {
+      "name": "Lazarus",
+      "id": "WqKbZc3-Yuw"
+    },
+    {
+      "name": "Asmodai",
+      "id": "njHRp7ctPjk"
+    },
+    {
+      "name": "Azrael",
+      "id": "pbu9iC5ALgA"
+    },
+    {
+      "name": "Pedro Kantor",
+      "id": "W8ZNQhnNvxU"
+    },
+    {
+      "name": "Marneus Calgar",
+      "id": "upLKcmtAtro"
+    },
+    {
+      "name": "Uriel Ventris",
+      "id": "ri7fzoEQwME"
+    },
+    {
+      "name": "Ezekiel",
+      "id": "-uWaLavEruM"
+    },
+    {
+      "name": "Lazarus",
+      "id": "WqKbZc3-Yuw"
+    },
+    {
+      "name": "Librarian",
+      "id": "gmtJHRD_jTk"
+    },
+    {
+      "name": "Castellan",
+      "id": "PBgJ5DX2eIo"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "Vaol15lQHng"
+    },
+    {
+      "name": "Emperor’s Champion",
+      "id": "m79G75d2tn4"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "9QR4upinH5s"
+    },
+    {
+      "name": "Marshal",
+      "id": "4k4r9iRVzG8"
+    },
+    {
+      "name": "Judiciar",
+      "id": "n-U-8HkVCcs"
+    },
+    {
+      "name": "Asmodai",
+      "id": "njHRp7ctPjk"
+    },
+    {
+      "name": "Chaplain",
+      "id": "TBR_2PV_kMk"
+    },
+    {
+      "name": "Kor’sarro Khan",
+      "id": "bITDS4rXIQQ"
+    },
+    {
+      "name": "Azrael",
+      "id": "pbu9iC5ALgA"
+    },
+    {
+      "name": "Adrax Agatone",
+      "id": "fAKhjJSckGc"
+    },
+    {
+      "name": "Captain Sicarius",
+      "id": "oyeLSoFT7sw"
+    },
+    {
+      "name": "Lieutenant",
+      "id": "ypkTv32Zkpw"
+    },
+    {
+      "name": "Blood Angels Captain",
+      "id": "egpi_uHqge8"
+    },
+    {
+      "name": "Ancient",
+      "id": "b4C0xDaonq8"
+    },
+    {
+      "name": "Apothecary",
+      "id": "5kvilcGCWm0"
+    },
+    {
+      "name": "Captain",
+      "id": "0YJe0OH2OIs"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Dark Angels"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Deathwing",
+      "Tacticus",
+      "Inner Circle Companions"
+    ]
+  },
+  "custom_rules": []
+}

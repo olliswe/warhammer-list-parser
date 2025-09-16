@@ -1,0 +1,90 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "xpgi0dazLFY",
+  "datasheet_name": "Beasts of Nurgle",
+  "url": "https://39k.pro/datasheet/xpgi0dazLFY",
+  "miniatures": [
+    {
+      "name": "Beasts of Nurgle",
+      "characteristics": {
+        "M": "6\"",
+        "T": "9",
+        "SV": "6+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Putrid appendages",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Grotesque Regeneration",
+      "rule": "At the end of each phase, if a Beasts of Nurgle model in this unit has lost any wounds but is not destroyed, that model regains all of its lost wounds."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1-2 Beasts of Nurgle**\n\n**Every model is equipped with:** putrid appendages.\nModel Name Count Points\nBeast of Nurgle\n1\n65\nBeast of Nurgle\n2\n130",
+  "unit_composition_table": [
+    {
+      "model": "Beast of Nurgle",
+      "count": "1",
+      "points": "65"
+    },
+    {
+      "model": "Beast of Nurgle",
+      "count": "2",
+      "points": "130"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Horticulous Slimux",
+      "id": "fmkZAH3zq08"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Beast",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Beasts of Nurgle"
+    ]
+  },
+  "custom_rules": []
+}

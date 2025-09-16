@@ -1,0 +1,105 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "mx-MMPFSsno",
+  "datasheet_name": "Illuminor Szeras",
+  "url": "https://39k.pro/datasheet/mx-MMPFSsno",
+  "miniatures": [
+    {
+      "name": "Illuminor Szeras",
+      "characteristics": {
+        "M": "8\"",
+        "T": "8",
+        "SV": "2+",
+        "W": "9",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Eldritch Lance",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Impaling legs",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Eldritch Lance",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Atomic Energy Manipulator",
+      "rule": "At the end of the Fight phase, if this model destroyed one or more models this phase, until the end of the battle, add 3\" to the range of its Mechanical Augmentation ability (to a maximum of 12\")."
+    },
+    {
+      "name": "Feel No Pain 4+",
+      "rule": ""
+    },
+    {
+      "name": "Illuminor",
+      "rule": "While this model is within 3\" of one or more other friendly **NECRONS** units, this model has the Lone Operative ability."
+    },
+    {
+      "name": "Mechanical Augmentation",
+      "rule": "While a friendly **NECRONS BATTLELINE** unit is within 3\" of this model, each time a model in that unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and each time an attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Illuminor Szeras – EPIC HERO**\n\n**This model is equipped with:** Eldritch Lance; impaling legs.\nModel Name Count Points\nIlluminor Szeras\n1\n165",
+  "unit_composition_table": [
+    {
+      "model": "Illuminor Szeras",
+      "count": "1",
+      "points": "165"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Cryptek",
+      "Illuminor Szeras"
+    ]
+  },
+  "custom_rules": []
+}

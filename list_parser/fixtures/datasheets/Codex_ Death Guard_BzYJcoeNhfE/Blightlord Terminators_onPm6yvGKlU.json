@@ -1,0 +1,206 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "onPm6yvGKlU",
+  "datasheet_name": "Blightlord Terminators",
+  "url": "https://39k.pro/datasheet/onPm6yvGKlU",
+  "miniatures": [
+    {
+      "name": "Blightlord Terminators",
+      "characteristics": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits",
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Blight launcher",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast",
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "Reaper autocannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Plague spewer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 2+",
+        "Torrent",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Bubotic blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Flail of corruption",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blistering Fusillade",
+      "rule": "If this unit has a Starting Strength of 5 or more, or if a **CHARACTER** is leading this unit, then each time a model in this unit makes a ranged attack that targets an Afflicted unit, improve the Strength and Armour Penetration characteristics of that attack by 1."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, up to 3 models’ combi-bolters can each be replaced with 1 combi-weapon.",
+    "■ For every 5 models in this unit, 1 Blightlord Terminator’s combi-bolter and bubotic blade can be replaced with 1 flail of corruption.",
+    "■ For every 5 models in this unit, 1 Blightlord Terminator’s combi-bolter can be replaced with 1 blight launcher.",
+    "■ For every 5 models in this unit, 1 Blightlord Terminator’s combi-bolter can be replaced with 1 reaper autocannon.",
+    "■ For every 5 models in this unit, 1 Blightlord Terminator’s combi-bolter can be replaced with 1 plague spewer.",
+    "■ If this unit contains only 3 models, 1 Blightlord Terminator’s combi-bolter and bubotic blade can be replaced with 1 plague spewer and 1 close combat weapon."
+  ],
+  "unit_composition": "■ **1 Blightlord Champion**\n■ **2-9 Blightlord Terminators**\n\n**Every model is equipped with:** combi-bolter; bubotic blade.\nModel Name Count Points\nBlightlord Champion\nBlightlord Terminator\n1\n3-4\n185\nBlightlord Champion\nBlightlord Terminator\n1\n2\n115\nBlightlord Champion\nBlightlord Terminator\n1\n5-9\n370",
+  "unit_composition_table": [
+    {
+      "model": "Blightlord Champion\nBlightlord Terminator",
+      "count": "1\n3-4",
+      "points": "185"
+    },
+    {
+      "model": "Blightlord Champion\nBlightlord Terminator",
+      "count": "1\n2",
+      "points": "115"
+    },
+    {
+      "model": "Blightlord Champion\nBlightlord Terminator",
+      "count": "1\n5-9",
+      "points": "370"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Typhus",
+      "id": "v0WCQRy13lQ"
+    },
+    {
+      "name": "Lord of Virulence",
+      "id": "mt7vLXHz8zI"
+    },
+    {
+      "name": "Lord of Contagion",
+      "id": "YPJTSz5FPV4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Death Guard"
+    ],
+    "keywords": [
+      "Infantry",
+      "Chaos",
+      "Nurgle",
+      "Terminator",
+      "Blightlord Terminators"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,124 @@
+{
+  "faction": "Codex Supplement: Blood Angels",
+  "faction_id": "a08Gx8RnzGo",
+  "datasheet_id": "9QR4upinH5s",
+  "datasheet_name": "Sanguinary Priest",
+  "url": "https://39k.pro/datasheet/9QR4upinH5s",
+  "miniatures": [
+    {
+      "name": "Sanguinary Priest",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Astartes chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blood Chalice",
+      "rule": "While this model is leading a unit, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Sanguinary Priest",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Sanguinary Priest**\n\n**This model is equipped with:** absolver bolt pistol; Astartes chainsword.\nModel Name Count Points\nSanguinary Priest\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Sanguinary Priest",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "DESOLATION SQUAD",
+      "id": "j5n674bpjiI"
+    },
+    {
+      "name": "DEVASTATOR SQUAD",
+      "id": "9XpBjM-Lc2o"
+    },
+    {
+      "name": "HELLBLASTER SQUAD",
+      "id": "k5kI-BiLztA"
+    },
+    {
+      "name": "INFERNUS SQUAD",
+      "id": "3uOpOXVLXI4"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Blood Angels"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Sanguinary Priest"
+    ]
+  },
+  "custom_rules": []
+}

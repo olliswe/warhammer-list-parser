@@ -1,7 +1,7 @@
 [
   {
     "faction": "Codex Supplement: Black Templars",
-    "faction_id": "Avjg21VrELY",
+    "faction_id": "oCfJYt7fR9g",
     "rules": [
       {
         "rules_name": "Templar Vows",
@@ -15,100 +15,100 @@
     "detachments": [
       {
         "detachment_name": "Wrathful Procession",
-        "detachment_id": "6b8OZJZmq90"
+        "detachment_id": "L0LbhQIXtOk"
       },
       {
         "detachment_name": "Vindication Task Force",
-        "detachment_id": "m-5O9vv1Tws"
+        "detachment_id": "ntsshfM8xU0"
       },
       {
         "detachment_name": "Godhammer Assault Force",
-        "detachment_id": "jmnbvnifOuw"
+        "detachment_id": "pKBuSeHT2rs"
       },
       {
-        "detachment_name": "Champions of Vehemence",
-        "detachment_id": "hH1Bd8s_Noo"
+        "detachment_name": "Companions of Vehemence",
+        "detachment_id": "589yQh55Gt0"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Castellan",
-        "datasheet_id": "Ac0tSpUH_ZI"
+        "datasheet_id": "PBgJ5DX2eIo"
       },
       {
         "datasheet_name": "Chaplain Grimaldus",
-        "datasheet_id": "CaZ2QLCULGw"
+        "datasheet_id": "fYhzZxz8FGg"
       },
       {
         "datasheet_name": "Crusade Ancient",
-        "datasheet_id": "d6v2FKC0iCE"
+        "datasheet_id": "xcAmJJ68b_c"
       },
       {
         "datasheet_name": "Crusader Squad",
-        "datasheet_id": "NyA7PVAwrwI"
+        "datasheet_id": "0W-FdnEYdw4"
       },
       {
         "datasheet_name": "Emperor’s Champion",
-        "datasheet_id": "67DGvqyUom0"
+        "datasheet_id": "m79G75d2tn4"
       },
       {
         "datasheet_name": "Execrator",
-        "datasheet_id": "ip3ESVO4EG4"
+        "datasheet_id": "1AMFumJq61U"
       },
       {
         "datasheet_name": "Gladiator Lancer",
-        "datasheet_id": "e8OBP6X3cCw"
+        "datasheet_id": "3fnIMaK1LS8"
       },
       {
         "datasheet_name": "Gladiator Reaper",
-        "datasheet_id": "vmeN8O0SbH8"
+        "datasheet_id": "s1pZTshd4uE"
       },
       {
         "datasheet_name": "Gladiator Valiant",
-        "datasheet_id": "OIfphdQDy_U"
+        "datasheet_id": "g_MhDYbp6Kg"
       },
       {
         "datasheet_name": "High Marshal Helbrecht",
-        "datasheet_id": "ODnGW9WnQZw"
+        "datasheet_id": "rOJ7FLKlULg"
       },
       {
         "datasheet_name": "Impulsor",
-        "datasheet_id": "y5ubXyhTkMI"
+        "datasheet_id": "flH4_Cc5Lwg"
       },
       {
         "datasheet_name": "Land Raider Crusader",
-        "datasheet_id": "AhAYssiLBzg"
+        "datasheet_id": "NeT0je_yteU"
       },
       {
         "datasheet_name": "Marshal",
-        "datasheet_id": "4V1ClUV33Us"
+        "datasheet_id": "4k4r9iRVzG8"
       },
       {
         "datasheet_name": "Repulsor",
-        "datasheet_id": "zUhFZ4Wct4c"
+        "datasheet_id": "AbKWSc_30f0"
       },
       {
         "datasheet_name": "Repulsor Executioner",
-        "datasheet_id": "DmVU4zRteOc"
+        "datasheet_id": "ioCQBoFJdAE"
       },
       {
         "datasheet_name": "Sternguard Veteran Squad",
-        "datasheet_id": "u1SRxX7dce4"
+        "datasheet_id": "4tfhoo_SDpg"
       },
       {
         "datasheet_name": "Sword Brethren Squad",
-        "datasheet_id": "QmfCtKGv1y0"
+        "datasheet_id": "B9m7j7fA4ug"
       },
       {
         "datasheet_name": "Terminator Squad",
-        "datasheet_id": "T6u14yaXlxo"
+        "datasheet_id": "Hb4zDwRO3a8"
       }
     ],
-    "url": "https://39k.pro/faction/Avjg21VrELY"
+    "url": "https://39k.pro/faction/oCfJYt7fR9g"
   },
   {
     "faction": "Codex Supplement: Blood Angels",
-    "faction_id": "EO-MlRAl7KA",
+    "faction_id": "a08Gx8RnzGo",
     "rules": [
       {
         "rules_name": "The Sons of Sanguinius",
@@ -122,88 +122,88 @@
     "detachments": [
       {
         "detachment_name": "The Lost Brethren",
-        "detachment_id": "4GDa9O_QxWQ"
+        "detachment_id": "g_aEwJB0tlo"
       },
       {
         "detachment_name": "The Angelic Host",
-        "detachment_id": "uXHPXtA38O4"
+        "detachment_id": "GJZL4dXKNnE"
       },
       {
         "detachment_name": "Liberator Assault Group",
-        "detachment_id": "XxcYbhUUKvY"
+        "detachment_id": "zZvCub3ckxw"
       },
       {
         "detachment_name": "Angelic Inheritors",
-        "detachment_id": "YUynupqlU40"
+        "detachment_id": "W_GWLukW_Fg"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Astorath",
-        "datasheet_id": "HWkfO7CKZSI"
+        "datasheet_id": "Otjmga6-fbE"
       },
       {
         "datasheet_name": "Baal Predator",
-        "datasheet_id": "TkIt6s2XKzI"
+        "datasheet_id": "caBODZ2TPfY"
       },
       {
         "datasheet_name": "Blood Angels Captain",
-        "datasheet_id": "96itFZnvc_U"
+        "datasheet_id": "egpi_uHqge8"
       },
       {
         "datasheet_name": "Chief Librarian Mephiston",
-        "datasheet_id": "Z4wklp5Sy3Q"
+        "datasheet_id": "h7uQgyCAY1o"
       },
       {
         "datasheet_name": "Commander Dante",
-        "datasheet_id": "YSzN60HucCg"
+        "datasheet_id": "aU7zRKj8JCc"
       },
       {
         "datasheet_name": "Death Company Captain",
-        "datasheet_id": "DJsTeSE4Vn8"
+        "datasheet_id": "322UkSqdM3Q"
       },
       {
         "datasheet_name": "Death Company Captain with Jump Pack",
-        "datasheet_id": "q739j-R5ZYg"
+        "datasheet_id": "fiBCJK66Mik"
       },
       {
         "datasheet_name": "Death Company Dreadnought",
-        "datasheet_id": "UTmiUc7hnio"
+        "datasheet_id": "MFxH7Kyu1QQ"
       },
       {
         "datasheet_name": "Death Company Marines",
-        "datasheet_id": "7WmxJm_UoXg"
+        "datasheet_id": "PZHOsXrtVo0"
       },
       {
         "datasheet_name": "Death Company Marines with Bolt Rifles",
-        "datasheet_id": "VdmZZq_JmsA"
+        "datasheet_id": "wQKWF0zpBcU"
       },
       {
         "datasheet_name": "Death Company Marines with Jump Packs",
-        "datasheet_id": "8kkssn1v8_4"
+        "datasheet_id": "Tg_2lYyI6aA"
       },
       {
         "datasheet_name": "Lemartes",
-        "datasheet_id": "QqOER3vNZgw"
+        "datasheet_id": "whEAenWVeo4"
       },
       {
         "datasheet_name": "Sanguinary Guard",
-        "datasheet_id": "fgwzsA9ZzYk"
+        "datasheet_id": "_8DZtZXxMDo"
       },
       {
         "datasheet_name": "Sanguinary Priest",
-        "datasheet_id": "HyvmXZX-4EI"
+        "datasheet_id": "9QR4upinH5s"
       },
       {
         "datasheet_name": "The Sanguinor",
-        "datasheet_id": "kdGrInyeqNc"
+        "datasheet_id": "Mbc-RWq5jhs"
       }
     ],
-    "url": "https://39k.pro/faction/EO-MlRAl7KA"
+    "url": "https://39k.pro/faction/a08Gx8RnzGo"
   },
   {
     "faction": "Codex Supplement: Dark Angels",
-    "faction_id": "dbTuQ02OctI",
+    "faction_id": "cRLK-aDYBxk",
     "rules": [
       {
         "rules_name": "The Ravenwing",
@@ -225,96 +225,96 @@
     "detachments": [
       {
         "detachment_name": "Wrath of the Rock",
-        "detachment_id": "wN4bqvfHO1c"
+        "detachment_id": "WTntdvZmrzM"
       },
       {
         "detachment_name": "Unforgiven Task Force",
-        "detachment_id": "Q900gwWf1Fc"
+        "detachment_id": "n9NoYWdMux4"
       },
       {
         "detachment_name": "Lion’s Blade Task Force",
-        "detachment_id": "otEb4z5C10s"
+        "detachment_id": "qOP4UVb0zZQ"
       },
       {
         "detachment_name": "Inner Circle Task Force",
-        "detachment_id": "54btIQr8G3I"
+        "detachment_id": "WoK_FkHfPZw"
       },
       {
         "detachment_name": "Company of Hunters",
-        "detachment_id": "zTtfPuNjGiw"
+        "detachment_id": "eb3NjT4RSLo"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Asmodai",
-        "datasheet_id": "_P5wyspLqmo"
+        "datasheet_id": "njHRp7ctPjk"
       },
       {
         "datasheet_name": "Azrael",
-        "datasheet_id": "nF7OXYAfMjE"
+        "datasheet_id": "pbu9iC5ALgA"
       },
       {
         "datasheet_name": "Belial",
-        "datasheet_id": "HkmKce1IIzc"
+        "datasheet_id": "X7zx9gY9Y_E"
       },
       {
         "datasheet_name": "Deathwing Knights",
-        "datasheet_id": "cGkQdo8RCv0"
+        "datasheet_id": "1x8ly-I4lY4"
       },
       {
         "datasheet_name": "Deathwing Terminator Squad",
-        "datasheet_id": "24bRZtIFPLQ"
+        "datasheet_id": "ZjQDd1iQ4Ck"
       },
       {
         "datasheet_name": "Ezekiel",
-        "datasheet_id": "Cr4Lpe2rVxo"
+        "datasheet_id": "-uWaLavEruM"
       },
       {
         "datasheet_name": "Inner Circle Companions",
-        "datasheet_id": "fUr2djaAgPw"
+        "datasheet_id": "SVN073UmKkQ"
       },
       {
         "datasheet_name": "Lazarus",
-        "datasheet_id": "2kQUbqqdQs4"
+        "datasheet_id": "WqKbZc3-Yuw"
       },
       {
         "datasheet_name": "Land Speeder Vengeance",
-        "datasheet_id": "qkp6qzUwHGc"
+        "datasheet_id": "XqhmfJJvr4s"
       },
       {
         "datasheet_name": "Lion El’Jonson",
-        "datasheet_id": "sS2kJfi5sGo"
+        "datasheet_id": "kWTZhJhf0l4"
       },
       {
         "datasheet_name": "Nephilim Jetfighter",
-        "datasheet_id": "mmxTfEwq1QM"
+        "datasheet_id": "n6iKs8PtOU8"
       },
       {
         "datasheet_name": "Ravenwing Black Knights",
-        "datasheet_id": "bRMlbDEl8TM"
+        "datasheet_id": "M3suT_2JzyE"
       },
       {
         "datasheet_name": "Ravenwing Command Squad",
-        "datasheet_id": "lC52j9c6nA0"
+        "datasheet_id": "Xca4nqhn0FA"
       },
       {
         "datasheet_name": "Ravenwing Darkshroud",
-        "datasheet_id": "ktbEwBXmOVE"
+        "datasheet_id": "RD50QlXNQ-g"
       },
       {
         "datasheet_name": "Ravenwing Dark Talon",
-        "datasheet_id": "yrVwccyDDRY"
+        "datasheet_id": "0qrMBI_Exqs"
       },
       {
         "datasheet_name": "Sammael",
-        "datasheet_id": "iPxrUJTfJdM"
+        "datasheet_id": "KP1AjAEKSuc"
       }
     ],
-    "url": "https://39k.pro/faction/dbTuQ02OctI"
+    "url": "https://39k.pro/faction/cRLK-aDYBxk"
   },
   {
     "faction": "Codex Supplement: Space Wolves",
-    "faction_id": "ELDsCKkJGQU",
+    "faction_id": "hFK8CNsWTIU",
     "rules": [
       {
         "rules_name": "Sagas",
@@ -336,108 +336,108 @@
     "detachments": [
       {
         "detachment_name": "Saga of the Hunter",
-        "detachment_id": "uAnFLlwktq4"
+        "detachment_id": "z0IkwaORndM"
       },
       {
         "detachment_name": "Saga of the Bold",
-        "detachment_id": "gK78uUL2qLk"
+        "detachment_id": "7wVoOdX3Z6Y"
       },
       {
         "detachment_name": "Saga of the Beastslayer",
-        "detachment_id": "PtZ0la_gso4"
+        "detachment_id": "IBCBdaREQe8"
       },
       {
         "detachment_name": "Champions of Fenris",
-        "detachment_id": "1y61qaxWPk4"
+        "detachment_id": "zurNuo6_-Dc"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Arjac Rockfist",
-        "datasheet_id": "61PICGj_vAo"
+        "datasheet_id": "l6DbV__Ckc4"
       },
       {
         "datasheet_name": "Bjorn the Fell-Handed",
-        "datasheet_id": "DGsuWf0wZu0"
+        "datasheet_id": "v8ta4NgvDMc"
       },
       {
         "datasheet_name": "Blood Claws",
-        "datasheet_id": "3tcof84PdWA"
+        "datasheet_id": "hJ5fu4pajYU"
       },
       {
         "datasheet_name": "Fenrisian Wolves",
-        "datasheet_id": "zBpvTwlqYtA"
+        "datasheet_id": "3dXXxiXkFeA"
       },
       {
         "datasheet_name": "Grey Hunters",
-        "datasheet_id": "SK03On05clA"
+        "datasheet_id": "w-9jhrG0R6Y"
       },
       {
         "datasheet_name": "Iron Priest",
-        "datasheet_id": "iRwTDtje0P0"
+        "datasheet_id": "O-Y00SBKXAk"
       },
       {
         "datasheet_name": "Logan Grimnar",
-        "datasheet_id": "RfVwLuMv7vc"
+        "datasheet_id": "yrO8tnOFZOA"
       },
       {
         "datasheet_name": "Murderfang",
-        "datasheet_id": "2I8QhNslfwM"
+        "datasheet_id": "BZi_GUSuVSM"
       },
       {
         "datasheet_name": "Njal Stormcaller",
-        "datasheet_id": "_JFb2HA9ZCc"
+        "datasheet_id": "rDZalWotNjE"
       },
       {
         "datasheet_name": "Ragnar Blackmane",
-        "datasheet_id": "UCpGtxH7DfQ"
+        "datasheet_id": "ldb88iLaOY0"
       },
       {
         "datasheet_name": "Thunderwolf Cavalry",
-        "datasheet_id": "Wsw2GFzMNZM"
+        "datasheet_id": "yY_KD1HvCD4"
       },
       {
         "datasheet_name": "Ulrik the Slayer",
-        "datasheet_id": "o36IYrGjIMY"
+        "datasheet_id": "Miykof7zsaQ"
       },
       {
         "datasheet_name": "Venerable Dreadnought",
-        "datasheet_id": "2HC1VeFaA5E"
+        "datasheet_id": "fUo4Zb0I5B4"
       },
       {
         "datasheet_name": "Wolf Guard Battle Leader",
-        "datasheet_id": "he6WwOTBJeo"
+        "datasheet_id": "IJ3mj4VIETk"
       },
       {
         "datasheet_name": "Wolf Guard Headtakers",
-        "datasheet_id": "vGflMTQAde8"
+        "datasheet_id": "r64yPnsl3AI"
       },
       {
         "datasheet_name": "Wolf Guard Terminators",
-        "datasheet_id": "MsST45FlAL4"
+        "datasheet_id": "5iD3cTT8bjs"
       },
       {
         "datasheet_name": "Wolf Priest",
-        "datasheet_id": "1UUrO1oaePE"
+        "datasheet_id": "Kh-Qwbyh6f8"
       },
       {
         "datasheet_name": "Wulfen",
-        "datasheet_id": "nuIBvZlS1Tc"
+        "datasheet_id": "PPiJRyQXr2Q"
       },
       {
         "datasheet_name": "Wulfen with Storm Shields",
-        "datasheet_id": "gv_tF7sSyo4"
+        "datasheet_id": "dngjtEVGlsc"
       },
       {
         "datasheet_name": "Wulfen Dreadnought",
-        "datasheet_id": "Ab6zaZx3U88"
+        "datasheet_id": "pGHZWhmE9fQ"
       }
     ],
-    "url": "https://39k.pro/faction/ELDsCKkJGQU"
+    "url": "https://39k.pro/faction/hFK8CNsWTIU"
   },
   {
     "faction": "Codex: Adepta Sororitas",
-    "faction_id": "qasryvAVn3Q",
+    "faction_id": "H-2eF-Lxbo4",
     "rules": [
       {
         "rules_name": "Acts of Faith",
@@ -447,156 +447,156 @@
     "detachments": [
       {
         "detachment_name": "Penitent Host",
-        "detachment_id": "gCdztdC39Hg"
+        "detachment_id": "IQU0Zoj9s9Q"
       },
       {
         "detachment_name": "Hallowed Martyrs",
-        "detachment_id": "Ij3hr9onZVs"
+        "detachment_id": "zJXLHEizYf8"
       },
       {
         "detachment_name": "Champions of Faith",
-        "detachment_id": "glN7pEi4hDg"
+        "detachment_id": "ORxlTf09-ME"
       },
       {
         "detachment_name": "Bringers of Flame",
-        "detachment_id": "EpqikmW7yL4"
+        "detachment_id": "WJEzEofojig"
       },
       {
         "detachment_name": "Army of Faith",
-        "detachment_id": "RG-QiepvIWw"
+        "detachment_id": "hoZXgqce7cc"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Aestred Thurga and Agathae Dolan",
-        "datasheet_id": "1QMvQdMVwpQ"
+        "datasheet_id": "_2Gx3nh9wsY"
       },
       {
         "datasheet_name": "Arco-flagellants",
-        "datasheet_id": "nuNVwcGWLA8"
+        "datasheet_id": "vYvAH3tFp8U"
       },
       {
         "datasheet_name": "Battle Sisters Squad",
-        "datasheet_id": "8BKOU6Gxt5o"
+        "datasheet_id": "-o-RSy91drw"
       },
       {
         "datasheet_name": "Canoness",
-        "datasheet_id": "r1wR-BHRZbU"
+        "datasheet_id": "JYxRrEtDYSo"
       },
       {
         "datasheet_name": "Canoness with Jump Pack",
-        "datasheet_id": "VTdabxX1388"
+        "datasheet_id": "nbCTUlhtejE"
       },
       {
         "datasheet_name": "Castigator",
-        "datasheet_id": "DuPhLHYhnBE"
+        "datasheet_id": "EScTw4nl5Vo"
       },
       {
         "datasheet_name": "Celestian Sacresants",
-        "datasheet_id": "Oe2mP-CLdgA"
+        "datasheet_id": "LL5JHfgOvU0"
       },
       {
         "datasheet_name": "Daemonifuge",
-        "datasheet_id": "DuE5ywnWHXE"
+        "datasheet_id": "y6epBZgODBY"
       },
       {
         "datasheet_name": "Dialogus",
-        "datasheet_id": "aNpIUhKhCh4"
+        "datasheet_id": "dGwSUTHQtp8"
       },
       {
         "datasheet_name": "Dogmata",
-        "datasheet_id": "e2DMgV7-iiI"
+        "datasheet_id": "3VtNy3pdPnA"
       },
       {
         "datasheet_name": "Dominion Squad",
-        "datasheet_id": "vs5dNj96lgU"
+        "datasheet_id": "Sv-C_1ATsRQ"
       },
       {
         "datasheet_name": "Exorcist",
-        "datasheet_id": "bLcEVR8JPKk"
+        "datasheet_id": "FPwphlTESjo"
       },
       {
         "datasheet_name": "Hospitaller",
-        "datasheet_id": "P_bLFfLo-Ec"
+        "datasheet_id": "3t0DvneCHnU"
       },
       {
         "datasheet_name": "Imagifier",
-        "datasheet_id": "cNifFaoepiE"
+        "datasheet_id": "BFuppW-CONg"
       },
       {
         "datasheet_name": "Immolator",
-        "datasheet_id": "dMOgXJcVjYk"
+        "datasheet_id": "nYm4zwXNjYM"
       },
       {
         "datasheet_name": "Junith Eruita",
-        "datasheet_id": "leM6eUHe7yw"
+        "datasheet_id": "QH8dAeNzu-8"
       },
       {
         "datasheet_name": "Ministorum Priest",
-        "datasheet_id": "TImfVinnc4c"
+        "datasheet_id": "M6HI4ctf6iE"
       },
       {
         "datasheet_name": "Mortifiers",
-        "datasheet_id": "-4fL0-noHhA"
+        "datasheet_id": "A3wgnoJ_wUU"
       },
       {
         "datasheet_name": "Morvenn Vahl",
-        "datasheet_id": "tmTqTsP-S7s"
+        "datasheet_id": "2vcatD3UR4s"
       },
       {
         "datasheet_name": "Palatine",
-        "datasheet_id": "o1Hls2-4H6Y"
+        "datasheet_id": "4qKpC7LJrJ8"
       },
       {
         "datasheet_name": "Paragon Warsuits",
-        "datasheet_id": "MdPLPuGTA4o"
+        "datasheet_id": "clCREPyr3AY"
       },
       {
         "datasheet_name": "Penitent Engines",
-        "datasheet_id": "GiRrgovL8bk"
+        "datasheet_id": "yJYANOp4nHY"
       },
       {
         "datasheet_name": "Repentia Squad",
-        "datasheet_id": "MimNa-iWdlU"
+        "datasheet_id": "ofJ_Ed46Q9Y"
       },
       {
         "datasheet_name": "Retributor Squad",
-        "datasheet_id": "LBTCFrFWjJA"
+        "datasheet_id": "s2fJnCg1zpU"
       },
       {
         "datasheet_name": "Saint Celestine",
-        "datasheet_id": "hRVEIPEdmsk"
+        "datasheet_id": "JBEnTVkFToI"
       },
       {
         "datasheet_name": "Sanctifiers",
-        "datasheet_id": "0XeEBHGfgfo"
+        "datasheet_id": "SBTyeIrT-_8"
       },
       {
         "datasheet_name": "Seraphim Squad",
-        "datasheet_id": "TQgykRIjRb8"
+        "datasheet_id": "93v85_UC_nI"
       },
       {
         "datasheet_name": "Sisters Novitiate Squad",
-        "datasheet_id": "TfzU0xL29Jg"
+        "datasheet_id": "3rhjgd9aO-w"
       },
       {
         "datasheet_name": "Sororitas Rhino",
-        "datasheet_id": "ttcyJBCjZ04"
+        "datasheet_id": "sZRDtN9Ko_I"
       },
       {
         "datasheet_name": "Triumph of Saint Katherine",
-        "datasheet_id": "E6ltOwqV37Y"
+        "datasheet_id": "-g70qxQpK34"
       },
       {
         "datasheet_name": "Zephyrim Squad",
-        "datasheet_id": "rlhXMfBYvNI"
+        "datasheet_id": "D7iPt9maQKY"
       }
     ],
-    "url": "https://39k.pro/faction/qasryvAVn3Q"
+    "url": "https://39k.pro/faction/H-2eF-Lxbo4"
   },
   {
     "faction": "Codex: Adeptus Custodes",
-    "faction_id": "hWKlQIlrDHo",
+    "faction_id": "0xbccuVN0AM",
     "rules": [
       {
         "rules_name": "Martial Ka’tah",
@@ -606,160 +606,160 @@
     "detachments": [
       {
         "detachment_name": "Talons of the Emperor",
-        "detachment_id": "sSdviA3L7uU"
+        "detachment_id": "68qbti-hf_U"
       },
       {
         "detachment_name": "Solar Spearhead",
-        "detachment_id": "XX6VH-HjUsE"
+        "detachment_id": "LR6gZbs_jVs"
       },
       {
         "detachment_name": "Shield Host",
-        "detachment_id": "9rx4gtI-iXg"
+        "detachment_id": "TKcjJvdCGZo"
       },
       {
         "detachment_name": "Null Maiden Vigil",
-        "detachment_id": "WLAf8vTSXmc"
+        "detachment_id": "IDq0YqC1Yn0"
       },
       {
         "detachment_name": "Lions of the Emperor",
-        "detachment_id": "nqn5ti_wBL0"
+        "detachment_id": "yi-mAAhmY34"
       },
       {
         "detachment_name": "Auric Champions",
-        "detachment_id": "Fp4Xh0QgtQg"
+        "detachment_id": "tmqQho-Jvi0"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Aleya",
-        "datasheet_id": "k0LgwOagcj4"
+        "datasheet_id": "24WVauwXFmc"
       },
       {
         "datasheet_name": "Agamatus Custodians",
-        "datasheet_id": "qglxUpJoDi4"
+        "datasheet_id": "NHQiV0_unes"
       },
       {
         "datasheet_name": "Allarus Custodians",
-        "datasheet_id": "Kbmy3P9yg6o"
+        "datasheet_id": "A_r7ydx1oWY"
       },
       {
         "datasheet_name": "Aquilon Custodians",
-        "datasheet_id": "pTSvZPHmuB0"
+        "datasheet_id": "WXjroN_sGJ8"
       },
       {
         "datasheet_name": "Anathema Psykana Rhino",
-        "datasheet_id": "9eC_r0AdFoE"
+        "datasheet_id": "Z7m2sRfk-jU"
       },
       {
         "datasheet_name": "Ares Gunship",
-        "datasheet_id": "ELjjMsPA-to"
+        "datasheet_id": "AQA_1RiJFTI"
       },
       {
         "datasheet_name": "Blade Champion",
-        "datasheet_id": "61YmIorz6TA"
+        "datasheet_id": "FKdRZs2RzjM"
       },
       {
         "datasheet_name": "Caladius Grav-tank",
-        "datasheet_id": "yjTwoig558I"
+        "datasheet_id": "njH7un_toKg"
       },
       {
         "datasheet_name": "Custodian Guard",
-        "datasheet_id": "huEdSbuQg5k"
+        "datasheet_id": "JRldwmIQC_Q"
       },
       {
         "datasheet_name": "Contemptor-Achillus Dreadnought",
-        "datasheet_id": "488uj-p6OIk"
+        "datasheet_id": "Qk4vyrAlV70"
       },
       {
         "datasheet_name": "Custodian Wardens",
-        "datasheet_id": "GlVD7z-ALgk"
+        "datasheet_id": "HK_cNmhcleI"
       },
       {
         "datasheet_name": "Contemptor-Galatus Dreadnought",
-        "datasheet_id": "6UEy1y9hiPQ"
+        "datasheet_id": "w8Ofk36vnAs"
       },
       {
         "datasheet_name": "Knight-Centura",
-        "datasheet_id": "-aODvXcpA_Q"
+        "datasheet_id": "afA8VZqy9g0"
       },
       {
         "datasheet_name": "Coronus Grav-carrier",
-        "datasheet_id": "UapxWQi89d0"
+        "datasheet_id": "plcbgvxFVac"
       },
       {
         "datasheet_name": "Prosecutors",
-        "datasheet_id": "U9EStsnFe6g"
+        "datasheet_id": "PJzjw6M6brY"
       },
       {
         "datasheet_name": "Custodian Guard with Adrasite and Pyrithite Spears",
-        "datasheet_id": "88u2BqrKYZ8"
+        "datasheet_id": "r3neI7M_RHA"
       },
       {
         "datasheet_name": "Shield-Captain",
-        "datasheet_id": "c_B2brP1Q04"
+        "datasheet_id": "4Yvx9ogSCBU"
       },
       {
         "datasheet_name": "Orion Assault Dropship",
-        "datasheet_id": "jvWwWG_vzB4"
+        "datasheet_id": "MaXJ9SBvSJo"
       },
       {
         "datasheet_name": "Shield-Captain in Allarus Terminator Armour",
-        "datasheet_id": "KOAGpsCCQkA"
+        "datasheet_id": "8xAq75X1dlo"
       },
       {
         "datasheet_name": "Pallas Grav-attack",
-        "datasheet_id": "lp1tj_b25Pc"
+        "datasheet_id": "3KPssVRZRJA"
       },
       {
         "datasheet_name": "Shield-Captain on Dawneagle Jetbike",
-        "datasheet_id": "-U4OJRU_Fqs"
+        "datasheet_id": "73sTl5U0mvI"
       },
       {
         "datasheet_name": "Sagittarum Custodians",
-        "datasheet_id": "AgETILP2-YA"
+        "datasheet_id": "cioiBQmNJpg"
       },
       {
         "datasheet_name": "Trajann Valoris",
-        "datasheet_id": "SxNj3hu1grs"
+        "datasheet_id": "TsBg_-GlFao"
       },
       {
         "datasheet_name": "Telemon Heavy Dreadnought",
-        "datasheet_id": "BmaPWUHr35c"
+        "datasheet_id": "3oxycHOTj0o"
       },
       {
         "datasheet_name": "Valerian",
-        "datasheet_id": "DtY3BzB9ObU"
+        "datasheet_id": "YkvOehH1AyE"
       },
       {
         "datasheet_name": "Venatari Custodians",
-        "datasheet_id": "PTEv1LXFxQ4"
+        "datasheet_id": "a79G-BizVEA"
       },
       {
         "datasheet_name": "Venerable Contemptor Dreadnought",
-        "datasheet_id": "ZF4j9w5fDYo"
+        "datasheet_id": "MOkgLs1MBNY"
       },
       {
         "datasheet_name": "Venerable Land Raider",
-        "datasheet_id": "ybRABM8scTs"
+        "datasheet_id": "gji4pzFd91A"
       },
       {
         "datasheet_name": "Vertus Praetors",
-        "datasheet_id": "vXu5GfE5kjE"
+        "datasheet_id": "cP5F7CrQcUY"
       },
       {
         "datasheet_name": "Vigilators",
-        "datasheet_id": "SuGwia5Myp8"
+        "datasheet_id": "rRRnqnhfJms"
       },
       {
         "datasheet_name": "Witchseekers",
-        "datasheet_id": "sRRlZzHMPSA"
+        "datasheet_id": "uaqfDrJwy7k"
       }
     ],
-    "url": "https://39k.pro/faction/hWKlQIlrDHo"
+    "url": "https://39k.pro/faction/0xbccuVN0AM"
   },
   {
     "faction": "Codex: Adeptus Mechanicus",
-    "faction_id": "2V7Ywsj3HHc",
+    "faction_id": "LWRg0FmeNEg",
     "rules": [
       {
         "rules_name": "Doctrina Imperatives",
@@ -769,160 +769,160 @@
     "detachments": [
       {
         "detachment_name": "Skitarii Hunter Cohort",
-        "detachment_id": "uR1w9PPH2GU"
+        "detachment_id": "TdICx02lV-0"
       },
       {
         "detachment_name": "Rad-Zone Corps",
-        "detachment_id": "VZQewa68TRU"
+        "detachment_id": "xxzowoIpg2w"
       },
       {
         "detachment_name": "Haloscreed Battle Clade",
-        "detachment_id": "a8Mkw2D8OcE"
+        "detachment_id": "rB72GDgFnWA"
       },
       {
         "detachment_name": "Explorator Maniple",
-        "detachment_id": "wSxmoHXuNQ4"
+        "detachment_id": "z8BsaUjIvxw"
       },
       {
         "detachment_name": "Data-psalm Conclave",
-        "detachment_id": "xtk7ksenKOs"
+        "detachment_id": "aIR67C2jMRc"
       },
       {
         "detachment_name": "Cohort Cybernetica",
-        "detachment_id": "q-B9BSH2m5U"
+        "detachment_id": "A3CaFmNOPXM"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Archaeopter Fusilave",
-        "datasheet_id": "SdPqpaXytH4"
+        "datasheet_id": "fuwIzQMdAfk"
       },
       {
         "datasheet_name": "Archaeopter Stratoraptor",
-        "datasheet_id": "rEE0hfHEBFA"
+        "datasheet_id": "zprnoVvGbT4"
       },
       {
         "datasheet_name": "Archaeopter Transvector",
-        "datasheet_id": "bc3dbykfqEI"
+        "datasheet_id": "lrxUq9tZ8IQ"
       },
       {
         "datasheet_name": "Belisarius Cawl",
-        "datasheet_id": "UvkwKuCt8Ek"
+        "datasheet_id": "Y06rBDiDZYY"
       },
       {
         "datasheet_name": "Corpuscarii Electro-Priests",
-        "datasheet_id": "2GGpVX-efaY"
+        "datasheet_id": "rvXrnIK9uRY"
       },
       {
         "datasheet_name": "Cybernetica Datasmith",
-        "datasheet_id": "74rz5Ljy7xI"
+        "datasheet_id": "15D4HpoXfKs"
       },
       {
         "datasheet_name": "Fulgurite Electro-Priests",
-        "datasheet_id": "x2J9arEiUcQ"
+        "datasheet_id": "MjE9QG-Q1js"
       },
       {
         "datasheet_name": "Ironstrider Ballistarii",
-        "datasheet_id": "OslxtByYjKk"
+        "datasheet_id": "teAaDQaz2Is"
       },
       {
         "datasheet_name": "Kastelan Robots",
-        "datasheet_id": "e0HAX3UIszE"
+        "datasheet_id": "1IWkaMA-igA"
       },
       {
         "datasheet_name": "Kataphron Breachers",
-        "datasheet_id": "L8_YWc2LcEY"
+        "datasheet_id": "ccWvKqjS8_A"
       },
       {
         "datasheet_name": "Kataphron Destroyers",
-        "datasheet_id": "4_5mrMih0XE"
+        "datasheet_id": "Lg6L6b_Awqo"
       },
       {
         "datasheet_name": "Onager Dunecrawler",
-        "datasheet_id": "yyXrsZ1LfTU"
+        "datasheet_id": "RwZckcYlhFE"
       },
       {
         "datasheet_name": "Pteraxii Skystalkers",
-        "datasheet_id": "BHfr1eE2HeE"
+        "datasheet_id": "hJ_2ooFkanw"
       },
       {
         "datasheet_name": "Pteraxii Sterylizors",
-        "datasheet_id": "bWdcEVi4L2Y"
+        "datasheet_id": "ZVh8yG65Zmk"
       },
       {
         "datasheet_name": "Serberys Raiders",
-        "datasheet_id": "aX4jXW7YOrc"
+        "datasheet_id": "qXxUl0EMiAY"
       },
       {
         "datasheet_name": "Serberys Sulphurhounds",
-        "datasheet_id": "aMAqITmoJ6g"
+        "datasheet_id": "JMrUK7KIErU"
       },
       {
         "datasheet_name": "Servitor Battleclade",
-        "datasheet_id": "RAee2aQ4Zw0"
+        "datasheet_id": "2adN8N1LEhw"
       },
       {
         "datasheet_name": "Sicarian Infiltrators",
-        "datasheet_id": "3WIGPxaZNw8"
+        "datasheet_id": "q8BoHKp2aNM"
       },
       {
         "datasheet_name": "Sicarian Ruststalkers",
-        "datasheet_id": "SDMvYuzoji0"
+        "datasheet_id": "KXoxdG1PLe8"
       },
       {
         "datasheet_name": "Skitarii Marshal",
-        "datasheet_id": "ZYttNIpVoUY"
+        "datasheet_id": "NVrI3yJux9Q"
       },
       {
         "datasheet_name": "Skitarii Rangers",
-        "datasheet_id": "1ZBgwjfv968"
+        "datasheet_id": "m0wwvwIuF5M"
       },
       {
         "datasheet_name": "Skitarii Vanguard",
-        "datasheet_id": "k2JtrdluTGo"
+        "datasheet_id": "1JTgaR5N_6w"
       },
       {
         "datasheet_name": "Skorpius Disintegrator",
-        "datasheet_id": "SISZCSEfrQE"
+        "datasheet_id": "Z71yrI8E5po"
       },
       {
         "datasheet_name": "Skorpius Dunerider",
-        "datasheet_id": "WpnSiVDu0BM"
+        "datasheet_id": "R-U-Izb8Fs4"
       },
       {
         "datasheet_name": "Sydonian Dragoons with Radium Jezzails",
-        "datasheet_id": "9VSCx8j7Xvo"
+        "datasheet_id": "LI0y50_IOlc"
       },
       {
         "datasheet_name": "Sydonian Dragoons with Taser Lances",
-        "datasheet_id": "FXfUEC1G4fw"
+        "datasheet_id": "xszddp3geLg"
       },
       {
         "datasheet_name": "Sydonian Skatros",
-        "datasheet_id": "X8hSS2SVlwY"
+        "datasheet_id": "VMVPTaAmcOg"
       },
       {
         "datasheet_name": "Technoarcheologist",
-        "datasheet_id": "cd8U88ng6b0"
+        "datasheet_id": "1QPLiyj38EA"
       },
       {
         "datasheet_name": "Tech-Priest Dominus",
-        "datasheet_id": "sknfenklHPc"
+        "datasheet_id": "OX8X8cQqvXY"
       },
       {
         "datasheet_name": "Tech-Priest Enginseer",
-        "datasheet_id": "3eef9nxjDJ4"
+        "datasheet_id": "F74StgXygRA"
       },
       {
         "datasheet_name": "Tech-Priest Manipulus",
-        "datasheet_id": "3NEofXtk3as"
+        "datasheet_id": "YNkUmaGvU3g"
       }
     ],
-    "url": "https://39k.pro/faction/2V7Ywsj3HHc"
+    "url": "https://39k.pro/faction/LWRg0FmeNEg"
   },
   {
     "faction": "Codex: Aeldari",
-    "faction_id": "KZsxRRjRAw4",
+    "faction_id": "Kaqw8u3NjVE",
     "rules": [
       {
         "rules_name": "Battle Focus",
@@ -936,320 +936,320 @@
     "detachments": [
       {
         "detachment_name": "Windrider Host",
-        "detachment_id": "2jp10WsHhm4"
+        "detachment_id": "Rm8QR5VSC7o"
       },
       {
         "detachment_name": "Warhost",
-        "detachment_id": "9xCslLLwNm0"
+        "detachment_id": "AQ9KvQ2mB9o"
       },
       {
         "detachment_name": "Spirit Conclave",
-        "detachment_id": "AvBtmLaZeok"
+        "detachment_id": "7LYXflRWQtM"
       },
       {
         "detachment_name": "Seer Council",
-        "detachment_id": "UThOCf-40O0"
+        "detachment_id": "E5t_hBfwHPs"
       },
       {
         "detachment_name": "Guardian Battlehost",
-        "detachment_id": "ZqyHyzaXcd0"
+        "detachment_id": "4vqAAPeaNec"
       },
       {
         "detachment_name": "Ghosts of the Webway",
-        "detachment_id": "8sVivXoFZF4"
+        "detachment_id": "0o-jezHhjO4"
       },
       {
         "detachment_name": "Devoted of Ynnead",
-        "detachment_id": "z-LgHdf051U"
+        "detachment_id": "gQsqZMsN8nM"
       },
       {
         "detachment_name": "Aspect Host",
-        "detachment_id": "BaH7IZn-ZlU"
+        "detachment_id": "YjO9rtwV960"
       },
       {
         "detachment_name": "Armoured Warhost",
-        "detachment_id": "A9xyz0c5E-s"
+        "detachment_id": "fko5rWQgcwE"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Asurmen",
-        "datasheet_id": "7FojA4AKIfo"
+        "datasheet_id": "eZziJPxiilA"
       },
       {
         "datasheet_name": "Autarch",
-        "datasheet_id": "gxx1E60VCsY"
+        "datasheet_id": "Ih2BYpJBfDo"
       },
       {
         "datasheet_name": "Autarch Wayleaper",
-        "datasheet_id": "DlEtnsUIL00"
+        "datasheet_id": "tiacropf6MM"
       },
       {
         "datasheet_name": "Avatar of Khaine",
-        "datasheet_id": "kuiz56wK_l0"
+        "datasheet_id": "Hs__7Q7lHKE"
       },
       {
         "datasheet_name": "Baharroth",
-        "datasheet_id": "UKZBCZV271I"
+        "datasheet_id": "FXptx86UCLM"
       },
       {
         "datasheet_name": "Corsair Voidreavers",
-        "datasheet_id": "BgqzYTBrk50"
+        "datasheet_id": "DzrMFAGI-zs"
       },
       {
         "datasheet_name": "Corsair Voidscarred",
-        "datasheet_id": "Hn6ADbR0Fjk"
+        "datasheet_id": "clq3ei9o24Q"
       },
       {
         "datasheet_name": "Crimson Hunter",
-        "datasheet_id": "aGRvpdOkrHo"
+        "datasheet_id": "1mFhZfUTOSo"
       },
       {
         "datasheet_name": "D-cannon Platform",
-        "datasheet_id": "nO1ZUnolznA"
+        "datasheet_id": "8CzeJHjDmY8"
       },
       {
         "datasheet_name": "Dark Reapers",
-        "datasheet_id": "jURrH__v_f4"
+        "datasheet_id": "PstEuWa5wn0"
       },
       {
         "datasheet_name": "Death Jester",
-        "datasheet_id": "FfkhhJT4Qrs"
+        "datasheet_id": "p5n0YeriLsY"
       },
       {
         "datasheet_name": "Dire Avengers",
-        "datasheet_id": "ycQfURh7tKs"
+        "datasheet_id": "cOeKD6Z3Y6k"
       },
       {
         "datasheet_name": "Eldrad Ulthran",
-        "datasheet_id": "-yLwsuVhGOU"
+        "datasheet_id": "YdA4uXExk0E"
       },
       {
         "datasheet_name": "Falcon",
-        "datasheet_id": "L7wDnPzE7iA"
+        "datasheet_id": "vQE_7sQe-Rk"
       },
       {
         "datasheet_name": "Farseer",
-        "datasheet_id": "LUlDnzDQlmw"
+        "datasheet_id": "bitpnx01-p8"
       },
       {
         "datasheet_name": "Farseer Skyrunner",
-        "datasheet_id": "NlBNfdXbz8U"
+        "datasheet_id": "rzDPGKhtExE"
       },
       {
         "datasheet_name": "Fire Dragons",
-        "datasheet_id": "mosfyBStlRc"
+        "datasheet_id": "Njcz-YtHafs"
       },
       {
         "datasheet_name": "Fire Prism",
-        "datasheet_id": "Tbh1ei_JhmU"
+        "datasheet_id": "bY6OA4Ztqos"
       },
       {
         "datasheet_name": "Fuegan",
-        "datasheet_id": "8vfYG5eM_d0"
+        "datasheet_id": "jaS2nZAyoJ0"
       },
       {
         "datasheet_name": "Guardian Defenders",
-        "datasheet_id": "XhT62fbLIQY"
+        "datasheet_id": "Hn06q-3ZrDQ"
       },
       {
         "datasheet_name": "Hemlock Wraithfighter",
-        "datasheet_id": "nbMni5NXGys"
+        "datasheet_id": "W2byf_PV_GM"
       },
       {
         "datasheet_name": "Howling Banshees",
-        "datasheet_id": "IzmaeI5PZJo"
+        "datasheet_id": "aq5e0jZC1Kc"
       },
       {
         "datasheet_name": "Jain Zar",
-        "datasheet_id": "L7MXjK7y_Js"
+        "datasheet_id": "o9yLr16Gx2k"
       },
       {
         "datasheet_name": "Lhykhis",
-        "datasheet_id": "6JPhdE8qvi0"
+        "datasheet_id": "7tkTSUWEk4w"
       },
       {
         "datasheet_name": "Maugan Ra",
-        "datasheet_id": "ZSMLKPenHOQ"
+        "datasheet_id": "Vg75is93Qpc"
       },
       {
         "datasheet_name": "Night Spinner",
-        "datasheet_id": "HA8C-zXWZLw"
+        "datasheet_id": "C44MJ_yUwzY"
       },
       {
         "datasheet_name": "Rangers",
-        "datasheet_id": "oOVzQFwIVzo"
+        "datasheet_id": "o_wGWh4ndp4"
       },
       {
         "datasheet_name": "Shadow Weaver Platform",
-        "datasheet_id": "czo5ENWaZ8I"
+        "datasheet_id": "eqOro1ZIBEM"
       },
       {
         "datasheet_name": "Shadowseer",
-        "datasheet_id": "bvXoMfGiNXY"
+        "datasheet_id": "oh1SNT7CDM0"
       },
       {
         "datasheet_name": "Shining Spears",
-        "datasheet_id": "zV5CBKhvbJY"
+        "datasheet_id": "YzxcJT7bvjo"
       },
       {
         "datasheet_name": "Shroud Runners",
-        "datasheet_id": "JG8ZvXt9r3s"
+        "datasheet_id": "L4m0zbWZJxU"
       },
       {
         "datasheet_name": "Skyweavers",
-        "datasheet_id": "R_G7vwXD-Ns"
+        "datasheet_id": "0hSsSkqwZP0"
       },
       {
         "datasheet_name": "Solitaire",
-        "datasheet_id": "5G67Kg_9UcE"
+        "datasheet_id": "b9SRb5scluc"
       },
       {
         "datasheet_name": "Phantom Titan",
-        "datasheet_id": "CN9mYOmtJJw"
+        "datasheet_id": "m_BJx6GyaRc"
       },
       {
         "datasheet_name": "Spiritseer",
-        "datasheet_id": "dOb77XPpQDA"
+        "datasheet_id": "HmukLn71o5k"
       },
       {
         "datasheet_name": "Starweaver",
-        "datasheet_id": "DlbHrgP1axc"
+        "datasheet_id": "cLK2tzdzrGQ"
       },
       {
         "datasheet_name": "Revenant Titan",
-        "datasheet_id": "GRhKNFg0PT4"
+        "datasheet_id": "gjiheggG95Q"
       },
       {
         "datasheet_name": "Storm Guardians",
-        "datasheet_id": "YSVW7cTBBU8"
+        "datasheet_id": "KHj52AUmHzs"
       },
       {
         "datasheet_name": "Striking Scorpions",
-        "datasheet_id": "VR2R6stsgDs"
+        "datasheet_id": "rjMdKIvO7AE"
       },
       {
         "datasheet_name": "Swooping Hawks",
-        "datasheet_id": "8nPeXa8mt8A"
+        "datasheet_id": "h7JPFGW2J8I"
       },
       {
         "datasheet_name": "The Visarch",
-        "datasheet_id": "UQHUTHoBhp4"
+        "datasheet_id": "Zf_7NQec7N4"
       },
       {
         "datasheet_name": "The Yncarne",
-        "datasheet_id": "zFPT3e7VHSc"
+        "datasheet_id": "Sl0YxLlNLRk"
       },
       {
         "datasheet_name": "Troupe",
-        "datasheet_id": "nhWcSJberZE"
+        "datasheet_id": "W03Es3EqBtg"
       },
       {
         "datasheet_name": "Troupe Master",
-        "datasheet_id": "Of26U2pARSY"
+        "datasheet_id": "5mkYkRfTtJ0"
       },
       {
         "datasheet_name": "Vibro Cannon Platform",
-        "datasheet_id": "PJfjyFCs3m8"
+        "datasheet_id": "niq1vvU_ixk"
       },
       {
         "datasheet_name": "Voidweaver",
-        "datasheet_id": "si8L3usCZss"
+        "datasheet_id": "sOcwUtO2ZDc"
       },
       {
         "datasheet_name": "Vypers",
-        "datasheet_id": "JiqpjSdv1lE"
+        "datasheet_id": "NOKjab-c6OE"
       },
       {
         "datasheet_name": "War Walkers",
-        "datasheet_id": "8N12d41-r2Q"
+        "datasheet_id": "-B9IPYeqmag"
       },
       {
         "datasheet_name": "Warlock",
-        "datasheet_id": "bGrm4YFjPkU"
+        "datasheet_id": "_Q9Qj2KoApk"
       },
       {
         "datasheet_name": "Warlock Conclave",
-        "datasheet_id": "98VyP0VMLJE"
+        "datasheet_id": "z7IHd3uFt2M"
       },
       {
         "datasheet_name": "Warlock Skyrunners",
-        "datasheet_id": "nwqc-9ALqWY"
+        "datasheet_id": "pJ6iDvIF1yM"
       },
       {
         "datasheet_name": "Wave Serpent",
-        "datasheet_id": "W-crWghVvGA"
+        "datasheet_id": "QZto1FdWJ7Y"
       },
       {
         "datasheet_name": "Warp Spiders",
-        "datasheet_id": "uWloeN6WWZU"
+        "datasheet_id": "xLtrwX6xe6c"
       },
       {
         "datasheet_name": "Windriders",
-        "datasheet_id": "uNwXzauYZHQ"
+        "datasheet_id": "PAli3rU-jSU"
       },
       {
         "datasheet_name": "Wraithblades",
-        "datasheet_id": "6Vjx1j1sZYU"
+        "datasheet_id": "4WvgXiroXm8"
       },
       {
         "datasheet_name": "Wraithguard",
-        "datasheet_id": "dnNtuuXfFXs"
+        "datasheet_id": "FQIzKZxiS0I"
       },
       {
         "datasheet_name": "Wraithknight",
-        "datasheet_id": "GLIHH70UqRg"
+        "datasheet_id": "FATt0NxJnTA"
       },
       {
         "datasheet_name": "Wraithknight with Ghostglaive",
-        "datasheet_id": "nuEHpozWQRc"
+        "datasheet_id": "_8HDGRK32bw"
       },
       {
         "datasheet_name": "Wraithlord",
-        "datasheet_id": "4ycIfUO-GLI"
+        "datasheet_id": "-r2mY_BLQkQ"
       },
       {
         "datasheet_name": "Ynnari Archon",
-        "datasheet_id": "TKyDuPRuC6I"
+        "datasheet_id": "vC9tPYE5e4Q"
       },
       {
         "datasheet_name": "Ynnari Incubi",
-        "datasheet_id": "pKsjTNOnCsQ"
+        "datasheet_id": "6u4CYe2CEtQ"
       },
       {
         "datasheet_name": "Ynnari Kabalite Warriors",
-        "datasheet_id": "H95xtWQfXaI"
+        "datasheet_id": "4HqHK1U0wKw"
       },
       {
         "datasheet_name": "Ynnari Raider",
-        "datasheet_id": "rv_8Qdtxdck"
+        "datasheet_id": "Q8UEO7ffMBs"
       },
       {
         "datasheet_name": "Ynnari Reavers",
-        "datasheet_id": "5TtWceuS8e0"
+        "datasheet_id": "05G7CHEJbsc"
       },
       {
         "datasheet_name": "Ynnari Succubus",
-        "datasheet_id": "oM3yS3TgiOY"
+        "datasheet_id": "p-PTUz9ICYA"
       },
       {
         "datasheet_name": "Ynnari Venom",
-        "datasheet_id": "yf-qYBfwI5E"
+        "datasheet_id": "QfDZRXZsGDk"
       },
       {
         "datasheet_name": "Ynnari Wyches",
-        "datasheet_id": "rEscxAkGHTc"
+        "datasheet_id": "ukCvapoNd60"
       },
       {
         "datasheet_name": "Yvraine",
-        "datasheet_id": "1aINKHBD9sY"
+        "datasheet_id": "zZzYxPzJ2wk"
       }
     ],
-    "url": "https://39k.pro/faction/KZsxRRjRAw4"
+    "url": "https://39k.pro/faction/Kaqw8u3NjVE"
   },
   {
     "faction": "Codex: Astra Militarum",
-    "faction_id": "PjShYw02GvU",
+    "faction_id": "B5x5FVeVo30",
     "rules": [
       {
         "rules_name": "Voice of Command",
@@ -1259,300 +1259,300 @@
     "detachments": [
       {
         "detachment_name": "Siege Regiment",
-        "detachment_id": "HKRKIe9_Rqk"
+        "detachment_id": "UM_WTCFKm5Q"
       },
       {
         "detachment_name": "Recon Element",
-        "detachment_id": "BltGYtVkvNI"
+        "detachment_id": "W3TlvLpBU4k"
       },
       {
         "detachment_name": "Mechanised Assault",
-        "detachment_id": "Z8HgT1vYXWo"
+        "detachment_id": "uj4-dS7428k"
       },
       {
         "detachment_name": "Hammer of the Emperor",
-        "detachment_id": "UXSTYl7xX4g"
+        "detachment_id": "iiuPfP0A9-A"
       },
       {
         "detachment_name": "Combined Arms",
-        "detachment_id": "D_eJJjJrAag"
+        "detachment_id": "hiXlvWEwdVc"
       },
       {
         "detachment_name": "Bridgehead Strike",
-        "detachment_id": "GIpV4LABYYU"
+        "detachment_id": "t1kRYmnau1Q"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Aegis Defence Line",
-        "datasheet_id": "UN7_OC9QsBI"
+        "datasheet_id": "8YFW4oVHAw0"
       },
       {
         "datasheet_name": "Armoured Sentinels",
-        "datasheet_id": "tc6D_tweM3M"
+        "datasheet_id": "SpuBvgVnfb8"
       },
       {
         "datasheet_name": "Artillery Team",
-        "datasheet_id": "nUFI7lMWjNg"
+        "datasheet_id": "FnZVrlRQrtQ"
       },
       {
         "datasheet_name": "Avenger Strike Fighter",
-        "datasheet_id": "0gXzQdVNclQ"
+        "datasheet_id": "Ccbz33luSfM"
       },
       {
         "datasheet_name": "Attilan Rough Riders",
-        "datasheet_id": "q50262Owd9U"
+        "datasheet_id": "2Bta0k6YvzU"
       },
       {
         "datasheet_name": "Baneblade",
-        "datasheet_id": "phnYAStBhCk"
+        "datasheet_id": "cBvm7on5qis"
       },
       {
         "datasheet_name": "Banesword",
-        "datasheet_id": "kCvfN7ushjM"
+        "datasheet_id": "L-X6fIG4UYs"
       },
       {
         "datasheet_name": "Banehammer",
-        "datasheet_id": "pN_aSC_XGWM"
+        "datasheet_id": "vBOFNkrDNuU"
       },
       {
         "datasheet_name": "Basilisk",
-        "datasheet_id": "JXROaSBjTBQ"
+        "datasheet_id": "cRUoEwS8BTM"
       },
       {
         "datasheet_name": "Bullgryn Squad",
-        "datasheet_id": "ObRwsxGXVpM"
+        "datasheet_id": "JTqhuA3o48w"
       },
       {
         "datasheet_name": "Cadian Castellan",
-        "datasheet_id": "2je1RhPhe0Q"
+        "datasheet_id": "Asf7Ef5dOtw"
       },
       {
         "datasheet_name": "Cadian Command Squad",
-        "datasheet_id": "jqvocciPC_s"
+        "datasheet_id": "wU9KkQXLGoQ"
       },
       {
         "datasheet_name": "Cadian Heavy Weapons Squad",
-        "datasheet_id": "RrJh0ZeIk2k"
+        "datasheet_id": "j4irQGj2DS4"
       },
       {
         "datasheet_name": "Cadian Shock Troops",
-        "datasheet_id": "bRW5Qdu1UYU"
+        "datasheet_id": "5QfMzHJktGo"
       },
       {
         "datasheet_name": "Catachan Command Squad",
-        "datasheet_id": "73HSdsYmAfM"
+        "datasheet_id": "eafhC1GD-OI"
       },
       {
         "datasheet_name": "Catachan Heavy Weapons Squad",
-        "datasheet_id": "8Rx_Uugi0h8"
+        "datasheet_id": "RmoZvXo9Tx8"
       },
       {
         "datasheet_name": "Catachan Jungle Fighters",
-        "datasheet_id": "pKP6wXN34uo"
+        "datasheet_id": "MLymKTZeUvA"
       },
       {
         "datasheet_name": "Chimera",
-        "datasheet_id": "evL94v-vzcE"
+        "datasheet_id": "WL8N_Bc6PUM"
       },
       {
         "datasheet_name": "Commissar",
-        "datasheet_id": "N2lnwVVm0HA"
+        "datasheet_id": "rhZidEMETto"
       },
       {
         "datasheet_name": "Death Korps of Krieg",
-        "datasheet_id": "BobpTwwBKsc"
+        "datasheet_id": "YOZura4p4cc"
       },
       {
         "datasheet_name": "Death Riders",
-        "datasheet_id": "XGQ9vfr-4Tk"
+        "datasheet_id": "Gi6rmhmboOs"
       },
       {
         "datasheet_name": "Cyclops Demolition Vehicle",
-        "datasheet_id": "QQ9kCZIRwAY"
+        "datasheet_id": "dByAm310Teg"
       },
       {
         "datasheet_name": "Deathstrike",
-        "datasheet_id": "jSmcyngpejo"
+        "datasheet_id": "tWdbfmQ4Cbs"
       },
       {
         "datasheet_name": "Doomhammer",
-        "datasheet_id": "QO3GFy-CioU"
+        "datasheet_id": "AiemvCHU2TA"
       },
       {
         "datasheet_name": "Field Ordnance Battery",
-        "datasheet_id": "3SUXc3NNaOo"
+        "datasheet_id": "2G_qmQPV3vU"
       },
       {
         "datasheet_name": "Gaunt’s Ghosts",
-        "datasheet_id": "wkxECsWS2Z8"
+        "datasheet_id": "ZghgzqaN2nk"
       },
       {
         "datasheet_name": "Hellhammer",
-        "datasheet_id": "xdDeW0MZ8Wk"
+        "datasheet_id": "oGjxkyZcEwc"
       },
       {
         "datasheet_name": "Hellhound",
-        "datasheet_id": "BEQhOqpik0o"
+        "datasheet_id": "VMwq8UgNMPw"
       },
       {
         "datasheet_name": "Hydra",
-        "datasheet_id": "-OOkNXu8EdI"
+        "datasheet_id": "6n_g331YePM"
       },
       {
         "datasheet_name": "Kasrkin",
-        "datasheet_id": "kgCCc2X9iCI"
+        "datasheet_id": "7OmWQQIAfyw"
       },
       {
         "datasheet_name": "Krieg Combat Engineers",
-        "datasheet_id": "45RCqcI-zcE"
+        "datasheet_id": "6ip3nqW39cI"
       },
       {
         "datasheet_name": "Krieg Command Squad",
-        "datasheet_id": "zxjFuQ8t9Cc"
+        "datasheet_id": "A2kLGOviBmc"
       },
       {
         "datasheet_name": "Krieg Heavy Weapons Squad",
-        "datasheet_id": "n-_cM6BwE5c"
+        "datasheet_id": "EwoNWrV737o"
       },
       {
         "datasheet_name": "Leman Russ Battle Tank",
-        "datasheet_id": "1zDA0JCcS_E"
+        "datasheet_id": "_ost6-23Lqk"
       },
       {
         "datasheet_name": "Leman Russ Commander",
-        "datasheet_id": "_n0vh48lEAo"
+        "datasheet_id": "d58-kpzrXZc"
       },
       {
         "datasheet_name": "Leman Russ Demolisher",
-        "datasheet_id": "RWIP9PLoPTs"
+        "datasheet_id": "qG9o4vyp1vM"
       },
       {
         "datasheet_name": "Leman Russ Eradicator",
-        "datasheet_id": "Hisnx4ss_a0"
+        "datasheet_id": "Gze3lPyYYqQ"
       },
       {
         "datasheet_name": "Leman Russ Executioner",
-        "datasheet_id": "S2pJ06pxi48"
+        "datasheet_id": "6B7Sl_ZzZDk"
       },
       {
         "datasheet_name": "Leman Russ Exterminator",
-        "datasheet_id": "w4e7UaqrTpQ"
+        "datasheet_id": "RA2ofJhx8gs"
       },
       {
         "datasheet_name": "Leman Russ Punisher",
-        "datasheet_id": "SJLkD2DDLx8"
+        "datasheet_id": "WLDFv5X3OoQ"
       },
       {
         "datasheet_name": "Leman Russ Vanquisher",
-        "datasheet_id": "iJ7zwqOJvfc"
+        "datasheet_id": "_nayqOpp4K8"
       },
       {
         "datasheet_name": "Lord Marshal Dreir",
-        "datasheet_id": "UgtqJwBM8xk"
+        "datasheet_id": "Mv3Gm7Mi8NE"
       },
       {
         "datasheet_name": "Lord Solar Leontus",
-        "datasheet_id": "-zUJgJoCsQQ"
+        "datasheet_id": "PlZLzGjPZ0A"
       },
       {
         "datasheet_name": "Manticore",
-        "datasheet_id": "SRQHPgFQMUQ"
+        "datasheet_id": "834oTTQINWQ"
       },
       {
         "datasheet_name": "Militarum Tempestus Command Squad",
-        "datasheet_id": "j08BLikBZX0"
+        "datasheet_id": "ocOsB9HgWaI"
       },
       {
         "datasheet_name": "Ministorum Priest",
-        "datasheet_id": "ZO0fEQR6U7A"
+        "datasheet_id": "QwnbC9VpIVU"
       },
       {
         "datasheet_name": "Nork Deddog",
-        "datasheet_id": "diFnAhacrrI"
+        "datasheet_id": "e-khFOCRWsM"
       },
       {
         "datasheet_name": "Ogryn Bodyguard",
-        "datasheet_id": "LQ18nqYu2n0"
+        "datasheet_id": "XhRJiIdCGDU"
       },
       {
         "datasheet_name": "Ogryn Squad",
-        "datasheet_id": "nZqCq9SVBco"
+        "datasheet_id": "9tLINAihoZw"
       },
       {
         "datasheet_name": "Primaris Psyker",
-        "datasheet_id": "UBxkUML125c"
+        "datasheet_id": "xA8x6gpM-RQ"
       },
       {
         "datasheet_name": "Ratlings",
-        "datasheet_id": "hUyX2l-UCSw"
+        "datasheet_id": "uHmdKhk8l9w"
       },
       {
         "datasheet_name": "Rogal Dorn Battle Tank",
-        "datasheet_id": "lT5XvFskAnI"
+        "datasheet_id": "o8iz_ersIr8"
       },
       {
         "datasheet_name": "Rogal Dorn Commander",
-        "datasheet_id": "XZ5JdTAOyCM"
+        "datasheet_id": "cLo5cKo5Jc8"
       },
       {
         "datasheet_name": "Scout Sentinels",
-        "datasheet_id": "LloJnr5I9BM"
+        "datasheet_id": "D-akKvVxxFk"
       },
       {
         "datasheet_name": "Shadowsword",
-        "datasheet_id": "EV_kAiAj8cs"
+        "datasheet_id": "K7J9129i3_c"
       },
       {
         "datasheet_name": "Sly Marbo",
-        "datasheet_id": "r6Ibhts4_1A"
+        "datasheet_id": "PaiqbmzngOg"
       },
       {
         "datasheet_name": "Stormlord",
-        "datasheet_id": "YnN4GFIXXy0"
+        "datasheet_id": "8wGedeATtOM"
       },
       {
         "datasheet_name": "Stormsword",
-        "datasheet_id": "FjkcvRhS8C8"
+        "datasheet_id": "2o6N3ff9Jjs"
       },
       {
         "datasheet_name": "Taurox",
-        "datasheet_id": "jhGLLh36BOY"
+        "datasheet_id": "sRCVrGpwQt8"
       },
       {
         "datasheet_name": "Taurox Prime",
-        "datasheet_id": "mCBtA78FJJc"
+        "datasheet_id": "YC0hoHRJ_5s"
       },
       {
         "datasheet_name": "Tech-Priest Enginseer",
-        "datasheet_id": "rqJ3eOIfQUY"
+        "datasheet_id": "XR_8119DPAs"
       },
       {
         "datasheet_name": "Tempestus Aquilons",
-        "datasheet_id": "obFJ5y-vZ98"
+        "datasheet_id": "SkwQOyyfnZo"
       },
       {
         "datasheet_name": "Tempestus Scions",
-        "datasheet_id": "s8j81HtMCHg"
+        "datasheet_id": "XqZQTGRGAgo"
       },
       {
         "datasheet_name": "Ursula Creed",
-        "datasheet_id": "XmI_JkE-Qas"
+        "datasheet_id": "mtqx4BRRAJM"
       },
       {
         "datasheet_name": "Valkyrie",
-        "datasheet_id": "rZ78EXb-yLg"
+        "datasheet_id": "1Fu_C4YivwI"
       },
       {
         "datasheet_name": "Wyvern",
-        "datasheet_id": "yhONhTXEOpc"
+        "datasheet_id": "ZxrhmscMHBg"
       }
     ],
-    "url": "https://39k.pro/faction/PjShYw02GvU"
+    "url": "https://39k.pro/faction/B5x5FVeVo30"
   },
   {
     "faction": "Codex: Chaos Knights",
-    "faction_id": "WDCrS3V-oPc",
+    "faction_id": "iQVwBX1IUNA",
     "rules": [
       {
         "rules_name": "Harbingers of Dread",
@@ -1570,112 +1570,112 @@
     "detachments": [
       {
         "detachment_name": "Traitoris Lance",
-        "detachment_id": "aR7nksCuyb4"
+        "detachment_id": "VcUMxqtql5o"
       },
       {
         "detachment_name": "Lords of Dread",
-        "detachment_id": "UXwyAXjWG1I"
+        "detachment_id": "8bAsA9VtDcM"
       },
       {
         "detachment_name": "Infernal Lance",
-        "detachment_id": "0f5JhtOAXJU"
+        "detachment_id": "9gNyjpIqKQY"
       },
       {
         "detachment_name": "Iconoclast Fiefdom",
-        "detachment_id": "626-rGNS-ek"
+        "detachment_id": "mqBouVQ6F5M"
       },
       {
         "detachment_name": "Houndpack Lance",
-        "detachment_id": "QGHpSt-VZ7A"
+        "detachment_id": "cJ8vgR4UM8U"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Knight Abominant",
-        "datasheet_id": "Sshrisa0_lw"
+        "datasheet_id": "7grppVw2BRU"
       },
       {
         "datasheet_name": "Chaos Acastus Knight Asterius",
-        "datasheet_id": "m6ZA1hw1DYM"
+        "datasheet_id": "ih4m4DIPjWw"
       },
       {
         "datasheet_name": "Knight Desecrator",
-        "datasheet_id": "N_t68d4CJHs"
+        "datasheet_id": "Sr_i_ftX05Y"
       },
       {
         "datasheet_name": "Chaos Acastus Knight Porphyrion",
-        "datasheet_id": "Ti1I05dbmDQ"
+        "datasheet_id": "zpXFcZDVdCE"
       },
       {
         "datasheet_name": "Knight Despoiler",
-        "datasheet_id": "7_q2lBI1F_c"
+        "datasheet_id": "ubJkWf-cTmA"
       },
       {
         "datasheet_name": "Chaos Cerastus Knight Acheron",
-        "datasheet_id": "WWnqyxgtfsQ"
+        "datasheet_id": "oYXFaVlnpxM"
       },
       {
         "datasheet_name": "Knight Rampager",
-        "datasheet_id": "WBfrecW-NtI"
+        "datasheet_id": "8qnmscek_ZI"
       },
       {
         "datasheet_name": "Chaos Cerastus Knight Atrapos",
-        "datasheet_id": "QUdNhIgSAvc"
+        "datasheet_id": "IHa0iVFEY2A"
       },
       {
         "datasheet_name": "Knight Ruinator",
-        "datasheet_id": "wdN0klGT8GU"
+        "datasheet_id": "S382eUEcagM"
       },
       {
         "datasheet_name": "Chaos Cerastus Knight Castigator",
-        "datasheet_id": "lBgr20vy1rc"
+        "datasheet_id": "e21KPXFvMvw"
       },
       {
         "datasheet_name": "Knight Tyrant",
-        "datasheet_id": "isKC0UQK_2Q"
+        "datasheet_id": "2FfG227VWec"
       },
       {
         "datasheet_name": "Chaos Cerastus Knight Lancer",
-        "datasheet_id": "lw0E0mpP40w"
+        "datasheet_id": "9_EG-_u_F34"
       },
       {
         "datasheet_name": "War Dog Brigand",
-        "datasheet_id": "jAcBPQQU5ms"
+        "datasheet_id": "wQZB0K19kME"
       },
       {
         "datasheet_name": "Chaos Questoris Knight Magaera",
-        "datasheet_id": "_4wmNv8nMB8"
+        "datasheet_id": "VBFJS9pljLo"
       },
       {
         "datasheet_name": "War Dog Executioner",
-        "datasheet_id": "VAqtQ6KchFA"
+        "datasheet_id": "qtPN2OLobLA"
       },
       {
         "datasheet_name": "Chaos Questoris Knight Styrix",
-        "datasheet_id": "297v6QWAz50"
+        "datasheet_id": "A1EFghKaBVc"
       },
       {
         "datasheet_name": "War Dog Huntsman",
-        "datasheet_id": "ssEUOXv3BAE"
+        "datasheet_id": "GrKHHQrgO0U"
       },
       {
         "datasheet_name": "War Dog Karnivore",
-        "datasheet_id": "pkV2hOpQ8r8"
+        "datasheet_id": "eUmuYyCluKY"
       },
       {
         "datasheet_name": "War Dog Stalker",
-        "datasheet_id": "toXJ0SI6lTc"
+        "datasheet_id": "cA5qH_0nGxE"
       },
       {
         "datasheet_name": "War Dog Moirax",
-        "datasheet_id": "Sqk2lLbJBxE"
+        "datasheet_id": "2wkTGit3pm8"
       }
     ],
-    "url": "https://39k.pro/faction/WDCrS3V-oPc"
+    "url": "https://39k.pro/faction/iQVwBX1IUNA"
   },
   {
     "faction": "Codex: Chaos Space Marines",
-    "faction_id": "D3gAxojdYEM",
+    "faction_id": "Vpbe4Na9krU",
     "rules": [
       {
         "rules_name": "Cults of the Dark Gods",
@@ -1689,248 +1689,248 @@
     "detachments": [
       {
         "detachment_name": "Veterans of the Long War",
-        "detachment_id": "LTl3ffQOLwY"
+        "detachment_id": "TGOc0NNgjG4"
       },
       {
         "detachment_name": "Soulforged Warpack",
-        "detachment_id": "9Wl9PIW441U"
+        "detachment_id": "KZM14T3P-1U"
       },
       {
         "detachment_name": "Renegade Raiders",
-        "detachment_id": "zUgUjE9ejAY"
+        "detachment_id": "XeNBZxK-VqM"
       },
       {
         "detachment_name": "Pactbound Zealots",
-        "detachment_id": "8x0QgoAjzcY"
+        "detachment_id": "zocLspZchNE"
       },
       {
         "detachment_name": "Fellhammer Siege-host",
-        "detachment_id": "Lh13Rw04gfk"
+        "detachment_id": "umXehEp6s8I"
       },
       {
         "detachment_name": "Dread Talons",
-        "detachment_id": "7cvW5pfeiVo"
+        "detachment_id": "EBpVj_JDGus"
       },
       {
         "detachment_name": "Deceptors",
-        "detachment_id": "kmAlyy32gLk"
+        "detachment_id": "CxVx4Ou-fmw"
       },
       {
         "detachment_name": "Creations of Bile",
-        "detachment_id": "R4sLu6bFkcU"
+        "detachment_id": "njkQbfVWlKk"
       },
       {
         "detachment_name": "Chaos Cult",
-        "detachment_id": "9FyRSz7Qfw8"
+        "detachment_id": "EJhBZdn18SY"
       },
       {
         "detachment_name": "Cabal of Chaos",
-        "detachment_id": "508f_3wG3q8"
+        "detachment_id": "O9cARKWMt_I"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Abaddon the Despoiler",
-        "datasheet_id": "U3Zc5JhLfrI"
+        "datasheet_id": "2U8jwEiCuqQ"
       },
       {
         "datasheet_name": "Accursed Cultists",
-        "datasheet_id": "V4dzF6Q_UcE"
+        "datasheet_id": "0yMtDMA6Jik"
       },
       {
         "datasheet_name": "Chaos Bikers",
-        "datasheet_id": "HtTd2oBN6OM"
+        "datasheet_id": "fFVohqOWqHY"
       },
       {
         "datasheet_name": "Chaos Land Raider",
-        "datasheet_id": "pG6eBbhq224"
+        "datasheet_id": "7L-A_iDw6C4"
       },
       {
         "datasheet_name": "Chaos Lord",
-        "datasheet_id": "_MfayYCzbWI"
+        "datasheet_id": "T67ZpTHd80U"
       },
       {
         "datasheet_name": "Chaos Lord in Terminator Armour",
-        "datasheet_id": "VtasGwZgxm4"
+        "datasheet_id": "_4G9L-d-GXE"
       },
       {
         "datasheet_name": "Chaos Lord with Jump Pack",
-        "datasheet_id": "wjWPQWXz0MM"
+        "datasheet_id": "vNH8NSaYnzg"
       },
       {
         "datasheet_name": "Chaos Predator Annihilator",
-        "datasheet_id": "b2-ThpQEf5I"
+        "datasheet_id": "v_6CoijchTA"
       },
       {
         "datasheet_name": "Chaos Predator Destructor",
-        "datasheet_id": "PCTEhnpYDcs"
+        "datasheet_id": "6MnDEPhjjZQ"
       },
       {
         "datasheet_name": "Chaos Rhino",
-        "datasheet_id": "cw182zXEpqE"
+        "datasheet_id": "Vr7A5Ll8k6k"
       },
       {
         "datasheet_name": "Chaos Spawn",
-        "datasheet_id": "tWStFyPTEjc"
+        "datasheet_id": "KRn09snPqVA"
       },
       {
         "datasheet_name": "Chaos Terminator Squad",
-        "datasheet_id": "AhAP3-MHAFQ"
+        "datasheet_id": "uWtUCjL3KPI"
       },
       {
         "datasheet_name": "Chaos Vindicator",
-        "datasheet_id": "_LecxI5wYn4"
+        "datasheet_id": "S7Qalih3wPc"
       },
       {
         "datasheet_name": "Chosen",
-        "datasheet_id": "W5kTY6dz9ZI"
+        "datasheet_id": "nqC5MnU1eH4"
       },
       {
         "datasheet_name": "Cultist Firebrand",
-        "datasheet_id": "rAENuNvZGDM"
+        "datasheet_id": "xkTM-BVKssE"
       },
       {
         "datasheet_name": "Cultist Mob",
-        "datasheet_id": "uZpAhktHAnk"
+        "datasheet_id": "g-B0mBaYdjo"
       },
       {
         "datasheet_name": "Cypher",
-        "datasheet_id": "6473Swt6lk8"
+        "datasheet_id": "-qbolTLXPMo"
       },
       {
         "datasheet_name": "Dark Apostle",
-        "datasheet_id": "Qw2Qgd2qSvc"
+        "datasheet_id": "khbMxr0Osao"
       },
       {
         "datasheet_name": "Dark Commune",
-        "datasheet_id": "DfoJYnIG_tU"
+        "datasheet_id": "zCftSWV3keA"
       },
       {
         "datasheet_name": "Defiler",
-        "datasheet_id": "pqKxMy0C12s"
+        "datasheet_id": "8kdpJl0YOPM"
       },
       {
         "datasheet_name": "Fabius Bile",
-        "datasheet_id": "iqT6yzfKxN0"
+        "datasheet_id": "mCdkzrmd_5s"
       },
       {
         "datasheet_name": "Fellgor Beastmen",
-        "datasheet_id": "J2qe9Lpld5Y"
+        "datasheet_id": "iOo5c_ik7aQ"
       },
       {
         "datasheet_name": "Forgefiend",
-        "datasheet_id": "NH78vx08NlA"
+        "datasheet_id": "9JL00KbR4Zk"
       },
       {
         "datasheet_name": "Haarken Worldclaimer",
-        "datasheet_id": "_UQGmjvg4Yc"
+        "datasheet_id": "ICabv5Zt3UQ"
       },
       {
         "datasheet_name": "Havocs",
-        "datasheet_id": "fqTAh65WxSo"
+        "datasheet_id": "GPa3_kpVdhM"
       },
       {
         "datasheet_name": "Helbrute",
-        "datasheet_id": "IaADHXaLjIQ"
+        "datasheet_id": "cxDAJVV8Zmo"
       },
       {
         "datasheet_name": "Heldrake",
-        "datasheet_id": "tNmBp-HcVNQ"
+        "datasheet_id": "0HJ0aZLOMtA"
       },
       {
         "datasheet_name": "Heretic Astartes Daemon Prince",
-        "datasheet_id": "hn2MQyp8OpI"
+        "datasheet_id": "D3CG3_iGlxI"
       },
       {
         "datasheet_name": "Heretic Astartes Daemon Prince with Wings",
-        "datasheet_id": "HN3I-bZhqsw"
+        "datasheet_id": "ymmtUzfF6tk"
       },
       {
         "datasheet_name": "Huron Blackheart",
-        "datasheet_id": "vN24dA2Zh0M"
+        "datasheet_id": "NesTQshmzb0"
       },
       {
         "datasheet_name": "Khorne Lord of Skulls",
-        "datasheet_id": "V_lEJucKEZ8"
+        "datasheet_id": "dhet6dPexw4"
       },
       {
         "datasheet_name": "Legionaries",
-        "datasheet_id": "WZHHtOy_vnI"
+        "datasheet_id": "jb3StEI_ljA"
       },
       {
         "datasheet_name": "Lord Discordant on Helstalker",
-        "datasheet_id": "33Pc_gkwTAY"
+        "datasheet_id": "8qCUFrIj5GQ"
       },
       {
         "datasheet_name": "Master of Executions",
-        "datasheet_id": "WQfv3KbF8Wo"
+        "datasheet_id": "kInXyRsPO6g"
       },
       {
         "datasheet_name": "Master of Possession",
-        "datasheet_id": "4dA8J4gRq2c"
+        "datasheet_id": "GuchP5vXaIg"
       },
       {
         "datasheet_name": "Maulerfiend",
-        "datasheet_id": "PV7v5ue0bwo"
+        "datasheet_id": "oG8LppI0F_s"
       },
       {
         "datasheet_name": "Nemesis Claw",
-        "datasheet_id": "62XhGGWn-jU"
+        "datasheet_id": "TQ1gpbRSlps"
       },
       {
         "datasheet_name": "Noctilith Crown",
-        "datasheet_id": "qIP1RviqSwo"
+        "datasheet_id": "OKdBfR7oAj0"
       },
       {
         "datasheet_name": "Obliterators",
-        "datasheet_id": "Q5ghehDW_gk"
+        "datasheet_id": "pj5A8IwKpFU"
       },
       {
         "datasheet_name": "Possessed",
-        "datasheet_id": "LQQ3BQa07n8"
+        "datasheet_id": "5h5ImT6b-Tc"
       },
       {
         "datasheet_name": "Raptors",
-        "datasheet_id": "25uH685dZn8"
+        "datasheet_id": "zNFSsoISNew"
       },
       {
         "datasheet_name": "Sorcerer",
-        "datasheet_id": "JjfRM7kgn_w"
+        "datasheet_id": "NhC150MQhW8"
       },
       {
         "datasheet_name": "Sorcerer in Terminator Armour",
-        "datasheet_id": "NtmNGq9PCpE"
+        "datasheet_id": "9aAoomMWFX4"
       },
       {
         "datasheet_name": "Traitor Enforcer",
-        "datasheet_id": "5inzZoSo23Y"
+        "datasheet_id": "hJnHlC8lCOs"
       },
       {
         "datasheet_name": "Traitor Guardsmen Squad",
-        "datasheet_id": "ItO7KYj86t0"
+        "datasheet_id": "rCMvGe1vcs8"
       },
       {
         "datasheet_name": "Vashtorr the Arkifane",
-        "datasheet_id": "ktpB8Dd9elQ"
+        "datasheet_id": "xzm54qXUYaU"
       },
       {
         "datasheet_name": "Venomcrawler",
-        "datasheet_id": "MonFGy4TzP8"
+        "datasheet_id": "p-SDzgRegbQ"
       },
       {
         "datasheet_name": "Warpsmith",
-        "datasheet_id": "kg-eqhd-LXk"
+        "datasheet_id": "eQkDJVP7XsI"
       },
       {
         "datasheet_name": "Warp Talons",
-        "datasheet_id": "1Wtx8Jmme_M"
+        "datasheet_id": "E5JbScUTFV4"
       }
     ],
-    "url": "https://39k.pro/faction/D3gAxojdYEM"
+    "url": "https://39k.pro/faction/Vpbe4Na9krU"
   },
   {
     "faction": "Codex: Death Guard",
-    "faction_id": "4Y48HiHLjMY",
+    "faction_id": "BzYJcoeNhfE",
     "rules": [
       {
         "rules_name": "Nurgle’s Gift (Aura)",
@@ -1944,184 +1944,184 @@
     "detachments": [
       {
         "detachment_name": "Virulent Vectorium",
-        "detachment_id": "hfFY9uHHbMA"
+        "detachment_id": "MjGj7SCeJ6w"
       },
       {
         "detachment_name": "Tallyband Summoners",
-        "detachment_id": "IQeKx_3Mx2Q"
+        "detachment_id": "xBaT73KBrdY"
       },
       {
         "detachment_name": "Shamblerot Vectorium",
-        "detachment_id": "4hKYMCd8Qjo"
+        "detachment_id": "HSvr_zRAC8g"
       },
       {
         "detachment_name": "Mortarion’s Hammer",
-        "detachment_id": "cTE6umzcQik"
+        "detachment_id": "NFq_j1Y_EYw"
       },
       {
         "detachment_name": "Flyblown Host",
-        "detachment_id": "-88njHn0M78"
+        "detachment_id": "CQmVZLAcEuE"
       },
       {
         "detachment_name": "Death Lord’s Chosen",
-        "detachment_id": "RyB4F53UrZk"
+        "detachment_id": "ZG2aw19yCYE"
       },
       {
         "detachment_name": "Champions of Contagion",
-        "detachment_id": "C0P3cFOraQg"
+        "detachment_id": "D6I9N4GSoSo"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Beasts of Nurgle",
-        "datasheet_id": "ZEGuExXQNGo"
+        "datasheet_id": "dk9V0ClJByA"
       },
       {
         "datasheet_name": "Biologus Putrifier",
-        "datasheet_id": "1w4ZEbVgU9w"
+        "datasheet_id": "LT0PWca2yN4"
       },
       {
         "datasheet_name": "Blightlord Terminators",
-        "datasheet_id": "s4mgLOjBlZ4"
+        "datasheet_id": "onPm6yvGKlU"
       },
       {
         "datasheet_name": "Chaos Land Raider",
-        "datasheet_id": "5lUYr-cR-aY"
+        "datasheet_id": "qQ9O52qEIN0"
       },
       {
         "datasheet_name": "Chaos Predator Annihilator",
-        "datasheet_id": "1w7wF_7z27s"
+        "datasheet_id": "BTokfeqe0jk"
       },
       {
         "datasheet_name": "Chaos Predator Destructor",
-        "datasheet_id": "HizHD2nEMzQ"
+        "datasheet_id": "t7fY1cOzaCs"
       },
       {
         "datasheet_name": "Chaos Rhino",
-        "datasheet_id": "GeKKXlF13aY"
+        "datasheet_id": "DhHsVjWZP1o"
       },
       {
         "datasheet_name": "Chaos Spawn",
-        "datasheet_id": "fh5cE5JpD7I"
+        "datasheet_id": "Uuw4eWVXMLI"
       },
       {
         "datasheet_name": "Daemon Prince of Nurgle",
-        "datasheet_id": "1stE4csZZp8"
+        "datasheet_id": "iaZPD2kXG1Q"
       },
       {
         "datasheet_name": "Daemon Prince of Nurgle with Wings",
-        "datasheet_id": "HptbPRy80zc"
+        "datasheet_id": "xoyuB53Iygk"
       },
       {
         "datasheet_name": "Deathshroud Terminators",
-        "datasheet_id": "zju0R35g6OU"
+        "datasheet_id": "yRHS6dk4JGk"
       },
       {
         "datasheet_name": "Defiler",
-        "datasheet_id": "A_oHwWt8RwQ"
+        "datasheet_id": "B0kBAu1FDZo"
       },
       {
         "datasheet_name": "Foetid Bloat-Drone",
-        "datasheet_id": "eAK6GjM_YnU"
+        "datasheet_id": "RqWZWcd_sVs"
       },
       {
         "datasheet_name": "Foetid Bloat-Drone with Heavy Blight Launcher",
-        "datasheet_id": "B17RlE8ivd0"
+        "datasheet_id": "YVXQ5jDcM3w"
       },
       {
         "datasheet_name": "Foul Blightspawn",
-        "datasheet_id": "DH0GTb297Nw"
+        "datasheet_id": "5jSKeaUVZX0"
       },
       {
         "datasheet_name": "Great Unclean One",
-        "datasheet_id": "yPMhG_dHljY"
+        "datasheet_id": "N5fy32KXnic"
       },
       {
         "datasheet_name": "Helbrute",
-        "datasheet_id": "dPfHUPWpkWk"
+        "datasheet_id": "DPeOsNx9j0E"
       },
       {
         "datasheet_name": "Icon Bearer",
-        "datasheet_id": "81Ht5d7r6Yw"
+        "datasheet_id": "8uwrrkwXZqU"
       },
       {
         "datasheet_name": "Lord of Contagion",
-        "datasheet_id": "p7CQD1BH74I"
+        "datasheet_id": "YPJTSz5FPV4"
       },
       {
         "datasheet_name": "Lord of Poxes",
-        "datasheet_id": "cXqIL_21pQ8"
+        "datasheet_id": "ohPL5JogoPk"
       },
       {
         "datasheet_name": "Lord of Virulence",
-        "datasheet_id": "IMPkzHWummY"
+        "datasheet_id": "mt7vLXHz8zI"
       },
       {
         "datasheet_name": "Malignant Plaguecaster",
-        "datasheet_id": "VYMy1wztpGs"
+        "datasheet_id": "GrOthnIyn7w"
       },
       {
         "datasheet_name": "Miasmic Malignifier",
-        "datasheet_id": "kc348UUQUD0"
+        "datasheet_id": "vjzGTGJKFos"
       },
       {
         "datasheet_name": "Mortarion",
-        "datasheet_id": "QzE6CvWdqro"
+        "datasheet_id": "7CBw0oCA9us"
       },
       {
-        "datasheet_name": "Myphitic Blight-Haulers",
-        "datasheet_id": "0D_oA3E0G2Q"
+        "datasheet_name": "Myphitic Blight-haulers",
+        "datasheet_id": "nBOB18Y7_QM"
       },
       {
         "datasheet_name": "Noxious Blightbringer",
-        "datasheet_id": "_3NFndGKGvw"
+        "datasheet_id": "-8pDTUxyqyI"
       },
       {
         "datasheet_name": "Nurglings",
-        "datasheet_id": "kaGf7tH0Jrg"
+        "datasheet_id": "lw5mgrr60k4"
       },
       {
         "datasheet_name": "Plaguebearers",
-        "datasheet_id": "TIoUYjDCj3E"
+        "datasheet_id": "p8YcZ1krXw8"
       },
       {
         "datasheet_name": "Plague Drones",
-        "datasheet_id": "t9TIp1YqGWo"
+        "datasheet_id": "Dvcl4F5A9Fo"
       },
       {
         "datasheet_name": "Plagueburst Crawler",
-        "datasheet_id": "J0IQNDzXDDo"
+        "datasheet_id": "u5c7jOs8xlQ"
       },
       {
         "datasheet_name": "Plague Marines",
-        "datasheet_id": "q0PbYMTysEo"
+        "datasheet_id": "4erBHC5ykUk"
       },
       {
         "datasheet_name": "Plague Surgeon",
-        "datasheet_id": "cDkoijhxFFk"
+        "datasheet_id": "IRUv8ZL16eU"
       },
       {
         "datasheet_name": "Poxwalkers",
-        "datasheet_id": "jdieWp4b5PY"
+        "datasheet_id": "UQj4NDsxcFY"
       },
       {
         "datasheet_name": "Rotigus",
-        "datasheet_id": "VMPZWN7tvIk"
+        "datasheet_id": "Kdu5_eRJE98"
       },
       {
         "datasheet_name": "Tallyman",
-        "datasheet_id": "3nrZEqqqe_0"
+        "datasheet_id": "klmyGg-Fhtc"
       },
       {
         "datasheet_name": "Typhus",
-        "datasheet_id": "e2HQzHf1Sy8"
+        "datasheet_id": "v0WCQRy13lQ"
       }
     ],
-    "url": "https://39k.pro/faction/4Y48HiHLjMY"
+    "url": "https://39k.pro/faction/BzYJcoeNhfE"
   },
   {
     "faction": "Codex: Emperor’s Children",
-    "faction_id": "zI8V-8iBdJc",
+    "faction_id": "wGFOtLxWY0k",
     "rules": [
       {
         "rules_name": "Pact of Excess",
@@ -2135,124 +2135,124 @@
     "detachments": [
       {
         "detachment_name": "Slaanesh’s Chosen",
-        "detachment_id": "I9MQzExvRH0"
+        "detachment_id": "P2Gp7iKZzjI"
       },
       {
         "detachment_name": "Rapid Evisceration",
-        "detachment_id": "u8DSpfIh4uM"
+        "detachment_id": "eXN8bZGuPww"
       },
       {
         "detachment_name": "Peerless Bladesmen",
-        "detachment_id": "G0RbymS9K40"
+        "detachment_id": "9prl38rLpGA"
       },
       {
         "detachment_name": "Mercurial Host",
-        "detachment_id": "MVS3dM_Y6P0"
+        "detachment_id": "nOtlRq2EXjk"
       },
       {
         "detachment_name": "Coterie of the Conceited",
-        "detachment_id": "6nKaDxQLKLw"
+        "detachment_id": "bhBuoLy-80g"
       },
       {
         "detachment_name": "Carnival of Excess",
-        "detachment_id": "CL8zO63CRV4"
+        "detachment_id": "VRfOWe2Jzyw"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Chaos Land Raider",
-        "datasheet_id": "a4ogHonQvKk"
+        "datasheet_id": "VuOegJ0i_hY"
       },
       {
         "datasheet_name": "Chaos Rhino",
-        "datasheet_id": "ZSSnuWBiI_c"
+        "datasheet_id": "-tjusJv62NE"
       },
       {
         "datasheet_name": "Chaos Spawn",
-        "datasheet_id": "8Oqc0jQCGvA"
+        "datasheet_id": "BOr7LhFy0ZM"
       },
       {
         "datasheet_name": "Chaos Terminators",
-        "datasheet_id": "heu0zHoZzaY"
+        "datasheet_id": "bxxVRLfVtVc"
       },
       {
         "datasheet_name": "Daemonettes",
-        "datasheet_id": "JrvuCHVXZNI"
+        "datasheet_id": "mcbYZ6nljOQ"
       },
       {
         "datasheet_name": "Daemon Prince of Slaanesh",
-        "datasheet_id": "7jq_-9jZUiE"
+        "datasheet_id": "EK8CUsv8MpE"
       },
       {
         "datasheet_name": "Daemon Prince of Slaanesh with Wings",
-        "datasheet_id": "gNuJ4aq1Zoc"
+        "datasheet_id": "A5SY7vDfrdc"
       },
       {
         "datasheet_name": "Fiends",
-        "datasheet_id": "exrPsSB9ED4"
+        "datasheet_id": "nL4Ze8iuNNk"
       },
       {
         "datasheet_name": "Flawless Blades",
-        "datasheet_id": "r3L_RXKjgh0"
+        "datasheet_id": "nt-FTLa4eRE"
       },
       {
         "datasheet_name": "Fulgrim",
-        "datasheet_id": "HItXnpaMFsA"
+        "datasheet_id": "OUHO3152Z3Q"
       },
       {
         "datasheet_name": "Heldrake",
-        "datasheet_id": "9Ov6CGhdmpA"
+        "datasheet_id": "r_itc36Jw9k"
       },
       {
         "datasheet_name": "Infractors",
-        "datasheet_id": "INIfbGNvapQ"
+        "datasheet_id": "IRA7kqAwZSM"
       },
       {
         "datasheet_name": "Keeper of Secrets",
-        "datasheet_id": "ISfLnZlCS8o"
+        "datasheet_id": "TAK9lq0O2cQ"
       },
       {
         "datasheet_name": "Lucius the Eternal",
-        "datasheet_id": "_3AwvnVQDcI"
+        "datasheet_id": "5icGCN7PcvQ"
       },
       {
         "datasheet_name": "Lord Exultant",
-        "datasheet_id": "Be7JL7g2L44"
+        "datasheet_id": "XL1AiM51NL4"
       },
       {
         "datasheet_name": "Lord Kakophonist",
-        "datasheet_id": "UcK1XWNtYxM"
+        "datasheet_id": "wt-aNU8OQEA"
       },
       {
         "datasheet_name": "Maulerfiend",
-        "datasheet_id": "pIbYFz6UnDE"
+        "datasheet_id": "8Q8P8_BsRdA"
       },
       {
         "datasheet_name": "Noise Marines",
-        "datasheet_id": "vt2ziMXHW9E"
+        "datasheet_id": "_NfUMKfetdU"
       },
       {
         "datasheet_name": "Seekers",
-        "datasheet_id": "1Rd94g8NA9I"
+        "datasheet_id": "KJo-4ckMoWg"
       },
       {
         "datasheet_name": "Shalaxi Helbane",
-        "datasheet_id": "Ykv9bVWsblk"
+        "datasheet_id": "fc4HgIB4tEI"
       },
       {
         "datasheet_name": "Sorcerer",
-        "datasheet_id": "VbnxGqX8pL4"
+        "datasheet_id": "koaZrRHnwes"
       },
       {
         "datasheet_name": "Tormentors",
-        "datasheet_id": "028r8xtD9qE"
+        "datasheet_id": "5M1wqruEMzo"
       }
     ],
-    "url": "https://39k.pro/faction/zI8V-8iBdJc"
+    "url": "https://39k.pro/faction/wGFOtLxWY0k"
   },
   {
     "faction": "Codex: Genestealer Cults",
-    "faction_id": "TkcLNsbPx6o",
+    "faction_id": "7YwZZaUlhT4",
     "rules": [
       {
         "rules_name": "Cult Ambush",
@@ -2262,132 +2262,132 @@
     "detachments": [
       {
         "detachment_name": "Xenocreed Congregation",
-        "detachment_id": "yCvL5Ap7FhU"
+        "detachment_id": "BQR48fP1fd8"
       },
       {
         "detachment_name": "Outlander Claw",
-        "detachment_id": "yMXEP_a5s3A"
+        "detachment_id": "wOJRMSQn37E"
       },
       {
         "detachment_name": "Host of Ascension",
-        "detachment_id": "P4fVsmM1h9Q"
+        "detachment_id": "fzUiHPtEUgk"
       },
       {
         "detachment_name": "Final Day",
-        "detachment_id": "nnU20ZSB3r4"
+        "detachment_id": "Jp1t-IWFuFw"
       },
       {
         "detachment_name": "Brood Brothers Auxilia",
-        "detachment_id": "w3JeBDYJ8p4"
+        "detachment_id": "GkMH2SeQheE"
       },
       {
         "detachment_name": "Biosanctic Broodsurge",
-        "detachment_id": "WJZMK0wlWzo"
+        "detachment_id": "cTTHjr8CANg"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Aberrants",
-        "datasheet_id": "N9HynQlEB3I"
+        "datasheet_id": "BJ67grBxbjU"
       },
       {
         "datasheet_name": "Abominant",
-        "datasheet_id": "zrmmxoqiKMI"
+        "datasheet_id": "NUfHFs_IZBs"
       },
       {
         "datasheet_name": "Achilles Ridgerunners",
-        "datasheet_id": "erOwr6zuG0Q"
+        "datasheet_id": "N5JyuP_v2nc"
       },
       {
         "datasheet_name": "Acolyte Hybrids with Autopistols",
-        "datasheet_id": "JgprKOp-VrA"
+        "datasheet_id": "InABnvQHtYQ"
       },
       {
         "datasheet_name": "Acolyte Hybrids with Hand Flamers",
-        "datasheet_id": "2VAQpyHt_og"
+        "datasheet_id": "bH8wcO7Mn14"
       },
       {
         "datasheet_name": "Acolyte Iconward",
-        "datasheet_id": "LrLlMYJj9ug"
+        "datasheet_id": "svNkMCpIkuY"
       },
       {
         "datasheet_name": "Atalan Jackals",
-        "datasheet_id": "VFW5oNSSlak"
+        "datasheet_id": "WX7QOvnwUxI"
       },
       {
         "datasheet_name": "Benefictus",
-        "datasheet_id": "LanHA8KH_60"
+        "datasheet_id": "a6tOdusiMDA"
       },
       {
         "datasheet_name": "Biophagus",
-        "datasheet_id": "c4VfJjNCElA"
+        "datasheet_id": "Ljy7vcmZPOM"
       },
       {
         "datasheet_name": "Clamavus",
-        "datasheet_id": "cYhW1mQC914"
+        "datasheet_id": "s-ptLzDwG0s"
       },
       {
         "datasheet_name": "Goliath Rockgrinder",
-        "datasheet_id": "prKgGlpq6PY"
+        "datasheet_id": "UghCbGUYCNk"
       },
       {
         "datasheet_name": "Goliath Truck",
-        "datasheet_id": "BHHXFfJrmDU"
+        "datasheet_id": "P8fv-L2-iPM"
       },
       {
         "datasheet_name": "Hybrid Metamorphs",
-        "datasheet_id": "gXN3VD1Qicc"
+        "datasheet_id": "C7QQKsZ2USk"
       },
       {
         "datasheet_name": "Jackal Alphus",
-        "datasheet_id": "olYrQjcWjuk"
+        "datasheet_id": "5Y7A0npSWr0"
       },
       {
         "datasheet_name": "Kelermorph",
-        "datasheet_id": "2aTlhY-S1Jc"
+        "datasheet_id": "YYzr3CUmAsI"
       },
       {
         "datasheet_name": "Locus",
-        "datasheet_id": "K9rFNHqU6t4"
+        "datasheet_id": "J6oGKb1yhYU"
       },
       {
         "datasheet_name": "Magus",
-        "datasheet_id": "8VPcpVQ6rPQ"
+        "datasheet_id": "AzVc--BeK_o"
       },
       {
         "datasheet_name": "Neophyte Hybrids",
-        "datasheet_id": "4G3BJhFYXk8"
+        "datasheet_id": "t_PQ79CRNR8"
       },
       {
         "datasheet_name": "Nexos",
-        "datasheet_id": "XZAxi4f_nlo"
+        "datasheet_id": "MCdzLnkK39k"
       },
       {
         "datasheet_name": "Patriarch",
-        "datasheet_id": "wfyuFsGKnGo"
+        "datasheet_id": "_0ZirVkYLRI"
       },
       {
         "datasheet_name": "Primus",
-        "datasheet_id": "HxrW0sWErUA"
+        "datasheet_id": "lwSvfa29XUM"
       },
       {
         "datasheet_name": "Purestrain Genestealers",
-        "datasheet_id": "jzYICgyJVfY"
+        "datasheet_id": "Elb03BtzhVg"
       },
       {
         "datasheet_name": "Reductus Saboteur",
-        "datasheet_id": "OQ2IAB61MH4"
+        "datasheet_id": "wZfLwU-sLY4"
       },
       {
         "datasheet_name": "Sanctus",
-        "datasheet_id": "9pHpJhytxAQ"
+        "datasheet_id": "RpmUgcHjgvc"
       }
     ],
-    "url": "https://39k.pro/faction/TkcLNsbPx6o"
+    "url": "https://39k.pro/faction/7YwZZaUlhT4"
   },
   {
     "faction": "Codex: Grey Knights",
-    "faction_id": "tK1LWUpSzF4",
+    "faction_id": "9aSSlahg9l0",
     "rules": [
       {
         "rules_name": "Gate of Infinity",
@@ -2397,140 +2397,140 @@
     "detachments": [
       {
         "detachment_name": "Warpbane Task Force",
-        "detachment_id": "R_ltVDQScJE"
+        "detachment_id": "Fl_ITgFGp58"
       },
       {
         "detachment_name": "Sanctic Spearhead",
-        "detachment_id": "qmcZ7cBh52s"
+        "detachment_id": "4QqhPqYIeoA"
       },
       {
         "detachment_name": "Hallowed Conclave",
-        "detachment_id": "9OH8942YUa8"
+        "detachment_id": "VOIh_PMVt30"
       },
       {
         "detachment_name": "Brotherhood Strike",
-        "detachment_id": "gie0AfMOSSw"
+        "detachment_id": "QY1iLCqt01w"
       },
       {
         "detachment_name": "Banishers",
-        "detachment_id": "bCfcaax46Yk"
+        "detachment_id": "lwoT_gsnMJU"
       },
       {
         "detachment_name": "Augurium Task Force",
-        "detachment_id": "dlE7SdGHUPE"
+        "detachment_id": "hLMPwH7gAq4"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Brother-Captain",
-        "datasheet_id": "5_cw7RPwBhs"
+        "datasheet_id": "KrcHaRcnW-E"
       },
       {
         "datasheet_name": "Brotherhood Champion",
-        "datasheet_id": "XuNPon94uZQ"
+        "datasheet_id": "axzK41Kse0c"
       },
       {
         "datasheet_name": "Brotherhood Chaplain",
-        "datasheet_id": "0_8x9era934"
+        "datasheet_id": "gWSYo8QLsQg"
       },
       {
         "datasheet_name": "Brotherhood Librarian",
-        "datasheet_id": "dmdwrU2B9-Y"
+        "datasheet_id": "_TLaHctHnBU"
       },
       {
         "datasheet_name": "Brotherhood Techmarine",
-        "datasheet_id": "bq1IBS2ubKI"
+        "datasheet_id": "rjG5HKI1NWw"
       },
       {
         "datasheet_name": "Brotherhood Terminator Squad",
-        "datasheet_id": "CHd5zidA3sg"
+        "datasheet_id": "j_unrY3OeEs"
       },
       {
         "datasheet_name": "Castellan Crowe",
-        "datasheet_id": "KOBzwk9IX-g"
+        "datasheet_id": "hKIEKr8eqVI"
       },
       {
         "datasheet_name": "Grand Master",
-        "datasheet_id": "VEHzz3tUSmY"
+        "datasheet_id": "eMp9NBueghM"
       },
       {
         "datasheet_name": "Grand Master in Nemesis Dreadknight",
-        "datasheet_id": "4tpQA5AG_gc"
+        "datasheet_id": "nrPH0WPGvnI"
       },
       {
         "datasheet_name": "Grand Master Voldus",
-        "datasheet_id": "7lnQPHQU1no"
+        "datasheet_id": "MEBa763dLuY"
       },
       {
         "datasheet_name": "Interceptor Squad",
-        "datasheet_id": "Ls31c8OS4_M"
+        "datasheet_id": "sN9d5K8VkWo"
       },
       {
         "datasheet_name": "Land Raider",
-        "datasheet_id": "0CcI0jEhlTM"
+        "datasheet_id": "0Czj7624EOE"
       },
       {
         "datasheet_name": "Land Raider Crusader",
-        "datasheet_id": "0TI9jLKit80"
+        "datasheet_id": "2jWJENQiB8w"
       },
       {
         "datasheet_name": "Land Raider Redeemer",
-        "datasheet_id": "Vfn2e0hvZi4"
+        "datasheet_id": "U1Bt4bkvyIc"
       },
       {
         "datasheet_name": "Nemesis Dreadknight",
-        "datasheet_id": "YS2-gn-MND0"
+        "datasheet_id": "smjt7KcjHfk"
       },
       {
         "datasheet_name": "Paladin Squad",
-        "datasheet_id": "MviehIK3HBI"
+        "datasheet_id": "ciL3NATmxiM"
       },
       {
         "datasheet_name": "Purgation Squad",
-        "datasheet_id": "H6MKBh7a_qk"
+        "datasheet_id": "pYYumwelLj4"
       },
       {
         "datasheet_name": "Purifier Squad",
-        "datasheet_id": "-zRttKqrZxU"
+        "datasheet_id": "eJ2HvMC8SfQ"
       },
       {
         "datasheet_name": "Razorback",
-        "datasheet_id": "Ijl3BnMccxo"
+        "datasheet_id": "KPvI7YMBLc8"
       },
       {
         "datasheet_name": "Grey Knights Thunderhawk Gunship",
-        "datasheet_id": "Gz-QGXXiPQE"
+        "datasheet_id": "Vd1Fo-lL0fU"
       },
       {
         "datasheet_name": "Rhino",
-        "datasheet_id": "GL27tu1hcsw"
+        "datasheet_id": "61c13s4wUg4"
       },
       {
         "datasheet_name": "Strike Squad",
-        "datasheet_id": "zsLKSx8LhWg"
+        "datasheet_id": "xlPokvrkm7I"
       },
       {
         "datasheet_name": "Stormhawk Interceptor",
-        "datasheet_id": "5SzTiN50faQ"
+        "datasheet_id": "EkBDGtShC_w"
       },
       {
         "datasheet_name": "Stormraven Gunship",
-        "datasheet_id": "j0LOGZmAtdw"
+        "datasheet_id": "IeLFgjW8vnE"
       },
       {
         "datasheet_name": "Stormtalon Gunship",
-        "datasheet_id": "Ewld3QmZoe8"
+        "datasheet_id": "RIZ6zDyWlZw"
       },
       {
         "datasheet_name": "Venerable Dreadnought",
-        "datasheet_id": "_W47Vb0O788"
+        "datasheet_id": "7XLcEPgfo8s"
       }
     ],
-    "url": "https://39k.pro/faction/tK1LWUpSzF4"
+    "url": "https://39k.pro/faction/9aSSlahg9l0"
   },
   {
     "faction": "Codex: Imperial Agents",
-    "faction_id": "vMlYo2ERkVw",
+    "faction_id": "3zadozqBeiQ",
     "rules": [
       {
         "rules_name": "Assigned Agents",
@@ -2540,140 +2540,263 @@
     "detachments": [
       {
         "detachment_name": "Veiled Blade Elimination Force",
-        "detachment_id": "QH1zRQ8L8bo"
+        "detachment_id": "I52ggjSvQOc"
       },
       {
         "detachment_name": "Ordo Xenos, Alien Hunters",
-        "detachment_id": "YtVML4RvtZY"
+        "detachment_id": "CEWqXppveoM"
       },
       {
         "detachment_name": "Ordo Malleus, Daemon Hunters",
-        "detachment_id": "wQzNP39-BjQ"
+        "detachment_id": "5atAKkHbHPc"
       },
       {
         "detachment_name": "Ordo Hereticus, Purgation Force",
-        "detachment_id": "kYbHrloQDiI"
+        "detachment_id": "4pJanvpBSuI"
       },
       {
         "detachment_name": "Imperialis Fleet",
-        "detachment_id": "L4B_7DXxfFI"
+        "detachment_id": "NMHK1lhY4WU"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Callidus Assassin",
-        "datasheet_id": "4Qm4eIzpWbY"
+        "datasheet_id": "W5TsVOXn1pA"
       },
       {
         "datasheet_name": "Corvus Blackstar",
-        "datasheet_id": "HI4ox7UUhpM"
+        "datasheet_id": "wQhfUfz8BgU"
       },
       {
         "datasheet_name": "Culexus Assassin",
-        "datasheet_id": "y3xWTlPKk0w"
+        "datasheet_id": "tEyy9-PVe4I"
       },
       {
         "datasheet_name": "Deathwatch Kill Team",
-        "datasheet_id": "T5sPqm7L0SM"
+        "datasheet_id": "qaX5JGxMxK4"
       },
       {
         "datasheet_name": "Eversor Assassin",
-        "datasheet_id": "um_1vysj58E"
+        "datasheet_id": "Fxpm2ZGHU0M"
       },
       {
         "datasheet_name": "Exaction Squad",
-        "datasheet_id": "a5tK7n4KZsg"
+        "datasheet_id": "T-q15Vy1QBA"
       },
       {
         "datasheet_name": "Grey Knights Terminator Squad",
-        "datasheet_id": "DqQ-xSHJXFs"
+        "datasheet_id": "d6gykNdUjBc"
       },
       {
         "datasheet_name": "Imperial Navy Breachers",
-        "datasheet_id": "ScHwwljcPDM"
+        "datasheet_id": "4rQz-FS4gDA"
       },
       {
         "datasheet_name": "Imperial Rhino",
-        "datasheet_id": "woIy8D-wSmw"
+        "datasheet_id": "4MBPgtLHtzA"
       },
       {
         "datasheet_name": "Inquisitor",
-        "datasheet_id": "gE153W33Vy4"
+        "datasheet_id": "oaaSrafY7x8"
       },
       {
         "datasheet_name": "Inquisitor Coteaz",
-        "datasheet_id": "_WtbrSDmb6Q"
+        "datasheet_id": "Zm-XpZ4gxuQ"
       },
       {
         "datasheet_name": "Inquisitor Draxus",
-        "datasheet_id": "ON_08Zuv7CQ"
+        "datasheet_id": "KUyHn0yYa7U"
       },
       {
         "datasheet_name": "Inquisitor Greyfax",
-        "datasheet_id": "JVlKHg0GfXk"
+        "datasheet_id": "MVTjOHpMqo8"
       },
       {
         "datasheet_name": "Inquisitorial Agents",
-        "datasheet_id": "J-VQ0mb3acg"
+        "datasheet_id": "04uX62oUqp8"
       },
       {
         "datasheet_name": "Inquisitorial Chimera",
-        "datasheet_id": "I3YwFU5rBTQ"
+        "datasheet_id": "7jXFj4Kqwns"
       },
       {
         "datasheet_name": "Ministorum Priest",
-        "datasheet_id": "oVNMsZ9x1hQ"
+        "datasheet_id": "T-JD-8M4Z8w"
       },
       {
         "datasheet_name": "Navigator",
-        "datasheet_id": "rROKulddW1k"
+        "datasheet_id": "cAagOcLSZvE"
       },
       {
         "datasheet_name": "Rogue Trader Entourage",
-        "datasheet_id": "n0xg4ZxTcyI"
+        "datasheet_id": "r8F9mG4tYiQ"
       },
       {
         "datasheet_name": "Sanctifiers",
-        "datasheet_id": "_rwbsGvr2Bs"
+        "datasheet_id": "wNE-do8QET4"
       },
       {
         "datasheet_name": "Sisters of Battle Immolator",
-        "datasheet_id": "I68Ja7UNmpw"
+        "datasheet_id": "eWdwEEdAwFo"
       },
       {
         "datasheet_name": "Sisters of Battle Squad",
-        "datasheet_id": "sNvB5BNW09w"
+        "datasheet_id": "hYoRZ2QlLXs"
       },
       {
         "datasheet_name": "Subductor Squad",
-        "datasheet_id": "fbEsEAhvNmg"
+        "datasheet_id": "g_fIiQQpbUw"
       },
       {
         "datasheet_name": "Watch Captain Artemis",
-        "datasheet_id": "AOWrlWmfNRE"
+        "datasheet_id": "SWMQdcsZoOA"
       },
       {
         "datasheet_name": "Watch Master",
-        "datasheet_id": "GLabnq842Mc"
+        "datasheet_id": "Y6u4TRUZoyM"
       },
       {
         "datasheet_name": "Vigilant Squad",
-        "datasheet_id": "6TrIAYTaeHc"
+        "datasheet_id": "F1nQPCyUT-M"
       },
       {
         "datasheet_name": "Vindicare Assassin",
-        "datasheet_id": "mDwQVWKU-4Q"
+        "datasheet_id": "janKn66TLoo"
       },
       {
         "datasheet_name": "Voidsmen-at-Arms",
-        "datasheet_id": "DWbkT3hvjoA"
+        "datasheet_id": "NxYveuItjo0"
       }
     ],
-    "url": "https://39k.pro/faction/vMlYo2ERkVw"
+    "url": "https://39k.pro/faction/3zadozqBeiQ"
+  },
+  {
+    "faction": "Codex: Leagues of Votann",
+    "faction_id": "7RnIcWs4Ygw",
+    "rules": [
+      {
+        "rules_name": "Prioritised Efficiency",
+        "rules_content": "If your Army Faction is **LEAGUES OF VOTANN, LEAGUES OF VOTANN** units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those **LEAGUES OF VOTANN** units have will change depending on how many Yield points (YP) you currently have:\n\n■ At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n■ At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n■ At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\nIf your Army Faction is **LEAGUES OF VOTANN, LEAGUES OF VOTANN** units from your army have one of two abilities: Hostile Acquisition or Fortify Takeover (see below). During the battle, which ability those **LEAGUES OF VOTANN** units have will change depending on how many Yield points (YP) you currently have:\n\n■ At the start of the battle, your units have Hostile Acquisition until the start of your next Command phase.\n■ At the end of your Command phase, if you have fewer than 7YP, your units have Hostile Acquisition until the start of your next Command phase.\n■ At the end of your Command phase, if you have 7YP or more, your units have Fortify Takeover until the start of your next Command phase.\nHostile Acquisition\nHostile Acquisition\nFortify Takeover\nFortify Takeover\n■ Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n■ Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a **VEHICLE**, subtract 1 from the Wound roll.\n■ Each time a model in this unit makes an attack that targets an enemy unit, if this unit is within range of one or more objective markers you control, add 1 to the Hit roll.\n■ Each time an attack targets this unit, if the Strength characteristic of that attack is greater than this unit’s Toughness characteristic and this unit is not a **VEHICLE**, subtract 1 from the Wound roll.\nYield Points\nYield Points\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\n\n■ You control one or more objective markers not within your deployment zone.\n■ You control two or more objective markers not within your deployment zone.\n■ You control more objective markers than your opponent. In your turn, YP gained in this way are always gained before checking which ability **LEAGUES OF VOTANN** units from your army have.\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\nAt the end of each player’s Command phase, you gain 1YP if you control one or more objective markers within your deployment zone, and, from the second battle round onwards, you gain 1 additional YP for each of the following conditions you satisfy:\n\n■ You control one or more objective markers not within your deployment zone.\n■ You control two or more objective markers not within your deployment zone.\n■ You control more objective markers than your opponent. In your turn, YP gained in this way are always gained before checking which ability **LEAGUES OF VOTANN** units from your army have.\n\nWhenever a rule allows you to spend YP, reduce the number of YP you have by that amount (your YP cannot go below 0), otherwise you cannot use that rule.\n**Designer’s Note:** *This means you can use rules that let you gain or spend YP to influence which ability your units have – Hostile Acquisition or Fortify Takeover – depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will sometimes need to plan ahead if you want your army to stay in or change ability.*\n**Designer’s Note:** *This means you can use rules that let you gain or spend YP to influence which ability your units have – Hostile Acquisition or Fortify Takeover – depending on which will be most beneficial to you. Remember that your army only changes ability at the end of your Command phase, so you will sometimes need to plan ahead if you want your army to stay in or change ability.*\n**Example:** *In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.*\n\n*During her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover – it will only change if, at the end of her next Command phase, she still has fewer than 7YP.*\n**Example:** *In her third turn, Freida’s units had the Hostile Acquisition ability, as she had 6YP at the end of her Command phase. In her fourth turn, at the end of her Command phase, she controls one objective marker within her deployment zone, and one objective marker not within her deployment zone, and her opponent controls two objective markers. Freida gains 2YP, so she now has 8YP, and her units now have the Fortify Takeover ability instead.*\n\n*During her turn, Freida uses a Stratagem that allows her to spend YP. She spends 2YP, bringing her total down to 6YP. However, units from her army still have Fortify Takeover – it will only change if, at the end of her next Command phase, she still has fewer than 7YP.*"
+      }
+    ],
+    "detachments": [
+      {
+        "detachment_name": "Persecution Prospect",
+        "detachment_id": "Vvi6VNAr6XI"
+      },
+      {
+        "detachment_name": "Needgaârd Oathband",
+        "detachment_id": "6sSKa534ovY"
+      },
+      {
+        "detachment_name": "Hearthfyre Arsenal",
+        "detachment_id": "XzC9LLAXmRY"
+      },
+      {
+        "detachment_name": "Hearthband",
+        "detachment_id": "DZfGaKt27_o"
+      },
+      {
+        "detachment_name": "Dêlve Assault Shift",
+        "detachment_id": "PEWIOKAFrKs"
+      },
+      {
+        "detachment_name": "Brandfast Oathband",
+        "detachment_id": "2q5LQ9lSqjM"
+      }
+    ],
+    "datasheets": [
+      {
+        "datasheet_name": "Arkanyst Evaluator",
+        "datasheet_id": "yCcLLBxLGiw"
+      },
+      {
+        "datasheet_name": "Brôkhyr Iron-master",
+        "datasheet_id": "o1aKv52n1ZQ"
+      },
+      {
+        "datasheet_name": "Brôkhyr Thunderkyn",
+        "datasheet_id": "PuCbvDRt32k"
+      },
+      {
+        "datasheet_name": "Buri Aegnirssen",
+        "datasheet_id": "73dkELDQCzU"
+      },
+      {
+        "datasheet_name": "Cthonian Beserks",
+        "datasheet_id": "Fa9aRrGaFQk"
+      },
+      {
+        "datasheet_name": "Cthonian Earthshakers",
+        "datasheet_id": "_TaEknS0Zic"
+      },
+      {
+        "datasheet_name": "Einhyr Champion",
+        "datasheet_id": "YRItbSDp59o"
+      },
+      {
+        "datasheet_name": "Einhyr Hearthguard",
+        "datasheet_id": "m_gMDHC2U0A"
+      },
+      {
+        "datasheet_name": "Grimnyr",
+        "datasheet_id": "p0-qDsQVNmg"
+      },
+      {
+        "datasheet_name": "Hearthkyn Warriors",
+        "datasheet_id": "g29r3SijW2E"
+      },
+      {
+        "datasheet_name": "Hekaton Land Fortress",
+        "datasheet_id": "gAO2ena6u3Y"
+      },
+      {
+        "datasheet_name": "Hernkyn Pioneers",
+        "datasheet_id": "nrVOiVnxrhk"
+      },
+      {
+        "datasheet_name": "Hernkyn Yaegirs",
+        "datasheet_id": "xhkYbkp017Q"
+      },
+      {
+        "datasheet_name": "Ironkin Steeljacks with Heavy Volkanite Disintegrators",
+        "datasheet_id": "PuMutyUXuAg"
+      },
+      {
+        "datasheet_name": "Ironkin Steeljacks with Melee Weapons",
+        "datasheet_id": "a-1v--JGYvQ"
+      },
+      {
+        "datasheet_name": "Kâhl",
+        "datasheet_id": "gjfJIefnGSI"
+      },
+      {
+        "datasheet_name": "Kapricus Carrier",
+        "datasheet_id": "jrZKahnM1To"
+      },
+      {
+        "datasheet_name": "Kapricus Defenders",
+        "datasheet_id": "ATGqAV3d1q8"
+      },
+      {
+        "datasheet_name": "Memnyr Strategist",
+        "datasheet_id": "Cm23tqQRzg8"
+      },
+      {
+        "datasheet_name": "Sagitaur",
+        "datasheet_id": "GG0OG1nlLlo"
+      },
+      {
+        "datasheet_name": "Ûthar the Destined",
+        "datasheet_id": "KxKimpPOfuk"
+      }
+    ],
+    "url": "https://39k.pro/faction/7RnIcWs4Ygw"
   },
   {
     "faction": "Codex: Necrons",
-    "faction_id": "BEsB_R02Od8",
+    "faction_id": "L3CG_uWDC3c",
     "rules": [
       {
         "rules_name": "Reanimation Protocols",
@@ -2683,228 +2806,228 @@
     "detachments": [
       {
         "detachment_name": "Starshatter Arsenal",
-        "detachment_id": "966QwZkZNO0"
+        "detachment_id": "E24F3nUWIMI"
       },
       {
         "detachment_name": "Obeisance Phalanx",
-        "detachment_id": "SqBWi4dyTEM"
+        "detachment_id": "Wvpr66zhgjc"
       },
       {
         "detachment_name": "Hypercrypt Legion",
-        "detachment_id": "y89kNRYr2Nk"
+        "detachment_id": "xoSgc7HENdA"
       },
       {
         "detachment_name": "Canoptek Court",
-        "detachment_id": "0GG13XIIh7U"
+        "detachment_id": "l8u7ReFwYPs"
       },
       {
         "detachment_name": "Awakened Dynasty",
-        "detachment_id": "2MGyh1Zfdw4"
+        "detachment_id": "ylewQ2Ew6YM"
       },
       {
         "detachment_name": "Annihilation Legion",
-        "detachment_id": "5OdCRZIX2O4"
+        "detachment_id": "hok0I1nvhew"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Annihilation Barge",
-        "datasheet_id": "cIJIzs26VwE"
+        "datasheet_id": "AplSqvvy8HY"
       },
       {
         "datasheet_name": "Canoptek Doomstalker",
-        "datasheet_id": "r_jUJ-6LD4k"
+        "datasheet_id": "S0ha4quzLns"
       },
       {
         "datasheet_name": "Canoptek Reanimator",
-        "datasheet_id": "Uye07cki_jQ"
+        "datasheet_id": "ZVZO1w95rhs"
       },
       {
         "datasheet_name": "Canoptek Scarab Swarms",
-        "datasheet_id": "II5dbSicaZs"
+        "datasheet_id": "3OiUpHI90Y8"
       },
       {
         "datasheet_name": "Canoptek Spyders",
-        "datasheet_id": "6E8-F64wFRo"
+        "datasheet_id": "T9u3zx5ytOA"
       },
       {
         "datasheet_name": "Canoptek Wraiths",
-        "datasheet_id": "kBpnp5TAUw4"
+        "datasheet_id": "LyersCcx0qg"
       },
       {
         "datasheet_name": "Catacomb Command Barge",
-        "datasheet_id": "WyEy0-dq9qA"
+        "datasheet_id": "GeZHtoMjiCw"
       },
       {
         "datasheet_name": "Chronomancer",
-        "datasheet_id": "XXhM9vsqnLo"
+        "datasheet_id": "hzvKdCO5XRk"
       },
       {
         "datasheet_name": "Convergence of Dominion",
-        "datasheet_id": "yyzlixjXxVM"
+        "datasheet_id": "0l-tjZzEjko"
       },
       {
         "datasheet_name": "Cryptothralls",
-        "datasheet_id": "CMnM_vrRtkc"
+        "datasheet_id": "SaeqS_-LjY0"
       },
       {
         "datasheet_name": "C’tan Shard of the Deceiver",
-        "datasheet_id": "1GeJqNqJrHA"
+        "datasheet_id": "R-EsemgpULk"
       },
       {
         "datasheet_name": "C’tan Shard of the Nightbringer",
-        "datasheet_id": "467qq3ILnks"
+        "datasheet_id": "qHlnEeOJ6XQ"
       },
       {
         "datasheet_name": "C’tan Shard of the Void Dragon",
-        "datasheet_id": "imN7rjXd9YQ"
+        "datasheet_id": "PmhFT_2K9QQ"
       },
       {
         "datasheet_name": "Deathmarks",
-        "datasheet_id": "EdSNBQXMMuI"
+        "datasheet_id": "3uzUrG3aoH0"
       },
       {
         "datasheet_name": "Doom Scythe",
-        "datasheet_id": "GuK-iBL7BVw"
+        "datasheet_id": "AI2TV5PkFNY"
       },
       {
         "datasheet_name": "Doomsday Ark",
-        "datasheet_id": "mpHRUygTStI"
+        "datasheet_id": "4awV2AOkRdI"
       },
       {
         "datasheet_name": "Flayed Ones",
-        "datasheet_id": "qFRyD_cGUtA"
+        "datasheet_id": "2GTLPVVHTJ8"
       },
       {
         "datasheet_name": "Ghost Ark",
-        "datasheet_id": "0cRNvSURM1k"
+        "datasheet_id": "D8dl5wIFyUY"
       },
       {
         "datasheet_name": "Hexmark Destroyer",
-        "datasheet_id": "mgiOg85Uw2M"
+        "datasheet_id": "FK6Cnc2w8Pk"
       },
       {
         "datasheet_name": "Illuminor Szeras",
-        "datasheet_id": "_Ni9Qr3AI34"
+        "datasheet_id": "mx-MMPFSsno"
       },
       {
         "datasheet_name": "Immortals",
-        "datasheet_id": "58Rqx3mhI7c"
+        "datasheet_id": "Ek3CFWV7g0E"
       },
       {
         "datasheet_name": "Imotekh the Stormlord",
-        "datasheet_id": "NpHccqHWvCU"
+        "datasheet_id": "XmrLtp7Ozxs"
       },
       {
         "datasheet_name": "Lokhust Destroyers",
-        "datasheet_id": "C7Wg5fTmpYg"
+        "datasheet_id": "WnW7gDohT2Y"
       },
       {
         "datasheet_name": "Lokhust Heavy Destroyers",
-        "datasheet_id": "Q93l0x8VMe0"
+        "datasheet_id": "lqB_rK3FfpI"
       },
       {
         "datasheet_name": "Lokhust Lord",
-        "datasheet_id": "m_MOqMfiWKo"
+        "datasheet_id": "PMA97pco0_0"
       },
       {
         "datasheet_name": "Lychguard",
-        "datasheet_id": "3o2x2ZWFzYY"
+        "datasheet_id": "b3vcVKi49f8"
       },
       {
         "datasheet_name": "Monolith",
-        "datasheet_id": "CV6rGBgqh6Y"
+        "datasheet_id": "La9l6YwFtog"
       },
       {
         "datasheet_name": "Necron Warriors",
-        "datasheet_id": "6ARPwB5bM9g"
+        "datasheet_id": "KIU1GYRZ5yA"
       },
       {
         "datasheet_name": "Night Scythe",
-        "datasheet_id": "lo-BhM4dPpM"
+        "datasheet_id": "zuN2nBotgjg"
       },
       {
         "datasheet_name": "Obelisk",
-        "datasheet_id": "QOBjzLAXgVk"
+        "datasheet_id": "AS0ZlPllp7o"
       },
       {
         "datasheet_name": "Ophydian Destroyers",
-        "datasheet_id": "cqI_a1IgmzA"
+        "datasheet_id": "Jtwi7WlGPNs"
       },
       {
         "datasheet_name": "Orikan the Diviner",
-        "datasheet_id": "W2TJfyCLFHs"
+        "datasheet_id": "Ef-ECXK9ltk"
       },
       {
         "datasheet_name": "Overlord",
-        "datasheet_id": "nQJi94_CjAk"
+        "datasheet_id": "ZAi3fIK00Xs"
       },
       {
         "datasheet_name": "Overlord with Translocation Shroud",
-        "datasheet_id": "nkslpip0o6o"
+        "datasheet_id": "nim9LaZSx2M"
       },
       {
         "datasheet_name": "Plasmancer",
-        "datasheet_id": "fd4sFPlOaDE"
+        "datasheet_id": "s3WTkFzrCiU"
       },
       {
         "datasheet_name": "Psychomancer",
-        "datasheet_id": "5Wunan9MdfE"
+        "datasheet_id": "9WG4OljVcq4"
       },
       {
         "datasheet_name": "Royal Warden",
-        "datasheet_id": "R1mEtGSvCfE"
+        "datasheet_id": "fLP_cONg60o"
       },
       {
         "datasheet_name": "Skorpekh Destroyers",
-        "datasheet_id": "V-DZ63f9EOk"
+        "datasheet_id": "K2iAo5E-Hck"
       },
       {
         "datasheet_name": "Skorpekh Lord",
-        "datasheet_id": "Q4wD5VGuvdg"
+        "datasheet_id": "TESTNXy_aHI"
       },
       {
         "datasheet_name": "Technomancer",
-        "datasheet_id": "BrqB0KUMYnE"
+        "datasheet_id": "mhYoRxyLhDY"
       },
       {
         "datasheet_name": "Tesseract Vault",
-        "datasheet_id": "a7Tnz0l45YA"
+        "datasheet_id": "sundzKECBcI"
       },
       {
         "datasheet_name": "The Silent King",
-        "datasheet_id": "cC7gqKo9Gqk"
+        "datasheet_id": "KtDgTeDSLjU"
       },
       {
         "datasheet_name": "Tomb Blades",
-        "datasheet_id": "j6WnQ0EIEHA"
+        "datasheet_id": "lYIKBRcBB2E"
       },
       {
         "datasheet_name": "Seraptek Heavy Construct",
-        "datasheet_id": "pK5oMc0q7og"
+        "datasheet_id": "BNCa03Bj3sk"
       },
       {
         "datasheet_name": "Transcendent C’tan",
-        "datasheet_id": "-FC6_pJTdqY"
+        "datasheet_id": "IKRHnp8bipY"
       },
       {
         "datasheet_name": "Trazyn the Infinite",
-        "datasheet_id": "IJFS2nvLTss"
+        "datasheet_id": "W-cYTDeaIH8"
       },
       {
         "datasheet_name": "Triarch Praetorians",
-        "datasheet_id": "ffkc_WXIP-w"
+        "datasheet_id": "A26WuT79FD4"
       },
       {
         "datasheet_name": "Triarch Stalker",
-        "datasheet_id": "Gl3Pmw1hH_E"
+        "datasheet_id": "X7C-H0WaGNs"
       }
     ],
-    "url": "https://39k.pro/faction/BEsB_R02Od8"
+    "url": "https://39k.pro/faction/L3CG_uWDC3c"
   },
   {
     "faction": "Codex: Orks",
-    "faction_id": "n21OiAiJaKI",
+    "faction_id": "_qOplhrbEZs",
     "rules": [
       {
         "rules_name": "Waaagh!",
@@ -2914,256 +3037,256 @@
     "detachments": [
       {
         "detachment_name": "War Horde",
-        "detachment_id": "7O7vhdZZchU"
+        "detachment_id": "VEOC_UK6BcA"
       },
       {
         "detachment_name": "Taktikal Brigade",
-        "detachment_id": "4NKnke2PC80"
+        "detachment_id": "5q7PPv7sLf8"
       },
       {
         "detachment_name": "More Dakka!",
-        "detachment_id": "xDdq0cDdwkA"
+        "detachment_id": "mBn-MrDJ3iQ"
       },
       {
         "detachment_name": "Kult of Speed",
-        "detachment_id": "y9H9_rCN1gs"
+        "detachment_id": "HWy9CBOivXc"
       },
       {
         "detachment_name": "Green Tide",
-        "detachment_id": "BQY9bJGeKVY"
+        "detachment_id": "hGF6vWl2FtA"
       },
       {
         "detachment_name": "Dread Mob",
-        "detachment_id": "5TC8yhg1PzI"
+        "detachment_id": "n84LZL8ygac"
       },
       {
         "detachment_name": "Da Big Hunt",
-        "detachment_id": "U1utCwOiCE0"
+        "detachment_id": "Nxztz1iFIuU"
       },
       {
         "detachment_name": "Bully Boyz",
-        "detachment_id": "gGAot1zWkiU"
+        "detachment_id": "AZvKiNeiYDM"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Battlewagon",
-        "datasheet_id": "MXzY_RdP9m0"
+        "datasheet_id": "u6AgNEqk8H4"
       },
       {
         "datasheet_name": "Beastboss",
-        "datasheet_id": "UeMlKIz4xc8"
+        "datasheet_id": "99Hhb3KqjDk"
       },
       {
         "datasheet_name": "Beastboss on Squigosaur",
-        "datasheet_id": "It-KcYoeuVE"
+        "datasheet_id": "-3y9Fef5SfQ"
       },
       {
         "datasheet_name": "Beast Snagga Boyz",
-        "datasheet_id": "_IAgqEK4eJ0"
+        "datasheet_id": "BXEdjLqPIYU"
       },
       {
         "datasheet_name": "Big’ed Bossbunka",
-        "datasheet_id": "ZQ-kUEamIm8"
+        "datasheet_id": "JnNAmfcBG0w"
       },
       {
         "datasheet_name": "Big Mek",
-        "datasheet_id": "LhXzYL5Hrbg"
+        "datasheet_id": "PckkjlARn8c"
       },
       {
         "datasheet_name": "Big Mek in Mega Armour",
-        "datasheet_id": "9GMYR9egK3k"
+        "datasheet_id": "C6BKtaKI8XU"
       },
       {
         "datasheet_name": "Big Mek with Shokk Attack Gun",
-        "datasheet_id": "2g2QwK3ONm4"
+        "datasheet_id": "k0bOdDoQXtY"
       },
       {
         "datasheet_name": "Blitza-bommer",
-        "datasheet_id": "Ma9tvgWAHFA"
+        "datasheet_id": "s4uSRTGuEDE"
       },
       {
         "datasheet_name": "Boomdakka Snazzwagon",
-        "datasheet_id": "q3j285s-LjY"
+        "datasheet_id": "cLX8fi5twsk"
       },
       {
         "datasheet_name": "Boss Snikrot",
-        "datasheet_id": "MA8kn-VAOQM"
+        "datasheet_id": "VTrwS8ACuOU"
       },
       {
         "datasheet_name": "Boyz",
-        "datasheet_id": "yXvwqIL5zNs"
+        "datasheet_id": "NM1tvbJ1IM8"
       },
       {
         "datasheet_name": "Breaka Boyz",
-        "datasheet_id": "m_qf3Cwf7sA"
+        "datasheet_id": "jEF-4SlgKAo"
       },
       {
         "datasheet_name": "Burna-bommer",
-        "datasheet_id": "46egrIlye9w"
+        "datasheet_id": "wti9ol4TUVM"
       },
       {
         "datasheet_name": "Burna Boyz",
-        "datasheet_id": "pSW7yvm6jyk"
+        "datasheet_id": "cK1-JVBWnkE"
       },
       {
         "datasheet_name": "Dakkajet",
-        "datasheet_id": "zPNj_vWPs48"
+        "datasheet_id": "d0Z1tp3YrHY"
       },
       {
         "datasheet_name": "Deff Dread",
-        "datasheet_id": "SlC7u9tLq40"
+        "datasheet_id": "3pkoHbW2D3o"
       },
       {
         "datasheet_name": "Deffkilla Wartrike",
-        "datasheet_id": "-BHWl_gPE0E"
+        "datasheet_id": "_I4w_fYLg0c"
       },
       {
         "datasheet_name": "Deffkoptas",
-        "datasheet_id": "T9ENhcaRubI"
+        "datasheet_id": "dl0hPvJ5fTM"
       },
       {
         "datasheet_name": "Flash Gitz",
-        "datasheet_id": "94HL-3sJm5g"
+        "datasheet_id": "ygNlNzwXCi4"
       },
       {
         "datasheet_name": "Ghazghkull Thraka",
-        "datasheet_id": "t7yDXx_lPY8"
+        "datasheet_id": "Lvn9lC0Umu0"
       },
       {
         "datasheet_name": "Gargantuan Squiggoth",
-        "datasheet_id": "cRNBWO-soWs"
+        "datasheet_id": "zaPkMNQJBWI"
       },
       {
         "datasheet_name": "Gorkanaut",
-        "datasheet_id": "YQA_FcUg7Wc"
+        "datasheet_id": "MWBMGo67Trg"
       },
       {
         "datasheet_name": "Gretchin",
-        "datasheet_id": "f4fuqfOO5Ls"
+        "datasheet_id": "CAX635bW0S8"
       },
       {
         "datasheet_name": "Hunta Rig",
-        "datasheet_id": "y_dosOCUHn0"
+        "datasheet_id": "IFfFCmLCVgE"
       },
       {
         "datasheet_name": "Killa Kans",
-        "datasheet_id": "xCDPHBX6KcE"
+        "datasheet_id": "H41iTOIhhcE"
       },
       {
         "datasheet_name": "Kill Rig",
-        "datasheet_id": "wQzesazvyDg"
+        "datasheet_id": "fJ33lvgBToQ"
       },
       {
         "datasheet_name": "Kommandos",
-        "datasheet_id": "2Koe2MSryzo"
+        "datasheet_id": "pa6Q9ifcdVI"
       },
       {
         "datasheet_name": "Kustom Boosta-blasta",
-        "datasheet_id": "J9dPP1gYuD8"
+        "datasheet_id": "0xhO9V39wVI"
       },
       {
         "datasheet_name": "Lootas",
-        "datasheet_id": "vb2-GjPCF4M"
+        "datasheet_id": "N1ahZdJUv5w"
       },
       {
         "datasheet_name": "Meganobz",
-        "datasheet_id": "2QtF4tkpHG4"
+        "datasheet_id": "xBv37djYg_A"
       },
       {
         "datasheet_name": "Megatrakk Scrapjet",
-        "datasheet_id": "e5vGUtZ3wlA"
+        "datasheet_id": "YDFlvhAuViQ"
       },
       {
         "datasheet_name": "Mek",
-        "datasheet_id": "oDMQV5BezGw"
+        "datasheet_id": "DuDz5SGieeY"
       },
       {
         "datasheet_name": "Mek Gunz",
-        "datasheet_id": "R99Ar7SfsHo"
+        "datasheet_id": "vFBAogmOxh4"
       },
       {
         "datasheet_name": "Morkanaut",
-        "datasheet_id": "nYo3WMNoTx8"
+        "datasheet_id": "iW1j3soRFzM"
       },
       {
         "datasheet_name": "Mozrog Skragbad",
-        "datasheet_id": "qjFyuXLEeGQ"
+        "datasheet_id": "2889mzmUFL8"
       },
       {
         "datasheet_name": "Nobz",
-        "datasheet_id": "u_TrMGO-aww"
+        "datasheet_id": "NntObWknCNU"
       },
       {
         "datasheet_name": "Painboss",
-        "datasheet_id": "DiZnd3C-NEc"
+        "datasheet_id": "VeBcKBm1ZHg"
       },
       {
         "datasheet_name": "Painboy",
-        "datasheet_id": "VBQAmp9Itls"
+        "datasheet_id": "X-rRqI2wSuY"
       },
       {
         "datasheet_name": "Rukkatrukk Squigbuggy",
-        "datasheet_id": "rX9xw_mBf-A"
+        "datasheet_id": "6V4CS6aqyw0"
       },
       {
         "datasheet_name": "Shokkjump Dragsta",
-        "datasheet_id": "4YVovZV9CMQ"
+        "datasheet_id": "DVDarnDeiIo"
       },
       {
         "datasheet_name": "Squighog Boyz",
-        "datasheet_id": "cZKxpBoz3lI"
+        "datasheet_id": "ArYwVd3V0qc"
       },
       {
         "datasheet_name": "Stompa",
-        "datasheet_id": "6aDzeEG9DG0"
+        "datasheet_id": "9pA3uqw0Pdo"
       },
       {
         "datasheet_name": "Stormboyz",
-        "datasheet_id": "HdxgEaiImaE"
+        "datasheet_id": "-HPZuRPIVA0"
       },
       {
         "datasheet_name": "Tankbustas",
-        "datasheet_id": "MwJN05jMdWk"
+        "datasheet_id": "qcs-bIZpfqs"
       },
       {
         "datasheet_name": "Trukk",
-        "datasheet_id": "CswqCN5AO5o"
+        "datasheet_id": "BuYIbDx38rA"
       },
       {
         "datasheet_name": "Warbikers",
-        "datasheet_id": "m2rHbHDu7aY"
+        "datasheet_id": "6p8yBc1oPHA"
       },
       {
         "datasheet_name": "Warboss",
-        "datasheet_id": "9HM8YHLdLxI"
+        "datasheet_id": "POT4r1i0crU"
       },
       {
         "datasheet_name": "Warboss in Mega Armour",
-        "datasheet_id": "iRFc81DLR_w"
+        "datasheet_id": "nIV2_-BMtwU"
       },
       {
         "datasheet_name": "Wazbom Blastajet",
-        "datasheet_id": "V7QQnAk-I0A"
+        "datasheet_id": "97-SUPhdOeE"
       },
       {
         "datasheet_name": "Weirdboy",
-        "datasheet_id": "2lmfeKSWIvA"
+        "datasheet_id": "MDdfj1aqSuI"
       },
       {
         "datasheet_name": "Wurrboy",
-        "datasheet_id": "5EivTWdBF5E"
+        "datasheet_id": "ELcFfZ-jItc"
       },
       {
         "datasheet_name": "Zodgrod Wortsnagga",
-        "datasheet_id": "f7UPWXjcGD4"
+        "datasheet_id": "s6RZma4atOQ"
       }
     ],
-    "url": "https://39k.pro/faction/n21OiAiJaKI"
+    "url": "https://39k.pro/faction/_qOplhrbEZs"
   },
   {
     "faction": "Codex: Space Marines",
-    "faction_id": "l0eKFbzXlOg",
+    "faction_id": "rmd5kyX0ZZ8",
     "rules": [
       {
         "rules_name": "Oath of Moment",
@@ -3177,420 +3300,424 @@
     "detachments": [
       {
         "detachment_name": "Vanguard Spearhead",
-        "detachment_id": "0_lX2LIGV8E"
+        "detachment_id": "a3-aXOtxM8Y"
       },
       {
         "detachment_name": "Stormlance Task Force",
-        "detachment_id": "D0GZOf6ES2s"
+        "detachment_id": "98S6Hf373Lk"
       },
       {
         "detachment_name": "Librarius Conclave",
-        "detachment_id": "m9xxLLChAlI"
+        "detachment_id": "P6zvYEag3Z0"
       },
       {
         "detachment_name": "Ironstorm Spearhead",
-        "detachment_id": "inKQFnCEJX0"
+        "detachment_id": "tsHjVJOqt_w"
       },
       {
         "detachment_name": "Gladius Task Force",
-        "detachment_id": "zhv9vAFESec"
+        "detachment_id": "8tONx2WYUSU"
+      },
+      {
+        "detachment_name": "Forgefather’s Seekers",
+        "detachment_id": "60HMoZ53C3w"
       },
       {
         "detachment_name": "Firestorm Assault Force",
-        "detachment_id": "Z8t_iduX9qo"
+        "detachment_id": "yhJLvqqP2u4"
       },
       {
         "detachment_name": "Anvil Siege Force",
-        "detachment_id": "dJVJtsDEMVI"
+        "detachment_id": "ZJKuWacwDO4"
       },
       {
         "detachment_name": "1st Company Task Force",
-        "detachment_id": "1euMGhDbbm4"
+        "detachment_id": "09HbEQuasvQ"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Adrax Agatone",
-        "datasheet_id": "mee7mVs1uVw"
+        "datasheet_id": "fAKhjJSckGc"
       },
       {
         "datasheet_name": "Aggressor Squad",
-        "datasheet_id": "eSmp73ukxTs"
+        "datasheet_id": "KIAXsX0R0xw"
       },
       {
         "datasheet_name": "Ancient",
-        "datasheet_id": "s-FFFLPVHrk"
+        "datasheet_id": "b4C0xDaonq8"
       },
       {
         "datasheet_name": "Ancient in Terminator Armour",
-        "datasheet_id": "LnpiF6kUHWI"
+        "datasheet_id": "va6-pHeT6k0"
       },
       {
         "datasheet_name": "Apothecary",
-        "datasheet_id": "3ypaLU-lTJ0"
+        "datasheet_id": "5kvilcGCWm0"
       },
       {
         "datasheet_name": "Apothecary Biologis",
-        "datasheet_id": "L_IjcQOh5RQ"
+        "datasheet_id": "DIm-3kIaj50"
       },
       {
         "datasheet_name": "Assault Intercessor Squad",
-        "datasheet_id": "nnoR6lkkZPE"
+        "datasheet_id": "9roxHz1c3Ec"
       },
       {
         "datasheet_name": "Assault Intercessors with Jump Packs",
-        "datasheet_id": "RPTlkaCYrgs"
+        "datasheet_id": "1B-BP4G1Yn4"
       },
       {
         "datasheet_name": "Ballistus Dreadnought",
-        "datasheet_id": "wJ_4oMGbwVM"
+        "datasheet_id": "7a-4pW7QtQM"
       },
       {
         "datasheet_name": "Bladeguard Ancient",
-        "datasheet_id": "pIX3KO2beuI"
+        "datasheet_id": "-eSQT5gIVNY"
       },
       {
         "datasheet_name": "Bladeguard Veteran Squad",
-        "datasheet_id": "k7J8cwvAYj0"
+        "datasheet_id": "o_C3WGWihAU"
       },
       {
         "datasheet_name": "Brutalis Dreadnought",
-        "datasheet_id": "unyg5p-quFM"
+        "datasheet_id": "6CngjHqCIRo"
       },
       {
         "datasheet_name": "Captain",
-        "datasheet_id": "WKgiF01kCXU"
+        "datasheet_id": "0YJe0OH2OIs"
       },
       {
         "datasheet_name": "Captain in Gravis Armour",
-        "datasheet_id": "zq2pBFJ3b4Y"
+        "datasheet_id": "PdEuc9jqPLQ"
       },
       {
         "datasheet_name": "Captain in Phobos Armour",
-        "datasheet_id": "vqflKSdgTGc"
+        "datasheet_id": "oENm_HTQzVo"
       },
       {
         "datasheet_name": "Captain in Terminator Armour",
-        "datasheet_id": "j4ReyO2aloI"
+        "datasheet_id": "ppLx6sal3kE"
       },
       {
         "datasheet_name": "Captain Sicarius",
-        "datasheet_id": "h5vU4jCOA7Q"
+        "datasheet_id": "oyeLSoFT7sw"
       },
       {
         "datasheet_name": "Captain with Jump Pack",
-        "datasheet_id": "6AhDrcvYe9Y"
+        "datasheet_id": "BlP0-EBcjwM"
       },
       {
         "datasheet_name": "Centurion Assault Squad",
-        "datasheet_id": "WmmRtCLnPVY"
+        "datasheet_id": "BxXF8iDe2S8"
       },
       {
         "datasheet_name": "Centurion Devastator Squad",
-        "datasheet_id": "eLIiW2S_OYg"
+        "datasheet_id": "co6rBq3cYsU"
       },
       {
         "datasheet_name": "Chaplain",
-        "datasheet_id": "4vVcIqGR25M"
+        "datasheet_id": "TBR_2PV_kMk"
       },
       {
         "datasheet_name": "Chaplain in Terminator Armour",
-        "datasheet_id": "xB9V5TuMGN8"
+        "datasheet_id": "0RtV4qVYD0g"
       },
       {
         "datasheet_name": "Chaplain on Bike",
-        "datasheet_id": "QMfWSZUtVuo"
+        "datasheet_id": "qbIQqvvWgcw"
       },
       {
         "datasheet_name": "Chaplain with Jump Pack",
-        "datasheet_id": "xCkOd2vX3Hk"
+        "datasheet_id": "Go3OI8VaUgU"
       },
       {
         "datasheet_name": "Chief Librarian Tigurius",
-        "datasheet_id": "ClE3lxdANO0"
+        "datasheet_id": "Vaol15lQHng"
       },
       {
         "datasheet_name": "Company Heroes",
-        "datasheet_id": "Ppv2R86Z9E8"
+        "datasheet_id": "XTVpNuL4gek"
       },
       {
         "datasheet_name": "Darnath Lysander",
-        "datasheet_id": "5dWzt2k8HmE"
+        "datasheet_id": "XzHCfLwK6ms"
       },
       {
         "datasheet_name": "Desolation Squad",
-        "datasheet_id": "PP9T707Lrg8"
+        "datasheet_id": "j5n674bpjiI"
       },
       {
         "datasheet_name": "Devastator Squad",
-        "datasheet_id": "cDJ08jKljvk"
+        "datasheet_id": "9XpBjM-Lc2o"
       },
       {
         "datasheet_name": "Dreadnought",
-        "datasheet_id": "Y6VdsVEc9AY"
+        "datasheet_id": "YZrNBO53CTA"
       },
       {
         "datasheet_name": "Drop Pod",
-        "datasheet_id": "orNWmkNa5EM"
+        "datasheet_id": "ZBb3y1E8Tug"
       },
       {
         "datasheet_name": "Eliminator Squad",
-        "datasheet_id": "X0blGtBtY1g"
+        "datasheet_id": "4-jgAuso0d0"
       },
       {
         "datasheet_name": "Eradicator Squad",
-        "datasheet_id": "JoSuBN-8y-g"
+        "datasheet_id": "9t1XOFWYOLU"
       },
       {
         "datasheet_name": "Firestrike Servo-turrets",
-        "datasheet_id": "YhaCaXX0jTc"
+        "datasheet_id": "NuEu1AoB0H0"
       },
       {
         "datasheet_name": "Gladiator Lancer",
-        "datasheet_id": "sbX7Gci_ZiU"
+        "datasheet_id": "VtpFwrusJPo"
       },
       {
         "datasheet_name": "Gladiator Reaper",
-        "datasheet_id": "tRFkBXdKA9w"
+        "datasheet_id": "B0RmVYdIKKk"
       },
       {
         "datasheet_name": "Gladiator Valiant",
-        "datasheet_id": "f_WiJOmrHrE"
+        "datasheet_id": "dHkiyCvf59A"
       },
       {
         "datasheet_name": "Hammerfall Bunker",
-        "datasheet_id": "PHPJo7acEwA"
+        "datasheet_id": "gaeojz_KpZ4"
       },
       {
         "datasheet_name": "Heavy Intercessor Squad",
-        "datasheet_id": "qDXKGHNxnVU"
+        "datasheet_id": "O1MbdeSN0i8"
       },
       {
         "datasheet_name": "Hellblaster Squad",
-        "datasheet_id": "zp65nzi2kTU"
+        "datasheet_id": "k5kI-BiLztA"
       },
       {
         "datasheet_name": "Impulsor",
-        "datasheet_id": "ZqsEkqaLh1Q"
+        "datasheet_id": "2tJILq8PTw0"
       },
       {
         "datasheet_name": "Inceptor Squad",
-        "datasheet_id": "aNzKnK15ZEE"
+        "datasheet_id": "IkBtGW1UB5c"
       },
       {
         "datasheet_name": "Incursor Squad",
-        "datasheet_id": "bcrSfvJP9OI"
+        "datasheet_id": "RDzyFr9wheU"
       },
       {
         "datasheet_name": "Infernus Squad",
-        "datasheet_id": "noqr4YgFOA0"
+        "datasheet_id": "S4wNZMpyRx4"
       },
       {
         "datasheet_name": "Infiltrator Squad",
-        "datasheet_id": "o9E_Nl6OM8c"
+        "datasheet_id": "8k3XT0CYzoo"
       },
       {
         "datasheet_name": "Intercessor Squad",
-        "datasheet_id": "p60Xu_nM8lg"
+        "datasheet_id": "-a0RaGTK2S8"
       },
       {
         "datasheet_name": "Invader ATV",
-        "datasheet_id": "M0Jet6e8vt4"
+        "datasheet_id": "QFKiGIHODqc"
       },
       {
         "datasheet_name": "Invictor Tactical Warsuit",
-        "datasheet_id": "PsKcT_Xjisk"
+        "datasheet_id": "bf-wyKb1lLM"
       },
       {
         "datasheet_name": "Iron Father Feirros",
-        "datasheet_id": "xh3NDQhSmNQ"
+        "datasheet_id": "9HODPX-VE2U"
       },
       {
         "datasheet_name": "Judiciar",
-        "datasheet_id": "XDBOrh2am-s"
+        "datasheet_id": "n-U-8HkVCcs"
       },
       {
         "datasheet_name": "Kayvaan Shrike",
-        "datasheet_id": "y5Eu1BsVpC4"
+        "datasheet_id": "xUxsMqzwfoU"
       },
       {
         "datasheet_name": "Kor’sarro Khan",
-        "datasheet_id": "gpEboCoviQE"
+        "datasheet_id": "bITDS4rXIQQ"
       },
       {
         "datasheet_name": "Land Raider",
-        "datasheet_id": "mbHiu5hlTSg"
+        "datasheet_id": "2sBOf720IIE"
       },
       {
         "datasheet_name": "Land Raider Crusader",
-        "datasheet_id": "8RFsjiwl1RU"
+        "datasheet_id": "LVgxMg0Yb6w"
       },
       {
         "datasheet_name": "Land Raider Redeemer",
-        "datasheet_id": "jTsdHJjDW2s"
+        "datasheet_id": "1Np8mWezJ1Q"
       },
       {
         "datasheet_name": "Librarian",
-        "datasheet_id": "QgfnIzdE-Jo"
+        "datasheet_id": "gmtJHRD_jTk"
       },
       {
         "datasheet_name": "Librarian in Phobos Armour",
-        "datasheet_id": "rYFXLH7immA"
+        "datasheet_id": "4UEj_PfBwgA"
       },
       {
         "datasheet_name": "Librarian in Terminator Armour",
-        "datasheet_id": "btLtcrkTlfk"
+        "datasheet_id": "ZG8nxA8a0mg"
       },
       {
         "datasheet_name": "Lieutenant",
-        "datasheet_id": "S2p5qPqLIYo"
+        "datasheet_id": "ypkTv32Zkpw"
       },
       {
         "datasheet_name": "Lieutenant in Phobos Armour",
-        "datasheet_id": "6CVVBHU17A4"
+        "datasheet_id": "Fx6CBTnz_6g"
       },
       {
         "datasheet_name": "Lieutenant in Reiver Armour",
-        "datasheet_id": "ZZxkiN78UdY"
+        "datasheet_id": "T_KXIb93Vtk"
       },
       {
         "datasheet_name": "Lieutenant Titus",
-        "datasheet_id": "XA_Zkyhztck"
+        "datasheet_id": "ZGEwfrpzYus"
       },
       {
         "datasheet_name": "Lieutenant with Combi-weapon",
-        "datasheet_id": "Ikb1K5YTuJM"
+        "datasheet_id": "J_OlBq18cno"
       },
       {
         "datasheet_name": "Marneus Calgar",
-        "datasheet_id": "Tscg7W0VM9g"
+        "datasheet_id": "upLKcmtAtro"
       },
       {
         "datasheet_name": "Outrider Squad",
-        "datasheet_id": "YWr9H6toCHo"
+        "datasheet_id": "O42gGCDALmQ"
       },
       {
         "datasheet_name": "Pedro Kantor",
-        "datasheet_id": "mXa1jEBfL8k"
+        "datasheet_id": "W8ZNQhnNvxU"
       },
       {
         "datasheet_name": "Predator Annihilator",
-        "datasheet_id": "Us0QlLLhcdM"
+        "datasheet_id": "IEN7aJNbzo0"
       },
       {
         "datasheet_name": "Predator Destructor",
-        "datasheet_id": "JM2RbBtK-94"
+        "datasheet_id": "lKywHic_-lA"
       },
       {
         "datasheet_name": "Razorback",
-        "datasheet_id": "0D00SXq3QGo"
+        "datasheet_id": "mzHwiRO2dPc"
       },
       {
         "datasheet_name": "Redemptor Dreadnought",
-        "datasheet_id": "Bnff6fexIuU"
+        "datasheet_id": "k0L_itBX1uE"
       },
       {
         "datasheet_name": "Reiver Squad",
-        "datasheet_id": "c266qSgCaWM"
+        "datasheet_id": "kn3w7SOa1qA"
       },
       {
         "datasheet_name": "Repulsor",
-        "datasheet_id": "HGPIEAW9O1E"
+        "datasheet_id": "jl4r7fBCGrg"
       },
       {
         "datasheet_name": "Repulsor Executioner",
-        "datasheet_id": "YasMgm1TWx0"
+        "datasheet_id": "THaILpwL3Rs"
       },
       {
         "datasheet_name": "Rhino",
-        "datasheet_id": "atMSCM9oz_A"
+        "datasheet_id": "Hp4ETu5WAZw"
       },
       {
         "datasheet_name": "Roboute Guilliman",
-        "datasheet_id": "uYS9GxyH9Sk"
+        "datasheet_id": "hNdZ5EXwZCo"
       },
       {
         "datasheet_name": "Scout Squad",
-        "datasheet_id": "eJqQIkkZUk0"
+        "datasheet_id": "cz-6T5o169s"
       },
       {
         "datasheet_name": "Sternguard Veteran Squad",
-        "datasheet_id": "7cMW3MTLXFs"
+        "datasheet_id": "yovE0UOu4DI"
       },
       {
         "datasheet_name": "Stormhawk Interceptor",
-        "datasheet_id": "ixFiqc1SHbs"
+        "datasheet_id": "1FHhSbx_Esk"
       },
       {
         "datasheet_name": "Stormraven Gunship",
-        "datasheet_id": "kgKc-XMDFCk"
+        "datasheet_id": "T4ZgNdUpqtw"
       },
       {
         "datasheet_name": "Storm Speeder Hailstrike",
-        "datasheet_id": "ImTFrSMDOX0"
+        "datasheet_id": "5xKbDXYnfW4"
       },
       {
         "datasheet_name": "Storm Speeder Thunderstrike",
-        "datasheet_id": "mTPvfGb9yaA"
+        "datasheet_id": "6M1OlTqdgZ8"
       },
       {
         "datasheet_name": "Storm Speeder Hammerstrike",
-        "datasheet_id": "vMcQA6pZzIE"
+        "datasheet_id": "3kV0OUwuLzU"
       },
       {
         "datasheet_name": "Stormtalon Gunship",
-        "datasheet_id": "Slf8-YR9n7w"
+        "datasheet_id": "6_bZgxGiXaM"
       },
       {
         "datasheet_name": "Suppressor Squad",
-        "datasheet_id": "1UygDyovl_Y"
+        "datasheet_id": "CeDWeoOWOPg"
       },
       {
         "datasheet_name": "Tactical Squad",
-        "datasheet_id": "zVfvFhP2JJA"
+        "datasheet_id": "MLqgvvAsFtA"
       },
       {
         "datasheet_name": "Techmarine",
-        "datasheet_id": "_g9TCesE8iQ"
+        "datasheet_id": "VPOlIVcFLtY"
       },
       {
         "datasheet_name": "Terminator Assault Squad",
-        "datasheet_id": "E4ac-Zung5U"
+        "datasheet_id": "PzcgYWt_LdE"
       },
       {
         "datasheet_name": "Terminator Squad",
-        "datasheet_id": "kTk2SLS_egc"
+        "datasheet_id": "g95YyogWyiI"
       },
       {
         "datasheet_name": "Tor Garadon",
-        "datasheet_id": "C4cC8pDOPgc"
+        "datasheet_id": "Ol4AOyArNcY"
       },
       {
         "datasheet_name": "Uriel Ventris",
-        "datasheet_id": "dpKxRfe-j84"
+        "datasheet_id": "ri7fzoEQwME"
       },
       {
         "datasheet_name": "Vanguard Veteran Squad with Jump Packs",
-        "datasheet_id": "sfvJJYBUCEU"
+        "datasheet_id": "Au-nbXSZlzQ"
       },
       {
         "datasheet_name": "Vindicator",
-        "datasheet_id": "U7UgJ0zYOlA"
+        "datasheet_id": "qkRWhR_sFn4"
       },
       {
         "datasheet_name": "Vulkan He’stan",
-        "datasheet_id": "u4Cf0QEH2lc"
+        "datasheet_id": "6GU0MQZhMfA"
       },
       {
         "datasheet_name": "Whirlwind",
-        "datasheet_id": "Vrw2DC3ooDo"
+        "datasheet_id": "7wBR6wIuFO0"
       }
     ],
-    "url": "https://39k.pro/faction/l0eKFbzXlOg"
+    "url": "https://39k.pro/faction/rmd5kyX0ZZ8"
   },
   {
     "faction": "Codex: Thousand Sons",
-    "faction_id": "v5oDCUihhL4",
+    "faction_id": "QQpBBq_cr6k",
     "rules": [
       {
         "rules_name": "Cabal of Sorcerers",
@@ -3604,172 +3731,172 @@
     "detachments": [
       {
         "detachment_name": "Warpmeld Pact",
-        "detachment_id": "6wYfxLnO54w"
+        "detachment_id": "ei14NNE8pLM"
       },
       {
         "detachment_name": "Warpforged Cabal",
-        "detachment_id": "DgAMj_DtneA"
+        "detachment_id": "XjLc5S28N0E"
       },
       {
         "detachment_name": "Rubricae Phalanx",
-        "detachment_id": "24z6VaE0djk"
+        "detachment_id": "p2jqiqDjU_g"
       },
       {
         "detachment_name": "Hexwarp Thrallband",
-        "detachment_id": "sEaaUP32npk"
+        "detachment_id": "71_FLDbWGxY"
       },
       {
         "detachment_name": "Grand Coven",
-        "detachment_id": "7sMitte27Eo"
+        "detachment_id": "B5SUtyK06-Q"
       },
       {
         "detachment_name": "Changehost of Deceit",
-        "detachment_id": "mGzaMS2p6rc"
+        "detachment_id": "XO1gyjldcj0"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Ahriman",
-        "datasheet_id": "MZaNkTSoDik"
+        "datasheet_id": "NRKIMFyPsCg"
       },
       {
         "datasheet_name": "Blue Horrors",
-        "datasheet_id": "d2Nu1wEP-3A"
+        "datasheet_id": "um7QVHwPnCc"
       },
       {
         "datasheet_name": "Chaos Land Raider",
-        "datasheet_id": "VdWr37Nr_ew"
+        "datasheet_id": "nLWkkzfnvNw"
       },
       {
         "datasheet_name": "Chaos Predator Annihilator",
-        "datasheet_id": "vxf63oprHf4"
+        "datasheet_id": "5xuVKvwfn3s"
       },
       {
         "datasheet_name": "Chaos Predator Destructor",
-        "datasheet_id": "NZHB7hSKbQM"
+        "datasheet_id": "oCX8uqOtMKA"
       },
       {
         "datasheet_name": "Chaos Rhino",
-        "datasheet_id": "k74Jk3bhXlU"
+        "datasheet_id": "GPKpmfQ3OQY"
       },
       {
         "datasheet_name": "Chaos Spawn",
-        "datasheet_id": "rKKBx6KqM5Y"
+        "datasheet_id": "65o7OhIVZX0"
       },
       {
         "datasheet_name": "Chaos Vindicator",
-        "datasheet_id": "m754wQiPwDE"
+        "datasheet_id": "TxCR_wkp6C0"
       },
       {
         "datasheet_name": "Daemon Prince of Tzeentch",
-        "datasheet_id": "tHxLrCMeigM"
+        "datasheet_id": "cWPQWkplvr4"
       },
       {
         "datasheet_name": "Daemon Prince of Tzeentch with Wings",
-        "datasheet_id": "wKrE5s2hLS4"
+        "datasheet_id": "YfFEWcUS55c"
       },
       {
         "datasheet_name": "Defiler",
-        "datasheet_id": "_Li-Vp9cEz0"
+        "datasheet_id": "KSW09_0jf_M"
       },
       {
         "datasheet_name": "Exalted Sorcerer",
-        "datasheet_id": "BoC5Z-eXHyo"
+        "datasheet_id": "eN0kmowWIKY"
       },
       {
         "datasheet_name": "Exalted Sorcerer on Disc of Tzeentch",
-        "datasheet_id": "1MJYXPq87xE"
+        "datasheet_id": "mwtC7c8qtJQ"
       },
       {
         "datasheet_name": "Flamers",
-        "datasheet_id": "eAQiUm3oqcM"
+        "datasheet_id": "w_7G5QA-kAg"
       },
       {
         "datasheet_name": "Forgefiend",
-        "datasheet_id": "3nWqTmWnCOI"
+        "datasheet_id": "WmuvA-zibEI"
       },
       {
         "datasheet_name": "Helbrute",
-        "datasheet_id": "xRq3a73TfyI"
+        "datasheet_id": "LaQl8F7_blQ"
       },
       {
         "datasheet_name": "Heldrake",
-        "datasheet_id": "p-TO0AWHgw4"
+        "datasheet_id": "neNfFGTjUI0"
       },
       {
         "datasheet_name": "Infernal Master",
-        "datasheet_id": "HUao4SSGSGU"
+        "datasheet_id": "wG3mfnszK6s"
       },
       {
         "datasheet_name": "Kairos Fateweaver",
-        "datasheet_id": "UMykf3lyVQI"
+        "datasheet_id": "neJb-XhuEkw"
       },
       {
         "datasheet_name": "Lord of Change",
-        "datasheet_id": "5qlhUC3YQw0"
+        "datasheet_id": "yeBMNlzfB3o"
       },
       {
         "datasheet_name": "Magnus the Red",
-        "datasheet_id": "Ip8rCSteHj4"
+        "datasheet_id": "7EZP2Af4STk"
       },
       {
         "datasheet_name": "Maulerfiend",
-        "datasheet_id": "nuLJKGX80qE"
+        "datasheet_id": "YoZW_I3zxuk"
       },
       {
         "datasheet_name": "Mutalith Vortex Beast",
-        "datasheet_id": "V88GuIqJiTY"
+        "datasheet_id": "zxCdZxtUnxE"
       },
       {
         "datasheet_name": "Pink Horrors",
-        "datasheet_id": "bXkxh1mWKgs"
+        "datasheet_id": "0oENhKsjph0"
       },
       {
         "datasheet_name": "Rubric Marines",
-        "datasheet_id": "_GNr55II2DQ"
+        "datasheet_id": "TyRNeju9U-s"
       },
       {
         "datasheet_name": "Scarab Occult Terminators",
-        "datasheet_id": "PYBZa68mRvs"
+        "datasheet_id": "GrIGloW0kHA"
       },
       {
         "datasheet_name": "Screamers",
-        "datasheet_id": "R7BkF37amzY"
+        "datasheet_id": "SN5pe-Bmkbs"
       },
       {
         "datasheet_name": "Sekhetar Robots",
-        "datasheet_id": "4nq0lqZowGE"
+        "datasheet_id": "sKN1NfFhNFY"
       },
       {
         "datasheet_name": "Sorcerer",
-        "datasheet_id": "ZgeIw6OTqc0"
+        "datasheet_id": "qPD-0EUxDmQ"
       },
       {
         "datasheet_name": "Sorcerer in Terminator Armour",
-        "datasheet_id": "4GNVLVxRtDU"
+        "datasheet_id": "czAT7NIZ-wk"
       },
       {
         "datasheet_name": "Tzaangors",
-        "datasheet_id": "xwfRA68rFqM"
+        "datasheet_id": "_MDpAIoauvE"
       },
       {
         "datasheet_name": "Tzaangor Shaman",
-        "datasheet_id": "3PrscQ2X7tc"
+        "datasheet_id": "ASwo9YvayF8"
       },
       {
         "datasheet_name": "Tzaangor Enlightened",
-        "datasheet_id": "oeeTUF1bu78"
+        "datasheet_id": "AfU7MXiFDOE"
       },
       {
         "datasheet_name": "Tzaangor Enlightened with Fatecaster Greatbows",
-        "datasheet_id": "bN2op-QYeAo"
+        "datasheet_id": "I1pW_EJFWq4"
       }
     ],
-    "url": "https://39k.pro/faction/v5oDCUihhL4"
+    "url": "https://39k.pro/faction/QQpBBq_cr6k"
   },
   {
     "faction": "Codex: Tyranids",
-    "faction_id": "lveNbZYAvWA",
+    "faction_id": "dmx8O4KuZ1M",
     "rules": [
       {
         "rules_name": "Shadow in the Warp",
@@ -3783,244 +3910,244 @@
     "detachments": [
       {
         "detachment_name": "Warrior Bioform Onslaught",
-        "detachment_id": "V5kX4uOvFJw"
+        "detachment_id": "yjqU_62MVUY"
       },
       {
         "detachment_name": "Vanguard Onslaught",
-        "detachment_id": "zEcdQ_MgRlM"
+        "detachment_id": "9bYF34AYWEA"
       },
       {
         "detachment_name": "Unending Swarm",
-        "detachment_id": "i0yAOjwu4w8"
+        "detachment_id": "_-XP24XkmfI"
       },
       {
         "detachment_name": "Synaptic Nexus",
-        "detachment_id": "V9kyH6QYbhY"
+        "detachment_id": "oY6u_LIKbG0"
       },
       {
         "detachment_name": "Subterranean Assault",
-        "detachment_id": "sukXo40NQlE"
+        "detachment_id": "kI0Gxcp0pRQ"
       },
       {
         "detachment_name": "Invasion Fleet",
-        "detachment_id": "n1gq9glQsOs"
+        "detachment_id": "vRqRZ4TX8ho"
       },
       {
         "detachment_name": "Crusher Stampede",
-        "detachment_id": "_enM54ZrvT4"
+        "detachment_id": "kuTWxzjitqc"
       },
       {
         "detachment_name": "Assimilation Swarm",
-        "detachment_id": "j_Eud3YnetE"
+        "detachment_id": "AuA9uTuDM4Q"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Barbgaunts",
-        "datasheet_id": "t6M5jbvMLbs"
+        "datasheet_id": "sLxT7T9cM4s"
       },
       {
         "datasheet_name": "Biovores",
-        "datasheet_id": "gzJAP5UioPk"
+        "datasheet_id": "d4XhkzGmw14"
       },
       {
         "datasheet_name": "Broodlord",
-        "datasheet_id": "TvDWsBDC4iM"
+        "datasheet_id": "umBRHx0MMFg"
       },
       {
         "datasheet_name": "Carnifexes",
-        "datasheet_id": "m5jA5ioaBv8"
+        "datasheet_id": "MIXLS1km_IY"
       },
       {
         "datasheet_name": "Deathleaper",
-        "datasheet_id": "y0Em0b5lFgE"
+        "datasheet_id": "tYrURLUsgaI"
       },
       {
         "datasheet_name": "Exocrine",
-        "datasheet_id": "kfHVgGWcZik"
+        "datasheet_id": "gjgHcY80i9Y"
       },
       {
         "datasheet_name": "Gargoyles",
-        "datasheet_id": "YnxXDpkPoQs"
+        "datasheet_id": "OHhWeSMPoyc"
       },
       {
         "datasheet_name": "Genestealers",
-        "datasheet_id": "92alvzca6Vw"
+        "datasheet_id": "kaQZMGmmUtk"
       },
       {
         "datasheet_name": "Harpy",
-        "datasheet_id": "u1xBCMLhrjs"
+        "datasheet_id": "8V3MbbWqLLE"
       },
       {
         "datasheet_name": "Haruspex",
-        "datasheet_id": "n38Ndw3OSxw"
+        "datasheet_id": "Ej-UsWWIPkE"
       },
       {
         "datasheet_name": "Hive Crone",
-        "datasheet_id": "dYHYzt6sMCU"
+        "datasheet_id": "xdBP4O6oCfc"
       },
       {
         "datasheet_name": "Harridan",
-        "datasheet_id": "q9XO3tGOio0"
+        "datasheet_id": "0eCPHHd5GoY"
       },
       {
         "datasheet_name": "Hive Guard",
-        "datasheet_id": "6MmJh_TbKbc"
+        "datasheet_id": "S31ex6OCY6o"
       },
       {
         "datasheet_name": "Hierophant",
-        "datasheet_id": "oQfAsDhBwL0"
+        "datasheet_id": "H87zayglJIU"
       },
       {
         "datasheet_name": "Hive Tyrant",
-        "datasheet_id": "PpS5Wzi6N-E"
+        "datasheet_id": "dYS3OT-8qaE"
       },
       {
         "datasheet_name": "Hormagaunts",
-        "datasheet_id": "XR5gvxo8_14"
+        "datasheet_id": "jE6KiUtgaPE"
       },
       {
         "datasheet_name": "Hyperadapted Raveners",
-        "datasheet_id": "QkAhjpYiuig"
+        "datasheet_id": "paVskiQ8sxQ"
       },
       {
         "datasheet_name": "Lictor",
-        "datasheet_id": "b2VM7A-UoCQ"
+        "datasheet_id": "c_Te7uYAhdA"
       },
       {
         "datasheet_name": "Maleceptor",
-        "datasheet_id": "0GT33JKS0lM"
+        "datasheet_id": "ZOJEs_FcqdA"
       },
       {
         "datasheet_name": "Mawloc",
-        "datasheet_id": "erKQbtOB2fE"
+        "datasheet_id": "3DTTqI9leZE"
       },
       {
         "datasheet_name": "Mucolid Spores",
-        "datasheet_id": "e2wGUHbT5W0"
+        "datasheet_id": "XLkUmbhFXCk"
       },
       {
         "datasheet_name": "Neurogaunts",
-        "datasheet_id": "UUmBaRCBd_0"
+        "datasheet_id": "kt3cRYl2_-Y"
       },
       {
         "datasheet_name": "Neurolictor",
-        "datasheet_id": "CA6_yhFvUWc"
+        "datasheet_id": "3Z6KXM93LYI"
       },
       {
         "datasheet_name": "Neurotyrant",
-        "datasheet_id": "z93ACu2cqSo"
+        "datasheet_id": "lqNcGtJmclo"
       },
       {
         "datasheet_name": "Norn Assimilator",
-        "datasheet_id": "_D-wzqmLpIM"
+        "datasheet_id": "8Xb9Ft-kkFY"
       },
       {
         "datasheet_name": "Norn Emissary",
-        "datasheet_id": "wWa_mjFUnd0"
+        "datasheet_id": "eOcyAxOqEYw"
       },
       {
         "datasheet_name": "Old One Eye",
-        "datasheet_id": "ogQV5TF6ZuY"
+        "datasheet_id": "i7E5jQ3Cfno"
       },
       {
         "datasheet_name": "Parasite of Mortrex",
-        "datasheet_id": "tpp35f8D0Kk"
+        "datasheet_id": "BCrhbHXBMco"
       },
       {
         "datasheet_name": "Psychophage",
-        "datasheet_id": "8SwNPLdpmFM"
+        "datasheet_id": "XcvQxWqo1s0"
       },
       {
         "datasheet_name": "Pyrovores",
-        "datasheet_id": "hR9_Pg0f-XI"
+        "datasheet_id": "F7FGXrZXtbk"
       },
       {
         "datasheet_name": "Raveners",
-        "datasheet_id": "DQGc27r_avA"
+        "datasheet_id": "KOM9YgpLXqE"
       },
       {
         "datasheet_name": "Ripper Swarms",
-        "datasheet_id": "CfqFLTz9kF4"
+        "datasheet_id": "C47k6UQEaxA"
       },
       {
         "datasheet_name": "Screamer-Killer",
-        "datasheet_id": "NfIVmHmitFc"
+        "datasheet_id": "RlUspvB55u8"
       },
       {
         "datasheet_name": "Spore Mines",
-        "datasheet_id": "NKvMMZI0FEQ"
+        "datasheet_id": "yRn3pg_dTYQ"
       },
       {
         "datasheet_name": "Sporocyst",
-        "datasheet_id": "5zhxSDsiJaM"
+        "datasheet_id": "ITJThcFgnsY"
       },
       {
         "datasheet_name": "Termagants",
-        "datasheet_id": "vD_y2ikQsNM"
+        "datasheet_id": "4Ow_jewUAKU"
       },
       {
         "datasheet_name": "Tervigon",
-        "datasheet_id": "5pT4DZQajoU"
+        "datasheet_id": "trrg2FVmjRA"
       },
       {
         "datasheet_name": "The Swarmlord",
-        "datasheet_id": "bIFalguh8nc"
+        "datasheet_id": "AHH8acnIEDA"
       },
       {
         "datasheet_name": "Toxicrene",
-        "datasheet_id": "98gpjb5BBIo"
+        "datasheet_id": "T0oyZ1OH0Z4"
       },
       {
         "datasheet_name": "Trygon",
-        "datasheet_id": "o5bt2EpaZd0"
+        "datasheet_id": "cMbAlhyoeCw"
       },
       {
         "datasheet_name": "Tyranid Warriors with Melee Bio-weapons",
-        "datasheet_id": "48tsN8wHi_o"
+        "datasheet_id": "qMhFbYAxtlI"
       },
       {
         "datasheet_name": "Tyranid Warriors with Ranged Bio-weapons",
-        "datasheet_id": "wRoNhGTpzbk"
+        "datasheet_id": "R2S7DsckROU"
       },
       {
         "datasheet_name": "Tyrannocyte",
-        "datasheet_id": "RD4fbGwmLp0"
+        "datasheet_id": "gEFYcyXYBtA"
       },
       {
         "datasheet_name": "Tyrannofex",
-        "datasheet_id": "3thZaFobErM"
+        "datasheet_id": "mhr9840Rk6I"
       },
       {
         "datasheet_name": "Tyrant Guard",
-        "datasheet_id": "0JcMkrYCzHM"
+        "datasheet_id": "PghWzN8JN1Q"
       },
       {
         "datasheet_name": "Venomthropes",
-        "datasheet_id": "8DoJWX09xG4"
+        "datasheet_id": "xJ5IaxhCjy4"
       },
       {
         "datasheet_name": "Von Ryan’s Leapers",
-        "datasheet_id": "ENq788dQFng"
+        "datasheet_id": "u7yNKwUhXeo"
       },
       {
         "datasheet_name": "Winged Hive Tyrant",
-        "datasheet_id": "2vYL9Kyq4uc"
+        "datasheet_id": "IIov9gY5Z20"
       },
       {
         "datasheet_name": "Winged Tyranid Prime",
-        "datasheet_id": "U54j5hIs8c0"
+        "datasheet_id": "vRFDd5R6vyg"
       },
       {
         "datasheet_name": "Zoanthropes",
-        "datasheet_id": "h8zUKS1dGlw"
+        "datasheet_id": "VNmCkr9Cqa4"
       }
     ],
-    "url": "https://39k.pro/faction/lveNbZYAvWA"
+    "url": "https://39k.pro/faction/dmx8O4KuZ1M"
   },
   {
     "faction": "Codex: T’au Empire",
-    "faction_id": "m2WrzYul_VM",
+    "faction_id": "B5D5HDWGX_M",
     "rules": [
       {
         "rules_name": "Drones",
@@ -4034,204 +4161,204 @@
     "detachments": [
       {
         "detachment_name": "Retaliation Cadre",
-        "detachment_id": "BpThYydJvEA"
+        "detachment_id": "P0bL7kRPw-0"
       },
       {
         "detachment_name": "Mont’ka",
-        "detachment_id": "G-oBlgakkXU"
+        "detachment_id": "f0owG06SO34"
       },
       {
         "detachment_name": "Kroot Hunting Pack",
-        "detachment_id": "3l3Dg9GP7GM"
+        "detachment_id": "z-9bEDvU5-E"
       },
       {
         "detachment_name": "Kauyon",
-        "detachment_id": "KMwqCtJBC_M"
+        "detachment_id": "1JqZeecQw3c"
       },
       {
         "detachment_name": "Experimental Prototype Cadre",
-        "detachment_id": "Y81cOtoerC0"
+        "detachment_id": "1eoLum9Img4"
       },
       {
         "detachment_name": "Auxiliary Cadre",
-        "detachment_id": "8XKUD2scsQk"
+        "detachment_id": "eKOUrRcrZjc"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Breacher Team",
-        "datasheet_id": "NTTLItmydoA"
+        "datasheet_id": "fhFEjmtoEV4"
       },
       {
         "datasheet_name": "Broadside Battlesuits",
-        "datasheet_id": "b0Jbto6zSNE"
+        "datasheet_id": "mLVfGRErADw"
       },
       {
         "datasheet_name": "Cadre Fireblade",
-        "datasheet_id": "j_XclhLQqnc"
+        "datasheet_id": "U6Yi671oN7Q"
       },
       {
         "datasheet_name": "AX-1-0 Tiger Shark",
-        "datasheet_id": "UDJajtfjSS4"
+        "datasheet_id": "4UcwqHSycNE"
       },
       {
         "datasheet_name": "Commander Farsight",
-        "datasheet_id": "9bmeHpDw08I"
+        "datasheet_id": "cv2awHUERGw"
       },
       {
         "datasheet_name": "Commander in Coldstar Battlesuit",
-        "datasheet_id": "Q8pYDHp-M8c"
+        "datasheet_id": "0T55_tqPKL0"
       },
       {
         "datasheet_name": "Commander in Enforcer Battlesuit",
-        "datasheet_id": "t9WnCoWbYIg"
+        "datasheet_id": "XK1e7R5Uffc"
       },
       {
         "datasheet_name": "Commander Shadowsun",
-        "datasheet_id": "znDLC1RLQY0"
+        "datasheet_id": "1koE5roUY_U"
       },
       {
         "datasheet_name": "Crisis Fireknife Battlesuits",
-        "datasheet_id": "1nRB91SVTzo"
+        "datasheet_id": "n2aPSrnH678"
       },
       {
         "datasheet_name": "Crisis Starscythe Battlesuits",
-        "datasheet_id": "W1_cZdaP0Rc"
+        "datasheet_id": "nGAIkQazcE4"
       },
       {
         "datasheet_name": "Crisis Sunforge Battlesuits",
-        "datasheet_id": "5QqFOpZ-fMA"
+        "datasheet_id": "bQbv913I3Jc"
       },
       {
         "datasheet_name": "Darkstrider",
-        "datasheet_id": "PfEf0F7_E9M"
+        "datasheet_id": "QUn4umAWQ4g"
       },
       {
         "datasheet_name": "Devilfish",
-        "datasheet_id": "KYEkwUxz2KE"
+        "datasheet_id": "LRkHzdKPgM8"
       },
       {
         "datasheet_name": "Ethereal",
-        "datasheet_id": "ld7Zu2YlLPo"
+        "datasheet_id": "QjOh4kV3RGg"
       },
       {
         "datasheet_name": "Firesight Team",
-        "datasheet_id": "Pe68ONsimjI"
+        "datasheet_id": "nRklJS6kHFo"
       },
       {
         "datasheet_name": "Ghostkeel Battlesuit",
-        "datasheet_id": "uNyw_Pf1V0E"
+        "datasheet_id": "Z-p20amkVuI"
       },
       {
         "datasheet_name": "Hammerhead Gunship",
-        "datasheet_id": "ikox39cHY7M"
+        "datasheet_id": "-6fjVAfX8Fo"
       },
       {
         "datasheet_name": "Kroot Carnivores",
-        "datasheet_id": "acZjMchQYDI"
+        "datasheet_id": "OiVTJ7VFgUI"
       },
       {
         "datasheet_name": "Kroot Farstalkers",
-        "datasheet_id": "qNxRvemGUIs"
+        "datasheet_id": "YmkT0idD_AQ"
       },
       {
         "datasheet_name": "Kroot Flesh Shaper",
-        "datasheet_id": "4c_Ovj0LMv0"
+        "datasheet_id": "hcK0bPQB-DY"
       },
       {
         "datasheet_name": "Kroot Hounds",
-        "datasheet_id": "Y_XuSQ5BvSs"
+        "datasheet_id": "Rog7OOxolyM"
       },
       {
         "datasheet_name": "Kroot Lone-spear",
-        "datasheet_id": "ywSn3C48V3I"
+        "datasheet_id": "qBNYFSGIeOo"
       },
       {
         "datasheet_name": "Krootox Rampagers",
-        "datasheet_id": "WW2KBgN2ZL0"
+        "datasheet_id": "Gz2wpFbGWxU"
       },
       {
         "datasheet_name": "Krootox Riders",
-        "datasheet_id": "5Rv2cfhNJU4"
+        "datasheet_id": "msKnJcCtvx8"
       },
       {
         "datasheet_name": "Kroot Trail Shaper",
-        "datasheet_id": "Yo41UdZiUdA"
+        "datasheet_id": "gbkJQtIgo5g"
       },
       {
         "datasheet_name": "Kroot War Shaper",
-        "datasheet_id": "9OxbFVfnSVM"
+        "datasheet_id": "_0rPRkVMWDI"
       },
       {
         "datasheet_name": "Pathfinder Team",
-        "datasheet_id": "_PekkCsBXPw"
+        "datasheet_id": "5NQkHtYrYqI"
       },
       {
         "datasheet_name": "Manta",
-        "datasheet_id": "Zilh8G9vVS4"
+        "datasheet_id": "vA_o9fKCMJM"
       },
       {
         "datasheet_name": "Piranhas",
-        "datasheet_id": "1cd_yXsijPE"
+        "datasheet_id": "vcwHyrgI0tA"
       },
       {
         "datasheet_name": "Razorshark Strike Fighter",
-        "datasheet_id": "cgC7n-rg3TM"
+        "datasheet_id": "n23jzT1TVbM"
       },
       {
         "datasheet_name": "Riptide Battlesuit",
-        "datasheet_id": "BDwsm9Y2_4U"
+        "datasheet_id": "pw0nivwO8-Q"
       },
       {
         "datasheet_name": "Sky Ray Gunship",
-        "datasheet_id": "ZbRaVTU0F6I"
+        "datasheet_id": "haESw1df6h4"
       },
       {
         "datasheet_name": "Stealth Battlesuits",
-        "datasheet_id": "bquypDYrocg"
+        "datasheet_id": "KIyK-rnCkyg"
       },
       {
         "datasheet_name": "Stormsurge",
-        "datasheet_id": "KMudQNk2jfI"
+        "datasheet_id": "xybPerig0Sg"
       },
       {
         "datasheet_name": "Strike Team",
-        "datasheet_id": "fulMyK5VEi8"
+        "datasheet_id": "OZ_ga4yaWXc"
       },
       {
         "datasheet_name": "Sun Shark Bomber",
-        "datasheet_id": "ofEFZk9op90"
+        "datasheet_id": "FaiUEz-0eY8"
       },
       {
         "datasheet_name": "Tidewall Droneport",
-        "datasheet_id": "ANN6b9PYFgE"
+        "datasheet_id": "NCw7w07_Ryk"
       },
       {
         "datasheet_name": "Tidewall Gunrig",
-        "datasheet_id": "AkxA0GtnT3k"
+        "datasheet_id": "GXvxxbvNwM0"
       },
       {
         "datasheet_name": "Tidewall Shieldline",
-        "datasheet_id": "w1FI2E_n0I8"
+        "datasheet_id": "S_UEG075X9g"
       },
       {
         "datasheet_name": "Vespid Stingwings",
-        "datasheet_id": "Z2oOAaWZnqY"
+        "datasheet_id": "CKedQfE3zM0"
       },
       {
         "datasheet_name": "Ta’unar Supremacy Armour",
-        "datasheet_id": "YHnc-oFlDgk"
+        "datasheet_id": "dD9yhhfBjY8"
       },
       {
         "datasheet_name": "Tiger Shark",
-        "datasheet_id": "OkLZCCilrMY"
+        "datasheet_id": "aJxx4QA4QdY"
       }
     ],
-    "url": "https://39k.pro/faction/m2WrzYul_VM"
+    "url": "https://39k.pro/faction/B5D5HDWGX_M"
   },
   {
     "faction": "Codex: World Eaters",
-    "faction_id": "GT_HP_TCArM",
+    "faction_id": "kd8l-oFCJQ0",
     "rules": [
       {
         "rules_name": "Blessings of Khorne",
@@ -4245,156 +4372,156 @@
     "detachments": [
       {
         "detachment_name": "Vessels of Wrath",
-        "detachment_id": "Pe5wLnmUJB0"
+        "detachment_id": "0KY8uRJp74M"
       },
       {
         "detachment_name": "Possessed Slaughterband",
-        "detachment_id": "DVfBgv-sKEo"
+        "detachment_id": "bNbsNSbw0R0"
       },
       {
         "detachment_name": "Khorne Daemonkin",
-        "detachment_id": "FFg1OQ0lc3A"
+        "detachment_id": "NSddaKDlFqo"
       },
       {
         "detachment_name": "Goretrack Onslaught",
-        "detachment_id": "DmObZCdnOgs"
+        "detachment_id": "3Zqtdxsj99Q"
       },
       {
         "detachment_name": "Cult of Blood",
-        "detachment_id": "QzFZGduSYHg"
+        "detachment_id": "gJ8DWAkIExY"
       },
       {
         "detachment_name": "Berzerker Warband",
-        "detachment_id": "2dunEYOgq1g"
+        "detachment_id": "mSGz5zdLl5o"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Angron",
-        "datasheet_id": "fg3Dw5mFbCI"
+        "datasheet_id": "Rm5w_LuCa00"
       },
       {
         "datasheet_name": "Bloodcrushers",
-        "datasheet_id": "NhcNgs1UbZM"
+        "datasheet_id": "f5HGLMhfihM"
       },
       {
         "datasheet_name": "Bloodletters",
-        "datasheet_id": "ebeq5uaDg50"
+        "datasheet_id": "zJ-3I6ZL2es"
       },
       {
         "datasheet_name": "Bloodthirster",
-        "datasheet_id": "utYpgRboNK4"
+        "datasheet_id": "pB2RtsRn7HQ"
       },
       {
         "datasheet_name": "Chaos Land Raider",
-        "datasheet_id": "ADdDsFqQ-zw"
+        "datasheet_id": "qf58R9IDehU"
       },
       {
         "datasheet_name": "Chaos Predator Annihilator",
-        "datasheet_id": "N31MZ2AfN18"
+        "datasheet_id": "DtEEaah-62k"
       },
       {
         "datasheet_name": "Chaos Predator Destructor",
-        "datasheet_id": "FBYvBR3jvog"
+        "datasheet_id": "WHRJBonazCU"
       },
       {
         "datasheet_name": "Chaos Rhino",
-        "datasheet_id": "KOj3cZn-olU"
+        "datasheet_id": "eEh_gAFWEKA"
       },
       {
         "datasheet_name": "Chaos Spawn",
-        "datasheet_id": "7h9t98xEa4E"
+        "datasheet_id": "TXYs6JTdqYI"
       },
       {
         "datasheet_name": "Chaos Terminators",
-        "datasheet_id": "7TFBpQ5_ca0"
+        "datasheet_id": "VEn6CKl08W4"
       },
       {
         "datasheet_name": "Daemon Prince of Khorne",
-        "datasheet_id": "3wz5s6ZS5-c"
+        "datasheet_id": "cQ-rSWhnuiM"
       },
       {
         "datasheet_name": "Daemon Prince of Khorne with Wings",
-        "datasheet_id": "1nsa2b3_k9Q"
+        "datasheet_id": "MGyv0OGqdbs"
       },
       {
         "datasheet_name": "Defiler",
-        "datasheet_id": "2xysd9WpX-k"
+        "datasheet_id": "cELKuAmtiBM"
       },
       {
         "datasheet_name": "Eightbound",
-        "datasheet_id": "QZWQf2UcW-Y"
+        "datasheet_id": "kWZ5XV7lSLo"
       },
       {
         "datasheet_name": "Exalted Eightbound",
-        "datasheet_id": "zvWNqNJ86Cc"
+        "datasheet_id": "Kf4sqNeAwj4"
       },
       {
         "datasheet_name": "Flesh Hounds",
-        "datasheet_id": "LSdckW-pRlk"
+        "datasheet_id": "vPtx4NyrhAU"
       },
       {
         "datasheet_name": "Forgefiend",
-        "datasheet_id": "GGk-LGAY_eE"
+        "datasheet_id": "LXkBZqzWFaA"
       },
       {
         "datasheet_name": "Goremongers",
-        "datasheet_id": "u8kvTdk0o-I"
+        "datasheet_id": "iEHw-9r5l0k"
       },
       {
         "datasheet_name": "Helbrute",
-        "datasheet_id": "CwM2v1-7R4k"
+        "datasheet_id": "DIy0slusYcw"
       },
       {
         "datasheet_name": "Heldrake",
-        "datasheet_id": "II0C6_d5Q9A"
+        "datasheet_id": "FMK72BHeJqs"
       },
       {
         "datasheet_name": "Jakhals",
-        "datasheet_id": "6fJHCCPOji0"
+        "datasheet_id": "Jsj-MqyePKA"
       },
       {
         "datasheet_name": "Khârn the Betrayer",
-        "datasheet_id": "5DJ1RPC0vkY"
+        "datasheet_id": "1fOnl1GILmQ"
       },
       {
         "datasheet_name": "Khorne Berzerkers",
-        "datasheet_id": "vy8UmMex7ho"
+        "datasheet_id": "Em93q5h7nH4"
       },
       {
         "datasheet_name": "Khorne Lord of Skulls",
-        "datasheet_id": "aqZ6qMggbkI"
+        "datasheet_id": "Ao7-TpPWaaU"
       },
       {
         "datasheet_name": "Lord Invocatus",
-        "datasheet_id": "DUoEJRBhgLg"
+        "datasheet_id": "POV883hZfEo"
       },
       {
         "datasheet_name": "Lord on Juggernaut",
-        "datasheet_id": "rkPC3vmkZWw"
+        "datasheet_id": "ELQTDBmS-8c"
       },
       {
         "datasheet_name": "Master of Executions",
-        "datasheet_id": "0QTe8xYBA6U"
+        "datasheet_id": "ni1N0uqnOZ4"
       },
       {
         "datasheet_name": "Maulerfiend",
-        "datasheet_id": "DBsvJjZLZ6M"
+        "datasheet_id": "ENUjGJK62cc"
       },
       {
         "datasheet_name": "Slaughterbound",
-        "datasheet_id": "DiFhlM1bQEA"
+        "datasheet_id": "3jNc6wdTnos"
       },
       {
         "datasheet_name": "Skarbrand",
-        "datasheet_id": "ZSQUShxkCJg"
+        "datasheet_id": "yj5onPJLcmw"
       }
     ],
-    "url": "https://39k.pro/faction/GT_HP_TCArM"
+    "url": "https://39k.pro/faction/kd8l-oFCJQ0"
   },
   {
     "faction": "Index: Chaos Daemons",
-    "faction_id": "c67BrPuRKmg",
+    "faction_id": "jjeTuQ-AQDc",
     "rules": [
       {
         "rules_name": "Daemonic Pact",
@@ -4408,248 +4535,248 @@
     "detachments": [
       {
         "detachment_name": "Shadow Legion",
-        "detachment_id": "1feeRWBYkxA"
+        "detachment_id": "SYHmCdw_fK8"
       },
       {
         "detachment_name": "Scintillating Legion",
-        "detachment_id": "iiZYkro1acs"
+        "detachment_id": "eX8suKDh-UU"
       },
       {
         "detachment_name": "Plague Legion",
-        "detachment_id": "fM6U-BSRedk"
+        "detachment_id": "52ZZUvQ5THk"
       },
       {
         "detachment_name": "Legion of Excess",
-        "detachment_id": "itlIJkmhxEk"
+        "detachment_id": "TXhUMdP5uu0"
       },
       {
         "detachment_name": "Daemonic Incursion",
-        "detachment_id": "vp2dxYQVwkU"
+        "detachment_id": "YNlqi3TJSlk"
       },
       {
         "detachment_name": "Blood Legion",
-        "detachment_id": "wp7zWt5hi3U"
+        "detachment_id": "V9m1z3VvGI0"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Beasts of Nurgle",
-        "datasheet_id": "bkT2hvwKnfg"
+        "datasheet_id": "xpgi0dazLFY"
       },
       {
         "datasheet_name": "Be’lakor",
-        "datasheet_id": "EndLAShbxgk"
+        "datasheet_id": "Qc3ExYj8zPE"
       },
       {
         "datasheet_name": "Bloodcrushers",
-        "datasheet_id": "ULVXv_KFVx8"
+        "datasheet_id": "LAhqj_qT_AY"
       },
       {
         "datasheet_name": "Bloodletters",
-        "datasheet_id": "2Qv_JUchcG0"
+        "datasheet_id": "2G3QFTvH_Zc"
       },
       {
         "datasheet_name": "Bloodmaster",
-        "datasheet_id": "dk1vTTtKOj0"
+        "datasheet_id": "8TjERq_rPCY"
       },
       {
         "datasheet_name": "Bloodthirster",
-        "datasheet_id": "w43Tbsr0ywY"
+        "datasheet_id": "C2kSk6drplA"
       },
       {
         "datasheet_name": "Blue Horrors",
-        "datasheet_id": "8OrZb1pzG14"
+        "datasheet_id": "oocHh69XB6Q"
       },
       {
         "datasheet_name": "Burning Chariot",
-        "datasheet_id": "VTxcEc2UVmc"
+        "datasheet_id": "zNrVBcKJ6E0"
       },
       {
         "datasheet_name": "Changecaster",
-        "datasheet_id": "Zc5VcT2Z6dI"
+        "datasheet_id": "pGFbwcKSxxs"
       },
       {
         "datasheet_name": "Contorted Epitome",
-        "datasheet_id": "6qN8ODIDOFY"
+        "datasheet_id": "dSSPCa7eQsg"
       },
       {
         "datasheet_name": "Daemonettes",
-        "datasheet_id": "eeSiEE4dSUQ"
+        "datasheet_id": "FBu0kVuEYwU"
       },
       {
         "datasheet_name": "Daemon Prince of Chaos",
-        "datasheet_id": "vIuf2R1gT6Q"
+        "datasheet_id": "lfpl8P6_WSU"
       },
       {
         "datasheet_name": "Daemon Prince of Chaos with Wings",
-        "datasheet_id": "u2RrIoo9Y54"
+        "datasheet_id": "xjk2Sk0O9co"
       },
       {
         "datasheet_name": "Epidemius",
-        "datasheet_id": "h_Fr4N1Amvo"
+        "datasheet_id": "6t8zHKojp4s"
       },
       {
         "datasheet_name": "Exalted Flamer",
-        "datasheet_id": "b8yjHFQA1Us"
+        "datasheet_id": "0RDwmn-c0ns"
       },
       {
         "datasheet_name": "Fateskimmer",
-        "datasheet_id": "f09IK8AKu48"
+        "datasheet_id": "bD4iWkMtTZ4"
       },
       {
         "datasheet_name": "Feculent Gnarlmaw",
-        "datasheet_id": "Om97bLWIPAY"
+        "datasheet_id": "xFg4FS54l74"
       },
       {
         "datasheet_name": "Fiends",
-        "datasheet_id": "_2XVCzsyto4"
+        "datasheet_id": "ua217J4vfU4"
       },
       {
         "datasheet_name": "Flamers",
-        "datasheet_id": "WWHz8IU4hH4"
+        "datasheet_id": "WuDW57fbd4I"
       },
       {
         "datasheet_name": "Flesh Hounds",
-        "datasheet_id": "vF4px7J5WQw"
+        "datasheet_id": "8MoV6I4Vdsg"
       },
       {
         "datasheet_name": "Fluxmaster",
-        "datasheet_id": "CtckjmbgaOI"
+        "datasheet_id": "w9-qhz18nsI"
       },
       {
         "datasheet_name": "Great Unclean One",
-        "datasheet_id": "8Qmum8GjQlE"
+        "datasheet_id": "sWNXZTNQHrQ"
       },
       {
         "datasheet_name": "Hellflayers",
-        "datasheet_id": "BCYlmyV2Zvw"
+        "datasheet_id": "Y7bI93Hqs1c"
       },
       {
         "datasheet_name": "Horticulous Slimux",
-        "datasheet_id": "ITqjb4pUpks"
+        "datasheet_id": "fmkZAH3zq08"
       },
       {
         "datasheet_name": "Infernal Enrapturess",
-        "datasheet_id": "MIAEfTLR6uM"
+        "datasheet_id": "SDEgTtU9_Ss"
       },
       {
         "datasheet_name": "Kairos Fateweaver",
-        "datasheet_id": "d5jVGfO98GI"
+        "datasheet_id": "WjDbhiRgaHk"
       },
       {
         "datasheet_name": "Karanak",
-        "datasheet_id": "3FIgfE-VLMU"
+        "datasheet_id": "JW-GTwenG3U"
       },
       {
         "datasheet_name": "Keeper of Secrets",
-        "datasheet_id": "4C532R4wdq4"
+        "datasheet_id": "OPluhpqYY0Y"
       },
       {
         "datasheet_name": "Lord of Change",
-        "datasheet_id": "OVEEeej1PYg"
+        "datasheet_id": "AC8lE_vN5Jw"
       },
       {
         "datasheet_name": "Nurglings",
-        "datasheet_id": "XOEnhVT7dYQ"
+        "datasheet_id": "_OPXr6QMryI"
       },
       {
         "datasheet_name": "Pink Horrors",
-        "datasheet_id": "pPcaO1_4_AA"
+        "datasheet_id": "L4mvuqjFKF4"
       },
       {
         "datasheet_name": "Plaguebearers",
-        "datasheet_id": "WfiTYbp23Hs"
+        "datasheet_id": "5QnizZncdcI"
       },
       {
         "datasheet_name": "Plague Drones",
-        "datasheet_id": "aHRebICxyDU"
+        "datasheet_id": "ZNQNDox4nZQ"
       },
       {
         "datasheet_name": "Poxbringer",
-        "datasheet_id": "Bsr6ewE4Ja8"
+        "datasheet_id": "88U-fOGLdmU"
       },
       {
         "datasheet_name": "Rendmaster on Blood Throne",
-        "datasheet_id": "Rkv96czcMZc"
+        "datasheet_id": "WbMz-8B_dn8"
       },
       {
         "datasheet_name": "Rotigus",
-        "datasheet_id": "mTyNDsutxEI"
+        "datasheet_id": "NTK7XgxiJiQ"
       },
       {
         "datasheet_name": "Screamers",
-        "datasheet_id": "_ZSe-aCR-EM"
+        "datasheet_id": "YyWWZvH00ag"
       },
       {
         "datasheet_name": "Seekers",
-        "datasheet_id": "OqFs1L3VMC8"
+        "datasheet_id": "qWAg3P3CaBc"
       },
       {
         "datasheet_name": "Shalaxi Helbane",
-        "datasheet_id": "_ofaZnyIZns"
+        "datasheet_id": "o9cWVoINBq8"
       },
       {
         "datasheet_name": "Skarbrand",
-        "datasheet_id": "KXf0UJrCQbY"
+        "datasheet_id": "VnkiUzyWGAs"
       },
       {
         "datasheet_name": "Skull Altar",
-        "datasheet_id": "kc5OuSaLMq8"
+        "datasheet_id": "lnC2RIFbAuM"
       },
       {
         "datasheet_name": "Skull Cannon",
-        "datasheet_id": "2qd015iFCnw"
+        "datasheet_id": "Vi0gPis4LOQ"
       },
       {
         "datasheet_name": "Skullmaster",
-        "datasheet_id": "Xv6_P7fM0Ls"
+        "datasheet_id": "uOK4CB9-DEc"
       },
       {
         "datasheet_name": "Skulltaker",
-        "datasheet_id": "qf4rgNEZLuE"
+        "datasheet_id": "AdIcdixjyR8"
       },
       {
         "datasheet_name": "Sloppity Bilepiper",
-        "datasheet_id": "j7VgnBvqH9E"
+        "datasheet_id": "m4yOHGgAM5Q"
       },
       {
         "datasheet_name": "Soul Grinder",
-        "datasheet_id": "I6EI_Q48T0s"
+        "datasheet_id": "UYeFUvO90rM"
       },
       {
         "datasheet_name": "Spoilpox Scrivener",
-        "datasheet_id": "EEJZwuszjnI"
+        "datasheet_id": "YO8UsgPgLxk"
       },
       {
         "datasheet_name": "Syll’Esske",
-        "datasheet_id": "yMnxGuV6cFU"
+        "datasheet_id": "0jisXkuyJZo"
       },
       {
         "datasheet_name": "The Blue Scribes",
-        "datasheet_id": "65Idp70YJZQ"
+        "datasheet_id": "GPLBMSjJ7xg"
       },
       {
         "datasheet_name": "The Changeling",
-        "datasheet_id": "SYGRNDfwrDY"
+        "datasheet_id": "s2nxrah7IZU"
       },
       {
         "datasheet_name": "The Masque of Slaanesh",
-        "datasheet_id": "tjADjEmG5dU"
+        "datasheet_id": "CaV37EKmd7M"
       },
       {
         "datasheet_name": "Tormentbringer",
-        "datasheet_id": "Eewgnvqt9sE"
+        "datasheet_id": "dtkDmePcvUU"
       },
       {
         "datasheet_name": "Tranceweaver",
-        "datasheet_id": "00QPSXWdbjE"
+        "datasheet_id": "B1WywMzv6PA"
       }
     ],
-    "url": "https://39k.pro/faction/c67BrPuRKmg"
+    "url": "https://39k.pro/faction/jjeTuQ-AQDc"
   },
   {
     "faction": "Index: Deathwatch",
-    "faction_id": "H826usxivyk",
+    "faction_id": "hw15VleUO6s",
     "rules": [
       {
         "rules_name": "Kill Teams",
@@ -4659,52 +4786,52 @@
     "detachments": [
       {
         "detachment_name": "Black Spear Task Force",
-        "detachment_id": "dGl4G8zbpZU"
+        "detachment_id": "0G2mkxsUY1g"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Corvus Blackstar",
-        "datasheet_id": "tBBCez2IvMM"
+        "datasheet_id": "pepp-SlpLvE"
       },
       {
         "datasheet_name": "Deathwatch Terminator Squad",
-        "datasheet_id": "65ZknjNzX2o"
+        "datasheet_id": "S3ofiHuDCck"
       },
       {
         "datasheet_name": "Deathwatch Veterans",
-        "datasheet_id": "J8v5nDEHfZI"
+        "datasheet_id": "7yxq2b91s9U"
       },
       {
         "datasheet_name": "Fortis Kill Team",
-        "datasheet_id": "0eA5LCqKjjI"
+        "datasheet_id": "t57z60ngSPc"
       },
       {
         "datasheet_name": "Indomitor Kill Team",
-        "datasheet_id": "YxHlQthlAFY"
+        "datasheet_id": "TCaxtw3Tae0"
       },
       {
         "datasheet_name": "Spectrus Kill Team",
-        "datasheet_id": "FBlPRQ4rwQc"
+        "datasheet_id": "cNGWh-HMPso"
       },
       {
         "datasheet_name": "Talonstrike Kill Team",
-        "datasheet_id": "iR104bi7a2Y"
+        "datasheet_id": "IXq7O-cahQo"
       },
       {
         "datasheet_name": "Watch Captain Artemis",
-        "datasheet_id": "Rpp6aMhzYJI"
+        "datasheet_id": "RCaPDjj7VCo"
       },
       {
         "datasheet_name": "Watch Master",
-        "datasheet_id": "k7Z73jbOSTw"
+        "datasheet_id": "H9MhR60xSQo"
       }
     ],
-    "url": "https://39k.pro/faction/H826usxivyk"
+    "url": "https://39k.pro/faction/hw15VleUO6s"
   },
   {
     "faction": "Index: Drukhari",
-    "faction_id": "jVfT9XrMg14",
+    "faction_id": "9ab99Kg9p40",
     "rules": [
       {
         "rules_name": "Power from Pain",
@@ -4714,120 +4841,120 @@
     "detachments": [
       {
         "detachment_name": "Skysplinter Assault",
-        "detachment_id": "i5kEQ_eFD2M"
+        "detachment_id": "DOnn224y7YQ"
       },
       {
         "detachment_name": "Reaper’s Wager",
-        "detachment_id": "VHIvOL0Ny_c"
+        "detachment_id": "GOi0SR1lqt0"
       },
       {
         "detachment_name": "Realspace Raiders",
-        "detachment_id": "4PTz4c8YXbs"
+        "detachment_id": "0XFUjRYUS6I"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Archon",
-        "datasheet_id": "TPgZ4jOWAOg"
+        "datasheet_id": "PnKBi-XtPF4"
       },
       {
         "datasheet_name": "Beastmaster",
-        "datasheet_id": "Oo9QriEruS0"
+        "datasheet_id": "IJGo0HdCl9Q"
       },
       {
         "datasheet_name": "Court of the Archon",
-        "datasheet_id": "QaUSA2J4FZI"
+        "datasheet_id": "XBGNqRLN_Y8"
       },
       {
         "datasheet_name": "Cronos",
-        "datasheet_id": "KhFJmrNq2Uk"
+        "datasheet_id": "vwJ-1jmKqUQ"
       },
       {
         "datasheet_name": "Drazhar",
-        "datasheet_id": "Im1Gke_7WKU"
+        "datasheet_id": "p1R1qRLG0m8"
       },
       {
         "datasheet_name": "Grotesques",
-        "datasheet_id": "xG8u8gjQnJY"
+        "datasheet_id": "39pMHMbel2U"
       },
       {
         "datasheet_name": "Haemonculus",
-        "datasheet_id": "aqh1q7vlaKk"
+        "datasheet_id": "Hje_NM545sA"
       },
       {
         "datasheet_name": "Hellions",
-        "datasheet_id": "LErzXNT6L4o"
+        "datasheet_id": "rGSbPy5G1Bo"
       },
       {
         "datasheet_name": "Incubi",
-        "datasheet_id": "fuBbPPHtrOk"
+        "datasheet_id": "uNdWa1PCzJI"
       },
       {
         "datasheet_name": "Kabalite Warriors",
-        "datasheet_id": "XRw7cZtviGY"
+        "datasheet_id": "vEMfMdbIEPw"
       },
       {
         "datasheet_name": "Lelith Hesperax",
-        "datasheet_id": "6rVp3rfcd1Q"
+        "datasheet_id": "XQb1cy0YzMY"
       },
       {
         "datasheet_name": "Mandrakes",
-        "datasheet_id": "80xyxRFNgw0"
+        "datasheet_id": "D8sBJzsZrrE"
       },
       {
         "datasheet_name": "Raider",
-        "datasheet_id": "X2dKMHjQpps"
+        "datasheet_id": "avDqM14uzBA"
       },
       {
         "datasheet_name": "Ravager",
-        "datasheet_id": "DQGcdRR-Rwg"
+        "datasheet_id": "Y_Ax7f5BhyQ"
       },
       {
         "datasheet_name": "Razorwing Jetfighter",
-        "datasheet_id": "DNtoIWhl-6Q"
+        "datasheet_id": "vb8oNf53zUo"
       },
       {
         "datasheet_name": "Reavers",
-        "datasheet_id": "lyudnmHC_K4"
+        "datasheet_id": "osA08BHbvkk"
       },
       {
         "datasheet_name": "Scourges",
-        "datasheet_id": "RTwo2OO8Xoo"
+        "datasheet_id": "LhOHP3eGWxQ"
       },
       {
         "datasheet_name": "Succubus",
-        "datasheet_id": "tLML9SnwBg0"
+        "datasheet_id": "D8O4LmnXJcA"
       },
       {
         "datasheet_name": "Talos",
-        "datasheet_id": "PiaqZjZl22E"
+        "datasheet_id": "La738ndWS4g"
       },
       {
         "datasheet_name": "Urien Rakarth",
-        "datasheet_id": "Q9pzIgr1ouE"
+        "datasheet_id": "O-y6QA6Gyiw"
       },
       {
         "datasheet_name": "Venom",
-        "datasheet_id": "CBj_NdsdEFQ"
+        "datasheet_id": "-68tTM0G2AQ"
       },
       {
         "datasheet_name": "Voidraven Bomber",
-        "datasheet_id": "yesHUccwNHY"
+        "datasheet_id": "o-GkiPhxrrU"
       },
       {
         "datasheet_name": "Wracks",
-        "datasheet_id": "OOb5lbKkIlo"
+        "datasheet_id": "O2FH5ezGSmE"
       },
       {
         "datasheet_name": "Wyches",
-        "datasheet_id": "AUuiCGIAMiU"
+        "datasheet_id": "WZLhCkQsNEs"
       }
     ],
-    "url": "https://39k.pro/faction/jVfT9XrMg14"
+    "url": "https://39k.pro/faction/9ab99Kg9p40"
   },
   {
     "faction": "Index: Imperial Knights",
-    "faction_id": "QP5itzZXlxY",
+    "faction_id": "Qk9srlBJebM",
     "rules": [
       {
         "rules_name": "Bondsman Abilities",
@@ -4849,174 +4976,99 @@
     "detachments": [
       {
         "detachment_name": "Questor Forgepact",
-        "detachment_id": "Askjym3oeHU"
+        "detachment_id": "rgpgheE_rlo"
       },
       {
         "detachment_name": "Noble Lance",
-        "detachment_id": "2HpWySqevRM"
+        "detachment_id": "iHUrRbIyQKg"
       }
     ],
     "datasheets": [
       {
         "datasheet_name": "Acastus Knight Asterius",
-        "datasheet_id": "lMiURnhSRmo"
+        "datasheet_id": "-adGHp0udj4"
       },
       {
         "datasheet_name": "Acastus Knight Porphyrion",
-        "datasheet_id": "-DqiRfD9svQ"
+        "datasheet_id": "_iSN3dFF7Jc"
       },
       {
         "datasheet_name": "Armiger Helverin",
-        "datasheet_id": "rifrGYNkYY0"
+        "datasheet_id": "RUQ1YhPXjq8"
       },
       {
         "datasheet_name": "Armiger Moirax",
-        "datasheet_id": "HfKM33_oepg"
+        "datasheet_id": "ycnfgam0LWU"
       },
       {
         "datasheet_name": "Armiger Warglaive",
-        "datasheet_id": "5uMsxBxTuNE"
+        "datasheet_id": "XIn712UEZoI"
       },
       {
         "datasheet_name": "Canis Rex",
-        "datasheet_id": "bJD_9Df0dZs"
+        "datasheet_id": "5g5k9gQ4BxU"
       },
       {
         "datasheet_name": "Cerastus Knight Acheron",
-        "datasheet_id": "kNyAyem6grk"
+        "datasheet_id": "lcmrIx5Qx1o"
       },
       {
         "datasheet_name": "Cerastus Knight Atrapos",
-        "datasheet_id": "IZyqFkMXZbM"
+        "datasheet_id": "rBRr-7Ujzek"
       },
       {
         "datasheet_name": "Cerastus Knight Castigator",
-        "datasheet_id": "8orxFvstIfA"
+        "datasheet_id": "fmADsuzPkDk"
       },
       {
         "datasheet_name": "Cerastus Knight Lancer",
-        "datasheet_id": "txIPvpXQ3Rs"
+        "datasheet_id": "HJKif_b-UDo"
       },
       {
         "datasheet_name": "Knight Castellan",
-        "datasheet_id": "q9dU_Uevpmc"
+        "datasheet_id": "0-uaFO6kR8k"
       },
       {
         "datasheet_name": "Knight Crusader",
-        "datasheet_id": "l_a7Xx7_cl8"
+        "datasheet_id": "X9hmvVzfRRM"
       },
       {
         "datasheet_name": "Knight Errant",
-        "datasheet_id": "D4NJj7T9ZfY"
+        "datasheet_id": "xcezeItwhdw"
       },
       {
         "datasheet_name": "Knight Gallant",
-        "datasheet_id": "S7dt_fi_SqE"
+        "datasheet_id": "5DelObJEJP8"
       },
       {
         "datasheet_name": "Knight Paladin",
-        "datasheet_id": "_AVocp12Ksw"
+        "datasheet_id": "MH95-n6gWK8"
       },
       {
         "datasheet_name": "Knight Preceptor",
-        "datasheet_id": "eHboW31dKuw"
+        "datasheet_id": "YME3uU9RMGA"
       },
       {
         "datasheet_name": "Knight Valiant",
-        "datasheet_id": "rE0QoM-CV6Y"
+        "datasheet_id": "Xpijyup5HkQ"
       },
       {
         "datasheet_name": "Knight Warden",
-        "datasheet_id": "GcjvVD9n7sI"
+        "datasheet_id": "wtmYQZSQTGI"
       },
       {
         "datasheet_name": "Questoris Knight Magaera",
-        "datasheet_id": "nyH9Ldb5P1U"
+        "datasheet_id": "Db_DYD6-wU0"
       },
       {
         "datasheet_name": "Questoris Knight Styrix",
-        "datasheet_id": "4hNBt-QbUYU"
+        "datasheet_id": "FdZwmhXBKvE"
       },
       {
         "datasheet_name": "Sir Hekhtur",
-        "datasheet_id": "MzHD-ezQdYs"
+        "datasheet_id": "75s7-va1yX4"
       }
     ],
-    "url": "https://39k.pro/faction/QP5itzZXlxY"
-  },
-  {
-    "faction": "Index: Leagues of Votann",
-    "faction_id": "1IByhYFRko0",
-    "rules": [
-      {
-        "rules_name": "Eye of the Ancestors",
-        "rules_content": "If your Army Faction is **LEAGUES OF VOTANN**, each time an enemy unit destroys a **LEAGUES OF VOTANN** unit from your army, that enemy unit gains 1 Judgement token. An enemy unit can never have more than 2 Judgement tokens (any further Judgement tokens a unit would gain beyond this are ignored).\n\nEach time a model from your army with this ability makes an attack that targets a unit that has one or more Judgement tokens, until that model’s attacks have been resolved, apply the relevant bonus from the table below to that attack.\n\nIn addition, at the start of the battle, select two units from your opponent’s army; each of those units start the battle with 2 Judgement tokens.\nIf your Army Faction is **LEAGUES OF VOTANN**, each time an enemy unit destroys a **LEAGUES OF VOTANN** unit from your army, that enemy unit gains 1 Judgement token. An enemy unit can never have more than 2 Judgement tokens (any further Judgement tokens a unit would gain beyond this are ignored).\n\nEach time a model from your army with this ability makes an attack that targets a unit that has one or more Judgement tokens, until that model’s attacks have been resolved, apply the relevant bonus from the table below to that attack.\n\nIn addition, at the start of the battle, select two units from your opponent’s army; each of those units start the battle with 2 Judgement tokens.\n-\n-\n**Designer’s Note**: If a unit with Judgement tokens is removed from the battlefield, make a note of how many Judgement tokens it had when it was removed. If that unit is set up on the battlefield again, place the corresponding number of Judgement tokens next to it. If a unit with Judgement tokens splits up into two or more smaller units, each of those units gains a number of Judgement tokens equal to that of the original unit. If two units combine to form a single larger unit and either of those units had Judgement tokens, make a note of how many the unit with the most has, just before they combine – the new unit has a number of Judgement tokens equal to this.\n**Designer’s Note**: If a unit with Judgement tokens is removed from the battlefield, make a note of how many Judgement tokens it had when it was removed. If that unit is set up on the battlefield again, place the corresponding number of Judgement tokens next to it. If a unit with Judgement tokens splits up into two or more smaller units, each of those units gains a number of Judgement tokens equal to that of the original unit. If two units combine to form a single larger unit and either of those units had Judgement tokens, make a note of how many the unit with the most has, just before they combine – the new unit has a number of Judgement tokens equal to this."
-      }
-    ],
-    "detachments": [
-      {
-        "detachment_name": "Oathband",
-        "detachment_id": "Nd_hZn5gLZs"
-      },
-      {
-        "detachment_name": "Hearthband",
-        "detachment_id": "W1jvHYRYP5U"
-      }
-    ],
-    "datasheets": [
-      {
-        "datasheet_name": "Brôkhyr Iron-master",
-        "datasheet_id": "kv7NHxeI7OE"
-      },
-      {
-        "datasheet_name": "Brôkhyr Thunderkyn",
-        "datasheet_id": "8KZx76G9ERY"
-      },
-      {
-        "datasheet_name": "Cthonian Beserks",
-        "datasheet_id": "zIkAjaeepMc"
-      },
-      {
-        "datasheet_name": "Einhyr Champion",
-        "datasheet_id": "WIMqOITK5nQ"
-      },
-      {
-        "datasheet_name": "Einhyr Hearthguard",
-        "datasheet_id": "nK-VqlhNJ7M"
-      },
-      {
-        "datasheet_name": "Grimnyr",
-        "datasheet_id": "8VHRGpspVFw"
-      },
-      {
-        "datasheet_name": "Hearthkyn Warriors",
-        "datasheet_id": "Vl_UiC5pExE"
-      },
-      {
-        "datasheet_name": "Hekaton Land Fortress",
-        "datasheet_id": "QCiLyarmViY"
-      },
-      {
-        "datasheet_name": "Hernkyn Pioneers",
-        "datasheet_id": "b65q4ebNpe0"
-      },
-      {
-        "datasheet_name": "Hernkyn Yaegirs",
-        "datasheet_id": "WYEkLCJ1rwg"
-      },
-      {
-        "datasheet_name": "Kâhl",
-        "datasheet_id": "lhAzmJP178o"
-      },
-      {
-        "datasheet_name": "Sagitaur",
-        "datasheet_id": "lB59WENKwtc"
-      },
-      {
-        "datasheet_name": "Ûthar the Destined",
-        "datasheet_id": "ABx699EMIZY"
-      }
-    ],
-    "url": "https://39k.pro/faction/1IByhYFRko0"
+    "url": "https://39k.pro/faction/Qk9srlBJebM"
   }
 ]

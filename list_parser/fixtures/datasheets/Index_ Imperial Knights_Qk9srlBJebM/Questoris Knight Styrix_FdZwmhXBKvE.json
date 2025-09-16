@@ -1,0 +1,162 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "FdZwmhXBKvE",
+  "datasheet_name": "Questoris Knight Styrix",
+  "url": "https://39k.pro/datasheet/FdZwmhXBKvE",
+  "miniatures": [
+    {
+      "name": "Questoris Knight Styrix",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "26",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Graviton crusher",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast",
+        "Anti-vehicle 2+"
+      ]
+    },
+    {
+      "name": "Volkite chierovile",
+      "stats": {
+        "range": "30\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "0",
+        "damage": "3"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Twin rad cleanser",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Twin-linked",
+        "Anti-infantry 2+",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Reaper chainsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Hekaton siege claw — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "20",
+        "armour_penetration": "-3",
+        "damage": "8"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Hekaton siege claw — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Grav-pinned",
+      "rule": "In your Shooting phase, after this model has shot, if an enemy **INFANTRY** unit was hit by one or more of those attacks made with a graviton crusher, until the end of your opponent’s next turn, that enemy unit is grav-pinned. While a unit is grav-pinned, subtract 2 from that unit’s Move characteristic and subtract 2 from Charge rolls made for that unit."
+    },
+    {
+      "name": "Styrix’s Duty",
+      "rule": "While a model is affected by this ability, each time that model is selected to shoot or fight, after it has resolved all of its attacks, select one enemy unit hit by one or more of those attacks - that unit must take a Battle-shock test, subtracting one from the test when doing so."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+  ],
+  "unit_composition": "■ **1 Questoris Knight Styrix**\n\n**This model is equipped with:** graviton crusher; volkite chierovile; reaper chainsword.\nModel Name Count Points\nQuestoris Knight Styrix\n1\n385",
+  "unit_composition_table": [
+    {
+      "model": "Questoris Knight Styrix",
+      "count": "1",
+      "points": "385"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Imperium",
+      "Questoris",
+      "Knight Styrix"
+    ]
+  },
+  "custom_rules": []
+}

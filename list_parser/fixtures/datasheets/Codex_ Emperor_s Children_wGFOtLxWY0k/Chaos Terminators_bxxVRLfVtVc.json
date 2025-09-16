@@ -1,0 +1,177 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "wGFOtLxWY0k",
+  "datasheet_id": "bxxVRLfVtVc",
+  "datasheet_name": "Chaos Terminators",
+  "url": "https://39k.pro/datasheet/bxxVRLfVtVc",
+  "miniatures": [
+    {
+      "name": "Chaos Terminators",
+      "characteristics": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Reaper autocannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Chainfist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-vehicle 3+"
+      ]
+    },
+    {
+      "name": "Accursed weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Paired accursed weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Lethal Obsession",
+      "rule": "In your Shooting phase, each time this unit is selected to shoot, if it makes one or more ranged attacks and all of those attacks target the same enemy unit, until the end of the turn, each time this unit declares a charge, if that enemy unit is a target of that charge, you can re-roll the Charge roll."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their combi-bolter replaced with 1 combi-weapon.",
+    "■ 1 Chaos Terminator’s combi-bolter can be replaced with one of the following:\n◦ 1 heavy flamer\n◦ 1 reaper autocannon",
+    "■ 1 model’s combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons.",
+    "■ Up to 3 models can each have their accursed weapon replaced with 1 power fist.",
+    "■ 1 model’s accursed weapon can be replaced with 1 chainfist."
+  ],
+  "unit_composition": "■ **1 Terminator Champion**\n■ **4 Chaos Terminators**\n\n**Every model is equipped with:** combi-bolter; accursed weapon.\nModel Name Count Points\nChaos Terminator\nTerminator Champion\n4\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Terminator\nTerminator Champion",
+      "count": "4\n1",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Emperor’s Children"
+    ],
+    "keywords": [
+      "Infantry",
+      "Chaos",
+      "Slaanesh",
+      "Terminator",
+      "Terminator Squad"
+    ]
+  },
+  "custom_rules": []
+}

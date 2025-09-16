@@ -1,0 +1,168 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "j5n674bpjiI",
+  "datasheet_name": "Desolation Squad",
+  "url": "https://39k.pro/datasheet/j5n674bpjiI",
+  "miniatures": [
+    {
+      "name": "Desolation Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Superfrag rocket launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Heavy"
+      ]
+    },
+    {
+      "name": "Superkrak rocket launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Heavy"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Castellan launcher",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Vengor launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Indirect Fire",
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Targeter Optics",
+      "rule": "Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the **[IGNORES COVER]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ All of the models in this unit can each have their superfrag rocket launcher replaced with 1 superkrak rocket launcher.",
+    "■ The Desolation Sergeant’s superfrag rocket launcher or superkrak rocket launcher can be replaced with 1 vengor launcher."
+  ],
+  "unit_composition": "■ **1 Desolation Sergeant**\n■ **4 Desolation Marines**\n\n**Every model is equipped with:** bolt pistol; castellan launcher; superfrag rocket launcher; close combat weapon.\nModel Name Count Points\nDesolation Marine\nDesolation Sergeant\n4\n1\n200",
+  "unit_composition_table": [
+    {
+      "model": "Desolation Marine\nDesolation Sergeant",
+      "count": "4\n1",
+      "points": "200"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Librarian",
+      "id": "gmtJHRD_jTk"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "Vaol15lQHng"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "9QR4upinH5s"
+    },
+    {
+      "name": "Techmarine",
+      "id": "VPOlIVcFLtY"
+    },
+    {
+      "name": "Ancient",
+      "id": "b4C0xDaonq8"
+    },
+    {
+      "name": "Apothecary",
+      "id": "5kvilcGCWm0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Desolation Squad"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "fAKhjJSckGc",
+  "datasheet_name": "Adrax Agatone",
+  "url": "https://39k.pro/datasheet/fAKhjJSckGc",
+  "miniatures": [
+    {
+      "name": "Adrax Agatone",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Drakkis",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Torrent",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Malleus Noctum",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Lord of the Pyroclasts",
+      "rule": "While an enemy unit is within Engagement Range of this model, halve the Objective Control characteristic of models in that enemy unit."
+    },
+    {
+      "name": "Unto the Anvil",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a melee attack, you can re-roll the Wound roll."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Adrax Agatone – EPIC HERO**\n\n**This model is equipped with:** Drakkis; Malleus Noctum.\nModel Name Count Points\nAdrax Agatone\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Adrax Agatone",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "BLADEGUARD VETERAN SQUAD",
+      "id": "QzcaruUCgaI"
+    },
+    {
+      "name": "COMPANY HEROES",
+      "id": "XTVpNuL4gek"
+    },
+    {
+      "name": "INFERNUS SQUAD",
+      "id": "3uOpOXVLXI4"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Salamanders"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Tacticus",
+      "Captain",
+      "Adrax Agatone"
+    ]
+  },
+  "custom_rules": []
+}

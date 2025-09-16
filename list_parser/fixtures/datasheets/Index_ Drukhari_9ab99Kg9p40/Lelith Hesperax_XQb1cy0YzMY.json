@@ -1,0 +1,88 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "XQb1cy0YzMY",
+  "datasheet_name": "Lelith Hesperax",
+  "url": "https://39k.pro/datasheet/XQb1cy0YzMY",
+  "miniatures": [
+    {
+      "name": "Lelith Hesperax",
+      "characteristics": {
+        "M": "8\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Lelith’s blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "2+",
+        "strength": "3",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 2",
+        "Anti-infantry 2+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Brides of Death",
+      "rule": "While this model is leading a unit, models in that unit have the Fights First ability, and each time a model in that unit makes a melee attack, add 1 to the Strength characteristic of that attack and improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "name": "Thrilling Spectacle",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. When it does, until the end of the phase, the Attacks characteristic of Lelith’s blades is increased to 12 and this model’s invulnerable save is increased to 3+."
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lelith Hesperax – EPIC HERO**\n\n**This model is equipped with:** Lelith’s blades.\nModel Name Count Points\nLelith Hesperax\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Lelith Hesperax",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "leader": [
+    {
+      "name": "WYCHES",
+      "id": "WZLhCkQsNEs"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Wych Cult",
+      "Character",
+      "Epic Hero",
+      "Aeldari",
+      "Succubus",
+      "Lelith Hesperax"
+    ]
+  },
+  "custom_rules": []
+}

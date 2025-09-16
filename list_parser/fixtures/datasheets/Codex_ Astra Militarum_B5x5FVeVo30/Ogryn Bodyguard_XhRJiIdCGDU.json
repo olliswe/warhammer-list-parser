@@ -1,0 +1,140 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "XhRJiIdCGDU",
+  "datasheet_name": "Ogryn Bodyguard",
+  "url": "https://39k.pro/datasheet/XhRJiIdCGDU",
+  "miniatures": [
+    {
+      "name": "Ogryn Bodyguard",
+      "characteristics": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "6",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Ripper gun",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Grenadier gauntlet",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Bullgryn maul",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Ripper gun",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Huge knife",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Ogryn Bodyguard",
+      "rule": "While one or more **OFFICER** models are in the same unit as this model, those **OFFICER** models have the Feel No Pain 4+ ability."
+    },
+    {
+      "name": "Feel No Pain 6+",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s huge knife can be replaced with one of the following: \n◦ 1 brute shield\n◦ 1 slabshield",
+    "■ This model’s ripper gun can be replaced with one of the following: \n◦ 1 grenadier gauntlet\n◦ 1 Bullgryn maul"
+  ],
+  "unit_composition": "■ **1 Ogryn Bodyguard**\n\n**This model is equipped with:** ripper gun; close combat weapon; huge knife.\nModel Name Count Points\nOgryn Bodyguard\n1\n40",
+  "unit_composition_table": [
+    {
+      "model": "Ogryn Bodyguard",
+      "count": "1",
+      "points": "40"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Loyal Protector",
+      "Ogryn",
+      "Bodyguard",
+      "Character"
+    ]
+  },
+  "custom_rules": []
+}

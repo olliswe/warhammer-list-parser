@@ -1,0 +1,165 @@
+{
+  "faction": "Codex: Grey Knights",
+  "faction_id": "9aSSlahg9l0",
+  "datasheet_id": "xlPokvrkm7I",
+  "datasheet_name": "Strike Squad",
+  "url": "https://39k.pro/datasheet/xlPokvrkm7I",
+  "miniatures": [
+    {
+      "name": "Strike Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "2+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Incinerator",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Psycannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Psilencer",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision",
+        "Psychic",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Nemesis force weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Sanctifying Ritual",
+      "rule": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 Grey Knight’s storm bolter and Nemesis force weapon can be replaced with one of the following:\n◦ 1 incinerator and 1 close combat weapon\n◦ 1 psilencer and 1 close combat weapon\n◦ 1 psycannon and 1 close combat weapon"
+  ],
+  "unit_composition": "■ **1 Justicar**\n■ **4-9 Grey Knights**\n\n**Every model is equipped with:** storm bolter; Nemesis force weapon.\nModel Name Count Points\nJusticar\nGrey Knight\n1\n5-9\n240\nJusticar\nGrey Knight\n1\n4\n120",
+  "unit_composition_table": [
+    {
+      "model": "Justicar\nGrey Knight",
+      "count": "1\n5-9",
+      "points": "240"
+    },
+    {
+      "model": "Justicar\nGrey Knight",
+      "count": "1\n4",
+      "points": "120"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Brotherhood Techmarine",
+      "id": "rjG5HKI1NWw"
+    },
+    {
+      "name": "Brotherhood Champion",
+      "id": "axzK41Kse0c"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Grey Knights"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Psyker",
+      "Grenades",
+      "Imperium",
+      "Strike Squad"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,184 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "Kaqw8u3NjVE",
+  "datasheet_id": "Njcz-YtHafs",
+  "datasheet_name": "Fire Dragons",
+  "url": "https://39k.pro/datasheet/Njcz-YtHafs",
+  "miniatures": [
+    {
+      "name": "Fire Dragon Exarch",
+      "characteristics": {
+        "M": "7\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Fire Dragon",
+      "characteristics": {
+        "M": "7\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Exarch’s Dragon fusion gun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Assault",
+        "Melta 6"
+      ]
+    },
+    {
+      "name": "Dragon’s breath flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6+2",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault",
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Firepike",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Assault",
+        "Melta 3"
+      ]
+    },
+    {
+      "name": "Dragon fusion pistol",
+      "stats": {
+        "range": "6\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Assault",
+        "Melta 3",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Dragon fusion gun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Assault",
+        "Melta 3"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Dragon axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Assured Destruction",
+      "rule": "In your Shooting phase, each time a model in this unit makes a ranged attack that targets a **MONSTER** or **VEHICLE** unit, you can re‐roll the Hit roll, you can re‐roll the Wound roll and you can re‐roll the Damage roll."
+    }
+  ],
+  "wargear_options": [
+    "■ The Fire Dragon Exarch model’s Exarch’s Dragon fusion gun can be replaced with 1 of the following:\n◦ 1 Dragon’s breath flamer\n◦ 1 Dragon fusion pistol and 1 Dragon axe\n◦ 1 firepike",
+    "■ For every 5 models in this unit, it can have 1 Aspect Shrine token."
+  ],
+  "unit_composition": "■ **1 Fire Dragon Exarch**\n■ **4-9 Fire Dragons**\n\n**The Fire Dragon Exarch is equipped with:** Exarch’s Dragon fusion gun; close combat weapon.\n**Every Fire Dragon is equipped with:** Dragon fusion gun; close combat weapon.\nModel Name Count Points\nFire Dragon\nFire Dragon Exarch\n5-9\n1\n220\nFire Dragon\nFire Dragon Exarch\n4\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Fire Dragon\nFire Dragon Exarch",
+      "count": "5-9\n1",
+      "points": "220"
+    },
+    {
+      "model": "Fire Dragon\nFire Dragon Exarch",
+      "count": "4\n1",
+      "points": "120"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Autarch",
+      "id": "Ih2BYpJBfDo"
+    },
+    {
+      "name": "Fuegan",
+      "id": "jaS2nZAyoJ0"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Asuryani"
+    ],
+    "keywords": [
+      "Infantry",
+      "Aeldari",
+      "Grenades",
+      "Aspect Warriors",
+      "Fire Dragons"
+    ]
+  },
+  "custom_rules": []
+}

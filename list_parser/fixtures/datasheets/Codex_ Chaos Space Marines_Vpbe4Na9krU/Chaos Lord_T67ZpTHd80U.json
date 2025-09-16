@@ -1,0 +1,154 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "T67ZpTHd80U",
+  "datasheet_name": "Chaos Lord",
+  "url": "https://39k.pro/datasheet/T67ZpTHd80U",
+  "miniatures": [
+    {
+      "name": "Chaos Lord",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol",
+        "Hazardous"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Astartes chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "7",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Accursed weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Daemon hammer",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Chance for Glory",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, improve the Strength, Attacks, Armour Penetration and Damage characteristics of melee weapons equipped by this model by 1."
+    },
+    {
+      "name": "Lord of Chaos",
+      "rule": "Once per battle round, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s plasma pistol can be replaced with 1 power fist.",
+    "■ This model’s daemon hammer can be replaced with one of the following: \n◦ 1 accursed weapon\n◦ 1 Astartes chainsword"
+  ],
+  "unit_composition": "■ **1 Chaos Lord**\n\n**This model is equipped with:** plasma pistol; daemon hammer.\nModel Name Count Points\nChaos Lord\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Lord",
+      "count": "1",
+      "points": "90"
+    }
+  ],
+  "leader": [
+    {
+      "name": "CHOSEN",
+      "id": "nqC5MnU1eH4"
+    },
+    {
+      "name": "LEGIONARIES",
+      "id": "jb3StEI_ljA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Chaos Lord"
+    ]
+  },
+  "custom_rules": []
+}

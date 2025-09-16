@@ -1,0 +1,121 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "InABnvQHtYQ",
+  "datasheet_name": "Acolyte Hybrids with Autopistols",
+  "url": "https://39k.pro/datasheet/InABnvQHtYQ",
+  "miniatures": [
+    {
+      "name": "Acolyte Hybrids with Autopistols",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Autopistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Leader’s bio-weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Cult claws and knife",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Heavy mining tool",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Anti-vehicle 4+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Claimed for the Cult",
+      "rule": "At the start of your Command phase, roll one D6 for each objective marker you control that has one or more units from your army with this ability within range of it. If one or more of the results is a 4+, you gain 1CP."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, up to 3 Acolyte Hybrids can each have their autopistol and cult claws and knife replaced with 1 heavy mining tool.",
+    "■ The Acolyte Leader’s cult claws and knife can be replaced with 1 Leader’s bio-weapons.",
+    "■ One Acolyte Hybrid’s autopistol can be replaced with 1 cult icon."
+  ],
+  "unit_composition": "■ **1 Acolyte Leader**\n■ **4‐9 Acolyte Hybrids**\n\n**Every model is equipped with:** autopistol; cult claws and knife.\nModel Name Count Points\nAcolyte Leader\nAcolyte Hybrid\n1\n5-9\n130\nAcolyte Hybrid\nAcolyte Leader\n4\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Acolyte Leader\nAcolyte Hybrid",
+      "count": "1\n5-9",
+      "points": "130"
+    },
+    {
+      "model": "Acolyte Hybrid\nAcolyte Leader",
+      "count": "4\n1",
+      "points": "65"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Great Devourer",
+      "Acolyte Hybrids",
+      "Acolyte Hybrids with Autopistols"
+    ]
+  },
+  "custom_rules": []
+}

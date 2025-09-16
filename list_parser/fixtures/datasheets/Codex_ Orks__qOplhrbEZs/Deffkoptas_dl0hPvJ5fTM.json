@@ -1,0 +1,121 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "dl0hPvJ5fTM",
+  "datasheet_name": "Deffkoptas",
+  "url": "https://39k.pro/datasheet/dl0hPvJ5fTM",
+  "miniatures": [
+    {
+      "name": "Deffkoptas",
+      "characteristics": {
+        "M": "12\"",
+        "T": "6",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Kopta rokkits",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Kustom mega-blasta",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "Slugga",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "5+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Spinnin’ blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Deff from Above",
+      "rule": "Each time this unit ends a Normal move, you can select one enemy unit it moved over during that move and roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 3 models in this unit, 1 Deffkopta can have its kopta rokkits replaced with 1 kustom mega-blasta."
+  ],
+  "unit_composition": "■ **3-6 Deffkoptas**\n\n**Every model is equipped with:** kopta rokkits; slugga; spinnin’ blades.\nModel Name Count Points\nDeffkopta\n3\n80\nDeffkopta\n4-6\n160",
+  "unit_composition_table": [
+    {
+      "model": "Deffkopta",
+      "count": "3",
+      "points": "80"
+    },
+    {
+      "model": "Deffkopta",
+      "count": "4-6",
+      "points": "160"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Grenades",
+      "Speed Freeks",
+      "Deffkoptas"
+    ]
+  },
+  "custom_rules": []
+}

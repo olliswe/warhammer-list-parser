@@ -1,0 +1,153 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "ZG8nxA8a0mg",
+  "datasheet_name": "Librarian in Terminator Armour",
+  "url": "https://39k.pro/datasheet/ZG8nxA8a0mg",
+  "miniatures": [
+    {
+      "name": "Librarian in Terminator Armour",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Smite — focused witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Psychic",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "🠶 Smite — witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Force weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Veil of Time",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Psychic Hood",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following:\n◦ 1 combi-weapon\n◦ 1 storm bolter"
+  ],
+  "unit_composition": "■ **1 Librarian in Terminator Armour**\n\n**This model is equipped with:** Smite; force weapon.\nModel Name Count Points\nLibrarian in Terminator Armour\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Librarian in Terminator Armour",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "leader": [
+    {
+      "name": "TERMINATOR ASSAULT SQUAD",
+      "id": "PzcgYWt_LdE"
+    },
+    {
+      "name": "TERMINATOR SQUAD",
+      "id": "Hb4zDwRO3a8"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Imperium",
+      "Terminator",
+      "Librarian"
+    ]
+  },
+  "custom_rules": []
+}

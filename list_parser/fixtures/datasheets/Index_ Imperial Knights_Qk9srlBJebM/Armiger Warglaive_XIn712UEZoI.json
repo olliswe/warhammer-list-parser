@@ -1,0 +1,133 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "XIn712UEZoI",
+  "datasheet_name": "Armiger Warglaive",
+  "url": "https://39k.pro/datasheet/XIn712UEZoI",
+  "miniatures": [
+    {
+      "name": "Armiger Warglaive",
+      "characteristics": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "6"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Thermal spear",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 4"
+      ]
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Reaper chain-cleaver — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chain-cleaver — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Impetuous Glory",
+      "rule": "Each time this model makes a Charge move, until the end of the turn, melee weapons equipped by this model have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Questoris heavy stubber can be replaced with 1 meltagun."
+  ],
+  "unit_composition": "■ **1 Armiger Warglaive**\n\n**This model is equipped with:** Questoris heavy stubber; thermal spear; reaper chain-cleaver.\nModel Name Count Points\nArmiger Warglaive\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Armiger Warglaive",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Battleline",
+      "Imperium",
+      "Armiger",
+      "Warglaive"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

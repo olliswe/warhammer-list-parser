@@ -1,0 +1,119 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "wti9ol4TUVM",
+  "datasheet_name": "Burna-bommer",
+  "url": "https://39k.pro/datasheet/wti9ol4TUVM",
+  "miniatures": [
+    {
+      "name": "Burna-bommer",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Twin big shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Twin supa-shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Skorcha missile rack",
+      "stats": {
+        "range": "36\"",
+        "attacks": "2D6",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Burna Bomb",
+      "rule": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 skorcha missile rack."
+  ],
+  "unit_composition": "■ **1 Burna-bommer**\n\n**This model is equipped with:** twin big shoota; twin supa-shoota; armoured hull.\nModel Name Count Points\nBurna-bommer\n1\n125",
+  "unit_composition_table": [
+    {
+      "model": "Burna-bommer",
+      "count": "1",
+      "points": "125"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Speed Freeks",
+      "Burna-bommer"
+    ]
+  },
+  "custom_rules": []
+}

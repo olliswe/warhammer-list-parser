@@ -1,0 +1,218 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "wGFOtLxWY0k",
+  "datasheet_id": "5M1wqruEMzo",
+  "datasheet_name": "Tormentors",
+  "url": "https://39k.pro/datasheet/5M1wqruEMzo",
+  "miniatures": [
+    {
+      "name": "Tormentors",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Precision"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Precision"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol",
+        "Precision"
+      ]
+    },
+    {
+      "name": "Boltgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2",
+        "Precision"
+      ]
+    },
+    {
+      "name": "🠶 Plasma gun — standard",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision",
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "🠶 Plasma gun — supercharge",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Precision",
+        "Rapid Fire 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Power sword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Rapture lash",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Objective Defiled",
+      "rule": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    }
+  ],
+  "wargear_options": [
+    "■ The Obsessionist’s bolt pistol can be replaced with 1 plasma pistol.",
+    "■ The Obsessionist’s power sword can be replaced with 1 rapture lash.",
+    "■ For every 5 models in this unit, 1 Tormentor’s boltgun can be replaced with 1 meltagun.",
+    "■ For every 5 models in this unit, 1 Tormentor’s boltgun can be replaced with 1 plasma gun.",
+    "■ 1 Tormentor can be equipped with 1 icon of excess."
+  ],
+  "unit_composition": "■ **1 Obsessionist**\n■ **4‑9 Tormentors**\n\n**The Obsessionist is equipped with:** bolt pistol; power sword.\n**Every Tormentor is equipped with:** boltgun; close combat weapon.\nModel Name Count Points\nObsessionist\nTormentor\n1\n4\n85\nObsessionist\nTormentor\n1\n5-9\n170",
+  "unit_composition_table": [
+    {
+      "model": "Obsessionist\nTormentor",
+      "count": "1\n4",
+      "points": "85"
+    },
+    {
+      "model": "Obsessionist\nTormentor",
+      "count": "1\n5-9",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Sybastis Luxx",
+      "id": "RgW6bEc1kD8"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Emperor’s Children"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Tormentors"
+    ]
+  },
+  "custom_rules": []
+}

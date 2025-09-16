@@ -1,0 +1,143 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "3oxycHOTj0o",
+  "datasheet_name": "Telemon Heavy Dreadnought",
+  "url": "https://39k.pro/datasheet/3oxycHOTj0o",
+  "miniatures": [
+    {
+      "name": "Telemon Heavy Dreadnought",
+      "characteristics": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Iliastus accelerator culverin",
+      "stats": {
+        "range": "48\"",
+        "attacks": "4",
+        "ballistic_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin plasma projector",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D3",
+        "ballistic_skill": "N/A",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Arachnus storm cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "12",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Spiculus bolt launcher",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Telemon caestus",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "12",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Armoured feet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Guardian Eternal",
+      "rule": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+      "name": "Devoted to Destruction",
+      "rule": "If this model is equipped with 2 Telemon caestus weapons in addition to its armoured feet weapon, add 2 to the Attacks characteristic of those Telemon caestus weapons."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s 2 iliastus accelerator culverins can be replaced with one of the following:\n◦ 2 arachnus storm cannons\n◦ 2 Telemon caestus and 2 twin plasma projectors\n◦ 1 iliastus accelerator culverin and 1 arachnus storm cannon\n◦ 1 iliastus accelerator culverin, 1 Telemon caestus and 1 twin plasma projector\n◦ 1 arachnus storm cannon, 1 Telemon caestus and 1 twin plasma projector"
+  ],
+  "unit_composition": "■ **1 Telemon Heavy Dreadnought**\n\n**This model is equipped with:** 2 iliastus accelerator culverins; spiculus bolt launcher; armoured feet.\nModel Name Count Points\nTelemon Heavy Dreadnought\n1\n225",
+  "unit_composition_table": [
+    {
+      "model": "Telemon Heavy Dreadnought",
+      "count": "1",
+      "points": "225"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Telemon Heavy Dreadnought"
+    ]
+  },
+  "custom_rules": []
+}

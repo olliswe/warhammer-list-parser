@@ -1,0 +1,99 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "AQA_1RiJFTI",
+  "datasheet_name": "Ares Gunship",
+  "url": "https://39k.pro/datasheet/AQA_1RiJFTI",
+  "miniatures": [
+    {
+      "name": "Ares Gunship",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "22",
+        "LD": "6+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Arachnus heavy blaze cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "2+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Arachnus magna-blaze cannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "18",
+        "armour_penetration": "-4",
+        "damage": "D6+6"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "9",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Infernus Firebombs",
+      "rule": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Ares Gunship**\n\n**This model is equipped with:** 2 arachnus heavy blaze cannons; arachnus magna-blaze cannon; armoured hull.\nModel Name Count Points\nAres Gunship\n1\n580",
+  "unit_composition_table": [
+    {
+      "model": "Ares Gunship",
+      "count": "1",
+      "points": "580"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Imperium",
+      "Ares Gunship"
+    ]
+  },
+  "custom_rules": []
+}

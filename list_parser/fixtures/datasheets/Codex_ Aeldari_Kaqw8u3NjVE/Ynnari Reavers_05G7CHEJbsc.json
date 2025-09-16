@@ -1,0 +1,149 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "Kaqw8u3NjVE",
+  "datasheet_id": "05G7CHEJbsc",
+  "datasheet_name": "Ynnari Reavers",
+  "url": "https://39k.pro/datasheet/05G7CHEJbsc",
+  "miniatures": [
+    {
+      "name": "Ynnari Reavers",
+      "characteristics": {
+        "M": "16\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Splinter rifle",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 3+",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Heat lance",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 3",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Blaster",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-4",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Splinter pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 3+",
+        "Assault",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Agoniser",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 3+"
+      ]
+    },
+    {
+      "name": "Bladevanes",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Eviscerating Fly-by",
+      "rule": "Each time this unit ends a Normal move, you can select one enemy unit (excluding **MONSTER** and **VEHICLE** units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 3 models in this unit, 1 model’s splinter rifle can be replaced with one of the following:\n◦ 1 blaster\n◦ 1 heat lance",
+    "■ For every 3 models in this unit, 1 model can be equipped with one of the following:\n◦ 1 grav-talon\n◦ 1 cluster caltrops",
+    "■ The Arena Champion can be equipped with 1 agoniser."
+  ],
+  "unit_composition": "■ **1 Arena Champion**\n■ **2-5 Reavers**\n\n**Every model is equipped with:** splinter pistol; splinter rifle; bladevanes.\nModel Name Count Points\nReaver\nArena Champion\n3-5\n1\n120\nArena Champion\nReaver\n1\n2\n65",
+  "unit_composition_table": [
+    {
+      "model": "Reaver\nArena Champion",
+      "count": "3-5\n1",
+      "points": "120"
+    },
+    {
+      "model": "Arena Champion\nReaver",
+      "count": "1\n2",
+      "points": "65"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Ynnari"
+    ],
+    "keywords": [
+      "Mounted",
+      "Fly",
+      "Aeldari",
+      "Reavers"
+    ]
+  },
+  "custom_rules": []
+}

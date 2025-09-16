@@ -1,0 +1,113 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "uaqfDrJwy7k",
+  "datasheet_name": "Witchseekers",
+  "url": "https://39k.pro/datasheet/uaqfDrJwy7k",
+  "miniatures": [
+    {
+      "name": "Witchseekers",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Witchseeker flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Scouts 6\"",
+      "rule": ""
+    },
+    {
+      "name": "Daughters of the Abyss",
+      "rule": "Models in this unit have the Feel No Pain 3+ ability against Psychic Attacks and mortal wounds."
+    },
+    {
+      "name": "Sanctified Flames",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle‑shock test."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Witchseeker Sister Superior**\n■ **3-9 Witchseekers**\n\n**Every model is equipped with**: Witchseeker flamer; close combat weapon.\nModel Name Count Points\nWitchseeker\nWitchseeker Sister Superior\n4\n1\n65\nWitchseeker\nWitchseeker Sister Superior\n9\n1\n125\nWitchseeker Sister Superior\nWitchseeker\n1\n3\n50\nWitchseeker\nWitchseeker Sister Superior\n5-8\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Witchseeker\nWitchseeker Sister Superior",
+      "count": "4\n1",
+      "points": "65"
+    },
+    {
+      "model": "Witchseeker\nWitchseeker Sister Superior",
+      "count": "9\n1",
+      "points": "125"
+    },
+    {
+      "model": "Witchseeker Sister Superior\nWitchseeker",
+      "count": "1\n3",
+      "points": "50"
+    },
+    {
+      "model": "Witchseeker\nWitchseeker Sister Superior",
+      "count": "5-8\n1",
+      "points": "115"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Knight-Centura",
+      "id": "afA8VZqy9g0"
+    },
+    {
+      "name": "Aleya",
+      "id": "24WVauwXFmc"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Anathema Psykana",
+      "Witchseekers"
+    ]
+  },
+  "custom_rules": []
+}

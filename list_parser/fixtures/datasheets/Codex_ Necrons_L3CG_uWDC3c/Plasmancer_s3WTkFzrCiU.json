@@ -1,0 +1,95 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "s3WTkFzrCiU",
+  "datasheet_name": "Plasmancer",
+  "url": "https://39k.pro/datasheet/s3WTkFzrCiU",
+  "miniatures": [
+    {
+      "name": "Plasmancer",
+      "characteristics": {
+        "M": "5\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Plasmic lance",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Plasmic lance",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Living Lightning",
+      "rule": "In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound."
+    },
+    {
+      "name": "Harbinger of Destruction",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a ranged attack, a successful unmodifed Hit roll of 5+ scores a Critical Hit."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Plasmancer**\n\n**This model is equipped with:** plasmic lance.\nModel Name Count Points\nPlasmancer\n1\n55",
+  "unit_composition_table": [
+    {
+      "model": "Plasmancer",
+      "count": "1",
+      "points": "55"
+    }
+  ],
+  "leader": [
+    {
+      "name": "IMMORTALS",
+      "id": "Ufq4az5uMCc"
+    },
+    {
+      "name": "NECRON WARRIORS",
+      "id": "vaCmdROVB9g"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Cryptek",
+      "Plasmancer"
+    ]
+  },
+  "custom_rules": []
+}

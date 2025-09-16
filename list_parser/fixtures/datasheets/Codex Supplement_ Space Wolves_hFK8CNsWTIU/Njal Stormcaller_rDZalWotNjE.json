@@ -1,0 +1,139 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "hFK8CNsWTIU",
+  "datasheet_id": "rDZalWotNjE",
+  "datasheet_name": "Njal Stormcaller",
+  "url": "https://39k.pro/datasheet/rDZalWotNjE",
+  "miniatures": [
+    {
+      "name": "Njal Stormcaller",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Living Lightning — focused witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2D6",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Hazardous",
+        "Psychic",
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "🠶 Living Lightning — witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Psychic",
+        "Sustained Hits 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Staff of the Stormcaller",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Sustained Hits 2",
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Wind Walker",
+      "rule": "While this model is leading a unit, ranged weapons equipped by models in that unit have the **[ASSAULT]** ability and each time that unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Tempest’s Wrath",
+      "rule": "In your Shooting phase, after this model’s unit has shot, select one enemy unit (excluding **MONSTERS** and **VEHICLES**) hit by one or more of those attacks made with this model’s Living Lightning weapon. Until the start of your next turn, that enemy unit is stormwracked. While a unit is stormwracked, subtract 6\" from the Range characteristic of ranged weapons equipped by models in that unit (to a minimum of 12\")."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Njal Stormcaller – EPIC HERO**\n\n**This model is equipped with:** bolt pistol; Living Lightning; Staff of the Stormcaller.\nModel Name Count Points\nNjal Stormcaller\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Njal Stormcaller",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BLOOD CLAWS",
+      "id": "bcQNXfrycso"
+    },
+    {
+      "name": "GREY HUNTERS",
+      "id": "w-9jhrG0R6Y"
+    },
+    {
+      "name": "WOLF GUARD HEADHUNTERS",
+      "id": "undefined"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Space Wolves"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Psyker",
+      "Imperium",
+      "Tacticus",
+      "Njal Stormcaller"
+    ]
+  },
+  "custom_rules": []
+}

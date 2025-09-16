@@ -1,0 +1,86 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "m4yOHGgAM5Q",
+  "datasheet_name": "Sloppity Bilepiper",
+  "url": "https://39k.pro/datasheet/m4yOHGgAM5Q",
+  "miniatures": [
+    {
+      "name": "Sloppity Bilepiper",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "7+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Marotter",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Disease of Mirth",
+      "rule": "At the start of the Fight phase, every enemy unit (excluding **MONSTERS** and **VEHICLES**) within 6\" of this model must take a Battle-shock test."
+    },
+    {
+      "name": "Jolly Gutpipes",
+      "rule": "While this model is leading a unit, add 1 to the Move characteristic of models in that unit and you can re-roll Advance rolls made for that unit."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Sloppity Bilepiper**\n\n**This model is equipped with:** marotter.\nModel Name Count Points\nSloppity Bilepiper\n1\n55",
+  "unit_composition_table": [
+    {
+      "model": "Sloppity Bilepiper",
+      "count": "1",
+      "points": "55"
+    }
+  ],
+  "leader": [
+    {
+      "name": "PLAGUEBEARERS",
+      "id": "5QnizZncdcI"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Sloppity Bilepiper"
+    ]
+  },
+  "custom_rules": []
+}

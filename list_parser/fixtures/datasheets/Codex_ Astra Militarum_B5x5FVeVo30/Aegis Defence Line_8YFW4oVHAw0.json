@@ -1,0 +1,63 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "8YFW4oVHAw0",
+  "datasheet_name": "Aegis Defence Line",
+  "url": "https://39k.pro/datasheet/8YFW4oVHAw0",
+  "miniatures": [
+    {
+      "name": "Aegis Defence Line",
+      "characteristics": {
+        "M": "-",
+        "T": "12",
+        "SV": "2+",
+        "W": "10",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [],
+  "abilities": [
+    {
+      "name": "Reinforced Cover",
+      "rule": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this **FORTIFICATION**, that model has the Benefit of Cover against that attack."
+    },
+    {
+      "name": "Defence Line",
+      "rule": "While an **ASTRA MILITARUM INFANTRY** model has the Benefit of Cover as a result of this terrain feature (see above), that model has a 4+ invulnerable save."
+    },
+    {
+      "name": "Fortification",
+      "rule": "While an enemy unit is only within Engagement Range of one or more **FORTIFICATIONS** from your army:\n\n■ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n■ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+    },
+    {
+      "name": "Emplacement Platform",
+      "rule": "Friendly **ASTRA MILITARUM INFANTRY** models can be set up or end any type of move on top of the platform section of this **FORTIFICATION**."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Aegis Defence Line**\nModel Name Count Points\nAegis Defence Line\n1\n145",
+  "unit_composition_table": [
+    {
+      "model": "Aegis Defence Line",
+      "count": "1",
+      "points": "145"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Fortification",
+      "Imperium",
+      "Aegis Defence Line"
+    ]
+  },
+  "custom_rules": []
+}

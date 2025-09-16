@@ -1,0 +1,112 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "vwJ-1jmKqUQ",
+  "datasheet_name": "Cronos",
+  "url": "https://39k.pro/datasheet/vwJ-1jmKqUQ",
+  "miniatures": [
+    {
+      "name": "Cronos",
+      "characteristics": {
+        "M": "7\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Spirit syphon",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Spirit vortex",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Spirit-leech tentacles",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Pain Parasite",
+      "rule": "Each time one Pain token is removed from your Pain token pool to Empower one or more units, if one or more of those Empowered units are within 9\" of this unit, roll one D6: on a 4+, you gain 1 Pain token."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each be equipped with 1 spirit vortex."
+  ],
+  "unit_composition": "■ **1-2 Cronos**\n\n**Every Cronos is equipped with:** spirit syphon; spirit-leech tentacles.\nModel Name Count Points\nCronos\n2\n100\nCronos\n1\n50",
+  "unit_composition_table": [
+    {
+      "model": "Cronos",
+      "count": "2",
+      "points": "100"
+    },
+    {
+      "model": "Cronos",
+      "count": "1",
+      "points": "50"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Monster",
+      "Haemonculus Covens",
+      "Fly",
+      "Aeldari",
+      "Cronos"
+    ]
+  },
+  "custom_rules": []
+}

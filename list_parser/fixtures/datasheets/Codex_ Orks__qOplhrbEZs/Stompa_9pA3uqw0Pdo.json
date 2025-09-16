@@ -1,0 +1,174 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "9pA3uqw0Pdo",
+  "datasheet_name": "Stompa",
+  "url": "https://39k.pro/datasheet/9pA3uqw0Pdo",
+  "miniatures": [
+    {
+      "name": "Stompa",
+      "characteristics": {
+        "M": "10\"",
+        "T": "14",
+        "SV": "2+",
+        "W": "30",
+        "LD": "6+",
+        "OC": "12"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Supa-gatler",
+      "stats": {
+        "range": "24\"",
+        "attacks": "20",
+        "ballistic_skill": "5+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Twin big shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Skorcha",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Big shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Supa-rokkits",
+      "stats": {
+        "range": "100\"",
+        "attacks": "D6",
+        "ballistic_skill": "5+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Deffkannon",
+      "stats": {
+        "range": "72\"",
+        "attacks": "3D6",
+        "ballistic_skill": "5+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Mega-choppa — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "24",
+        "armour_penetration": "-5",
+        "damage": "10"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Mega-choppa — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "18",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 2D6",
+      "rule": ""
+    },
+    {
+      "name": "Stompin’ Forward",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **TITANIC** models) and terrain features that are 4\" or less in height as if they were not there."
+    },
+    {
+      "name": "Waaagh! Effigy",
+      "rule": "While a friendly **ORKS** unit is within 12\" of this model, each time you take a Battle‑shock test for that unit, add 1 to that test."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Stompa**\n\n**This model is equipped with:** 3 big shootas; deffkannon; skorcha; supa-gatler; supa-rokkits; twin big shoota; mega-choppa.\nModel Name Count Points\nStompa\n1\n800",
+  "unit_composition_table": [
+    {
+      "model": "Stompa",
+      "count": "1",
+      "points": "800"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Titanic",
+      "Towering",
+      "Walker",
+      "Stompa"
+    ]
+  },
+  "custom_rules": []
+}

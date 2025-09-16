@@ -1,0 +1,150 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "9aAoomMWFX4",
+  "datasheet_name": "Sorcerer in Terminator Armour",
+  "url": "https://39k.pro/datasheet/9aAoomMWFX4",
+  "miniatures": [
+    {
+      "name": "Sorcerer in Terminator Armour",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Infernal Gaze — witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    },
+    {
+      "name": "🠶 Infernal Gaze — focused witchfire",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic",
+        "Devastating Wounds",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Force weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Death Hex",
+      "rule": "At the start of your Shooting phase, one **PSYKER** with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that **PSYKER** and roll one D6: on a 1, that **PSYKER**’s unit suffers D3 mortal wounds; on a 2+, until the start of your next Movement phase, each time an attack targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Warptime",
+      "rule": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 Chaos familiar.",
+    "■ This model’s combi-bolter can be replaced with 1 combi-weapon."
+  ],
+  "unit_composition": "■ **1 Sorcerer in Terminator Armour**\n\n**This model is equipped with:** combi-bolter; Infernal Gaze; force weapon.\nModel Name Count Points\nSorcerer in Terminator Armour\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Sorcerer in Terminator Armour",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "leader": [
+    {
+      "name": "CHAOS TERMINATOR SQUAD",
+      "id": "uWtUCjL3KPI"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Terminator",
+      "Sorcerer in Terminator Armour"
+    ]
+  },
+  "custom_rules": []
+}

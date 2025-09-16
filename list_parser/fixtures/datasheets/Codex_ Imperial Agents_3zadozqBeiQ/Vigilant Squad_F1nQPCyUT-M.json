@@ -1,0 +1,209 @@
+{
+  "faction": "Codex: Imperial Agents",
+  "faction_id": "3zadozqBeiQ",
+  "datasheet_id": "F1nQPCyUT-M",
+  "datasheet_name": "Vigilant Squad",
+  "url": "https://39k.pro/datasheet/F1nQPCyUT-M",
+  "miniatures": [
+    {
+      "name": "Vigilant Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Executioner shotgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "🠶 Arbites grenade launcher — frag",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Arbites grenade launcher — krak",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Arbites combat shotgun",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Webber",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Devastating Wounds",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Arbites shotpistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Mechanical bite",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Merciless Judgement",
+      "rule": "Each time a model in this unit makes a ranged attack that targets a unit that is Below Half‐strength, add 1 to the Wound roll."
+    }
+  ],
+  "wargear_options": [
+    "■ Up to 2 Vigilants can each have their Arbites combat shotgun replaced with one of the following (duplicates are not allowed):\n◦ 1 executioner shotgun\n◦ 1 Arbites grenade launcher\n◦ 1 heavy stubber\n◦ 1 webber",
+    "■ The Proctor-Vigilant can be equipped with 1 nuncio aquila."
+  ],
+  "unit_composition": "■ **1 Proctor-Vigilant**\n■ **9 Vigilants**\n■ **1 Cyber-mastiff**\n\n**Every Proctor-Vigilant and Vigilant is equipped with:** Arbites combat shotgun; Arbites shotpistol; close combat weapon.\n\n**The Cyber-mastiff is equipped with:** mechanical bite.\nModel Name Count Points\nVigilant\nCyber-mastiff\nProctor-Vigilant\n9\n1\n1\n85\nCyber-mastiff\nProctor-Vigilant\nVigilant\n1\n1\n9\n85",
+  "unit_composition_table": [
+    {
+      "model": "Vigilant\nCyber-mastiff\nProctor-Vigilant",
+      "count": "9\n1\n1",
+      "points": "85"
+    },
+    {
+      "model": "Cyber-mastiff\nProctor-Vigilant\nVigilant",
+      "count": "1\n1\n9",
+      "points": "85"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Inquisitor Coteaz",
+      "id": "Zm-XpZ4gxuQ"
+    },
+    {
+      "name": "Inquisitor Draxus",
+      "id": "KUyHn0yYa7U"
+    },
+    {
+      "name": "Inquisitor Greyfax",
+      "id": "MVTjOHpMqo8"
+    },
+    {
+      "name": "Inquisitor",
+      "id": "oaaSrafY7x8"
+    },
+    {
+      "name": "Ministorum Priest",
+      "id": "T-JD-8M4Z8w"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Agents of the Imperium"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Retinue",
+      "Adeptus Arbites",
+      "Vigilant Squad"
+    ]
+  },
+  "custom_rules": []
+}

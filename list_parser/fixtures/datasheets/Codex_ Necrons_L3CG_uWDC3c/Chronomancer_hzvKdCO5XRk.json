@@ -1,0 +1,97 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "hzvKdCO5XRk",
+  "datasheet_name": "Chronomancer",
+  "url": "https://39k.pro/datasheet/hzvKdCO5XRk",
+  "miniatures": [
+    {
+      "name": "Chronomancer",
+      "characteristics": {
+        "M": "5\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Chronomancer’s stave",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Chronomancer’s stave",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Chronometron",
+      "rule": "In your Shooting phase, after this model’s unit has shot, if it is not within Engagement Range of any enemy units, that unit can make a Normal move of up to 5\". If it does, until the end of the turn, that unit is not eligible to declare a charge."
+    },
+    {
+      "name": "Timesplinter Mantle",
+      "rule": "While this model is leading a unit, each time an attack targets that unit, subtract 1 from the Hit roll."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Chronomancer**\n\n**This model is equipped with:** Chronomancer’s stave.\nModel Name Count Points\nChronomancer\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Chronomancer",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "leader": [
+    {
+      "name": "IMMORTALS",
+      "id": "Ufq4az5uMCc"
+    },
+    {
+      "name": "NECRON WARRIORS",
+      "id": "vaCmdROVB9g"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Cryptek",
+      "Chronomancer"
+    ]
+  },
+  "custom_rules": []
+}

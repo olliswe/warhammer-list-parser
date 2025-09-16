@@ -1,0 +1,355 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "H-2eF-Lxbo4",
+  "datasheet_id": "-o-RSy91drw",
+  "datasheet_name": "Battle Sisters Squad",
+  "url": "https://39k.pro/datasheet/-o-RSy91drw",
+  "miniatures": [
+    {
+      "name": "Battle Sisters Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Ministorum hand flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Pistol",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Condemnor boltgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-psyker 2+",
+        "Devastating Wounds",
+        "Rapid Fire 1",
+        "Precision"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Boltgun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "Inferno pistol",
+      "stats": {
+        "range": "6\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-4",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Melta 2",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Artificer-crafted storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1",
+        "Heavy"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Ministorum flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Ministorum heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Multi-melta",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Heavy",
+        "Melta 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Cherub",
+      "rule": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.\n\n***Designer’s Note:** Place a Cherub token next to the unit, removing it once this ability has been used.*"
+    },
+    {
+      "name": "Defenders of the Faith",
+      "rule": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 Battle Sister’s boltgun can be replaced with one of the following: \n◦ 1 artificer-crafted storm bolter\n◦ 1 meltagun\n◦ 1 Ministorum flamer",
+    "■ 1 Battle Sister equipped with 1 boltgun can be equipped with 1 simulacrum imperialis (that model’s boltgun cannot be replaced).",
+    "■ The Sister Superior can be equipped with one of the following:\n◦ 1 chainsword\n◦ 1 power weapon",
+    "■ 1 Battle Sister’s boltgun can be replaced with one of the following: \n◦ 1 artificer-crafted storm bolter\n◦ 1 heavy bolter\n◦ 1 meltagun\n◦ 1 Ministorum flamer\n◦ 1 Ministorum heavy flamer\n◦ 1 multi-melta",
+    "■ The Sister Superior’s boltgun can be replaced with one of the following:\n◦ 1 bolt pistol\n◦ 1 combi-weapon\n◦ 1 condemnor boltgun\n◦ 1 inferno pistol\n◦ 1 Ministorum hand flamer\n◦ 1 plasma pistol"
+  ],
+  "unit_composition": "■ **1 Sister Superior**\n■ **9 Battle Sisters**\n\n**Every model is equipped with:** bolt pistol; boltgun; close combat weapon.\nModel Name Count Points\nSister Superior\nBattle Sister\n1\n9\n105",
+  "unit_composition_table": [
+    {
+      "model": "Sister Superior\nBattle Sister",
+      "count": "1\n9",
+      "points": "105"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Dialogus",
+      "id": "dGwSUTHQtp8"
+    },
+    {
+      "name": "Dogmata",
+      "id": "3VtNy3pdPnA"
+    },
+    {
+      "name": "Ministorum Priest",
+      "id": "M6HI4ctf6iE"
+    },
+    {
+      "name": "Junith Eruita",
+      "id": "QH8dAeNzu-8"
+    },
+    {
+      "name": "Imagifier",
+      "id": "BFuppW-CONg"
+    },
+    {
+      "name": "Triumph of Saint Katherine",
+      "id": "-g70qxQpK34"
+    },
+    {
+      "name": "Canoness Ellyrine",
+      "id": "8sO0zL08roQ"
+    },
+    {
+      "name": "Aestred Thurga and Agathae Dolan",
+      "id": "_2Gx3nh9wsY"
+    },
+    {
+      "name": "Palatine",
+      "id": "4qKpC7LJrJ8"
+    },
+    {
+      "name": "Canoness",
+      "id": "JYxRrEtDYSo"
+    },
+    {
+      "name": "Hospitaller",
+      "id": "3t0DvneCHnU"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adepta Sororitas"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Battleline",
+      "Imperium",
+      "Battle Sisters Squad"
+    ]
+  },
+  "custom_rules": []
+}

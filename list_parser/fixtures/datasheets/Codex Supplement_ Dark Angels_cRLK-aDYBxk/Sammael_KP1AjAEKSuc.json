@@ -1,0 +1,134 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "cRLK-aDYBxk",
+  "datasheet_id": "KP1AjAEKSuc",
+  "datasheet_name": "Sammael",
+  "url": "https://39k.pro/datasheet/KP1AjAEKSuc",
+  "miniatures": [
+    {
+      "name": "Sammael",
+      "characteristics": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Bolt Pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Master-crafted plasma cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Twin storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2",
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "The Raven Sword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 2"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Cut Off Their Escape",
+      "rule": "Each time an enemy unit (excluding **MONSTERS** and **VEHICLES**) within Engagement Range of this model’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Grand Master of the Ravenwing",
+      "rule": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Advanced. If that unit is already eligible to shoot and declare a charge in a turn in which it Advanced, add 1 to Advance and Charge rolls made for that unit instead."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Sammael – EPIC HERO**\n\n**This model is equipped with:** bolt pistol; master-crafted plasma cannon; twin storm bolter; the Raven Sword.\nModel Name Count Points\nSammael\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Sammael",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "leader": [
+    {
+      "name": "OUTRIDER SQUAD",
+      "id": "O42gGCDALmQ"
+    },
+    {
+      "name": "RAVENWING BLACK KNIGHTS",
+      "id": "M3suT_2JzyE"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Dark Angels"
+    ],
+    "keywords": [
+      "Mounted",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "Grenades",
+      "Imperium",
+      "Ravenwing",
+      "Captain",
+      "Sammael"
+    ]
+  },
+  "custom_rules": []
+}

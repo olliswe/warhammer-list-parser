@@ -1,0 +1,124 @@
+{
+  "faction": "Codex: Leagues of Votann",
+  "faction_id": "7RnIcWs4Ygw",
+  "datasheet_id": "gjfJIefnGSI",
+  "datasheet_name": "Kâhl",
+  "url": "https://39k.pro/datasheet/gjfJIefnGSI",
+  "miniatures": [
+    {
+      "name": "Kâhl",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Volkanite disintegrator",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Autoch-pattern combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "4",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Forgewrought plasma axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Mass gauntlet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Kindred Hero",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Seized Opportunity",
+      "rule": "Once per phase, one model from your army with this ability can use it when its unit destroys an enemy unit. If it does, you gain 1YP."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Autoch-pattern combi-bolter can be replaced with 1 volkanite disintegrator.",
+    "■ This model’s forgewrought plasma axe can be replaced with 1 mass gauntlet.",
+    "■ This model’s rampart crest can be replaced with 1 teleport crest."
+  ],
+  "unit_composition": "■ **1 Kâhl**\n\n**This model is equipped with:** Autoch-pattern combi-bolter; forgewrought plasma axe; rampart crest.\nModel Name Count Points\nKâhl\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Kâhl",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [
+    {
+      "name": "EINHYR HEARTHGUARD",
+      "id": "m_gMDHC2U0A"
+    },
+    {
+      "name": "HEARTHKYN WARRIORS",
+      "id": "ZPZgpKGB_VE"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Leagues of Votann"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Kâhl"
+    ]
+  },
+  "custom_rules": []
+}

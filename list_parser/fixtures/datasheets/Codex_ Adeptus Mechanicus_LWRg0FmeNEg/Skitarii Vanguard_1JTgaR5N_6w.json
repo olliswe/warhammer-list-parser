@@ -1,0 +1,197 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "LWRg0FmeNEg",
+  "datasheet_id": "1JTgaR5N_6w",
+  "datasheet_name": "Skitarii Vanguard",
+  "url": "https://39k.pro/datasheet/1JTgaR5N_6w",
+  "miniatures": [
+    {
+      "name": "Skitarii Vanguard",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Radium carbine",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+"
+      ]
+    },
+    {
+      "name": "Transuranic arquebus",
+      "stats": {
+        "range": "36\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Precision",
+        "Heavy"
+      ]
+    },
+    {
+      "name": "🠶 Plasma caliver — supercharge",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "🠶 Plasma caliver — standard",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Arc rifle",
+      "stats": {
+        "range": "30\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Anti-vehicle 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Mechanicus pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Alpha combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rad-saturation",
+      "rule": "While an enemy unit (excluding **VEHICLE** units) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that unit."
+    }
+  ],
+  "wargear_options": [
+    "■ The Skitarii Vanguard Alpha can be equipped with 1 Alpha combat weapon.",
+    "■ 1 Skitarii Vanguard’s radium carbine can be replaced with 1 arc rifle.",
+    "■ 1 Skitarii Vanguard equipped with a radium carbine can be equipped with one of the following: \n◦ 1 enhanced data-tether*\n◦ 1 omnispex*\n\n* That model’s radium carbine cannot be replaced",
+    "■ 1 Skitarii Vanguard’s radium carbine can be replaced with 1 transuranic arquebus.",
+    "■ 1 Skitarii Vanguard’s radium carbine can be replaced with 1 plasma caliver.",
+    "■ The Skitarii Vanguard Alpha’s radium carbine can be replaced with 1 Mechanicus pistol."
+  ],
+  "unit_composition": "■ **1 Skitarii Vanguard Alpha**\n■ **9 Skitarii Vanguard**\n\n**Every model is equipped with:** radium carbine; close combat weapon.\nModel Name Count Points\nSkitarii Vanguard\nSkitarii Vanguard Alpha\n9\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Skitarii Vanguard\nSkitarii Vanguard Alpha",
+      "count": "9\n1",
+      "points": "95"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Skitarii Marshal",
+      "id": "NVrI3yJux9Q"
+    },
+    {
+      "name": "Manipulus Skand",
+      "id": "JyAlJNEusNs"
+    },
+    {
+      "name": "Technoarcheologist",
+      "id": "1QPLiyj38EA"
+    },
+    {
+      "name": "Tech-Priest Manipulus",
+      "id": "YNkUmaGvU3g"
+    },
+    {
+      "name": "Tech-Priest Dominus",
+      "id": "OX8X8cQqvXY"
+    },
+    {
+      "name": "Tech-Priest Enginseer",
+      "id": "F74StgXygRA"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Mechanicus"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Imperium",
+      "Skitarii",
+      "Vanguard"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,152 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "4UcwqHSycNE",
+  "datasheet_name": "AX-1-0 Tiger Shark",
+  "url": "https://39k.pro/datasheet/4UcwqHSycNE",
+  "miniatures": [
+    {
+      "name": "AX-1-0 Tiger Shark",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "18",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Missile pod",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin heavy rail cannon",
+      "stats": {
+        "range": "120\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "26",
+        "armour_penetration": "-5",
+        "damage": "12"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Burst cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Cyclic ion blaster — standard",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Cyclic ion blaster — overcharge",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "Seeker missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Titan Hunter",
+      "rule": "This model’s twin heavy rail cannon and seeker missiles have the **[ANTI-TITANIC 3+]** ability while targeting a unit within half range."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with up to 6 seeker missiles.",
+    "■ This model’s 2 burst cannons can be replaced with 2 cyclic ion blasters."
+  ],
+  "unit_composition": "■ **1 Tiger Shark**\n\n**This model is equipped with:** 2 burst cannons; 2 missile pods; twin heavy rail cannon; armoured hull.\nModel Name Count Points\nAX-1-0 Tiger Shark\n1\n315",
+  "unit_composition_table": [
+    {
+      "model": "AX-1-0 Tiger Shark",
+      "count": "1",
+      "points": "315"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "AX-1-0 Tiger Shark"
+    ]
+  },
+  "custom_rules": []
+}

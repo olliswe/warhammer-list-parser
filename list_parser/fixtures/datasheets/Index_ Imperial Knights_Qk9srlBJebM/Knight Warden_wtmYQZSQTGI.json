@@ -1,0 +1,220 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "wtmYQZSQTGI",
+  "datasheet_name": "Knight Warden",
+  "url": "https://39k.pro/datasheet/wtmYQZSQTGI",
+  "miniatures": [
+    {
+      "name": "Knight Warden",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "26",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Icarus autocannons",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Stormspear rocket pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Ironstorm missile pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Avenger gatling cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "18",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Reaper chainsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "20",
+        "armour_penetration": "-3",
+        "damage": "8"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Warden’s Duty",
+      "rule": "While a model is affected by this ability, each time an attack is allocated to that model, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+      "name": "Thin Their Ranks",
+      "rule": "Each time this model makes a ranged attack that targets an enemy unit (excluding **MONSTERS** and **VEHICLES**), that attack has the **[DEVASTATING WOUNDS]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s meltagun can be replaced with 1 Questoris heavy stubber.",
+    "■ This model can be equipped with one of the following: \n◦ 1 Icarus autocannons\n◦ 1 ironstorm missile pod\n◦ 1 stormspear rocket pod",
+    "■ This model’s reaper chainsword can be replaced with 1 thunderstrike gauntlet."
+  ],
+  "unit_composition": "■ **1 Knight Warden**\n\n**This model is equipped with:** avenger gatling cannon; heavy flamer; meltagun; reaper chainsword.\nModel Name Count Points\nKnight Warden\n1\n385",
+  "unit_composition_table": [
+    {
+      "model": "Knight Warden",
+      "count": "1",
+      "points": "385"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Questoris",
+      "Character",
+      "Imperium",
+      "Knight Warden"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

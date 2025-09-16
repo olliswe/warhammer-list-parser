@@ -1,0 +1,161 @@
+{
+  "faction": "Codex: Leagues of Votann",
+  "faction_id": "7RnIcWs4Ygw",
+  "datasheet_id": "m_gMDHC2U0A",
+  "datasheet_name": "Einhyr Hearthguard",
+  "url": "https://39k.pro/datasheet/m_gMDHC2U0A",
+  "miniatures": [
+    {
+      "name": "Einhyr Hearthguard",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Exoarmour grenade launcher",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Volkanite disintegrator",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "EtaCarn plasma gun",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Concussion gauntlet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Plasma blade gauntlet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Graviton hammer",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": [
+        "Anti-monster 3+",
+        "Anti-vehicle 3+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Decisive Destruction",
+      "rule": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, re‑roll a Hit roll of 1."
+    }
+  ],
+  "wargear_options": [
+    "■ All models in this unit can each have their concussion gauntlet replaced with 1 plasma blade gauntlet.",
+    "■ All models in this unit can each have their EtaCarn plasma gun replaced with 1 volkanite disintegrator.",
+    "■ The Hesyr’s weavefield crest can be replaced with 1 teleport crest.",
+    "■ The Hesyr’s concussion gauntlet or plasma blade gauntlet can be replaced with 1 graviton hammer."
+  ],
+  "unit_composition": "■ **1 Hesyr**\n■ **4-9 Hearthguard**\n\n**Every model is equipped with:** EtaCarn plasma gun; exoarmour grenade launcher; concussion gauntlet.\n**The Hesyr is additionally equipped with:** weavefield crest.\nModel Name Count Points\nHesyr\nEinhyr Hearthguard\n1\n5-9\n270\nEinhyr Hearthguard\nHesyr\n4\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Hesyr\nEinhyr Hearthguard",
+      "count": "1\n5-9",
+      "points": "270"
+    },
+    {
+      "model": "Einhyr Hearthguard\nHesyr",
+      "count": "4\n1",
+      "points": "135"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Ûthar the Destined",
+      "id": "KxKimpPOfuk"
+    },
+    {
+      "name": "Einhyr Champion",
+      "id": "YRItbSDp59o"
+    },
+    {
+      "name": "Kâhl",
+      "id": "gjfJIefnGSI"
+    },
+    {
+      "name": "Vynn Bane-Slayer",
+      "id": "6tEzeLBLaqs"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Leagues of Votann"
+    ],
+    "keywords": [
+      "Infantry",
+      "Exoarmour",
+      "Einhyr Hearthguard"
+    ]
+  },
+  "custom_rules": []
+}

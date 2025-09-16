@@ -1,0 +1,101 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "Y_Ax7f5BhyQ",
+  "datasheet_name": "Ravager",
+  "url": "https://39k.pro/datasheet/Y_Ax7f5BhyQ",
+  "miniatures": [
+    {
+      "name": "Ravager",
+      "characteristics": {
+        "M": "14\"",
+        "T": "9",
+        "SV": "4+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Disintegrator cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Dark lance",
+      "stats": {
+        "range": "36\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+2"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Bladevanes",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Eradicate the Foe",
+      "rule": "Each time this model makes an attack that targets an enemy unit that is at its Starting Strength, re-roll a Hit roll of 1. If a unit has a Starting Strength of 1, this ability only applies if the target has its starting number of wounds."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of this model’s dark lances can each be replaced with 1 disintegrator cannon."
+  ],
+  "unit_composition": "■ **1 Ravager**\n\n**This model is equipped with:** 3 dark lances; bladevanes.\nModel Name Count Points\nRavager\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Ravager",
+      "count": "1",
+      "points": "100"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Kabal",
+      "Fly",
+      "Aeldari",
+      "Ravager"
+    ]
+  },
+  "custom_rules": []
+}

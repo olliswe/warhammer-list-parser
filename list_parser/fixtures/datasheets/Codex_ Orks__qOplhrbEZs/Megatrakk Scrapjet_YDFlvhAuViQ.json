@@ -1,0 +1,110 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "YDFlvhAuViQ",
+  "datasheet_name": "Megatrakk Scrapjet",
+  "url": "https://39k.pro/datasheet/YDFlvhAuViQ",
+  "miniatures": [
+    {
+      "name": "Megatrakk Scrapjet",
+      "characteristics": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "4+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Wing missiles",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin big shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Rokkit kannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Nose drill",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Drill Through",
+      "rule": "Each time this model ends a Charge move, select one enemy unit within Engagement Range of it and roll one D6: on a 2‑5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers 3 mortal wounds."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Megatrakk Scrapjet**\n\n**This model is equipped with:** rokkit kannon; 2 twin big shootas; wing missiles; nose drill.\nModel Name Count Points\nMegatrakk Scrapjet\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Megatrakk Scrapjet",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Speed Freeks",
+      "Megatrakk Scrapjet"
+    ]
+  },
+  "custom_rules": []
+}

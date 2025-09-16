@@ -1,0 +1,127 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "PnKBi-XtPF4",
+  "datasheet_name": "Archon",
+  "url": "https://39k.pro/datasheet/PnKBi-XtPF4",
+  "miniatures": [
+    {
+      "name": "Archon",
+      "characteristics": {
+        "M": "8\"",
+        "T": "3",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 2+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Splinter pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Assault",
+        "Anti-infantry 3+"
+      ]
+    },
+    {
+      "name": "Blast pistol",
+      "stats": {
+        "range": "6\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Huskblade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "3",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-infantry 3+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Overlord",
+      "rule": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Wound roll of 1. While that unit is Empowered, each time a model in that unit makes an attack, you can re-roll the Wound roll instead."
+    },
+    {
+      "name": "Devious Mastermind",
+      "rule": "If this model is your **WARLORD**, each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP.\n\n***Designer’s Note**: This ability takes precedence over the Lord of Deceit ability presented in the Balance Dataslate June 2024.*"
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s splinter pistol can be replaced with 1 blast pistol."
+  ],
+  "unit_composition": "■ **1 Archon**\n\n**This model is equipped with:** splinter pistol; huskblade.\nModel Name Count Points\nArchon\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Archon",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "leader": [
+    {
+      "name": "COURT OF THE ARCHON",
+      "id": "XBGNqRLN_Y8"
+    },
+    {
+      "name": "INCUBI",
+      "id": "uNdWa1PCzJI"
+    },
+    {
+      "name": "KABALITE WARRIORS",
+      "id": "JY_2x4_VKp4"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Kabal",
+      "Character",
+      "Aeldari",
+      "Archon"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 2+ (click for extra rules)",
+      "text": "You cannot re-roll invulnerable saving throws made for this model. The first time an invulnerable saving throw made for this model is failed, until the end of the battle, this model has no invulnerable saving throw."
+    }
+  ]
+}

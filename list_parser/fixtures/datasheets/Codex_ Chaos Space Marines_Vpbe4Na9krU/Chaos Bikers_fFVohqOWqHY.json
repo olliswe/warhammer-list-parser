@@ -1,0 +1,243 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "fFVohqOWqHY",
+  "datasheet_name": "Chaos Bikers",
+  "url": "https://39k.pro/datasheet/fFVohqOWqHY",
+  "miniatures": [
+    {
+      "name": "Chaos Bikers",
+      "characteristics": {
+        "M": "12\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "🠶 Plasma gun — supercharge",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "🠶 Plasma gun — standard",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Astartes chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Accursed weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rapid Assault",
+      "rule": "Each time a model in this unit makes a melee attack, if this unit made a Charge move this turn, improve the Strength characteristic of that attack by 1."
+    }
+  ],
+  "wargear_options": [
+    "■ Up to 2 Chaos Bikers can each have their combi-bolter replaced with 1 combi-weapon, or can be equipped with one of the following:\n◦ 1 flamer\n◦ 1 meltagun\n◦ 1 plasma gun",
+    "■ The Biker Champion’s bolt pistol can be replaced with one of the following:\n◦ 1 plasma pistol\n◦ 1 accursed weapon\n◦ 1 Astartes chainsword\n◦ 1 power fist",
+    "■ Any number of Chaos Bikers can each have their bolt pistol replaced with 1 Astartes chainsword.",
+    "■ 1 model can be equipped with 1 Chaos icon."
+  ],
+  "unit_composition": "■ **1 Biker Champion**\n■ **2-5 Chaos Bikers**\n\n**Every model is equipped with:** bolt pistol; combi-bolter; close combat weapon.\nModel Name Count Points\nChaos Biker\nBiker Champion\n3-5\n1\n130\nChaos Biker\nBiker Champion\n2\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Biker\nBiker Champion",
+      "count": "3-5\n1",
+      "points": "130"
+    },
+    {
+      "model": "Chaos Biker\nBiker Champion",
+      "count": "2\n1",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Mounted",
+      "Grenades",
+      "Chaos",
+      "Chaos Bikers"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,89 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "tYrURLUsgaI",
+  "datasheet_name": "Deathleaper",
+  "url": "https://39k.pro/datasheet/tYrURLUsgaI",
+  "miniatures": [
+    {
+      "name": "Deathleaper",
+      "characteristics": {
+        "M": "8\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Lictor claws and talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Fear of the Unseen",
+      "rule": "While an enemy unit is within 6\" of this model, worsen the Leadership characteristic of models in that unit by 1. In addition, in the Battle-shock step of your opponent’s Command phase, if such an enemy unit is below its Starting Strength, it must take a Battle-shock test."
+    },
+    {
+      "name": "Feeder Tendrils",
+      "rule": "Each time this model destroys an enemy **CHARACTER** model, you gain 1CP."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Deathleaper – Epic Hero**\n\n**This model is equipped with:** Lictor claws and talons.\nModel Name Count Points\nDeathleaper\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Deathleaper",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Great Devourer",
+      "Vanguard Invader",
+      "Deathleaper"
+    ]
+  },
+  "custom_rules": []
+}

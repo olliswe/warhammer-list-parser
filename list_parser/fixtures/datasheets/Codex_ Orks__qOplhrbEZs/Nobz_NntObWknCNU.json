@@ -1,0 +1,149 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "NntObWknCNU",
+  "datasheet_name": "Nobz",
+  "url": "https://39k.pro/datasheet/NntObWknCNU",
+  "miniatures": [
+    {
+      "name": "Nobz",
+      "characteristics": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Kombi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "5+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 1",
+        "Devastating Wounds",
+        "Anti-infantry 4+"
+      ]
+    },
+    {
+      "name": "Slugga",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "5+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Big choppa",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power klaw",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Da Boss’ Ladz",
+      "rule": "While a **WARBOSS** model is leading this unit, each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their big choppa replaced with 1 power klaw.",
+    "■ Any number of models can each have their slugga and big choppa replaced with 1 kombi-weapon and 1 close combat weapon.",
+    "■ For every 5 models in this unit, this unit can be equipped with 1 ammo runt."
+  ],
+  "unit_composition": "■ **1 Boss Nob**\n■ **4-9 Nobz**\n\n**Every model is equipped with:** slugga; big choppa.\nModel Name Count Points\nNob\nBoss Nob\n4\n1\n105\nNob\nBoss Nob\n5-9\n1\n210",
+  "unit_composition_table": [
+    {
+      "model": "Nob\nBoss Nob",
+      "count": "4\n1",
+      "points": "105"
+    },
+    {
+      "model": "Nob\nBoss Nob",
+      "count": "5-9\n1",
+      "points": "210"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Big Mek with Shokk Attack Gun",
+      "id": "k0bOdDoQXtY"
+    },
+    {
+      "name": "Painboy",
+      "id": "X-rRqI2wSuY"
+    },
+    {
+      "name": "Mek",
+      "id": "DuDz5SGieeY"
+    },
+    {
+      "name": "Warboss",
+      "id": "POT4r1i0crU"
+    },
+    {
+      "name": "Big Mek",
+      "id": "PckkjlARn8c"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Nobz"
+    ]
+  },
+  "custom_rules": []
+}

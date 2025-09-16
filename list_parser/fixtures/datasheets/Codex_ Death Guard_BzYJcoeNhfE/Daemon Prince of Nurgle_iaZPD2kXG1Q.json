@@ -1,0 +1,110 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "iaZPD2kXG1Q",
+  "datasheet_name": "Daemon Prince of Nurgle",
+  "url": "https://39k.pro/datasheet/iaZPD2kXG1Q",
+  "miniatures": [
+    {
+      "name": "Daemon Prince of Nurgle",
+      "characteristics": {
+        "M": "8\"",
+        "T": "12",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Infernal cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Hellforged weapons — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "7",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "🠶 Hellforged weapons — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "14",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Death Guard Defenders",
+      "rule": "While this model is within 3\" of one or more friendly **DEATH GUARD INFANTRY** units, this model has the Lone Operative ability."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Fevered Strategist",
+      "rule": "Once per battle round, one model from your army with this ability can use it when a friendly **DEATH GUARD** unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Miasma of Pestilence",
+      "rule": "While a friendly **DEATH GUARD** unit is within 6\" of this model, each time a ranged attack targets that unit, models in that unit have the Benefit of Cover against that attack."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Death Guard Daemon Prince**\n\n**This model is equipped with:** infernal cannon; hellforged weapons.\nModel Name Count Points\nDaemon Prince of Nurgle\n1\n195",
+  "unit_composition_table": [
+    {
+      "model": "Daemon Prince of Nurgle",
+      "count": "1",
+      "points": "195"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Death Guard"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Daemon Prince"
+    ]
+  },
+  "custom_rules": []
+}

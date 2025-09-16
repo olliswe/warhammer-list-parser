@@ -1,0 +1,88 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "3uzUrG3aoH0",
+  "datasheet_name": "Deathmarks",
+  "url": "https://39k.pro/datasheet/3uzUrG3aoH0",
+  "miniatures": [
+    {
+      "name": "Deathmarks",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "1",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Synaptic disintegrator",
+      "stats": {
+        "range": "36\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Heavy",
+        "Precision"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Hyperspace Hunters",
+      "rule": "Once per turn, in the Reinforcements step of your opponent’s Movement phase, when an enemy unit is set up on the battlefield from Reserves within 18\" of and visible to this unit, this unit can shoot as if it were your Shooting phase, but must only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **5-10 Deathmarks**\n\n**Every model is equipped with:** synaptic disintegrator; close combat weapon.\nModel Name Count Points\nDeathmark\n5\n60\nDeathmark\n6-10\n120",
+  "unit_composition_table": [
+    {
+      "model": "Deathmark",
+      "count": "5",
+      "points": "60"
+    },
+    {
+      "model": "Deathmark",
+      "count": "6-10",
+      "points": "120"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Deathmarks"
+    ]
+  },
+  "custom_rules": []
+}

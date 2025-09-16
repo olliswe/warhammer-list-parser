@@ -1,0 +1,178 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "S4wNZMpyRx4",
+  "datasheet_name": "Infernus Squad",
+  "url": "https://39k.pro/datasheet/S4wNZMpyRx4",
+  "miniatures": [
+    {
+      "name": "Infernus Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Pyreblaster",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Incendiary Terror",
+      "rule": "In your Shooting phase, after this unit has shot, you can select one enemy **INFANTRY** unit hit by one or more of those attacks made with a pyreblaster. That enemy unit must take a Battle-shock test, subtracting 1 from that test."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Infernus Sergeant**\n■ **4-9 Infernus Marines**\n\n**Every model is equipped with:** bolt pistol; pyreblaster; close combat weapon.\nModel Name Count Points\nInfernus Marine\nInfernus Sergeant\n4\n1\n90\nInfernus Sergeant\nInfernus Marine\n1\n5-9\n180",
+  "unit_composition_table": [
+    {
+      "model": "Infernus Marine\nInfernus Sergeant",
+      "count": "4\n1",
+      "points": "90"
+    },
+    {
+      "model": "Infernus Sergeant\nInfernus Marine",
+      "count": "1\n5-9",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Marneus Calgar",
+      "id": "upLKcmtAtro"
+    },
+    {
+      "name": "Ezekiel",
+      "id": "-uWaLavEruM"
+    },
+    {
+      "name": "Lazarus",
+      "id": "WqKbZc3-Yuw"
+    },
+    {
+      "name": "Librarian",
+      "id": "gmtJHRD_jTk"
+    },
+    {
+      "name": "Castellan",
+      "id": "PBgJ5DX2eIo"
+    },
+    {
+      "name": "Sanguinary Priest",
+      "id": "9QR4upinH5s"
+    },
+    {
+      "name": "Marshal",
+      "id": "4k4r9iRVzG8"
+    },
+    {
+      "name": "Judiciar",
+      "id": "n-U-8HkVCcs"
+    },
+    {
+      "name": "Asmodai",
+      "id": "njHRp7ctPjk"
+    },
+    {
+      "name": "Vulkan He’stan",
+      "id": "6GU0MQZhMfA"
+    },
+    {
+      "name": "Chaplain",
+      "id": "TBR_2PV_kMk"
+    },
+    {
+      "name": "Azrael",
+      "id": "pbu9iC5ALgA"
+    },
+    {
+      "name": "Chaplain Grimaldus",
+      "id": "fYhzZxz8FGg"
+    },
+    {
+      "name": "Adrax Agatone",
+      "id": "fAKhjJSckGc"
+    },
+    {
+      "name": "Lieutenant",
+      "id": "ypkTv32Zkpw"
+    },
+    {
+      "name": "Blood Angels Captain",
+      "id": "egpi_uHqge8"
+    },
+    {
+      "name": "Ancient",
+      "id": "b4C0xDaonq8"
+    },
+    {
+      "name": "Apothecary",
+      "id": "5kvilcGCWm0"
+    },
+    {
+      "name": "Captain",
+      "id": "0YJe0OH2OIs"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Infernus Squad"
+    ]
+  },
+  "custom_rules": []
+}

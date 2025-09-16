@@ -1,0 +1,161 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "iQVwBX1IUNA",
+  "datasheet_id": "VBFJS9pljLo",
+  "datasheet_name": "Chaos Questoris Knight Magaera",
+  "url": "https://39k.pro/datasheet/VBFJS9pljLo",
+  "miniatures": [
+    {
+      "name": "Chaos Questoris Knight Magaera",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "26",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Lightning cannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "Phased plasma-fusil",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Twin rad cleanser",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Twin-linked",
+        "Anti-infantry 2+",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Hekaton siege claw — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "20",
+        "armour_penetration": "-3",
+        "damage": "8"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Hekaton siege claw — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Huntmaster",
+      "rule": "While a friendly **WAR DOG** model is within 6\" of this model, ranged weapons equipped by that **WAR DOG** model have the **[ASSAULT]** ability."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Repair Auto-simulacra",
+      "rule": "At the end of your Command phase, this model regains up to D3 lost wounds."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s reaper chainsword can be replaced with 1 hekaton siege claw and 1 twin rad cleanser."
+  ],
+  "unit_composition": "■ **1 Chaos Questoris Knight Magaera**\n\n**This model is equipped with:** lightning cannon; phased plasma-fusil; reaper chainsword.\nModel Name Count Points\nChaos Questoris Knight Magaera\n1\n375",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Questoris Knight Magaera",
+      "count": "1",
+      "points": "375"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Chaos Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Character",
+      "Titanic",
+      "Towering",
+      "Chaos",
+      "Abhorrent",
+      "Knight Magaera"
+    ]
+  },
+  "custom_rules": []
+}

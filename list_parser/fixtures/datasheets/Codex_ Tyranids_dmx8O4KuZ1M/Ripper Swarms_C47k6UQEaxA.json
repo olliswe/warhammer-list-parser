@@ -1,0 +1,98 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "C47k6UQEaxA",
+  "datasheet_name": "Ripper Swarms",
+  "url": "https://39k.pro/datasheet/C47k6UQEaxA",
+  "miniatures": [
+    {
+      "name": "Ripper Swarms",
+      "characteristics": {
+        "M": "6\"",
+        "T": "2",
+        "SV": "6+",
+        "W": "4",
+        "LD": "8+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Spinemaws",
+      "stats": {
+        "range": "6\"",
+        "attacks": "4",
+        "ballistic_skill": "5+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Chitinous claws and teeth",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "5+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Chitinous Horrors",
+      "rule": "While an enemy unit is within Engagement Range of this unit, halve the Objective Control characteristic of models in that enemy unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ All models in this unit can each be equipped with 1 spinemaws."
+  ],
+  "unit_composition": "■ **1-3 Ripper Swarms**\n\n**Every model is equipped with:** chitinous claws and teeth.\nModel Name Count Points\nRipper Swarm\n3\n50\nRipper Swarm\n2\n40\nRipper Swarm\n1\n25",
+  "unit_composition_table": [
+    {
+      "model": "Ripper Swarm",
+      "count": "3",
+      "points": "50"
+    },
+    {
+      "model": "Ripper Swarm",
+      "count": "2",
+      "points": "40"
+    },
+    {
+      "model": "Ripper Swarm",
+      "count": "1",
+      "points": "25"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Swarm",
+      "Great Devourer",
+      "Harvester",
+      "Ripper Swarms"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,80 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "kt3cRYl2_-Y",
+  "datasheet_name": "Neurogaunts",
+  "url": "https://39k.pro/datasheet/kt3cRYl2_-Y",
+  "miniatures": [
+    {
+      "name": "Neurogaunts",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "1",
+        "LD": "8+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Chitinous claws and teeth",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Neurocytes",
+      "rule": "While this unit is within Synapse Range of a friendly **TYRANIDS** unit (excluding **NEUROGAUNT** units), it has the **SYNAPSE** keyword."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1-2 Neurogaunt Nodebeasts***\n■ **10-20 Neurogaunts**\n\n**Every model is equipped with:** chitinous claws and teeth.\n\n* *This unit can only contain 2 Neurogaunt Nodebeasts if it contains 20 Neurogaunts.*\nModel Name Count Points\nNeurogaunt Nodebeast\nNeurogaunt\n1\n10\n45\nNeurogaunt Nodebeast\nNeurogaunt\n2\n20\n90\nNeurogaunt Nodebeast\nNeurogaunt\n1\n11-20\n90",
+  "unit_composition_table": [
+    {
+      "model": "Neurogaunt Nodebeast\nNeurogaunt",
+      "count": "1\n10",
+      "points": "45"
+    },
+    {
+      "model": "Neurogaunt Nodebeast\nNeurogaunt",
+      "count": "2\n20",
+      "points": "90"
+    },
+    {
+      "model": "Neurogaunt Nodebeast\nNeurogaunt",
+      "count": "1\n11-20",
+      "points": "90"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Neurotyrant",
+      "id": "lqNcGtJmclo"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Infantry",
+      "Great Devourer",
+      "Endless Multitude",
+      "Neurogaunts"
+    ]
+  },
+  "custom_rules": []
+}

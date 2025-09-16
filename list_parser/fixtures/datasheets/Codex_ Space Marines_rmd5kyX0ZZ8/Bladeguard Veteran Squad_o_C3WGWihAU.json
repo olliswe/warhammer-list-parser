@@ -1,0 +1,193 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "o_C3WGWihAU",
+  "datasheet_name": "Bladeguard Veteran Squad",
+  "url": "https://39k.pro/datasheet/o_C3WGWihAU",
+  "miniatures": [
+    {
+      "name": "Bladeguard Veteran Squad",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Heavy bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Master-crafted power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bladeguard",
+      "rule": "At the start of the Fight phase, you can select one of the following abilities to apply to models in this unit until the end of the phase:\n\n■ **Swords of the Chapter:** Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1.\n■ **Shields of the Chapter:** Each time an invulnerable saving throw is made for a model in this unit, re-roll a saving throw of 1."
+    }
+  ],
+  "wargear_options": [
+    "■ The Bladeguard Veteran Sergeant’s heavy bolt pistol can be replaced with one of the following:\n◦ 1 neo-volkite pistol\n◦ 1 plasma pistol"
+  ],
+  "unit_composition": "■ **1 Bladeguard Veteran Sergeant**\n■ **2-5 Bladeguard Veterans**\n\n**Every model is equipped with:** heavy bolt pistol; master-crafted power weapon.\nModel Name Count Points\nBladeguard Veteran Sergeant\nBladeguard Veteran\n1\n2\n80\nBladeguard Veteran Sergeant\nBladeguard Veteran\n1\n3-5\n160",
+  "unit_composition_table": [
+    {
+      "model": "Bladeguard Veteran Sergeant\nBladeguard Veteran",
+      "count": "1\n2",
+      "points": "80"
+    },
+    {
+      "model": "Bladeguard Veteran Sergeant\nBladeguard Veteran",
+      "count": "1\n3-5",
+      "points": "160"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Pedro Kantor",
+      "id": "W8ZNQhnNvxU"
+    },
+    {
+      "name": "Marneus Calgar",
+      "id": "upLKcmtAtro"
+    },
+    {
+      "name": "Uriel Ventris",
+      "id": "ri7fzoEQwME"
+    },
+    {
+      "name": "Ezekiel",
+      "id": "-uWaLavEruM"
+    },
+    {
+      "name": "Lazarus",
+      "id": "WqKbZc3-Yuw"
+    },
+    {
+      "name": "Chief Librarian Tigurius",
+      "id": "Vaol15lQHng"
+    },
+    {
+      "name": "Judiciar",
+      "id": "n-U-8HkVCcs"
+    },
+    {
+      "name": "Asmodai",
+      "id": "njHRp7ctPjk"
+    },
+    {
+      "name": "Chaplain",
+      "id": "TBR_2PV_kMk"
+    },
+    {
+      "name": "Kor’sarro Khan",
+      "id": "bITDS4rXIQQ"
+    },
+    {
+      "name": "Azrael",
+      "id": "pbu9iC5ALgA"
+    },
+    {
+      "name": "Adrax Agatone",
+      "id": "fAKhjJSckGc"
+    },
+    {
+      "name": "Captain Sicarius",
+      "id": "oyeLSoFT7sw"
+    },
+    {
+      "name": "Lieutenant",
+      "id": "ypkTv32Zkpw"
+    },
+    {
+      "name": "Bladeguard Ancient",
+      "id": "-eSQT5gIVNY"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Bladeguard Veteran Squad"
+    ]
+  },
+  "custom_rules": []
+}

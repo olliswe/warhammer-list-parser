@@ -1,0 +1,128 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "QQpBBq_cr6k",
+  "datasheet_id": "YfFEWcUS55c",
+  "datasheet_name": "Daemon Prince of Tzeentch with Wings",
+  "url": "https://39k.pro/datasheet/YfFEWcUS55c",
+  "miniatures": [
+    {
+      "name": "Daemon Prince of Tzeentch with Wings",
+      "characteristics": {
+        "M": "13\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Infernal cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Dark Blessing",
+      "stats": {
+        "range": "24\"",
+        "attacks": "9",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Psychic",
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Hellforged weapons — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "🠶 Hellforged weapons — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Aetherstride",
+      "rule": "In your Movement phase, when this model is set up on the battlefield using the Deep Strike ability, it can perform an aetherstride. If it does:\n■ It can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.\n■ Until the end of the turn, its Dark Blessing has the **[SUSTAINED HITS D3]** ability.\n■ Until the end of the turn, it is not eligible to declare a charge."
+    },
+    {
+      "name": "Hunter of Souls",
+      "rule": "Each time this model makes an attack that targets a **CHARACTER** unit, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1 (if that attack targets a **PSYKER CHARACTER** unit, you can re‑roll the Hit roll and you can re‑roll the Wound roll instead). Each time this model destroys a **CHARACTER** unit, this model regains up to D3 lost wounds (if that **CHARACTER** unit was a **PSYKER** unit, this model regains up to 3 lost wounds instead)."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Daemon Prince of Tzeentch with Wings**\n\n**This model is equipped with:** Dark Blessing; infernal cannon; hellforged weapons.\nModel Name Count Points\nDaemon Prince of Tzeentch with Wings\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Daemon Prince of Tzeentch with Wings",
+      "count": "1",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Thousand Sons"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Daemon",
+      "Fly",
+      "Psyker",
+      "Chaos",
+      "Tzeentch",
+      "Daemon Prince"
+    ]
+  },
+  "custom_rules": []
+}

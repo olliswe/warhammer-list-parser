@@ -1,0 +1,109 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "k0bOdDoQXtY",
+  "datasheet_name": "Big Mek with Shokk Attack Gun",
+  "url": "https://39k.pro/datasheet/k0bOdDoQXtY",
+  "miniatures": [
+    {
+      "name": "Big Mek with Shokk Attack Gun",
+      "characteristics": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Shokk attack gun",
+      "stats": {
+        "range": "60\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Heavy",
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deranged Snotling Assault",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks; that unit must take a Battle-shock test."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "More Dakka",
+      "rule": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re‑roll a Hit roll of 1."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 grot assistant."
+  ],
+  "unit_composition": "■ **1 Big Mek with Shokk Attack Gun**\n\n**This model is equipped with:** close combat weapon, shokk attack gun.\nModel Name Count Points\nBig Mek with Shokk Attack Gun\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Big Mek with Shokk Attack Gun",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BOYZ",
+      "id": "NM1tvbJ1IM8"
+    },
+    {
+      "name": "LOOTAZ",
+      "id": "undefined"
+    },
+    {
+      "name": "MEK GUNZ",
+      "id": "vFBAogmOxh4"
+    },
+    {
+      "name": "NOBZ",
+      "id": "NntObWknCNU"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Mek",
+      "Big Mek with Shokk Attack Gun"
+    ]
+  },
+  "custom_rules": []
+}

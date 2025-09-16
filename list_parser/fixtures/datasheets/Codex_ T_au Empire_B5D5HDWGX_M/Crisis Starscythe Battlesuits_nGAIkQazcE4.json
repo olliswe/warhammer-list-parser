@@ -1,0 +1,120 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "nGAIkQazcE4",
+  "datasheet_name": "Crisis Starscythe Battlesuits",
+  "url": "https://39k.pro/datasheet/nGAIkQazcE4",
+  "miniatures": [
+    {
+      "name": "Crisis Starscythe Battlesuits",
+      "characteristics": {
+        "M": "10\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "T’au flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Burst cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Battlesuit fists",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "5+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Starscythe",
+      "rule": "Each time a model in this unit makes a ranged attack (excluding attacks that target **MONSTERS** and **VEHICLES**), improve the Armour Penetration characteristic of that attack by 1."
+    },
+    {
+      "name": "Battlesuit Support Systems",
+      "rule": "This unit is eligible to shoot in a turn in which it Fell Back."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can be equipped with up to two of the following, but cannot take duplicates:\n◦ 1 gun drone\n◦ 1 marker drone\n◦ 1 shield drone",
+    "■ Any number of models can each have their T’au flamer replaced with 1 burst cannon.",
+    "■ Any number of models can each have their burst cannon replaced with 1 T’au flamer."
+  ],
+  "unit_composition": "■ **1 Crisis Starscythe Shas’vre**\n■ **2 Crisis Starscythe Shas’ui**\n\n**Every model is equipped with:** burst cannon; T’au flamer; battlesuit fists.\nModel Name Count Points\nCrisis Starscythe Shas’vre\nCrisis Starscythe Shas’ui\n1\n2\n110",
+  "unit_composition_table": [
+    {
+      "model": "Crisis Starscythe Shas’vre\nCrisis Starscythe Shas’ui",
+      "count": "1\n2",
+      "points": "110"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Commander Farsight",
+      "id": "cv2awHUERGw"
+    },
+    {
+      "name": "Commander in Coldstar Battlesuit",
+      "id": "0T55_tqPKL0"
+    },
+    {
+      "name": "Commander in Enforcer Battlesuit",
+      "id": "XK1e7R5Uffc"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Fly",
+      "Battlesuit",
+      "Crisis",
+      "Starscythe"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,132 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "kd8l-oFCJQ0",
+  "datasheet_id": "ELQTDBmS-8c",
+  "datasheet_name": "Lord on Juggernaut",
+  "url": "https://39k.pro/datasheet/ELQTDBmS-8c",
+  "miniatures": [
+    {
+      "name": "Lord on Juggernaut",
+      "characteristics": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "7",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Bladed horn",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Extra Attacks",
+        "Lance"
+      ]
+    },
+    {
+      "name": "Exalted chainblade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "7",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Aggressive Advance",
+      "rule": "While this model is leading a unit, models in that unit have a Move characteristic of 10\" and each time a model in that unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through terrain features."
+    },
+    {
+      "name": "Crush All Who Stand Before Us",
+      "rule": "Each time this model’s unit is selected to fight, you can use this ability. When determining which models in this unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 World Eaters Lord on Juggernaut**\n\n**This model is equipped with:** plasma pistol; exalted chainblade; bladed horn.\nModel Name Count Points\nWorld Eaters Lord on Juggernaut\n1\n90",
+  "unit_composition_table": [
+    {
+      "model": "World Eaters Lord on Juggernaut",
+      "count": "1",
+      "points": "90"
+    }
+  ],
+  "leader": [
+    {
+      "name": "EIGHTBOUND",
+      "id": "kWZ5XV7lSLo"
+    },
+    {
+      "name": "EXALTED EIGHTBOUND",
+      "id": "Kf4sqNeAwj4"
+    },
+    {
+      "name": "KHORNE BERZERKERS",
+      "id": "iSjXM4wHXlw"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: World Eaters"
+    ],
+    "keywords": [
+      "Mounted",
+      "Character",
+      "Chaos",
+      "Khorne",
+      "Lord on Juggernaut"
+    ]
+  },
+  "custom_rules": []
+}

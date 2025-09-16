@@ -1,0 +1,192 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "k0L_itBX1uE",
+  "datasheet_name": "Redemptor Dreadnought",
+  "url": "https://39k.pro/datasheet/k0L_itBX1uE",
+  "miniatures": [
+    {
+      "name": "Redemptor Dreadnought",
+      "characteristics": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Icarus rocket pod",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "🠶 Macro plasma incinerator — standard",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Macro plasma incinerator — supercharge",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "3"
+      },
+      "abilities": [
+        "Hazardous",
+        "Blast"
+      ]
+    },
+    {
+      "name": "Heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "Onslaught gatling cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "8",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Twin storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Twin fragstorm grenade launcher",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Redemptor fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Duty Eternal",
+      "rule": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s twin fragstorm grenade launcher can be replaced with 1 twin storm bolter.",
+    "■ This model’s heavy flamer can be replaced with 1 onslaught gatling cannon.",
+    "■ This model can be equipped with 1 Icarus rocket pod.",
+    "■ This model’s heavy onslaught gatling cannon can be replaced with 1 macro plasma incinerator."
+  ],
+  "unit_composition": "■ **1 Redemptor Dreadnought**\n\n**This model is equipped with:** twin fragstorm grenade launcher; heavy flamer; heavy onslaught gatling cannon; Redemptor fist.\nModel Name Count Points\nRedemptor Dreadnought\n1\n210",
+  "unit_composition_table": [
+    {
+      "model": "Redemptor Dreadnought",
+      "count": "1",
+      "points": "210"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Dreadnought",
+      "Redemptor Dreadnought"
+    ]
+  },
+  "custom_rules": []
+}

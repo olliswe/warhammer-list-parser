@@ -1,0 +1,127 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "LWRg0FmeNEg",
+  "datasheet_id": "Y06rBDiDZYY",
+  "datasheet_name": "Belisarius Cawl",
+  "url": "https://39k.pro/datasheet/Y06rBDiDZYY",
+  "miniatures": [
+    {
+      "name": "Belisarius Cawl",
+      "characteristics": {
+        "M": "8\"",
+        "T": "8",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Solar atomiser",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D3",
+        "ballistic_skill": "2+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast",
+        "Melta D3"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Arc scourge",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks",
+        "Anti-vehicle 4+",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Mechadendrite hive",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2D6",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Cawl’s Omnissian axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Self-repair Mechanisms",
+      "rule": "At the start of your Command phase, this model regains up to D3 lost wounds."
+    },
+    {
+      "name": "Mechanicus Bodyguard",
+      "rule": "While this model is within 3\" of one or more other friendly **ADEPTUS MECHANICUS** units, this model has the Lone Operative ability."
+    },
+    {
+      "name": "Canticles of the Omnissiah",
+      "rule": "At the start of the battle round, select one of the abilities in the Canticles of the Omnissiah section. Until the start of the next battle round, this model has that ability."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Belisarius Cawl – EPIC HERO**\n\n**This model is equipped with:** solar atomiser; arc scourge; Cawl’s Omnissian axe; mechadendrite hive.\nModel Name Count Points\nBelisarius Cawl\n1\n135",
+  "unit_composition_table": [
+    {
+      "model": "Belisarius Cawl",
+      "count": "1",
+      "points": "135"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Mechanicus"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Imperium",
+      "Tech-Priest",
+      "Cult Mechanicus",
+      "Belisarius Cawl"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Canticles of the Omnissiah",
+      "text": "Shroudpsalm (Aura)\nWhile a friendly **ADEPTUS MECHANICUS** unit is within 6\" of this model, each time a ranged attack targets that unit, that unit has the Benefit of Cover against that attack.\nMantra of Discipline\nThis model has the **BATTLELINE** keyword and has the following ability:\n\n**Binharic Courage (Aura):** While a friendly **ADEPTUS MECHANICUS** unit is within 6\" of this model, each time you take a Battle-shock or Leadership test for that unit, add 1 to that test.\nInvocation of Machine Vengeance (Aura)\nWhile a friendly **ADEPTUS MECHANICUS** unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "Vi0gPis4LOQ",
+  "datasheet_name": "Skull Cannon",
+  "url": "https://39k.pro/datasheet/Vi0gPis4LOQ",
+  "miniatures": [
+    {
+      "name": "Skull Cannon",
+      "characteristics": {
+        "M": "8\"",
+        "T": "9",
+        "SV": "4+",
+        "W": "9",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Skull cannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6+2",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Attendants’ hellblades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Biting maw",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Skulls of the Fallen",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Skull Cannon**\n\n**This model is equipped with:** skull cannon; attendants’ hellblades; biting maw.\nModel Name Count Points\nSkull Cannon\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Skull Cannon",
+      "count": "1",
+      "points": "95"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Mounted",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skull Cannon"
+    ]
+  },
+  "custom_rules": []
+}

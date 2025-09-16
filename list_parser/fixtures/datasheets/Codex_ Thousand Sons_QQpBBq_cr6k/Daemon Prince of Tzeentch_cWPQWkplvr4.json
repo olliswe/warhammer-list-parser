@@ -1,0 +1,127 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "QQpBBq_cr6k",
+  "datasheet_id": "cWPQWkplvr4",
+  "datasheet_name": "Daemon Prince of Tzeentch",
+  "url": "https://39k.pro/datasheet/cWPQWkplvr4",
+  "miniatures": [
+    {
+      "name": "Daemon Prince of Tzeentch",
+      "characteristics": {
+        "M": "9\"",
+        "T": "10",
+        "SV": "2+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Infernal cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Dark Blessing",
+      "stats": {
+        "range": "24\"",
+        "attacks": "9",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Psychic",
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Hellforged weapons — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "🠶 Hellforged weapons — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Servile Pawns",
+      "rule": "While this model is within 3\" of one or more friendly **THOUSAND SONS INFANTRY** units, this model has the Lone Operative ability."
+    },
+    {
+      "name": "Glamour of Tzeentch",
+      "rule": "While a friendly **THOUSAND SONS INFANTRY** unit is within 6\" of this model, models in that unit have the Stealth ability."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Spirit Snare",
+      "rule": "Each time a friendly **THOUSAND SONS PSYKER** model with the Cabal of Sorcerers ability is destroyed while within 9\" of one or more models with this ability, select one of those models with this ability: until the end of the battle, each time the selected model attempts a Ritual, add 1 to the Psychic test result (to a maximum of +2)."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Daemon Prince of Tzeentch**\n\n**This model is equipped with:** Dark Blessing; infernal cannon; hellforged weapons.\nModel Name Count Points\nDaemon Prince of Tzeentch\n1\n180",
+  "unit_composition_table": [
+    {
+      "model": "Daemon Prince of Tzeentch",
+      "count": "1",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Thousand Sons"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Daemon",
+      "Psyker",
+      "Chaos",
+      "Tzeentch",
+      "Daemon Prince"
+    ]
+  },
+  "custom_rules": []
+}

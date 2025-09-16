@@ -1,0 +1,115 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "qkRWhR_sFn4",
+  "datasheet_name": "Vindicator",
+  "url": "https://39k.pro/datasheet/qkRWhR_sFn4",
+  "miniatures": [
+    {
+      "name": "Vindicator",
+      "characteristics": {
+        "M": "9\"",
+        "T": "11",
+        "SV": "2+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Hunter-killer missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    },
+    {
+      "name": "Demolisher cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Siege Shield",
+      "rule": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model can be equipped with 1 storm bolter."
+  ],
+  "unit_composition": "■ **1 Vindicator**\n\n**This model is equipped with:** demolisher cannon; armoured tracks.\nModel Name Count Points\nVindicator\n1\n185",
+  "unit_composition_table": [
+    {
+      "model": "Vindicator",
+      "count": "1",
+      "points": "185"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Vindicator"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,111 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "X-rRqI2wSuY",
+  "datasheet_name": "Painboy",
+  "url": "https://39k.pro/datasheet/X-rRqI2wSuY",
+  "miniatures": [
+    {
+      "name": "Painboy",
+      "characteristics": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "’Urty syringe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "3+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks",
+        "Precision",
+        "Anti-infantry 4+"
+      ]
+    },
+    {
+      "name": "Power klaw",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Hold Still and Say ‘Aargh!’",
+      "rule": "Each time an attack made by this model with its ’urty syringe scores a Critical Wound against a unit (excluding **VEHICLE** units), that unit suffers D6 mortal wounds."
+    },
+    {
+      "name": "Dok’s Toolz",
+      "rule": "While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 grot orderly."
+  ],
+  "unit_composition": "■ **1 Painboy**\n\n**This model is equipped with:** power klaw; ’urty syringe.\nModel Name Count Points\nPainboy\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Painboy",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BOYZ",
+      "id": "NM1tvbJ1IM8"
+    },
+    {
+      "name": "NOBZ",
+      "id": "NntObWknCNU"
+    },
+    {
+      "name": "LOOTAS",
+      "id": "N1ahZdJUv5w"
+    },
+    {
+      "name": "BURNA BOYZ",
+      "id": "cK1-JVBWnkE"
+    },
+    {
+      "name": "TANKBUSTAS",
+      "id": "qcs-bIZpfqs"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Painboy"
+    ]
+  },
+  "custom_rules": []
+}

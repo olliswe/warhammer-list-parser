@@ -1,0 +1,133 @@
+{
+  "faction": "Codex: Chaos Knights",
+  "faction_id": "iQVwBX1IUNA",
+  "datasheet_id": "wQZB0K19kME",
+  "datasheet_name": "War Dog Brigand",
+  "url": "https://39k.pro/datasheet/wQZB0K19kME",
+  "miniatures": [
+    {
+      "name": "War Dog Brigand",
+      "characteristics": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "6"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Diabolus heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Havoc multi-launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Daemonbreath spear",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 4"
+      ]
+    },
+    {
+      "name": "Avenger chaincannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured feet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Brigand",
+      "rule": "Each time this model makes a ranged attack that targets a unit that is within range of one or more objective markers, that attack has the **[IGNORES COVER]** ability."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s diabolus heavy stubber can be replaced with 1 havoc multi-launcher."
+  ],
+  "unit_composition": "■ **1 War Dog Brigand**\n\n**This model is equipped with:** avenger chaincannon; daemonbreath spear; diabolus heavy stubber; armoured feet.\nModel Name Count Points\nWar Dog Brigand\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "War Dog Brigand",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Chaos Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "War Dog",
+      "Brigand"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*Against ranged attacks only.*"
+    }
+  ]
+}

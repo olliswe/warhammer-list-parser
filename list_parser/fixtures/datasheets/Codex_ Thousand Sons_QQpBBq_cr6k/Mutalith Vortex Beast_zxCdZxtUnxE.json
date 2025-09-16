@@ -1,0 +1,134 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "QQpBBq_cr6k",
+  "datasheet_id": "zxCdZxtUnxE",
+  "datasheet_name": "Mutalith Vortex Beast",
+  "url": "https://39k.pro/datasheet/zxCdZxtUnxE",
+  "miniatures": [
+    {
+      "name": "Mutalith Vortex Beast",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "4+",
+        "W": "13",
+        "LD": "6+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Warp vortex — torrent",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2D6",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "🠶 Warp vortex — blast",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Warp vortex — beam",
+      "stats": {
+        "range": "36\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "18",
+        "armour_penetration": "-3",
+        "damage": "D6+6"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Betentacled maw",
+      "stats": {
+        "range": "Melee",
+        "attacks": "15",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Mutalith claws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Immaterial Flare",
+      "rule": "While a friendly **THOUSAND SONS PSYKER** model is within 6\" of this model, each time that model Channels the Warp, add 1 to the Psychic test result. This is not cumulative with any other modifiers to the Psychic test result."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Mutating Vortex",
+      "rule": "At the end of your Movement phase, roll one D6 for each enemy unit within 6\" of this model: on a 2-3, that unit suffers 1 mortal wound; on a 4-5, that unit suffers D3 mortal wounds; on a 6, that unit suffers D6 mortal wounds. Each enemy unit within range of this ability must then take a Battle-shock test."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Mutalith Vortex Beast**\n\n**This model is equipped with:** warp vortex; betentacled maw; Mutalith claws.\nModel Name Count Points\nMutalith Vortex Beast\n1\n160",
+  "unit_composition_table": [
+    {
+      "model": "Mutalith Vortex Beast",
+      "count": "1",
+      "points": "160"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Thousand Sons"
+    ],
+    "keywords": [
+      "Monster",
+      "Chaos",
+      "Tzeentch",
+      "Mutant",
+      "Mutalith Vortex Beast"
+    ]
+  },
+  "custom_rules": []
+}

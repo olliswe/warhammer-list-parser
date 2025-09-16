@@ -1,0 +1,68 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "KRn09snPqVA",
+  "datasheet_name": "Chaos Spawn",
+  "url": "https://39k.pro/datasheet/KRn09snPqVA",
+  "miniatures": [
+    {
+      "name": "Chaos Spawn",
+      "characteristics": {
+        "M": "8\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Hideous mutations",
+      "stats": {
+        "range": "Melee",
+        "attacks": "D6+2",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Mind-breaking Mutations",
+      "rule": "While an enemy unit (excluding **VEHICLE** units) is within 3\" of this unit, subtract 1 from the Objective Control characteristic of models in that enemy unit."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **2 Chaos Spawn**\n\n**Every model is equipped with:** hideous mutations.\nModel Name Count Points\nChaos Spawn\n2\n70",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Spawn",
+      "count": "2",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Beast",
+      "Chaos",
+      "Chaos Spawn"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,112 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "9JL00KbR4Zk",
+  "datasheet_name": "Forgefiend",
+  "url": "https://39k.pro/datasheet/9JL00KbR4Zk",
+  "miniatures": [
+    {
+      "name": "Forgefiend",
+      "characteristics": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Ectoplasma cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Hades autocannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Forgefiend jaws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Armoured limbs",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Daemonic Ordnance",
+      "rule": "Each time this model is selected to shoot, it can use this ability. If it does, until the end of the phase, its ranged weapons have the **[DEVASTATING WOUNDS]** and **[HAZARDOUS]** abilities."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Forgefiend jaws can be replaced with 1 ectoplasma cannon and 1 armoured limbs.",
+    "■ This model’s 2 Hades autocannons can be replaced with 2 ectoplasma cannons."
+  ],
+  "unit_composition": "■ **1 Forgefiend**\n\n**This model is equipped with:** 2 Hades autocannons; Forgefiend jaws.\nModel Name Count Points\nForgefiend\n1\n180",
+  "unit_composition_table": [
+    {
+      "model": "Forgefiend",
+      "count": "1",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Daemon",
+      "Forgefiend"
+    ]
+  },
+  "custom_rules": []
+}

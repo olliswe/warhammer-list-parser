@@ -1,0 +1,169 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "XBGNqRLN_Y8",
+  "datasheet_name": "Court of the Archon",
+  "url": "https://39k.pro/datasheet/XBGNqRLN_Y8",
+  "miniatures": [
+    {
+      "name": "Court of the Archon",
+      "characteristics": {
+        "M": "8\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Eyeburst",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Splinter pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 3+",
+        "Assault",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Shardcarbine",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault",
+        "Anti-infantry 3+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Ur-ghul talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Shaimeshi blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 2+"
+      ]
+    },
+    {
+      "name": "Sslyth battle-blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Ur-ghul",
+      "rule": "While this unit contains one or more Ur-ghul models, this unit has the Fights First ability."
+    },
+    {
+      "name": "Medusae",
+      "rule": "In your Shooting phase, after this unit has shot, if any of those attacks made with its eyeburst scored a hit against an enemy **INFANTRY** unit, that **INFANTRY** unit must take a Battle-shock test."
+    },
+    {
+      "name": "Sslyth",
+      "rule": "While this unit contains one or more Sslyth models, each time an attack targets this unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Lhamaean",
+      "rule": "While this unit contains one or more Lhamaean models, weapons equipped by models in this unit have the **[LETHAL HITS]** ability."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lhamaean**\n■ **1 Medusae**\n■ **1 Sslyth**\n■ **1 Ur-ghul**\n\n**A Lhamaean is equipped with:** shaimeshi blade.\n**A Medusae is equipped with:** eyeburst; close combat weapon.\n**A Sslyth is equipped with:** shardcarbine; splinter pistol; Sslyth battle-blade.\n**An Ur-ghul is equipped with:** Ur-ghul talons.\nModel Name Count Points\nUr-ghul\nMedusae\nSslyth\nLhamaean\n1\n1\n1\n1\n95",
+  "unit_composition_table": [
+    {
+      "model": "Ur-ghul\nMedusae\nSslyth\nLhamaean",
+      "count": "1\n1\n1\n1",
+      "points": "95"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Archon",
+      "id": "PnKBi-XtPF4"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Kabal",
+      "Aeldari",
+      "Court of the Archon"
+    ]
+  },
+  "custom_rules": []
+}

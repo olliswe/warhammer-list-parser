@@ -1,0 +1,100 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "xkTM-BVKssE",
+  "datasheet_name": "Cultist Firebrand",
+  "url": "https://39k.pro/datasheet/xkTM-BVKssE",
+  "miniatures": [
+    {
+      "name": "Cultist Firebrand",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Balefire pike",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Fiery Faith",
+      "rule": "While this model is leading a unit, you can re-roll Leadership tests taken for that unit."
+    },
+    {
+      "name": "Cursed Flames",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy **INFANTRY** unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Cultist Firebrand**\n\n**This model is equipped with:** balefire pike; close combat weapon.\nModel Name Count Points\nCultist Firebrand\n1\n45",
+  "unit_composition_table": [
+    {
+      "model": "Cultist Firebrand",
+      "count": "1",
+      "points": "45"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ACCURSED CULTISTS",
+      "id": "0yMtDMA6Jik"
+    },
+    {
+      "name": "CULTIST MOB",
+      "id": "g-B0mBaYdjo"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Damned",
+      "Cultist Firebrand"
+    ]
+  },
+  "custom_rules": []
+}

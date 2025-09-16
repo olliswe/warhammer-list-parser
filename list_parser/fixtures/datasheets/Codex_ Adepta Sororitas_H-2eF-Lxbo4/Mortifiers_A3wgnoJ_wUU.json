@@ -1,0 +1,160 @@
+{
+  "faction": "Codex: Adepta Sororitas",
+  "faction_id": "H-2eF-Lxbo4",
+  "datasheet_id": "A3wgnoJ_wUU",
+  "datasheet_name": "Mortifiers",
+  "url": "https://39k.pro/datasheet/A3wgnoJ_wUU",
+  "miniatures": [
+    {
+      "name": "Mortifiers",
+      "characteristics": {
+        "M": "8\"",
+        "T": "6",
+        "SV": "4+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Mortifier flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Twin-linked",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Twin penitent flails",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 1",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Penitent flail",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Penitent buzz-blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Twin penitent buzz-blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1",
+        "Twin-linked"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Anguish of the Unredeemed",
+      "rule": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 2+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their 2 heavy bolters replaced with one of the following:\n◦ 1 heavy bolter and 1 Mortifier flamer\n◦ 2 Mortifier flamers",
+    "■ 1 model can be equipped with 1 anchorite sarcophagus.",
+    "■ Any number of models can each have their twin penitent buzz-blades replaced with one of the following:\n◦ 1 twin penitent flails\n◦ 1 penitent buzz-blade and 1 penitent flail"
+  ],
+  "unit_composition": "■ **1-2 Mortifiers**\n\n**Every model is equipped with:** 2 heavy bolters; twin penitent buzz-blades.\nModel Name Count Points\nMortifier\n1\n70\nMortifier\n2\n140",
+  "unit_composition_table": [
+    {
+      "model": "Mortifier",
+      "count": "1",
+      "points": "70"
+    },
+    {
+      "model": "Mortifier",
+      "count": "2",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adepta Sororitas"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Imperium",
+      "Penitent",
+      "Mortifiers"
+    ]
+  },
+  "custom_rules": []
+}

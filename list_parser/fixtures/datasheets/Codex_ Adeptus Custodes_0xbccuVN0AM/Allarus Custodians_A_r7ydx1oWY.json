@@ -1,0 +1,163 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "A_r7ydx1oWY",
+  "datasheet_name": "Allarus Custodians",
+  "url": "https://39k.pro/datasheet/A_r7ydx1oWY",
+  "miniatures": [
+    {
+      "name": "Allarus Custodians",
+      "characteristics": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Balistus grenade launcher",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Castellan axe",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Guardian spear",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Castellan axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Guardian spear",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Misericordia",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "From Golden Light",
+      "rule": "Once per battle, at the end of your opponent’s turn, if this unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Slayers of Tyrants",
+      "rule": "Each time a model in this unit makes an attack that targets a **CHARACTER**, **MONSTER** or **VEHICLE** unit, you can re-roll the Wound roll."
+    }
+  ],
+  "wargear_options": [
+    "■ 1 model’s guardian spear can be replaced with 1 vexilla and 1 misericordia.",
+    "■ Any number of models can each have their guardian spear replaced with 1 castellan axe."
+  ],
+  "unit_composition": "■ **2-6 Allarus Custodians**\n\n**Every model is equipped with**: balistus grenade launcher; guardian spear.\nModel Name Count Points\nAllarus Custodian\n2\n120\nAllarus Custodian\n6\n360\nAllarus Custodian\n3\n180\nAllarus Custodian\n4-5\n300",
+  "unit_composition_table": [
+    {
+      "model": "Allarus Custodian",
+      "count": "2",
+      "points": "120"
+    },
+    {
+      "model": "Allarus Custodian",
+      "count": "6",
+      "points": "360"
+    },
+    {
+      "model": "Allarus Custodian",
+      "count": "3",
+      "points": "180"
+    },
+    {
+      "model": "Allarus Custodian",
+      "count": "4-5",
+      "points": "300"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Shield-Captain in Allarus Terminator Armour",
+      "id": "8xAq75X1dlo"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Terminator",
+      "Imperium",
+      "Allarus Custodians"
+    ]
+  },
+  "custom_rules": []
+}

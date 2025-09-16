@@ -1,0 +1,153 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "hFK8CNsWTIU",
+  "datasheet_id": "hJ5fu4pajYU",
+  "datasheet_name": "Blood Claws",
+  "url": "https://39k.pro/datasheet/hJ5fu4pajYU",
+  "miniatures": [
+    {
+      "name": "Blood Claws",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Astartes chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Berserk Charge",
+      "rule": "This unit is eligible to declare a charge in a turn in which it Advanced."
+    }
+  ],
+  "wargear_options": [
+    "■ The Blood Claw Pack Leader’s bolt pistol can be replaced with 1 plasma pistol.",
+    "■ The Blood Claw Pack Leader’s Astartes chainsword can be replaced with 1 power weapon."
+  ],
+  "unit_composition": "■ **1 Blood Claw Pack Leader**\n■ **9-19 Blood Claws**\n\n**Every model is equipped with:** bolt pistol; Astartes chainsword.\nModel Name Count Points\nBlood Claw\nBlood Claw Pack Leader\n10-19\n1\n270\nBlood Claw Pack Leader\nBlood Claw\n1\n9\n135",
+  "unit_composition_table": [
+    {
+      "model": "Blood Claw\nBlood Claw Pack Leader",
+      "count": "10-19\n1",
+      "points": "270"
+    },
+    {
+      "model": "Blood Claw Pack Leader\nBlood Claw",
+      "count": "1\n9",
+      "points": "135"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Iron Priest",
+      "id": "O-Y00SBKXAk"
+    },
+    {
+      "name": "Ulrik the Slayer",
+      "id": "Miykof7zsaQ"
+    },
+    {
+      "name": "Ragnar Blackmane",
+      "id": "ldb88iLaOY0"
+    },
+    {
+      "name": "Njal Stormcaller",
+      "id": "rDZalWotNjE"
+    },
+    {
+      "name": "Fyrri Askar",
+      "id": "ngKu3CbSJCs"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Space Wolves"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Blood Claws"
+    ]
+  },
+  "custom_rules": []
+}

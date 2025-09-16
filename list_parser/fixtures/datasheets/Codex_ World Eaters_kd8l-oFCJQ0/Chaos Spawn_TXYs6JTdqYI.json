@@ -1,0 +1,73 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "kd8l-oFCJQ0",
+  "datasheet_id": "TXYs6JTdqYI",
+  "datasheet_name": "Chaos Spawn",
+  "url": "https://39k.pro/datasheet/TXYs6JTdqYI",
+  "miniatures": [
+    {
+      "name": "Chaos Spawn",
+      "characteristics": {
+        "M": "10\"",
+        "T": "5",
+        "SV": "4+",
+        "W": "4",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Hideous mutations",
+      "stats": {
+        "range": "Melee",
+        "attacks": "D6+4",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "To Slake its Rage",
+      "rule": "This unit is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 8\"",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **2 Chaos Spawn**\n\n**Every model is equipped with:** hideous mutations.\nModel Name Count Points\nChaos Spawn\n2\n80",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Spawn",
+      "count": "2",
+      "points": "80"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: World Eaters"
+    ],
+    "keywords": [
+      "Beast",
+      "Chaos",
+      "Khorne",
+      "Spawn"
+    ]
+  },
+  "custom_rules": []
+}

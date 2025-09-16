@@ -1,0 +1,141 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "FaiUEz-0eY8",
+  "datasheet_name": "Sun Shark Bomber",
+  "url": "https://39k.pro/datasheet/FaiUEz-0eY8",
+  "miniatures": [
+    {
+      "name": "Sun Shark Bomber",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Seeker missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    },
+    {
+      "name": "🠶 Twin ion rifle — standard",
+      "stats": {
+        "range": "30\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "🠶 Twin ion rifle — overcharge",
+      "stats": {
+        "range": "30\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "Missile pod",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin missile pod",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Pulse Bombs",
+      "rule": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 4+, that unit suffers 1 mortal wound."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s missile pod can be replaced with 1 twin missile pod."
+  ],
+  "unit_composition": "■ **1 Sun Shark Bomber**\n\n**This model is equipped with:** missile pod; 2 seeker missiles; 2 twin ion rifles; armoured hull.\nModel Name Count Points\nSun Shark Bomber\n1\n160",
+  "unit_composition_table": [
+    {
+      "model": "Sun Shark Bomber",
+      "count": "1",
+      "points": "160"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Sun Shark Bomber"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,137 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "97-SUPhdOeE",
+  "datasheet_name": "Wazbom Blastajet",
+  "url": "https://39k.pro/datasheet/97-SUPhdOeE",
+  "miniatures": [
+    {
+      "name": "Wazbom Blastajet",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 6+",
+  "ranged_weapons": [
+    {
+      "name": "Twin supa-shoota",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Rapid Fire 2",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Twin wazbom mega-kannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Blast",
+        "Hazardous",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Twin tellyport mega-blasta",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "5+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Blast",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Smasha gun",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "4"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blastajet Attack Run",
+      "rule": "Each time this model makes a ranged attack that targets a unit that cannot **FLY**, re-roll a Hit roll of 1."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s twin wazbom mega-kannon can be replaced with 1 twin tellyport mega-blasta.",
+    "■ This model can be equipped with 1 blastajet force field.",
+    "■ This model can be equipped with 1 twin supa-shoota."
+  ],
+  "unit_composition": "■ **1 Wazbom Blastajet**\n\n**This model is equipped with:** smasha gun; twin wazbom mega-kannon; armoured hull.\nModel Name Count Points\nWazbom Blastajet\n1\n175",
+  "unit_composition_table": [
+    {
+      "model": "Wazbom Blastajet",
+      "count": "1",
+      "points": "175"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Grenades",
+      "Speed Freeks",
+      "Wazbom Blastajet"
+    ]
+  },
+  "custom_rules": []
+}

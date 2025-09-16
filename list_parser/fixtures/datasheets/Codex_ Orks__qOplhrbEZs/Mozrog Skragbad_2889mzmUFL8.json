@@ -1,0 +1,117 @@
+{
+  "faction": "Codex: Orks",
+  "faction_id": "_qOplhrbEZs",
+  "datasheet_id": "2889mzmUFL8",
+  "datasheet_name": "Mozrog Skragbad",
+  "url": "https://39k.pro/datasheet/2889mzmUFL8",
+  "miniatures": [
+    {
+      "name": "Mozrog Skragbad",
+      "characteristics": {
+        "M": "10\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Thump gun",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D3",
+        "ballistic_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Big Chompa’s jaws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "4"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Gutrippa",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": [
+        "Anti-monster 4+",
+        "Anti-vehicle 4+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "One Last Kill",
+      "rule": "While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Da Bigger Dey Iz…",
+      "rule": "Each time this model makes a melee attack that targets a **MONSTER** or **VEHICLE** unit, add 1 to the Damage characteristic of that attack. Each time this model makes a melee attack that targets a **TITANIC** unit, add 2 to the Damage characteristic of that attack instead."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Mozrog Skragbad – EPIC HERO**\n\n**This model is equipped with:** thump gun; Big Chompa’s jaws; gutrippa.\nModel Name Count Points\nMozrog Skragbad\n1\n165",
+  "unit_composition_table": [
+    {
+      "model": "Mozrog Skragbad",
+      "count": "1",
+      "points": "165"
+    }
+  ],
+  "leader": [
+    {
+      "name": "SQUIGHOG BOYZ",
+      "id": "TYYG1ywHAOQ"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Orks"
+    ],
+    "keywords": [
+      "Mounted",
+      "Character",
+      "Beast Snagga",
+      "Epic Hero",
+      "Warboss",
+      "Mozrog Skragbad"
+    ]
+  },
+  "custom_rules": []
+}

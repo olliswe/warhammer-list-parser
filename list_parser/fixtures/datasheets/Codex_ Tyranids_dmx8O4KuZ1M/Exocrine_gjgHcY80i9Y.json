@@ -1,0 +1,84 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "gjgHcY80i9Y",
+  "datasheet_name": "Exocrine",
+  "url": "https://39k.pro/datasheet/gjgHcY80i9Y",
+  "miniatures": [
+    {
+      "name": "Exocrine",
+      "characteristics": {
+        "M": "8\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "8+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Bio-plasmic cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast",
+        "Heavy"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Powerful limbs",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Symbiotic Targeting",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly **TYRANIDS** model makes an attack that targets that unit, re-roll a Hit roll of 1."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Exocrine**\n\n**This model is equipped with:** bio-plasmic cannon; powerful limbs.\nModel Name Count Points\nExocrine\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Exocrine",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Exocrine"
+    ]
+  },
+  "custom_rules": []
+}

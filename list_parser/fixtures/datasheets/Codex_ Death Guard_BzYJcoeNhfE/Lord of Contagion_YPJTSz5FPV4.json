@@ -1,0 +1,105 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "YPJTSz5FPV4",
+  "datasheet_name": "Lord of Contagion",
+  "url": "https://39k.pro/datasheet/YPJTSz5FPV4",
+  "miniatures": [
+    {
+      "name": "Lord of Contagion",
+      "characteristics": {
+        "M": "5\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "🠶 Manreaper — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "🠶 Manreaper — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "10",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Vector of Disease",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[SUSTAINED HITS 1]** and **[LANCE]** abilities."
+    },
+    {
+      "name": "Unholy Resilience",
+      "rule": "The first time a model with this ability is destroyed in a battle round, roll one D6 at the end of the phase. On a 2+, set that model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with 3 wounds remaining. Each model can only be set up in this way once per battle."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lord of Contagion**\n\n**This model is equipped with:** manreaper.\nModel Name Count Points\nLord of Contagion\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Lord of Contagion",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BLIGHTLORD TERMINATORS",
+      "id": "onPm6yvGKlU"
+    },
+    {
+      "name": "DEATHSHROUD TERMINATORS",
+      "id": "yRHS6dk4JGk"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Death Guard"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Chaos",
+      "Nurgle",
+      "Terminator",
+      "Lord of Contagion"
+    ]
+  },
+  "custom_rules": []
+}

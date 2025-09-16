@@ -1,0 +1,220 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "0YJe0OH2OIs",
+  "datasheet_name": "Captain",
+  "url": "https://39k.pro/datasheet/0YJe0OH2OIs",
+  "miniatures": [
+    {
+      "name": "Captain",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Bolt Pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Master-crafted bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Neo-volkite pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Master-crafted power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rites of Battle",
+      "rule": "Once per battle round, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Finest Hour",
+      "rule": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the **[DEVASTATING WOUNDS]** ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s bolt pistol, master-crafted bolter and close combat weapon can be replaced with one of the following:\n◦ 1 heavy bolt pistol and 1 power fist\n◦ 1 heavy bolt pistol and 1 master-crafted power weapon\n◦ 1 neo-volkite pistol and 1 power fist\n◦ 1 neo-volkite pistol and 1 master-crafted power weapon\n◦ 1 plasma pistol and 1 power fist\n◦ 1 plasma pistol and 1 master-crafted power weapon\n◦ 1 heavy bolt pistol, 1 master-crafted power weapon and 1 relic shield",
+    "■ This model’s close combat weapon can be replaced with one of the following:\n◦ 1 master-crafted power weapon\n◦ 1 power fist"
+  ],
+  "unit_composition": "■ **1 Captain**\n\n**This model is equipped with:** bolt pistol; master-crafted bolter; close combat weapon.\nModel Name Count Points\nCaptain\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Captain",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ASSAULT INTERCESSOR SQUAD",
+      "id": "nGqgX6CZVSU"
+    },
+    {
+      "name": "BLADEGUARD VETERAN SQUAD",
+      "id": "QzcaruUCgaI"
+    },
+    {
+      "name": "COMPANY HEROES",
+      "id": "XTVpNuL4gek"
+    },
+    {
+      "name": "HELLBLASTER SQUAD",
+      "id": "k5kI-BiLztA"
+    },
+    {
+      "name": "INFERNUS SQUAD",
+      "id": "3uOpOXVLXI4"
+    },
+    {
+      "name": "INTERCESSOR SQUAD",
+      "id": "XF9CpzK6K5I"
+    },
+    {
+      "name": "STERNGUARD VETERAN SQUAD",
+      "id": "4tfhoo_SDpg"
+    },
+    {
+      "name": "TACTICAL SQUAD",
+      "id": "MLqgvvAsFtA"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Grenades",
+      "Imperium",
+      "Tacticus",
+      "Captain"
+    ]
+  },
+  "custom_rules": []
+}

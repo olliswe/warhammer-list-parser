@@ -1,0 +1,113 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "cP5F7CrQcUY",
+  "datasheet_name": "Vertus Praetors",
+  "url": "https://39k.pro/datasheet/cP5F7CrQcUY",
+  "miniatures": [
+    {
+      "name": "Vertus Praetors",
+      "characteristics": {
+        "M": "12\"",
+        "T": "7",
+        "SV": "2+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Salvo launcher",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Vertus hurricane bolter",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Rapid Fire 3",
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Interceptor lance",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lance"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Turbo-boost",
+      "rule": "Each time this unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit."
+    },
+    {
+      "name": "Quicksilver Execution",
+      "rule": "Once per battle, after this unit ends a Normal or Advance move, you can select one enemy unit (excluding **MONSTERS** and **VEHICLES**) that it moved over during that move, then roll one D6 for each model in this unit: for each 2+, that enemy unit suffers 2 mortal wounds."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their salvo launcher replaced with 1 Vertus hurricane bolter."
+  ],
+  "unit_composition": "■ **2-3 Vertus Praetors**\n\n**Every model is equipped with**: salvo launcher; interceptor lance.\nModel Name Count Points\nVertus Praetor\n2\n150\nVertus Praetor\n3\n225",
+  "unit_composition_table": [
+    {
+      "model": "Vertus Praetor",
+      "count": "2",
+      "points": "150"
+    },
+    {
+      "model": "Vertus Praetor",
+      "count": "3",
+      "points": "225"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Shield-Captain on Dawneagle Jetbike",
+      "id": "73sTl5U0mvI"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Mounted",
+      "Fly",
+      "Imperium",
+      "Vertus Praetors"
+    ]
+  },
+  "custom_rules": []
+}

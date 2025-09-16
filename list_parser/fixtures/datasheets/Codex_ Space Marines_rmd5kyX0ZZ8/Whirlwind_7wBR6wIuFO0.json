@@ -1,0 +1,116 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "7wBR6wIuFO0",
+  "datasheet_name": "Whirlwind",
+  "url": "https://39k.pro/datasheet/7wBR6wIuFO0",
+  "miniatures": [
+    {
+      "name": "Whirlwind",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "11",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Whirlwind vengeance launcher",
+      "stats": {
+        "range": "72\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Indirect Fire",
+        "Blast"
+      ]
+    },
+    {
+      "name": "Hunter-killer missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Pinning Bombardment",
+      "rule": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy **INFANTRY** unit, that unit must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model can be equipped with 1 storm bolter."
+  ],
+  "unit_composition": "■ **1 Whirlwind**\n\n**This model is equipped with:** Whirlwind vengeance launcher; armoured tracks.\nModel Name Count Points\nWhirlwind\n1\n190",
+  "unit_composition_table": [
+    {
+      "model": "Whirlwind",
+      "count": "1",
+      "points": "190"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Whirlwind"
+    ]
+  },
+  "custom_rules": []
+}

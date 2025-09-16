@@ -1,0 +1,94 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "J6oGKb1yhYU",
+  "datasheet_name": "Locus",
+  "url": "https://39k.pro/datasheet/J6oGKb1yhYU",
+  "miniatures": [
+    {
+      "name": "Locus",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Locus blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Sudden Assault",
+      "rule": "While this model is leading a unit, models in that unit have the Fights First ability."
+    },
+    {
+      "name": "Bodyguard",
+      "rule": "While this model is leading a unit, other **CHARACTER** models attached to that unit have the Feel No Pain 4+ ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Locus**\n\n**This model is equipped with:** Locus blades.\nModel Name Count Points\nLocus\n1\n45",
+  "unit_composition_table": [
+    {
+      "model": "Locus",
+      "count": "1",
+      "points": "45"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ACOLYTE HYBRIDS",
+      "id": "qd_-rrCUysQ"
+    },
+    {
+      "name": "HYBRID METAMORPHS",
+      "id": "6BXxUwhH0Ps"
+    },
+    {
+      "name": "NEOPHYTE HYBRIDS",
+      "id": "t_PQ79CRNR8"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Great Devourer",
+      "Locus"
+    ]
+  },
+  "custom_rules": []
+}

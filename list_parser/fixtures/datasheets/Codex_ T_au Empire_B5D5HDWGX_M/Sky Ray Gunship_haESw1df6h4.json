@@ -1,0 +1,131 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "haESw1df6h4",
+  "datasheet_name": "Sky Ray Gunship",
+  "url": "https://39k.pro/datasheet/haESw1df6h4",
+  "miniatures": [
+    {
+      "name": "Sky Ray Gunship",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Twin pulse carbine",
+      "stats": {
+        "range": "20\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Smart missile system",
+      "stats": {
+        "range": "30\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Accelerator burst cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Seeker missile rack",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Velocity Tracker",
+      "rule": "Each time this model makes a ranged attack that targets a unit that can **FLY**, you can re-roll the Hit roll."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Targeting Array",
+      "rule": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s 2 twin pulse carbines can be replaced with one of the following:\n◦ 2 accelerator burst cannons\n◦ 2 smart missile systems"
+  ],
+  "unit_composition": "■ **1 Sky Ray Gunship**\n\n**This model is equipped with:** 1 seeker missile rack; 2 twin pulse carbines; armoured hull.\nModel Name Count Points\nSky Ray Gunship\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Sky Ray Gunship",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Markerlight",
+      "Sky Ray Gunship"
+    ]
+  },
+  "custom_rules": []
+}

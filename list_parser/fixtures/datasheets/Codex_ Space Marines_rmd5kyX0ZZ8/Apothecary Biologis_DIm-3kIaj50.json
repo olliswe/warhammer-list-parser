@@ -1,0 +1,103 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "DIm-3kIaj50",
+  "datasheet_name": "Apothecary Biologis",
+  "url": "https://39k.pro/datasheet/DIm-3kIaj50",
+  "miniatures": [
+    {
+      "name": "Apothecary Biologis",
+      "characteristics": {
+        "M": "5\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Absolvor bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Surgical Precision",
+      "rule": "While this model is leading a unit, weapons equipped by models in that unit have the **[LETHAL HITS]** ability."
+    },
+    {
+      "name": "Vivispectrum",
+      "rule": "If this model’s unit destroys an enemy unit as the result of a melee attack, until the end of the battle, this model has an Objective Control characteristic of 9."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Apothecary Biologis**\n\n**This model is equipped with:** absolvor bolt pistol; close combat weapon.\nModel Name Count Points\nApothecary Biologis\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Apothecary Biologis",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [
+    {
+      "name": "AGGRESSOR SQUAD",
+      "id": "KIAXsX0R0xw"
+    },
+    {
+      "name": "ERADICATOR SQUAD",
+      "id": "q-v67eLFgVA"
+    },
+    {
+      "name": "HEAVY INTERCESSOR SQUAD",
+      "id": "O1MbdeSN0i8"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Gravis",
+      "Apothecary",
+      "Biologis"
+    ]
+  },
+  "custom_rules": []
+}

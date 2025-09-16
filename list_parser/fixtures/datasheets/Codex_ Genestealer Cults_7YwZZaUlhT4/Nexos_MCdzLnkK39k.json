@@ -1,0 +1,105 @@
+{
+  "faction": "Codex: Genestealer Cults",
+  "faction_id": "7YwZZaUlhT4",
+  "datasheet_id": "MCdzLnkK39k",
+  "datasheet_name": "Nexos",
+  "url": "https://39k.pro/datasheet/MCdzLnkK39k",
+  "miniatures": [
+    {
+      "name": "Nexos",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "5+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Autopistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Battlefield Analysis",
+      "rule": "Once per battle round, one model from your army with this ability can use it when its unit is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Cult Infiltration",
+      "rule": "At the start of each player’s Command phase, if this model is on the battlefield, you can select one of your Cult Ambush markers that is on the battlefield and has not been moved this turn and move it up to 6\"."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Nexos**\n\n**This model is equipped with:** autopistol; close combat weapon.\nModel Name Count Points\nNexos\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Nexos",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "leader": [
+    {
+      "name": "ACOLYTE HYBRIDS",
+      "id": "qd_-rrCUysQ"
+    },
+    {
+      "name": "HYBRID METAMORPHS",
+      "id": "6BXxUwhH0Ps"
+    },
+    {
+      "name": "NEOPHYTE HYBRIDS",
+      "id": "t_PQ79CRNR8"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Genestealer Cults"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Great Devourer",
+      "Nexos"
+    ]
+  },
+  "custom_rules": []
+}

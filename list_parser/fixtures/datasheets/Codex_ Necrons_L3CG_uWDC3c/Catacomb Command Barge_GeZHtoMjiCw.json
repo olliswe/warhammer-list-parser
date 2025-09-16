@@ -1,0 +1,132 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "GeZHtoMjiCw",
+  "datasheet_name": "Catacomb Command Barge",
+  "url": "https://39k.pro/datasheet/GeZHtoMjiCw",
+  "miniatures": [
+    {
+      "name": "Catacomb Command Barge",
+      "characteristics": {
+        "M": "10\"",
+        "T": "8",
+        "SV": "3+",
+        "W": "9",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Gauss cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "Tesla cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "Staff of light",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "2+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Overlord’s blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Staff of light",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Advanced Quantum Shielding",
+      "rule": "Each time an attack targets this model, if the Strength characteristic of that attack is greater than this model’s Toughness characteristic, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Carrier Wave",
+      "rule": "While a friendly **NECRONS** unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s gauss cannon can be replaced with 1 tesla cannon.",
+    "■ This model’s staff of light can be replaced with 1 Overlord’s blade.",
+    "■ This model can be equipped with 1 resurrection orb."
+  ],
+  "unit_composition": "■ **1 Catacomb Command Barge**\n\n**This model is equipped with:** gauss cannon; staff of light.\nModel Name Count Points\nCatacomb Command Barge\n1\n120",
+  "unit_composition_table": [
+    {
+      "model": "Catacomb Command Barge",
+      "count": "1",
+      "points": "120"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Character",
+      "Fly",
+      "Catacomb Command Barge"
+    ]
+  },
+  "custom_rules": []
+}

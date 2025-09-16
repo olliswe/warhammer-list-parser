@@ -1,0 +1,90 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "AS0ZlPllp7o",
+  "datasheet_name": "Obelisk",
+  "url": "https://39k.pro/datasheet/AS0ZlPllp7o",
+  "miniatures": [
+    {
+      "name": "Obelisk",
+      "characteristics": {
+        "M": "8\"",
+        "T": "13",
+        "SV": "2+",
+        "W": "24",
+        "LD": "7+",
+        "OC": "8"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Tesla sphere",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-fly 4+",
+        "Sustained Hits 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured bulk",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Gravitic Pulse",
+      "rule": "At the start of your opponent’s Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the end of the turn, halve the Move characteristic of models in that unit and halve Advance and Charge rolls made for that unit. In addition, if that unit can **FLY**, until the start of your next Movement phase, roll one D6 each time that unit ends any type of move: on a 4+, that unit suffers D3 mortal wounds."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Obelisk**\n\n**This model is equipped with:** 4 tesla spheres; armoured bulk.\nModel Name Count Points\nObelisk\n1\n300",
+  "unit_composition_table": [
+    {
+      "model": "Obelisk",
+      "count": "1",
+      "points": "300"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Titanic",
+      "Fly",
+      "Towering",
+      "Obelisk"
+    ]
+  },
+  "custom_rules": []
+}

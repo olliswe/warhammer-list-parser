@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Chaos Space Marines",
+  "faction_id": "Vpbe4Na9krU",
+  "datasheet_id": "Vr7A5Ll8k6k",
+  "datasheet_name": "Chaos Rhino",
+  "url": "https://39k.pro/datasheet/Vr7A5Ll8k6k",
+  "miniatures": [
+    {
+      "name": "Chaos Rhino",
+      "characteristics": {
+        "M": "12\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Havoc launcher",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Firing Deck 2",
+      "rule": ""
+    },
+    {
+      "name": "Self Repair",
+      "rule": "At the start of your Command phase, this model regains 1 lost wound."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 havoc launcher or can replace 1 combi-bolter with 1 havoc launcher.",
+    "■ This model can be equipped with one of the following:\n◦ 1 combi-bolter\n◦ 1 combi-weapon"
+  ],
+  "unit_composition": "■ **1 Chaos Rhino**\n\n**This model is equipped with:** combi-bolter; armoured tracks.\nModel Name Count Points\nChaos Rhino\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Chaos Rhino",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Heretic Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Smoke",
+      "Chaos",
+      "Rhino"
+    ]
+  },
+  "custom_rules": []
+}

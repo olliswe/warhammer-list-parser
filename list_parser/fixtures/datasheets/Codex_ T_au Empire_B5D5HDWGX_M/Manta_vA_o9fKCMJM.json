@@ -1,0 +1,162 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "vA_o9fKCMJM",
+  "datasheet_name": "Manta",
+  "url": "https://39k.pro/datasheet/vA_o9fKCMJM",
+  "miniatures": [
+    {
+      "name": "Manta",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "14",
+        "SV": "2+",
+        "W": "60",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Heavy rail cannon",
+      "stats": {
+        "range": "120\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "26",
+        "armour_penetration": "-5",
+        "damage": "12"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Long-barrelled burst cannon array",
+      "stats": {
+        "range": "24\"",
+        "attacks": "32",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Missile pod",
+      "stats": {
+        "range": "30\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Ion cannon — overcharge",
+      "stats": {
+        "range": "60\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Hazardous",
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Ion cannon — standard",
+      "stats": {
+        "range": "60\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Seeker missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "5+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 3D6",
+      "rule": ""
+    },
+    {
+      "name": "Air Caste Colossus",
+      "rule": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    },
+    {
+      "name": "Aggressive Deployment",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this **TRANSPORT** this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+    },
+    {
+      "name": "Hover",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Manta**\n\n**This model is equipped with:** 2 heavy rail cannons; 6 ion cannons; 2 long-barrelled burst cannon arrays; 2 missile pods; 10 seeker missiles; armoured hull.\nModel Name Count Points\nManta\n1\n2100",
+  "unit_composition_table": [
+    {
+      "model": "Manta",
+      "count": "1",
+      "points": "2100"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Aircraft",
+      "Fly",
+      "Titanic",
+      "Transport",
+      "Markerlight",
+      "Manta"
+    ]
+  },
+  "custom_rules": []
+}

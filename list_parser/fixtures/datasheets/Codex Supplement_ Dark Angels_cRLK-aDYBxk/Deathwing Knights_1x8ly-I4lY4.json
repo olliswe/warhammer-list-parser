@@ -1,0 +1,160 @@
+{
+  "faction": "Codex Supplement: Dark Angels",
+  "faction_id": "cRLK-aDYBxk",
+  "datasheet_id": "1x8ly-I4lY4",
+  "datasheet_name": "Deathwing Knights",
+  "url": "https://39k.pro/datasheet/1x8ly-I4lY4",
+  "miniatures": [
+    {
+      "name": "Deathwing Knights",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Mace of absolution",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-monster 4+",
+        "Anti-vehicle 4+"
+      ]
+    },
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Relic weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "Great weapon of the Unforgiven",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Teleport Homer",
+      "rule": "At the start of the battle, you can set up one Teleport Homer token for this unit anywhere on the battlefield that is not in your opponent’s deployment zone. If you do, once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, but when resolving that Stratagem, you must set this unit up within 3\" horizontally of that token and not within 9\" horizontally of any enemy models. That token is then removed."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Inner Circle",
+      "rule": "Each time an attack is allocated to a model in this unit, subtract 1 from the Damage characteristic of that attack."
+    }
+  ],
+  "wargear_options": [
+    "■ The Knight Master’s great weapon of the Unforgiven can be replaced with 1 relic weapon.",
+    "■ All Deathwing Knights in this unit can each have their mace of absolution replaced with 1 power weapon.",
+    "■ This unit can be equipped with 1 Watcher in the Dark."
+  ],
+  "unit_composition": "■ **1 Knight Master**\n■ **4 Deathwing Knights**\n\n**The Knight Master is equipped with:** great weapon of the Unforgiven.\n**Every Deathwing Knight is equipped with:** mace of absolution.\nModel Name Count Points\nDeathwing Knight\nKnight Master\n4\n1\n250",
+  "unit_composition_table": [
+    {
+      "model": "Deathwing Knight\nKnight Master",
+      "count": "4\n1",
+      "points": "250"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Belial",
+      "id": "X7zx9gY9Y_E"
+    },
+    {
+      "name": "Captain Octavius",
+      "id": "yG6EUuaIWeA"
+    },
+    {
+      "name": "Belial",
+      "id": "X7zx9gY9Y_E"
+    },
+    {
+      "name": "Ancient in Terminator Armour",
+      "id": "va6-pHeT6k0"
+    },
+    {
+      "name": "Librarian in Terminator Armour",
+      "id": "ZG8nxA8a0mg"
+    },
+    {
+      "name": "Captain in Terminator Armour",
+      "id": "ppLx6sal3kE"
+    },
+    {
+      "name": "Chaplain in Terminator Armour",
+      "id": "0RtV4qVYD0g"
+    },
+    {
+      "name": "Librarian Tantus",
+      "id": "Sf0zHHECmmg"
+    },
+    {
+      "name": "Darnath Lysander",
+      "id": "XzHCfLwK6ms"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Dark Angels"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Deathwing",
+      "Deathwing Knights"
+    ]
+  },
+  "custom_rules": []
+}

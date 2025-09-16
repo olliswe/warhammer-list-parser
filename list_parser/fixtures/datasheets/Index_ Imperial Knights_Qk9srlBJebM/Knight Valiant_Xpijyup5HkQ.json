@@ -1,0 +1,161 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "Xpijyup5HkQ",
+  "datasheet_name": "Knight Valiant",
+  "url": "https://39k.pro/datasheet/Xpijyup5HkQ",
+  "miniatures": [
+    {
+      "name": "Knight Valiant",
+      "characteristics": {
+        "M": "8\"",
+        "T": "12",
+        "SV": "3+",
+        "W": "28",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Twin meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Conflagration cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3D6",
+        "ballistic_skill": "N/A",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "Shieldbreaker missile launcher",
+      "stats": {
+        "range": "72\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-6",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Anti-titanic 4+",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Twin siegebreaker cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Blast"
+      ]
+    },
+    {
+      "name": "Thundercoil harpoon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "24",
+        "armour_penetration": "-6",
+        "damage": "12"
+      },
+      "abilities": [
+        "Anti-vehicle 4+",
+        "Devastating Wounds",
+        "Anti-monster 4+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Titanic feet",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Overwhelming Firestorm",
+      "rule": "In your Shooting phase, after this model has shot, select one enemy unit hit by this model this phase. That unit must take a Battle-shock test."
+    },
+    {
+      "name": "Ion Aegis",
+      "rule": "While a friendly **ARMIGER** model is within 6\" of this model, that **ARMIGER** model has the Benefit of Cover."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s 2 shieldbreaker missile launchers and twin siegebreaker cannon can be replaced with:\n◦ 1 shieldbreaker missile launcher and 2 twin siegebreaker cannons"
+  ],
+  "unit_composition": "■ **1 Knight Valiant**\n\n**This model is equipped with:** conflagration cannon; 2 shieldbreaker missile launchers; thundercoil harpoon; 2 twin meltaguns; twin siegebreaker cannon, titanic feet.\nModel Name Count Points\nKnight Valiant\n1\n410",
+  "unit_composition_table": [
+    {
+      "model": "Knight Valiant",
+      "count": "1",
+      "points": "410"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Dominus",
+      "Character",
+      "Imperium",
+      "Knight Valiant"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

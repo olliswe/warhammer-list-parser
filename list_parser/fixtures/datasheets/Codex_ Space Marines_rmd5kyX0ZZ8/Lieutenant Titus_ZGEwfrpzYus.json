@@ -1,0 +1,99 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "ZGEwfrpzYus",
+  "datasheet_name": "Lieutenant Titus",
+  "url": "https://39k.pro/datasheet/ZGEwfrpzYus",
+  "miniatures": [
+    {
+      "name": "Lieutenant Titus",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "5",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Heavy bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Astartes chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 2+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Press the Attack",
+      "rule": "Weapons equipped by models in this model’s unit have the [**SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Honour of the Chapter",
+      "rule": "If this model is destroyed by a melee attack, if it has not fought this phase, roll one D6: on a 2+, do not remove it from play. This model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Lieutenant Titus** – **EPIC HERO**\n\nThis model is equipped with: heavy bolt pistol; Astartes chainsword.\nModel Name Count Points\nLieutenant Titus\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Lieutenant Titus",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Ultramarines"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Grenades",
+      "Epic Hero",
+      "Tacticus",
+      "Lieutenant",
+      "Titus"
+    ]
+  },
+  "custom_rules": []
+}

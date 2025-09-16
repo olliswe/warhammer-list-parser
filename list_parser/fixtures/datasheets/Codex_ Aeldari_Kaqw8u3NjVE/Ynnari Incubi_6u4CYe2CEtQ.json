@@ -1,0 +1,121 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "Kaqw8u3NjVE",
+  "datasheet_id": "6u4CYe2CEtQ",
+  "datasheet_name": "Ynnari Incubi",
+  "url": "https://39k.pro/datasheet/6u4CYe2CEtQ",
+  "miniatures": [
+    {
+      "name": "Klaivex",
+      "characteristics": {
+        "M": "7\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Incubi",
+      "characteristics": {
+        "M": "7\"",
+        "T": "3",
+        "SV": "3+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Klaive",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Demiklaives — dual blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "🠶 Demiklaives — single blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Tormentors",
+      "rule": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [
+    "■ The Klaivex’s klaive can be replaced with 1 demiklaives."
+  ],
+  "unit_composition": "■ **1 Klaivex**\n■ **4-9 Incubi**\n\n**Every model is equipped with:** klaive.\nModel Name Count Points\nKlaivex\nIncubi\n1\n4\n85\nIncubi\nKlaivex\n5-9\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Klaivex\nIncubi",
+      "count": "1\n4",
+      "points": "85"
+    },
+    {
+      "model": "Incubi\nKlaivex",
+      "count": "5-9\n1",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Yvraine",
+      "id": "zZzYxPzJ2wk"
+    },
+    {
+      "name": "The Visarch",
+      "id": "Zf_7NQec7N4"
+    },
+    {
+      "name": "Ynnari Archon",
+      "id": "vC9tPYE5e4Q"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Ynnari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Aeldari",
+      "Incubi"
+    ]
+  },
+  "custom_rules": []
+}

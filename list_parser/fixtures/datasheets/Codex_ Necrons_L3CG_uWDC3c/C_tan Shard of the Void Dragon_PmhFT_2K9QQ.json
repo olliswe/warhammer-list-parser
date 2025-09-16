@@ -1,0 +1,136 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "PmhFT_2K9QQ",
+  "datasheet_name": "C’tan Shard of the Void Dragon",
+  "url": "https://39k.pro/datasheet/PmhFT_2K9QQ",
+  "miniatures": [
+    {
+      "name": "C’tan Shard of the Void Dragon",
+      "characteristics": {
+        "M": "6\"",
+        "T": "11",
+        "SV": "4+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "4"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Voltaic storm",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 2",
+        "Blast"
+      ]
+    },
+    {
+      "name": "Spear of the Void Dragon",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-3",
+        "damage": "D6+2"
+      },
+      "abilities": [
+        "Anti-vehicle 2+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Spear of the Void Dragon — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "10",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Spear of the Void Dragon — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+2"
+      },
+      "abilities": [
+        "Anti-vehicle 2+"
+      ]
+    },
+    {
+      "name": "Canoptek tail blades",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Necrodermis",
+      "rule": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Matter Absorption",
+      "rule": "At the start of your Shooting phase, select one enemy **VEHICLE** unit within 12\" of this model and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds and this model regains up to that many lost wounds."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 C’tan Shard of the Void Dragon – EPIC HERO**\n\n**This model is equipped with:** Spear of the Void Dragon; voltaic storm; Canoptek tail blades.\nModel Name Count Points\nC’tan Shard of the Void Dragon\n1\n300",
+  "unit_composition_table": [
+    {
+      "model": "C’tan Shard of the Void Dragon",
+      "count": "1",
+      "points": "300"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Fly",
+      "Epic Hero",
+      "C’tan Shard of the Void Dragon"
+    ]
+  },
+  "custom_rules": []
+}

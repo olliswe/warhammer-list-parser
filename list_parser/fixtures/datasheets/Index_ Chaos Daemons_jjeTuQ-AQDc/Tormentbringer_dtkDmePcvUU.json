@@ -1,0 +1,134 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "dtkDmePcvUU",
+  "datasheet_name": "Tormentbringer",
+  "url": "https://39k.pro/datasheet/dtkDmePcvUU",
+  "miniatures": [
+    {
+      "name": "Tormentbringer",
+      "characteristics": {
+        "M": "14\"",
+        "T": "6",
+        "SV": "5+",
+        "W": "12",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Lashes of torment",
+      "stats": {
+        "range": "12\"",
+        "attacks": "6",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-infantry 3+",
+        "Assault",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Lashes of torment",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-infantry 3+",
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Seeker tongues",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks",
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "Slashing claws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Tormentbringer",
+      "rule": "While a friendly **SLAANESH LEGIONES DAEMONICA** unit is within 6\" of this model, melee weapons in that unit have the **[SUSTAINED HITS 1]** ability."
+    },
+    {
+      "name": "Hysterical Frenzy",
+      "rule": "Each time a model in this model’s unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Tormentbringer**\n\n**This model is equipped with:** lashes of torment; Seeker tongues; slashing claws.\nModel Name Count Points\nTormentbringer\n1\n140",
+  "unit_composition_table": [
+    {
+      "model": "Tormentbringer",
+      "count": "1",
+      "points": "140"
+    }
+  ],
+  "leader": [
+    {
+      "name": "HELLFLAYERS",
+      "id": "Y7bI93Hqs1c"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Mounted",
+      "Character",
+      "Psyker",
+      "Chaos",
+      "Daemon",
+      "Slaanesh",
+      "Tormentbringer on Exalted Seeker Chariot"
+    ]
+  },
+  "custom_rules": []
+}

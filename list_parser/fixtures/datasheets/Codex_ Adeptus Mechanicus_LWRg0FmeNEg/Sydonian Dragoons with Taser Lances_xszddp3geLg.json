@@ -1,0 +1,110 @@
+{
+  "faction": "Codex: Adeptus Mechanicus",
+  "faction_id": "LWRg0FmeNEg",
+  "datasheet_id": "xszddp3geLg",
+  "datasheet_name": "Sydonian Dragoons with Taser Lances",
+  "url": "https://39k.pro/datasheet/xszddp3geLg",
+  "miniatures": [
+    {
+      "name": "Sydonian Dragoons with Taser Lances",
+      "characteristics": {
+        "M": "10\"",
+        "T": "7",
+        "SV": "3+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Phosphor serpenta",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Taser lance",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 2",
+        "Lance",
+        "Anti-walker 2+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Dynamic Efficiency",
+      "rule": "This unit is eligible to declare a charge in a turn in which it Advanced or Fell Back, and you can re-roll Desperate Escape tests taken for models in this unit."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    },
+    {
+      "name": "Broad Spectrum Data-tether",
+      "rule": "Each time you select this unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1-3 Sydonian Dragoons**\n\n**Every model is equipped with:** phosphor serpenta; taser lance.\nModel Name Count Points\nSydonian Dragoon\n2\n130\nSydonian Dragoon\n3\n195\nSydonian Dragoon\n1\n65",
+  "unit_composition_table": [
+    {
+      "model": "Sydonian Dragoon",
+      "count": "2",
+      "points": "130"
+    },
+    {
+      "model": "Sydonian Dragoon",
+      "count": "3",
+      "points": "195"
+    },
+    {
+      "model": "Sydonian Dragoon",
+      "count": "1",
+      "points": "65"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Mechanicus"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Smoke",
+      "Imperium",
+      "Skitarii",
+      "Sydonian",
+      "Dragoons with Taser Lances"
+    ]
+  },
+  "custom_rules": []
+}

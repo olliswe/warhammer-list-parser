@@ -1,0 +1,87 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "6t8zHKojp4s",
+  "datasheet_name": "Epidemius",
+  "url": "https://39k.pro/datasheet/6t8zHKojp4s",
+  "miniatures": [
+    {
+      "name": "Epidemius",
+      "characteristics": {
+        "M": "5\"",
+        "T": "5",
+        "SV": "6+",
+        "W": "8",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Balesword and Nurgling attendants",
+      "stats": {
+        "range": "Melee",
+        "attacks": "D6+3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Blessed by the Plague God",
+      "rule": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+    },
+    {
+      "name": "Tally of Pestilence",
+      "rule": "Keep a tally of how many enemy models are destroyed by **NURGLE LEGIONES DAEMONICA** models from your army during the battle. At the start of your Command phase, if this tally is 7 or more, you gain 1CP and the tally is reset to 0."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Epidemius – EPIC HERO**\n\n**This model is equipped with:** balesword and Nurgling attendants.\nModel Name Count Points\nEpidemius\n1\n80",
+  "unit_composition_table": [
+    {
+      "model": "Epidemius",
+      "count": "1",
+      "points": "80"
+    }
+  ],
+  "leader": [
+    {
+      "name": "PLAGUEBEARERS",
+      "id": "5QnizZncdcI"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Nurgle",
+      "Epidemius"
+    ]
+  },
+  "custom_rules": []
+}

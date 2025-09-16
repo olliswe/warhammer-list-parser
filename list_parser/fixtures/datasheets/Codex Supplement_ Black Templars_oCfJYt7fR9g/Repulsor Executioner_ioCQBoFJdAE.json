@@ -1,0 +1,218 @@
+{
+  "faction": "Codex Supplement: Black Templars",
+  "faction_id": "oCfJYt7fR9g",
+  "datasheet_id": "ioCQBoFJdAE",
+  "datasheet_name": "Repulsor Executioner",
+  "url": "https://39k.pro/datasheet/ioCQBoFJdAE",
+  "miniatures": [
+    {
+      "name": "Repulsor Executioner",
+      "characteristics": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "3+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Twin heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Repulsor Executioner defensive array",
+      "stats": {
+        "range": "24\"",
+        "attacks": "10",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin Icarus ironhail heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-fly 4+",
+        "Rapid Fire 3",
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Icarus rocket pod",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Ironhail heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Multi-melta",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Heavy laser destroyer",
+      "stats": {
+        "range": "72\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "16",
+        "armour_penetration": "-4",
+        "damage": "D6+4"
+      },
+      "abilities": [
+        "Heavy"
+      ]
+    },
+    {
+      "name": "🠶 Macro plasma incinerator — standard",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Macro plasma incinerator — supercharge",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "3"
+      },
+      "abilities": [
+        "Hazardous",
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Interception Strike",
+      "rule": "Each time this model makes a ranged attack that targets an enemy unit within 12\" of one or more **ADEPTUS ASTARTES** units from your army, you can re-roll the Hit roll."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s macro plasma incinerator can be replaced with 1 heavy laser destroyer.",
+    "■ This model can be equipped with one of the following:\n◦ 1 ironhail heavy stubber\n◦ 1 multi-melta",
+    "■ This model can be equipped with 1 Icarus rocket pod."
+  ],
+  "unit_composition": "■ **1 Repulsor Executioner**\n\n**This model is equipped with:** heavy onslaught gatling cannon; macro plasma incinerator; Repulsor Executioner defensive array; twin heavy bolter; twin Icarus ironhail heavy stubber; armoured hull.\nModel Name Count Points\nRepulsor Executioner\n1\n220",
+  "unit_composition_table": [
+    {
+      "model": "Repulsor Executioner",
+      "count": "1",
+      "points": "220"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Black Templars"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Repulsor Executioner"
+    ]
+  },
+  "custom_rules": []
+}

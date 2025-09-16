@@ -1,0 +1,251 @@
+{
+  "faction": "Index: Deathwatch",
+  "faction_id": "hw15VleUO6s",
+  "datasheet_id": "IXq7O-cahQo",
+  "datasheet_name": "Talonstrike Kill Team",
+  "url": "https://39k.pro/datasheet/IXq7O-cahQo",
+  "miniatures": [
+    {
+      "name": "Kill Team Sergeant with Jump Pack",
+      "characteristics": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Kill Team Intercessor with Jump Pack",
+      "characteristics": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    },
+    {
+      "name": "Kill Team Heavy Intercessor with Jump Pack",
+      "characteristics": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Assault bolters",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Assault",
+        "Pistol",
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "🠶 Plasma exterminators — supercharge",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": [
+        "Hazardous",
+        "Assault",
+        "Twin-linked",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma exterminators — standard",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Pistol",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Heavy bolt pistol",
+      "stats": {
+        "range": "18\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — standard",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    },
+    {
+      "name": "🠶 Plasma pistol — supercharge",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Hazardous",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Hand flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Torrent",
+        "Pistol",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Astartes chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Talonstrike Doctrines",
+      "rule": "Each time this unit is set up on the battlefield, until the end of the turn:\n\n■ Improve the Armour Penetration characteristic of weapons equipped by models in this unit by 1.\n■ Melee weapons equipped by models in this unit have the [**LANCE**] ability"
+    }
+  ],
+  "wargear_options": [
+    "■ The Kill Team Sergeant with Jump Pack can replace its heavy bolt pistol with one of the following:\n◦ 1 hand flamer\n◦ 1 plasma pistol",
+    "■ The Kill Team Sergeant with Jump Pack can replace its Astartes chainsword with one of the following:\n◦ 1 power fist\n◦ 1 power weapon",
+    "■ For every 5 models in this unit, 1 model can replace its heavy bolt pistol with 1 plasma pistol.",
+    "■ Any number of models can each have their assault bolters replaced with 1 plasma exterminators."
+  ],
+  "unit_composition": "■ **1 Kill Team Sergeant with Jump Pack**\n■ **2‐9 Kill Team Intercessors with Jump Packs**\n■ **0‐5 Kill Team Heavy Intercessors with Jump Packs**\n\n**The Kill Team Sergeant with Jump Pack is equipped with:** heavy bolt pistol; Astartes chainsword.\n\n**Every Kill Team Intercessor with Jump Pack is equipped with:** heavy bolt pistol; Astartes chainsword.\n\n**Every Kill Team Heavy Intercessor with Jump Pack is equipped with:** assault bolters; close combat weapon.\nModel Name Count Points\nKill Team Sergeant with Jump Pack\nKill Team Intercessor with Jump Pack\nKill Team Heavy Intercessor with Jump Pack\n1\n9\n0\n290\nKill Team Sergeant with Jump Pack\nKill Team Intercessor with Jump Pack\nKill Team Heavy Intercessor with Jump Pack\n1\n2-9\n0-5\n290",
+  "unit_composition_table": [
+    {
+      "model": "Kill Team Sergeant with Jump Pack\nKill Team Intercessor with Jump Pack\nKill Team Heavy Intercessor with Jump Pack",
+      "count": "1\n9\n0",
+      "points": "290"
+    },
+    {
+      "model": "Kill Team Sergeant with Jump Pack\nKill Team Intercessor with Jump Pack\nKill Team Heavy Intercessor with Jump Pack",
+      "count": "1\n2-9\n0-5",
+      "points": "290"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Deathwatch"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Grenades",
+      "Imperium",
+      "Kill Team",
+      "Talonstrike Kill Team"
+    ]
+  },
+  "custom_rules": []
+}

@@ -1,0 +1,192 @@
+{
+  "faction": "Index: Imperial Knights",
+  "faction_id": "Qk9srlBJebM",
+  "datasheet_id": "5DelObJEJP8",
+  "datasheet_name": "Knight Gallant",
+  "url": "https://39k.pro/datasheet/5DelObJEJP8",
+  "miniatures": [
+    {
+      "name": "Knight Gallant",
+      "characteristics": {
+        "M": "12\"",
+        "T": "11",
+        "SV": "3+",
+        "W": "26",
+        "LD": "6+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 5+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Stormspear rocket pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "D6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Ironstorm missile pod",
+      "stats": {
+        "range": "48\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Icarus autocannons",
+      "stats": {
+        "range": "48\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Questoris heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Meltagun",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Reaper chainsword — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "18",
+        "weapon_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Reaper chainsword — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "14",
+        "armour_penetration": "-4",
+        "damage": "6"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "2+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Thunderstrike gauntlet — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "20",
+        "armour_penetration": "-3",
+        "damage": "8"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Gallant’s Duty",
+      "rule": "While a model is affected by this ability, you can re-roll Charge rolls made for that model and each time that model makes a melee attack, you can re-roll the Hit roll."
+    },
+    {
+      "name": "Martial Pride",
+      "rule": "Each time a melee attack targets this model, subtract 1 from the Hit roll."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with one of the following: \n◦ 1 Icarus autocannons\n◦ 1 ironstorm missile pod\n◦ 1 stormspear rocket pod",
+    "■ This model’s meltagun can be replaced with 1 Questoris heavy stubber."
+  ],
+  "unit_composition": "■ **1 Knight Gallant**\n\n**This model is equipped with:** meltagun; thunderstrike gauntlet; reaper chainsword.\nModel Name Count Points\nKnight Gallant\n1\n375",
+  "unit_composition_table": [
+    {
+      "model": "Knight Gallant",
+      "count": "1",
+      "points": "375"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Imperial Knights"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Questoris",
+      "Character",
+      "Imperium",
+      "Knight Gallant"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 5+ (click for extra rules)",
+      "text": "*This model has a 5+ invulnerable save against ranged attacks.*"
+    }
+  ]
+}

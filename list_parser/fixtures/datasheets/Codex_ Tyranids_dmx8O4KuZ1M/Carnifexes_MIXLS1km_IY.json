@@ -1,0 +1,203 @@
+{
+  "faction": "Codex: Tyranids",
+  "faction_id": "dmx8O4KuZ1M",
+  "datasheet_id": "MIXLS1km_IY",
+  "datasheet_name": "Carnifexes",
+  "url": "https://39k.pro/datasheet/MIXLS1km_IY",
+  "miniatures": [
+    {
+      "name": "Carnifexes",
+      "characteristics": {
+        "M": "8\"",
+        "T": "9",
+        "SV": "2+",
+        "W": "8",
+        "LD": "8+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Spine banks",
+      "stats": {
+        "range": "6\"",
+        "attacks": "5",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Bio-plasma",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault",
+        "Blast"
+      ]
+    },
+    {
+      "name": "Stranglethorn cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+1",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Deathspitters with slimer maggots",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Devourers with brainleech worms",
+      "stats": {
+        "range": "18\"",
+        "attacks": "12",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Heavy venom cannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Carnifex scything talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Carnifex crushing claws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Carnifex extra scything talons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Chitinous claws and teeth",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Blistering Assault",
+      "rule": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit lost one or more wounds as a result of those attacks, this unit can make a Blistering Assault move. If it does, roll one D6, adding 2 to the result: each model in this unit can be moved a distance in inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. Each unit can only make one Blistering Assault move per phase."
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each be equipped with 1 bio-plasma.",
+    "■ Any number of models can each have their Carnifex extra scything talons replaced with one of the following:\n◦ 1 deathspitters with slimer maggots\n◦ 1 devourers with brainleech worms\n◦ 1 heavy venom cannon\n◦ 1 stranglethorn cannon\n◦ 1 Carnifex crushing claws",
+    "■ Any number of models can each have their Carnifex scything talons replaced with one of the following:\n◦ 1 deathspitters with slimer maggots\n◦ 1 devourers with brainleech worms\n◦ 1 Carnifex crushing claws",
+    "■ Any number of models can each be equipped with 1 spine banks."
+  ],
+  "unit_composition": "■ **1-2 Carnifexes**\n\n**Every model is equipped with:** Carnifex scything talons; Carnifex extra scything talons; chitinous claws and teeth.\nModel Name Count Points\nCarnifex\n2\n230\nCarnifex\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Carnifex",
+      "count": "2",
+      "points": "230"
+    },
+    {
+      "model": "Carnifex",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Old One Eye",
+      "id": "i7E5jQ3Cfno"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Tyranids"
+    ],
+    "keywords": [
+      "Monster",
+      "Great Devourer",
+      "Carnifexes"
+    ]
+  },
+  "custom_rules": []
+}

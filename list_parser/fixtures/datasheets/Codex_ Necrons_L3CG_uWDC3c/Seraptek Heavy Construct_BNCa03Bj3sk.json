@@ -1,0 +1,130 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "BNCa03Bj3sk",
+  "datasheet_name": "Seraptek Heavy Construct",
+  "url": "https://39k.pro/datasheet/BNCa03Bj3sk",
+  "miniatures": [
+    {
+      "name": "Seraptek Heavy Construct",
+      "characteristics": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "3+",
+        "W": "24",
+        "LD": "7+",
+        "OC": "10"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Transdimensional projector",
+      "stats": {
+        "range": "48\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "24",
+        "armour_penetration": "-4",
+        "damage": "D6+4"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Synaptic obliterator",
+      "stats": {
+        "range": "48\"",
+        "attacks": "8",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 2"
+      ]
+    },
+    {
+      "name": "Singularity generator",
+      "stats": {
+        "range": "36\"",
+        "attacks": "2D6",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "4"
+      },
+      "abilities": [
+        "Blast",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "🠶 Titanic forelimbs — strike",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "5"
+      },
+      "abilities": []
+    },
+    {
+      "name": "🠶 Titanic forelimbs — sweep",
+      "stats": {
+        "range": "Melee",
+        "attacks": "12",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Titanic Walker",
+      "rule": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding **TITANIC** models) and terrain features that are 4\" or less in height as if they were not there."
+    },
+    {
+      "name": "Terrifying Monstrosity",
+      "rule": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+    },
+    {
+      "name": "Deadly Demise D6+2",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s 2 singularity generators can be replaced with 2 synaptic obliterators and 2 transdimensional projectors."
+  ],
+  "unit_composition": "■ **1 Seraptek Heavy Construct**\n\n**This model is equipped with:** 2 singularity generators; titanic forelimbs.\nModel Name Count Points\nSeraptek Heavy Construct\n1\n540",
+  "unit_composition_table": [
+    {
+      "model": "Seraptek Heavy Construct",
+      "count": "1",
+      "points": "540"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Titanic",
+      "Towering",
+      "Seraptek Heavy Construct"
+    ]
+  },
+  "custom_rules": []
+}

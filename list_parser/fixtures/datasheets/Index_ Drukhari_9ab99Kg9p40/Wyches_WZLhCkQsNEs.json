@@ -1,0 +1,114 @@
+{
+  "faction": "Index: Drukhari",
+  "faction_id": "9ab99Kg9p40",
+  "datasheet_id": "WZLhCkQsNEs",
+  "datasheet_name": "Wyches",
+  "url": "https://39k.pro/datasheet/WZLhCkQsNEs",
+  "miniatures": [
+    {
+      "name": "Wyches",
+      "characteristics": {
+        "M": "8\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "1",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable Save: 6+ (click for extra rules)",
+  "ranged_weapons": [
+    {
+      "name": "Splinter pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "2",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 3+",
+        "Assault",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Blast pistol",
+      "stats": {
+        "range": "6\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-4",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Hekatarii blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "3",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "No Escape",
+      "rule": "Each time an enemy unit (excluding **MONSTERS** and **VEHICLES**) within Engagement Range of one or more units from your army with this ability is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests."
+    }
+  ],
+  "wargear_options": [
+    "■ The Hekatrix can be equipped with 1 phantasm grenade launcher.",
+    "■ The Hekatrix’s splinter pistol can be replaced with 1 blast pistol."
+  ],
+  "unit_composition": "■ **1 Hekatrix**\n■ **9 Wyches**\n\n**Every model is equipped with:** splinter pistol; Hekatarii blade.\nModel Name Count Points\nHekatrix\nWych\n1\n9\n80",
+  "unit_composition_table": [
+    {
+      "model": "Hekatrix\nWych",
+      "count": "1\n9",
+      "points": "80"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Lelith Hesperax",
+      "id": "XQb1cy0YzMY"
+    },
+    {
+      "name": "Succubus",
+      "id": "D8O4LmnXJcA"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Drukhari"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Wych Cult",
+      "Aeldari",
+      "Wyches"
+    ]
+  },
+  "custom_rules": [
+    {
+      "title": "Invulnerable Save: 6+ (click for extra rules)",
+      "text": "*The invulnerable save that models in this unit have is improved to a 4+ against melee attacks.*"
+    }
+  ]
+}

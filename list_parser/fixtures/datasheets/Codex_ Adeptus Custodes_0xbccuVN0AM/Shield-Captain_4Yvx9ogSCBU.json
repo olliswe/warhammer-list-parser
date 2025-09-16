@@ -1,0 +1,182 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "4Yvx9ogSCBU",
+  "datasheet_name": "Shield-Captain",
+  "url": "https://39k.pro/datasheet/4Yvx9ogSCBU",
+  "miniatures": [
+    {
+      "name": "Shield-Captain",
+      "characteristics": {
+        "M": "6\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "6",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Castellan axe",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    },
+    {
+      "name": "Pyrithite spear",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Sentinel blade",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Pistol",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Guardian spear",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Castellan axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "9",
+        "armour_penetration": "-1",
+        "damage": "3"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Pyrithite spear",
+      "stats": {
+        "range": "Melee",
+        "attacks": "7",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Sentinel blade",
+      "stats": {
+        "range": "Melee",
+        "attacks": "7",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Guardian spear",
+      "stats": {
+        "range": "Melee",
+        "attacks": "7",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Master of the Stances",
+      "rule": "Once per battle, when this model’s unit is selected to fight, it can use this ability. If it does, until that fight is resolved, both Ka’tah Stances are active for that unit, instead of only one."
+    },
+    {
+      "name": "Strategic Mastery",
+      "rule": "Once per battle round, one unit from your army with this ability can use it when it is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s guardian spear can be replaced with one of the following: \n◦ 1 castellan axe\n◦ 1 sentinel blade\n◦ 1 sentinel blade and 1 praesidium shield\n◦ 1 pyrithite spear and 1 praesidium shield"
+  ],
+  "unit_composition": "■ **1 Shield-Captain**\n\n**This model is equipped with**: guardian spear.\nModel Name Count Points\nShield-Captain\n1\n130",
+  "unit_composition_table": [
+    {
+      "model": "Shield-Captain",
+      "count": "1",
+      "points": "130"
+    }
+  ],
+  "leader": [
+    {
+      "name": "CUSTODIAN GUARD",
+      "id": "JRldwmIQC_Q"
+    },
+    {
+      "name": "CUSTODIAN WARDENS",
+      "id": "HK_cNmhcleI"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Shield-Captain"
+    ]
+  },
+  "custom_rules": []
+}

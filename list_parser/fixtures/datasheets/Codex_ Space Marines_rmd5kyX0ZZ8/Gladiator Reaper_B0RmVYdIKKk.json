@@ -1,0 +1,130 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "B0RmVYdIKKk",
+  "datasheet_name": "Gladiator Reaper",
+  "url": "https://39k.pro/datasheet/B0RmVYdIKKk",
+  "miniatures": [
+    {
+      "name": "Gladiator Reaper",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Ironhail heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Icarus rocket pod",
+      "stats": {
+        "range": "24\"",
+        "attacks": "D3",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-fly 2+"
+      ]
+    },
+    {
+      "name": "Twin heavy onslaught gatling cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Tempest bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "4",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 4"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Reaping Tally",
+      "rule": "This model’s twin heavy onslaught gatling cannon has the **[SUSTAINED HITS 2]** ability when targeting **INFANTRY** units."
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 ironhail heavy stubber.",
+    "■ This model can be equipped with 1 Icarus rocket pod."
+  ],
+  "unit_composition": "■ **1 Gladiator Reaper**\n\n**This model is equipped with:** 2 tempest bolters; twin heavy onslaught gatling cannon; armoured hull.\nModel Name Count Points\nGladiator Reaper\n1\n160",
+  "unit_composition_table": [
+    {
+      "model": "Gladiator Reaper",
+      "count": "1",
+      "points": "160"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Gladiator Reaper"
+    ]
+  },
+  "custom_rules": []
+}

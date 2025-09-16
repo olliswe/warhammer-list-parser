@@ -1,0 +1,104 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "JW-GTwenG3U",
+  "datasheet_name": "Karanak",
+  "url": "https://39k.pro/datasheet/JW-GTwenG3U",
+  "miniatures": [
+    {
+      "name": "Karanak",
+      "characteristics": {
+        "M": "12\"",
+        "T": "4",
+        "SV": "7+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Scalding roar",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Soul-rending fangs",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-character 3+",
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Pack Leader",
+      "rule": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+    },
+    {
+      "name": "Prey of the Blood God",
+      "rule": "At the start of the first battle round, select one enemy unit to be this model’s prey. Each time a model in this model’s unit makes a melee attack that targets its prey, you can re-roll the Wound roll. Each time this model’s prey is destroyed, select one new enemy unit to be this model’s prey."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Karanak – EPIC HERO**\n\n**This model is equipped with:** scalding roar; soul-rending fangs; Brass Collar of Bloody Vengeance.\nModel Name Count Points\nKaranak\n1\n75",
+  "unit_composition_table": [
+    {
+      "model": "Karanak",
+      "count": "1",
+      "points": "75"
+    }
+  ],
+  "leader": [
+    {
+      "name": "FLESH HOUNDS",
+      "id": "8MoV6I4Vdsg"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Beast",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Karanak"
+    ]
+  },
+  "custom_rules": []
+}

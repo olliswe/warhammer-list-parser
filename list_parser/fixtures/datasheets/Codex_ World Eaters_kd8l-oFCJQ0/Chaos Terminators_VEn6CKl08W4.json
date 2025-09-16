@@ -1,0 +1,183 @@
+{
+  "faction": "Codex: World Eaters",
+  "faction_id": "kd8l-oFCJQ0",
+  "datasheet_id": "VEn6CKl08W4",
+  "datasheet_name": "Chaos Terminators",
+  "url": "https://39k.pro/datasheet/VEn6CKl08W4",
+  "miniatures": [
+    {
+      "name": "Chaos Terminators",
+      "characteristics": {
+        "M": "7\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Combi-bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 4"
+      ]
+    },
+    {
+      "name": "Combi-weapon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 4+",
+        "Rapid Fire 1",
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Reaper autocannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Rapid Fire 2",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Accursed weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Chainfist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Anti-vehicle 3+"
+      ]
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Paired accursed weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Bloody Fury",
+      "rule": "Each time a model in this unit makes a ranged attack that targets the closest enemy unit, you can re-roll the Hit roll. Each time this unit declares a charge that targets the closest eligible enemy unit, you can re-roll the Charge roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ For every 5 models in this unit, 1 model’s accursed weapon can be replaced with 1 chainfist.",
+    "■ For every 5 models in this unit, 1 model’s combi-bolter and accursed weapon can be replaced with 1 paired accursed weapons.",
+    "■ For every 5 models in this unit, 1 Chaos Terminator’s combi-bolter can be replaced with one of the following:\n◦ 1 heavy flamer\n◦ 1 reaper autocannon",
+    "■ For every 5 models in this unit, up to 3 models can each have their accursed weapon replaced with 1 power fist.",
+    "■ Any number of models can each have their combi-bolter replaced with 1 combi-weapon."
+  ],
+  "unit_composition": "■ **1 Terminator Champion**\n■ **4-9 Chaos Terminators**\n\n**Every model is equipped with:** combi-bolter; accursed weapon.\nModel Name Count Points\nWorld Eaters Terminator Champion\nWorld Eaters Terminator\n1\n4\n185\nWorld Eaters Terminator Champion\nWorld Eaters Terminator\n1\n5-9\n370",
+  "unit_composition_table": [
+    {
+      "model": "World Eaters Terminator Champion\nWorld Eaters Terminator",
+      "count": "1\n4",
+      "points": "185"
+    },
+    {
+      "model": "World Eaters Terminator Champion\nWorld Eaters Terminator",
+      "count": "1\n5-9",
+      "points": "370"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: World Eaters"
+    ],
+    "keywords": [
+      "Infantry",
+      "Chaos",
+      "Khorne",
+      "Terminator",
+      "Terminator Squad"
+    ]
+  },
+  "custom_rules": []
+}

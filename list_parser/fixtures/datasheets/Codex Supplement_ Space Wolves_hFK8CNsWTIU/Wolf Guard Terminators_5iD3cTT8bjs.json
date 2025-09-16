@@ -1,0 +1,158 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "hFK8CNsWTIU",
+  "datasheet_id": "5iD3cTT8bjs",
+  "datasheet_name": "Wolf Guard Terminators",
+  "url": "https://39k.pro/datasheet/5iD3cTT8bjs",
+  "miniatures": [
+    {
+      "name": "Wolf Guard Terminators",
+      "characteristics": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Assault cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "6",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Master-crafted power weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Relic greataxe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Twin lightning claws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Power fist",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Rugged Resilience",
+      "rule": "Each time an attack targets this unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their storm bolter replaced with 1 storm shield.",
+    "■ The Wolf Guard Terminator Pack Leader’s storm bolter and master‑crafted power weapon can be replaced with 1 of the following:\n◦ 1 relic greataxe\n◦ 1 twin lightning claws",
+    "■ For every 5 models in this unit, 1 Wolf Guard Terminator can replace its storm bolter and master‑crafted power weapon with 1 assault cannon and 1 power fist."
+  ],
+  "unit_composition": "■ **1 Wolf Guard Terminator Pack Leader**\n■ **4-9 Wolf Guard Terminators**\n\n**The Wolf Guard Terminator Pack Leader is equipped with:** storm bolter; master‑crafted power weapon.\n**Every Wolf Guard Terminator is equipped with:** storm bolter; master‑crafted power weapon.\nModel Name Count Points\nWolf Guard Terminator Pack Leader\nWolf Guard Terminator\n1\n5-9\n340\nWolf Guard Terminator\nWolf Guard Terminator Pack Leader\n4\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Wolf Guard Terminator Pack Leader\nWolf Guard Terminator",
+      "count": "1\n5-9",
+      "points": "340"
+    },
+    {
+      "model": "Wolf Guard Terminator\nWolf Guard Terminator Pack Leader",
+      "count": "4\n1",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Arjac Rockfist",
+      "id": "l6DbV__Ckc4"
+    },
+    {
+      "name": "Logan Grimnar",
+      "id": "yrO8tnOFZOA"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Space Wolves"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Terminator",
+      "Wolf Guard",
+      "Wolf Guard Terminators"
+    ]
+  },
+  "custom_rules": []
+}

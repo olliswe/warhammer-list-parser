@@ -1,0 +1,99 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "R-EsemgpULk",
+  "datasheet_name": "C’tan Shard of the Deceiver",
+  "url": "https://39k.pro/datasheet/R-EsemgpULk",
+  "miniatures": [
+    {
+      "name": "C’tan Shard of the Deceiver",
+      "characteristics": {
+        "M": "6\"",
+        "T": "11",
+        "SV": "4+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "6"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Cosmic insanity",
+      "stats": {
+        "range": "18\"",
+        "attacks": "6",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision",
+        "Devastating Wounds",
+        "Anti-character 4+"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Golden fists",
+      "stats": {
+        "range": "Melee",
+        "attacks": "8",
+        "weapon_skill": "2+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Feel No Pain 5+",
+      "rule": ""
+    },
+    {
+      "name": "Grand Illusion",
+      "rule": "If your army includes this model, after both players have deployed their armies, select up to three **NECRONS** units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves."
+    },
+    {
+      "name": "Necrodermis",
+      "rule": "Each time an attack is allocated to this model, halve the Damage characteristic of that attack."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 C’tan Shard of the Deceiver – EPIC HERO**\n\n**This model is equipped with:** cosmic insanity; golden fists.\nModel Name Count Points\nC’tan Shard of the Deceiver\n1\n265",
+  "unit_composition_table": [
+    {
+      "model": "C’tan Shard of the Deceiver",
+      "count": "1",
+      "points": "265"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Monster",
+      "Character",
+      "Epic Hero",
+      "Fly",
+      "C’tan Shard of the Deceiver"
+    ]
+  },
+  "custom_rules": []
+}

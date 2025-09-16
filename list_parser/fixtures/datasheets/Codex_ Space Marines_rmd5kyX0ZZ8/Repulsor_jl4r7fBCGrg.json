@@ -1,0 +1,156 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "jl4r7fBCGrg",
+  "datasheet_name": "Repulsor",
+  "url": "https://39k.pro/datasheet/jl4r7fBCGrg",
+  "miniatures": [
+    {
+      "name": "Repulsor",
+      "characteristics": {
+        "M": "10\"",
+        "T": "12",
+        "SV": "3+",
+        "W": "16",
+        "LD": "6+",
+        "OC": "5"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Heavy onslaught gatling cannon",
+      "stats": {
+        "range": "24\"",
+        "attacks": "12",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds"
+      ]
+    },
+    {
+      "name": "Las-talon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Twin heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Twin lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "Twin-linked"
+      ]
+    },
+    {
+      "name": "Hunter-slayer missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "2+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "One Shot",
+        "Indirect Fire"
+      ]
+    },
+    {
+      "name": "Repulsor defensive array",
+      "stats": {
+        "range": "24\"",
+        "attacks": "18",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Emergency Combat Embarkation",
+      "rule": "Once per turn, in your opponent’s Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move, you can select one **ADEPTUS ASTARTES** unit from your army that was selected as a target of that charge. Provided that unit is not within Engagement Range of any enemy units and every model in that unit is within 3\" of this **TRANSPORT**, it can embark within this **TRANSPORT**. The charging unit can then select new targets for its charge."
+    },
+    {
+      "name": "Deadly Demise D6",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s twin heavy bolter can be replaced with 1 twin lascannon.",
+    "■ This model’s heavy onslaught gatling cannon can be replaced with 1 las-talon."
+  ],
+  "unit_composition": "■ **1 Repulsor**\n\n**This model is equipped with:** heavy onslaught gatling cannon; hunter-slayer missile; Repulsor defensive array; twin heavy bolter; armoured hull.\nModel Name Count Points\nRepulsor\n1\n180",
+  "unit_composition_table": [
+    {
+      "model": "Repulsor",
+      "count": "1",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Transport",
+      "Imperium",
+      "Repulsor"
+    ]
+  },
+  "custom_rules": []
+}

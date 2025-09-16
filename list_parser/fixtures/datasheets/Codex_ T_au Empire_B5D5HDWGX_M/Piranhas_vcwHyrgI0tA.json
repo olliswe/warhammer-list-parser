@@ -1,0 +1,141 @@
+{
+  "faction": "Codex: T’au Empire",
+  "faction_id": "B5D5HDWGX_M",
+  "datasheet_id": "vcwHyrgI0tA",
+  "datasheet_name": "Piranhas",
+  "url": "https://39k.pro/datasheet/vcwHyrgI0tA",
+  "miniatures": [
+    {
+      "name": "Piranhas",
+      "characteristics": {
+        "M": "14\"",
+        "T": "7",
+        "SV": "4+",
+        "W": "7",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Twin pulse carbine",
+      "stats": {
+        "range": "20\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Twin-linked",
+        "Assault"
+      ]
+    },
+    {
+      "name": "Seeker missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    },
+    {
+      "name": "Piranha fusion blaster",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 4"
+      ]
+    },
+    {
+      "name": "Piranha burst cannon",
+      "stats": {
+        "range": "18\"",
+        "attacks": "4",
+        "ballistic_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured hull",
+      "stats": {
+        "range": "Melee",
+        "attacks": "2",
+        "weapon_skill": "5+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Scouts 9\"",
+      "rule": ""
+    },
+    {
+      "name": "Drone Harassment Tactics",
+      "rule": "At the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their Piranha burst cannon can be replaced with 1 Piranha fusion blaster.",
+    "■ Any number of models can each be equipped with up to 2 seeker missiles."
+  ],
+  "unit_composition": "■ **1-3 Piranhas**\n\n**Every model is equipped with:** Piranha burst cannon; 2 twin pulse carbines; armoured hull.\nModel Name Count Points\nPiranha\n1\n60\nPiranha\n2\n120\nPiranha\n3\n180",
+  "unit_composition_table": [
+    {
+      "model": "Piranha",
+      "count": "1",
+      "points": "60"
+    },
+    {
+      "model": "Piranha",
+      "count": "2",
+      "points": "120"
+    },
+    {
+      "model": "Piranha",
+      "count": "3",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: T’au Empire"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Piranhas"
+    ]
+  },
+  "custom_rules": []
+}

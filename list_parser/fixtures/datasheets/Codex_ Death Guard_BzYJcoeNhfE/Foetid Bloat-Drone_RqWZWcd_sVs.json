@@ -1,0 +1,106 @@
+{
+  "faction": "Codex: Death Guard",
+  "faction_id": "BzYJcoeNhfE",
+  "datasheet_id": "RqWZWcd_sVs",
+  "datasheet_name": "Foetid Bloat-Drone",
+  "url": "https://39k.pro/datasheet/RqWZWcd_sVs",
+  "miniatures": [
+    {
+      "name": "Foetid Bloat-Drone",
+      "characteristics": {
+        "M": "10\"",
+        "T": "9",
+        "SV": "3+",
+        "W": "10",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Plaguespitter",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Anti-infantry 2+",
+        "Ignores Cover",
+        "Torrent"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Fleshmower",
+      "stats": {
+        "range": "Melee",
+        "attacks": "10",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    },
+    {
+      "name": "Plague probe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Lethal Hits"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Hovering Death",
+      "rule": "This model is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s fleshmower can be replaced with 2 plaguespitters."
+  ],
+  "unit_composition": "■ **1 Foetid Bloat-drone**\n\n**This model is equipped with:** fleshmower; plague probe.\nModel Name Count Points\nFoetid Bloat-drone\n1\n100",
+  "unit_composition_table": [
+    {
+      "model": "Foetid Bloat-drone",
+      "count": "1",
+      "points": "100"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Death Guard"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Chaos",
+      "Nurgle",
+      "Daemon",
+      "Foetid Bloat-Drone"
+    ]
+  },
+  "custom_rules": []
+}

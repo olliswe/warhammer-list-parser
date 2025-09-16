@@ -1,0 +1,109 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "wGFOtLxWY0k",
+  "datasheet_id": "r_itc36Jw9k",
+  "datasheet_name": "Heldrake",
+  "url": "https://39k.pro/datasheet/r_itc36Jw9k",
+  "miniatures": [
+    {
+      "name": "Heldrake",
+      "characteristics": {
+        "M": "20+\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "14",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Hades autocannon",
+      "stats": {
+        "range": "36\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "8",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Baleflamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "N/A",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Torrent",
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Heldrake claws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Anti-fly 2+"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Hover",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Airborne Predator",
+      "rule": "Each time this model ends a Normal move, you can select one enemy unit that it moved over during that move and roll two D6, adding 1 to each result if that enemy unit can **FLY**: for each 4+, that enemy unit suffers D3 mortal wounds."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s Hades autocannon can be replaced with 1 baleflamer."
+  ],
+  "unit_composition": "■ **1 Heldrake**\n\n**This model is equipped with:** Hades autocannon; Heldrake claws.\nModel Name Count Points\nHeldrake\n1\n195",
+  "unit_composition_table": [
+    {
+      "model": "Heldrake",
+      "count": "1",
+      "points": "195"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Emperor’s Children"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Fly",
+      "Aircraft",
+      "Chaos",
+      "Slaanesh",
+      "Daemon",
+      "Heldrake"
+    ]
+  },
+  "custom_rules": []
+}

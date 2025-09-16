@@ -1,0 +1,128 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "XR_8119DPAs",
+  "datasheet_name": "Tech-Priest Enginseer",
+  "url": "https://39k.pro/datasheet/XR_8119DPAs",
+  "miniatures": [
+    {
+      "name": "Tech-Priest Enginseer",
+      "characteristics": {
+        "M": "6\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Mechanicus pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Servo-arm",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Enginseer axe",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Vengeance for the Omnissiah",
+      "rule": "If a friendly **ASTRA MILITARUM VEHICLE** model is destroyed within 12\" of this model, until the end of the battle, this model’s Enginseer axe has an Attacks characteristic of 6."
+    },
+    {
+      "name": "Omnissiah’s Blessing",
+      "rule": "In your Command phase, select one friendly **ASTRA MILITARUM VEHICLE** model within 3\" of this model. That **VEHICLE** model regains up to D3 lost wounds and, until the start of your next Command phase, that **VEHICLE** model has a 4+ invulnerable save. Each model can only be selected for this ability once per turn."
+    },
+    {
+      "name": "Enginseer",
+      "rule": "While this model is within 3\" of one or more friendly **ASTRA MILITARUM VEHICLE** units, this model has the Lone Operative ability."
+    },
+    {
+      "name": "Leader",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Tech-Priest Enginseer**\n\n**This model is equipped with:** Mechanicus pistol; Enginseer axe; servo-arm.\nModel Name Count Points\nTech-Priest Enginseer\n1\n45",
+  "unit_composition_table": [
+    {
+      "model": "Tech-Priest Enginseer",
+      "count": "1",
+      "points": "45"
+    }
+  ],
+  "leader": [
+    {
+      "name": "CADIAN SHOCK TROOPS",
+      "id": "rdVQilyAxcE"
+    },
+    {
+      "name": "CATACHAN JUNGLE FIGHTERS",
+      "id": "MLymKTZeUvA"
+    },
+    {
+      "name": "DEATH KORPS OF KRIEG",
+      "id": "YOZura4p4cc"
+    },
+    {
+      "name": "KASRKIN",
+      "id": "7OmWQQIAfyw"
+    },
+    {
+      "name": "KRIEG COMBAT ENGINEERS",
+      "id": "6ip3nqW39cI"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Imperium",
+      "Tech-Priest Enginseer"
+    ]
+  },
+  "custom_rules": []
+}

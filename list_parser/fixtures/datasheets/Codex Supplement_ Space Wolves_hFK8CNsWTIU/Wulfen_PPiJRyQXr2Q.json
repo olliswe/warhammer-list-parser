@@ -1,0 +1,90 @@
+{
+  "faction": "Codex Supplement: Space Wolves",
+  "faction_id": "hFK8CNsWTIU",
+  "datasheet_id": "PPiJRyQXr2Q",
+  "datasheet_name": "Wulfen",
+  "url": "https://39k.pro/datasheet/PPiJRyQXr2Q",
+  "miniatures": [
+    {
+      "name": "Wulfen",
+      "characteristics": {
+        "M": "9\"",
+        "T": "6",
+        "SV": "4+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Stormfrag auto-launcher",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Assault",
+        "Blast"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Wulfen weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Savage Frenzy",
+      "rule": "Each time an enemy unit (excluding **MONSTERS** and **VEHICLES**) within Engagement Range of this unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their death totem replaced with 1 stormfrag auto‑launcher."
+  ],
+  "unit_composition": "■ **5-10 Wulfen**\n\n**Every model is equipped with:** Wulfen weapons; death totem.\nModel Name Count Points\nWulfen\n5\n85\nWulfen\n6-10\n170",
+  "unit_composition_table": [
+    {
+      "model": "Wulfen",
+      "count": "5",
+      "points": "85"
+    },
+    {
+      "model": "Wulfen",
+      "count": "6-10",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes",
+      "Space Wolves"
+    ],
+    "keywords": [
+      "Infantry",
+      "Imperium",
+      "Wulfen"
+    ]
+  },
+  "custom_rules": []
+}

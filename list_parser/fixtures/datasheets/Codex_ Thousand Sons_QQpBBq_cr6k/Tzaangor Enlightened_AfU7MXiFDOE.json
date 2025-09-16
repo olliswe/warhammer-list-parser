@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Thousand Sons",
+  "faction_id": "QQpBBq_cr6k",
+  "datasheet_id": "AfU7MXiFDOE",
+  "datasheet_name": "Tzaangor Enlightened",
+  "url": "https://39k.pro/datasheet/AfU7MXiFDOE",
+  "miniatures": [
+    {
+      "name": "Tzaangor Enlightened",
+      "characteristics": {
+        "M": "10\"",
+        "T": "4",
+        "SV": "5+",
+        "W": "2",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Autopistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Chainsword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Precision"
+      ]
+    },
+    {
+      "name": "Divining spear",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lance",
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Prophesied Doom",
+      "rule": "Each time this unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in this unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their divining spear replaced with 1 autopistol and 1 chainsword."
+  ],
+  "unit_composition": "■ **1 Aviarch**\n■ **2-5 Enlightened**\n\n**Every model is equipped with:** divining spear.\nModel Name Count Points\nAviarch\nEnlightened\n1\n2\n50\nAviarch\nEnlightened\n1\n3-5\n80",
+  "unit_composition_table": [
+    {
+      "model": "Aviarch\nEnlightened",
+      "count": "1\n2",
+      "points": "50"
+    },
+    {
+      "model": "Aviarch\nEnlightened",
+      "count": "1\n3-5",
+      "points": "80"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Kaa’skrek",
+      "id": "Uk_tk7HCp0g"
+    },
+    {
+      "name": "Tzaangor Shaman",
+      "id": "ASwo9YvayF8"
+    },
+    {
+      "name": "Exalted Sorcerer on Disc of Tzeentch",
+      "id": "mwtC7c8qtJQ"
+    },
+    {
+      "name": "Ahriman",
+      "id": "NRKIMFyPsCg"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Thousand Sons"
+    ],
+    "keywords": [
+      "Mounted",
+      "Fly",
+      "Chaos",
+      "Tzeentch",
+      "Mutant",
+      "Tzaangor Enlightened"
+    ]
+  },
+  "custom_rules": []
+}

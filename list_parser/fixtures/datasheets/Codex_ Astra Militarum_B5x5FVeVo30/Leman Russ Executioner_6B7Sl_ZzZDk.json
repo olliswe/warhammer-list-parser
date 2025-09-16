@@ -1,0 +1,231 @@
+{
+  "faction": "Codex: Astra Militarum",
+  "faction_id": "B5x5FVeVo30",
+  "datasheet_id": "6B7Sl_ZzZDk",
+  "datasheet_name": "Leman Russ Executioner",
+  "url": "https://39k.pro/datasheet/6B7Sl_ZzZDk",
+  "miniatures": [
+    {
+      "name": "Leman Russ Executioner",
+      "characteristics": {
+        "M": "10\"",
+        "T": "11",
+        "SV": "2+",
+        "W": "13",
+        "LD": "7+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Multi-melta",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    },
+    {
+      "name": "Heavy bolter",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Lascannon",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "12",
+        "armour_penetration": "-3",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Heavy flamer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "D6",
+        "ballistic_skill": "N/A",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Torrent"
+      ]
+    },
+    {
+      "name": "🠶 Plasma cannon — supercharge",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "🠶 Plasma cannon — standard",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "🠶 Executioner plasma cannon — supercharge",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "4+",
+        "strength": "8",
+        "armour_penetration": "-3",
+        "damage": "3"
+      },
+      "abilities": [
+        "Blast",
+        "Hazardous"
+      ]
+    },
+    {
+      "name": "🠶 Executioner plasma cannon — standard",
+      "stats": {
+        "range": "36\"",
+        "attacks": "D6+3",
+        "ballistic_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Blast"
+      ]
+    },
+    {
+      "name": "Heavy stubber",
+      "stats": {
+        "range": "36\"",
+        "attacks": "3",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 3"
+      ]
+    },
+    {
+      "name": "Storm bolter",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Rapid Fire 2"
+      ]
+    },
+    {
+      "name": "Hunter-killer missile",
+      "stats": {
+        "range": "48\"",
+        "attacks": "1",
+        "ballistic_skill": "4+",
+        "strength": "14",
+        "armour_penetration": "-3",
+        "damage": "D6"
+      },
+      "abilities": [
+        "One Shot"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Armoured tracks",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "4+",
+        "strength": "7",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Gung-ho Executioners",
+      "rule": "Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+    }
+  ],
+  "wargear_options": [
+    "■ This model can be equipped with 1 hunter-killer missile.",
+    "■ This model can be equipped with one of the following: \n◦ 2 heavy bolters\n◦ 2 heavy flamers\n◦ 2 multi-meltas\n◦ 2 plasma cannons",
+    "■ This model can be equipped with one of the following: \n◦ 1 heavy stubber\n◦ 1 storm bolter",
+    "■ This model’s lascannon can be replaced with one of the following: \n◦ 1 heavy bolter\n◦ 1 heavy flamer"
+  ],
+  "unit_composition": "■ **1 Leman Russ Executioner**\n\n**This model is equipped with:** executioner plasma cannon; lascannon; armoured tracks.\nModel Name Count Points\nLeman Russ Executioner\n1\n170",
+  "unit_composition_table": [
+    {
+      "model": "Leman Russ Executioner",
+      "count": "1",
+      "points": "170"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Astra Militarum"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Smoke",
+      "Imperium",
+      "Squadron",
+      "Leman Russ Executioner"
+    ]
+  },
+  "custom_rules": []
+}

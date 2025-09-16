@@ -1,0 +1,88 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "AdIcdixjyR8",
+  "datasheet_name": "Skulltaker",
+  "url": "https://39k.pro/datasheet/AdIcdixjyR8",
+  "miniatures": [
+    {
+      "name": "Skulltaker",
+      "characteristics": {
+        "M": "8\"",
+        "T": "4",
+        "SV": "4+",
+        "W": "5",
+        "LD": "7+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "The Slayer Sword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Precision",
+        "Devastating Wounds"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Skulls for Khorne",
+      "rule": "Each time this model makes an attack that targets a **CHARACTER** unit, you can re-roll the Hit roll and you can re-roll the Wound roll. Each time this model destroys an enemy **CHARACTER** unit, you gain 1CP."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Lord of Decapitations",
+      "rule": "While this model is leading a unit, melee weapons equipped by models in that unit have the **[DEVASTATING WOUNDS]** ability."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Skulltaker – EPIC HERO**\n\n**This model is equipped with:** the Slayer Sword.\nModel Name Count Points\nSkulltaker\n1\n85",
+  "unit_composition_table": [
+    {
+      "model": "Skulltaker",
+      "count": "1",
+      "points": "85"
+    }
+  ],
+  "leader": [
+    {
+      "name": "BLOODLETTERS",
+      "id": "J3IZIAf3bc4"
+    }
+  ],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Chaos",
+      "Daemon",
+      "Khorne",
+      "Skulltaker"
+    ]
+  },
+  "custom_rules": []
+}

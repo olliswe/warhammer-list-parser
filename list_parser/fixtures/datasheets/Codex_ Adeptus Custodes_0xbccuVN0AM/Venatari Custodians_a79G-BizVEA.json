@@ -1,0 +1,113 @@
+{
+  "faction": "Codex: Adeptus Custodes",
+  "faction_id": "0xbccuVN0AM",
+  "datasheet_id": "a79G-BizVEA",
+  "datasheet_name": "Venatari Custodians",
+  "url": "https://39k.pro/datasheet/a79G-BizVEA",
+  "miniatures": [
+    {
+      "name": "Venatari Custodians",
+      "characteristics": {
+        "M": "10\"",
+        "T": "6",
+        "SV": "2+",
+        "W": "3",
+        "LD": "6+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Kinetic destroyer",
+      "stats": {
+        "range": "12\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Sustained Hits 1"
+      ]
+    },
+    {
+      "name": "Venatari lance",
+      "stats": {
+        "range": "24\"",
+        "attacks": "2",
+        "ballistic_skill": "2+",
+        "strength": "4",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Assault"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Venatari lance",
+      "stats": {
+        "range": "Melee",
+        "attacks": "5",
+        "weapon_skill": "2+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Lance"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Swooping Dive",
+      "rule": "Once per battle, you can target this unit with the Rapid Ingress Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+    },
+    {
+      "name": "Strike from the Skies",
+      "rule": "This unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    }
+  ],
+  "wargear_options": [
+    "■ Any number of models can each have their Venatari lance replaced with 1 kinetic destroyer and 1 tarsus buckler."
+  ],
+  "unit_composition": "■ **3-6 Venatari Custodians**\n\n**Every model is equipped with:** Venatari lance.\nModel Name Count Points\nVenatari Custodian\n4-6\n330\nVenatari Custodian\n3\n165",
+  "unit_composition_table": [
+    {
+      "model": "Venatari Custodian",
+      "count": "4-6",
+      "points": "330"
+    },
+    {
+      "model": "Venatari Custodian",
+      "count": "3",
+      "points": "165"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Custodes"
+    ],
+    "keywords": [
+      "Infantry",
+      "Fly",
+      "Jump Pack",
+      "Imperium",
+      "Venatari Custodians"
+    ]
+  },
+  "custom_rules": []
+}

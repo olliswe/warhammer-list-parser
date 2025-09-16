@@ -1,0 +1,123 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "wGFOtLxWY0k",
+  "datasheet_id": "koaZrRHnwes",
+  "datasheet_name": "Sorcerer",
+  "url": "https://39k.pro/datasheet/koaZrRHnwes",
+  "miniatures": [
+    {
+      "name": "Sorcerer",
+      "characteristics": {
+        "M": "7\"",
+        "T": "4",
+        "SV": "3+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "🠶 Agonising Energies — witchfire",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    },
+    {
+      "name": "🠶 Agonising Energies — focused witchfire",
+      "stats": {
+        "range": "18\"",
+        "attacks": "D6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Devastating Wounds",
+        "Hazardous",
+        "Psychic"
+      ]
+    },
+    {
+      "name": "Bolt pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "1",
+        "ballistic_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Force weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "D3"
+      },
+      "abilities": [
+        "Psychic"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Leader",
+      "rule": ""
+    },
+    {
+      "name": "Warped Interference",
+      "rule": "While this model is leading a unit, each time a ranged attack targets that unit, models in it have the Benefit of Cover against that attack."
+    },
+    {
+      "name": "Wracking Agonies",
+      "rule": "In your Shooting phase, after this model has shot, select one **INFANTRY** unit hit by one or more of those attacks made with its Agonising Energies. Until the start of your next turn, that unit is wracked with agonies. While a unit is wracked with agonies, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Sorcerer**\n\n**This model is equipped with:** Agonising Energies; bolt pistol; force weapon.\nModel Name Count Points\nSorcerer\n1\n60",
+  "unit_composition_table": [
+    {
+      "model": "Sorcerer",
+      "count": "1",
+      "points": "60"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Emperor’s Children"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Psyker",
+      "Grenades",
+      "Chaos",
+      "Slaanesh",
+      "Sorcerer"
+    ]
+  },
+  "custom_rules": []
+}

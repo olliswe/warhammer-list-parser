@@ -1,0 +1,69 @@
+{
+  "faction": "Codex: Space Marines",
+  "faction_id": "rmd5kyX0ZZ8",
+  "datasheet_id": "ZBb3y1E8Tug",
+  "datasheet_name": "Drop Pod",
+  "url": "https://39k.pro/datasheet/ZBb3y1E8Tug",
+  "miniatures": [
+    {
+      "name": "Drop Pod",
+      "characteristics": {
+        "M": "-",
+        "T": "7",
+        "SV": "3+",
+        "W": "8",
+        "LD": "6+",
+        "OC": "0"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [],
+  "abilities": [
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    },
+    {
+      "name": "Deadly Demise 1",
+      "rule": ""
+    },
+    {
+      "name": "Drop Pod Assault",
+      "rule": "This model must start the battle in Reserves and can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models."
+    },
+    {
+      "name": "Combat Disembarkation",
+      "rule": "Each time a unit disembarks from this model after it has been set up on the battlefield, that unit is still eligible to declare a charge this turn."
+    },
+    {
+      "name": "Deployment Complete",
+      "rule": "Once this unit is set up on the battlefield and all units within it have disembarked, until the end of the battle, units cannot embark within this **TRANSPORT.**"
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Drop Pod**\nModel Name Count Points\nDrop Pod\n1\n70",
+  "unit_composition_table": [
+    {
+      "model": "Drop Pod",
+      "count": "1",
+      "points": "70"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Adeptus Astartes"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Transport",
+      "Dedicated Transport",
+      "Imperium",
+      "Drop Pod"
+    ]
+  },
+  "custom_rules": []
+}

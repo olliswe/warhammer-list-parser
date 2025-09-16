@@ -1,0 +1,76 @@
+{
+  "faction": "Codex: Necrons",
+  "faction_id": "L3CG_uWDC3c",
+  "datasheet_id": "K2iAo5E-Hck",
+  "datasheet_name": "Skorpekh Destroyers",
+  "url": "https://39k.pro/datasheet/K2iAo5E-Hck",
+  "miniatures": [
+    {
+      "name": "Skorpekh Destroyers",
+      "characteristics": {
+        "M": "8\"",
+        "T": "6",
+        "SV": "3+",
+        "W": "3",
+        "LD": "7+",
+        "OC": "2"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Skorpekh hyperphase weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Whirling Onslaught",
+      "rule": "Each time a model in this unit makes a melee attack, re-roll a Hit roll of 1. If this unit made a Charge move this turn, you can re-roll the Hit roll instead."
+    }
+  ],
+  "wargear_options": [
+    "■ For every 3 models in this unit, this unit can have 1 Plasmacyte."
+  ],
+  "unit_composition": "■ **3-6 Skorpekh Destroyers**\n\n**Every model is equipped with:** Skorpekh hyperphase weapons.\nModel Name Count Points\nSkorpekh Destroyer\n3\n90\nSkorpekh Destroyer\n4-6\n180",
+  "unit_composition_table": [
+    {
+      "model": "Skorpekh Destroyer",
+      "count": "3",
+      "points": "90"
+    },
+    {
+      "model": "Skorpekh Destroyer",
+      "count": "4-6",
+      "points": "180"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Skorpekh Lord",
+      "id": "TESTNXy_aHI"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Necrons"
+    ],
+    "keywords": [
+      "Infantry",
+      "Destroyer Cult",
+      "Skorpekh Destroyers"
+    ]
+  },
+  "custom_rules": []
+}

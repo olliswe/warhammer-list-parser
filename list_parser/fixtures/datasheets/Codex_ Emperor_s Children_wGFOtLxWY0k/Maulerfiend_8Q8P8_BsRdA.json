@@ -1,0 +1,102 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "wGFOtLxWY0k",
+  "datasheet_id": "8Q8P8_BsRdA",
+  "datasheet_name": "Maulerfiend",
+  "url": "https://39k.pro/datasheet/8Q8P8_BsRdA",
+  "miniatures": [
+    {
+      "name": "Maulerfiend",
+      "characteristics": {
+        "M": "10\"",
+        "T": "10",
+        "SV": "3+",
+        "W": "12",
+        "LD": "6+",
+        "OC": "3"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 5+",
+  "ranged_weapons": [
+    {
+      "name": "Magma cutters",
+      "stats": {
+        "range": "6\"",
+        "attacks": "2",
+        "ballistic_skill": "3+",
+        "strength": "9",
+        "armour_penetration": "-4",
+        "damage": "D6"
+      },
+      "abilities": [
+        "Melta 2"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Lasher tendrils",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "7",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Extra Attacks"
+      ]
+    },
+    {
+      "name": "Maulerfiend fists",
+      "stats": {
+        "range": "Melee",
+        "attacks": "6",
+        "weapon_skill": "3+",
+        "strength": "14",
+        "armour_penetration": "-2",
+        "damage": "D6+1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Deadly Demise D3",
+      "rule": ""
+    },
+    {
+      "name": "Glutton for Punishment",
+      "rule": "Each time this model makes an attack, if it is below its Starting Strength, add 1 to the Hit roll. If this model is also Below Half-strength, add 1 to the Wound roll as well."
+    }
+  ],
+  "wargear_options": [
+    "■ This model’s lasher tendrils can be replaced with 2 magma cutters."
+  ],
+  "unit_composition": "■ **1 Maulerfiend**\n\n**This model is equipped with:** lasher tendrils; Maulerfiend fists.\nModel Name Count Points\nMaulerfiend\n1\n130",
+  "unit_composition_table": [
+    {
+      "model": "Maulerfiend",
+      "count": "1",
+      "points": "130"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Emperor’s Children"
+    ],
+    "keywords": [
+      "Vehicle",
+      "Walker",
+      "Chaos",
+      "Slaanesh",
+      "Daemon",
+      "Maulerfiend"
+    ]
+  },
+  "custom_rules": []
+}

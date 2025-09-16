@@ -1,0 +1,84 @@
+{
+  "faction": "Codex: Aeldari",
+  "faction_id": "Kaqw8u3NjVE",
+  "datasheet_id": "b9SRb5scluc",
+  "datasheet_name": "Solitaire",
+  "url": "https://39k.pro/datasheet/b9SRb5scluc",
+  "miniatures": [
+    {
+      "name": "Solitaire",
+      "characteristics": {
+        "M": "12\"",
+        "T": "3",
+        "SV": "6+",
+        "W": "4",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [],
+  "melee_weapons": [
+    {
+      "name": "Solitaire weapons",
+      "stats": {
+        "range": "Melee",
+        "attacks": "9",
+        "weapon_skill": "2+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "2"
+      },
+      "abilities": [
+        "Precision"
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Lone Operative",
+      "rule": ""
+    },
+    {
+      "name": "Blur of Movement",
+      "rule": "This model is eligible to declare a charge in a turn in which it Advanced."
+    },
+    {
+      "name": "Fights First",
+      "rule": ""
+    },
+    {
+      "name": "Blitz",
+      "rule": "Once per battle, in your Movement phase, before this model makes a Normal move, it can use this ability. If it does, until the end of the turn, add 2D6\" to this model’s Move characteristic and add 3 to the Attacks characteristic of this model’s Solitaire weapons."
+    },
+    {
+      "name": "Stealth",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **1 Solitaire – EPIC HERO**\n\n**This model is equipped with:** Solitaire weapons, flip belt.\nModel Name Count Points\nSolitaire\n1\n115",
+  "unit_composition_table": [
+    {
+      "model": "Solitaire",
+      "count": "1",
+      "points": "115"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Harlequins"
+    ],
+    "keywords": [
+      "Infantry",
+      "Character",
+      "Epic Hero",
+      "Aeldari",
+      "Solitaire"
+    ]
+  },
+  "custom_rules": []
+}

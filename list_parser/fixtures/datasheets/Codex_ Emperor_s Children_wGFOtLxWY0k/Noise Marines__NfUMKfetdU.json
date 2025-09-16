@@ -1,0 +1,138 @@
+{
+  "faction": "Codex: Emperor’s Children",
+  "faction_id": "wGFOtLxWY0k",
+  "datasheet_id": "_NfUMKfetdU",
+  "datasheet_name": "Noise Marines",
+  "url": "https://39k.pro/datasheet/_NfUMKfetdU",
+  "miniatures": [
+    {
+      "name": "Noise Marines",
+      "characteristics": {
+        "M": "6\"",
+        "T": "5",
+        "SV": "3+",
+        "W": "2",
+        "LD": "6+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "",
+  "ranged_weapons": [
+    {
+      "name": "Screamer pistol",
+      "stats": {
+        "range": "12\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Ignores Cover",
+        "Pistol"
+      ]
+    },
+    {
+      "name": "Sonic blaster",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-1",
+        "damage": "2"
+      },
+      "abilities": [
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "🠶 Blastmaster — single frequency",
+      "stats": {
+        "range": "18\"",
+        "attacks": "3",
+        "ballistic_skill": "3+",
+        "strength": "10",
+        "armour_penetration": "-2",
+        "damage": "3"
+      },
+      "abilities": [
+        "Ignores Cover"
+      ]
+    },
+    {
+      "name": "🠶 Blastmaster — varied frequency",
+      "stats": {
+        "range": "18\"",
+        "attacks": "6",
+        "ballistic_skill": "3+",
+        "strength": "6",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": [
+        "Ignores Cover"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Close combat weapon",
+      "stats": {
+        "range": "Melee",
+        "attacks": "3",
+        "weapon_skill": "3+",
+        "strength": "4",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    },
+    {
+      "name": "Power sword",
+      "stats": {
+        "range": "Melee",
+        "attacks": "4",
+        "weapon_skill": "3+",
+        "strength": "5",
+        "armour_penetration": "-2",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Terrifying Crescendo",
+      "rule": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, each time a Battle-shock or Leadership test is taken for that enemy unit, subtract 1 from that test."
+    }
+  ],
+  "wargear_options": [
+    "■ Up to 2 Noise Marines can each replace their sonic blaster with 1 blastmaster.",
+    "■ The Disharmonist’s sonic blaster can be replaced with 1 screamer pistol and 1 power sword."
+  ],
+  "unit_composition": "■ **1 Disharmonist**\n■ **5 Noise Marines**\n\n**Every model is equipped with:** sonic blaster; close combat weapon.\nModel Name Count Points\nDisharmonist\nNoise Marine\n1\n5\n145",
+  "unit_composition_table": [
+    {
+      "model": "Disharmonist\nNoise Marine",
+      "count": "1\n5",
+      "points": "145"
+    }
+  ],
+  "leader": [],
+  "led_by": [],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Emperor’s Children"
+    ],
+    "keywords": [
+      "Infantry",
+      "Chaos",
+      "Slaanesh",
+      "Noise Marines"
+    ]
+  },
+  "custom_rules": []
+}

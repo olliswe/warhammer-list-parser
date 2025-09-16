@@ -1,0 +1,110 @@
+{
+  "faction": "Index: Chaos Daemons",
+  "faction_id": "jjeTuQ-AQDc",
+  "datasheet_id": "oocHh69XB6Q",
+  "datasheet_name": "Blue Horrors",
+  "url": "https://39k.pro/datasheet/oocHh69XB6Q",
+  "miniatures": [
+    {
+      "name": "Blue Horrors",
+      "characteristics": {
+        "M": "6\"",
+        "T": "3",
+        "SV": "7+",
+        "W": "1",
+        "LD": "8+",
+        "OC": "1"
+      }
+    }
+  ],
+  "invulnerable_save": "Invulnerable save: 4+",
+  "ranged_weapons": [
+    {
+      "name": "Coruscating blue flames",
+      "stats": {
+        "range": "18\"",
+        "attacks": "2",
+        "ballistic_skill": "4+",
+        "strength": "3",
+        "armour_penetration": "-1",
+        "damage": "1"
+      },
+      "abilities": [
+        "Pistol",
+        "Psychic"
+      ]
+    }
+  ],
+  "melee_weapons": [
+    {
+      "name": "Blue claws",
+      "stats": {
+        "range": "Melee",
+        "attacks": "1",
+        "weapon_skill": "5+",
+        "strength": "3",
+        "armour_penetration": "0",
+        "damage": "1"
+      },
+      "abilities": []
+    }
+  ],
+  "abilities": [
+    {
+      "name": "Sullen Malevolence",
+      "rule": "While an enemy unit is within 6\" of this unit, if this unit contains one or more **BLUE HORROR** models, worsen the Leadership characteristic of models in that enemy unit by 1."
+    },
+    {
+      "name": "Exploding Horrors",
+      "rule": "Each time this unit is selected to fight, you can select one enemy unit within Engagement Range of it, then select one or more **BRIMSTONE HORROR** models in this unit. For each **BRIMSTONE HORROR** model you select, roll one D6: on a 4+, that model is destroyed and that enemy unit suffers 1 mortal wound."
+    },
+    {
+      "name": "Infiltrators",
+      "rule": ""
+    },
+    {
+      "name": "Split",
+      "rule": "Each time a **BLUE HORROR** model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, add one **BRIMSTONE HORROR** model to this unit."
+    },
+    {
+      "name": "Deep Strike",
+      "rule": ""
+    }
+  ],
+  "wargear_options": [],
+  "unit_composition": "■ **10 Blue Horrors**\n\n**Every Blue Horror is equipped with:** Coruscating Blue Flames; blue claws.\n**Every Brimstone Horror added to this unit using the Split ability is equipped with:** Coruscating Yellow Flames; yellow claws.\nModel Name Count Points\nBlue Horror\nBrimstone Horror\n10\n0\n125",
+  "unit_composition_table": [
+    {
+      "model": "Blue Horror\nBrimstone Horror",
+      "count": "10\n0",
+      "points": "125"
+    }
+  ],
+  "leader": [],
+  "led_by": [
+    {
+      "name": "Changecaster",
+      "id": "pGFbwcKSxxs"
+    },
+    {
+      "name": "Fluxmaster",
+      "id": "w9-qhz18nsI"
+    }
+  ],
+  "keywords": {
+    "faction_keywords": [
+      "Faction: Legiones Daemonica"
+    ],
+    "keywords": [
+      "Infantry",
+      "Battleline",
+      "Chaos",
+      "Daemon",
+      "Tzeentch",
+      "Horrors",
+      "Blue",
+      "Brimstone"
+    ]
+  },
+  "custom_rules": []
+}
