@@ -8,11 +8,15 @@ def detect_entities(army_list: str):
     Returns a list of detected entities with their details.
     """
     possible_faction = detect_factions(army_list)
-    possible_detachment = find_detachment_for_list(army_list, possible_faction[0]["faction_id"])
+    possible_detachments = []
+    for f in possible_faction:
+        det = find_detachment_for_list(army_list, f["faction_id"])
+        possible_detachments.append(det)
+    best_det = max(possible_detachments, key=lambda d: d["score"]) if possible_detachments else None
     datasheets = detect_datasheets(army_list, [f["faction_id"] for f in possible_faction])
     detected_entities = {
         "factions": possible_faction,
-        "detachment": possible_detachment,
+        "detachment": best_det,
         "datasheets": datasheets
     }
 
