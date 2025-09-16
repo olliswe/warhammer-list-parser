@@ -548,19 +548,23 @@
         const STORAGE_KEY = 'warhammer_saved_lists';
         let currentParsedData = null;
 
-        // Check if we have list data from URL parameters
+        // Check if we have list ID from URL parameters
         document.addEventListener('DOMContentLoaded', function() {
             const urlParams = new URLSearchParams(window.location.search);
-            const listData = urlParams.get('list');
-            const listName = urlParams.get('name');
+            const listId = urlParams.get('listId');
             
-            if (listData) {
-                document.getElementById('armyList').value = decodeURIComponent(listData);
-                if (listName) {
-                    document.getElementById('listName').value = decodeURIComponent(listName);
+            if (listId !== null) {
+                const savedLists = getSavedLists();
+                const listIndex = parseInt(listId);
+                
+                if (listIndex >= 0 && listIndex < savedLists.length) {
+                    const list = savedLists[listIndex];
+                    document.getElementById('armyList').value = list.rawText;
+                    document.getElementById('listName').value = list.name;
+                    
+                    // Automatically parse the list
+                    document.getElementById('armyListForm').dispatchEvent(new Event('submit'));
                 }
-                // Automatically parse the list
-                document.getElementById('armyListForm').dispatchEvent(new Event('submit'));
             }
         });
 

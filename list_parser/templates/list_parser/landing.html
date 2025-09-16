@@ -250,12 +250,11 @@
 
         function openList(listName) {
             const savedLists = getSavedLists();
-            const list = savedLists.find(l => l.name === listName);
+            const listIndex = savedLists.findIndex(l => l.name === listName);
             
-            if (list) {
-                // Navigate to parse page with the list data in URL parameters
-                const encodedText = encodeURIComponent(list.rawText);
-                window.location.href = `/parse/?list=${encodedText}&name=${encodeURIComponent(list.name)}`;
+            if (listIndex !== -1) {
+                // Navigate to parse page with just the list index
+                window.location.href = `/parse/?listId=${listIndex}`;
             }
         }
 
