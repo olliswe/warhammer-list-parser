@@ -9,6 +9,9 @@ from .utils.main import detect_entities
 from .utils.shared_utils import faction_id_to_url, detachment_id_to_url, datasheet_id_to_url
 
 def index(request):
+    return render(request, 'list_parser/landing.html')
+
+def parse(request):
     return render(request, 'list_parser/index.html')
 
 def sanitized_response(entities):

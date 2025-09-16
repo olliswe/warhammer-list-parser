@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer Army List Parser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .create-new {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+        }
+        .btn-secondary:hover {
+            background-color: #545b62;
+        }
+        .btn-danger {
+            background-color: #dc3545;
+        }
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+        .saved-lists {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .list-card {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .list-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .list-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .list-preview {
+            font-family: monospace;
+            font-size: 13px;
+            color: #666;
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            border-left: 4px solid #007bff;
+            margin-bottom: 15px;
+            max-height: 120px;
+            overflow: hidden;
+            position: relative;
+        }
+        .list-preview::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: linear-gradient(transparent, white);
+        }
+        .list-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .list-actions {
+            display: flex;
+            gap: 10px;
+        }
+        .btn-small {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+        .empty-state {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            padding: 40px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 2px dashed #dee2e6;
+        }
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+            opacity: 0.5;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            .saved-lists {
+                grid-template-columns: 1fr;
+            }
+            .list-actions {
+                flex-direction: column;
+            }
+            .btn {
+                padding: 12px 20px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Warhammer Army List Parser</h1>
+        
+        <div class="create-new">
+            <a href="/parse/" class="btn">Parse New Army List</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Saved Army Lists</h2>
+        
+        <div id="saved-lists-container">
+            <div class="empty-state">
+                <div class="empty-state-icon">📋</div>
+                <p>No saved army lists yet.</p>
+                <p>Create your first list to get started!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // LocalStorage key for saved lists
+        const STORAGE_KEY = 'warhammer_saved_lists';
+
+        // Load and display saved lists on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSavedLists();
+        });
+
+        function loadSavedLists() {
+            const savedLists = getSavedLists();
+            const container = document.getElementById('saved-lists-container');
+            
+            if (savedLists.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📋</div>
+                        <p>No saved army lists yet.</p>
+                        <p>Create your first list to get started!</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Sort lists by most recent first
+            savedLists.sort((a, b) => new Date(b.savedAt) - new Date(a.savedAt));
+
+            const listsGrid = document.createElement('div');
+            listsGrid.className = 'saved-lists';
+            
+            savedLists.forEach((list, index) => {
+                const listCard = createListCard(list, index);
+                listsGrid.appendChild(listCard);
+            });
+            
+            container.innerHTML = '';
+            container.appendChild(listsGrid);
+        }
+
+        function createListCard(list, index) {
+            const card = document.createElement('div');
+            card.className = 'list-card';
+            
+            // Extract first few lines for preview
+            const lines = list.rawText.split('\n').filter(line => line.trim() !== '');
+            const previewLines = lines.slice(0, 6).join('\n');
+            const truncatedPreview = previewLines.length > 200 ? previewLines.substring(0, 200) + '...' : previewLines;
+            
+            card.innerHTML = `
+                <div class="list-name">${list.name}</div>
+                <div class="list-preview">${truncatedPreview}</div>
+                <div class="list-meta">
+                    <span>Saved: ${new Date(list.savedAt).toLocaleDateString()}</span>
+                    <span>${list.rawText.split('\n').length} lines</span>
+                </div>
+                <div class="list-actions">
+                    <button class="btn btn-small" onclick="openList('${list.name.replace(/'/g, "\\'")}')">Open & Parse</button>
+                    <button class="btn btn-secondary btn-small" onclick="editListName('${list.name.replace(/'/g, "\\'")}')">Rename</button>
+                    <button class="btn btn-danger btn-small" onclick="deleteList('${list.name.replace(/'/g, "\\'")}')">Delete</button>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function getSavedLists() {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            return saved ? JSON.parse(saved) : [];
+        }
+
+        function saveLists(lists) {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(lists));
+        }
+
+        function openList(listName) {
+            const savedLists = getSavedLists();
+            const list = savedLists.find(l => l.name === listName);
+            
+            if (list) {
+                // Navigate to parse page with the list data in URL parameters
+                const encodedText = encodeURIComponent(list.rawText);
+                window.location.href = `/parse/?list=${encodedText}&name=${encodeURIComponent(list.name)}`;
+            }
+        }
+
+        function editListName(listName) {
+            const savedLists = getSavedLists();
+            const listIndex = savedLists.findIndex(l => l.name === listName);
+            
+            if (listIndex !== -1) {
+                const list = savedLists[listIndex];
+                const newName = prompt('Enter new name for the list:', list.name);
+                if (newName && newName.trim()) {
+                    list.name = newName.trim();
+                    saveLists(savedLists);
+                    loadSavedLists();
+                }
+            }
+        }
+
+        function deleteList(listName) {
+            const savedLists = getSavedLists();
+            const listIndex = savedLists.findIndex(l => l.name === listName);
+            
+            if (listIndex !== -1 && confirm(`Are you sure you want to delete "${listName}"?`)) {
+                savedLists.splice(listIndex, 1);
+                saveLists(savedLists);
+                loadSavedLists();
+            }
+        }
+
+        // Export function for use by other pages
+        window.WarhammerListStorage = {
+            saveList: function(name, rawText, parsedData) {
+                const savedLists = getSavedLists();
+                const newList = {
+                    name: name,
+                    rawText: rawText,
+                    parsedData: parsedData,
+                    savedAt: new Date().toISOString()
+                };
+                
+                // Check if list with same name exists
+                const existingIndex = savedLists.findIndex(list => list.name === name);
+                if (existingIndex !== -1) {
+                    // Update existing list
+                    savedLists[existingIndex] = newList;
+                } else {
+                    // Add new list
+                    savedLists.push(newList);
+                }
+                
+                saveLists(savedLists);
+                return true;
+            },
+            
+            getSavedLists: getSavedLists,
+            
+            deleteList: function(index) {
+                const savedLists = getSavedLists();
+                if (index >= 0 && index < savedLists.length) {
+                    savedLists.splice(index, 1);
+                    saveLists(savedLists);
+                    return true;
+                }
+                return false;
+            }
+        };
+    </script>
+</body>
+</html>

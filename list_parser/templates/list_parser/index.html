@@ -25,7 +25,34 @@
         }
         .form-group {
             margin-bottom: 20px;
-
+            transition: all 0.3s ease;
+        }
+        .form-group.collapsed .textarea-container {
+            max-height: 60px;
+            overflow: hidden;
+        }
+        .form-group.collapsed textarea {
+            min-height: 40px;
+            resize: none;
+        }
+        .textarea-container {
+            position: relative;
+        }
+        .expand-toggle {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            color: #666;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            margin-top: 10px;
+            display: none;
+            width: 100%;
+            text-align: center;
+        }
+        .expand-toggle:hover {
+            background: #e9ecef;
         }
         label {
             display: block;
@@ -440,12 +467,25 @@
     <div class="container">
         <h1>Warhammer Army List Parser</h1>
         
+        <div style="text-align: center; margin-bottom: 20px;">
+            <a href="/" style="color: #007bff; text-decoration: none; font-size: 14px;">← Back to Saved Lists</a>
+        </div>
+        
         <form id="armyListForm">
-            <div class="form-group">
+            <div class="form-group" id="armyListGroup">
                 <label for="armyList">Army List Text:</label>
-                <textarea id="armyList" name="army_list" placeholder="Paste your army list here..." required></textarea>
+                <div class="textarea-container">
+                    <textarea id="armyList" name="army_list" placeholder="Paste your army list here..." required></textarea>
+                </div>
+                <button type="button" class="expand-toggle" id="expandToggle" onclick="toggleTextAreaExpansion()">Show Full Text</button>
             </div>
-            <button type="submit" id="submitBtn">Parse Army List</button>
+            <div class="form-group">
+                <label for="listName">List Name (optional):</label>
+                <input type="text" id="listName" name="list_name" placeholder="Enter a name for this list..." style="width: 100%; padding: 12px; border: 2px solid #ddd; border-radius: 4px; font-size: 14px;">
+            </div>
+            <div style="display: flex; gap: 10px; align-items: center;">
+                <button type="submit" id="submitBtn">Parse Army List</button>
+            </div>
         </form>
 
         <div id="loading" class="loading" style="display: none;">
@@ -504,6 +544,26 @@
     </div>
 
     <script>
+        // LocalStorage key for saved lists
+        const STORAGE_KEY = 'warhammer_saved_lists';
+        let currentParsedData = null;
+
+        // Check if we have list data from URL parameters
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const listData = urlParams.get('list');
+            const listName = urlParams.get('name');
+            
+            if (listData) {
+                document.getElementById('armyList').value = decodeURIComponent(listData);
+                if (listName) {
+                    document.getElementById('listName').value = decodeURIComponent(listName);
+                }
+                // Automatically parse the list
+                document.getElementById('armyListForm').dispatchEvent(new Event('submit'));
+            }
+        });
+
         // Mobile modal functions
         function isMobile() {
             return window.innerWidth <= 768;
@@ -573,12 +633,21 @@
                     throw new Error(data.error || 'An error occurred');
                 }
                 
+                // Store parsed data for saving
+                currentParsedData = data;
+                
                 // Display results
                 displayFactions(data.factions);
                 displayDetachment(data.detachment);
                 displayDatasheets(data.datasheets);
                 
                 results.style.display = 'block';
+                
+                // Automatically save the list
+                autoSaveList(armyList, data);
+                
+                // Collapse the text area after parsing
+                collapseTextArea();
                 
             } catch (err) {
                 error.textContent = err.message;
@@ -588,6 +657,118 @@
                 submitBtn.disabled = false;
             }
         });
+
+        // Text area collapse/expand functionality
+        function collapseTextArea() {
+            const armyListGroup = document.getElementById('armyListGroup');
+            const expandToggle = document.getElementById('expandToggle');
+            
+            armyListGroup.classList.add('collapsed');
+            expandToggle.style.display = 'block';
+            expandToggle.textContent = 'Show Full Text';
+        }
+
+        function expandTextArea() {
+            const armyListGroup = document.getElementById('armyListGroup');
+            const expandToggle = document.getElementById('expandToggle');
+            
+            armyListGroup.classList.remove('collapsed');
+            expandToggle.textContent = 'Hide Text';
+        }
+
+        function toggleTextAreaExpansion() {
+            const armyListGroup = document.getElementById('armyListGroup');
+            
+            if (armyListGroup.classList.contains('collapsed')) {
+                expandTextArea();
+            } else {
+                collapseTextArea();
+            }
+        }
+
+        function autoSaveList(rawText, parsedData) {
+            try {
+                // Check if we already have a name in the input field (from URL params)
+                let existingName = document.getElementById('listName').value.trim();
+                
+                let autoName;
+                if (existingName) {
+                    // We're updating an existing list, use the existing name
+                    autoName = existingName;
+                } else {
+                    // Generate automatic name based on first faction found
+                    autoName = 'Unknown Army List';
+                    if (parsedData.factions && parsedData.factions.length > 0) {
+                        const mainFaction = parsedData.factions[0].faction_name;
+                        const now = new Date();
+                        autoName = `${mainFaction} - ${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
+                    }
+                    
+                    // Update the name field to show what was auto-saved
+                    document.getElementById('listName').value = autoName;
+                }
+                
+                // Save automatically without prompting
+                saveListToStorage(autoName, rawText, parsedData, true);
+                
+            } catch (error) {
+                console.error('Error auto-saving list:', error);
+            }
+        }
+
+        function saveListToStorage(name, rawText, parsedData, isAutoSave = false) {
+            try {
+                const savedLists = getSavedLists();
+                const newList = {
+                    name: name,
+                    rawText: rawText,
+                    parsedData: parsedData,
+                    savedAt: new Date().toISOString()
+                };
+                
+                // Check if list with same name exists
+                const existingIndex = savedLists.findIndex(list => list.name === name);
+                if (existingIndex !== -1) {
+                    if (isAutoSave) {
+                        // For auto-save, just update silently
+                        savedLists[existingIndex] = newList;
+                    } else {
+                        // For manual save, ask for confirmation
+                        if (confirm(`A list named "${name}" already exists. Do you want to overwrite it?`)) {
+                            savedLists[existingIndex] = newList;
+                        } else {
+                            return false;
+                        }
+                    }
+                } else {
+                    // Add new list
+                    savedLists.push(newList);
+                    
+                    // Maintain max 15 lists - remove oldest if we exceed the limit
+                    if (savedLists.length > 15) {
+                        // Sort by savedAt date and remove the oldest
+                        savedLists.sort((a, b) => new Date(a.savedAt) - new Date(b.savedAt));
+                        savedLists.shift(); // Remove the oldest (first) item
+                    }
+                }
+                
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(savedLists));
+                return true;
+            } catch (error) {
+                console.error('Error saving list:', error);
+                return false;
+            }
+        }
+
+        function getSavedLists() {
+            try {
+                const saved = localStorage.getItem(STORAGE_KEY);
+                return saved ? JSON.parse(saved) : [];
+            } catch (error) {
+                console.error('Error loading saved lists:', error);
+                return [];
+            }
+        }
         
         async function showDetailsInContainer(entity, container) {
             if (entity.type === 'datasheet' && entity.datasheet_id) {
