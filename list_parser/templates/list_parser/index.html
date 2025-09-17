@@ -629,25 +629,50 @@
             return window.innerWidth <= 768;
         }
 
-        function openMobileModal(entity) {
-            if (!isMobile()) return;
-            
-            const modal = document.getElementById('mobileModal');
-            const modalContent = document.getElementById('modal-details-content');
-            
-            // Show modal
-            modal.style.display = 'block';
-            document.body.style.overflow = 'hidden'; // Prevent background scrolling
-            
-            // Copy content from desktop details panel or show entity details
-            showDetailsInContainer(entity, modalContent);
-        }
+    function openMobileModal(entity) {
+        if (!isMobile()) return;
 
-        function closeMobileModal() {
-            const modal = document.getElementById('mobileModal');
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto'; // Restore scrolling
-        }
+        const modal = document.getElementById('mobileModal');
+        const modalContent = document.getElementById('modal-details-content');
+
+        // Store current scroll position
+        const scrollY = window.scrollY;
+
+        // Show modal
+        modal.style.display = 'block';
+
+        // Disable body scroll more reliably for mobile
+        document.body.style.overflow = 'hidden';
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollY}px`;
+        document.body.style.width = '100%';
+        document.body.style.height = '100vh';
+
+        // Store scroll position for restoration
+        document.body.dataset.scrollY = scrollY;
+
+        // Copy content from desktop details panel or show entity details
+        showDetailsInContainer(entity, modalContent);
+    }
+
+    function closeMobileModal() {
+        const modal = document.getElementById('mobileModal');
+        modal.style.display = 'none';
+
+        // Restore body scroll
+        const scrollY = document.body.dataset.scrollY || 0;
+        document.body.style.overflow = '';
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        document.body.style.height = '';
+
+        // Restore scroll position
+        window.scrollTo(0, parseInt(scrollY));
+
+        // Clean up
+        delete document.body.dataset.scrollY;
+    }
 
         // Close modal when clicking outside of content
         document.getElementById('mobileModal').addEventListener('click', function(e) {
