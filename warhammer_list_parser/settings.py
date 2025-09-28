@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-h(%mo^kqge2aupfkzk5vs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1,*.sslip.io', cast=lambda v: [s.strip() for s in v.split(',')])
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1', cast=lambda v: [s.strip() for s in v.split(',')])
 
 # Production settings (Heroku legacy support)
 if 'DYNO' in os.environ:
@@ -85,18 +85,9 @@ WSGI_APPLICATION = 'warhammer_list_parser.wsgi.application'
 
 # Database
 # Use PostgreSQL via DATABASE_URL (Docker, Coolify, etc.)
-if 'DATABASE_URL' in os.environ:
-    DATABASES = {
-        'default': dj_database_url.parse(os.environ['DATABASE_URL'])
-    }
-else:
-    # Fallback for development without Docker
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
-        }
-    }
+DATABASES = {
+    'default': dj_database_url.parse(os.environ['DATABASE_URL'])
+}
 
 
 # Password validation
@@ -145,12 +136,12 @@ if not DEBUG:
     SECURE_CONTENT_TYPE_NOSNIFF = True
     X_FRAME_OPTIONS = 'DENY'
     # Temporarily disable SSL redirect for Coolify debugging
-    # SECURE_SSL_REDIRECT = True
-    # SECURE_HSTS_SECONDS = 31536000  # 1 year
-    # SECURE_HSTS_INCLUDE_SUBDOMAINS = True
-    # SECURE_HSTS_PRELOAD = True
-    # SESSION_COOKIE_SECURE = True
-    # CSRF_COOKIE_SECURE = True
+    SECURE_SSL_REDIRECT = True
+    SECURE_HSTS_SECONDS = 31536000  # 1 year
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
     SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
 
 # Default primary key field type
