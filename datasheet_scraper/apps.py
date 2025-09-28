@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class DatasheepScraperConfig(AppConfig):
+class DatasheetScraperConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'datasheep_scraper'
+    name = 'datasheet_scraper'
