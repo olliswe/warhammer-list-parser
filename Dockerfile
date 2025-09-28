@@ -26,8 +26,7 @@ COPY . .
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
 
-# Collect static files
-RUN python manage.py collectstatic --noinput
+# Static files will be collected at runtime via entrypoint.sh
 
 # Create a non-root user
 RUN groupadd -r django && useradd -r -g django django
