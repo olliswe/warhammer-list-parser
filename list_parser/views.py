@@ -12,6 +12,9 @@ from .models import SharedList
 def index(request):
     return render(request, 'list_parser/landing.html')
 
+def health(request):
+    return JsonResponse({"status": "ok"})
+
 def parse(request):
     return render(request, 'list_parser/index.html')
 
