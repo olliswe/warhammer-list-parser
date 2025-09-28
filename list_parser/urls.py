@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('health/', views.health, name='health'),
     path('parse/', views.parse, name='parse'),
     path('api/detect-entities/', views.detect_army_entities, name='detect_army_entities'),
     path('api/datasheet/<str:datasheet_id>/', views.get_datasheet, name='get_datasheet'),
