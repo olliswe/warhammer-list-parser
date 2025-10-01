@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'list_parser',
     'datasheet_scraper',
     'django_json_widget',
-    'django_extensions'
+    'django_celery_beat',
 ]
 
 MIDDLEWARE = [
@@ -155,3 +155,19 @@ NOTEBOOK_ARGUMENTS = [
     '--no-browser',
 ]
 IPYTHON_KERNEL_DISPLAY_NAME = 'Django Kernel'
+
+# Celery Configuration
+CELERY_BROKER_URL = config('REDIS_URL', default='redis://localhost:6379/0')
+CELERY_RESULT_BACKEND = config('REDIS_URL', default='redis://localhost:6379/0')
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = TIME_ZONE
+CELERY_BEAT_SCHEDULE = {
+    # Example: run faction scraper daily at 2 AM
+    'run-faction-scraper': {
+        'task': 'datasheet_scraper.tasks.scrape_factions_task',
+        'schedule': 60.0 * 60 * 24,  # 24 hours
+    },
+}
+CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'

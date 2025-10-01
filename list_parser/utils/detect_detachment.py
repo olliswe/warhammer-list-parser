@@ -1,16 +1,18 @@
-import json
 from typing import Dict, List
-from list_parser.utils.shared_utils import _norm, FACTIONS_JSON, load_factions_json
+
+from datasheet_scraper.models import FactionJson
+from list_parser.utils.shared_utils import _norm
 
 from rapidfuzz import fuzz
 
 
 def get_detachments_for_faction(faction_id: str) -> List[Dict]:
-    factions = load_factions_json()
-    fac = next((f for f in factions if f.get("faction_id") == faction_id), None)
+    factions = FactionJson.objects.all()
+    fac = next((f for f in factions if f.faction_id == faction_id), None)
     if not fac:
         raise ValueError(f"Faction id '{faction_id}' not found in factions json")
-    return fac.get("detachments", [])
+    return fac.data.get("detachments", [])
+
 
 # ---------- candidate line builder (no filtering) ----------
 def _candidate_lines(army_text: str, max_lines: int = 20) -> List[str]:
@@ -23,12 +25,13 @@ def _candidate_lines(army_text: str, max_lines: int = 20) -> List[str]:
     bigrams = [f"{a} {b}" for a, b in zip(cands, cands[1:])]
     return cands + bigrams
 
+
 # ---------- main finder ----------
 def find_detachment_for_list(
-        army_text: str,
-        faction_id: str,
-        lo: int = 70,
-        max_lines: int = 20,
+    army_text: str,
+    faction_id: str,
+    lo: int = 70,
+    max_lines: int = 20,
 ) -> Dict:
     """
     Returns the single best detachment found in the first `max_lines` lines:
@@ -41,12 +44,22 @@ def find_detachment_for_list(
     """
     detachments = get_detachments_for_faction(faction_id)
     if not detachments:
-        return {"detachment_id": None, "detachment_name": None, "score": None, "method": "none"}
+        return {
+            "detachment_id": None,
+            "detachment_name": None,
+            "score": None,
+            "method": "none",
+        }
 
     names = [_norm(d["detachment_name"]) for d in detachments]
     cands = _candidate_lines(army_text, max_lines=max_lines)
     if not cands:
-        return {"detachment_id": None, "detachment_name": None, "score": None, "method": "none"}
+        return {
+            "detachment_id": None,
+            "detachment_name": None,
+            "score": None,
+            "method": "none",
+        }
 
     best_idx, best_score = None, -1
     for cand in cands:
@@ -71,4 +84,9 @@ def find_detachment_for_list(
             "method": "fuzzy",
         }
 
-    return {"detachment_id": None, "detachment_name": None, "score": None, "method": "none"}
+    return {
+        "detachment_id": None,
+        "detachment_name": None,
+        "score": None,
+        "method": "none",
+    }
