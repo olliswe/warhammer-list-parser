@@ -233,6 +233,7 @@ def scrape_detachment(driver, detachment_id: str) -> Dict[str, Any]:
 # ---------------- Orchestrator ----------------
 def run_detachment_scrape(
     headless: bool = True,
+    force_update: bool = False,
 ):
     factions = FactionJson.objects.all()
 
@@ -268,6 +269,13 @@ def run_detachment_scrape(
         processed = 0
         for det in all_detachments:
             det_id = det["detachment_id"]
+
+            existing_detachment = DetachmentJson.objects.filter(
+                detachment_id=det_id
+            ).first()
+            if existing_detachment and existing_detachment.data and not force_update:
+                print(f"[SKIP] Skipping {det['detachment_name']} ({det_id})")
+                continue
 
             try:
                 data = scrape_detachment(driver, det_id)

@@ -76,7 +76,7 @@ services:
 
   flower:
     build: .
-    command: celery -A warhammer_list_parser flower
+    command: celery -A warhammer_list_parser flower --basic-auth=${FLOWER_USER:-admin}:${FLOWER_PASSWORD:-admin}
     volumes:
       - .:/app
     ports:
@@ -88,6 +88,8 @@ services:
       - DATABASE_URL=postgresql://postgres:postgres@db:5432/warhammer_db
       - REDIS_URL=redis://redis:6379/0
       - SECRET_KEY=your-secret-key-here
+      - FLOWER_USER=${FLOWER_USER:-admin}
+      - FLOWER_PASSWORD=${FLOWER_PASSWORD:-admin}
 
 volumes:
   postgres_data:
