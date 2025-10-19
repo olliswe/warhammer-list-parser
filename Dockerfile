@@ -29,9 +29,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy project
 COPY . .
 
-# Copy and make entrypoint scripts executable
-COPY entrypoint.sh start-celery-worker.sh start-celery-beat.sh start-flower.sh ./
-RUN chmod +x entrypoint.sh start-celery-worker.sh start-celery-beat.sh start-flower.sh
+# Copy and make entrypoint script executable
+COPY entrypoint.sh .
+RUN chmod +x entrypoint.sh
 
 # Static files will be collected at runtime via entrypoint.sh
 
