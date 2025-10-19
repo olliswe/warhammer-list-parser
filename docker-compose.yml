@@ -30,8 +30,6 @@ services:
   web:
     build: .
     command: ./entrypoint.sh
-    volumes:
-      - .:/app
     ports:
       - "8000:8000"
     depends_on:
@@ -49,8 +47,6 @@ services:
   celery:
     build: .
     command: celery -A warhammer_list_parser worker --loglevel=info
-    volumes:
-      - .:/app
     depends_on:
       - db
       - redis
@@ -63,8 +59,6 @@ services:
   celery-beat:
     build: .
     command: celery -A warhammer_list_parser beat --loglevel=info --scheduler django_celery_beat.schedulers:DatabaseScheduler
-    volumes:
-      - .:/app
     depends_on:
       - db
       - redis
@@ -77,8 +71,6 @@ services:
   flower:
     build: .
     command: celery -A warhammer_list_parser flower --basic-auth=${FLOWER_USER:-admin}:${FLOWER_PASSWORD:-admin}
-    volumes:
-      - .:/app
     ports:
       - "5555:5555"
     depends_on:

@@ -1,0 +1,22 @@
+# Local development overrides
+# This file is automatically merged with docker-compose.yml when running locally
+# Coolify ignores this file in production
+
+version: '3.8'
+
+services:
+  web:
+    volumes:
+      - .:/app
+
+  celery:
+    volumes:
+      - .:/app
+
+  celery-beat:
+    volumes:
+      - .:/app
+
+  flower:
+    volumes:
+      - .:/app
