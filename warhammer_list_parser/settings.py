@@ -44,6 +44,29 @@ CSRF_TRUSTED_ORIGINS = [
     "https://www.listbin.app",
 ]
 
+# Add localhost origins for local development
+if DEBUG:
+    CSRF_TRUSTED_ORIGINS += [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+    ]
+
+# CORS Configuration
+if DEBUG:
+    CORS_ALLOWED_ORIGINS = [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ]
+    CORS_ALLOW_CREDENTIALS = True
+else:
+    CORS_ALLOWED_ORIGINS = [
+        "https://listbin.app",
+        "https://www.listbin.app",
+    ]
+    CORS_ALLOW_CREDENTIALS = True
+
 
 # Application definition
 
@@ -54,6 +77,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "corsheaders",
     "list_parser",
     "datasheet_scraper",
     "django_json_widget",
@@ -63,6 +87,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
