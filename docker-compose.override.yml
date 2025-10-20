@@ -1,0 +1,34 @@
+# Local development overrides
+# This file is automatically merged with docker-compose.yml when running locally
+# Coolify ignores this file in production
+
+version: '3.8'
+
+services:
+  db:
+    ports:
+      - "5432:5432"
+
+  redis:
+    ports:
+      - "6379:6379"
+
+  web:
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+
+  celery:
+    volumes:
+      - .:/app
+
+  celery-beat:
+    volumes:
+      - .:/app
+
+  flower:
+    volumes:
+      - .:/app
+    ports:
+      - "5555:5555"

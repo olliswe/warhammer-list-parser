@@ -1,8 +1,8 @@
 import re
 from rapidfuzz import process, fuzz
-from list_parser.utils.shared_utils import _norm, load_factions_json
 
-
+from datasheet_scraper.models import FactionJson
+from list_parser.utils.shared_utils import _norm
 
 
 def _strip_faction_prefix(faction_name: str) -> tuple[str, bool]:
@@ -15,16 +15,19 @@ def _strip_faction_prefix(faction_name: str) -> tuple[str, bool]:
 
 
 def load_factions():
-    """Load factions from a factions.json file into a simplified list."""
-    factions = load_factions_json()
+    """Load factions from the database into a simplified list."""
+    factions = FactionJson.objects.all()
     possible_factions = []
-    for f in factions:
-        name, is_supplement = _strip_faction_prefix(f["faction"])
-        possible_factions.append({
-            "faction_name": name,
-            "faction_id": f["faction_id"],
-            "is_supplement": is_supplement,
-        })
+    for faction in factions:
+        faction_data = faction.data
+        name, is_supplement = _strip_faction_prefix(faction_data["faction"])
+        possible_factions.append(
+            {
+                "faction_name": name,
+                "faction_id": faction_data["faction_id"],
+                "is_supplement": is_supplement,
+            }
+        )
 
     return possible_factions
 
@@ -68,7 +71,9 @@ def detect_factions(army_text: str, threshold: int = 80) -> list:
 
     # If we got any exact hits after suppression, we're done (most precise)
     if exact_hits:
-        return sorted(exact_hits, key=lambda x: (-x["score"], -x["_len"], x["faction_name"]))
+        return sorted(
+            exact_hits, key=lambda x: (-x["score"], -x["_len"], x["faction_name"])
+        )
 
     # ----- Pass 2: fuzzy fallback (no exact phrases found)
     results = []
