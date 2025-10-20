@@ -1,7 +1,5 @@
-'use client';
-
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
 import { getSavedLists, deleteList } from '@/lib/storage';
@@ -50,7 +48,7 @@ export default function Home() {
           </h1>
 
           <div className="text-center">
-            <Link href="/parse">
+            <Link to="/parse">
               <Button size="large">Parse New Army List</Button>
             </Link>
           </div>
@@ -96,7 +94,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex flex-col gap-2">
-                      <Link href={`/parse?listId=${index}`}>
+                      <Link to={`/parse?listId=${index}`}>
                         <Button size="small" className="w-full">
                           Open & Parse
                         </Button>

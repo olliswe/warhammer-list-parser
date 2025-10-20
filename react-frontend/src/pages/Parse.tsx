@@ -1,8 +1,5 @@
-'use client';
-
-import { useState, useEffect, useCallback, Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
-import Link from 'next/link';
+import { useState, useEffect, useCallback } from 'react';
+import { useSearchParams, Link } from 'react-router-dom';
 import Card from '@/components/Card';
 import Button from '@/components/Button';
 import Badge from '@/components/Badge';
@@ -28,8 +25,8 @@ interface DetailsContent {
   message?: string;
 }
 
-function ParsePageContent() {
-  const searchParams = useSearchParams();
+export default function Parse() {
+  const [searchParams] = useSearchParams();
   const [armyList, setArmyList] = useState('');
   const [listName, setListName] = useState('');
   const [loading, setLoading] = useState(false);
@@ -49,7 +46,7 @@ function ParsePageContent() {
     setParsedData(null);
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/detect-entities/`, {
+      const response = await fetch('/api/detect-entities/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ army_list: text }),
@@ -77,7 +74,7 @@ function ParsePageContent() {
   }, [armyList, listName]);
 
   useEffect(() => {
-    const listId = searchParams?.get('listId');
+    const listId = searchParams.get('listId');
     if (listId !== null) {
       const listIndex = parseInt(listId);
       const savedList = getListByIndex(listIndex);
@@ -88,7 +85,7 @@ function ParsePageContent() {
         handleParse(savedList.rawText);
       }
     }
-  }, [searchParams, handleParse]);
+  }, [searchParams]);
 
   const generateAutoName = (data: ParsedData) => {
     if (data.factions && data.factions.length > 0) {
@@ -105,7 +102,7 @@ function ParsePageContent() {
     setShareLoading(true);
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/share/`, {
+      const response = await fetch('/api/share/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -132,10 +129,9 @@ function ParsePageContent() {
   };
 
   const showDetails = async (entity: EntityDetails) => {
-
     if (entity.type === 'datasheet' && entity.datasheet_id) {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/datasheet/${entity.datasheet_id}/`);
+        const response = await fetch(`/api/datasheet/${entity.datasheet_id}/`);
         const data = await response.json();
         if (response.ok) {
           setDetailsContent({ type: 'datasheet', data });
@@ -145,7 +141,7 @@ function ParsePageContent() {
       }
     } else if (entity.type === 'faction' && entity.faction_id) {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/faction/${entity.faction_id}/`);
+        const response = await fetch(`/api/faction/${entity.faction_id}/`);
         const data = await response.json();
         if (response.ok) {
           setDetailsContent({ type: 'faction', data, url: entity.url });
@@ -155,7 +151,7 @@ function ParsePageContent() {
       }
     } else if (entity.type === 'detachment' && entity.detachment_id) {
       try {
-        const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/detachment/${entity.detachment_id}/`);
+        const response = await fetch(`/api/detachment/${entity.detachment_id}/`);
         const data = await response.json();
         if (response.ok) {
           setDetailsContent({ type: 'detachment', data, url: entity.url });
@@ -180,7 +176,7 @@ function ParsePageContent() {
           </h1>
 
           <div className="text-center mb-6">
-            <Link href="/" className="text-blue-600 hover:underline text-sm">
+            <Link to="/" className="text-blue-600 hover:underline text-sm">
               ← Back to Saved Lists
             </Link>
           </div>
@@ -331,7 +327,7 @@ function ParsePageContent() {
             </div>
 
             <div className="hidden lg:block">
-              <Card className="sticky top-8 max-h-[80vh] overflow-y-auto">
+              <Card className="sticky top-8 max-h-[93vh] overflow-y-auto">
                 <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
                   Details
                 </h3>
@@ -650,13 +646,5 @@ function DetachmentDetailsView({ detachment, url }: { detachment: DetachmentDeta
         </div>
       )}
     </div>
-  );
-}
-
-export default function ParsePage() {
-  return (
-    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
-      <ParsePageContent />
-    </Suspense>
   );
 }

@@ -164,6 +164,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # Static files storage for production
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
+# Directory where React index.html is located
+REACT_APP_DIR = os.path.join(BASE_DIR, "staticfiles/react")
+
 # Security settings for production
 if not DEBUG:
     SECURE_BROWSER_XSS_FILTER = True
