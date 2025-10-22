@@ -1,8 +1,16 @@
 import re
+from typing import Dict, List
 from rapidfuzz import process, fuzz
 
 from datasheet_scraper.models import FactionJson
 from list_parser.utils.shared_utils import _norm
+
+
+# Faction name aliases: canonical_name -> list of aliases
+FACTION_ALIASES: Dict[str, List[str]] = {
+    # Add your aliases here, e.g.:
+    "Space Marines": ["Adeptus Astartes"],
+}
 
 
 def _strip_faction_prefix(faction_name: str) -> tuple[str, bool]:
@@ -32,6 +40,21 @@ def load_factions():
     return possible_factions
 
 
+def expand_factions_with_aliases(factions: list) -> list:
+    """Expand faction list to include alias entries that point to canonical factions."""
+    expanded = []
+    for faction in factions:
+        # Add the canonical faction
+        expanded.append({**faction, "_search_name": faction["faction_name"]})
+
+        # Add alias entries that point to the same canonical faction
+        if faction["faction_name"] in FACTION_ALIASES:
+            for alias in FACTION_ALIASES[faction["faction_name"]]:
+                expanded.append({**faction, "_search_name": alias})
+
+    return expanded
+
+
 def detect_factions(army_text: str, threshold: int = 80) -> list:
     """
     Detect faction(s) from army list text.
@@ -44,11 +67,12 @@ def detect_factions(army_text: str, threshold: int = 80) -> list:
     text_lc = text_norm.lower()
 
     possible_factions = load_factions()
+    expanded_factions = expand_factions_with_aliases(possible_factions)
 
     # ----- Pass 1: exact phrase matches with word boundaries
     exact_hits = []
-    for faction in possible_factions:
-        fname = _norm(faction["faction_name"])
+    for faction in expanded_factions:
+        fname = _norm(faction["_search_name"])
         fname_lc = re.escape(fname.lower())
         # \b ensures token boundaries; handles multi-word phrases
         if re.search(rf"\b{fname_lc}\b", text_lc):
@@ -78,8 +102,8 @@ def detect_factions(army_text: str, threshold: int = 80) -> list:
     # ----- Pass 2: fuzzy fallback (no exact phrases found)
     results = []
     full_text_list = [text_lc]  # RapidFuzz expects an iterable of choices
-    for faction in possible_factions:
-        fname = _norm(faction["faction_name"]).lower()
+    for faction in expanded_factions:
+        fname = _norm(faction["_search_name"]).lower()
         match = process.extractOne(fname, full_text_list, scorer=fuzz.partial_ratio)
         if match and match[1] >= threshold:
             results.append({**faction, "score": match[1], "_len": len(fname)})

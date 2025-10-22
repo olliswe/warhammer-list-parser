@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!react-frontend/src/lib/
 lib64/
 parts/
 sdist/
@@ -409,3 +410,5 @@ tmp/
 temp/
 
 .claude
+
+.wdm

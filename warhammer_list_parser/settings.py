@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 from decouple import config
 import dj_database_url
+from celery.schedules import crontab
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -44,6 +45,29 @@ CSRF_TRUSTED_ORIGINS = [
     "https://www.listbin.app",
 ]
 
+# Add localhost origins for local development
+if DEBUG:
+    CSRF_TRUSTED_ORIGINS += [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+        "http://localhost:8000",
+        "http://127.0.0.1:8000",
+    ]
+
+# CORS Configuration
+if DEBUG:
+    CORS_ALLOWED_ORIGINS = [
+        "http://localhost:3000",
+        "http://127.0.0.1:3000",
+    ]
+    CORS_ALLOW_CREDENTIALS = True
+else:
+    CORS_ALLOWED_ORIGINS = [
+        "https://listbin.app",
+        "https://www.listbin.app",
+    ]
+    CORS_ALLOW_CREDENTIALS = True
+
 
 # Application definition
 
@@ -54,6 +78,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "corsheaders",
     "list_parser",
     "datasheet_scraper",
     "django_json_widget",
@@ -63,6 +88,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -136,8 +162,16 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
+# Directories where Django will look for static files to collect
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "build"),
+]
+
 # Static files storage for production
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+# Directory where React index.html is located
+REACT_APP_DIR = os.path.join(BASE_DIR, "build")
 
 # Security settings for production
 if not DEBUG:
@@ -176,10 +210,9 @@ CELERY_TASK_SERIALIZER = "json"
 CELERY_RESULT_SERIALIZER = "json"
 CELERY_TIMEZONE = TIME_ZONE
 CELERY_BEAT_SCHEDULE = {
-    # Example: run faction scraper daily at 2 AM
-    "run-faction-scraper": {
-        "task": "datasheet_scraper.tasks.scrape_factions_task",
-        "schedule": 60.0 * 60 * 24,  # 24 hours
+    "run-full-scrape-weekly": {
+        "task": "datasheet_scraper.tasks.full_scrape_task",
+        "schedule": crontab(day_of_week=1, hour=23, minute=0),  # Monday at 11 PM
     },
 }
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
