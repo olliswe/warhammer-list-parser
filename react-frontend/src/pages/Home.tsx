@@ -67,7 +67,7 @@ export default function Home() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {savedLists.map((list, index) => {
+              {savedLists.map((list) => {
                 const lines = list.rawText.split('\n').filter(line => line.trim() !== '');
                 const previewLines = lines.slice(0, 6).join('\n');
                 const truncatedPreview = previewLines.length > 200
@@ -76,7 +76,7 @@ export default function Home() {
 
                 return (
                   <div
-                    key={index}
+                    key={list.id}
                     className="bg-gray-50 border border-gray-200 rounded-lg p-5 transition-all hover:shadow-lg hover:-translate-y-1"
                   >
                     <div className="text-lg font-bold text-gray-900 mb-3">
@@ -94,7 +94,7 @@ export default function Home() {
                     </div>
 
                     <div className="flex flex-col gap-2">
-                      <Link to={`/parse?listId=${index}`}>
+                      <Link to={`/parse?listId=${list.id}`}>
                         <Button size="small" className="w-full">
                           Open & Parse
                         </Button>

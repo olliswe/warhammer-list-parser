@@ -1,15 +1,24 @@
-import { useState, useEffect, useCallback } from 'react';
-import { useSearchParams, Link } from 'react-router-dom';
-import Card from '@/components/Card';
-import Button from '@/components/Button';
-import Badge from '@/components/Badge';
-import Modal from '@/components/Modal';
-import EntryItem from '@/components/EntryItem';
-import { saveList, getListByIndex } from '@/lib/storage';
-import { ParsedData, Faction, Detachment, Datasheet, DatasheetDetails, FactionDetails, DetachmentDetails } from '@/types';
+import { useState, useEffect, useCallback } from "react";
+import { useSearchParams, useParams, Link } from "react-router-dom";
+import Card from "@/components/Card";
+import Button from "@/components/Button";
+import Badge from "@/components/Badge";
+import Modal from "@/components/Modal";
+import EntryItem from "@/components/EntryItem";
+import { saveList, getListById } from "@/lib/storage";
+import {
+  ParsedData,
+  Faction,
+  Detachment,
+  Datasheet,
+  DatasheetDetails,
+  FactionDetails,
+  DetachmentDetails,
+} from "@/types";
+import { useMediaQuery } from "react-responsive";
 
 interface EntityDetails {
-  type: 'faction' | 'detachment' | 'datasheet';
+  type: "faction" | "detachment" | "datasheet";
   name: string;
   faction_id?: string;
   detachment_id?: string;
@@ -19,7 +28,7 @@ interface EntityDetails {
 }
 
 interface DetailsContent {
-  type: 'datasheet' | 'faction' | 'detachment' | 'error';
+  type: "datasheet" | "faction" | "detachment" | "error";
   data?: DatasheetDetails | FactionDetails | DetachmentDetails;
   url?: string;
   message?: string;
@@ -27,65 +36,105 @@ interface DetailsContent {
 
 export default function Parse() {
   const [searchParams] = useSearchParams();
-  const [armyList, setArmyList] = useState('');
-  const [listName, setListName] = useState('');
+  const { sharedSlug } = useParams();
+  const [armyList, setArmyList] = useState("");
+  const [listName, setListName] = useState("");
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [error, setError] = useState("");
   const [parsedData, setParsedData] = useState<ParsedData | null>(null);
-  const [detailsContent, setDetailsContent] = useState<DetailsContent | null>(null);
+  const [detailsContent, setDetailsContent] = useState<DetailsContent | null>(
+    null,
+  );
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [shareLoading, setShareLoading] = useState(false);
+  const [sharedListInfo, setSharedListInfo] = useState<{
+    viewCount: number;
+    createdAt: string;
+  } | null>(null);
+  const isMobile = useMediaQuery({ maxWidth: 767 });
 
-  const handleParse = useCallback(async (textToParse?: string) => {
-    const text = textToParse || armyList;
-    if (!text.trim()) return;
+  const handleParse = useCallback(
+    async (textToParse?: string, nameOverride?: string) => {
+      const text = textToParse || armyList;
+      if (!text.trim()) return;
 
-    setLoading(true);
-    setError('');
-    setParsedData(null);
+      setLoading(true);
+      setError("");
+      setParsedData(null);
 
-    try {
-      const response = await fetch('/api/detect-entities/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ army_list: text }),
-      });
+      try {
+        const response = await fetch("/api/detect-entities/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ army_list: text }),
+        });
 
-      const data = await response.json();
+        const data = await response.json();
 
-      if (!response.ok) {
-        throw new Error(data.error || 'An error occurred');
+        if (!response.ok) {
+          throw new Error(data.error || "An error occurred");
+        }
+
+        setParsedData(data);
+        setIsCollapsed(true);
+
+        // Auto-save - use nameOverride if provided (from loading existing list)
+        const autoName = nameOverride || listName || generateAutoName(data);
+        setListName(autoName);
+        saveList(autoName, text, data);
+      } catch (err) {
+        const errorMessage =
+          err instanceof Error ? err.message : "An error occurred";
+        setError(errorMessage);
+      } finally {
+        setLoading(false);
       }
-
-      setParsedData(data);
-      setIsCollapsed(true);
-
-      // Auto-save
-      const autoName = listName || generateAutoName(data);
-      setListName(autoName);
-      saveList(autoName, text, data);
-    } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'An error occurred';
-      setError(errorMessage);
-    } finally {
-      setLoading(false);
-    }
-  }, [armyList, listName]);
+    },
+    [armyList, listName],
+  );
 
   useEffect(() => {
-    const listId = searchParams.get('listId');
-    if (listId !== null) {
-      const listIndex = parseInt(listId);
-      const savedList = getListByIndex(listIndex);
+    const loadSharedList = async (slug: string) => {
+      setLoading(true);
+      try {
+        const response = await fetch(`/api/shared/${slug}/`);
+        const data = await response.json();
 
-      if (savedList) {
-        setArmyList(savedList.rawText);
-        setListName(savedList.name);
-        handleParse(savedList.rawText);
+        if (response.ok) {
+          const sharedName = data.name + " (Shared)";
+          setArmyList(data.raw_text);
+          setListName(sharedName);
+          setSharedListInfo({
+            viewCount: data.view_count,
+            createdAt: data.created_at,
+          });
+          handleParse(data.raw_text, sharedName);
+        } else {
+          setError(data.error || "Failed to load shared list");
+        }
+      } catch (err) {
+        setError("Failed to load shared list");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (sharedSlug) {
+      loadSharedList(sharedSlug);
+    } else {
+      const listId = searchParams.get("listId");
+      if (listId) {
+        const savedList = getListById(listId);
+
+        if (savedList) {
+          setArmyList(savedList.rawText);
+          setListName(savedList.name);
+          handleParse(savedList.rawText, savedList.name);
+        }
       }
     }
-  }, [searchParams]);
+  }, []);
 
   const generateAutoName = (data: ParsedData) => {
     if (data.factions && data.factions.length > 0) {
@@ -93,7 +142,7 @@ export default function Parse() {
       const now = new Date();
       return `${mainFaction} - ${now.toLocaleDateString()} ${now.toLocaleTimeString()}`;
     }
-    return 'Unknown Army List';
+    return "Unknown Army List";
   };
 
   const handleShare = async () => {
@@ -102,9 +151,9 @@ export default function Parse() {
     setShareLoading(true);
 
     try {
-      const response = await fetch('/api/share/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+      const response = await fetch("/api/share/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: listName,
           raw_text: armyList,
@@ -116,12 +165,13 @@ export default function Parse() {
 
       if (response.ok) {
         await navigator.clipboard.writeText(data.share_url);
-        alert('Share link copied to clipboard!');
+        alert("Share link copied to clipboard!");
       } else {
-        throw new Error(data.error || 'Failed to create share link');
+        throw new Error(data.error || "Failed to create share link");
       }
     } catch (err) {
-      const errorMessage = err instanceof Error ? err.message : 'Failed to share list';
+      const errorMessage =
+        err instanceof Error ? err.message : "Failed to share list";
       alert(`Error sharing list: ${errorMessage}`);
     } finally {
       setShareLoading(false);
@@ -129,35 +179,46 @@ export default function Parse() {
   };
 
   const showDetails = async (entity: EntityDetails) => {
-    if (entity.type === 'datasheet' && entity.datasheet_id) {
+    if (entity.type === "datasheet" && entity.datasheet_id) {
       try {
         const response = await fetch(`/api/datasheet/${entity.datasheet_id}/`);
         const data = await response.json();
         if (response.ok) {
-          setDetailsContent({ type: 'datasheet', data });
+          setDetailsContent({ type: "datasheet", data });
         }
       } catch {
-        setDetailsContent({ type: 'error', message: 'Error loading datasheet details' });
+        setDetailsContent({
+          type: "error",
+          message: "Error loading datasheet details",
+        });
       }
-    } else if (entity.type === 'faction' && entity.faction_id) {
+    } else if (entity.type === "faction" && entity.faction_id) {
       try {
         const response = await fetch(`/api/faction/${entity.faction_id}/`);
         const data = await response.json();
         if (response.ok) {
-          setDetailsContent({ type: 'faction', data, url: entity.url });
+          setDetailsContent({ type: "faction", data, url: entity.url });
         }
       } catch {
-        setDetailsContent({ type: 'error', message: 'Error loading faction details' });
+        setDetailsContent({
+          type: "error",
+          message: "Error loading faction details",
+        });
       }
-    } else if (entity.type === 'detachment' && entity.detachment_id) {
+    } else if (entity.type === "detachment" && entity.detachment_id) {
       try {
-        const response = await fetch(`/api/detachment/${entity.detachment_id}/`);
+        const response = await fetch(
+          `/api/detachment/${entity.detachment_id}/`,
+        );
         const data = await response.json();
         if (response.ok) {
-          setDetailsContent({ type: 'detachment', data, url: entity.url });
+          setDetailsContent({ type: "detachment", data, url: entity.url });
         }
       } catch {
-        setDetailsContent({ type: 'error', message: 'Error loading detachment details' });
+        setDetailsContent({
+          type: "error",
+          message: "Error loading detachment details",
+        });
       }
     }
 
@@ -181,6 +242,14 @@ export default function Parse() {
             </Link>
           </div>
 
+          {sharedListInfo && (
+            <div className="mb-6 bg-blue-50 border border-blue-300 rounded p-3 text-center text-blue-900">
+              📤 <strong>Shared Army List</strong> • {sharedListInfo.viewCount}{" "}
+              views • Created{" "}
+              {new Date(sharedListInfo.createdAt).toLocaleDateString()}
+            </div>
+          )}
+
           <form
             onSubmit={(e) => {
               e.preventDefault();
@@ -188,8 +257,13 @@ export default function Parse() {
             }}
             className="space-y-4"
           >
-            <div className={`transition-all ${isCollapsed ? 'max-h-20 overflow-hidden' : ''}`}>
-              <label htmlFor="armyList" className="block mb-2 font-bold text-gray-700">
+            <div
+              className={`transition-all ${isCollapsed ? "max-h-20 overflow-hidden" : ""}`}
+            >
+              <label
+                htmlFor="armyList"
+                className="block mb-2 font-bold text-gray-700"
+              >
                 Army List Text:
               </label>
               <textarea
@@ -199,7 +273,7 @@ export default function Parse() {
                 placeholder="Paste your army list here..."
                 required
                 className={`w-full p-3 border-2 border-gray-300 rounded font-mono text-sm resize-vertical ${
-                  isCollapsed ? 'min-h-[40px]' : 'min-h-[200px]'
+                  isCollapsed ? "min-h-[40px]" : "min-h-[200px]"
                 }`}
               />
             </div>
@@ -215,7 +289,10 @@ export default function Parse() {
             )}
 
             <div>
-              <label htmlFor="listName" className="block mb-2 font-bold text-gray-700">
+              <label
+                htmlFor="listName"
+                className="block mb-2 font-bold text-gray-700"
+              >
                 List Name (optional):
               </label>
               <input
@@ -230,7 +307,11 @@ export default function Parse() {
 
             <div className="flex gap-3">
               <Button type="submit" disabled={loading}>
-                {loading ? 'Parsing...' : 'Parse Army List'}
+                {loading
+                  ? "Parsing..."
+                  : isMobile
+                    ? "Parse"
+                    : "Parse Army List"}
               </Button>
               {parsedData && (
                 <Button
@@ -239,7 +320,11 @@ export default function Parse() {
                   onClick={handleShare}
                   disabled={shareLoading}
                 >
-                  {shareLoading ? 'Sharing...' : '📤 Share List'}
+                  {shareLoading
+                    ? "Sharing..."
+                    : isMobile
+                      ? "📤 Share"
+                      : "📤 Share List"}
                 </Button>
               )}
             </div>
@@ -265,7 +350,7 @@ export default function Parse() {
                       key={idx}
                       onClick={() =>
                         showDetails({
-                          type: 'faction',
+                          type: "faction",
                           name: faction.faction_name,
                           faction_id: faction.faction_id,
                           url: faction.url,
@@ -274,7 +359,10 @@ export default function Parse() {
                     >
                       {faction.faction_name}
                       {faction.is_supplement && (
-                        <> <Badge variant="supplement">Supplement</Badge></>
+                        <>
+                          {" "}
+                          <Badge variant="supplement">Supplement</Badge>
+                        </>
                       )}
                     </EntryItem>
                   ))}
@@ -287,7 +375,7 @@ export default function Parse() {
                       key={idx}
                       onClick={() =>
                         showDetails({
-                          type: 'detachment',
+                          type: "detachment",
                           name: det.detachment_name,
                           detachment_id: det.detachment_id,
                           url: det.url,
@@ -301,27 +389,31 @@ export default function Parse() {
 
                 <div>
                   <h3 className="text-xl font-bold mb-4">Units</h3>
-                  {parsedData.datasheets.map((datasheet: Datasheet, idx: number) => (
-                    <EntryItem
-                      key={idx}
-                      onClick={() =>
-                        showDetails({
-                          type: 'datasheet',
-                          name: datasheet.datasheet_name,
-                          datasheet_id: datasheet.datasheet_id,
-                          url: datasheet.url,
-                          entry_text: datasheet.entry_text,
-                        })
-                      }
-                    >
-                      <div dangerouslySetInnerHTML={{
-                        __html: datasheet.entry_text.replace(
-                          /\((\d+)\s*Points?\)/g,
-                          '<span class="text-green-600 font-bold">($1 Points)</span>'
-                        )
-                      }} />
-                    </EntryItem>
-                  ))}
+                  {parsedData.datasheets.map(
+                    (datasheet: Datasheet, idx: number) => (
+                      <EntryItem
+                        key={idx}
+                        onClick={() =>
+                          showDetails({
+                            type: "datasheet",
+                            name: datasheet.datasheet_name,
+                            datasheet_id: datasheet.datasheet_id,
+                            url: datasheet.url,
+                            entry_text: datasheet.entry_text,
+                          })
+                        }
+                      >
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: datasheet.entry_text.replace(
+                              /\((\d+)\s*Points?\)/gi,
+                              '<span class="text-green-600 font-bold">($1 Points)</span>',
+                            ),
+                          }}
+                        />
+                      </EntryItem>
+                    ),
+                  )}
                 </div>
               </Card>
             </div>
@@ -352,20 +444,34 @@ export default function Parse() {
 }
 
 function DetailsPanel({ content }: { content: DetailsContent }) {
-  if (content.type === 'error') {
-    return <div className="text-red-600 text-center mt-12">{content.message}</div>;
+  if (content.type === "error") {
+    return (
+      <div className="text-red-600 text-center mt-12">{content.message}</div>
+    );
   }
 
-  if (content.type === 'datasheet' && content.data) {
-    return <DatasheetDetailsView datasheet={content.data as DatasheetDetails} />;
+  if (content.type === "datasheet" && content.data) {
+    return (
+      <DatasheetDetailsView datasheet={content.data as DatasheetDetails} />
+    );
   }
 
-  if (content.type === 'faction' && content.data) {
-    return <FactionDetailsView faction={content.data as FactionDetails} url={content.url || ''} />;
+  if (content.type === "faction" && content.data) {
+    return (
+      <FactionDetailsView
+        faction={content.data as FactionDetails}
+        url={content.url || ""}
+      />
+    );
   }
 
-  if (content.type === 'detachment' && content.data) {
-    return <DetachmentDetailsView detachment={content.data as DetachmentDetails} url={content.url || ''} />;
+  if (content.type === "detachment" && content.data) {
+    return (
+      <DetachmentDetailsView
+        detachment={content.data as DetachmentDetails}
+        url={content.url || ""}
+      />
+    );
   }
 
   return null;
@@ -389,7 +495,9 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
 
       <div className="mb-5">
         <h4 className="text-lg font-bold mb-2">{datasheet.datasheet_name}</h4>
-        <p><strong>Faction:</strong> {datasheet.faction}</p>
+        <p>
+          <strong>Faction:</strong> {datasheet.faction}
+        </p>
       </div>
 
       {datasheet.miniatures && datasheet.miniatures.length > 0 && (
@@ -411,13 +519,27 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
               <tbody>
                 {datasheet.miniatures.map((mini, idx) => (
                   <tr key={idx}>
-                    <td className="border border-gray-300 p-2 text-left font-medium">{mini.name}</td>
-                    <td className="border border-gray-300 p-2 text-center">{mini.characteristics.M}</td>
-                    <td className="border border-gray-300 p-2 text-center">{mini.characteristics.T}</td>
-                    <td className="border border-gray-300 p-2 text-center">{mini.characteristics.SV}</td>
-                    <td className="border border-gray-300 p-2 text-center">{mini.characteristics.W}</td>
-                    <td className="border border-gray-300 p-2 text-center">{mini.characteristics.LD}</td>
-                    <td className="border border-gray-300 p-2 text-center">{mini.characteristics.OC}</td>
+                    <td className="border border-gray-300 p-2 text-left font-medium">
+                      {mini.name}
+                    </td>
+                    <td className="border border-gray-300 p-2 text-center">
+                      {mini.characteristics.M}
+                    </td>
+                    <td className="border border-gray-300 p-2 text-center">
+                      {mini.characteristics.T}
+                    </td>
+                    <td className="border border-gray-300 p-2 text-center">
+                      {mini.characteristics.SV}
+                    </td>
+                    <td className="border border-gray-300 p-2 text-center">
+                      {mini.characteristics.W}
+                    </td>
+                    <td className="border border-gray-300 p-2 text-center">
+                      {mini.characteristics.LD}
+                    </td>
+                    <td className="border border-gray-300 p-2 text-center">
+                      {mini.characteristics.OC}
+                    </td>
                   </tr>
                 ))}
               </tbody>
@@ -429,13 +551,16 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
         </div>
       )}
 
-      {(datasheet.ranged_weapons?.length > 0 || datasheet.melee_weapons?.length > 0) && (
+      {(datasheet.ranged_weapons?.length > 0 ||
+        datasheet.melee_weapons?.length > 0) && (
         <div className="mb-5">
           <h4 className="text-base font-bold mb-2">Weapons</h4>
 
           {datasheet.ranged_weapons?.length > 0 && (
             <div className="mb-4">
-              <h5 className="text-sm font-semibold text-gray-600 mb-2">Ranged Weapons</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-2">
+                Ranged Weapons
+              </h5>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-xs">
                   <thead>
@@ -453,15 +578,29 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
                   <tbody>
                     {datasheet.ranged_weapons.map((weapon, idx) => (
                       <tr key={idx}>
-                        <td className="border border-gray-300 p-1">{weapon.name}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.range}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.attacks}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.ballistic_skill}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.strength}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.armour_penetration}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.damage}</td>
+                        <td className="border border-gray-300 p-1">
+                          {weapon.name?.replace("🠶", "•")}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.range}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.attacks}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.ballistic_skill}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.strength}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.armour_penetration}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.damage}
+                        </td>
                         <td className="border border-gray-300 p-1 text-[10px]">
-                          {weapon.abilities?.join(', ') || '—'}
+                          {weapon.abilities?.join(", ") || "—"}
                         </td>
                       </tr>
                     ))}
@@ -473,7 +612,9 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
 
           {datasheet.melee_weapons?.length > 0 && (
             <div>
-              <h5 className="text-sm font-semibold text-gray-600 mb-2">Melee Weapons</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-2">
+                Melee Weapons
+              </h5>
               <div className="overflow-x-auto">
                 <table className="w-full border-collapse text-xs">
                   <thead>
@@ -491,15 +632,29 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
                   <tbody>
                     {datasheet.melee_weapons.map((weapon, idx) => (
                       <tr key={idx}>
-                        <td className="border border-gray-300 p-1">{weapon.name}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.range}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.attacks}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.weapon_skill}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.strength}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.armour_penetration}</td>
-                        <td className="border border-gray-300 p-1 text-center">{weapon.stats.damage}</td>
+                        <td className="border border-gray-300 p-1">
+                          {weapon.name?.replace("🠶", "•")}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.range}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.attacks}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.weapon_skill}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.strength}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.armour_penetration}
+                        </td>
+                        <td className="border border-gray-300 p-1 text-center">
+                          {weapon.stats.damage}
+                        </td>
                         <td className="border border-gray-300 p-1 text-[10px]">
-                          {weapon.abilities?.join(', ') || '—'}
+                          {weapon.abilities?.join(", ") || "—"}
                         </td>
                       </tr>
                     ))}
@@ -515,7 +670,10 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
         <div className="mb-5">
           <h4 className="text-base font-bold mb-2">Abilities</h4>
           {datasheet.abilities.map((ability, idx) => (
-            <div key={idx} className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs">
+            <div
+              key={idx}
+              className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs"
+            >
               <strong>{ability.name}</strong> {ability.rule}
             </div>
           ))}
@@ -527,17 +685,23 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
           <h4 className="text-base font-bold mb-2">Keywords</h4>
           {datasheet.keywords.faction_keywords?.length > 0 && (
             <div className="mb-3">
-              <h5 className="text-sm font-semibold text-gray-600 mb-1">Faction Keywords</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-1">
+                Faction Keywords
+              </h5>
               <div className="flex flex-wrap gap-1">
                 {datasheet.keywords.faction_keywords.map((keyword, idx) => (
-                  <Badge key={idx} variant="faction">{keyword}</Badge>
+                  <Badge key={idx} variant="faction">
+                    {keyword}
+                  </Badge>
                 ))}
               </div>
             </div>
           )}
           {datasheet.keywords.keywords?.length > 0 && (
             <div>
-              <h5 className="text-sm font-semibold text-gray-600 mb-1">Keywords</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-1">
+                Keywords
+              </h5>
               <div className="flex flex-wrap gap-1">
                 {datasheet.keywords.keywords.map((keyword, idx) => (
                   <Badge key={idx}>{keyword}</Badge>
@@ -551,7 +715,13 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
   );
 }
 
-function FactionDetailsView({ faction, url }: { faction: FactionDetails; url: string }) {
+function FactionDetailsView({
+  faction,
+  url,
+}: {
+  faction: FactionDetails;
+  url: string;
+}) {
   return (
     <div>
       {url && (
@@ -574,7 +744,9 @@ function FactionDetailsView({ faction, url }: { faction: FactionDetails; url: st
           <h4 className="text-base font-bold mb-2">Faction Rules</h4>
           {faction.rules.map((rule, idx) => (
             <div key={idx} className="mb-4">
-              <h5 className="text-sm font-semibold text-gray-600 mb-2">{rule.rules_name}</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-2">
+                {rule.rules_name}
+              </h5>
               <div className="bg-gray-50 p-3 rounded font-mono text-xs whitespace-pre-line">
                 {rule.rules_content}
               </div>
@@ -586,7 +758,13 @@ function FactionDetailsView({ faction, url }: { faction: FactionDetails; url: st
   );
 }
 
-function DetachmentDetailsView({ detachment, url }: { detachment: DetachmentDetails; url: string }) {
+function DetachmentDetailsView({
+  detachment,
+  url,
+}: {
+  detachment: DetachmentDetails;
+  url: string;
+}) {
   return (
     <div>
       {url && (
@@ -604,14 +782,19 @@ function DetachmentDetailsView({ detachment, url }: { detachment: DetachmentDeta
 
       <div className="mb-5">
         <h4 className="text-lg font-bold mb-2">{detachment.detachment_name}</h4>
-        <p><strong>Faction:</strong> {detachment.faction_name}</p>
+        <p>
+          <strong>Faction:</strong> {detachment.faction_name}
+        </p>
       </div>
 
       {detachment.rules?.length > 0 && (
         <div className="mb-5">
           <h4 className="text-base font-bold mb-2">Detachment Rules</h4>
           {detachment.rules.map((rule, idx) => (
-            <div key={idx} className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs">
+            <div
+              key={idx}
+              className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs"
+            >
               {rule.text}
             </div>
           ))}
@@ -623,7 +806,9 @@ function DetachmentDetailsView({ detachment, url }: { detachment: DetachmentDeta
           <h4 className="text-base font-bold mb-2">Enhancements</h4>
           {detachment.enhancements.map((enhancement, idx) => (
             <div key={idx} className="mb-3">
-              <h5 className="text-sm font-semibold text-gray-600 mb-1">{enhancement.name}</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-1">
+                {enhancement.name}
+              </h5>
               <div className="bg-gray-50 p-3 rounded font-mono text-xs whitespace-pre-line">
                 {enhancement.text}
               </div>
@@ -637,7 +822,9 @@ function DetachmentDetailsView({ detachment, url }: { detachment: DetachmentDeta
           <h4 className="text-base font-bold mb-2">Stratagems</h4>
           {detachment.stratagems.map((stratagem, idx) => (
             <div key={idx} className="mb-3">
-              <h5 className="text-sm font-semibold text-gray-600 mb-1">{stratagem.name}</h5>
+              <h5 className="text-sm font-semibold text-gray-600 mb-1">
+                {stratagem.name}
+              </h5>
               <div className="bg-gray-50 p-3 rounded font-mono text-xs whitespace-pre-line">
                 {stratagem.text}
               </div>

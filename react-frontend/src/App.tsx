@@ -1,6 +1,6 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Parse from './pages/Parse';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Parse from "./pages/Parse";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/parse" element={<Parse />} />
-         <Route path="/shared/:sharedSlug" element={<Parse/>}/>
+        <Route path="/shared/:sharedSlug" element={<Parse />} />
       </Routes>
     </BrowserRouter>
   );

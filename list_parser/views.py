@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import get_object_or_404
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
@@ -32,10 +32,6 @@ def index(request):
 
 def health(request):
     return JsonResponse({"status": "ok"})
-
-
-def parse(request):
-    return render(request, "list_parser/index.html")
 
 
 def sanitized_response(entities):
@@ -196,14 +192,3 @@ def get_shared_list(request, slug):
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
-
-
-def shared_list_view(request, slug):
-    """
-    Render the shared list using the existing parser page
-    """
-    shared_list = get_object_or_404(SharedList, slug=slug)
-    shared_list.increment_view_count()
-
-    # Reuse the existing index.html template, it will handle the parsing via URL params
-    return render(request, "list_parser/index.html")

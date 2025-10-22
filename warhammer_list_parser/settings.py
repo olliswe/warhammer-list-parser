@@ -14,6 +14,7 @@ import os
 from pathlib import Path
 from decouple import config
 import dj_database_url
+from celery.schedules import crontab
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -204,10 +205,9 @@ CELERY_TASK_SERIALIZER = "json"
 CELERY_RESULT_SERIALIZER = "json"
 CELERY_TIMEZONE = TIME_ZONE
 CELERY_BEAT_SCHEDULE = {
-    # Example: run faction scraper daily at 2 AM
-    "run-faction-scraper": {
-        "task": "datasheet_scraper.tasks.scrape_factions_task",
-        "schedule": 60.0 * 60 * 24,  # 24 hours
+    "run-full-scrape-weekly": {
+        "task": "datasheet_scraper.tasks.full_scrape_task",
+        "schedule": crontab(day_of_week=1, hour=23, minute=0),  # Monday at 11 PM
     },
 }
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"

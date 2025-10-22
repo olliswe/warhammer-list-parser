@@ -25,6 +25,7 @@ export interface ParsedData {
 }
 
 export interface SavedList {
+  id: string;
   name: string;
   rawText: string;
   parsedData: ParsedData;
