@@ -14,5 +14,5 @@ fi
 echo "Running build..."
 npm run build
 
-echo "✓ Frontend built successfully to staticfiles/react/"
+echo "✓ Frontend built successfully to build/"
 echo "Run 'python manage.py collectstatic --noinput' to collect all static files"

@@ -162,11 +162,16 @@ USE_TZ = True
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
+# Directories where Django will look for static files to collect
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "build"),
+]
+
 # Static files storage for production
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Directory where React index.html is located
-REACT_APP_DIR = os.path.join(BASE_DIR, "staticfiles/react")
+REACT_APP_DIR = os.path.join(BASE_DIR, "build")
 
 # Security settings for production
 if not DEBUG:
