@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED=1
 # Set work directory
 WORKDIR /app
 
-# Install system dependencies including Chromium
+# Install system dependencies including Chromium and Node.js
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         postgresql-client \
@@ -20,6 +20,8 @@ RUN apt-get update \
         ca-certificates \
         chromium \
         chromium-driver \
+    && curl -fsSL https://deb.nodesource.com/setup_20.x | bash - \
+    && apt-get install -y nodejs \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python dependencies
@@ -28,6 +30,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy project
 COPY . .
+
+# Build React frontend
+RUN cd react-frontend && npm ci && npm run build
 
 # Copy and make entrypoint script executable
 COPY entrypoint.sh .

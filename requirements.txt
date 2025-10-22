@@ -41,3 +41,4 @@ celery==5.5.3
 flower==2.0.1
 redis==6.4.0
 django-celery-beat==2.8.1
+django-cors-headers==4.3.1

@@ -1,8 +1,10 @@
-from django.shortcuts import render, get_object_or_404
-from django.http import JsonResponse
+from django.shortcuts import get_object_or_404
+from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
+from django.conf import settings
 import json
+import os
 from .utils.main import detect_entities
 from .utils.shared_utils import (
     faction_id_to_url,
@@ -14,15 +16,22 @@ from datasheet_scraper.models import FactionJson, DetachmentJson, DatasheetJson
 
 
 def index(request):
-    return render(request, "list_parser/landing.html")
+    """Serve React app"""
+    try:
+        with open(os.path.join(settings.REACT_APP_DIR, "index.html")) as f:
+            return HttpResponse(f.read())
+    except FileNotFoundError:
+        return HttpResponse(
+            """
+            <h1>React app not built yet</h1>
+            <p>Run <code>cd react-frontend && npm run build</code> to build the React app.</p>
+            """,
+            status=503,
+        )
 
 
 def health(request):
     return JsonResponse({"status": "ok"})
-
-
-def parse(request):
-    return render(request, "list_parser/index.html")
 
 
 def sanitized_response(entities):
@@ -132,6 +141,7 @@ def share_list(request):
         name = body.get("name")
         raw_text = body.get("raw_text")
         parsed_data = body.get("parsed_data")
+        source_url = request.get_host()
 
         if not all([name, raw_text, parsed_data]):
             return JsonResponse(
@@ -144,7 +154,10 @@ def share_list(request):
         )
 
         # Build the share URL
-        share_url = request.build_absolute_uri(f"/shared/{shared_list.slug}/")
+        if "localhost" in source_url:
+            share_url = f"http://localhost:3000/shared/{shared_list.slug}/"
+        else:
+            share_url = request.build_absolute_uri(f"/shared/{shared_list.slug}/")
 
         return JsonResponse(
             {"success": True, "slug": shared_list.slug, "share_url": share_url}
@@ -179,14 +192,3 @@ def get_shared_list(request, slug):
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
-
-
-def shared_list_view(request, slug):
-    """
-    Render the shared list using the existing parser page
-    """
-    shared_list = get_object_or_404(SharedList, slug=slug)
-    shared_list.increment_view_count()
-
-    # Reuse the existing index.html template, it will handle the parsing via URL params
-    return render(request, "list_parser/index.html")
