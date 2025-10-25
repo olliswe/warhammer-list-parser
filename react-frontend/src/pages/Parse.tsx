@@ -1,10 +1,10 @@
 import { useState, useEffect, useCallback } from "react";
 import { useSearchParams, useParams, Link } from "react-router-dom";
-import Card from "@/components/Card";
-import Button from "@/components/Button";
-import Badge from "@/components/Badge";
-import Modal from "@/components/Modal";
-import EntryItem from "@/components/EntryItem";
+import Card from "@/components/atoms/Card.tsx";
+import Button from "@/components/atoms/Button.tsx";
+import Badge from "@/components/atoms/Badge.tsx";
+import Modal from "@/components/atoms/Modal.tsx";
+import EntryItem from "@/components/atoms/EntryItem.tsx";
 import { saveList, getListById } from "@/lib/storage";
 import {
   ParsedData,
