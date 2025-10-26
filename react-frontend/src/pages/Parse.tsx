@@ -12,9 +12,9 @@ import ArmyListForm from "@/components/parse/ArmyListForm.tsx";
 import useLoadArmyList from "@/hooks/use-load-army-list.ts";
 import useShowDetails from "@/hooks/use-show-details.ts";
 import {
-  parsedDataAtom,
-  errorAtom,
   detailsContentAtom,
+  errorAtom,
+  parsedDataAtom,
 } from "@/atoms/parse-atoms";
 
 export default function Parse() {
@@ -48,6 +48,17 @@ function ParseContent() {
             <Link to="/" className="text-blue-600 hover:underline text-sm">
               ← Back to Saved Lists
             </Link>
+            {parsedData && (
+              <>
+                <span className="mx-4" />
+                <a
+                  href="/parse"
+                  className="text-blue-600 hover:underline text-sm"
+                >
+                  + Parse another list
+                </a>
+              </>
+            )}
           </div>
 
           <SharedListInfo />
