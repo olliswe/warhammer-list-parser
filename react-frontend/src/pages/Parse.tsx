@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Provider, useAtomValue } from "jotai";
 import Card from "@/components/atoms/Card.tsx";
 import Badge from "@/components/atoms/Badge.tsx";
 import Modal from "@/components/atoms/Modal.tsx";
@@ -10,20 +11,26 @@ import SharedListInfo from "@/components/parse/SharedListInfo.tsx";
 import ArmyListForm from "@/components/parse/ArmyListForm.tsx";
 import useLoadArmyList from "@/hooks/use-load-army-list.ts";
 import useShowDetails from "@/hooks/use-show-details.ts";
-import useArmyListStore from "@/hooks/use-army-list-store.ts";
-import useDetailsContentStore from "@/hooks/use-details-content-store.ts";
+import { parsedDataAtom, errorAtom, detailsContentAtom } from "@/atoms/parse-atoms";
 
 export default function Parse() {
+  return (
+    <Provider>
+      <ParseContent />
+    </Provider>
+  );
+}
+
+function ParseContent() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useLoadArmyList();
 
   const { showDetails } = useShowDetails({ setIsModalOpen });
 
-  const parsedData = useArmyListStore((state) => state.parsedData);
-  const error = useArmyListStore((state) => state.error);
-
-  const detailsContent = useDetailsContentStore((s) => s.detailsContent);
+  const parsedData = useAtomValue(parsedDataAtom);
+  const error = useAtomValue(errorAtom);
+  const detailsContent = useAtomValue(detailsContentAtom);
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">

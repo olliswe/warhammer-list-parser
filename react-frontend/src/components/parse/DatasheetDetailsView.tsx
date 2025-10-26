@@ -75,6 +75,16 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
         </div>
       )}
 
+      {datasheet.enhancement && (
+        <div className="mb-5">
+          <h4 className="text-base font-bold mb-2">Enhancement</h4>
+          <div className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs">
+            <strong>{datasheet.enhancement.name}</strong>{" "}
+            {datasheet.enhancement.text}
+          </div>
+        </div>
+      )}
+
       {(datasheet.ranged_weapons?.length > 0 ||
         datasheet.melee_weapons?.length > 0) && (
         <div className="mb-5">

@@ -1,17 +1,26 @@
 import { useEffect } from "react";
+import { useSetAtom } from "jotai";
 import { getListById } from "@/lib/storage.ts";
-import useArmyListStore from "@/hooks/use-army-list-store.ts";
 import { useParams, useSearchParams } from "react-router-dom";
 import useParseArmyList from "@/hooks/use-parse-army-list.ts";
-import useSharedListStore from "@/hooks/use-shared-list-store.ts";
+import {
+  armyListAtom,
+  listNameAtom,
+  loadingAtom,
+  errorAtom,
+  sharedListInfoAtom,
+} from "@/atoms/parse-atoms";
 
 const useLoadArmyList = () => {
   const [searchParams] = useSearchParams();
   const { sharedSlug } = useParams();
   const { handleParse } = useParseArmyList();
 
-  const { setArmyList, setListName, setLoading, setError } = useArmyListStore();
-  const { setSharedListInfo } = useSharedListStore();
+  const setArmyList = useSetAtom(armyListAtom);
+  const setListName = useSetAtom(listNameAtom);
+  const setLoading = useSetAtom(loadingAtom);
+  const setError = useSetAtom(errorAtom);
+  const setSharedListInfo = useSetAtom(sharedListInfoAtom);
 
   useEffect(() => {
     const loadSharedList = async (slug: string) => {

@@ -91,6 +91,10 @@ export interface DatasheetDetails {
     count: string;
     points: string;
   }>;
+  enhancement?: {
+    name: string;
+    text: string;
+  };
 }
 
 export interface FactionDetails {

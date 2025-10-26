@@ -1,18 +1,26 @@
 import React, { useState } from "react";
+import { useAtom, useAtomValue } from "jotai";
 import Button from "@/components/atoms/Button.tsx";
 import { useMediaQuery } from "react-responsive";
-import useArmyListStore from "@/hooks/use-army-list-store.ts";
 import useParseArmyList from "@/hooks/use-parse-army-list.ts";
-import useIsCollapsedStore from "@/hooks/use-is-collapsed-store.ts";
+import {
+  parsedDataAtom,
+  listNameAtom,
+  armyListAtom,
+  loadingAtom,
+} from "@/atoms/parse-atoms";
 
 const ArmyListForm = ({}) => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [shareLoading, setShareLoading] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(false);
 
-  const { parsedData, listName, armyList, setArmyList, setListName, loading } =
-    useArmyListStore();
-  const { handleParse } = useParseArmyList();
-  const { isCollapsed, setIsCollapsed } = useIsCollapsedStore();
+  const parsedData = useAtomValue(parsedDataAtom);
+  const [listName, setListName] = useAtom(listNameAtom);
+  const [armyList, setArmyList] = useAtom(armyListAtom);
+  const loading = useAtomValue(loadingAtom);
+
+  const { handleParse } = useParseArmyList(() => setIsCollapsed(true));
 
   const handleShare = async () => {
     if (!parsedData || !listName || !armyList) return;

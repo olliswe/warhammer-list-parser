@@ -13,6 +13,7 @@ from .utils.shared_utils import (
 )
 from .models import SharedList
 from datasheet_scraper.models import FactionJson, DetachmentJson, DatasheetJson
+from rapidfuzz import fuzz
 
 
 def index(request):
@@ -98,7 +99,28 @@ def get_datasheet(request, datasheet_id):
     """
     try:
         datasheet = get_object_or_404(DatasheetJson, datasheet_id=datasheet_id)
-        return JsonResponse(datasheet.data)
+        detachment_id = request.GET.get("detachment_id")
+        text = request.GET.get("text")
+        detachment = get_object_or_404(DetachmentJson, detachment_id=detachment_id)
+        return_data = datasheet.data
+        has_enhancement = fuzz.partial_ratio("enhancement", text.lower()) > 95
+        if has_enhancement and detachment and text:
+            enhancements = detachment.data.get("enhancements", [])
+            for enhancement in enhancements:
+                enhancement_name = enhancement.get("name")
+                enhancement_text = enhancement.get("text")
+                # use rapidfuzz to find the enhancement in the datasheet
+                if enhancement_name:
+                    score = fuzz.partial_ratio(enhancement_name.lower(), text.lower())
+                    print(enhancement_name, score)
+                    if score >= 90:
+                        return_data["enhancement"] = {
+                            "name": enhancement_name,
+                            "text": enhancement_text,
+                        }
+                        break
+
+        return JsonResponse(return_data)
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)

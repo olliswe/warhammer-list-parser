@@ -1,19 +1,26 @@
-import useDetailsContentStore from "@/hooks/use-details-content-store.ts";
+import { useAtomValue, useSetAtom } from "jotai";
 import { EntityDetails } from "@/types";
+import { parsedDataAtom, detailsContentAtom } from "@/atoms/parse-atoms";
 
 const useShowDetails = ({
   setIsModalOpen,
 }: {
   setIsModalOpen: (input: boolean) => void;
 }) => {
-  const setDetailsContent = useDetailsContentStore(
-    (state) => state.setDetailsContent,
-  );
+  const setDetailsContent = useSetAtom(detailsContentAtom);
+  const parsedData = useAtomValue(parsedDataAtom);
+  const detachmentId = parsedData?.detachment[0]?.detachment_id || "";
 
   const showDetails = async (entity: EntityDetails) => {
     if (entity.type === "datasheet" && entity.datasheet_id) {
       try {
-        const response = await fetch(`/api/datasheet/${entity.datasheet_id}/`);
+        const params = new URLSearchParams({
+          detachment_id: detachmentId,
+          text: entity.entry_text,
+        });
+        const response = await fetch(
+          `/api/datasheet/${entity.datasheet_id}/?${params}`,
+        );
         const data = await response.json();
         if (response.ok) {
           setDetailsContent({ type: "datasheet", data });

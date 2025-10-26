@@ -1,8 +1,14 @@
 import { useCallback } from "react";
+import { useAtom, useAtomValue } from "jotai";
 import { saveList } from "@/lib/storage.ts";
 import { ParsedData } from "@/types";
-import useArmyListStore from "@/hooks/use-army-list-store.ts";
-import useIsCollapsedStore from "@/hooks/use-is-collapsed-store.ts";
+import {
+  armyListAtom,
+  listNameAtom,
+  loadingAtom,
+  errorAtom,
+  parsedDataAtom,
+} from "@/atoms/parse-atoms";
 
 const generateAutoName = (data: ParsedData) => {
   if (data.factions && data.factions.length > 0) {
@@ -13,16 +19,12 @@ const generateAutoName = (data: ParsedData) => {
   return "Unknown Army List";
 };
 
-const useParseArmyList = () => {
-  const {
-    armyList,
-    listName,
-    setListName,
-    setLoading,
-    setError,
-    setParsedData,
-  } = useArmyListStore();
-  const setIsCollapsed = useIsCollapsedStore((state) => state.setIsCollapsed);
+const useParseArmyList = (onSuccess?: () => void) => {
+  const armyList = useAtomValue(armyListAtom);
+  const [listName, setListName] = useAtom(listNameAtom);
+  const [, setLoading] = useAtom(loadingAtom);
+  const [, setError] = useAtom(errorAtom);
+  const [, setParsedData] = useAtom(parsedDataAtom);
 
   const handleParse = useCallback(
     async (textToParse?: string, nameOverride?: string) => {
@@ -47,7 +49,7 @@ const useParseArmyList = () => {
         }
 
         setParsedData(data);
-        setIsCollapsed(true);
+        onSuccess?.();
 
         // Auto-save - use nameOverride if provided (from loading existing list)
         const autoName = nameOverride || listName || generateAutoName(data);
@@ -61,7 +63,15 @@ const useParseArmyList = () => {
         setLoading(false);
       }
     },
-    [armyList, listName],
+    [
+      armyList,
+      listName,
+      onSuccess,
+      setLoading,
+      setError,
+      setParsedData,
+      setListName,
+    ],
   );
 
   return {

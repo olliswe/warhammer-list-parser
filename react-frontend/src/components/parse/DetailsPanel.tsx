@@ -1,12 +1,13 @@
 import React from "react";
+import { useAtomValue } from "jotai";
 import { DatasheetDetails, DetachmentDetails, FactionDetails } from "@/types";
 import DetachmentDetailsView from "@/components/parse/DetachmentDetailsView.tsx";
 import FactionDetailsView from "@/components/parse/FactionDetailsView.tsx";
 import DatasheetDetailsView from "@/components/parse/DatasheetDetailsView.tsx";
-import useDetailsContentStore from "@/hooks/use-details-content-store.ts";
+import { detailsContentAtom } from "@/atoms/parse-atoms";
 
 function DetailsPanel() {
-  const content = useDetailsContentStore((s) => s.detailsContent);
+  const content = useAtomValue(detailsContentAtom);
 
   if (content.type === "error") {
     return (

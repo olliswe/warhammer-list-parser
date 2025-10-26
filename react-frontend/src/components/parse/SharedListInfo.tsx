@@ -1,8 +1,9 @@
 import React from "react";
-import useSharedListStore from "@/hooks/use-shared-list-store.ts";
+import { useAtomValue } from "jotai";
+import { sharedListInfoAtom } from "@/atoms/parse-atoms";
 
 const SharedListInfo = () => {
-  const sharedListInfo = useSharedListStore((s) => s.sharedListInfo);
+  const sharedListInfo = useAtomValue(sharedListInfoAtom);
 
   if (!sharedListInfo) return null;
 
