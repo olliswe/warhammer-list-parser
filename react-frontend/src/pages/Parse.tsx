@@ -11,7 +11,11 @@ import SharedListInfo from "@/components/parse/SharedListInfo.tsx";
 import ArmyListForm from "@/components/parse/ArmyListForm.tsx";
 import useLoadArmyList from "@/hooks/use-load-army-list.ts";
 import useShowDetails from "@/hooks/use-show-details.ts";
-import { parsedDataAtom, errorAtom, detailsContentAtom } from "@/atoms/parse-atoms";
+import {
+  parsedDataAtom,
+  errorAtom,
+  detailsContentAtom,
+} from "@/atoms/parse-atoms";
 
 export default function Parse() {
   return (
@@ -125,7 +129,7 @@ function ParseContent() {
                         <div
                           dangerouslySetInnerHTML={{
                             __html: datasheet.entry_text.replace(
-                              /\((\d+)\s*Points?|Pts?\)/gi,
+                              /\((\d+)\s*(?:Points?|Pts?)\)/gi,
                               '<span class="text-green-600 font-bold">($1 Points)</span>',
                             ),
                           }}
