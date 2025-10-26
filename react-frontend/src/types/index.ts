@@ -116,3 +116,25 @@ export interface DetachmentDetails {
     text: string;
   }>;
 }
+
+export interface DetailsContent {
+  type: "datasheet" | "faction" | "detachment" | "error";
+  data?: DatasheetDetails | FactionDetails | DetachmentDetails;
+  url?: string;
+  message?: string;
+}
+
+export interface SharedListDetails {
+  viewCount: number;
+  createdAt: string;
+}
+
+export interface EntityDetails {
+  type: "faction" | "detachment" | "datasheet";
+  name: string;
+  faction_id?: string;
+  detachment_id?: string;
+  datasheet_id?: string;
+  url?: string;
+  entry_text?: string;
+}
