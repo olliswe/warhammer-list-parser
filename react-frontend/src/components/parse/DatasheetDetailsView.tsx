@@ -214,6 +214,20 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
         </div>
       )}
 
+      {datasheet.custom_rules?.length > 0 && (
+        <div className="mb-5">
+          <h4 className="text-base font-bold mb-2">Other Rules</h4>
+          {datasheet.custom_rules.map((rule, idx) => (
+            <div
+              key={idx}
+              className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs"
+            >
+              <strong>{rule.title}</strong> {rule.text}
+            </div>
+          ))}
+        </div>
+      )}
+
       {datasheet.keywords && (
         <div className="mb-5">
           <h4 className="text-base font-bold mb-2">Keywords</h4>
@@ -241,6 +255,79 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
                   <Badge key={idx}>{keyword}</Badge>
                 ))}
               </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {datasheet.unit_composition_table?.length > 0 && (
+        <div className="mb-5">
+          <h4 className="text-base font-bold mb-2">Unit Composition</h4>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-xs">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border border-gray-300 p-2">Model</th>
+                  <th className="border border-gray-300 p-2">Count</th>
+                  <th className="border border-gray-300 p-2">Points</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...datasheet.unit_composition_table]
+                  .sort((a, b) => parseInt(a.points) - parseInt(b.points))
+                  .map((composition, idx) => {
+                  const models = composition.model.split("\n");
+                  const counts = composition.count.split("\n");
+                  const bgColor = idx % 2 === 0 ? "bg-white" : "bg-gray-50";
+
+                  return models.map((model, i) => (
+                    <tr key={`${idx}-${i}`} className={bgColor}>
+                      <td className="border border-gray-300 p-2">{model}</td>
+                      <td className="border border-gray-300 p-2 text-center">
+                        {counts[i] || ""}
+                      </td>
+                      {i === 0 && (
+                        <td
+                          className="border border-gray-300 p-2 text-center font-bold"
+                          rowSpan={models.length}
+                        >
+                          {composition.points}
+                        </td>
+                      )}
+                    </tr>
+                  ));
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+
+      {(datasheet.leader?.length > 0 || datasheet.led_by?.length > 0) && (
+        <div className="mb-5">
+          <h4 className="text-base font-bold mb-2">Leader Info</h4>
+          {datasheet.leader?.length > 0 && (
+            <div className="mb-3">
+              <h5 className="text-sm font-semibold text-gray-600 mb-1">
+                This unit can lead:
+              </h5>
+              <ul className="list-disc list-inside text-sm">
+                {datasheet.leader.map((unit, idx) => (
+                  <li key={idx}>{unit.name}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {datasheet.led_by?.length > 0 && (
+            <div>
+              <h5 className="text-sm font-semibold text-gray-600 mb-1">
+                This unit can be led by:
+              </h5>
+              <ul className="list-disc list-inside text-sm">
+                {datasheet.led_by.map((unit, idx) => (
+                  <li key={idx}>{unit.name}</li>
+                ))}
+              </ul>
             </div>
           )}
         </div>
