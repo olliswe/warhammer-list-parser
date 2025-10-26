@@ -6,6 +6,7 @@ import { getSavedLists, deleteList } from "@/lib/storage";
 import { SavedList } from "@/types";
 import SavedListsPlaceholder from "@/components/home/SavedListsPlaceholder.tsx";
 import SavedListsList from "@/components/home/SavedListsList.tsx";
+import InfoPanel from "@/components/home/InfoPanel.tsx";
 
 export default function Home() {
   const [savedLists, setSavedLists] = useState<SavedList[]>([]);
@@ -47,9 +48,10 @@ export default function Home() {
     <div className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-6xl mx-auto">
         <Card className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900 text-center mb-8">
-            Warhammer Army List Parser
+          <h1 className="text-3xl font-bold text-gray-900 text-center mb-5">
+            Warhammer 40k Army List Parser
           </h1>
+          <InfoPanel />
 
           <div className="text-center">
             <Link to="/parse">

@@ -118,7 +118,7 @@ export default function Parse() {
                         <div
                           dangerouslySetInnerHTML={{
                             __html: datasheet.entry_text.replace(
-                              /\((\d+)\s*Points?\)/gi,
+                              /\((\d+)\s*Points?|Pts?\)/gi,
                               '<span class="text-green-600 font-bold">($1 Points)</span>',
                             ),
                           }}
