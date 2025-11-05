@@ -91,6 +91,7 @@ export interface DatasheetDetails {
     count: string;
     points: string;
   }>;
+  wargear_options: string[];
   enhancement?: {
     name: string;
     text: string;
