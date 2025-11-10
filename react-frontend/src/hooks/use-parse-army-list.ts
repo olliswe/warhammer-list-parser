@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useAtom, useAtomValue } from "jotai";
 import { saveList } from "@/lib/storage.ts";
+import { trackEvent } from "@/lib/umami.ts";
 import { ParsedData } from "@/types";
 import {
   armyListAtom,
@@ -55,6 +56,13 @@ const useParseArmyList = (onSuccess?: () => void) => {
         const autoName = nameOverride || listName || generateAutoName(data);
         setListName(autoName);
         saveList(autoName, text, data);
+
+        // Track successful parse
+        trackEvent("list_parsed", {
+          faction: data.factions?.[0]?.faction_name || "unknown",
+          detachment: data.detachment?.[0]?.detachment_name || "unknown",
+          unit_count: data.datasheets?.length || 0,
+        });
       } catch (err) {
         const errorMessage =
           err instanceof Error ? err.message : "An error occurred";

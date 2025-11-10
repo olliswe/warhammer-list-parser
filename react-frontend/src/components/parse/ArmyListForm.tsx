@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { useAtom, useAtomValue } from "jotai";
 import Button from "@/components/atoms/Button.tsx";
+import ClipboardButton from "@/components/atoms/ClipboardButton.tsx";
+import ClearButton from "@/components/atoms/ClearButton.tsx";
+import ShareModal from "@/components/atoms/ShareModal.tsx";
 import { useMediaQuery } from "react-responsive";
 import useParseArmyList from "@/hooks/use-parse-army-list.ts";
+import { trackEvent } from "@/lib/umami.ts";
 import {
   parsedDataAtom,
   listNameAtom,
@@ -14,6 +18,8 @@ const ArmyListForm = ({}) => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [shareLoading, setShareLoading] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [showShareModal, setShowShareModal] = useState(false);
+  const [shareUrl, setShareUrl] = useState("");
 
   const parsedData = useAtomValue(parsedDataAtom);
   const [listName, setListName] = useAtom(listNameAtom);
@@ -41,8 +47,15 @@ const ArmyListForm = ({}) => {
       const data = await response.json();
 
       if (response.ok) {
-        await navigator.clipboard.writeText(data.share_url);
-        alert("Share link copied to clipboard!");
+        setShareUrl(data.share_url);
+        setShowShareModal(true);
+
+        // Track successful share
+        trackEvent("list_shared", {
+          faction: parsedData.factions?.[0]?.faction_name || "unknown",
+          unit_count: parsedData.datasheets?.length || 0,
+          share_url: data.share_url,
+        });
       } else {
         throw new Error(data.error || "Failed to create share link");
       }
@@ -56,22 +69,35 @@ const ArmyListForm = ({}) => {
   };
 
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        handleParse();
-      }}
-      className="space-y-4"
-    >
-      <div
-        className={`transition-all ${isCollapsed ? "max-h-20 overflow-hidden" : ""}`}
+    <>
+      <ShareModal
+        isOpen={showShareModal}
+        onClose={() => setShowShareModal(false)}
+        shareUrl={shareUrl}
+      />
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleParse();
+        }}
+        className="space-y-4"
       >
-        <label
-          htmlFor="armyList"
-          className="block mb-2 font-bold text-gray-700"
+        <div
+          className={`transition-all ${isCollapsed ? "max-h-20 overflow-hidden" : ""}`}
         >
-          Army List Text:
-        </label>
+        <div className="flex justify-between items-center mb-2">
+          <label
+            htmlFor="armyList"
+            className="font-bold text-gray-700"
+          >
+            List Text:
+          </label>
+          {!armyList ? (
+            <ClipboardButton onPaste={(text) => setArmyList(text)} />
+          ) : (
+            <ClearButton onClear={() => setArmyList("")} />
+          )}
+        </div>
         <textarea
           id="armyList"
           value={armyList}
@@ -131,6 +157,7 @@ const ArmyListForm = ({}) => {
         )}
       </div>
     </form>
+    </>
   );
 };
 
