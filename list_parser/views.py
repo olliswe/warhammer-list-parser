@@ -5,7 +5,6 @@ from django.views.decorators.http import require_http_methods
 from django.conf import settings
 import json
 import os
-import logging
 from .utils.main import detect_entities
 from .utils.shared_utils import (
     faction_id_to_url,
@@ -15,8 +14,6 @@ from .utils.shared_utils import (
 from .models import SharedList
 from datasheet_scraper.models import FactionJson, DetachmentJson, DatasheetJson
 from rapidfuzz import fuzz
-
-logger = logging.getLogger(__name__)
 
 
 def index(request):
@@ -82,35 +79,16 @@ def detect_army_entities(request):
         army_list = body.get("army_list")
 
         if not army_list:
-            logger.warning("detect_army_entities: missing army_list parameter")
             return JsonResponse(
                 {"error": "army_list parameter is required"}, status=400
             )
 
         entities = detect_entities(army_list)
-        response_data = sanitized_response(entities)
-
-        logger.info(
-            "list_parsed",
-            extra={
-                "endpoint": "/api/detect-entities/",
-                "faction": response_data["factions"][0]["faction_name"] if response_data["factions"] else "unknown",
-                "detachment": response_data["detachment"][0]["detachment_name"] if response_data["detachment"] else "unknown",
-                "unit_count": len(response_data["datasheets"]),
-            }
-        )
-
-        return JsonResponse(response_data)
+        return JsonResponse(sanitized_response(entities))
 
     except json.JSONDecodeError:
-        logger.error("detect_army_entities: invalid JSON", extra={"endpoint": "/api/detect-entities/"})
         return JsonResponse({"error": "Invalid JSON"}, status=400)
     except Exception as e:
-        logger.error(
-            "detect_army_entities: error",
-            extra={"endpoint": "/api/detect-entities/", "error": str(e)},
-            exc_info=True
-        )
         return JsonResponse({"error": str(e)}, status=500)
 
 
@@ -188,7 +166,6 @@ def share_list(request):
         source_url = request.get_host()
 
         if not all([name, raw_text, parsed_data]):
-            logger.warning("share_list: missing required fields")
             return JsonResponse(
                 {"error": "name, raw_text, and parsed_data are required"}, status=400
             )
@@ -204,30 +181,13 @@ def share_list(request):
         else:
             share_url = request.build_absolute_uri(f"/shared/{shared_list.slug}/")
 
-        logger.info(
-            "list_shared",
-            extra={
-                "endpoint": "/api/share/",
-                "slug": shared_list.slug,
-                "share_url": share_url,
-                "faction": parsed_data.get("factions", [{}])[0].get("faction_name", "unknown") if parsed_data.get("factions") else "unknown",
-                "unit_count": len(parsed_data.get("datasheets", [])),
-            }
-        )
-
         return JsonResponse(
             {"success": True, "slug": shared_list.slug, "share_url": share_url}
         )
 
     except json.JSONDecodeError:
-        logger.error("share_list: invalid JSON", extra={"endpoint": "/api/share/"})
         return JsonResponse({"error": "Invalid JSON"}, status=400)
     except Exception as e:
-        logger.error(
-            "share_list: error",
-            extra={"endpoint": "/api/share/", "error": str(e)},
-            exc_info=True
-        )
         return JsonResponse({"error": str(e)}, status=500)
 
 
@@ -242,15 +202,6 @@ def get_shared_list(request, slug):
         # Increment view count
         shared_list.increment_view_count()
 
-        logger.info(
-            "shared_list_viewed",
-            extra={
-                "endpoint": "/api/shared/",
-                "slug": slug,
-                "view_count": shared_list.view_count,
-            }
-        )
-
         return JsonResponse(
             {
                 "name": shared_list.name,
@@ -262,9 +213,4 @@ def get_shared_list(request, slug):
         )
 
     except Exception as e:
-        logger.error(
-            "get_shared_list: error",
-            extra={"endpoint": "/api/shared/", "slug": slug, "error": str(e)},
-            exc_info=True
-        )
         return JsonResponse({"error": str(e)}, status=500)

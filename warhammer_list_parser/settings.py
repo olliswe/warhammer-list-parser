@@ -95,6 +95,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "list_parser.middleware.RequestResponseLoggingMiddleware",
 ]
 
 ROOT_URLCONF = "warhammer_list_parser.urls"
