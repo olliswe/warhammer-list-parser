@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useAtom, useAtomValue } from "jotai";
 import Button from "@/components/atoms/Button.tsx";
+import ClipboardButton from "@/components/atoms/ClipboardButton.tsx";
+import ClearButton from "@/components/atoms/ClearButton.tsx";
 import { useMediaQuery } from "react-responsive";
 import useParseArmyList from "@/hooks/use-parse-army-list.ts";
 import { trackEvent } from "@/lib/umami.ts";
@@ -74,12 +76,19 @@ const ArmyListForm = ({}) => {
       <div
         className={`transition-all ${isCollapsed ? "max-h-20 overflow-hidden" : ""}`}
       >
-        <label
-          htmlFor="armyList"
-          className="block mb-2 font-bold text-gray-700"
-        >
-          Army List Text:
-        </label>
+        <div className="flex justify-between items-center mb-2">
+          <label
+            htmlFor="armyList"
+            className="font-bold text-gray-700"
+          >
+            List Text:
+          </label>
+          {!armyList ? (
+            <ClipboardButton onPaste={(text) => setArmyList(text)} />
+          ) : (
+            <ClearButton onClear={() => setArmyList("")} />
+          )}
+        </div>
         <textarea
           id="armyList"
           value={armyList}
