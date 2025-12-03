@@ -3,6 +3,7 @@ import { useAtom, useAtomValue } from "jotai";
 import Button from "@/components/atoms/Button.tsx";
 import { useMediaQuery } from "react-responsive";
 import useParseArmyList from "@/hooks/use-parse-army-list.ts";
+import { trackEvent } from "@/lib/umami.ts";
 import {
   parsedDataAtom,
   listNameAtom,
@@ -43,6 +44,13 @@ const ArmyListForm = ({}) => {
       if (response.ok) {
         await navigator.clipboard.writeText(data.share_url);
         alert("Share link copied to clipboard!");
+
+        // Track successful share
+        trackEvent("list_shared", {
+          faction: parsedData.factions?.[0]?.faction_name || "unknown",
+          unit_count: parsedData.datasheets?.length || 0,
+          share_url: data.share_url,
+        });
       } else {
         throw new Error(data.error || "Failed to create share link");
       }
