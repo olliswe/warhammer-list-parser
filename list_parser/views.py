@@ -5,6 +5,9 @@ from django.views.decorators.http import require_http_methods
 from django.conf import settings
 import json
 import os
+
+from exceptiongroup import catch
+
 from .utils.main import detect_entities
 from .utils.shared_utils import (
     faction_id_to_url,
@@ -101,24 +104,27 @@ def get_datasheet(request, datasheet_id):
         datasheet = get_object_or_404(DatasheetJson, datasheet_id=datasheet_id)
         detachment_id = request.GET.get("detachment_id")
         text = request.GET.get("text")
-        detachment = get_object_or_404(DetachmentJson, detachment_id=detachment_id)
         return_data = datasheet.data
         has_enhancement = fuzz.partial_ratio("enhancement", text.lower()) > 95
-        if has_enhancement and detachment and text:
-            enhancements = detachment.data.get("enhancements", [])
-            for enhancement in enhancements:
-                enhancement_name = enhancement.get("name")
-                enhancement_text = enhancement.get("text")
-                # use rapidfuzz to find the enhancement in the datasheet
-                if enhancement_name:
-                    score = fuzz.partial_ratio(enhancement_name.lower(), text.lower())
-                    print(enhancement_name, score)
-                    if score >= 90:
-                        return_data["enhancement"] = {
-                            "name": enhancement_name,
-                            "text": enhancement_text,
-                        }
-                        break
+        try:
+            detachment = get_object_or_404(DetachmentJson, detachment_id=detachment_id)
+            if has_enhancement and detachment and text:
+                enhancements = detachment.data.get("enhancements", [])
+                for enhancement in enhancements:
+                    enhancement_name = enhancement.get("name")
+                    enhancement_text = enhancement.get("text")
+                    # use rapidfuzz to find the enhancement in the datasheet
+                    if enhancement_name:
+                        score = fuzz.partial_ratio(enhancement_name.lower(), text.lower())
+                        print(enhancement_name, score)
+                        if score >= 90:
+                            return_data["enhancement"] = {
+                                "name": enhancement_name,
+                                "text": enhancement_text,
+                            }
+                            break
+        except Exception as e:
+            print(f"Error while checking for enhancements: {e}")
 
         return JsonResponse(return_data)
 
