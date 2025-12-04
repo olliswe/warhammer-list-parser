@@ -186,6 +186,7 @@ def share_list(request):
             share_url = f"http://localhost:3000/shared/{shared_list.slug}/"
         else:
             share_url = request.build_absolute_uri(f"/shared/{shared_list.slug}/")
+            share_url = share_url.replace("http://", "https://")
 
         return JsonResponse(
             {"success": True, "slug": shared_list.slug, "share_url": share_url}
