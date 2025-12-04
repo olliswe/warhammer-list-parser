@@ -3,6 +3,7 @@ import { useAtom, useAtomValue } from "jotai";
 import Button from "@/components/atoms/Button.tsx";
 import ClipboardButton from "@/components/atoms/ClipboardButton.tsx";
 import ClearButton from "@/components/atoms/ClearButton.tsx";
+import ShareModal from "@/components/atoms/ShareModal.tsx";
 import { useMediaQuery } from "react-responsive";
 import useParseArmyList from "@/hooks/use-parse-army-list.ts";
 import { trackEvent } from "@/lib/umami.ts";
@@ -17,6 +18,8 @@ const ArmyListForm = ({}) => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
   const [shareLoading, setShareLoading] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [showShareModal, setShowShareModal] = useState(false);
+  const [shareUrl, setShareUrl] = useState("");
 
   const parsedData = useAtomValue(parsedDataAtom);
   const [listName, setListName] = useAtom(listNameAtom);
@@ -44,8 +47,8 @@ const ArmyListForm = ({}) => {
       const data = await response.json();
 
       if (response.ok) {
-        await navigator.clipboard.writeText(data.share_url);
-        alert("Share link copied to clipboard!");
+        setShareUrl(data.share_url);
+        setShowShareModal(true);
 
         // Track successful share
         trackEvent("list_shared", {
@@ -66,16 +69,22 @@ const ArmyListForm = ({}) => {
   };
 
   return (
-    <form
-      onSubmit={(e) => {
-        e.preventDefault();
-        handleParse();
-      }}
-      className="space-y-4"
-    >
-      <div
-        className={`transition-all ${isCollapsed ? "max-h-20 overflow-hidden" : ""}`}
+    <>
+      <ShareModal
+        isOpen={showShareModal}
+        onClose={() => setShowShareModal(false)}
+        shareUrl={shareUrl}
+      />
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleParse();
+        }}
+        className="space-y-4"
       >
+        <div
+          className={`transition-all ${isCollapsed ? "max-h-20 overflow-hidden" : ""}`}
+        >
         <div className="flex justify-between items-center mb-2">
           <label
             htmlFor="armyList"
@@ -148,6 +157,7 @@ const ArmyListForm = ({}) => {
         )}
       </div>
     </form>
+    </>
   );
 };
 

@@ -7,6 +7,12 @@ interface ClipboardButtonProps {
 const ClipboardButton: React.FC<ClipboardButtonProps> = ({ onPaste }) => {
   const handleClick = async () => {
     try {
+      if (!navigator.clipboard || !navigator.clipboard.readText) {
+        alert(
+          "Clipboard access not supported in this browser. Please paste manually."
+        );
+        return;
+      }
       const text = await navigator.clipboard.readText();
       onPaste(text);
     } catch (err) {
