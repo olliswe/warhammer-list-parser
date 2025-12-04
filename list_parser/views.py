@@ -3,10 +3,9 @@ from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
 from django.conf import settings
+from django_ratelimit.decorators import ratelimit
 import json
 import os
-
-from exceptiongroup import catch
 
 from .utils.main import detect_entities
 from .utils.shared_utils import (
@@ -74,6 +73,7 @@ def sanitized_response(entities):
     }
 
 
+@ratelimit(key='ip', rate='50/hr', method='POST')
 @csrf_exempt
 @require_http_methods(["POST"])
 def detect_army_entities(request):
@@ -94,7 +94,7 @@ def detect_army_entities(request):
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
-
+@ratelimit(key='ip', rate='1000/hr', method='GET')
 @require_http_methods(["GET"])
 def get_datasheet(request, datasheet_id):
     """
@@ -105,7 +105,7 @@ def get_datasheet(request, datasheet_id):
         detachment_id = request.GET.get("detachment_id")
         text = request.GET.get("text")
         return_data = datasheet.data
-        has_enhancement = fuzz.partial_ratio("enhancement", text.lower()) > 95
+        has_enhancement = text and fuzz.partial_ratio("enhancement", text.lower()) > 95
         try:
             detachment = get_object_or_404(DetachmentJson, detachment_id=detachment_id)
             if has_enhancement and detachment and text:
@@ -132,6 +132,7 @@ def get_datasheet(request, datasheet_id):
         return JsonResponse({"error": str(e)}, status=500)
 
 
+@ratelimit(key='ip', rate='500/hr', method='GET')
 @require_http_methods(["GET"])
 def get_faction(request, faction_id):
     """
@@ -144,7 +145,7 @@ def get_faction(request, faction_id):
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
-
+@ratelimit(key='ip', rate='500/hr', method='GET')
 @require_http_methods(["GET"])
 def get_detachment(request, detachment_id):
     """
@@ -158,6 +159,7 @@ def get_detachment(request, detachment_id):
         return JsonResponse({"error": str(e)}, status=500)
 
 
+@ratelimit(key='ip', rate='20/m', method='POST')
 @csrf_exempt
 @require_http_methods(["POST"])
 def share_list(request):
@@ -221,3 +223,12 @@ def get_shared_list(request, slug):
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
+
+
+def ratelimit_error(request, exception):
+    """
+    Custom error handler for rate limit exceeded errors
+    """
+    return JsonResponse(
+        {"error": "Rate limit exceeded. Please try again later."}, status=429
+    )

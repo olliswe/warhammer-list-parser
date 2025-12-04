@@ -125,6 +125,14 @@ WSGI_APPLICATION = "warhammer_list_parser.wsgi.application"
 # Use PostgreSQL via DATABASE_URL (Docker, Coolify, etc.)
 DATABASES = {"default": dj_database_url.parse(os.environ["DATABASE_URL"])}
 
+# Cache Configuration
+# Use Redis for caching and rate limiting
+CACHES = {
+    "default": {
+        "BACKEND": "django.core.cache.backends.redis.RedisCache",
+        "LOCATION": config("REDIS_URL", default="redis://localhost:6379/0"),
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
@@ -217,6 +225,9 @@ CELERY_BEAT_SCHEDULE = {
     },
 }
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
+
+# Rate Limiting Configuration
+RATELIMIT_VIEW = "list_parser.views.ratelimit_error"
 
 # Logging Configuration
 LOGGING = {

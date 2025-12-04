@@ -42,13 +42,17 @@ const useParseArmyList = (onSuccess?: () => void) => {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ army_list: text }),
         });
-
-        const data = await response.json();
+        console.log(response);
 
         if (!response.ok) {
-          throw new Error(data.error || "An error occurred");
+          // Store status for error handling
+          const status = response.status;
+          const error = new Error();
+          (error as any).status = status;
+          throw error;
         }
 
+        const data = await response.json();
         setParsedData(data);
         onSuccess?.();
 
@@ -64,9 +68,15 @@ const useParseArmyList = (onSuccess?: () => void) => {
           unit_count: data.datasheets?.length || 0,
         });
       } catch (err) {
-        const errorMessage =
-          err instanceof Error ? err.message : "An error occurred";
-        setError(errorMessage);
+        // Handle rate limit errors
+        if (err instanceof Error && (err as any).status === 403 || (err as any).status === 429) {
+          setError("Rate limit reached. Please try again in an hour.");
+        } else {
+          // Handle other errors with helpful message
+          setError(
+            "Something went wrong. Please ensure that list is in GW format, and contains Faction name (and subfaction if marines) and detachment name."
+          );
+        }
       } finally {
         setLoading(false);
       }
