@@ -68,10 +68,8 @@ class RequestResponseLoggingMiddleware:
                     pass
 
             # Log at appropriate level
-            if response.status_code >= 500:
+            if response.status_code >= 400:
                 logger.error("API request", extra=log_data)
-            elif response.status_code >= 400:
-                logger.warning("API request", extra=log_data)
             else:
                 logger.info("API request", extra=log_data)
 
