@@ -15,6 +15,8 @@ from pathlib import Path
 from decouple import config
 import dj_database_url
 from celery.schedules import crontab
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -266,3 +268,15 @@ LOGGING = {
         "level": "INFO",
     },
 }
+
+# Sentry Configuration
+SENTRY_DSN = config(
+    "SENTRY_DSN",
+    default=None
+)
+
+if SENTRY_DSN:
+    sentry_sdk.init(
+        dsn=SENTRY_DSN,
+        send_default_pii=True,
+    )

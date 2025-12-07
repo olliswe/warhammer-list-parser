@@ -6,6 +6,7 @@ from django.conf import settings
 from django_ratelimit.decorators import ratelimit
 import json
 import os
+import sentry_sdk
 
 from .utils.main import detect_entities
 from .utils.shared_utils import (
@@ -92,6 +93,8 @@ def detect_army_entities(request):
     except json.JSONDecodeError:
         return JsonResponse({"error": "Invalid JSON"}, status=400)
     except Exception as e:
+        sentry_sdk.capture_exception(e)
+        sentry_sdk.set_context("army_list", {"text": army_list if 'army_list' in locals() else None})
         return JsonResponse({"error": str(e)}, status=500)
 
 @ratelimit(key='ip', rate='1000/hr', method='GET')
@@ -129,6 +132,8 @@ def get_datasheet(request, datasheet_id):
         return JsonResponse(return_data)
 
     except Exception as e:
+        sentry_sdk.capture_exception(e)
+        sentry_sdk.set_context("datasheet", {"datasheet_id": datasheet_id})
         return JsonResponse({"error": str(e)}, status=500)
 
 
@@ -143,6 +148,8 @@ def get_faction(request, faction_id):
         return JsonResponse(faction.data)
 
     except Exception as e:
+        sentry_sdk.capture_exception(e)
+        sentry_sdk.set_context("faction", {"faction_id": faction_id})
         return JsonResponse({"error": str(e)}, status=500)
 
 @ratelimit(key='ip', rate='500/hr', method='GET')
@@ -156,6 +163,8 @@ def get_detachment(request, detachment_id):
         return JsonResponse(detachment.data)
 
     except Exception as e:
+        sentry_sdk.capture_exception(e)
+        sentry_sdk.set_context("detachment", {"detachment_id": detachment_id})
         return JsonResponse({"error": str(e)}, status=500)
 
 
@@ -197,6 +206,7 @@ def share_list(request):
     except json.JSONDecodeError:
         return JsonResponse({"error": "Invalid JSON"}, status=400)
     except Exception as e:
+        sentry_sdk.capture_exception(e)
         return JsonResponse({"error": str(e)}, status=500)
 
 
@@ -222,6 +232,8 @@ def get_shared_list(request, slug):
         )
 
     except Exception as e:
+        sentry_sdk.capture_exception(e)
+        sentry_sdk.set_context("shared_list", {"slug": slug})
         return JsonResponse({"error": str(e)}, status=500)
 
 
