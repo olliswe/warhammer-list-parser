@@ -2,6 +2,7 @@ from django.shortcuts import get_object_or_404
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_http_methods
+from django.views.decorators.cache import cache_page
 from django.conf import settings
 from django_ratelimit.decorators import ratelimit
 import json
@@ -12,10 +13,11 @@ from .utils.shared_utils import (
     faction_id_to_url,
     detachment_id_to_url,
     datasheet_id_to_url,
+    sanitized_response,
+    ratelimit_error
 )
 from .models import SharedList
 from datasheet_scraper.models import FactionJson, DetachmentJson, DatasheetJson
-from rapidfuzz import fuzz
 
 
 def index(request):
@@ -55,6 +57,7 @@ def sanitized_response(entities):
             "detachment_id": entities["detachment"].get("detachment_id"),
             "detachment_name": entities["detachment"].get("detachment_name"),
             "url": detachment_id_to_url(entities["detachment"].get("detachment_id")),
+            "enhancement_names": entities["detachment"].get("enhancement_names", []),
         }
     ]
     datasheets_with_urls = [
@@ -94,44 +97,66 @@ def detect_army_entities(request):
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
+@cache_page(60 * 60 * 24 * 7)  # Cache for 7 days
 @ratelimit(key='ip', rate='1000/hr', method='GET')
 @require_http_methods(["GET"])
 def get_datasheet(request, datasheet_id):
     """
-    Retrieve a datasheet by its ID from the database
+    Retrieve a datasheet by its ID from the database without enhancement
     """
     try:
         datasheet = get_object_or_404(DatasheetJson, datasheet_id=datasheet_id)
-        detachment_id = request.GET.get("detachment_id")
-        text = request.GET.get("text")
-        return_data = datasheet.data
-        has_enhancement = text and fuzz.partial_ratio("enhancement", text.lower()) > 95
-        try:
-            detachment = get_object_or_404(DetachmentJson, detachment_id=detachment_id)
-            if has_enhancement and detachment and text:
-                enhancements = detachment.data.get("enhancements", [])
-                for enhancement in enhancements:
-                    enhancement_name = enhancement.get("name")
-                    enhancement_text = enhancement.get("text")
-                    # use rapidfuzz to find the enhancement in the datasheet
-                    if enhancement_name:
-                        score = fuzz.partial_ratio(enhancement_name.lower(), text.lower())
-                        print(enhancement_name, score)
-                        if score >= 90:
-                            return_data["enhancement"] = {
-                                "name": enhancement_name,
-                                "text": enhancement_text,
-                            }
-                            break
-        except Exception as e:
-            print(f"Error while checking for enhancements: {e}")
-
-        return JsonResponse(return_data)
+        return JsonResponse(datasheet.data)
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
 
+@ratelimit(key='ip', rate='1000/hr', method='GET')
+@require_http_methods(["GET"])
+def get_datasheet_with_enhancement(request, datasheet_id):
+    """
+    Retrieve a datasheet by its ID from the database with enhancement information
+    """
+    try:
+        detachment_id = request.GET.get("detachment_id")
+        enhancement_name = request.GET.get("enhancement")
+
+        if not detachment_id or not enhancement_name:
+            return JsonResponse(
+                {"error": "detachment_id and enhancement_name query parameters are required"},
+                status=400
+            )
+
+        # Get base datasheet data
+        datasheet = get_object_or_404(DatasheetJson, datasheet_id=datasheet_id)
+        datasheet_data = datasheet.data
+
+        # Try to find matching enhancement
+        try:
+            detachment = get_object_or_404(DetachmentJson, detachment_id=detachment_id)
+            enhancements = detachment.data.get("enhancements", [])
+
+            for enhancement in enhancements:
+                enh_name = enhancement.get("name")
+                enh_text = enhancement.get("text")
+
+                if enh_name and enh_name.lower() == enhancement_name.lower():
+                    datasheet_data["enhancement"] = {
+                        "name": enh_name,
+                        "text": enh_text,
+                    }
+                    break
+        except Exception as e:
+            print(f"Error while checking for enhancements: {e}")
+
+        return JsonResponse(datasheet_data)
+
+    except Exception as e:
+        return JsonResponse({"error": str(e)}, status=500)
+
+
+@cache_page(60 * 60 * 24 * 7)  # Cache for 7 days
 @ratelimit(key='ip', rate='500/hr', method='GET')
 @require_http_methods(["GET"])
 def get_faction(request, faction_id):
@@ -145,6 +170,7 @@ def get_faction(request, faction_id):
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
 
+@cache_page(60 * 60 * 24 * 7)  # Cache for 7 days
 @ratelimit(key='ip', rate='500/hr', method='GET')
 @require_http_methods(["GET"])
 def get_detachment(request, detachment_id):
@@ -225,10 +251,3 @@ def get_shared_list(request, slug):
         return JsonResponse({"error": str(e)}, status=500)
 
 
-def ratelimit_error(request, exception):
-    """
-    Custom error handler for rate limit exceeded errors
-    """
-    return JsonResponse(
-        {"error": "Rate limit exceeded. Please try again later."}, status=429
-    )

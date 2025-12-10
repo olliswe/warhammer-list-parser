@@ -41,11 +41,16 @@ def full_scrape_task(self):
         detachment_count = DetachmentJson.objects.count()
         datasheet_count = DatasheetJson.objects.count()
 
+        # Clear all Redis cache (entity caches, rate limits, etc.)
+        logger.info("Clearing all Redis cache")
+        call_command("clear_entity_cache")
+
         result = {
             "status": "completed",
             "faction_count": faction_count,
             "detachment_count": detachment_count,
             "datasheet_count": datasheet_count,
+            "cache_cleared": True,
             "completed_at": timezone.now().isoformat(),
         }
 

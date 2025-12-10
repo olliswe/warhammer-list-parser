@@ -238,10 +238,10 @@ LOGGING = {
     "formatters": {
         "json": {
             "()": "pythonjsonlogger.jsonlogger.JsonFormatter",
-            "format": "%(asctime)s %(name)s %(levelname)s %(message)s %(method)s %(path)s %(status_code)s %(duration_ms)s",
+            "format": "%(asctime)s %(name)s %(levelname)s %(message)s",
         },
         "verbose": {
-            "format": "{levelname} {asctime} {module} {message} | {method} {path} {status_code} {duration_ms}ms",
+            "format": "{levelname} {asctime} {module} {message}",
             "style": "{",
         },
     },

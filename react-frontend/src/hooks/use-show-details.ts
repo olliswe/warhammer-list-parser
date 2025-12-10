@@ -1,6 +1,17 @@
-import { useAtomValue, useSetAtom } from "jotai";
-import { EntityDetails } from "@/types";
-import { parsedDataAtom, detailsContentAtom } from "@/atoms/parse-atoms";
+import {useAtomValue, useSetAtom} from "jotai";
+import {EntityDetails} from "@/types";
+import {detailsContentAtom, parsedDataAtom} from "@/atoms/parse-atoms";
+
+const fetchDataSheet =  ({datasheetId, params, hasEnhancements}: {datasheetId: string, params: URLSearchParams, hasEnhancements: boolean}) => {
+    if (hasEnhancements) {
+      return  fetch(
+          `/api/datasheet-with-enhancement/${datasheetId}/?${params}`,
+      );
+    }
+    return fetch(
+        `/api/datasheet/${datasheetId}/`,
+    );
+}
 
 const useShowDetails = ({
   setIsModalOpen,
@@ -19,12 +30,10 @@ const useShowDetails = ({
         }
         try {
           const params = new URLSearchParams({
+            enhancement: entity.enhancement || "",
             detachment_id: detachmentId,
-            text: entity.entry_text,
           });
-          const response = await fetch(
-            `/api/datasheet/${entity.datasheet_id}/?${params}`,
-          );
+          const response = await fetchDataSheet({datasheetId: entity.datasheet_id, params, hasEnhancements: !!entity.enhancement});
           const data = await response.json();
           if (response.ok) {
             setDetailsContent({ type: "datasheet", data });

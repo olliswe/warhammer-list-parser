@@ -67,10 +67,11 @@ class RequestResponseLoggingMiddleware:
                 except:
                     pass
 
-            # Log at appropriate level
+            # Log at appropriate level with formatted message
+            msg = f"{log_data['method']} {log_data['path']} {log_data['status_code']} {log_data['duration_ms']}ms"
             if response.status_code >= 400:
-                logger.error("API request", extra=log_data)
+                logger.error(msg, extra=log_data)
             else:
-                logger.info("API request", extra=log_data)
+                logger.info(msg, extra=log_data)
 
         return response

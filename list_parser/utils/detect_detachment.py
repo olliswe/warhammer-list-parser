@@ -1,6 +1,6 @@
 from typing import Dict, List
 
-from datasheet_scraper.models import FactionJson
+from datasheet_scraper.models import FactionJson, DetachmentJson
 from list_parser.utils.shared_utils import _norm
 
 from rapidfuzz import fuzz
@@ -77,6 +77,7 @@ def find_detachment_for_list(
 
     if best_idx is not None and best_score >= lo:
         d = detachments[best_idx]
+
         return {
             "detachment_id": d["detachment_id"],
             "detachment_name": d["detachment_name"],
@@ -90,3 +91,11 @@ def find_detachment_for_list(
         "score": None,
         "method": "none",
     }
+
+def get_enhancement_names_for_detachment(detachment_id: str) -> List[str]:
+    detachment = DetachmentJson.objects.get(detachment_id=detachment_id)
+    if not detachment:
+        return []
+    enhancements = detachment.data.get("enhancements", [])
+    enhancement_names = [e["name"] for e in enhancements if "name" in e]
+    return enhancement_names

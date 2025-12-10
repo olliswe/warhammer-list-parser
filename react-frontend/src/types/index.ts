@@ -9,6 +9,7 @@ export interface Detachment {
   detachment_id: string;
   detachment_name: string;
   url: string;
+  enhancement_names: string[]
 }
 
 export interface Datasheet {
@@ -142,4 +143,5 @@ export interface EntityDetails {
   datasheet_id?: string;
   url?: string;
   entry_text?: string;
+  enhancement?: string;
 }
