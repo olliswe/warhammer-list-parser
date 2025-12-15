@@ -1,7 +1,7 @@
 {
   "name": "ListBin - Warhammer Army List Parser",
   "short_name": "ListBin",
-  "description": "Parse and view Warhammer 40K army lists with detailed unit information",
+  "description": "Parse and view army lists with detailed unit information",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f9fafb",
