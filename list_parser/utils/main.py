@@ -1,5 +1,5 @@
 from list_parser.utils.detect_factions import detect_factions
-from list_parser.utils.detect_detachment import find_detachment_for_list
+from list_parser.utils.detect_detachment import find_detachment_for_list, get_enhancement_names_for_detachment
 from list_parser.utils.detect_datasheets import detect_datasheets
 
 def detect_entities(army_list: str):
@@ -13,6 +13,9 @@ def detect_entities(army_list: str):
         det = find_detachment_for_list(army_list, f["faction_id"])
         possible_detachments.append(det)
     best_det = max(possible_detachments, key=lambda d: d["score"]) if possible_detachments else None
+    if best_det:
+        enhancement_names = get_enhancement_names_for_detachment(best_det["detachment_id"])
+        best_det["enhancement_names"] = enhancement_names
     datasheets = detect_datasheets(army_list, [f["faction_id"] for f in possible_faction])
     detected_entities = {
         "factions": possible_faction,

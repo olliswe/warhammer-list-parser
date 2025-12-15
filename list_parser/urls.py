@@ -6,6 +6,7 @@ urlpatterns = [
     path('health/', views.health, name='health'),
     path('api/detect-entities/', views.detect_army_entities, name='detect_army_entities'),
     path('api/datasheet/<str:datasheet_id>/', views.get_datasheet, name='get_datasheet'),
+    path('api/datasheet-with-enhancement/<str:datasheet_id>/', views.get_datasheet_with_enhancement, name='get_datasheet_with_enhancement'),
     path('api/faction/<str:faction_id>/', views.get_faction, name='get_faction'),
     path('api/detachment/<str:detachment_id>/', views.get_detachment, name='get_detachment'),
     path('api/share/', views.share_list, name='share_list'),

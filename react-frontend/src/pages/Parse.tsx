@@ -2,15 +2,15 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Provider, useAtomValue } from "jotai";
 import Card from "@/components/atoms/Card.tsx";
-import Badge from "@/components/atoms/Badge.tsx";
 import Modal from "@/components/atoms/Modal.tsx";
-import EntryItem from "@/components/atoms/EntryItem.tsx";
 import { Datasheet, Detachment, Faction } from "@/types";
 import DetailsPanel from "@/components/parse/DetailsPanel.tsx";
 import SharedListInfo from "@/components/parse/SharedListInfo.tsx";
 import ArmyListForm from "@/components/parse/ArmyListForm.tsx";
+import FactionEntry from "@/components/parse/FactionEntry.tsx";
+import DetachmentEntry from "@/components/parse/DetachmentEntry.tsx";
+import DatasheetEntry from "@/components/parse/DatasheetEntry.tsx";
 import useLoadArmyList from "@/hooks/use-load-army-list.ts";
-import useShowDetails from "@/hooks/use-show-details.ts";
 import {
   detailsContentAtom,
   errorAtom,
@@ -29,8 +29,6 @@ function ParseContent() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useLoadArmyList();
-
-  const { showDetails } = useShowDetails({ setIsModalOpen });
 
   const parsedData = useAtomValue(parsedDataAtom);
   const error = useAtomValue(errorAtom);
@@ -80,44 +78,22 @@ function ParseContent() {
                 <div className="mb-8 pb-6 border-b">
                   <h3 className="text-xl font-bold mb-4">Factions</h3>
                   {parsedData.factions.map((faction: Faction, idx: number) => (
-                    <EntryItem
+                    <FactionEntry
                       key={idx}
-                      onClick={() =>
-                        showDetails({
-                          type: "faction",
-                          name: faction.faction_name,
-                          faction_id: faction.faction_id,
-                          url: faction.url,
-                        })
-                      }
-                    >
-                      {faction.faction_name}
-                      {faction.is_supplement && (
-                        <>
-                          {" "}
-                          <Badge variant="supplement">Supplement</Badge>
-                        </>
-                      )}
-                    </EntryItem>
+                      faction={faction}
+                      setIsModalOpen={setIsModalOpen}
+                    />
                   ))}
                 </div>
 
                 <div className="mb-8 pb-6 border-b">
                   <h3 className="text-xl font-bold mb-4">Detachment</h3>
                   {parsedData.detachment.map((det: Detachment, idx: number) => (
-                    <EntryItem
+                    <DetachmentEntry
                       key={idx}
-                      onClick={() =>
-                        showDetails({
-                          type: "detachment",
-                          name: det.detachment_name,
-                          detachment_id: det.detachment_id,
-                          url: det.url,
-                        })
-                      }
-                    >
-                      {det.detachment_name}
-                    </EntryItem>
+                      detachment={det}
+                      setIsModalOpen={setIsModalOpen}
+                    />
                   ))}
                 </div>
 
@@ -125,27 +101,11 @@ function ParseContent() {
                   <h3 className="text-xl font-bold mb-4">Units</h3>
                   {parsedData.datasheets.map(
                     (datasheet: Datasheet, idx: number) => (
-                      <EntryItem
+                      <DatasheetEntry
                         key={idx}
-                        onClick={() =>
-                          showDetails({
-                            type: "datasheet",
-                            name: datasheet.datasheet_name,
-                            datasheet_id: datasheet.datasheet_id,
-                            url: datasheet.url,
-                            entry_text: datasheet.entry_text,
-                          })
-                        }
-                      >
-                        <div
-                          dangerouslySetInnerHTML={{
-                            __html: datasheet.entry_text.replace(
-                              /\((\d+)\s*(?:Points?|Pts?)\)/gi,
-                              '<span class="text-green-600 font-bold">($1 Points)</span>',
-                            ),
-                          }}
-                        />
-                      </EntryItem>
+                        datasheet={datasheet}
+                        setIsModalOpen={setIsModalOpen}
+                      />
                     ),
                   )}
                 </div>
