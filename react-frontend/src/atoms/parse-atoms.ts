@@ -10,6 +10,7 @@ export const parsedDataAtom = atom(null as ParsedData | null);
 
 // Details atoms
 export const detailsContentAtom = atom(null as DetailsContent | null);
+export const detailsLoadingAtom = atom(false);
 
 // Shared list atoms
 export const sharedListInfoAtom = atom(null as SharedListDetails | null);

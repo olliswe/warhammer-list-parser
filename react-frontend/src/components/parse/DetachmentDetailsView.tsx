@@ -24,7 +24,6 @@ function DetachmentDetailsView({
       )}
 
       <div className="mb-5">
-        <h4 className="text-lg font-bold mb-2">{detachment.detachment_name}</h4>
         <p>
           <strong>Faction:</strong> {detachment.faction_name}
         </p>

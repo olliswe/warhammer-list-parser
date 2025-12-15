@@ -4,10 +4,20 @@ import { DatasheetDetails, DetachmentDetails, FactionDetails } from "@/types";
 import DetachmentDetailsView from "@/components/parse/DetachmentDetailsView.tsx";
 import FactionDetailsView from "@/components/parse/FactionDetailsView.tsx";
 import DatasheetDetailsView from "@/components/parse/DatasheetDetailsView.tsx";
-import { detailsContentAtom } from "@/atoms/parse-atoms";
+import DetailsViewSkeleton from "@/components/parse/DetailsViewSkeleton.tsx";
+import { detailsContentAtom, detailsLoadingAtom } from "@/atoms/parse-atoms";
 
 function DetailsPanel() {
   const content = useAtomValue(detailsContentAtom);
+  const isLoading = useAtomValue(detailsLoadingAtom);
+
+  if (isLoading) {
+    return <DetailsViewSkeleton />;
+  }
+
+  if (!content) {
+    return null;
+  }
 
   if (content.type === "error") {
     return (

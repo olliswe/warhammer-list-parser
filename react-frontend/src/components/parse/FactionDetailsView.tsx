@@ -22,7 +22,6 @@ function FactionDetailsView({
         </div>
       )}
 
-      <h4 className="text-lg font-bold mb-4">{faction.faction}</h4>
 
       {faction.rules?.length > 0 && (
         <div>

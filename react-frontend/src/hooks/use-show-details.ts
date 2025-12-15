@@ -1,6 +1,6 @@
 import {useAtomValue, useSetAtom} from "jotai";
 import {EntityDetails} from "@/types";
-import {detailsContentAtom, parsedDataAtom} from "@/atoms/parse-atoms";
+import {detailsContentAtom, detailsLoadingAtom, parsedDataAtom} from "@/atoms/parse-atoms";
 
 const fetchDataSheet =  ({datasheetId, params, hasEnhancements}: {datasheetId: string, params: URLSearchParams, hasEnhancements: boolean}) => {
     if (hasEnhancements) {
@@ -19,10 +19,17 @@ const useShowDetails = ({
   setIsModalOpen: (input: boolean) => void;
 }) => {
   const setDetailsContent = useSetAtom(detailsContentAtom);
+  const setDetailsLoading = useSetAtom(detailsLoadingAtom);
   const parsedData = useAtomValue(parsedDataAtom);
   const detachmentId = parsedData?.detachment[0]?.detachment_id || "";
 
   const showDetails = async (entity: EntityDetails) => {
+    setDetailsLoading(true);
+    // Open modal on mobile
+    if (window.innerWidth <= 768) {
+      setIsModalOpen(true);
+    }
+
     switch (entity.type) {
       case "datasheet":
         if (!entity.datasheet_id) {
@@ -85,10 +92,7 @@ const useShowDetails = ({
         break;
     }
 
-    // Open modal on mobile
-    if (window.innerWidth <= 768) {
-      setIsModalOpen(true);
-    }
+    setDetailsLoading(false);
   };
   return { showDetails };
 };

@@ -18,7 +18,6 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
       )}
 
       <div className="mb-5">
-        <h4 className="text-lg font-bold mb-2">{datasheet.datasheet_name}</h4>
         <p>
           <strong>Faction:</strong> {datasheet.faction}
         </p>

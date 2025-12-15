@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Provider, useAtomValue } from "jotai";
 import Card from "@/components/atoms/Card.tsx";
 import Modal from "@/components/atoms/Modal.tsx";
-import { Datasheet, Detachment, Faction } from "@/types";
+import {Datasheet, DatasheetDetails, Detachment, DetachmentDetails, Faction, FactionDetails} from "@/types";
 import DetailsPanel from "@/components/parse/DetailsPanel.tsx";
 import SharedListInfo from "@/components/parse/SharedListInfo.tsx";
 import ArmyListForm from "@/components/parse/ArmyListForm.tsx";
@@ -12,7 +12,7 @@ import DetachmentEntry from "@/components/parse/DetachmentEntry.tsx";
 import DatasheetEntry from "@/components/parse/DatasheetEntry.tsx";
 import useLoadArmyList from "@/hooks/use-load-army-list.ts";
 import {
-  detailsContentAtom,
+  detailsContentAtom, detailsLoadingAtom,
   errorAtom,
   parsedDataAtom,
 } from "@/atoms/parse-atoms";
@@ -25,6 +25,19 @@ export default function Parse() {
   );
 }
 
+const getTitle = (parsedData: FactionDetails|DetachmentDetails|DatasheetDetails)=> {
+  if (!parsedData) return "Error: please try again later";
+  if ('datasheet_name' in parsedData) {
+    return parsedData.datasheet_name;
+  }
+  if ('detachment_name' in parsedData) {
+    return parsedData.detachment_name;
+  }
+  if ('faction' in parsedData) {
+    return parsedData.faction;
+  }
+}
+
 function ParseContent() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -33,6 +46,7 @@ function ParseContent() {
   const parsedData = useAtomValue(parsedDataAtom);
   const error = useAtomValue(errorAtom);
   const detailsContent = useAtomValue(detailsContentAtom);
+  const isLoading = useAtomValue(detailsLoadingAtom);
 
   return (
     <div className="min-h-screen bg-gray-50 py-8 px-4">
@@ -115,7 +129,7 @@ function ParseContent() {
             <div className="hidden lg:block">
               <Card className="sticky top-8 max-h-[93vh] overflow-y-auto">
                 <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
-                  Details
+                  {detailsContent && !isLoading ? getTitle(detailsContent?.data) : "Details"}
                 </h3>
                 {detailsContent ? (
                   <DetailsPanel />
@@ -131,7 +145,11 @@ function ParseContent() {
       </div>
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        {detailsContent && <DetailsPanel />}
+        {detailsContent && <>
+          <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
+            {!isLoading && getTitle(detailsContent?.data)}
+          </h3>
+          <DetailsPanel /></>}
       </Modal>
     </div>
   );
