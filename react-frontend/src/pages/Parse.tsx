@@ -24,7 +24,6 @@ import {
   errorAtom,
   parsedDataAtom,
 } from "@/atoms/parse-atoms";
-import ErrorCard from "@/components/atoms/ErrorCard.tsx";
 
 export default function Parse() {
   return (
@@ -154,16 +153,12 @@ function ParseContent() {
       </div>
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        {detailsContent ? (
-          <>
-            <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
-              {!isLoading && getTitle(detailsContent?.data)}
-            </h3>
-            <DetailsPanel />
-          </>
-        ) : (
-          <ErrorCard />
-        )}
+        <>
+          <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
+            {!isLoading && getTitle(detailsContent?.data)}
+          </h3>
+          <DetailsPanel />
+        </>
       </Modal>
     </div>
   );

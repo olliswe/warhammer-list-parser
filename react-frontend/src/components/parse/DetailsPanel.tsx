@@ -6,7 +6,6 @@ import FactionDetailsView from "@/components/parse/FactionDetailsView.tsx";
 import DatasheetDetailsView from "@/components/parse/DatasheetDetailsView.tsx";
 import DetailsViewSkeleton from "@/components/parse/DetailsViewSkeleton.tsx";
 import { detailsContentAtom, detailsLoadingAtom } from "@/atoms/parse-atoms";
-import Card from "@/components/atoms/Card.tsx";
 import ErrorCard from "@/components/atoms/ErrorCard.tsx";
 
 function DetailsPanel() {
