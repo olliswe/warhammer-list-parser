@@ -11,7 +11,7 @@ function Header() {
             className="flex items-center hover:opacity-80 transition-opacity"
           >
             <img
-              src="/listbin.png"
+              src="/static/listbin.png"
               alt="ListBin"
               className="h-10 w-auto"
             />
