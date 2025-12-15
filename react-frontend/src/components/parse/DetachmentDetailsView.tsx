@@ -1,5 +1,6 @@
 import React from "react";
 import { DetachmentDetails } from "@/types";
+import Markdown from "react-markdown";
 
 function DetachmentDetailsView({
   detachment,
@@ -37,7 +38,7 @@ function DetachmentDetailsView({
               key={idx}
               className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs"
             >
-              {rule.text}
+              <Markdown>{rule.text}</Markdown>
             </div>
           ))}
         </div>
@@ -52,7 +53,7 @@ function DetachmentDetailsView({
                 {enhancement.name}
               </h5>
               <div className="bg-gray-50 p-3 rounded font-mono text-xs whitespace-pre-line">
-                {enhancement.text}
+                <Markdown>{enhancement.text}</Markdown>
               </div>
             </div>
           ))}
@@ -68,7 +69,7 @@ function DetachmentDetailsView({
                 {stratagem.name}
               </h5>
               <div className="bg-gray-50 p-3 rounded font-mono text-xs whitespace-pre-line">
-                {stratagem.text}
+                <Markdown>{stratagem.text}</Markdown>
               </div>
             </div>
           ))}

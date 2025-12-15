@@ -1,4 +1,5 @@
 import { FactionDetails } from "@/types";
+import Markdown from "react-markdown";
 
 function FactionDetailsView({
   faction,
@@ -32,7 +33,7 @@ function FactionDetailsView({
                 {rule.rules_name}
               </h5>
               <div className="bg-gray-50 p-3 rounded font-mono text-xs whitespace-pre-line">
-                {rule.rules_content}
+                <Markdown>{rule.rules_content}</Markdown>
               </div>
             </div>
           ))}

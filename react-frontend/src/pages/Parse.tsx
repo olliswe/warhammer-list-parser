@@ -3,7 +3,14 @@ import { Link } from "react-router-dom";
 import { Provider, useAtomValue } from "jotai";
 import Card from "@/components/atoms/Card.tsx";
 import Modal from "@/components/atoms/Modal.tsx";
-import {Datasheet, DatasheetDetails, Detachment, DetachmentDetails, Faction, FactionDetails} from "@/types";
+import {
+  Datasheet,
+  DatasheetDetails,
+  Detachment,
+  DetachmentDetails,
+  Faction,
+  FactionDetails,
+} from "@/types";
 import DetailsPanel from "@/components/parse/DetailsPanel.tsx";
 import SharedListInfo from "@/components/parse/SharedListInfo.tsx";
 import ArmyListForm from "@/components/parse/ArmyListForm.tsx";
@@ -12,10 +19,12 @@ import DetachmentEntry from "@/components/parse/DetachmentEntry.tsx";
 import DatasheetEntry from "@/components/parse/DatasheetEntry.tsx";
 import useLoadArmyList from "@/hooks/use-load-army-list.ts";
 import {
-  detailsContentAtom, detailsLoadingAtom,
+  detailsContentAtom,
+  detailsLoadingAtom,
   errorAtom,
   parsedDataAtom,
 } from "@/atoms/parse-atoms";
+import ErrorCard from "@/components/atoms/ErrorCard.tsx";
 
 export default function Parse() {
   return (
@@ -25,18 +34,20 @@ export default function Parse() {
   );
 }
 
-const getTitle = (parsedData: FactionDetails|DetachmentDetails|DatasheetDetails)=> {
+const getTitle = (
+  parsedData: FactionDetails | DetachmentDetails | DatasheetDetails,
+) => {
   if (!parsedData) return "Error: please try again later";
-  if ('datasheet_name' in parsedData) {
+  if ("datasheet_name" in parsedData) {
     return parsedData.datasheet_name;
   }
-  if ('detachment_name' in parsedData) {
+  if ("detachment_name" in parsedData) {
     return parsedData.detachment_name;
   }
-  if ('faction' in parsedData) {
+  if ("faction" in parsedData) {
     return parsedData.faction;
   }
-}
+};
 
 function ParseContent() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -49,15 +60,11 @@ function ParseContent() {
   const isLoading = useAtomValue(detailsLoadingAtom);
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8 px-4">
+    <div className="min-h-screen bg-gray-50 pb-8 lg:px-4 lg:py-8">
       <div className="max-w-7xl mx-auto">
         <Card>
-          <h1 className="text-3xl font-bold text-gray-900 text-center mb-6">
-            Warhammer Army List Parser
-          </h1>
-
-          <div className="text-center mb-6">
-            <Link to="/" className="text-blue-600 hover:underline text-sm">
+          <div className="justify-between mb-8 flex pb-3 border-b">
+            <Link to="/" className="text-blue-600 hover:underline lg:text-lg">
               ← Back to Saved Lists
             </Link>
             {parsedData && (
@@ -65,7 +72,7 @@ function ParseContent() {
                 <span className="mx-4" />
                 <a
                   href="/parse"
-                  className="text-blue-600 hover:underline text-sm"
+                  className="text-blue-600 hover:underline lg:text-lg"
                 >
                   + Parse another list
                 </a>
@@ -129,7 +136,9 @@ function ParseContent() {
             <div className="hidden lg:block">
               <Card className="sticky top-8 max-h-[93vh] overflow-y-auto">
                 <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
-                  {detailsContent && !isLoading ? getTitle(detailsContent?.data) : "Details"}
+                  {detailsContent && !isLoading
+                    ? getTitle(detailsContent?.data)
+                    : "Details"}
                 </h3>
                 {detailsContent ? (
                   <DetailsPanel />
@@ -145,11 +154,16 @@ function ParseContent() {
       </div>
 
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        {detailsContent && <>
-          <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
-            {!isLoading && getTitle(detailsContent?.data)}
-          </h3>
-          <DetailsPanel /></>}
+        {detailsContent ? (
+          <>
+            <h3 className="text-xl font-bold mb-4 pb-3 border-b-2 border-blue-600">
+              {!isLoading && getTitle(detailsContent?.data)}
+            </h3>
+            <DetailsPanel />
+          </>
+        ) : (
+          <ErrorCard />
+        )}
       </Modal>
     </div>
   );

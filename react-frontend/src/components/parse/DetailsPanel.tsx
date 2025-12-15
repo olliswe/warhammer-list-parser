@@ -6,6 +6,8 @@ import FactionDetailsView from "@/components/parse/FactionDetailsView.tsx";
 import DatasheetDetailsView from "@/components/parse/DatasheetDetailsView.tsx";
 import DetailsViewSkeleton from "@/components/parse/DetailsViewSkeleton.tsx";
 import { detailsContentAtom, detailsLoadingAtom } from "@/atoms/parse-atoms";
+import Card from "@/components/atoms/Card.tsx";
+import ErrorCard from "@/components/atoms/ErrorCard.tsx";
 
 function DetailsPanel() {
   const content = useAtomValue(detailsContentAtom);
@@ -15,14 +17,8 @@ function DetailsPanel() {
     return <DetailsViewSkeleton />;
   }
 
-  if (!content) {
-    return null;
-  }
-
   if (content.type === "error") {
-    return (
-      <div className="text-red-600 text-center mt-12">{content.message}</div>
-    );
+    return <ErrorCard text={content.message} />;
   }
 
   if (content.type === "datasheet" && content.data) {
@@ -49,7 +45,7 @@ function DetailsPanel() {
     );
   }
 
-  return null;
+  return <ErrorCard />;
 }
 
 export default DetailsPanel;

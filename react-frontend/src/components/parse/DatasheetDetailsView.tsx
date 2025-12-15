@@ -1,5 +1,6 @@
 import { DatasheetDetails } from "@/types";
 import Badge from "@/components/atoms/Badge.tsx";
+import Markdown from "react-markdown";
 
 function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
   return (
@@ -78,8 +79,9 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
         <div className="mb-5">
           <h4 className="text-base font-bold mb-2">Enhancement</h4>
           <div className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs">
-            <strong>{datasheet.enhancement.name}</strong>{" "}
-            {datasheet.enhancement.text}
+            <Markdown>
+              {`**${datasheet.enhancement.name}:** ${datasheet.enhancement.text}`}
+            </Markdown>
           </div>
         </div>
       )}
@@ -207,7 +209,9 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
               key={idx}
               className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs"
             >
-              <strong>{ability.name}</strong> {ability.rule}
+              <Markdown>
+                {`**${ability.name}** ${ability.rule}`}
+              </Markdown>
             </div>
           ))}
         </div>
@@ -221,7 +225,9 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
               key={idx}
               className="bg-gray-50 p-3 rounded mb-2 font-mono text-xs"
             >
-              <strong>{rule.title}</strong> {rule.text}
+              <Markdown>
+                {`**${rule.title}:** ${rule.text}`}
+              </Markdown>
             </div>
           ))}
         </div>

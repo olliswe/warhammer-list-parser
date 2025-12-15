@@ -223,7 +223,7 @@ CELERY_TIMEZONE = TIME_ZONE
 CELERY_BEAT_SCHEDULE = {
     "run-full-scrape-weekly": {
         "task": "datasheet_scraper.tasks.full_scrape_task",
-        "schedule": crontab(day_of_week=1, hour=23, minute=0),  # Monday at 11 PM
+        "schedule": crontab(day_of_week=2, hour=4, minute=0),  # Tuesday at 4 AM UTC
     },
 }
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
