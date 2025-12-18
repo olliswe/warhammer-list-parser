@@ -74,8 +74,9 @@ def extract_rules(driver):
                 By.XPATH, "following-sibling::div[1]"
             )
             # collect all text nodes within, keeping simple line breaks
+            # Use only leaf divs (divs that don't contain other divs) to avoid duplicates
             parts = []
-            for div in content_block.find_elements(By.XPATH, ".//div"):
+            for div in content_block.find_elements(By.XPATH, ".//div[not(.//div)]"):
                 t = div.text.strip()
                 if t:
                     parts.append(t)
