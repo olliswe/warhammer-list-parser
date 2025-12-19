@@ -9,6 +9,11 @@ interface ModalProps {
 export default function Modal({ isOpen, onClose, children }: ModalProps) {
   useEffect(() => {
     if (isOpen) {
+      // Blur any active element to prevent focus conflicts
+      if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+      }
+
       // Prevent body scroll - works on iOS too
       const scrollY = window.scrollY;
       document.body.style.position = 'fixed';
@@ -44,12 +49,19 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
-      onClick={onClose}
     >
       <button
-        onClick={onClose}
+        onClick={(e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          onClose();
+        }}
         className="fixed top-5 right-5 z-[60] w-11 h-11 flex items-center justify-center bg-white/90 hover:bg-blue-600 hover:text-white border-2 border-blue-600 text-blue-600 rounded-full text-2xl shadow-md backdrop-blur-sm transition-colors md:top-20 md:right-24"
-        style={{ top: 'max(1.25rem, env(safe-area-inset-top))', right: 'max(1.25rem, env(safe-area-inset-right))' }}
+        style={{
+          top: 'max(1.25rem, env(safe-area-inset-top))',
+          right: 'max(1.25rem, env(safe-area-inset-right))',
+          touchAction: 'none'
+        }}
         aria-label="Close modal"
       >
         &times;

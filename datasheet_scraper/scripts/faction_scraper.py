@@ -150,7 +150,7 @@ def extract_faction(driver, url):
     }
 
 
-def main():
+def scrape_factions():
     time.sleep(1)  # Small delay before starting
     driver = chrome_driver()
     try:
@@ -209,4 +209,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    scrape_factions()
