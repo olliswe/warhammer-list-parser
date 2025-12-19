@@ -268,18 +268,22 @@ def parse_keywords(card) -> Dict[str, List[str]]:
 
 def parse_custom_rules(card):
     custom_rules = []
-    # get all child divs of the class datacard, that dont have a classname at all
-    child_divs = card.find_elements(By.XPATH, "./div[not(@class)]")
+    # get all child divs of the class datacard, that dont have a classname OR have class="rule"
+    child_divs = card.find_elements(By.XPATH, "./div[not(@class) or contains(@class, 'rule')]")
     # filter out divs that contain any of the EXPECTED_TITLES
     for div in child_divs:
         title_el = find_one(div, By.CSS_SELECTOR, ".collapsible_header .header")
         title = safe_text(title_el) if title_el else ""
         if title in EXPECTED_TITLES:
             continue
-        # get the content from the last child div
+        # get the content from the rule_text div if it exists, otherwise from last child div
         try:
-            last_child = find_one(div, By.XPATH, "./div[last()]")
-            content = safe_text(last_child) if last_child else ""
+            rule_text_el = find_one(div, By.CSS_SELECTOR, ".rule_text")
+            if rule_text_el:
+                content = safe_text(rule_text_el)
+            else:
+                last_child = find_one(div, By.XPATH, "./div[last()]")
+                content = safe_text(last_child) if last_child else ""
         except Exception:
             content = ""
         if title:
