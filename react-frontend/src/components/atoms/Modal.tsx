@@ -1,5 +1,5 @@
-import { ReactNode, useEffect } from 'react';
-import ReactModal from 'react-modal';
+import { ReactNode, useEffect } from "react";
+import ReactModal from "react-modal";
 
 interface ModalProps {
   isOpen: boolean;
@@ -8,33 +8,33 @@ interface ModalProps {
 }
 
 // Set app element for screen readers
-if (typeof document !== 'undefined') {
-  ReactModal.setAppElement('#root');
+if (typeof document !== "undefined") {
+  ReactModal.setAppElement("#root");
 }
 
 export default function Modal({ isOpen, onClose, children }: ModalProps) {
   useEffect(() => {
     if (isOpen) {
-      const rootElement = document.getElementById('root');
+      const rootElement = document.getElementById("root");
       if (!rootElement) return;
 
       // Prevent scroll and interactions on main app - works on iOS too
       const scrollY = window.scrollY;
-      rootElement.style.position = 'fixed';
+      rootElement.style.position = "fixed";
       rootElement.style.top = `-${scrollY}px`;
-      rootElement.style.width = '100%';
-      rootElement.style.overflow = 'hidden';
-      rootElement.style.pointerEvents = 'none';
-      rootElement.style.userSelect = 'none';
+      rootElement.style.width = "100%";
+      rootElement.style.overflow = "hidden";
+      rootElement.style.pointerEvents = "none";
+      rootElement.style.userSelect = "none";
 
       return () => {
         // Restore scroll and interactions
-        rootElement.style.position = '';
-        rootElement.style.top = '';
-        rootElement.style.width = '';
-        rootElement.style.overflow = '';
-        rootElement.style.pointerEvents = '';
-        rootElement.style.userSelect = '';
+        rootElement.style.position = "";
+        rootElement.style.top = "";
+        rootElement.style.width = "";
+        rootElement.style.overflow = "";
+        rootElement.style.pointerEvents = "";
+        rootElement.style.userSelect = "";
 
         window.scrollTo(0, scrollY);
       };
@@ -51,34 +51,43 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
       overlayClassName="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
       style={{
         overlay: {
-          touchAction: 'none',
+          touchAction: "none",
         },
         content: {
-          paddingTop: 'max(3.5rem, env(safe-area-inset-top) + 3.5rem)',
-          paddingBottom: 'max(2.5rem, env(safe-area-inset-bottom) + 2.5rem)',
-          touchAction: 'auto',
-          WebkitTapHighlightColor: 'transparent',
-        }
+          paddingTop: "max(3.5rem, env(safe-area-inset-top) + 3.5rem)",
+          paddingBottom: "max(2.5rem, env(safe-area-inset-bottom) + 2.5rem)",
+          touchAction: "auto",
+          WebkitTapHighlightColor: "transparent",
+        },
       }}
     >
       <button
         onClick={onClose}
         className="fixed top-5 right-5 z-[60] w-11 h-11 flex items-center justify-center bg-white/90 hover:bg-blue-600 hover:text-white border-2 border-blue-600 text-blue-600 rounded-full text-2xl shadow-md backdrop-blur-sm transition-colors md:top-20 md:right-24 cursor-pointer"
         style={{
-          top: 'max(1.25rem, env(safe-area-inset-top))',
-          right: 'max(1.25rem, env(safe-area-inset-right))',
-          touchAction: 'manipulation',
-          WebkitTapHighlightColor: 'rgba(0, 0, 0, 0.1)',
+          top: "max(1.25rem, env(safe-area-inset-top))",
+          right: "max(1.25rem, env(safe-area-inset-right))",
+          touchAction: "manipulation",
+          WebkitTapHighlightColor: "rgba(0, 0, 0, 0.1)",
         }}
         aria-label="Close modal"
       >
         &times;
       </button>
 
-      <div
-        className="p-5"
-        style={{ touchAction: 'manipulation' }}
-      >
+      <div className="p-5" style={{ touchAction: "manipulation" }}>
+        <button
+          onClick={onClose}
+          className=" text-blue-600 hover:underline text-lg cursor-pointer bg-transparent border-none"
+          style={{
+            transform: "translateY(-40px)",
+            height: 0,
+            touchAction: "manipulation",
+            WebkitTapHighlightColor: "rgba(0, 0, 0, 0.1)",
+          }}
+        >
+          &larr; Back
+        </button>
         {children}
       </div>
     </ReactModal>
