@@ -22,12 +22,18 @@ export default function Modal({ isOpen, onClose, children }: ModalProps) {
       document.body.style.width = '100%';
       document.body.style.overflow = 'hidden';
 
+      // Prevent touch events from reaching the body
+      document.body.style.pointerEvents = 'none';
+      document.body.style.userSelect = 'none';
+
       return () => {
         // Restore body scroll and position
         document.body.style.position = '';
         document.body.style.top = '';
         document.body.style.width = '';
         document.body.style.overflow = '';
+        document.body.style.pointerEvents = '';
+        document.body.style.userSelect = '';
         window.scrollTo(0, scrollY);
       };
     }
