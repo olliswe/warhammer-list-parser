@@ -15,19 +15,27 @@ if (typeof document !== 'undefined') {
 export default function Modal({ isOpen, onClose, children }: ModalProps) {
   useEffect(() => {
     if (isOpen) {
-      // Prevent body scroll - works on iOS too
+      const rootElement = document.getElementById('root');
+      if (!rootElement) return;
+
+      // Prevent scroll and interactions on main app - works on iOS too
       const scrollY = window.scrollY;
-      document.body.style.position = 'fixed';
-      document.body.style.top = `-${scrollY}px`;
-      document.body.style.width = '100%';
-      document.body.style.overflow = 'hidden';
+      rootElement.style.position = 'fixed';
+      rootElement.style.top = `-${scrollY}px`;
+      rootElement.style.width = '100%';
+      rootElement.style.overflow = 'hidden';
+      rootElement.style.pointerEvents = 'none';
+      rootElement.style.userSelect = 'none';
 
       return () => {
-        // Restore body scroll and position
-        document.body.style.position = '';
-        document.body.style.top = '';
-        document.body.style.width = '';
-        document.body.style.overflow = '';
+        // Restore scroll and interactions
+        rootElement.style.position = '';
+        rootElement.style.top = '';
+        rootElement.style.width = '';
+        rootElement.style.overflow = '';
+        rootElement.style.pointerEvents = '';
+        rootElement.style.userSelect = '';
+
         window.scrollTo(0, scrollY);
       };
     }
