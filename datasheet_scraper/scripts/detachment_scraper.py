@@ -1,5 +1,4 @@
 import time
-from dataclasses import dataclass, asdict
 from typing import Any, Dict, List
 
 
@@ -7,23 +6,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datasheet_scraper.utils import chrome_driver
-from datasheet_scraper.models import FactionJson, DetachmentJson
 
 BASE = "https://39k.pro"
 DETACHMENT_URL = BASE + "/detachment/{}"
-
-
-# ---------------- Data model ----------------
-@dataclass
-class DetachmentRecord:
-    faction_name: str
-    faction_id: str
-    detachment_name: str
-    detachment_id: str
-    url: str
-    rules: List[Dict[str, Any]]
-    enhancements: List[Dict[str, Any]]
-    stratagems: List[Dict[str, Any]]
 
 
 # ---------------- Scraping utils ----------------
@@ -231,16 +216,21 @@ def scrape_detachment(driver, detachment_id: str) -> Dict[str, Any]:
 
 
 # ---------------- Orchestrator ----------------
-def run_detachment_scrape(
-    headless: bool = True,
-    force_update: bool = False,
-):
-    factions = FactionJson.objects.all()
+def scrape_detachments(faction_results: List[Dict[str, Any]], headless: bool = True):
+    """
+    Scrapes all detachments for the given faction data and returns a list of dicts.
+    Does NOT save to database - that's handled by the caller.
 
+    Args:
+        faction_results: List of faction dicts from scrape_factions()
+        headless: Whether to run browser in headless mode
+
+    Returns:
+        List of detachment dicts
+    """
     # Prepare list of all detachments with faction context
     all_detachments = []
-    for faction in factions:
-        faction_data = faction.data
+    for faction_data in faction_results:
         raw_name = faction_data.get("faction", "")
         # strip common prefixes for a clean stored name
         clean_name = raw_name
@@ -262,50 +252,34 @@ def run_detachment_scrape(
     total = len(all_detachments)
     if total == 0:
         print("No detachments found!")
-        return
+        return []
 
     driver = chrome_driver(headless=headless)
+    results = []
+
     try:
         processed = 0
         for det in all_detachments:
             det_id = det["detachment_id"]
 
-            existing_detachment = DetachmentJson.objects.filter(
-                detachment_id=det_id
-            ).first()
-            if existing_detachment and existing_detachment.data and not force_update:
-                print(f"[SKIP] Skipping {det['detachment_name']} ({det_id})")
-                continue
-
             try:
                 data = scrape_detachment(driver, det_id)
-                record = DetachmentRecord(
-                    faction_name=det["faction_name"],
-                    faction_id=det["faction_id"],
-                    detachment_name=data["detachment_name"] or det["detachment_name"],
-                    detachment_id=det_id,
-                    url=data["url"],
-                    rules=data["rules"],
-                    enhancements=data["enhancements"],
-                    stratagems=data["stratagems"],
-                )
-                record_data = asdict(record)
-                existing = DetachmentJson.objects.filter(detachment_id=det_id).first()
-                if existing:
-                    existing.data = record_data
-                    existing.save()
-                else:
-                    DetachmentJson.objects.create(
-                        detachment_id=det_id,
-                        data=record_data,
-                        detachment_name=record.detachment_name,
-                        faction_id=record.faction_id,
-                    )
+                record_data = {
+                    "faction_name": det["faction_name"],
+                    "faction_id": det["faction_id"],
+                    "detachment_name": data["detachment_name"] or det["detachment_name"],
+                    "detachment_id": det_id,
+                    "url": data["url"],
+                    "rules": data["rules"],
+                    "enhancements": data["enhancements"],
+                    "stratagems": data["stratagems"],
+                }
+                results.append(record_data)
 
                 processed += 1
                 remaining = total - processed
                 print(
-                    f"[{processed}/{total}] Parsed {record.detachment_name} ({det_id}) — remaining: {remaining}"
+                    f"[{processed}/{total}] Scraped {record_data['detachment_name']} ({det_id}) — remaining: {remaining}"
                 )
 
             except Exception as e:
@@ -315,7 +289,12 @@ def run_detachment_scrape(
                     f"[{processed}/{total}] ERROR {det['detachment_name']} ({det_id}) — {e} — remaining: {remaining}"
                 )
 
+    except Exception as e:
+        print(f"Fatal error: {e}")
+        raise
+
     finally:
         driver.quit()
 
-    print("\nAll detachments parsed and saved to detachment.json ✅")
+    print(f"\nSuccessfully scraped {len(results)} detachments")
+    return results

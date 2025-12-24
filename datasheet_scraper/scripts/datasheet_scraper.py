@@ -1,5 +1,5 @@
 import time, traceback, contextlib
-from typing import List, Dict, Optional, Tuple
+from typing import List, Dict, Optional, Tuple, Any
 
 from selenium.common.exceptions import (
     NoSuchElementException,
@@ -15,8 +15,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datasheet_scraper.utils import chrome_driver
-
-from datasheet_scraper.models import FactionJson, DatasheetJson
 
 BASE = "https://39k.pro/datasheet/"
 
@@ -364,89 +362,88 @@ def scrape_datasheet_with_retries(
 
 
 # ---------- main fn ----------
-def datasheet_scraper(force_update: bool = False):
+def scrape_datasheets(faction_results: List[Dict[str, Any]], headless: bool = True):
+    """
+    Scrapes all datasheets for the given faction data and returns a list of dicts.
+    Does NOT save to database - that's handled by the caller.
 
-    factions = FactionJson.objects.all()
+    Args:
+        faction_results: List of faction dicts from scrape_factions()
+        headless: Whether to run browser in headless mode
 
+    Returns:
+        List of datasheet dicts
+    """
+    # Build list of all datasheets with faction context
     all_datasheets = []
-    for faction in factions:
-        data = faction.data
-        datasheets = data.get("datasheets", [])
+    for faction_data in faction_results:
+        faction_name = faction_data.get("faction", "")
+        faction_id = faction_data.get("faction_id", "")
+        datasheets = faction_data.get("datasheets", [])
+
         for ds in datasheets:
             ds_id = ds.get("datasheet_id")
-            all_datasheets.append(ds_id)
+            ds_name = ds.get("datasheet_name")
+            all_datasheets.append({
+                "faction_name": faction_name,
+                "faction_id": faction_id,
+                "datasheet_name": ds_name,
+                "datasheet_id": ds_id,
+            })
 
     total = len(all_datasheets)
+    if total == 0:
+        print("No datasheets found!")
+        return []
+
     processed = 0
-    failures = []
-
+    results = []
     bar = tqdm(total=total, desc="Datasheets")
-
-    driver = chrome_driver(headless=True)
+    driver = chrome_driver(headless=headless)
 
     try:
-        for faction in factions:
-            faction_name = faction.faction_name
-            faction_id = faction.faction_id
-            faction_data = faction.data
+        for ds_info in all_datasheets:
+            ds_name = ds_info["datasheet_name"]
+            ds_id = ds_info["datasheet_id"]
+            faction_name = ds_info["faction_name"]
+            faction_id = ds_info["faction_id"]
+            url = BASE + ds_id
 
-            for ds in faction_data.get("datasheets", []):
-                ds_name = ds.get("datasheet_name")
-                ds_id = ds.get("datasheet_id")
-                url = BASE + ds_id
+            try:
+                data = scrape_datasheet_with_retries(
+                    driver, url, faction_name, faction_id, ds_id, retries=3
+                )
+                # Ensure minimum fields are present
+                data = data or {}
+                data.setdefault("url", url)
+                data.setdefault("faction", faction_name)
+                data.setdefault("faction_id", faction_id)
+                data.setdefault("datasheet_id", ds_id)
+                data.setdefault("datasheet_name", ds_name)
 
-                existing_datasheet = DatasheetJson.objects.filter(
-                    datasheet_id=ds_id
-                ).first()
+                results.append(data)
+                print(f"[NEW] Scraped datasheet: {ds_name} ({ds_id})")
 
-                if existing_datasheet and existing_datasheet.data and not force_update:
-                    print(f"[SKIP] Skipping {ds_name} ({ds_id})")
-                    continue
+            except Exception as e:
+                tb = traceback.format_exc(limit=8)
+                print(f"[ERROR] {ds_name} ({ds_id}) failed: {e}\n{tb}")
 
-                try:
-                    data = scrape_datasheet_with_retries(
-                        driver, url, faction_name, faction_id, ds_id, retries=3
-                    )
-                    # fill minimum fields
-                    data = data or {}
-                    data.setdefault("url", url)
-                    data.setdefault("faction", faction_name)
-                    data.setdefault("faction_id", faction_id)
-                    data.setdefault("datasheet_id", ds_id)
-                    data.setdefault("datasheet_name", ds_name)
+            finally:
+                processed += 1
+                remaining = total - processed
+                print(f"[{processed}/{total}] {ds_name} | Left: {remaining}")
+                bar.update(1)
 
-                    if existing_datasheet:
-                        existing_datasheet.data = data
-                        existing_datasheet.save()
-                        print(
-                            f"[UPDATE] Overwrote existing datasheet: {ds_name} ({ds_id})"
-                        )
-                    else:
-                        DatasheetJson.objects.create(
-                            datasheet_id=ds_id,
-                            data=data,
-                            datasheet_name=ds_name,
-                            faction_id=faction_id,
-                        )
-                        print(f"[NEW] Created new datasheet: {ds_name} ({ds_id})")
+            time.sleep(0.20)  # throttle a bit
 
-                except Exception as e:
-                    tb = traceback.format_exc(limit=8)
-                    print(f"[ERROR] {ds_name} ({ds_id}) failed: {e}\n{tb}")
-
-                finally:
-                    processed += 1
-                    remaining = total - processed
-                    print(f"[{processed}/{total}] {ds_name} | Left: {remaining}")
-                    bar.update(1)
-
-                time.sleep(0.20)  # throttle a bit
+    except Exception as e:
+        print(f"Fatal error: {e}")
+        raise
 
     finally:
         with contextlib.suppress(Exception):
             driver.quit()
         bar.close()
 
-    print("\n=== Summary ===")
-    print(f"Processed: {processed} / {total}")
-    print(f"Failures : {len(failures)}")
+    print(f"\n=== Successfully scraped {len(results)}/{total} datasheets ===")
+    return results

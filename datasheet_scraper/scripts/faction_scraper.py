@@ -2,12 +2,10 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from datasheet_scraper.utils import chrome_driver, cleanup_old_data
+from datasheet_scraper.utils import chrome_driver
 
 
 from urllib.parse import urljoin
-
-from datasheet_scraper.models import FactionJson
 
 BASE = "https://39k.pro/"
 
@@ -151,6 +149,10 @@ def extract_faction(driver, url):
 
 
 def scrape_factions():
+    """
+    Scrapes all factions and returns a list of dicts.
+    Does NOT save to database - that's handled by the caller.
+    """
     time.sleep(1)  # Small delay before starting
     driver = chrome_driver()
     try:
@@ -168,45 +170,12 @@ def scrape_factions():
             # Be polite to the site
             time.sleep(0.4)
 
-        # cleanup old data
-        new_faction_ids = [faction_data.get("faction_id") for faction_data in results]
-        new_detachment_ids = []
-        new_datasheet_ids = []
-        for faction_data in results:
-            for det in faction_data.get("detachments", []):
-                new_detachment_ids.append(det.get("detachment_id"))
-            for ds in faction_data.get("datasheets", []):
-                new_datasheet_ids.append(ds.get("datasheet_id"))
-        cleanup_old_data(new_faction_ids, new_detachment_ids, new_datasheet_ids)
+        print(f"Successfully scraped {len(results)} factions")
+        return results
 
-        # Save to db
-        for faction_data in results:
-            print(f"Saving: {faction_data.get('faction')}")
-            faction_id = faction_data.get("faction_id")
-            faction_name = faction_data.get("faction")
-            if not faction_id or not faction_name:
-                print(
-                    f"  !! Skipping faction with no ID: {faction_data.get('faction')}"
-                )
-                continue
-            try:
-                existing_faction = FactionJson.objects.get(faction_id=faction_id)
-                # Update existing
-                existing_faction.data = faction_data
-                existing_faction.save()
-                print(f"  !! Updated existing faction: {faction_name} {faction_id}")
-            except Exception as e:
-                new_faction = FactionJson(
-                    faction_id=faction_id, faction_name=faction_name, data=faction_data
-                )
-                new_faction.save()
-                print(f"  !! Created new faction: {faction_name} {faction_id}")
     except Exception as e:
         print(f"Fatal error: {e}")
+        raise
 
     finally:
         driver.quit()
-
-
-if __name__ == "__main__":
-    scrape_factions()
