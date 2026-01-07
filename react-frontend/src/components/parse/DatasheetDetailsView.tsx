@@ -261,26 +261,15 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
         </div>
       )}
 
-      {datasheet.wargear_options?.length > 0 && (
-        <div className="mb-5">
-          <h4 className="text-base font-bold mb-2">Wargear Options</h4>
-          <div className="bg-gray-50 p-3 rounded">
-            {datasheet.wargear_options.map((option, idx) => (
-              <div key={idx} className="mb-2 font-mono text-xs">
-                {option}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
       {(datasheet.unit_composition ||
         datasheet.unit_composition_table?.length > 0) && (
         <div className="mb-5">
           <h4 className="text-base font-bold mb-2">Unit Composition</h4>
           {datasheet.unit_composition && (
             <div className="bg-gray-50 p-3 rounded mb-3 text-xs">
-              <Markdown>{datasheet.unit_composition}</Markdown>
+              <Markdown>
+                {datasheet.unit_composition.split("Model Name")?.[0]}
+              </Markdown>
             </div>
           )}
           {datasheet.unit_composition_table?.length > 0 && (
@@ -324,6 +313,19 @@ function DatasheetDetailsView({ datasheet }: { datasheet: DatasheetDetails }) {
               </table>
             </div>
           )}
+        </div>
+      )}
+
+      {datasheet.wargear_options?.length > 0 && (
+        <div className="mb-5">
+          <h4 className="text-base font-bold mb-2">Wargear Options</h4>
+          <div className="bg-gray-50 p-3 rounded">
+            {datasheet.wargear_options.map((option, idx) => (
+              <div key={idx} className="mb-2 font-mono text-xs">
+                {option}
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
