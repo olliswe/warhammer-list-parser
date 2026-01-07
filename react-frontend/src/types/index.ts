@@ -87,6 +87,7 @@ export interface DatasheetDetails {
   };
   leader: Array<{ name: string }>;
   led_by: Array<{ name: string }>;
+  unit_composition?: string;
   unit_composition_table: Array<{
     model: string;
     count: string;
